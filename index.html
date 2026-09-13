@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Mathematics Mastery Engine v2 — Deep Research Edition</title>
+    <meta name="description" content="10,518 PYQs (2023-2025), 32 patterns, 26 traps, 260+ flashcards, formula bank, mock tests, SRS revision — SSC CGL/CHSL/CPO/MTS & RRB preparation engine.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%2290%22 font-size=%2290%22>🧠</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Temporary inline critical CSS (full styles in css/styles.css + css/modules.css) */
+        :root {
+            --bg-light: #f8f9fa;
+            --bg-dark: #1a1a2e;
+            --bg-card-light: #ffffff;
+            --bg-card-dark: #16213e;
+            --primary: #2c3e50;
+            --primary-light: #34495e;
+            --accent-gold: #d4a853;
+            --accent-silver: #c0c0c0;
+            --accent-bronze: #cd7f32;
+            --accent-green: #27ae60;
+            --accent-blue: #3498db;
+            --accent-purple: #9b59b6;
+            --text-dark: #2c3e50;
+            --text-light: #ecf0f1;
+            --text-muted: #7f8c8d;
+            --border-light: #e0e0e0;
+            --border-dark: #2d3a4f;
+            --success: #27ae60;
+            --warning: #f39c11;
+            --error: #e74c3c;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { font-size: 16px; }
+        @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 0s !important; transition-duration: 0s !important; } }
+        body { font-family: 'Inter', sans-serif; background: var(--bg-light); color: var(--text-dark); line-height: 1.6; overflow-x: hidden; }
+        @media (prefers-color-scheme: dark) { body { background: var(--bg-dark); color: var(--text-light); } }
+        img, svg { max-width: 100%; height: auto; }
+        a { text-decoration: none; color: inherit; transition: color 0.2s ease; }
+        ul { list-style: none; }
+        button { font-family: inherit; cursor: pointer; border: none; background: none; padding: 0; font-size: inherit; }
+        .main-nav { background: var(--bg-card-light); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-light); padding: 0.75rem 2rem; position: fixed; width: 100%; top: 0; z-index: 100; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+        .main-nav .nav-logo { display: flex; align-items: center; gap: 0.5rem; }
+        .main-nav .nav-logo svg { width: 26px; height: 26px; }
+        .main-nav .nav-logo span { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--primary); }
+        .main-nav .nav-links { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+        .main-nav .nav-links li a { font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 0.8rem; color: var(--text-dark); position: relative; padding-bottom: 0.2rem; }
+        .main-nav .nav-links li a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: var(--primary); transition: width 0.3s ease; }
+        .main-nav .nav-links li a:hover { color: var(--primary); }
+        .main-nav .nav-links li a:hover::after { width: 100%; }
+        .main-nav .nav-links li a.active { color: var(--primary); font-weight: 700; }
+        .main-nav .nav-links li a.active::after { width: 100%; }
+        .main-nav .nav-actions { margin-left: auto; display: flex; align-items: center; gap: 0.75rem; }
+        .main-nav .btn-icon { width: 40px; height: 40px; border-radius: 8px; display: flex; align-items: center; justify-content: center; background: var(--bg-card-light); color: var(--text-dark); transition: background 0.2s ease, color 0.2s ease; }
+        .main-nav .btn-icon:hover { background: var(--primary); color: white; }
+        .section { padding: 5rem 2rem 2rem; max-width: 1200px; margin: 0 auto; display: none; }
+        .section.active { display: block; }
+        .section-header { text-align: center; margin-bottom: 2.5rem; }
+        .section-header h2 { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 2.25rem; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+        .section-header p { color: var(--text-muted); font-size: 1.125rem; }
+        .theme-toggle { position: fixed; top: 5.2rem; right: 1.25rem; z-index: 101; width: 44px; height: 44px; border-radius: 8px; display: flex; align-items: center; justify-content: center; background: var(--bg-card-light); color: var(--text-dark); border: 1px solid var(--border-light); box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent-blue); outline-offset: 2px; }
+    </style>
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+        <svg id="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><circle cx="12" cy="12" r="5" /><path d="M12 1v2M12 23v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M23 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" /></svg>
+        <svg id="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="main-nav" aria-label="Primary navigation">
+        <div class="nav-logo">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <circle cx="12" cy="12" r="4" />
+            </svg>
+            <span>MathMastery <small style="font-size:0.65rem;color:var(--accent-gold);font-weight:700;">v2 DEEP</small></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#dashboard" class="active">Dashboard</a></li>
+            <li><a href="#learn">Learn</a></li>
+            <li><a href="#formulas">Formulas</a></li>
+            <li><a href="#pyq-db">PYQ Bank</a></li>
+            <li><a href="#quiz">Quiz &amp; Mocks</a></li>
+            <li><a href="#patterns">Patterns</a></li>
+            <li><a href="#traps">Traps</a></li>
+            <li><a href="#speed">Speed Maths</a></li>
+            <li><a href="#flashcards">Flashcards</a></li>
+            <li><a href="#calc-lab">Calc Lab</a></li>
+            <li><a href="#error-log">Error Log</a></li>
+            <li><a href="#revision">Revision</a></li>
+            <li><a href="#plan">90-Day Plan</a></li>
+            <li><a href="#timer">Timer</a></li>
+            <li><a href="#profile">Profile</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="settings-btn" class="btn-icon" aria-label="Settings" title="Reset data">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.488.488 0 0 0-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58a.49.49 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6A3.61 3.61 0 0 1 8.4 12c0-1.98 1.62-3.6 3.6-3.6s3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" /></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- ================= DASHBOARD ================= -->
+        <section id="dashboard" class="section active">
+            <div class="section-header">
+                <h2>📊 Dashboard</h2>
+                <p>Your Mathematics Mastery Overview — live stats from your practice</p>
+            </div>
+
+            <div class="dashboard-grid">
+                <div class="stat-card card-gold" data-target="overall-mastery">
+                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 7l10 5 10-5" /></svg></div>
+                    <div class="stat-info"><div class="stat-value" id="overall-mastery-value">0</div><div class="stat-label">Mastery %</div></div>
+                </div>
+                <div class="stat-card card-silver" data-target="pyqs-analysed">
+                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13h2v4h-2zm-4 0h2v4H7zM5 17h2v2H5zM5 5h2v2H5zm8-5c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h8z" /></svg></div>
+                    <div class="stat-info"><div class="stat-value" id="pyqs-analysed-value">0</div><div class="stat-label">PYQs Practiced</div></div>
+                </div>
+                <div class="stat-card card-bronze" data-target="topics-mastered">
+                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 5-5-5 1.41-1.41L10 13.17l4.59-4.59L15 16.5l-5 5z" /></svg></div>
+                    <div class="stat-info"><div class="stat-value" id="topics-mastered-value">0</div><div class="stat-label">Topics Mastered</div></div>
+                </div>
+                <div class="stat-card card-green" data-target="accuracy">
+                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" /><path d="M8 12l3 3 5-6" /></svg></div>
+                    <div class="stat-info"><div class="stat-value" id="accuracy-value">0</div><div class="stat-label">Accuracy %</div></div>
+                </div>
+                <div class="stat-card card-blue" data-target="avg-time">
+                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg></div>
+                    <div class="stat-info"><div class="stat-value" id="avg-time-value">0</div><div class="stat-label">Avg Time (s)</div></div>
+                </div>
+                <div class="stat-card card-purple" data-target="streak">
+                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 0.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" /></svg></div>
+                    <div class="stat-info"><div class="stat-value" id="streak-value">0</div><div class="stat-label">Day Streak</div></div>
+                </div>
+            </div>
+
+            <div class="dash-two-col">
+                <div class="dash-panel">
+                    <h3 class="panel-title">📈 Topic Mastery</h3>
+                    <div id="topic-mastery-list" class="topic-mastery-list">
+                        <!-- rendered by JS -->
+                    </div>
+                </div>
+                <div class="dash-panel">
+                    <h3 class="panel-title">🎯 Accuracy by Topic</h3>
+                    <div id="topic-accuracy-chart" class="bar-chart">
+                        <!-- rendered by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="dash-panel" style="margin-top:1.5rem;">
+                <h3 class="panel-title">🗓️ Today</h3>
+                <div class="today-row">
+                    <div class="qotd-card" id="qotd-card">
+                        <div class="qotd-label">⚡ Question of the Day</div>
+                        <div class="qotd-question" id="qotd-question">Loading…</div>
+                        <div class="qotd-meta" id="qotd-meta"></div>
+                        <button class="btn btn-primary btn-sm" id="qotd-solve">Solve This</button>
+                        <button class="btn btn-ghost btn-sm" id="qotd-next" style="display:none;">Next →</button>
+                    </div>
+                    <div class="plan-today-card" id="plan-today-card">
+                        <div class="qotd-label">📅 Today's Plan (Day <span id="plan-today-num">1</span>)</div>
+                        <div class="plan-today-tasks" id="plan-today-tasks"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <h3>Quick Start</h3>
+                <div class="actions-grid">
+                    <button class="action-btn" onclick="startSession('learn')">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>
+                        <span>Start Learning</span>
+                    </button>
+                    <button class="action-btn" onclick="MM.showSection('quiz');MMQuiz.startTopicQuizPrompt()">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8" cy="8" r="2" /><circle cx="16" cy="16" r="2" /></svg>
+                        <span>Topic Quiz</span>
+                    </button>
+                    <button class="action-btn" onclick="MMQuiz.startMockTest()">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+                        <span>Full Mock Test</span>
+                    </button>
+                    <button class="action-btn" onclick="MM.showSection('speed')">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>
+                        <span>Speed Drill</span>
+                    </button>
+                    <button class="action-btn" onclick="MM.showSection('flashcards');MMFlash.review()">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="M2 8h20" /></svg>
+                        <span>Flash Review</span>
+                    </button>
+                    <button class="action-btn" onclick="MM.showSection('timer')">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="13" r="8" /><path d="M12 9v4l2 2" /><path d="M9 2h6" /></svg>
+                        <span>Focus Timer</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LEARN ================= -->
+        <section id="learn" class="section">
+            <div class="section-header">
+                <h2>📚 Learn Mathematics</h2>
+                <p>Concept notes distilled from 31 PYQ PDFs + classnotes theory sections</p>
+            </div>
+            <div class="learn-filters">
+                <select id="learn-level-select" class="filter-select" aria-label="Filter by level">
+                    <option value="all">All Levels</option>
+                    <option value="1">Level 1: Foundation</option>
+                    <option value="2">Level 2: Concept Clarity</option>
+                    <option value="3">Level 3: Application</option>
+                    <option value="4">Level 4: PYQ Ready</option>
+                </select>
+            </div>
+            <div class="learn-cards" id="learn-cards">
+                <!-- rendered by JS -->
+            </div>
+            <div class="notes-reader" id="notes-reader" style="display:none;">
+                <button class="btn btn-ghost btn-sm" onclick="MMNotes.close()">← Back to topics</button>
+                <div class="notes-reader-body" id="notes-reader-body"></div>
+            </div>
+        </section>
+
+        <!-- ================= FORMULA BANK ================= -->
+        <section id="formulas" class="section">
+            <div class="section-header">
+                <h2>🧮 Formula Bank</h2>
+                <p><span id="formula-bank-count">0</span> formulas across <span id="formula-topic-count">0</span> topics — with fast tips and PYQ hints</p>
+            </div>
+            <div class="formula-filters">
+                <div class="formula-topic-chips" id="formula-topic-chips"></div>
+                <input type="search" id="formula-search" class="filter-select" placeholder="🔍 Search formulas (e.g. 'cone', 'remainder', 'tan')…" aria-label="Search formulas">
+            </div>
+            <div class="formula-list" id="formula-list"></div>
+        </section>
+
+        <!-- ================= PYQ BANK ================= -->
+        <section id="pyq-db" class="section">
+            <div class="section-header">
+                <h2>📝 PYQ Bank — <span class="live-count" id="pyq-bank-total">10,518</span></h2>
+                <p>Actual Previous Year Questions (2023–2025) with answer keys, patterns &amp; difficulty</p>
+            </div>
+            <div class="pyq-filters">
+                <input type="search" id="pyq-search" class="filter-select pyq-search" placeholder="🔍 Search question text…" aria-label="Search PYQs">
+                <select id="pyq-exam-filter" class="filter-select" aria-label="Exam filter">
+                    <option value="all">All Exams</option>
+                    <option value="SSC CGL">SSC CGL</option>
+                    <option value="SSC CHSL">SSC CHSL</option>
+                    <option value="SSC CPO">SSC CPO</option>
+                    <option value="SSC MTS">SSC MTS</option>
+                    <option value="RRB">RRB</option>
+                    <option value="Pinnacle">Pinnacle</option>
+                    <option value="SSC CGL TIER-II">CGL Tier-II</option>
+                </select>
+                <select id="pyq-topic-filter" class="filter-select" aria-label="Topic filter"></select>
+                <select id="pyq-year-filter" class="filter-select" aria-label="Year filter">
+                    <option value="all">All Years</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+                <select id="pyq-difficulty-filter" class="filter-select" aria-label="Difficulty filter">
+                    <option value="all">All Difficulties</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <select id="pyq-pattern-filter" class="filter-select" aria-label="Pattern filter"></select>
+            </div>
+            <div class="pyq-summary" id="pyq-summary"></div>
+            <div class="pyq-list" id="pyq-list"></div>
+            <div class="pyq-pagination" id="pyq-pagination"></div>
+        </section>
+
+        <!-- ================= QUIZ & MOCKS ================= -->
+        <section id="quiz" class="section">
+            <div class="section-header">
+                <h2>🎯 Quiz &amp; Mock Test Center</h2>
+                <p>Timed quizzes, topic drills, mixed sets, solved-PYQ mode and full mocks (−0.25 marking)</p>
+            </div>
+            <div class="quiz-setup-grid">
+                <div class="quiz-card">
+                    <h3>📖 Solved PYQ Practice</h3>
+                    <p>40 hand-solved questions with step-by-step solutions. Learn, then attempt without the solution.</p>
+                    <button class="btn btn-primary" onclick="MMQuiz.startSolvedMode()">Start Solved Practice</button>
+                </div>
+                <div class="quiz-card">
+                    <h3>🎯 Topic Quiz</h3>
+                    <p>10–30 questions from one topic of the 10,518 bank.</p>
+                    <select id="quiz-topic-select" class="filter-select"></select>
+                    <select id="quiz-count-select" class="filter-select">
+                        <option value="10">10 questions</option>
+                        <option value="20" selected>20 questions</option>
+                        <option value="30">30 questions</option>
+                    </select>
+                    <button class="btn btn-primary" onclick="MMQuiz.startTopicQuiz()">Start Quiz</button>
+                </div>
+                <div class="quiz-card">
+                    <h3>🔀 Mixed Set</h3>
+                    <p>Random mix across all topics — closest to the real paper feel.</p>
+                    <select id="mixed-count-select" class="filter-select">
+                        <option value="10">10 questions</option>
+                        <option value="15" selected>15 questions</option>
+                        <option value="20">20 questions</option>
+                    </select>
+                    <label class="check-row"><input type="checkbox" id="mixed-hard" checked> Include only medium/hard</label>
+                    <button class="btn btn-primary" onclick="MMQuiz.startMixed()">Start Mixed Set</button>
+                </div>
+                <div class="quiz-card quiz-card-mock">
+                    <h3>🏆 Full Mock Test</h3>
+                    <p>30 questions · 18 minutes · −0.25 wrong · +1 correct. Full exam simulation with analysis report.</p>
+                    <button class="btn btn-mock" onclick="MMQuiz.startMockTest()">Start Full Mock</button>
+                </div>
+            </div>
+            <div class="quiz-active" id="quiz-active" style="display:none;"></div>
+        </section>
+
+        <!-- ================= PATTERNS ================= -->
+        <section id="patterns" class="section">
+            <div class="section-header">
+                <h2>🧠 Pattern Recognition Engine</h2>
+                <p><span id="pattern-count-label">32</span> patterns mined from the PYQ bank — recognition signals, fast methods &amp; traps</p>
+            </div>
+            <div class="patterns-filters">
+                <select id="pattern-topic-filter" class="filter-select" aria-label="Filter patterns by topic"></select>
+                <button class="btn btn-ghost btn-sm" id="pattern-drill-btn">⚡ Pattern Drill Quiz</button>
+            </div>
+            <div class="patterns-grid" id="patterns-grid"></div>
+        </section>
+
+        <!-- ================= TRAPS ================= -->
+        <section id="traps" class="section">
+            <div class="section-header">
+                <h2>🛡️ Examiner Trap Database</h2>
+                <p><span id="trap-count-label">26</span> traps with danger ratings — detection, prevention &amp; quick checks</p>
+            </div>
+            <div class="traps-filters">
+                <select id="trap-topic-filter" class="filter-select" aria-label="Filter traps by topic"></select>
+                <label class="check-row"><input type="checkbox" id="trap-danger5" checked> Only danger ≥ 4</label>
+            </div>
+            <div class="traps-grid" id="traps-grid"></div>
+        </section>
+
+        <!-- ================= SPEED MATHS ================= -->
+        <section id="speed" class="section">
+            <div class="section-header">
+                <h2>⚡ Speed Maths Trainer</h2>
+                <p>Timed drills with per-question logging, accuracy tracking and trick cards</p>
+            </div>
+            <div class="speed-modules" id="speed-modules"></div>
+            <div class="speed-result" id="speed-result" style="display:none;"></div>
+            <div class="speed-tricks" id="speed-tricks-panel"></div>
+        </section>
+
+        <!-- ================= FLASHCARDS ================= -->
+        <section id="flashcards" class="section">
+            <div class="section-header">
+                <h2>🃏 Flashcards — Spaced Repetition</h2>
+                <p><span id="flashcard-count-label">0</span> cards in 6 Leitner boxes. Review daily for retention.</p>
+            </div>
+            <div class="srs-dashboard" id="srs-dashboard"></div>
+            <div class="flash-active" id="flash-active" style="display:none;"></div>
+        </section>
+
+        <!-- ================= CALCULATOR LAB ================= -->
+        <section id="calc-lab" class="section">
+            <div class="section-header">
+                <h2>🧪 Calculator Lab</h2>
+                <p>Interactive tools that apply the exact formulas from the bank</p>
+            </div>
+            <div class="calc-grid">
+                <div class="calc-card">
+                    <h3>HCF / LCM (up to 5 numbers)</h3>
+                    <input type="text" id="calc-hcf-input" class="filter-select" value="96, 36, 18" placeholder="comma separated">
+                    <button class="btn btn-primary btn-sm" onclick="MMCalc.hcfLcm()">Calculate</button>
+                    <div class="calc-result" id="calc-hcf-result"></div>
+                </div>
+                <div class="calc-card">
+                    <h3>Prime Factorisation</h3>
+                    <input type="text" id="calc-prime-input" class="filter-select" value="120" placeholder="a number">
+                    <button class="btn btn-primary btn-sm" onclick="MMCalc.factorise()">Factorise</button>
+                    <div class="calc-result" id="calc-prime-result"></div>
+                </div>
+                <div class="calc-card">
+                    <h3>Trailing Zeros of n!</h3>
+                    <input type="text" id="calc-zeros-input" class="filter-select" value="100" placeholder="n">
+                    <button class="btn btn-primary btn-sm" onclick="MMCalc.zeros()">Count</button>
+                    <div class="calc-result" id="calc-zeros-result"></div>
+                </div>
+                <div class="calc-card">
+                    <h3>Factors: count &amp; sum</h3>
+                    <input type="text" id="calc-factors-input" class="filter-select" value="360" placeholder="a number">
+                    <button class="btn btn-primary btn-sm" onclick="MMCalc.factors()">Analyze</button>
+                    <div class="calc-result" id="calc-factors-result"></div>
+                </div>
+                <div class="calc-card">
+                    <h3>Divisibility Checker</h3>
+                    <input type="text" id="calc-div-input" class="filter-select" value="123456" placeholder="a number">
+                    <button class="btn btn-primary btn-sm" onclick="MMCalc.divisibility()">Check 2–11</button>
+                    <div class="calc-result" id="calc-div-result"></div>
+                </div>
+                <div class="calc-card">
+                    <h3>% Change in Area</h3>
+                    <input type="text" id="calc-area-a" class="filter-select" value="20" placeholder="length % change">
+                    <input type="text" id="calc-area-b" class="filter-select" value="-10" placeholder="breadth % change (− for decrease)">
+                    <button class="btn btn-primary btn-sm" onclick="MMCalc.areaChange()">Compute</button>
+                    <div class="calc-result" id="calc-area-result"></div>
+                </div>
+                <div class="calc-card">
+                    <h3>SI / CI</h3>
+                    <input type="text" id="calc-int-p" class="filter-select" value="10000" placeholder="principal">
+                    <input type="text" id="calc-int-r" class="filter-select" value="10" placeholder="rate %">
+                    <input type="text" id="calc-int-t" class="filter-select" value="2" placeholder="time (yrs)">
+                    <button class="btn btn-primary btn-sm" onclick="MMCalc.interest()">Calculate</button>
+                    <div class="calc-result" id="calc-int-result"></div>
+                </div>
+                <div class="calc-card">
+                    <h3>Unit Digit of a^b</h3>
+                    <input type="text" id="calc-ud-base" class="filter-select" value="7" placeholder="base">
+                    <input type="text" id="calc-ud-exp" class="filter-select" value="2024" placeholder="exponent">
+                    <button class="btn btn-primary btn-sm" onclick="MMCalc.unitDigit()">Compute</button>
+                    <div class="calc-result" id="calc-ud-result"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ERROR LOG ================= -->
+        <section id="error-log" class="section">
+            <div class="section-header">
+                <h2>❌ Error Log</h2>
+                <p>Record and learn from mistakes — every error gets a lesson</p>
+            </div>
+            <div class="error-stats">
+                <div class="stat-item"><div class="stat-value" id="total-errors-value">0</div><div class="stat-label">Total Errors</div></div>
+                <div class="stat-item"><div class="stat-value" id="concept-errors-value">0</div><div class="stat-label">Concept</div></div>
+                <div class="stat-item"><div class="stat-value" id="calculation-errors-value">0</div><div class="stat-label">Calculation</div></div>
+                <div class="stat-item"><div class="stat-value" id="trap-errors-value">0</div><div class="stat-label">Trap</div></div>
+                <div class="stat-item"><div class="stat-value" id="time-errors-value">0</div><div class="stat-label">Time</div></div>
+            </div>
+            <div class="error-add">
+                <h3>Add an Error Manually</h3>
+                <div class="error-add-grid">
+                    <select id="error-type-select" class="filter-select">
+                        <option value="concept">Concept error</option>
+                        <option value="calculation">Calculation error</option>
+                        <option value="trap">Fell into a trap</option>
+                        <option value="reading">Misread question</option>
+                        <option value="time">Ran out of time</option>
+                    </select>
+                    <input type="text" id="error-topic-input" class="filter-select" placeholder="Topic (e.g. algebra)">
+                    <input type="text" id="error-question-input" class="filter-select" placeholder="Question (short)">
+                    <input type="text" id="error-mistake-input" class="filter-select" placeholder="What I did wrong">
+                    <input type="text" id="error-correct-input" class="filter-select" placeholder="Correct approach">
+                    <select id="error-trap-select" class="filter-select"></select>
+                </div>
+                <button class="btn btn-primary btn-sm" onclick="MMErrors.addManual()">Save to Log</button>
+            </div>
+            <div class="error-list" id="error-list"></div>
+        </section>
+
+        <!-- ================= REVISION ================= -->
+        <section id="revision" class="section">
+            <div class="section-header">
+                <h2>🔄 Revision Center</h2>
+                <p>Targeted revision from your live performance data</p>
+            </div>
+            <div class="revision-options">
+                <button class="rev-option" onclick="MMRevision.weakTopics()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2" /></svg>
+                    Weak Topics
+                    <small>Lowest-accuracy topics from your quiz history</small>
+                </button>
+                <button class="rev-option" onclick="MMRevision.errorReview()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" /></svg>
+                    Error Review
+                    <small>Re-solve your logged mistakes</small>
+                </button>
+                <button class="rev-option" onclick="MMRevision.patternReview()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /></svg>
+                    Pattern Review
+                    <small>Re-read patterns you got wrong in</small>
+                </button>
+                <button class="rev-option" onclick="MMRevision.formulaRevision()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>
+                    Formula Flash
+                    <small>Rapid formula recall by topic</small>
+                </button>
+                <button class="rev-option" onclick="MMRevision.trapReview()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" /><line x1="12" y1="9" x2="12" y2="13" /></svg>
+                    Trap Review
+                    <small>Re-read the 26 traps (2-min scan)</small>
+                </button>
+                <button class="rev-option" onclick="MMRevision.dailySRS()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
+                    Daily SRS
+                    <small>All due flashcards</small>
+                </button>
+            </div>
+            <div class="revision-content" id="revision-content"></div>
+        </section>
+
+        <!-- ================= 90-DAY PLAN ================= -->
+        <section id="plan" class="section">
+            <div class="section-header">
+                <h2>📅 90-Day Master Plan</h2>
+                <p>Adaptive roadmap built from PYQ weightage research — track every day</p>
+            </div>
+            <div class="plan-tabs">
+                <button class="plan-tab active" onclick="MMPlan.showTab('overview')">Overview</button>
+                <button class="plan-tab" onclick="MMPlan.showTab('daily')">Daily Tasks</button>
+                <button class="plan-tab" onclick="MMPlan.showTab('exam')">Exam-Day Strategy</button>
+            </div>
+            <div class="plan-overview" id="plan-overview"></div>
+            <div class="plan-daily" id="plan-daily" style="display:none;"></div>
+            <div class="plan-exam" id="plan-exam" style="display:none;"></div>
+        </section>
+
+        <!-- ================= TIMER ================= -->
+        <section id="timer" class="section">
+            <div class="section-header">
+                <h2>⏱️ Study Timer</h2>
+                <p>Pomodoro focus sessions + exam-mode timer</p>
+            </div>
+            <div class="timer-layout">
+                <div class="timer-card">
+                    <div class="timer-display" id="timer-display">25:00</div>
+                    <div class="timer-modes">
+                        <button class="timer-mode active" data-minutes="25">Focus 25</button>
+                        <button class="timer-mode" data-minutes="5">Break 5</button>
+                        <button class="timer-mode" data-minutes="15">Break 15</button>
+                        <button class="timer-mode" data-minutes="18">Mock 18</button>
+                        <button class="timer-mode" data-minutes="30">Exam 30</button>
+                    </div>
+                    <div class="timer-controls">
+                        <button class="btn btn-primary" id="timer-start">Start</button>
+                        <button class="btn btn-ghost" id="timer-pause" style="display:none;">Pause</button>
+                        <button class="btn btn-ghost" id="timer-reset">Reset</button>
+                    </div>
+                    <div class="timer-progress"><div class="timer-progress-fill" id="timer-progress-fill"></div></div>
+                    <div class="timer-sessions" id="timer-sessions"></div>
+                </div>
+                <div class="timer-side">
+                    <div class="dash-panel">
+                        <h3 class="panel-title">🍅 Today's Focus</h3>
+                        <p class="muted-text">Aim: 3 × 25-min focus blocks minimum (90 min deep work). Log sessions — the dashboard counts them toward your streak.</p>
+                    </div>
+                    <div class="dash-panel">
+                        <h3 class="panel-title">📋 Session Log</h3>
+                        <div id="timer-log" class="timer-log"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROFILE ================= -->
+        <section id="profile" class="section">
+            <div class="section-header">
+                <h2>👤 Profile &amp; Progress</h2>
+                <p>Your mathematics mastery journey — XP, levels, badges, lifetime stats</p>
+            </div>
+            <div class="profile-container">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4" /><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5" /></svg>
+                    </div>
+                    <h3>Mathematics Mastery</h3>
+                    <p>Level <span id="profile-level">1</span>: <span id="profile-level-name">Foundation</span> · <span id="profile-xp">0</span> XP</p>
+                    <div class="progress-bar"><div class="progress-fill" id="profile-progress" style="width:0%"></div></div>
+                    <div class="profile-stats-grid" id="profile-stats-grid"></div>
+                    <div class="achievements" id="achievements-list"></div>
+                </div>
+                <div class="dash-panel" style="margin-top:1.5rem;">
+                    <h3 class="panel-title">📊 Lifetime Topic Stats</h3>
+                    <div id="profile-topic-table"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><circle cx="12" cy="12" r="4" /></svg>
+                <span>MathMastery Engine v2 — Deep Research Edition</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Study</h4>
+                    <ul>
+                        <li><a href="#learn">Learn Mathematics</a></li>
+                        <li><a href="#formulas">Formula Bank</a></li>
+                        <li><a href="#pyq-db">PYQ Bank (10,518)</a></li>
+                        <li><a href="#patterns">Pattern Engine</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Practice</h4>
+                    <ul>
+                        <li><a href="#quiz">Quiz &amp; Mocks</a></li>
+                        <li><a href="#speed">Speed Maths</a></li>
+                        <li><a href="#flashcards">Flashcards (SRS)</a></li>
+                        <li><a href="#calc-lab">Calculator Lab</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Improve</h4>
+                    <ul>
+                        <li><a href="#traps">Trap Database</a></li>
+                        <li><a href="#error-log">Error Log</a></li>
+                        <li><a href="#revision">Revision Center</a></li>
+                        <li><a href="#plan">90-Day Plan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 MathMastery Engine v2 · Built from deep analysis of 31 PYQ PDFs (SSC CGL/CHSL/CPO/MTS, RRB, Pinnacle — 2023/2024/2025)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Data (deep research outputs) -->
+    <script src="js/data/pyq-bank.js"></script>
+    <script src="js/data/formulas.js"></script>
+    <script src="js/data/notes.js"></script>
+    <script src="js/data/patterns.js"></script>
+    <script src="js/data/traps.js"></script>
+    <script src="js/data/speed.js"></script>
+    <script src="js/data/flashcards.js"></script>
+    <script src="js/data/plans.js"></script>
+    <script src="js/data/featured.js"></script>
+    <!-- Engines -->
+    <script src="js/engines.js"></script>
+    <script src="js/quiz-engine.js"></script>
+    <!-- Main app -->
+    <script src="js/main.js"></script>
+</body>
+</html>
