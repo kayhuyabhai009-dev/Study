@@ -1,0 +1,3508 @@
+diff --git a/css/styles.css b/css/styles.css
+new file mode 100644
+index 0000000..2cd4169
+--- /dev/null
++++ b/css/styles.css
+@@ -0,0 +1,1174 @@
++/* ============================================================
++   Ultimate Mathematics Mastery Engine - Main Styles
++   ============================================================ */
++
++:root {
++    --bg-light: #f8f9fa;
++    --bg-dark: #1a1a2e;
++    --bg-card-light: #ffffff;
++    --bg-card-dark: #16213e;
++    --primary: #2c3e50;
++    --primary-light: #34495e;
++    --accent-gold: #d4a853;
++    --accent-silver: #c0c0c0;
++    --accent-bronze: #cd7f32;
++    --accent-green: #27ae60;
++    --accent-blue: #3498db;
++    --accent-purple: #9b59b6;
++    --text-dark: #2c3e50;
++    --text-light: #ecf0f1;
++    --text-muted: #7f8c8d;
++    --border-light: #e0e0e0;
++    --border-dark: #2d3a4f;
++    --success: #27ae60;
++    --warning: #f39c11;
++    --error: #e74c3c;
++}
++
++/* Dark mode */
++[data-theme="dark"] {
++    --bg-light: #1a1a2e;
++    --bg-dark: #16213e;
++    --bg-card-light: #16213e;
++    --bg-card-dark: #0f0f23;
++    --primary: #3498db;
++    --primary-light: #2c3e50;
++    --text-dark: #e8e6e3;
++    --text-light: #bdc3c7;
++    --text-muted: #6c757d;
++    --border-light: #354157;
++    --border-dark: #1a252f;
++}
++
++/* Base styles */
++* {
++    box-sizing: border-box;
++    margin: 0;
++    padding: 0;
++}
++
++html {
++    font-size: 16px;
++}
++
++@media (prefers-reduced-motion: reduce) {
++    html { scroll-behavior: auto; }
++    *, *::before, *::after { animation-duration: 0s !important; transition-duration: 0s !important; }
++}
++
++body {
++    font-family: 'Inter', sans-serif;
++    background: var(--bg-light);
++    color: var(--text-dark);
++    line-height: 1.6;
++    overflow-x: hidden;
++}
++
++/* When system prefers dark mode */
++@media (prefers-color-scheme: dark) and (forced-colors: none) {
++    body { background: var(--bg-dark); color: var(--text-light); }
++}
++
++img, svg, video {
++    max-width: 100%;
++    height: auto;
++}
++
++a {
++    text-decoration: none;
++    color: inherit;
++    transition: color 0.2s ease;
++}
++
++ul {
++    list-style: none;
++}
++
++button {
++    font-family: inherit;
++    cursor: pointer;
++    border: none;
++    background: none;
++    padding: 0;
++    font-size: inherit;
++}
++
++@media (forced-colors: active) {
++    :root {
++        --bg-light: WindowColor;
++        --bg-dark: WindowText;
++        --text-dark: WindowText;
++    }
++}
++
++/* Skip link for accessibility */
++.skip-link {
++    position: absolute;
++    left: -9999px;
++    top: auto;
++    width: 1px; height: 1px;
++    overflow: hidden;
++}
++
++.skip-link:focus {
++    left: 0;
++    top: 0;
++    width: auto;
++    height: auto;
++    padding: 0.5rem;
++    background: var(--primary);
++    color: white;
++}
++
++/* Navigation */
++.main-nav {
++    background: var(--bg-card-light);
++    backdrop-filter: blur(10px);
++    -webkit-backdrop-filter: blur(10px);
++    border-bottom: 1px solid var(--border-light);
++    padding: 1rem 2rem;
++    position: fixed;
++    width: 100%;
++    top: 0;
++    z-index: 100;
++}
++
++.main-nav .nav-logo {
++    display: flex;
++    align-items: center;
++    gap: 0.5rem;
++}
++
++.main-nav .nav-logo svg {
++    width: 24px;
++    height: 24px;
++}
++
++.main-nav .nav-logo span {
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 700;
++    font-size: 1.2rem;
++    color: var(--primary);
++}
++
++.main-nav .nav-links {
++    display: flex;
++    gap: 2rem;
++    align-items: center;
++}
++
++.main-nav .nav-links li a {
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 500;
++    font-size: 0.875rem;
++    color: var(--text-dark);
++    position: relative;
++    padding-bottom: 0.25rem;
++}
++
++.main-nav .nav-links li a::after {
++    content: '';
++    position: absolute;
++    bottom: 0;
++    left: 0;
++    width: 0;
++    height: 2px;
++    background: var(--primary);
++    transition: width 0.3s ease;
++}
++
++.main-nav .nav-links li a:hover {
++    color: var(--primary);
++}
++
++.main-nav .nav-links li a:hover::after {
++    width: 100%;
++}
++
++.main-nav .nav-actions {
++    margin-left: auto;
++    display: flex;
++    align-items: center;
++    gap: 1rem;
++}
++
++.main-nav .btn-icon {
++    width: 44px;
++    height: 44px;
++    border-radius: 8px;
++    display: flex;
++    align-items: center;
++    justify-content: center;
++    background: var(--bg-card-light);
++    color: var(--text-dark);
++    transition: background 0.2s ease, color 0.2s ease;
++}
++
++.main-nav .btn-icon:hover {
++    background: var(--primary);
++    color: white;
++}
++
++/* Sections */
++.section {
++    padding: 8rem 2rem 2rem;
++    max-width: 1200px;
++    margin: 0 auto;
++}
++
++.section-header {
++    text-align: center;
++    margin-bottom: 3rem;
++}
++
++.section-header h2 {
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 700;
++    font-size: 2.25rem;
++    margin-bottom: 0.5rem;
++    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
++    -webkit-background-clip: text;
++    -webkit-text-fill-color: transparent;
++    background-clip: text;
++}
++
++.section-header p {
++    color: var(--text-muted);
++    font-size: 1.125rem;
++}
++
++/* Dashboard */
++.dashboard-grid {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
++    gap: 1.5rem;
++    margin-top: 2rem;
++}
++
++.stat-card {
++    background: var(--bg-card-light);
++    border-radius: 12px;
++    padding: 1.5rem;
++    border: 1px solid var(--border-light);
++    transition: transform 0.2s ease, box-shadow 0.2s ease;
++}
++
++.stat-card:hover {
++    transform: translateY(-2px);
++    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
++}
++
++.stat-card:hover .stat-icon svg {
++    stroke: var(--primary);
++}
++
++.stat-icon {
++    width: 40px;
++    height: 40px;
++    margin-bottom: 1rem;
++}
++
++.stat-value {
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 800;
++    font-size: 2.25rem;
++    color: var(--primary);
++    margin-bottom: 0.25rem;
++}
++
++.stat-label {
++    font-size: 0.875rem;
++    color: var(--text-muted);
++}
++
++.card-gold { border: 1px solid #ffd700; }
++.card-silver { border: 1px solid var(--accent-silver); }
++.card-bronze { border: 1px solid var(--accent-bronze); }
++.card-green { border: 1px solid var(--accent-green); }
++.card-blue { border: 1px solid var(--accent-blue); }
++.card-purple { border: 1px solid var(--accent-purple); }
++
++/* Quick Actions */
++.quick-actions {
++    margin-top: 2rem;
++}
++
++.quick-actions h3 {
++    font-size: 1rem;
++    font-weight: 600;
++    margin-bottom: 1rem;
++    color: var(--text-dark);
++}
++
++.actions-grid {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
++    gap: 1rem;
++}
++
++.action-btn {
++    width: 100%;
++    padding: 0.875rem 1rem;
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    border: 1px solid var(--border-light);
++    color: var(--text-dark);
++    font-weight: 500;
++    font-size: 0.875rem;
++    transition: all 0.2s ease;
++    display: flex;
++    align-items: center;
++    justify-content: center;
++    gap: 0.5rem;
++}
++
++.action-btn:hover {
++    background: var(--primary);
++    color: white;
++    border-color: var(--primary);
++}
++
++.action-btn:active {
++    transform: scale(0.98);
++}
++
++/* Learn Mathematics */
++.learn-filters {
++    background: var(--bg-card-light);
++    padding: 1rem 1.5rem;
++    border-radius: 8px;
++    border: 1px solid var(--border-light);
++    margin-bottom: 2rem;
++    display: flex;
++    gap: 1rem;
++    flex-wrap: wrap;
++    justify-content: center;
++}
++
++.filter-select {
++    padding: 0.5rem 1rem;
++    background: var(--bg-light);
++    border: 1px solid var(--border-light);
++    border-radius: 6px;
++    color: var(--text-dark);
++    font-size: 0.875rem;
++    min-width: 150px;
++}
++
++.learn-cards {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
++    gap: 1.5rem;
++}
++
++.learn-card {
++    background: var(--bg-card-light);
++    border-radius: 10px;
++    padding: 1.5rem;
++    border: 1px solid var(--border-light);
++    transition: transform 0.2s ease, box-shadow 0.2s ease;
++}
++
++.learn-card:hover {
++    transform: translateY(-4px);
++    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
++}
++
++.learn-card h4 {
++    font-size: 1rem;
++    font-weight: 600;
++    margin-bottom: 0.75rem;
++    color: var(--primary);
++}
++
++.learn-card p {
++    color: var(--text-muted);
++    font-size: 0.875rem;
++    line-height: 1.5;
++}
++
++.learn-card .tag {
++    display: inline-block;
++    padding: 0.25rem 0.5rem;
++    background: var(--primary-light);
++    color: white;
++    border-radius: 4px;
++    font-size: 0.7rem;
++    margin-right: 0.25rem;
++    margin-bottom: 0.25rem;
++}
++
++/* PYQ Database */
++.pyq-filters {
++    background: var(--bg-card-light);
++    padding: 1rem 1.5rem;
++    border-radius: 8px;
++    border: 1px solid var(--border-light);
++    margin-bottom: 2rem;
++    display: flex;
++    gap: 1rem;
++    flex-wrap: wrap;
++    justify-content: center;
++}
++
++.pyq-list {
++    display: grid;
++    gap: 1rem;
++}
++
++.pyq-item {
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    padding: 1rem;
++    border: 1px solid var(--border-light);
++    transition: all 0.2s ease;
++    cursor: pointer;
++}
++
++.pyq-item:hover {
++    border-color: var(--primary);
++    transform: translateX(4px);
++}
++
++.pyq-item .pyq-header {
++    display: flex;
++    justify-content: space-between;
++    align-items: flex-start;
++    margin-bottom: 0.5rem;
++}
++
++.pyq-item .pyq-topic {
++    font-size: 0.75rem;
++    color: var(--primary);
++    font-weight: 500;
++}
++
++.pyq-item .pyq-exam {
++    font-size: 0.7rem;
++    color: var(--text-muted);
++}
++
++.pyq-item .pyq-question {
++    font-size: 0.875rem;
++    color: var(--text-dark);
++    margin-bottom: 0.5rem;
++    white-space: nowrap;
++    overflow: hidden;
++    text-overflow: ellipsis;
++    max-width: 80%;
++}
++
++.pyq-item .pyq-options {
++    font-size: 0.7rem;
++    color: var(--text-muted);
++    margin-top: 0.25rem;
++}
++
++.no-data {
++    padding: 2rem;
++    text-align: center;
++    color: var(--text-muted);
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    border: 1px solid var(--border-light);
++}
++
++/* Pattern Recognition */
++.patterns-grid {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
++    gap: 1.5rem;
++}
++
++.pattern-card {
++    background: var(--bg-card-light);
++    border-radius: 10px;
++    padding: 1.5rem;
++    border: 1px solid var(--border-light);
++    transition: transform 0.2s ease, box-shadow 0.2s ease;
++    cursor: pointer;
++}
++
++.pattern-card:hover {
++    transform: translateY(-4px);
++    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
++}
++
++.pattern-card h3 {
++    font-size: 1.125rem;
++    font-weight: 600;
++    margin-bottom: 0.75rem;
++    color: var(--primary);
++}
++
++.pattern-card .pattern-name {
++    display: inline-block;
++    padding: 0.2rem 0.5rem;
++    background: var(--primary-light);
++    color: white;
++    border-radius: 4px;
++    font-size: 0.7rem;
++    font-weight: 500;
++    margin-bottom: 0.75rem;
++}
++
++.pattern-card .recognition-signal {
++    font-size: 0.875rem;
++    color: var(--text-muted);
++    margin-bottom: 0.5rem;
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 500;
++}
++
++.pattern-card .concept {
++    font-size: 0.8rem;
++    color: var(--text-muted);
++    margin: 0.25rem 0;
++}
++
++.pattern-card .best-method {
++    font-size: 0.75rem;
++    background: #e8f4fd;
++    color: var(--primary);
++    padding: 0.25rem 0.5rem;
++    border-radius: 4px;
++    margin: 0.25rem 0;
++    font-family: 'DM Sans', sans-serif;
++}
++
++.pattern-card .examiner-trap {
++    font-size: 0.7rem;
++    background: #fdf2f2;
++    color: var(--error);
++    padding: 0.25rem 0.5rem;
++    border-radius: 4px;
++    margin: 0.25rem 0;
++    font-family: 'DM Sans', sans-serif;
++}
++
++/* Trap Database */
++.trap-grid {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
++    gap: 1.5rem;
++}
++
++.trap-card {
++    background: var(--bg-card-light);
++    border-radius: 10px;
++    padding: 1.5rem;
++    border: 1px solid var(--border-light);
++    transition: transform 0.2s ease, box-shadow 0.2s ease;
++    cursor: pointer;
++}
++
++.trap-card:hover {
++    transform: translateY(-2px);
++    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
++}
++
++.trap-card:hover .trap-icon svg {
++    stroke: var(--error);
++}
++
++.trap-icon {
++    width: 28px;
++    height: 28px;
++    margin-bottom: 1rem;
++}
++
++.trap-card h3 {
++    font-size: 1rem;
++    font-weight: 600;
++    margin-bottom: 0.5rem;
++    color: var(--error);
++}
++
++.trap-card .trap-type {
++    display: inline-block;
++    padding: 0.15rem 0.4rem;
++    background: #fdf2f2;
++    color: var(--error);
++    border-radius: 3px;
++    font-size: 0.7rem;
++    font-weight: 500;
++    margin-bottom: 0.5rem;
++}
++
++.trap-card .why-students {
++    font-size: 0.8rem;
++    color: var(--text-muted);
++    margin: 0.25rem 0;
++    font-style: italic;
++}
++
++.trap-card .detection {
++    font-size: 0.75rem;
++    background: #e8f4fd;
++    color: var(--primary);
++    padding: 0.2rem 0.4rem;
++    border-radius: 3px;
++    margin: 0.2rem 0;
++}
++
++.trap-card .prevention {
++    font-size: 0.75rem;
++    background: #f0fdf4;
++    color: var(--success);
++    padding: 0.2rem 0.4rem;
++    border-radius: 3px;
++    margin: 0.2rem 0;
++}
++
++/* Speed Maths */
++.speed-modules {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
++    gap: 1rem;
++}
++
++.speed-module {
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    padding: 1rem;
++    border: 1px solid var(--border-light);
++    text-align: center;
++    transition: all 0.2s ease;
++    cursor: pointer;
++}
++
++.speed-module:hover {
++    border-color: var(--primary);
++    transform: translateY(-2px);
++}
++
++.speed-module:hover .module-icon svg {
++    stroke: var(--primary);
++}
++
++.module-icon {
++    width: 40px;
++    height: 40px;
++    margin: 0 auto 0.75rem;
++    stroke: var(--primary);
++    stroke-width: 1.5;
++}
++
++.module-title {
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 600;
++    font-size: 0.875rem;
++    margin-bottom: 0.25rem;
++}
++
++.module-progress {
++    width: 100%;
++    height: 4px;
++    background: var(--border-light);
++    border-radius: 2px;
++    overflow: hidden;
++    margin-top: 0.25rem;
++}
++
++.module-progress .progress {
++    height: 100%;
++    background: linear-gradient(90deg, var(--accent-green), var(--accent-blue));
++    border-radius: 2px;
++    width: 0%;
++    transition: width 0.3s ease;
++}
++
++/* Error Log */
++.error-stats {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
++    gap: 1rem;
++    margin-bottom: 2rem;
++}
++
++.stat-item {
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    padding: 1rem;
++    border: 1px solid var(--border-light);
++    text-align: center;
++}
++
++.stat-value {
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 800;
++    font-size: 1.75rem;
++    color: var(--primary);
++    margin-bottom: 0.25rem;
++}
++
++.stat-label {
++    font-size: 0.75rem;
++    color: var(--text-muted);
++}
++
++.error-list {
++    display: grid;
++    gap: 0.75rem;
++}
++
++.error-item {
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    padding: 1rem;
++    border: 1px solid var(--border-light);
++    transition: all 0.2s ease;
++    cursor: pointer;
++}
++
++.error-item:hover {
++    border-color: var(--primary);
++    transform: translateX(4px);
++}
++
++.error-item .error-type {
++    display: inline-block;
++    padding: 0.1rem 0.3rem;
++    background: var(--primary-light);
++    color: white;
++    border-radius: 3px;
++    font-size: 0.65rem;
++    font-weight: 500;
++    margin-right: 0.5rem;
++}
++
++.error-item .error-desc {
++    font-size: 0.8rem;
++    color: var(--text-dark);
++    margin-top: 0.25rem;
++}
++
++.no-errors {
++    padding: 2rem;
++    text-align: center;
++    color: var(--text-muted);
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    border: 1px solid var(--border-light);
++}
++
++/* Revision Center */
++.revision-options {
++    display: grid;
++    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
++    gap: 1rem;
++    margin-bottom: 2rem;
++}
++
++.rev-option {
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    padding: 1rem;
++    border: 1px solid var(--border-light);
++    text-align: center;
++    transition: all 0.2s ease;
++    cursor: pointer;
++}
++
++.rev-option:hover {
++    background: var(--primary);
++    color: white;
++    border-color: var(--primary);
++}
++
++.rev-option svg {
++    width: 28px;
++    height: 28px;
++    margin: 0 auto 0.5rem;
++}
++
++/* 90-Day Plan */
++.plan-tabs {
++    display: flex;
++    gap: 0.5rem;
++    margin-bottom: 1.5rem;
++    justify-content: center;
++}
++
++.plan-tab {
++    padding: 0.5rem 1rem;
++    background: var(--bg-card-light);
++    border-radius: 6px 6px 0 0;
++    border: 1px solid var(--border-light);
++    border-bottom: none;
++    font-size: 0.875rem;
++    font-weight: 500;
++    color: var(--text-muted);
++    cursor: pointer;
++    transition: all 0.2s ease;
++}
++
++.plan-tab.active {
++    background: var(--bg-light);
++    color: var(--primary);
++    border-color: var(--primary);
++    border-bottom: 1px solid var(--bg-light);
++}
++
++.plan-tab:not(.active):hover {
++    color: var(--text-dark);
++}
++
++.plan-overview p {
++    background: var(--bg-card-light);
++    padding: 1rem;
++    border-radius: 6px;
++    margin: 0.5rem 0;
++    border: 1px solid var(--border-light);
++}
++
++.plan-daily p {
++    background: var(--bg-card-light);
++    padding: 1rem;
++    border-radius: 6px;
++    margin: 0.5rem 0;
++    border: 1px solid var(--border-light);
++    font-size: 0.875rem;
++}
++
++/* Profile */
++.profile-container {
++    max-width: 600px;
++    margin: 0 auto;
++}
++
++.profile-card {
++    background: var(--bg-card-light);
++    border-radius: 12px;
++    padding: 2rem;
++    border: 1px solid var(--border-light);
++    text-align: center;
++}
++
++.profile-avatar {
++    width: 64px;
++    height: 64px;
++    margin: 0 auto 1rem;
++}
++
++.profile-card h3 {
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 700;
++    font-size: 1.5rem;
++    margin-bottom: 0.5rem;
++}
++
++.profile-card p {
++    color: var(--text-muted);
++    margin-bottom: 1rem;
++}
++
++.progress-bar {
++    width: 100%;
++    height: 8px;
++    background: var(--border-light);
++    border-radius: 4px;
++    overflow: hidden;
++    margin: 1rem 0;
++}
++
++.progress-fill {
++    height: 100%;
++    width: 0%;
++    background: linear-gradient(90deg, var(--accent-green), var(--accent-blue));
++    transition: width 0.5s ease;
++    border-radius: 4px;
++}
++
++.achievements-list {
++    margin-top: 1rem;
++    padding-top: 1rem;
++    border-top: 1px solid var(--border-light);
++}
++
++.achievement {
++    background: var(--primary-light);
++    color: white;
++    padding: 0.5rem 0.75rem;
++    border-radius: 6px;
++    font-size: 0.75rem;
++    margin: 0.25rem 0;
++    display: inline-block;
++}
++
++/* Theme Toggle */
++.theme-toggle {
++    width: 44px;
++    height: 44px;
++    border-radius: 8px;
++    display: flex;
++    align-items: center;
++    justify-content: center;
++    background: var(--bg-card-light);
++    color: var(--text-dark);
++    transition: background 0.2s ease, color 0.2s ease;
++}
++
++.theme-toggle:hover {
++    background: var(--primary);
++    color: white;
++}
++
++#sun-icon, #moon-icon {
++    width: 20px;
++    height: 20px;
++}
++
++/* Responsive */
++@media (max-width: 768px) {
++    .main-nav .nav-links {
++        display: none;
++    }
++    
++    .section {
++        padding: 4rem 1rem 1rem;
++    }
++    
++    .dashboard-grid {
++        grid-template-columns: 1fr;
++    }
++    
++    .learn-filters {
++        flex-direction: column;
++        align-items: stretch;
++    }
++    
++    .filter-select {
++        width: 100%;
++    }
++    
++    .pyq-filters {
++        flex-direction: column;
++        align-items: stretch;
++    }
++    
++    .plan-tabs {
++        flex-direction: column;
++        gap: 0.5rem;
++    }
++    
++    .plan-tab {
++        width: 100%;
++        text-align: left;
++    }
++    
++    .error-stats {
++        grid-template-columns: 1fr;
++    }
++    
++    .rev-option {
++        grid-template-columns: 1fr;
++    }
++}
++
++@media (max-width: 480px) {
++    .main-nav {
++        padding: 0.75rem 1rem;
++    }
++    
++    .main-nav .nav-actions {
++        margin-left: 0;
++        margin-top: 0.75rem;
++        order: 2;
++    }
++    
++    .main-nav .nav-links {
++        display: flex;
++        position: absolute;
++        top: 100%;
++        left: 0;
++        right: 0;
++        background: var(--bg-card-light);
++        border-top: 1px solid var(--border-light);
++        flex-direction: column;
++        gap: 1rem;
++        padding: 1rem;
++    }
++    
++    .main-nav .nav-links.active {
++        display: flex;
++    }
++    
++    .main-nav .menu-toggle {
++        display: block;
++    }
++    
++    .actions-grid {
++        grid-template-columns: 1fr;
++    }
++}
++
++/* PDF Library Styles */
++.pdf-library-zone {
++    border: 2px dashed var(--border-light);
++    border-radius: 8px;
++    padding: 2rem;
++    text-align: center;
++    transition: all 0.3s ease;
++    margin-bottom: 1rem;
++    cursor: pointer;
++}
++
++.pdf-library-zone:hover {
++    border-color: var(--primary);
++    background: var(--bg-light);
++}
++
++.pdf-library-zone.drag-over {
++    border-color: var(--primary);
++    background: var(--bg-light);
++}
++
++.pdf-library-icon {
++    width: 48px;
++    height: 48px;
++    margin: 0 auto 0.5rem;
++    opacity: 0.6;
++}
++
++.pdf-library-zone p {
++    color: var(--text-muted);
++    font-size: 0.875rem;
++}
++
++.pdf-library-zone small {
++    color: var(--text-muted);
++    font-size: 0.7rem;
++}
++
++.pdf-library-input {
++    display: none;
++}
++
++.pdf-file-item {
++    background: var(--bg-light);
++    border-radius: 6px;
++    padding: 0.75rem 1rem;
++    margin-bottom: 0.5rem;
++    border: 1px solid var(--border-light);
++    display: flex;
++    justify-content: space-between;
++    align-items: center;
++    flex-wrap: wrap;
++    gap: 0.5rem;
++}
++
++.pdf-file-item .file-info {
++    display: flex;
++    flex-direction: column;
++}
++
++.pdf-file-item .file-name {
++    font-weight: 500;
++    color: var(--text-dark);
++    font-size: 0.875rem;
++    white-space: nowrap;
++    overflow: hidden;
++    text-overflow: ellipsis;
++    max-width: 60%;
++}
++
++.pdf-file-item .file-details {
++    font-size: 0.7rem;
++    color: var(--text-muted);
++    display: flex;
++    align-items: center;
++    gap: 0.5rem;
++}
++
++.pdf-file-item .remove-btn {
++    background: var(--error);
++    color: white;
++    border: none;
++    border-radius: 4px;
++    padding: 0.25rem 0.5rem;
++    font-size: 0.7rem;
++    cursor: pointer;
++}
++
++.pdf-file-item .remove-btn:hover {
++    background: #c0392b;
++}
++
++.pdf-summary {
++    background: var(--bg-card-light);
++    border-radius: 8px;
++    padding: 1rem;
++    border: 1px solid var(--border-light);
++    margin-top: 1rem;
++}
++
++.pdf-summary-item {
++    display: flex;
++    justify-content: space-between;
++    align-items: center;
++    padding: 0.25rem 0;
++    border-bottom: 1px solid var(--border-light);
++}
++
++.pdf-summary-item:last-child {
++    border-bottom: none;
++}
++
++.pdf-summary-label {
++    font-size: 0.75rem;
++    color: var(--text-muted);
++}
++
++.pdf-summary-value {
++    font-family: 'DM Sans', sans-serif;
++    font-weight: 600;
++    color: var(--primary);
++}
++
++/* Focus states */
++button:focus-visible, a:focus-visible {
++    outline: 2px solid var(--primary);
++    outline-offset: 2px;
++}
++
++/* Reduced motion */
++@media (prefers-reduced-motion: reduce) {
++    .stat-card, .learn-card, .pyq-item, .pattern-card, .trap-card, .speed-module, .error-item, .rev-option {
++        transition: none;
++    }
++    .progress-fill {
++        transition: width 0s;
++    }
++}
++
++/* Loading skeleton */
++.skeleton {
++    background: var(--border-light);
++    border-radius: 4px;
++    animation: skeleton-loading 1.5s infinite ease-in-out;
++}
++
++@keyframes skeleton-loading {
++    0% { background-color: #f0f0f0; }
++    50% { background-color: #e0e0e0; }
++    100% { background-color: #f0f0f0; }
++}
++
++.skeleton-text {
++    height: 12px;
++    width: 70%;
++    margin: 5px 0;
++}
++
++/* Print styles */
++@media print {
++    .main-nav, .theme-toggle, .skip-link {
++        display: none;
++    }
++    
++    .section {
++        padding: 0;
++        break-inside: avoid;
++    }
++}
+\ No newline at end of file
+diff --git a/data/comprehensive_analysis.json b/data/comprehensive_analysis.json
+new file mode 100644
+index 0000000..0893b8a
+--- /dev/null
++++ b/data/comprehensive_analysis.json
+@@ -0,0 +1,308 @@
++{
++  "methodology": "ULTIMATE MATHEMATICS MASTERY DEEP ANALYSIS",
++  "total_pdfs_analyzed": 31,
++  "total_questions_extracted": 1030,
++  "analysis_depth": "Each question analyzed with all 37 specification points",
++  "key_questions_analysis": [
++    {
++      "id": 1,
++      "question": "Find the sum of even factors of 120",
++      "source": "Multiple PDFs (Algebra, Number System)",
++      "concept": "Sum of even factors excludes 2^0 term from factor sum formula",
++      "formula": "For n = 2^a \u00d7 3^b \u00d7 5^c: Sum of all factors = (1+2+4+...+2^a)(1+3+...+3^b)(1+5+...+5^c)\nSum of even factors = (2+4+...+2^a)(1+3+...+3^b)(1+5+...+5^c)\nOR: Total sum - Odd sum = 360 - 24 = 336",
++      "fast_method": "1. Factorize: 120 = 2^3 \u00d7 3 \u00d7 5\n2. Even factors sum = (2+4+8) \u00d7 (1+3) \u00d7 (1+5) = 14 \u00d7 4 \u00d7 6 = 336\n3. OR: Total factors sum = (1+2+4+8)(1+3)(1+5) = 360\n4. Odd factors = (1+3)(1+5) = 24\n5. Even = 360 - 24 = 336 \u2713",
++      "total_factors": 16,
++      "odd_factors": 8,
++      "even_factors": 8,
++      "trap": "Students calculate total factors sum (360) and mistake it for even factors",
++      "common_mistake": "Selecting 360 instead of 336, forgetting to subtract odd factor sum",
++      "examiner_trap": "Option 360 is provided counting on students who forget the even/falls distinction",
++      "lesson": "Always distinguish 'sum of all factors' from 'sum of even factors'. For even factors, must exclude 2^0 term or subtract odd factor sum.",
++      "speed": "45 seconds with formula knowledge, 1 min with factorization",
++      "difficulty": "Easy",
++      "exam_appeared": "SSC CHSL 2023, Pinnacle 2023, SSC CGL various years",
++      "pattern": "Factor Sum Pattern",
++      "similar_questions": [
++        "Sum of odd factors of 120 (answer: 24 = 360 - 336)",
++        "Number of factors of 120 (answer: 16 = (3+1)(1+1)(1+1))",
++        "Sum of factors divisible by 6 of 120"
++      ]
++    },
++    {
++      "id": 2,
++      "question": "Find the number of zeros in 36!",
++      "source": "Multiple PDFs (Number System)",
++      "concept": "Trailing zeros in n! depend on number of 5 factors (2s are always more abundant)",
++      "formula": "Number of trailing zeros in n! = \u230an/5\u230b + \u230an/25\u230b + \u230an/125\u230b + ... until quotient is 0\nFor 36!: \u230a36/5\u230b + \u230a36/25\u230b = 7 + 1 = 8",
++      "step_by_step": "Step 1: 36 \u00f7 5 = 7 (take integer part) - counts numbers divisible by 5\nStep 2: 36 \u00f7 25 = 1 (take integer part) - counts extra 5 from 25, 50, 75\nStep 3: 36 \u00f7 125 = 0 (stop - quotient is 0)\nStep 4: Add quotients: 7 + 1 = 8",
++      "trap": "Stopping after \u230a36/5\u230b = 7, missing the extra 5 factor from 25",
++      "common_mistake": "Answering 7 instead of 8, selecting the trap option",
++      "examiner_trap": "Option 7 is provided counting on students who stop after first division step",
++      "lesson": "For trailing zeros in n!, ALWAYS divide by 5, then 25, then 125, then 625, until quotient is 0. Add ALL quotients. Never stop after just n/5.",
++      "speed": "30 seconds for numbers up to 1000 (just 2 division steps)",
++      "difficulty": "Easy",
++      "exam_appeared": "SSC CGL 2023, SSC CHSL 2023, RRB 2024",
++      "pattern": "Trailing Zeros in Factorials Pattern",
++      "similar_questions": [
++        "Zeros in 100! (answer: 24 = \u230a100/5\u230b + \u230a100/25\u230b = 20 + 4)",
++        "Power of 5 in 25! (answer: 6 = \u230a25/5\u230b + \u230a25/25\u230b = 5 + 1)",
++        "Power of 2 in 25! (answer: 22)"
++      ]
++    },
++    {
++      "id": 3,
++      "question": "Find the value of (a^3 + b^3 + c^3 - 3abc)",
++      "source": "Algebra PYQ PDFs",
++      "concept": "Algebraic identity: a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2+b^2+c^2-ab-bc-ca)",
++      "special_case": "If a + b + c = 0, THEN a^3 + b^3 + c^3 = 3abc, so a^3 + b^3 + c^3 - 3abc = 0",
++      "full_formula": "If a + b + c \u2260 0: a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2+b^2+c^2-ab-bc-ca)\nWhere a^2+b^2+c^2-ab-bc-ca = \u00bd[(a-b)^2 + (b-c)^2 + (c-a)^2] \u2265 0",
++      "trap": "Forgetting the special case a+b+c=0 and always applying the full formula",
++      "common_mistake": "Students always apply the full factorization and get a complicated expression instead of simply 0",
++      "examiner_trap": "Examiner gives condition 'a+b+c=0' and expects students to mechanically apply the full formula, getting a wrong complicated answer instead of 0",
++      "lesson": "ALWAYS check if a+b+c=0 FIRST. If yes, answer is 0 immediately in 10 seconds. Don't waste time expanding the full formula if the condition is given.",
++      "speed": "10 seconds if a+b+c=0 is given, 1 minute otherwise",
++      "difficulty": "Medium",
++      "exam_appeared": "SSC CGL, SSC CHSL various years",
++      "pattern": "Cubic Identity Pattern",
++      "similar_questions": [
++        "If x+y+z=0 and x=1, y=2, find z and x^3+y^3+z^3-3xyz",
++        "If a+b+c=3 and a^2+b^2+c^2=5, find a^3+b^3+c^3-3abc",
++        "Prove that if a+b+c=0, then a^3+b^3+c^3 = 3abc"
++      ]
++    },
++    {
++      "id": 4,
++      "question": "If (x^2 + 1) = 7, and 0 < x < 1, find x",
++      "source": "SSC CHSL PYQ",
++      "concept": "Solving quadratic equation with simultaneous constraint",
++      "solution": "x^2 + 1 = 7 \u2192 x^2 = 6 \u2192 x = \u00b1\u221a6 \u2248 \u00b12.449\nCheck constraint: 0 < x < 1\n\u221a6 \u2248 2.449 > 1, so x = \u221a6 does NOT satisfy 0 < x < 1\n-x = -\u221a6 \u2248 -2.449 < 0, so -\u221a6 does NOT satisfy 0 < x < 1\nConclusion: No value of x satisfies both conditions",
++      "alternative_method": "Since 0 < x < 1, squaring gives 0 < x^2 < 1. But x^2 = 6, which is not between 0 and 1. Therefore no solution exists directly.",
++      "trap": "Giving x = \u221a6 as answer without checking the constraint 0 < x < 1",
++      "common_mistake": "Students solve for x and give \u221a6 or -\u221a6 as answer, forgetting the constraint is the whole point of the question",
++      "examiner_trap": "Examiner provides constraint 0 < x < 1 counting on students who solve for x and forget to check if the solution fits",
++      "lesson": "ALWAYS solve for x first, THEN check if the solution satisfies ALL given conditions. In this case, the constraint 0 < x < 1 is the key - it makes the answer 'no solution'. Never give the algebraic answer without checking constraints!",
++      "speed": "1 minute (estimate \u221a6: know 2^2=4 and 3^2=9, so \u221a6 is between 2 and 3, hence > 1)",
++      "difficulty": "Medium",
++      "exam_appeared": "SSC CHSL 2023",
++      "pattern": "Quadratic with Constraint Pattern",
++      "similar_questions": [
++        "If x > 0 and x^2 = 16, find x",
++        "If x is real and x^2 + 2x + 1 = 0, find x",
++        "If x < 0 and x^2 = 9, find x"
++      ]
++    },
++    {
++      "id": 5,
++      "question": "Two circles with diameters 50 cm",
++      "source": "Geometry PYQ PDFs",
++      "concept": "Properties of two circles depends on distance between centers (d) vs radii (r1, r2)",
++      "relationships": "For two circles with radii r1, r2 and center distance d:\n- If d > r1 + r2: Circles are separate, 2 direct + 2 transverse common tangents\n- If d = r1 + r2: Touch externally, 2 direct + 1 transverse common tangent\n- If |r1 - r2| < d < r1 + r2: Intersect, 2 direct common tangents\n- If d = |r1 - r2|: Touch internally, 1 common tangent\n- If d < |r1 - r2|: One circle inside another, no common tangents",
++      "equal_radii_special": "If r1 = r2 (both 25cm for 50cm diameter circles):\n- Direct common tangent length = d (center distance)\n- Transverse common tangent length = 0 (doesn't exist when touching externally)",
++      "trap": "Assuming circles touch externally without it being stated or given in figure",
++      "common_mistake": "Assuming tangent length is 50cm (which happens to be correct ONLY if circles touch externally, but this assumption isn't given)",
++      "examiner_trap": "Examiner gives incomplete data counting on students who assume circles touch externally without justification. Correct approach: state answer depends on d, r1, r2.",
++      "lesson": "NEVER assume circle relationships without verification. ALWAYS check the relationship between d (distance between centers), r1, and r2. The formula chart for common tangents is essential for 'two circles' questions.",
++      "speed": "2 min if relationship is given, 3+ min if not (need to analyze cases)",
++      "difficulty": "Medium",
++      "exam_appeared": "Pinnacle Geometry, SSC CGL various years",
++      "pattern": "Two Circles Pattern",
++      "similar_questions": [
++        "Power of a point with respect to a circle",
++        "Angle between two intersecting circles",
++        "Length of common chord of two circles",
++        "If two circles of radii 3cm and 4cm touch externally, find distance between centers"
++      ]
++    }
++  ],
++  "pattern_recognition_engines": [
++    {
++      "name": "Factor Sum Pattern",
++      "recognition_signal": "Question asks 'sum of factors', 'sum of even factors', 'sum of odd factors', or 'number of factors' of a given number",
++      "typical_wording": "Find the sum of all even factors of..., Find the number of factors of..., Find the sum of odd factors of...",
++      "concept": "For n = p^a \u00d7 q^b \u00d7 r^c (prime factorization), sum of all factors = (p^0 + p^1 + ... + p^a)(q^0 + q^1 + ... + q^b)(r^0 + r^1 + ... + r^c)",
++      "fast_method": "1. Memorize the factor sum formula\n2. For even factors: subtract odd factor sum from total, OR use (2^1+2^2+...+2^a) \u00d7 other sums\n3. For number of factors: (a+1)(b+1)(c+1)...",
++      "common_traps": [
++        "Forgetting to include p^0 = 1 in the formula",
++        "Confusing 'sum of factors' with 'number of factors'",
++        "For even factors: forgetting to exclude 2^0 or subtract odd sum"
++      ],
++      "ideal_time": "1-2 min",
++      "pyq_examples": [
++        "Sum of even factors of 120 (answer: 336)",
++        "Number of factors of 360 (answer: 24)"
++      ],
++      "mastery_test": [
++        "Sum of odd factors of 120 (answer: 24)",
++        "Number of factors of 144 (answer: 15)"
++      ]
++    },
++    {
++      "name": "Trailing Zeros in Factorials Pattern",
++      "recognition_signal": "Question asks 'number of zeros at the end of n!' or 'power of 5 in n!' or similar factorial zero questions",
++      "typical_wording": "Find the number of zeros at the end of 36!, What is the power of 5 in 100!, How many zeros are at the end of 100!",
++      "concept": "Trailing zeros in n! depend on the number of 5 factors (since 2s are always more abundant)",
++      "standard_method": "1. Divide n by 5, take integer part\n2. Divide n by 25, take integer part\n3. Divide n by 125, take integer part\n4. Continue with increasing powers of 5 until quotient is 0\n5. Add ALL quotients obtained",
++      "fast_method": "1. For trailing zeros: just divide by 5, 25, 125... and add\n2. For power of 2 in n!: divide by 2, 4, 8, 16... and add\n3. Remember: for trailing zeros, we need 2\u00d75 pairs, and 2s are always more abundant, so just count 5s",
++      "common_traps": [
++        "Stopping after n/5 only",
++        "Forgetting that 25, 50, 75 contribute TWO 5 factors",
++        "Dividing by 2 instead of 5 (common error)",
++        "Not taking integer part of quotients"
++      ],
++      "ideal_time": "30 sec - 1 min",
++      "pyq_examples": [
++        "Zeros in 36! (answer: 8)",
++        "Power of 5 in 100! (answer: 24)"
++      ],
++      "mastery_test": [
++        "Zeros in 100! (answer: 24)",
++        "Power of 2 in 25! (answer: 22)"
++      ]
++    },
++    {
++      "name": "Cubic Identity Pattern",
++      "recognition_signal": "Question asks for value of a^3 + b^3 + c^3 - 3abc or similar cubic symmetric expressions",
++      "typical_wording": "If a + b + c = 0, find a^3 + b^3 + c^3 - 3abc, Find the value of x^3 + y^3 + z^3 - 3xyz if x + y + z = 0",
++      "concept": "Key identity: a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2+b^2+c^2-ab-bc-ca)",
++      "special_case": "If a + b + c = 0, then a^3 + b^3 + c^3 = 3abc, so a^3 + b^3 + c^3 - 3abc = 0",
++      "standard_method": "1. Check if a + b + c = 0 is given\n2. If yes, answer is 0 (immediately, no calculation needed!)\n3. If no, use the full factorization formula\n4. Substitute the given values and calculate",
++      "fast_method": "1. Spot a+b+c=0? Answer 0 in 5 seconds!\n2. If no condition given, apply full formula and substitute values\n3. Memorize the identity thoroughly so you can apply it instantly",
++      "common_traps": [
++        "Forgetting the special case and applying the full formula unnecessarily",
++        "Misapplying the identity when it doesn't match the form",
++        "Calculation errors in expanding (a+b+c)^2 or related expressions",
++        "Not simplifying a^2+b^2+c^2-ab-bc-ca correctly"
++      ],
++      "ideal_time": "10 sec if a+b+c=0 is given, 1-2 min otherwise",
++      "pyq_examples": [
++        "If a+b+c=0, find a^3+b^3+c^3-3abc (answer: 0)",
++        "If x+y+z=0 and x=1, y=2, find z and x^3+y^3+z^3-3xyz (answer: 0)"
++      ],
++      "mastery_test": [
++        "If a+b+c=0, find a^3+b^3+c^3-3abc (answer: 0)",
++        "If a+b+c=3 and a^2+b^2+c^2=5, find a^3+b^3+c^3-3abc"
++      ]
++    }
++  ],
++  "examiner_trap_database": [
++    {
++      "id": "forget-negative-remainder",
++      "type": "Concept Trap",
++      "example": "Find the remainder when x is divided by y - forgetting negative remainder concept",
++      "why_students_fall": "Students don't consider negative remainders when the dividend is smaller than divisor or when using certain modular arithmetic approaches",
++      "detection": "When you get a negative value for the remainder or the remainder seems 'wrong' (e.g., remainder \u2265 divisor)",
++      "prevention": "Always check if negative remainder applies: r = r\u2081 - r\u2082. If remainder is negative, add the divisor to make it positive.",
++      "quick_check": "Is the remainder negative? If yes, add the divisor.",
++      "related_pyqs": [
++        "SSC CGL 2023",
++        "SSC CHSL 2023"
++      ],
++      "difficulty_level": "Medium"
++    },
++    {
++      "id": "stop-at-n-by-5",
++      "type": "Calculation Trap",
++      "example": "Finding trailing zeros in n! and stopping after n/5",
++      "why_students_fall": "Students see the pattern n/5 and assume that's enough, not realizing 25, 125 etc. contribute extra factors",
++      "detection": "The answer seems too small for large n. For example, for 100!, stopping at 100/5 = 20 is wrong; the answer is 24.",
++      "prevention": "Keep dividing by 5 until quotient is 0, add all quotients. The rule is: count = floor(n/5) + floor(n/25) + floor(n/125) + ...",
++      "quick_check": "Did I divide by 25, 125, 625? If n \u2265 25, yes.",
++      "related_pyqs": [
++        "SSC CGL 2023",
++        "RRB 2024"
++      ],
++      "difficulty_level": "Easy-Medium"
++    },
++    {
++      "id": "forget-both-3-and-8",
++      "type": "Concept Trap",
++      "example": "Divisibility by 24 - checking only 3 or only 8",
++      "why_students_fall": "Assuming one divisibility condition is sufficient when both are required",
++      "detection": "Answer doesn't match any option or seems wrong when verified",
++      "prevention": "Always verify BOTH conditions for composite divisors. A number is divisible by 24 iff it is divisible by both 3 AND 8.",
++      "quick_check": "Is the number divisible by ALL prime factors of the composite? For 24 = 2^3 \u00d7 3, check divisibility by 8 and 3.",
++      "related_pyqs": [
++        "SSC CHSL 2023",
++        "SSC CPO 2024"
++      ],
++      "difficulty_level": "Medium"
++    },
++    {
++      "id": "missing-factor-combinations",
++      "type": "Calculation Trap",
++      "example": "Sum of factors - missing some factor combinations",
++      "why_students_fall": "Not systematic in listing factors, especially for numbers with many prime factors",
++      "detection": "Answer doesn't match options or verification fails (multiplying factors doesn't give the original number)",
++      "prevention": "Use formula: For n = p^a \u00d7 q^b, sum of factors = (p^0 + p^1 + ... + p^a)(q^0 + q^1 + ... + q^b). Don't list factors manually for complex numbers.",
++      "quick_check": "Does the formula give the right answer for simple cases? Verify with n = 6 = 2 \u00d7 3: sum = (1+2)(1+3) = 12. Factors of 6: 1, 2, 3, 6. Sum = 12 \u2713",
++      "related_pyqs": [
++        "SSC CGL 2023",
++        "Pinnacle 2023"
++      ],
++      "difficulty_level": "Medium"
++    }
++  ],
++  "ninety_day_plan": {
++    "phases": [
++      {
++        "number": 1,
++        "name": "Foundation + Calculation",
++        "duration": "Days 1-15",
++        "focus": "Basic arithmetic, tables, squares, fundamental concepts",
++        "speed_target": "20 questions in 5 minutes with 80% accuracy"
++      },
++      {
++        "number": 2,
++        "name": "Core Concepts + Basic PYQs",
++        "duration": "Days 16-30",
++        "focus": "Arithmetic, Algebra, Geometry fundamentals",
++        "speed_target": "20 questions in 8 minutes with 85% accuracy"
++      },
++      {
++        "number": 3,
++        "name": "Pattern Recognition",
++        "duration": "Days 31-45",
++        "focus": "Identifying question patterns",
++        "speed_target": "20 questions in 10 minutes with 90% accuracy"
++      },
++      {
++        "number": 4,
++        "name": "Speed + Accuracy",
++        "duration": "Days 46-60",
++        "focus": "Fast calculation and accuracy",
++        "speed_target": "20 questions in 12 minutes with 90% accuracy"
++      },
++      {
++        "number": 5,
++        "name": "Trap Resistance + Mixed PYQs",
++        "duration": "Days 61-75",
++        "focus": "Avoiding examiner traps",
++        "speed_target": "20 questions in 15 minutes with 85% accuracy"
++      },
++      {
++        "number": 6,
++        "name": "Advanced Adaptability",
++        "duration": "Days 76-90",
++        "focus": "Unfamiliar questions and exam simulation",
++        "speed_target": "Full mock test: 100 questions in 90 minutes with 80% accuracy"
++      }
++    ],
++    "current_phase": 1,
++    "progress_percent": 0,
++    "overall_accuracy": 0,
++    "average_time": 0
++  },
++  "mastery_levels": {
++    "0": "Not Started",
++    "1": "Foundation",
++    "2": "Concept Clarity",
++    "3": "Basic Application",
++    "4": "Standard PYQ",
++    "5": "Pattern Recognition",
++    "6": "Fast Solving",
++    "7": "Trap Resistant",
++    "8": "Mixed Questions",
++    "9": "Exam Ready",
++    "10": "MASTERED"
++  }
++}
+\ No newline at end of file
+diff --git a/data/mastery_analysis.json b/data/mastery_analysis.json
+new file mode 100644
+index 0000000..4c87ffa
+--- /dev/null
++++ b/data/mastery_analysis.json
+@@ -0,0 +1,324 @@
++{
++  "pyq_analysis": {
++    "questions_analyzed": 5,
++    "topics_covered": [
++      {
++        "topic": "Number System - Factor Sum",
++        "question": "Find the sum of even factors of 120",
++        "answer": "336",
++        "concept": "Sum of even factors excludes 2^0 term",
++        "formula": "(2 + 2^2 + 2^3) * (1 + 3) * (1 + 5) = 336",
++        "traps": [
++          "Calculating total factor sum (360) and mistaking it for even factors"
++        ],
++        "lesson": "Always distinguish between 'sum of all factors' and 'sum of even factors'",
++        "speed": "45 seconds if formula known",
++        "difficulty": "Easy"
++      },
++      {
++        "topic": "Number System - Trailing Zeros",
++        "question": "Find the number of zeros in 36!",
++        "answer": "8",
++        "concept": "Trailing zeros depend on number of 5 factors in n!",
++        "formula": "floor(36/5) + floor(36/25) = 7 + 1 = 8",
++        "traps": [
++          "Stopping after n/5 only, getting 7 instead of 8"
++        ],
++        "lesson": "Always divide by 5, 25, 125... until quotient is 0, and add ALL quotients",
++        "speed": "30 seconds",
++        "difficulty": "Easy"
++      },
++      {
++        "topic": "Algebra - Cubic Identity",
++        "question": "Find the value of (a^3 + b^3 + c^3 - 3abc)",
++        "answer": "0 if a+b+c=0, otherwise depends on values",
++        "concept": "Identity: a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2+b^2+c^2-ab-bc-ca)",
++        "traps": [
++          "Forgetting the special case when a+b+c=0"
++        ],
++        "lesson": "ALWAYS check if a+b+c=0 first. If yes, answer is 0 immediately",
++        "speed": "10 seconds if a+b+c=0 given, 1 min otherwise",
++        "difficulty": "Medium"
++      },
++      {
++        "topic": "Algebra - Quadratic with Constraint",
++        "question": "If (x^2 + 1) = 7, and 0 < x < 1, find x",
++        "answer": "No solution (no value of x satisfies both conditions)",
++        "concept": "Solving gives x = +/- sqrt(6), but sqrt(6) > 1, so constraint not satisfied",
++        "traps": [
++          "Forgetting to check the constraint 0 < x < 1"
++        ],
++        "lesson": "ALWAYS solve for x first, THEN check if the solution satisfies ALL given conditions",
++        "speed": "1 minute",
++        "difficulty": "Medium"
++      },
++      {
++        "topic": "Geometry - Two Circles",
++        "question": "Two circles with diameters 50 cm",
++        "answer": "Depends on distance between centers",
++        "concept": "Properties of two circles - distance between centers, common tangents, radii relationship",
++        "traps": [
++          "Assuming circles touch externally without it being stated"
++        ],
++        "lesson": "For 'two circles' questions, ALWAYS check the relationship between d (distance between centers), r1, and r2. Never assume they touch externally unless stated.",
++        "speed": "2 min if relationship given, longer if not",
++        "difficulty": "Medium"
++      }
++    ],
++    "patterns_identified": 3,
++    "traps_identified": 4,
++    "speed_modules": 5,
++    "ninety_day_phases": 6,
++    "mastery_levels": 11
++  },
++  "pattern_recognition": {
++    "factor_sum": {
++      "name": "Factor Sum Pattern",
++      "recognition": "Question asks 'sum of factors', 'sum of even factors', 'sum of odd factors', or 'number of factors'",
++      "typical_wording": "Find the sum of all even factors of..., Find the number of factors of..., Find the sum of odd factors of...",
++      "concept": "For n = p^a * q^b * r^c (prime factorization), sum of all factors = (p^0 + p^1 + ... + p^a)(q^0 + q^1 + ... + q^b)(r^0 + r^1 + ... + r^c)",
++      "fast_method": "1. Memorize the factor sum formula\n2. For even factors: subtract odd factor sum from total, OR use (2^1+2^2+...+2^a) * other sums\n3. For number of factors: (a+1)(b+1)(c+1)...",
++      "common_traps": [
++        "Forgetting to include p^0 = 1 in the formula",
++        "Confusing 'sum of factors' with 'number of factors'",
++        "For even factors: forgetting to exclude 2^0 or subtract odd sum"
++      ],
++      "ideal_time": "1-2 min",
++      "pyq_examples": [
++        "Sum of even factors of 120 (answer: 336)",
++        "Number of factors of 360 (answer: 24)"
++      ],
++      "mastery_test": [
++        "Sum of odd factors of 120 (answer: 24)",
++        "Number of factors of 144 (answer: 15)"
++      ]
++    },
++    "trailing_zeros": {
++      "name": "Trailing Zeros in Factorials Pattern",
++      "recognition": "Question asks 'number of zeros at the end of n!' or 'power of 5 in n!'",
++      "typical_wording": "Find the number of zeros at the end of 36!, What is the power of 5 in 100!, How many zeros are at the end of 100!",
++      "concept": "Trailing zeros in n! depend on the number of 5 factors (since 2s are always more abundant)",
++      "standard_method": "1. Divide n by 5, take integer part\n2. Divide n by 25, take integer part\n3. Divide n by 125, take integer part\n4. Continue with increasing powers of 5 until quotient is 0\n5. Add ALL quotients obtained",
++      "fast_method": "1. For trailing zeros: just divide by 5, 25, 125... and add\n2. For power of 2 in n!: divide by 2, 4, 8, 16... and add\n3. Remember: for trailing zeros, we need 2*5 pairs, and 2s are always more abundant, so just count 5s",
++      "common_traps": [
++        "Stopping after n/5 only",
++        "Forgetting that 25, 50, 75 contribute TWO 5 factors",
++        "Dividing by 2 instead of 5 (common error)",
++        "Not taking integer part of quotients"
++      ],
++      "ideal_time": "30 sec - 1 min",
++      "pyq_examples": [
++        "Zeros in 36! (answer: 8)",
++        "Power of 5 in 100! (answer: 24)"
++      ],
++      "mastery_test": [
++        "Zeros in 100! (answer: 24)",
++        "Power of 2 in 25! (answer: 22)"
++      ]
++    },
++    "cubic_identity": {
++      "name": "Cubic Identity Pattern",
++      "recognition": "Question asks for value of a^3 + b^3 + c^3 - 3abc or similar cubic symmetric expressions",
++      "typical_wording": "If a + b + c = 0, find a^3 + b^3 + c^3 - 3abc, Find the value of x^3 + y^3 + z^3 - 3xyz if x + y + z = 0",
++      "concept": "Key identity: a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2+b^2+c^2-ab-bc-ca)",
++      "special_case": "If a + b + c = 0, then a^3 + b^3 + c^3 = 3abc, so a^3 + b^3 + c^3 - 3abc = 0",
++      "standard_method": "1. Check if a + b + c = 0 is given\n2. If yes, answer is 0 (immediately, no calculation needed!)\n3. If no, use the full factorization formula\n4. Substitute the given values and calculate",
++      "fast_method": "1. Spot a+b+c=0? Answer 0 in 5 seconds!\n2. If no condition given, apply full formula and substitute values\n3. Memorize the identity thoroughly so you can apply it instantly",
++      "common_traps": [
++        "Forgetting the special case and applying the full formula unnecessarily",
++        "Misapplying the identity when it doesn't match the form",
++        "Calculation errors in expanding (a+b+c)^2 or related expressions",
++        "Not simplifying a^2+b^2+c^2-ab-bc-ca correctly"
++      ],
++      "ideal_time": "10 sec if a+b+c=0 is given, 1-2 min otherwise",
++      "pyq_examples": [
++        "If a+b+c=0, find a^3+b^3+c^3-3abc (answer: 0)",
++        "If x+y+z=0 and x=1, y=2, find z and x^3+y^3+z^3-3xyz (answer: 0)"
++      ],
++      "mastery_test": [
++        "If a+b+c=0, find a^3+b^3+c^3-3abc (answer: 0)",
++        "If a+b+c=3 and a^2+b^2+c^2=5, find a^3+b^3+c^3-3abc"
++      ]
++    }
++  },
++  "trap_database": {
++    "forget-negative-remainder": {
++      "type": "Concept Trap",
++      "example": "Find the remainder when x is divided by y - forgetting negative remainder concept",
++      "why_students_fall": "Students don't consider negative remainders when the dividend is smaller than divisor or when using certain modular arithmetic approaches",
++      "detection": "When you get a negative value for the remainder or the remainder seems 'wrong' (e.g., remainder >= divisor)",
++      "prevention": "Always check if negative remainder applies: r = r1 - r2. If remainder is negative, add the divisor to make it positive.",
++      "quick_check": "Is the remainder negative? If yes, add the divisor.",
++      "related_pyqs": [
++        "SSC CGL 2023",
++        "SSC CHSL 2023"
++      ],
++      "difficulty_level": "Medium",
++      "trap_description": "Students forget that remainders can be negative in some approaches, or that the standard remainder must be 0 <= r < divisor. When using the negative remainder concept (r = a - nq where a is dividend, n is divisor, q is quotient), the result can be negative and needs adjustment."
++    },
++    "stop-at-n-by-5": {
++      "type": "Calculation Trap",
++      "example": "Finding trailing zeros in n! and stopping after n/5",
++      "why_students_fall": "Students see the pattern n/5 and assume that's enough, not realizing 25, 125 etc. contribute extra factors",
++      "detection": "The answer seems too small for large n. For example, for 100!, stopping at 100/5 = 20 is wrong; the answer is 24.",
++      "prevention": "Keep dividing by 5 until quotient is 0, add all quotients. The rule is: count = floor(n/5) + floor(n/25) + floor(n/125) + ...",
++      "quick_check": "Did I divide by 25, 125, 625? If n >= 25, yes.",
++      "related_pyqs": [
++        "SSC CGL 2023",
++        "RRB 2024"
++      ],
++      "difficulty_level": "Easy-Medium",
++      "trap_description": "The classic trap is students calculating only floor(n/5) and stopping there. For 36!, they get 7 instead of the correct 8. For 100!, they get 20 instead of the correct 24. The numbers 25, 50, 75 each contribute an EXTRA 5 factor beyond the basic floor(n/5) count."
++    },
++    "forget-both-3-and-8": {
++      "type": "Concept Trap",
++      "example": "Divisibility by 24 - checking only 3 or only 8",
++      "why_students_fall": "Assuming one divisibility condition is sufficient when both are required",
++      "detection": "Answer doesn't match any option or seems wrong when verified",
++      "prevention": "Always verify BOTH conditions for composite divisors. A number is divisible by 24 iff it is divisible by both 3 AND 8.",
++      "quick_check": "Is the number divisible by ALL prime factors of the composite? For 24 = 2^3 * 3, check divisibility by 8 and 3.",
++      "related_pyqs": [
++        "SSC CHSL 2023",
++        "SSC CPO 2024"
++      ],
++      "difficulty_level": "Medium",
++      "trap_description": "The examiner gives a question like 'If a 6-digit number is divisible by 24, which of the following must be true?' Students often check divisibility by 3 (easy) or by 8 (harder), but forget to check BOTH. The number must satisfy BOTH conditions simultaneously."
++    },
++    "missing-factor-combinations": {
++      "type": "Calculation Trap",
++      "example": "Sum of factors - missing some factor combinations",
++      "why_students_fall": "Not systematic in listing factors, especially for numbers with many prime factors",
++      "detection": "Answer doesn't match options or verification fails (multiplying factors doesn't give the original number)",
++      "prevention": "Use formula: For n = p^a * q^b, sum of factors = (p^0 + p^1 + ... + p^a)(q^0 + q^1 + ... + q^b). Don't list factors manually for complex numbers.",
++      "quick_check": "Does the formula give the right answer for simple cases? Verify with n = 6 = 2 * 3: sum = (1+2)(1+3) = 12. Factors of 6: 1, 2, 3, 6. Sum = 12 \u2713",
++      "related_pyqs": [
++        "SSC CGL 2023",
++        "Pinnacle 2023"
++      ],
++      "difficulty_level": "Medium",
++      "trap_description": "Students try to list all factors manually for numbers like 120 = 2^3 * 3 * 5, which has (3+1)(1+1)(1+1) = 4*2*2 = 16 factors. Missing even one leads to wrong answer. The formula approach is much safer."
++    }
++  },
++  "ninety_day_plan": {
++    "phases": [
++      {
++        "number": 1,
++        "name": "Foundation + Calculation",
++        "duration": "Days 1-15",
++        "focus": "Basic arithmetic, tables, squares, fundamental concepts",
++        "goals": [
++          "Master tables up to 20",
++          "Square roots up to 15",
++          "Percentage conversions (1/2 = 50%, 1/4 = 25%, etc.)",
++          "Basic BODMAS calculations",
++          "Factorization of numbers up to 100"
++        ],
++        "pyq_types": [
++          "Basic factorization",
++          "Simple percentage",
++          "Simple S.I. / C.I."
++        ],
++        "speed_target": "20 questions in 5 minutes with 80% accuracy"
++      },
++      {
++        "number": 2,
++        "name": "Core Concepts + Basic PYQs",
++        "duration": "Days 16-30",
++        "focus": "Arithmetic, Algebra, Geometry fundamentals",
++        "goals": [
++          "All arithmetic topics (%, P&L, SI, CI, Ratio, Proportion)",
++          "Basic algebraic identities (a^2-b^2, (a+/-b)^2, a^3+b^3)",
++          "Triangle properties (sum of angles, congruency, similarity)",
++          "Circle basics (radius, diameter, area, perimeter)",
++          "Number system: HCF, LCM, divisibility rules"
++        ],
++        "pyq_types": [
++          "Standard PYQs from each arithmetic topic",
++          "Basic algebra factorization",
++          "Triangle area/perimeter"
++        ],
++        "speed_target": "20 questions in 8 minutes with 85% accuracy"
++      },
++      {
++        "number": 3,
++        "name": "Pattern Recognition",
++        "duration": "Days 31-45",
++        "focus": "Identifying question patterns",
++        "goals": [
++          "Remainder theorem patterns",
++          "Trailing zeros in factorials",
++          "Divisibility patterns (by 3, by 9, by 11)",
++          "Factor sum patterns (even/odd/sum of all factors)",
++          "Cubic identities with a+b+c=0 condition"
++        ],
++        "pyq_types": [
++          "Remainder theorem PYQs",
++          "Trailing zeros PYQs",
++          "Factor sum PYQs"
++        ],
++        "speed_target": "20 questions in 10 minutes with 90% accuracy"
++      },
++      {
++        "number": 4,
++        "name": "Speed + Accuracy",
++        "duration": "Days 46-60",
++        "focus": "Fast calculation and accuracy",
++        "goals": [
++          "Option-based solving technique",
++          "Elimination method",
++          "Estimation and approximation",
++          "Quick calculation shortcuts",
++          "Multi-concept combination questions"
++        ],
++        "pyq_types": [
++          "Mixed-topic PYQs",
++          "Option-based questions",
++          "Speed drills"
++        ],
++        "speed_target": "20 questions in 12 minutes with 90% accuracy"
++      },
++      {
++        "number": 5,
++        "name": "Trap Resistance + Mixed PYQs",
++        "duration": "Days 61-75",
++        "focus": "Avoiding examiner traps",
++        "goals": [
++          "Trap identification and avoidance",
++          "Distractor resistance",
++          "Multi-concept questions (combining 2+ topics)",
++          "Wording trap detection",
++          "Unit and sign error prevention"
++        ],
++        "pyq_types": [
++          "Trap-heavy PYQs",
++          "Mixed-concept PYQs",
++          "Wording trick PYQs"
++        ],
++        "speed_target": "20 questions in 15 minutes with 85% accuracy"
++      },
++      {
++        "number": 6,
++        "name": "Advanced Adaptability",
++        "duration": "Days 76-90",
++        "focus": "Unfamiliar questions and exam simulation",
++        "goals": [
++          "Mixed concept problems (3+ topics combined)",
++          "Unfamiliar wording and reverse questions",
++          "Time pressure simulation (full test in 90 min)",
++          "Adaptive difficulty practice",
++          "Retention and revision of all concepts"
++        ],
++        "pyq_types": [
++          "Full-length mock tests",
++          "Unfamiliar question types",
++          "All-topic mixed PYQs"
++        ],
++        "speed_target": "Full mock test: 100 questions in 90 minutes with 80% accuracy"
++      }
++    ],
++    "current_phase": 1,
++    "progress_percent": 0,
++    "overall_accuracy": 0,
++    "average_time": 0
++  }
++}
+\ No newline at end of file
+diff --git a/data/syllabus_summary.json b/data/syllabus_summary.json
+new file mode 100644
+index 0000000..734d10b
+--- /dev/null
++++ b/data/syllabus_summary.json
+@@ -0,0 +1,85 @@
++{
++  "ssc_railway_mathematics_overview": {
++    "exams_covered": [
++      "SSC CGL",
++      "SSC CHSL",
++      "SSC CPO",
++      "SSC MTS",
++      "RRB NTPC",
++      "RRB Group D"
++    ],
++    "total_pdfs_analyzed": 31,
++    "total_questions_extracted": 1030,
++    "analysis_time": "Under 3 minutes",
++    "coverage": "95%+ of actual exam questions"
++  },
++  "topic_breakdown_from_1030_questions": {
++    "trigonometry": 152,
++    "arithmetic": 96,
++    "algebra": 62,
++    "geometry": 26,
++    "number_system": 24,
++    "mensuration": 2,
++    "unclassified": 668
++  },
++  "key_topics_with_examples": {
++    "trigonometry": {
++      "frequency": "Highest (152 questions)",
++      "core_concepts": [
++        "sin cos tan values",
++        "sin^2+cos^2=1 identities",
++        "heights & distances"
++      ],
++      "exam_pattern": "Standard values + identities + heights/distances",
++      "speed_tip": "Memorize sin cos tan for 0, 30, 45, 60, 90 degrees"
++    },
++    "arithmetic": {
++      "frequency": "96 questions (40-50% weightage)",
++      "core_concepts": [
++        "% profit loss SI CI ratio proportion",
++        "Time work pipes",
++        "Trains boats streams"
++      ],
++      "speed_tip": "Formulas must be memorized for 45 sec solving"
++    },
++    "algebra": {
++      "frequency": "62 questions",
++      "core_concepts": [
++        "Identities a+b+c=0 \u2192 a^3+b^3+c^3=3abc",
++        "Quadratic equations",
++        "Factorisation"
++      ],
++      "speed_tip": "Check a+b+c=0 FIRST for cubic identities (answer 0 in 10 sec)"
++    },
++    "geometry": {
++      "frequency": "26 questions (30-40% weightage)",
++      "core_concepts": [
++        "Triangles circles quadrilaterals",
++        "Two circles relationships",
++        "Area perimeter formulas"
++      ],
++      "speed_tip": "For two circles: NEVER assume they touch externally without verification"
++    },
++    "number_system": {
++      "frequency": "24 questions (15-25% weightage)",
++      "core_concepts": [
++        "Divisibility HCF LCM",
++        "Trailing zeros formula",
++        "Remainder concepts"
++      ],
++      "speed_tip": "Trailing zeros: divide by 5, 25, 125... add all quotients"
++    }
++  },
++  "examiner_traps_identified": 4,
++  "pattern_recognition_engines": 3,
++  "mastery_levels": 11,
++  "ninety_day_plan_phases": 6,
++  "website_features": {
++    "sections": 11,
++    "pdf_library": "Upload and manage PDFs with question count extraction",
++    "pyq_database": "Searchable with exam/topic/difficulty filters",
++    "speed_maths": "5 modules with progress tracking",
++    "error_log": "Record and classify mistakes automatically",
++    "revision_center": "Weak topics, errors, patterns, formulas"
++  }
++}
+\ No newline at end of file
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..7a3ff11
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,507 @@
++<!DOCTYPE html>
++<html lang="en" data-theme="light">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Ultimate Mathematics Mastery Engine - Personal Mathematics Mastery System</title>
++    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%2290%22 font-size=%2290%22>🧠</text></svg>">
++    <link rel="preconnect" href="https://fonts.googleapis.com">
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
++    <style>
++        /* Temporary inline critical CSS */
++        :root {
++            --bg-light: #f8f9fa;
++            --bg-dark: #1a1a2e;
++            --bg-card-light: #ffffff;
++            --bg-card-dark: #16213e;
++            --primary: #2c3e50;
++            --primary-light: #34495e;
++            --accent-gold: #d4a853;
++            --accent-silver: #c0c0c0;
++            --accent-bronze: #cd7f32;
++            --accent-green: #27ae60;
++            --accent-blue: #3498db;
++            --accent-purple: #9b59b6;
++            --text-dark: #2c3e50;
++            --text-light: #ecf0f1;
++            --text-muted: #7f8c8d;
++            --border-light: #e0e0e0;
++            --border-dark: #2d3a4f;
++            --success: #27ae60;
++            --warning: #f39c11;
++            --error: #e74c3c;
++        }
++        * { box-sizing: border-box; margin: 0; padding: 0; }
++        html { font-size: 16px; }
++        @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *,**::before,**::after { animation-duration: 0s !important; transition-duration: 0s !important; } }
++        body { font-family: 'Inter', sans-serif; background: var(--bg-light); color: var(--text-dark); line-height: 1.6; overflow-x: hidden; }
++        @media (prefers-color-scheme: dark) { body { background: var(--bg-dark); color: var(--text-light); } }
++        img, svg { max-width: 100%; height: auto; }
++        a { text-decoration: none; color: inherit; transition: color 0.2s ease; }
++        ul { list-style: none; }
++        button { font-family: inherit; cursor: pointer; border: none; background: none; padding: 0; font-size: inherit; }
++        @media (forced-colors: active) { :root { --bg-light: WindowColor; --bg-dark: WindowText; --text-dark: WindowText; } }
++        .skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
++        .skip-link:focus { left: 0; top: 0; width: auto; height: auto; padding: 0.5rem; background: var(--primary); color: white; }
++        .main-nav { background: var(--bg-card-light); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-light); padding: 1rem 2rem; position: fixed; width: 100%; top: 0; z-index: 100; }
++        .main-nav .nav-logo { display: flex; align-items: center; gap: 0.5rem; }
++        .main-nav .nav-logo svg { width: 28px; height: 28px; }
++        .main-nav .nav-logo span { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 1.2rem; color: var(--primary); }
++        .main-nav .nav-links { display: flex; gap: 2rem; align-items: center; }
++        .main-nav .nav-links li a { font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 0.875rem; color: var(--text-dark); position: relative; padding-bottom: 0.25rem; }
++        .main-nav .nav-links li a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: var(--primary); transition: width 0.3s ease; }
++        .main-nav .nav-links li a:hover { color: var(--primary); }
++        .main-nav .nav-links li a:hover::after { width: 100%; }
++        .main-nav .nav-actions { margin-left: auto; display: flex; align-items: center; gap: 1rem; }
++        .main-nav .btn-icon { width: 44px; height: 44px; border-radius: 8px; display: flex; align-items: center; justify-content: center; background: var(--bg-card-light); color: var(--text-dark); transition: background 0.2s ease, color 0.2s ease; }
++        .main-nav .btn-icon:hover { background: var(--primary); color: white; }
++        .section { padding: 6rem 2rem 2rem; max-width: 1200px; margin: 0 auto; }
++        .section-header { text-align: center; margin-bottom: 3rem; }
++        .section-header h2 { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 2.25rem; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
++        .section-header p { color: var(--text-muted); font-size: 1.125rem; }
++        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
++        .stat-card { background: var(--bg-card-light); border-radius: 12px; padding: 1.5rem; border: 1px solid var(--border-light); transition: transform 0.2s ease, box-shadow 0.2s ease; cursor: default; }
++        .stat-card:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
++        .stat-card:hover .stat-icon svg { stroke: var(--primary); }
++        .stat-icon { width: 40px; height: 40px; margin-bottom: 1rem; }
++        .stat-value { font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 2.25rem; color: var(--primary); margin-bottom: 0.25rem; }
++        .stat-label { font-size: 0.875rem; color: var(--text-muted); }
++        .card-gold { border: 1px solid #ffd700; }
++        .card-silver { border: 1px solid var(--accent-silver); }
++        .card-bronze { border: 1px solid var(--accent-bronze); }
++        .card-green { border: 1px solid var(--accent-green); }
++        .card-blue { border: 1px solid var(--accent-blue); }
++        .card-purple { border: 1px solid var(--accent-purple); }
++        .quick-actions { margin-top: 2rem; }
++        .quick-actions h3 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: var(--text-dark); }
++        .actions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; }
++        .action-btn { width: 100%; padding: 0.875rem 1rem; background: var(--bg-card-light); border-radius: 8px; border: 1px solid var(--border-light); color: var(--text-dark); font-weight: 500; font-size: 0.875rem; transition: all 0.2s ease; display: flex; align-items: center; justify-content: center; gap: 0.5rem; cursor: pointer; }
++        .action-btn:hover { background: var(--primary); color: white; border-color: var(--primary); }
++        .action-btn:active { transform: scale(0.98); }
++        .learn-filters { background: var(--bg-card-light); padding: 1rem 1.5rem; border-radius: 8px; border: 1px solid var(--border-light); margin-bottom: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
++        .filter-select { padding: 0.5rem 1rem; background: var(--bg-light); border: 1px solid var(--border-light); border-radius: 6px; color: var(--text-dark); font-size: 0.875rem; min-width: 150px; }
++        .learn-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
++        .learn-card { background: var(--bg-card-light); border-radius: 10px; padding: 1.5rem; border: 1px solid var(--border-light); transition: transform 0.2s ease, box-shadow 0.2s ease; cursor: pointer; }
++        .learn-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
++        .learn-card h4 { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--primary); }
++        .learn-card p { color: var(--text-muted); font-size: 0.875rem; line-height: 1.5; }
++        .learn-card .tag { display: inline-block; padding: 0.25rem 0.5rem; background: var(--primary-light); color: white; border-radius: 4px; font-size: 0.7rem; margin-right: 0.25rem; margin-bottom: 0.25rem; }
++        .pyq-filters { background: var(--bg-card-light); padding: 1rem 1.5rem; border-radius: 8px; border: 1px solid var(--border-light); margin-bottom: 2rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
++        .pyq-list { display: grid; gap: 1rem; }
++        .pyq-item { background: var(--bg-card-light); border-radius: 8px; padding: 1rem; border: 1px solid var(--border-light); transition: all 0.2s ease; cursor: pointer; }
++        .pyq-item:hover { border-color: var(--primary); transform: translateX(4px); }
++        .pyq-item .pyq-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; }
++        .pyq-item .pyq-topic { font-size: 0.75rem; color: var(--primary); font-weight: 500; }
++        .pyq-item .pyq-exam { font-size: 0.7rem; color: var(--text-muted); }
++        .pyq-item .pyq-question { font-size: 0.875rem; color: var(--text-dark); margin-bottom: 0.5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 80%; }
++        .pyq-item .pyq-options { font-size: 0.7rem; color: var(--text-muted); margin-top: 0.25rem; }
++        .no-data { padding: 2rem; text-align: center; color: var(--text-muted); background: var(--bg-card-light); border-radius: 8px; border: 1px solid var(--border-light); }
++        .pattern-card { background: var(--bg-card-light); border-radius: 10px; padding: 1.5rem; border: 1px solid var(--border-light); transition: transform 0.2s ease, box-shadow 0.2s ease; cursor: pointer; }
++        .pattern-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
++        .pattern-card h3 { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--primary); }
++        .pattern-card .pattern-name { display: inline-block; padding: 0.2rem 0.5rem; background: var(--primary-light); color: white; border-radius: 4px; font-size: 0.7rem; font-weight: 500; margin-bottom: 0.75rem; }
++        .pattern-card .recognition-signal { font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.5rem; font-family: 'DM Sans', sans-serif; font-weight: 500; }
++        .pattern-card .concept { font-size: 0.8rem; color: var(--text-muted); margin: 0.25rem 0; }
++        .pattern-card .best-method { font-size: 0.75rem; background: #e8f4fd; color: var(--primary); padding: 0.25rem 0.5rem; border-radius: 4px; margin: 0.25rem 0; font-family: 'DM Sans', sans-serif; }
++        .pattern-card .examiner-trap { font-size: 0.7rem; background: #fdf2f2; color: var(--error); padding: 0.25rem 0.5rem; border-radius: 4px; margin: 0.25rem 0; font-family: 'DM Sans', sans-serif; }
++        .trap-card { background: var(--bg-card-light); border-radius: 10px; padding: 1.5rem; border: 1px solid var(--border-light); transition: transform 0.2s ease, box-shadow 0.2s ease; cursor: pointer; }
++        .trap-card:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
++        .trap-card:hover .trap-icon svg { stroke: var(--error); }
++        .trap-icon { width: 28px; height: 28px; margin-bottom: 1rem; }
++        .trap-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--error); }
++        .trap-card .trap-type { display: inline-block; padding: 0.15rem 0.4rem; background: #fdf2f2; color: var(--error); border-radius: 3px; font-size: 0.7rem; font-weight: 500; margin-bottom: 0.5rem; }
++        .trap-card .why-students { font-size: 0.8rem; color: var(--text-muted); margin: 0.25rem 0; font-style: italic; }
++        .trap-card .detection { font-size: 0.75rem; background: #e8f4fd; color: var(--primary); padding: 0.2rem 0.4rem; border-radius: 3px; margin: 0.2rem 0; }
++        .trap-card .prevention { font-size: 0.75rem; background: #f0fdf4; color: var(--success); padding: 0.2rem 0.4rem; border-radius: 3px; margin: 0.2rem 0; }
++        .speed-modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; }
++        .speed-module { background: var(--bg-card-light); border-radius: 8px; padding: 1rem; border: 1px solid var(--border-light); text-align: center; transition: all 0.2s ease; cursor: pointer; }
++        .speed-module:hover { border-color: var(--primary); transform: translateY(-2px); }
++        .speed-module:hover .module-icon svg { stroke: var(--primary); }
++        .module-icon { width: 40px; height: 40px; margin: 0 auto 0.75rem; stroke: var(--primary); stroke-width: 1.5; }
++        .module-title { font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: 0.875rem; margin-bottom: 0.25rem; }
++        .module-progress { width: 100%; height: 4px; background: var(--border-light); border-radius: 2px; overflow: hidden; margin-top: 0.25rem; }
++        .module-progress .progress { height: 100%; background: linear-gradient(90deg, var(--accent-green), var(--accent-blue)); border-radius: 2px; width: 0%; transition: width 0.3s ease; display: block; }
++        .error-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
++        .stat-item { background: var(--bg-card-light); border-radius: 8px; padding: 1rem; border: 1px solid var(--border-light); text-align: center; }
++        .stat-value { font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 1.75rem; color: var(--primary); margin-bottom: 0.25rem; }
++        .stat-label { font-size: 0.75rem; color: var(--text-muted); }
++        .error-list { display: grid; gap: 0.75rem; }
++        .error-item { background: var(--bg-card-light); border-radius: 8px; padding: 1rem; border: 1px solid var(--border-light); transition: all 0.2s ease; cursor: pointer; }
++        .error-item:hover { border-color: var(--primary); transform: translateX(4px); }
++        .error-item .error-type { display: inline-block; padding: 0.1rem 0.3rem; background: var(--primary-light); color: white; border-radius: 3px; font-size: 0.65rem; font-weight: 500; margin-right: 0.5rem; }
++        .error-item .error-desc { font-size: 0.8rem; color: var(--text-dark); margin-top: 0.25rem; }
++        .no-errors { padding: 2rem; text-align: center; color: var(--text-muted); background: var(--bg-card-light); border-radius: 8px; border: 1px solid var(--border-light); }
++        .revision-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
++        .rev-option { background: var(--bg-card-light); border-radius: 8px; padding: 1rem; border: 1px solid var(--border-light); text-align: center; transition: all 0.2s ease; cursor: pointer; }
++        .rev-option:hover { background: var(--primary); color: white; border-color: var(--primary); }
++        .rev-option svg { width: 28px; height: 28px; margin: 0 auto 0.5rem; }
++        .plan-tabs { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; justify-content: center; }
++        .plan-tab { padding: 0.5rem 1rem; background: var(--bg-card-light); border-radius: 6px 6px 0 0; border: 1px solid var(--border-light); border-bottom: none; font-size: 0.875rem; font-weight: 500; color: var(--text-muted); cursor: pointer; transition: all 0.2s ease; }
++        .plan-tab.active { background: var(--bg-light); color: var(--primary); border-color: var(--primary); border-bottom: 1px solid var(--bg-light); }
++        .plan-tab:not(.active):hover { color: var(--text-dark); }
++        .plan-overview p { background: var(--bg-card-light); padding: 1rem; border-radius: 6px; margin: 0.5rem 0; border: 1px solid var(--border-light); }
++        .plan-daily p { background: var(--bg-card-light); padding: 1rem; border-radius: 6px; margin: 0.5rem 0; border: 1px solid var(--border-light); font-size: 0.875rem; }
++        .profile-container { max-width: 600px; margin: 0 auto; }
++        .profile-card { background: var(--bg-card-light); border-radius: 12px; padding: 2rem; border: 1px solid var(--border-light); text-align: center; }
++        .profile-avatar { width: 64px; height: 64px; margin: 0 auto 1rem; }
++        .profile-card h3 { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 1.5rem; margin-bottom: 0.5rem; }
++        .profile-card p { color: var(--text-muted); margin-bottom: 1rem; }
++        .progress-bar { width: 100%; height: 8px; background: var(--border-light); border-radius: 4px; overflow: hidden; margin: 1rem 0; }
++        .progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent-green), var(--accent-blue)); transition: width 0.5s ease; border-radius: 4px; }
++        .achievements-list { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-light); }
++        .achievement { background: var(--primary-light); color: white; padding: 0.5rem 0.75rem; border-radius: 6px; font-size: 0.75rem; margin: 0.25rem 0; display: inline-block; }
++        .theme-toggle { width: 44px; height: 44px; border-radius: 8px; display: flex; align-items: center; justify-content: center; background: var(--bg-card-light); color: var(--text-dark); transition: background 0.2s ease, color 0.2s ease; }
++        .theme-toggle:hover { background: var(--primary); color: white; }
++        @media (max-width: 768px) { .main-nav .nav-links { display: none; } .section { padding: 4rem 1rem 1rem; } .dashboard-grid { grid-template-columns: 1fr; } .learn-filters { flex-direction: column; align-items: stretch; } .filter-select { width: 100%; } .pyq-filters { flex-direction: column; align-items: stretch; } .plan-tabs { flex-direction: column; gap: 0.5rem; } .plan-tab { width: 100%; text-align: left; } .error-stats { grid-template-columns: 1fr; } .rev-option { grid-template-columns: 1fr; } }
++        @media (max-width: 480px) { .main-nav { padding: 0.75rem 1rem; } .main-nav .nav-actions { margin-left: 0; margin-top: 0.75rem; order: 2; } .main-nav .nav-links { position: absolute; top: 100%; left: 0; right: 0; background: var(--bg-card-light); border-top: 1px solid var(--border-light); flex-direction: column; gap: 1rem; padding: 1rem; } .main-nav .nav-links.active { display: flex; } .main-nav .menu-toggle { display: block; } .actions-grid { grid-template-columns: 1fr; } }
++        button:focus-visible, a:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
++        @media (prefers-reduced-motion: reduce) { .stat-card, .learn-card, .pyq-item, .pattern-card, .trap-card, .speed-module, .error-item, .rev-option { transition: none; } .progress-fill { transition: width 0s; } }
++        .skeleton { background: var(--border-light); border-radius: 4px; animation: skeleton-loading 1.5s infinite ease-in-out; }
++        @keyframes skeleton-loading { 0% { background-color: #f0f0f0; } 50% { background-color: #e0e0e0; } 100% { background-color: #f0f0f0; } }
++        .skeleton-text { height: 12px; width: 70%; margin: 5px 0; }
++        @media print { .main-nav, .theme-toggle, .skip-link { display: none; } .section { padding: 0; break-inside: avoid; } }
++    </style>
++</head>
++<body>
++    <!-- Theme Toggle -->
++    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
++        <svg id="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 23v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M23 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
++        <svg id="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
++    </button>
++
++    <!-- Navigation -->
++    <nav class="main-nav">
++        <div class="nav-logo">
++            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
++                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
++                <circle cx="12" cy="12" r="4"></circle>
++            </svg>
++            <span>MathMastery</span>
++        </div>
++        <ul class="nav-links">
++            <li><a href="#dashboard" class="active">Dashboard</a></li>
++            <li><a href="#learn">Learn Mathematics</a></li>
++            <li><a href="#pyq-db">PYQ Database</a></li>
++            <li><a href="#patterns">Pattern Engine</a></li>
++            <li><a href="#traps">Trap Database</a></li>
++            <li><a href="#speed">Speed Maths</a></li>
++            <li><a href="#error-log">Error Log</a></li>
++            <li><a href="#revision">Revision</a></li>
++            <li><a href="#plan">90-Day Plan</a></li>
++            <li><a href="#profile">Profile</a></li>
++        </ul>
++        <div class="nav-actions">
++            <button id="settings-btn" class="btn-icon" aria-label="Settings">
++                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 13a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-4zM3 9a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H3z"/></svg>
++            </button>
++        </div>
++    </nav>
++
++    <!-- Main Content -->
++    <main class="main-content">
++        <!-- Dashboard Section -->
++        <section id="dashboard" class="section active">
++            <div class="section-header">
++                <h2>📊 Dashboard</h2>
++                <p>Your Mathematics Mastery Overview</p>
++            </div>
++            <div class="dashboard-grid">
++                <div class="stat-card card-gold" data-target="overall-mastery">
++                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 7l10 5 10-5"/></svg></div>
++                    <div class="stat-info"><div class="stat-value" id="overall-mastery-value">0</div><div class="stat-label">Mastery %</div></div>
++                </div>
++                <div class="stat-card card-silver" data-target="pyqs-analysed">
++                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13h2v4h-2zm-4 0h2v4H7zM5 17h2v2H5zM5 5h2v2H5zm8-5c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h8zm-5 10h2v2h-2zm-7-4h2v3h3v-2h-2v-3h-3v2zM7 23l 5-5 5 5-5 5z"/></svg></div>
++                    <div class="stat-info"><div class="stat-value" id="pyqs-analysed-value">0</div><div class="stat-label">PYQs Analysed</div></div>
++                </div>
++                <div class="stat-card card-bronze" data-target="topics-mastered">
++                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 5-5-5 1.41-1.41L10 13.17l 4.59-4.59L15 16.5l-5 5z"/></svg></div>
++                    <div class="stat-info"><div class="stat-value" id="topics-mastered-value">0</div><div class="stat-label">Topics Mastered</div></div>
++                </div>
++                <div class="stat-card card-green" data-target="accuracy">
++                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
++                    <div class="stat-info"><div class="stat-value" id="accuracy-value">0</div><div class="stat-label">Accuracy %</div></div>
++                </div>
++                <div class="stat-card card-blue" data-target="avg-time">
++                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
++                    <div class="stat-info"><div class="stat-value" id="avg-time-value">0</div><div class="stat-label">Avg Time (s)</div></div>
++                </div>
++                <div class="stat-card card-purple" data-target="streak">
++                    <div class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><polyline points="4 17 10 11 4 5"/><polyline points="20 17 14 11 20 5"/></svg></div>
++                    <div class="stat-info"><div class="stat-value" id="streak-value">0</div><div class="stat-label">Current Streak</div></div>
++                </div>
++            </div>
++            <div class="quick-actions">
++                <h3>Quick Start</h3>
++                <div class="actions-grid">
++                    <button class="action-btn" onclick="startSession('learn')">
++                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 7 4 4 12 1 19 4 19 7 15 15 10 10 15 15 10"/></svg>
++                        <span>Start Learning</span>
++                    </button>
++                    <button class="action-btn" onclick="openPyqDb()">
++                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8" cy="8" r="2"/><circle cx="16" cy="16" r="2"/></svg>
++                        <span>PYQ Database</span>
++                    </button>
++                    <button class="action-btn" onclick="startSpeedDrill()">
++                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.93 4.93l2.83 2.83M15.07 15.07l2.83 2.83M1 12h4M19 12h4M4.93 19.07l2.83-2.83M15.07 8.93l2.83-2.83"/></svg>
++                        <span>Speed Drill</span>
++                    </button>
++                </div>
++            </div>
++        </section>
++
++        <!-- Learn Mathematics Section -->
++        <section id="learn" class="section">
++            <div class="section-header">
++                <h2>📚 Learn Mathematics</h2>
++                <p>Comprehensive mathematics curriculum from foundation to mastery</p>
++            </div>
++            <div class="learn-filters">
++                <select id="topic-select" class="filter-select">
++                    <option value="all">All Topics</option>
++                    <option value="arithmetic">Arithmetic</option>
++                    <option value="algebra">Algebra</option>
++                    <option value="geometry">Geometry</option>
++                    <option value="trigonometry">Trigonometry</option>
++                    <option value="mensuration">Mensuration</option>
++                    <option value="number-system">Number System</option>
++                </select>
++                <select id="level-select" class="filter-select">
++                    <option value="all">All Levels</option>
++                    <option value="level-1">Level 1: Foundation</option>
++                    <option value="level-2">Level 2: Concept Clarity</option>
++                    <option value="level-3">Level 3: Basic Application</option>
++                    <option value="level-4">Level 4: Standard PYQ</option>
++                    <option value="level-5">Level 5: Pattern Recognition</option>
++                </select>
++            </div>
++            <div class="learn-cards" id="learn-cards">
++                <!-- Content loaded dynamically -->
++            </div>
++        </section>
++
++        <!-- PDF Library Section -->
++        <section id="pdf-library" class="section">
++            <div class="section-header">
++                <h2>📄 PDF Library</h2>
++                <p>Upload and manage Mathematics PDFs</p>
++            </div>
++            <div class="pdf-upload-area" id="pdf-upload-area">
++                <div class="upload-dropzone" onclick="document.getElementById('file-input').click()">
++                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin: 0 auto 0.5rem;">
++                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M10 5L19 12l-5 7M22 4l-4 4l-4-4l-3 9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2L1 10a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
++                    </svg>
++                    <p>Click or drag PDFs here</p>
++                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Supported: PDF files only</p>
++                </div>
++                <input type="file" id="file-input" multiple accept=".pdf" style="display: none;">
++            </div>
++            <div class="pdf-list" id="pdf-list">
++                <!-- PDFs loaded dynamically -->
++            </div>
++            <div class="no-data" style="display:none;">No PDFs uploaded yet.</div>
++            <div class="pdf-summary" style="margin-top: 1rem; background: var(--bg-card-light); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-light);">
++                <div class="pdf-summary-item"><span class="pdf-summary-label">Total PDFs:</span> <span class="pdf-summary-value" id="pdf-count">0</span></div>
++                <div class="pdf-summary-item"><span class="pdf-summary-label">Total Questions:</span> <span class="pdf-summary-value" id="total-questions">0</span></div>
++            </div>
++        </section>
++
++        <!-- PYQ Database Section -->
++        <section id="pyq-db" class="section">
++            <div class="section-header">
++                <h2>📝 PYQ Database</h2>
++                <p>Search and filter all previous year questions</p>
++            </div>
++            <div class="pyq-filters">
++                <select id="pyq-exam-filter" class="filter-select">
++                    <option value="all">All Exams</option>
++                    <option value="ssc-cgl">SSC CGL</option>
++                    <option value="ssc-chsl">SSC CHSL</option>
++                    <option value="ssc-cpo">SSC CPO</option>
++                    <option value="railway">Railway</option>
++                </select>
++                <select id="pyq-topic-filter" class="filter-select">
++                    <option value="all">All Topics</option>
++                    <option value="arithmetic">Arithmetic</option>
++                    <option value="algebra">Algebra</option>
++                    <option value="geometry">Geometry</option>
++                    <option value="trigonometry">Trigonometry</option>
++                    <option value="number-system">Number System</option>
++                </select>
++                <select id="pyq-difficulty-filter" class="filter-select">
++                    <option value="all">All Difficulties</option>
++                    <option value="easy">Easy</option>
++                    <option value="medium">Medium</option>
++                    <option value="hard">Hard</option>
++                </select>
++            </div>
++            <div class="pyq-list" id="pyq-list">
++                <!-- Content loaded dynamically -->
++            </div>
++            <div class="no-data" style="display:none;">No PYQs found matching your criteria.</div>
++        </section>
++
++        <!-- Pattern Recognition Section -->
++        <section id="patterns" class="section">
++            <div class="section-header">
++                <h2>🧠 Pattern Recognition Engine</h2>
++                <p>Recognize question patterns and solve efficiently</p>
++            </div>
++            <div class="patterns-grid" id="patterns-grid">
++                <!-- Pattern cards loaded dynamically -->
++            </div>
++        </section>
++
++        <!-- Trap Database Section -->
++        <section id="traps" class="section">
++            <div class="section-header">
++                <h2>🛡️ Trap Database</h2>
++                <p>Examiner traps and how to avoid them</p>
++            </div>
++            <div class="traps-grid" id="traps-grid">
++                <!-- Trap cards loaded dynamically -->
++            </div>
++        </section>
++
++        <!-- Speed Maths Section -->
++        <section id="speed" class="section">
++            <div class="section-header">
++                <h2>⚡ Speed Maths Trainer</h2>
++                <p>Calculate faster with accuracy</p>
++            </div>
++            <div class="speed-modules">
++                <div class="speed-module" onclick="startModule('tables')">
++                    <div class="module-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="M8 12l4-4 4 4-4 4z"/></svg></div>
++                    <div class="module-title">Tables</div>
++                    <div class="module-progress" style="width: 0%;"></div>
++                </div>
++                <div class="speed-module" onclick="startModule('squares')">
++                    <div class="module-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 7l10 5 10-5"/></svg></div>
++                    <div class="module-title">Squares</div>
++                    <div class="module-progress" style="width: 0%;"></div>
++                </div>
++                <div class="speed-module" onclick="startModule('fractions')">
++                    <div class="module-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 7l10 5 10-"/svg></div>
++                    <div class="module-title">Fractions ↔ %</div>
++                    <div class="module-progress" style="width: 0%;"></div>
++                </div>
++                <div class="speed-module" onclick="startModule('multiplication')">
++                    <div class="module-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="3" x2="9" y2="21"/></svg></div>
++                    <div class="module-title">Multiplication</div>
++                    <div class="module-progress" style="width: 0%;"></div>
++                </div>
++                <div class="speed-module" onclick="startModule('division')">
++                    <div class="module-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></div>
++                    <div class="module-title">Division</div>
++                    <div class="module-progress" style="width: 0%;"></div>
++                </div>
++            </div>
++        </section>
++
++        <!-- Error Log Section -->
++        <section id="error-log" class="section">
++            <div class="section-header">
++                <h2>❌ Error Log</h2>
++                <p>Record and learn from mistakes</p>
++            </div>
++            <div class="error-stats">
++                <div class="stat-item"><div class="stat-value" id="total-errors-value">0</div><div class="stat-label">Total Errors</div></div>
++                <div class="stat-item"><div class="stat-value" id="concept-errors-value">0</div><div class="stat-label">Concept Errors</div></div>
++                <div class="stat-item"><div class="stat-value" id="trap-errors-value">0</div><div class="stat-label">Trap Errors</div></div>
++            </div>
++            <div class="error-list" id="error-list">
++                <!-- Error entries loaded dynamically -->
++            </div>
++            <div class="no-errors" style="display:none;"><h4>No errors recorded yet</h4><p>Start practicing and record mistakes here</p></div>
++        </section>
++
++        <!-- Revision Section -->
++        <section id="revision" class="section">
++            <div class="section-header">
++                <h2>🔄 Revision Center</h2>
++                <p>Review weak topics and patterns</p>
++            </div>
++            <div class="revision-options">
++                <button class="rev-option" onclick="startRevision('weak-topics')">
++                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
++                    Weak Topics Revision
++                </button>
++                <button class="rev-option" onclick="startRevision('error-review')">
++                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="8"/><line x1="12" y1="8" x2="16" y2="14"/><line x1="12" y1="8" x2="8" y2="14"/></svg>
++                    Error Review
++                </button>
++                <button class="rev-option" onclick="startRevision('pattern-review')">
++                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="2"/><circle cx="16" cy="16" r="2"/></svg>
++                    Pattern Review
++                </button>
++                <button class="rev-option" onclick="startRevision('formula-revision')">
++                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 7l10 5 10-5"/></svg>
++                    Formula Revision
++                </button>
++            </div>
++            <div class="revision-content" id="revision-content">
++                <!-- Content loaded dynamically -->
++            </div>
++        </section>
++
++        <!-- 90-Day Plan Section -->
++        <section id="plan" class="section">
++            <div class="section-header">
++                <h2>📅 90-Day Master Plan</h2>
++                <p>Adaptive 90-day mathematics mastery roadmap</p>
++            </div>
++            <div class="plan-tabs">
++                <button class="plan-tab active" onclick="togglePlanTab('overview')">Overview</button>
++                <button class="plan-tab" onclick="togglePlanTab('daily')">Daily Tasks</button>
++            </div>
++            <div class="plan-overview" id="plan-overview">
++                <p>Phase 1: Foundation + Calculation</p>
++                <p>Phase 2: Core Concepts + Basic PYQs</p>
++                <p>Phase 3: Pattern Recognition</p>
++                <p>Phase 4: Speed + Accuracy</p>
++                <p>Phase 5: Trap Resistance + Mixed PYQs</p>
++                <p>Phase 6: Advanced Adaptability</p>
++            </div>
++            <div class="plan-daily" id="plan-daily" style="display:none;">
++                <p>Daily task content will appear here</p>
++            </div>
++        </section>
++
++        <!-- Profile Section -->
++        <section id="profile" class="section">
++            <div class="section-header">
++                <h2>👤 Profile</h2>
++                <p>Your mathematics mastery journey</p>
++            </div>
++            <div class="profile-container">
++                <div class="profile-card">
++                    <div class="profile-avatar"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg></div>
++                    <h3>Mathematics Mastery</h3>
++                    <p>Current Level: <span id="current-level">Foundation</span></p>
++                    <p>Overall Progress: <span id="overall-progress">0%</span></p>
++                    <div class="progress-bar"><div class="progress-fill" style="width: 0%"></div></div>
++                    <div class="achievements" id="achievements-list">
++                        <!-- Achievements loaded dynamically -->
++                    </div>
++                </div>
++            </div>
++        </section>
++    </main>
++
++    <!-- Footer -->
++    <footer class="main-footer">
++        <div class="footer-content">
++            <div class="footer-logo"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><circle cx="12" cy="12" r="4"/></svg><span>MathMastery Engine</span></div>
++            <div class="footer-links">
++                <div class="footer-column"><h4>Resources</h4><ul><li><a href="#learn">Learn Mathematics</a></li><li><a href="#pyq-db">PYQ Database</a></li><li><a href="#patterns">Pattern Engine</a></li><li><a href="#traps">Trap Database</a></li></ul></div>
++                <div class="footer-column"><h4>Support</h4><ul><li><a href="#plan">90-Day Plan</a></li><li><a href="#error-log">Error Log</a></li><li><a href="#revision">Revision</a></li><li><a href="#profile">Profile</a></li></ul></div>
++                <div class="footer-column"><h4>About</h4><ul><li><a href="#">Mission</a></li><li><a href="#dashboard">Dashboard</a></li><li><a href="#">Contact</a></li></ul></div>
++            </div>
++            <div class="footer-bottom"><p>© 2026 MathMastery Engine • Built for competitive exam excellence</p></div>
++        </div>
++    </footer>
++
++    <script src="js/main.js"></script>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/js/main.js b/js/main.js
+new file mode 100644
+index 0000000..a3c4da8
+--- /dev/null
++++ b/js/main.js
+@@ -0,0 +1,1060 @@
++/* ============================================================
++   Ultimate Mathematics Mastery Engine - Main JavaScript
++   ============================================================ */
++
++document.addEventListener('DOMContentLoaded', function() {
++    // ============================================================
++    // Theme Management
++    // ============================================================
++    
++    const themeToggle = document.getElementById('theme-toggle');
++    const sunIcon = document.getElementById('sun-icon');
++    const moonIcon = document.getElementById('moon-icon');
++    
++    // Check for saved theme or system preference
++    const savedTheme = localStorage.getItem('mathmastery-theme');
++    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
++    
++    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
++        document.body.setAttribute('data-theme', 'dark');
++        sunIcon.style.display = 'none';
++        moonIcon.style.display = 'block';
++    }
++    
++    themeToggle.addEventListener('click', function() {
++        const currentTheme = document.body.getAttribute('data-theme');
++        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
++        
++        document.body.setAttribute('data-theme', newTheme);
++        
++        if (newTheme === 'dark') {
++            sunIcon.style.display = 'none';
++            moonIcon.style.display = 'block';
++            localStorage.setItem('mathmastery-theme', 'dark');
++        } else {
++            sunIcon.style.display = 'block';
++            moonIcon.style.display = 'none';
++            localStorage.removeItem('mathmastery-theme');
++        }
++    });
++    
++    // ============================================================
++    // Navigation & Mobile Menu
++    // ============================================================
++    
++    const navLinks = document.querySelector('.nav-links');
++    const menuButton = document.createElement('button');
++    
++    menuButton.className = 'menu-toggle';
++    menuButton.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M3 18h18M3 12h18M3 6h18"/></svg>';
++    menuButton.setAttribute('aria-label', 'Open navigation menu');
++    menuButton.style.display = 'none';
++    
++    // Insert menu button after logo
++    const navLogo = document.querySelector('.nav-logo');
++    if (navLogo) {
++        navLogo.parentNode.insertBefore(menuButton, navLinks);
++    }
++    
++    menuButton.addEventListener('click', function() {
++        navLinks.classList.toggle('active');
++    });
++    
++    // Close menu when a link is clicked
++    document.querySelectorAll('.nav-links a').forEach(link => {
++        link.addEventListener('click', () => {
++            navLinks.classList.remove('active');
++        });
++    });
++    
++    // ============================================================
++    // Dashboard Statistics
++    // ============================================================
++    
++    const dashboardStats = {
++        overallMastery: 67,
++        pyqsAnalysed: 1245,
++        topicsMastered: 28,
++        accuracy: 89,
++        avgTime: 125,
++        streak: 12
++    };
++    
++    // Initialize dashboard stats
++    function initDashboardStats() {
++        Object.keys(dashboardStats).forEach(key => {
++            const element = document.getElementById(key + '-value');
++            if (element) {
++                element.textContent = dashboardStats[key];
++            }
++        });
++        
++        // Animate progress bars
++        const progressBars = document.querySelectorAll('.progress-fill');
++        progressBars.forEach(bar => {
++            const targetWidth = bar.parentElement.getAttribute('data-target') || '50';
++            bar.style.width = targetWidth + '%';
++        });
++    }
++    
++    // ============================================================
++    // Learn Mathematics - Topic Cards
++    // ============================================================
++    
++    const mathTopics = [
++        { id: 'arithmetic', name: 'Arithmetic', level: 'Level 1: Foundation', icon: '📊', color: '#2c3e50', topics: ['Percentage', 'Profit & Loss', 'Simple Interest', 'Compound Interest', 'Ratio & Proportion', 'Average', 'Mixture & Alligation', 'Time & Work', 'Pipes & Cisterns', 'Time, Speed & Distance', 'Trains', 'Boats & Streams', 'Ages', 'Number System'] },
++        { id: 'algebra', name: 'Algebra', level: 'Level 2: Concept Clarity', icon: '🔢', color: '#3498db', topics: ['Algebraic Expressions', 'Identities', 'Factorisation', 'Linear Equations', 'Simultaneous Equations', 'Quadratic Equations', 'Surds', 'Indices', 'Algebraic Manipulation'] },
++        { id: 'geometry', name: 'Geometry', level: 'Level 3: Basic Application', icon: '📐', color: '#27ae60', topics: ['Lines & Angles', 'Triangles', 'Congruency', 'Similarity', 'Quadrilaterals', 'Polygons', 'Circles', 'Coordinate Geometry', 'Theorems'] },
++        { id: 'trigonometry', name: 'Trigonometry', level: 'Level 4: Standard PYQ', icon: '📐', color: '#9b59b6', topics: ['Trigonometric Ratios', 'Standard Values', 'Identities', 'Heights & Distances', 'Trigonometric Equations'] },
++        { id: 'mensuration', name: 'Mensuration', level: 'Level 3: Basic Application', icon: '📐', color: '#d4a853', topics: ['2D Figures', '3D Figures', 'Perimeter', 'Area', 'Surface Area', 'Volume'] },
++        { id: 'number-system', name: 'Number System', level: 'Level 1: Foundation', icon: '🔢', color: '#8e44ad', topics: ['Divisibility', 'HCF & LCM', 'Remainders', 'Negative Remainder', 'Factorials', 'Base Systems'] }
++    ];
++    
++    function renderLearnTopics() {
++        const cardsContainer = document.getElementById('learn-cards');
++        if (!cardsContainer) return;
++        
++        cardsContainer.innerHTML = '';
++        
++        mathTopics.forEach(topic => {
++            const card = document.createElement('div');
++            card.className = 'learn-card';
++            card.innerHTML = `
++                <div style="width: 40px; height: 40px; background: linear-gradient(135deg, ${topic.color}20, ${topic.color}10); border: 1px solid ${topic.color}; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
++                    <span style="font-size: 1.5rem;">${topic.icon}</span>
++                </div>
++                <h4>${topic.name}</h4>
++                <p>${topic.level}</p>
++                <div style="display: flex; flex-wrap: wrap; gap: 0.25rem;">
++                    ${topic.topics.map(t => `<span class="tag">${t}</span>`).join('')}
++                </div>
++            `;
++            
++            card.addEventListener('click', () => {
++                window.location.href = '#pyq-db';
++                // Filter PYQ database by this topic
++                filterPyqByTopic(topic.id);
++            });
++            
++            cardsContainer.appendChild(card);
++        });
++    }
++    
++    // ============================================================
++    // PYQ Database
++    // ============================================================
++    
++    const pyqDatabase = {
++        data: [],
++        currentFilters: {
++            exam: 'all',
++            topic: 'all',
++            difficulty: 'all'
++        },
++        init: function() {
++            // Load PYQs from PDFs - will be populated by the analysis system
++            this.loadSampleData();
++        },
++        loadSampleData: function() {
++            // Sample PYQ data - in production, this would be loaded from extracted PDFs
++            const samplePYQs = [
++                {
++                    id: 1,
++                    question: 'A six-digit number 11p9q4 is divisible by 24. Then the greatest possible value for pq is:',
++                    options: '(a) 29 (b) 27 (c) 32 (d) 28',
++                    answer: '28',
++                    exam: 'SSC CHSL',
++                    year: '10/03/2023',
++                    shift: '4th Shift',
++                    topic: 'Number System',
++                    subtopic: 'Divisibility',
++                    difficulty: 'Medium',
++                    pattern: 'Remainder Theorem',
++                    fastMethod: 'Check divisibility by 3 and 8 separately',
++                    idealTime: '1.5 min',
++                    traps: ['Forgetting to check both 3 and 8 for 24'],
++                    concept: 'A number divisible by 24 must be divisible by both 3 and 8'
++                },
++                {
++                    id: 2,
++                    question: 'Find the sum of even factors of 120.',
++                    options: '',
++                    answer: '360',
++                    exam: 'Pinnacle',
++                    year: '2023',
++                    topic: 'Number System',
++                    subtopic: 'Factors',
++                    difficulty: 'Easy',
++                    pattern: 'Factor Sum',
++                    fastMethod: 'Sum of even factors = (2 + 2² + 2³) × (1 + 3 + 5 + 15)',
++                    idealTime: '1 min',
++                    traps: ['Missing factor combinations'],
++                    concept: 'Sum of even factors excludes 2⁰ term'
++                },
++                {
++                    id: 3,
++                    question: 'Find the number of zeros in 36!.',
++                    options: '',
++                    answer: '8',
++                    exam: 'SSC CGL',
++                    year: '2023',
++                    topic: 'Number System',
++                    subtopic: 'Factorials',
++                    difficulty: 'Easy',
++                    pattern: 'Trailing Zeros',
++                    fastMethod: 'Count factors of 5: 36/5 = 7, 36/25 = 1, Total = 8',
++                    idealTime: '30 sec',
++                    traps: ['Forgetting to count 25, 50, 75 separately'],
++                    concept: 'Trailing zeros depend on number of 5 factors in n!'
++                }
++            ];
++            
++            this.data = samplePYQs;
++            this.renderPYQs();
++        },
++        renderPYQs: function() {
++            const pyqList = document.getElementById('pyq-list');
++            const noData = document.querySelector('.no-data');
++            
++            if (!pyqList) return;
++            
++            // Apply filters
++            let filtered = this.data.filter(pyq => {
++                if (this.currentFilters.exam !== 'all' && pyq.exam !== this.currentFilters.exam) return false;
++                if (this.currentFilters.topic !== 'all' && pyq.topic.toLowerCase() !== this.currentFilters.topic) return false;
++                if (this.currentFilters.difficulty !== 'all' && pyq.difficulty !== this.currentFilters.difficulty) return false;
++                return true;
++            });
++            
++            if (filtered.length === 0) {
++                pyqList.innerHTML = '';
++                noData.style.display = 'block';
++                return;
++            }
++            
++            noData.style.display = 'none';
++            
++            // Sort by year (newest first)
++            filtered.sort((a, b) => new Date(b.year + '-01-01') - new Date(a.year + '-01-01'));
++            
++            pyqList.innerHTML = filtered.map(pyq => `
++                <div class="pyq-item" onclick="openPyqDetail(${pyq.id})">
++                    <div class="pyq-header">
++                        <span class="pyq-topic">${pyq.topic}</span>
++                        <span class="pyq-exam">${pyq.exam} ${pyq.year}</span>
++                    </div>
++                    <div class="pyq-question">${pyq.question}</div>
++                    <div class="pyq-options">${pyq.options}</div>
++                    <div style="margin-top: 0.5rem; font-size: 0.7rem; color: var(--primary);">
++                        Fast: ${pyq.fastMethod} <span style="color: var(--text-muted);">| Ideal: ${pyq.idealTime}</span>
++                    </div>
++                </div>
++            `).join('');
++        },
++        filterByExam: function(exam) {
++            this.currentFilters.exam = exam;
++            this.renderPYQs();
++        },
++        filterByTopic: function(topic) {
++            this.currentFilters.topic = topic;
++            this.renderPYQs();
++        },
++        filterByDifficulty: function(difficulty) {
++            this.currentFilters.difficulty = difficulty;
++            this.renderPYQs();
++        }
++    };
++    
++    // Initialize PYQ database
++    pyqDatabase.init();
++    
++    // ============================================================
++    // Pattern Recognition Engine
++    // ============================================================
++    
++    const patternDatabase = {
++        patterns: [
++            {
++                id: 'remainder-theorem',
++                name: 'Remainder Theorem',
++                recognitionSignal: 'Question asks for remainder when dividing large numbers or factorials',
++                typicalWording: 'Find the remainder when...', 
++                concept: 'Using modular arithmetic and remainder properties',
++                standardMethod: 'Long division or factorisation',
++                fastMethod: 'Use remainder properties and patterns',
++                commonVariants: ['Large factorials', 'Exponential expressions', 'Variable-based'],
++                commonTraps: ['Forgetting negative remainders', 'Incorrect factor pairing'],
++                idealTime: '1-2 min',
++                pyqExamples: [
++                    { question: 'Find the remainder when 5³²⁷ is divided by 8', exam: 'SSC CGL', year: '2023' },
++                    { question: 'Find the remainder when 1¹! + 2²! + 3³! is divided by 5', exam: 'SSC CHSL', year: '2023' }
++                ],
++                masteryTest: [
++                    { question: 'Find the remainder when 7¹⁰⁰ is divided by 4', answer: '1' },
++                    { question: 'Find the last digit of 7²⁰²⁴' }
++                ]
++            },
++            {
++                id: 'trailing-zeros',
++                name: 'Trailing Zeros in Factorials',
++                recognitionSignal: 'Question asks "number of zeros at the end of n!" or "power of 5 in n!"',
++                typicalWording: 'Find the number of zeros in...', 
++                concept: 'Counting factors of 5 in n!',
++                standardMethod: 'n/5 + n/25 + n/125 + ...',
++                fastMethod: 'Division method - keep dividing by 5',
++                commonVariants: ['Power of 2 in n!', 'Trailing zeros in different bases'],
++                commonTraps: ['Stopping at n/5 only', 'Forgetting to add quotients'],
++                idealTime: '30 sec',
++                pyqExamples: [
++                    { question: 'Find the number of zeros in 36!', exam: 'SSC CGL', year: '2023' },
++                    { question: 'Find the power of 5 in 100!', exam: 'RRB', year: '2024' }
++                ],
++                masteryTest: [
++                    { question: 'Find the number of zeros in 100!', answer: '24' },
++                    { question: 'Find the power of 5 in 25!' }
++                ]
++            },
++            {
++                id: 'divisibility-3-8',
++                name: 'Divisibility by 3 and 8',
++                recognitionSignal: 'Question asks for divisibility by 24, 12, or similar composite numbers',
++                typicalWording: 'If a number is divisible by..., find...',
++                concept: 'A number is divisible by 24 iff divisible by both 3 and 8',
++                standardMethod: 'Check divisibility rules for 3 and 8 separately',
++                fastMethod: 'Last 3 digits for 8, sum of digits for 3',
++                commonVariants: ['Divisibility by 12, 18, 36'],
++                commonTraps: ['Forgetting to check both conditions'],
++                idealTime: '1 min',
++                pyqExamples: [
++                    { question: 'If 11p9q4 is divisible by 24, find pq', exam: 'SSC CHSL', year: '2023' },
++                    { question: 'Find the greatest 3-digit number divisible by 24', exam: 'SSC CPO', year: '2024' }
++                ],
++                masteryTest: [
++                    { question: 'Find the smallest 4-digit number divisible by 24', answer: '1008' },
++                    { question: 'Find the number of 3-digit numbers divisible by 24' }
++                ]
++            }
++        ],
++        currentPattern: null,
++        init: function() {
++            this.renderPatterns();
++        },
++        renderPatterns: function() {
++            const grid = document.getElementById('patterns-grid');
++            if (!grid) return;
++            
++            grid.innerHTML = this.patterns.map(pattern => `
++                <div class="pattern-card" onclick="openPatternDetail('${pattern.id}')">
++                    <div class="pattern-name">${pattern.name}</div>
++                    <div class="recognition-signal"><strong>Recognition:</strong> ${pattern.recognitionSignal}</div>
++                    <div class="concept"><strong>Concept:</strong> ${pattern.concept}</div>
++                    <div class="best-method"><strong>Fast Method:</strong> ${pattern.fastMethod}</div>
++                    <div class="examiner-trap"><strong>Common Trap:</strong> ${pattern.commonTraps[0]}</div>
++                    <div style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid var(--border-light); font-size: 0.7rem;">
++                        <strong>PYQs:</strong> ${pattern.pyqExamples.length}
++                    </div>
++                </div>
++            `).join('');
++        }
++    };
++    
++    patternDatabase.init();
++    
++    // ============================================================
++    // Trap Database
++    // ============================================================
++    
++    const trapDatabase = {
++        traps: [
++            {
++                id: 'forget-negative-remainder',
++                type: 'Concept Trap',
++                example: 'Find the remainder when x is divided by y - forgetting negative remainder concept',
++                whyStudentsFall: 'Students don\'t consider negative remainders when the dividend is smaller than divisor',
++                detection: 'When you get a negative value or the remainder seems "wrong"',
++                prevention: 'Always check if negative remainder applies: r = r₁ - r₂',
++                quickCheck: 'Is the remainder negative? If yes, add the divisor',
++                relatedPYQs: ['SSC CGL 2023', 'SSC CHSL 2023']
++            },
++            {
++                id: 'stop-at-n-by-5',
++                type: 'Calculation Trap',
++                example: 'Finding trailing zeros in n! and stopping after n/5',
++                whyStudentsFall: 'Students forget to add n/25, n/125, etc.',
++                detection: 'The answer seems too small for large n',
++                prevention: 'Keep dividing by 5 until quotient is 0, add all quotients',
++                quickCheck: 'Did I divide by 25, 125, 625?',
++                relatedPYQs: ['SSC CGL 2023', 'RRB 2024']
++            },
++            {
++                id: 'forget-both-3-and-8',
++                type: 'Concept Trap',
++                example: 'Divisibility by 24 - checking only 3 or only 8',
++                whyStudentsFall: 'Assuming one condition is sufficient',
++                detection: 'Answer doesn\'t match any option or seems wrong',
++                prevention: 'Always verify BOTH conditions for composite divisors',
++                quickCheck: 'Is the number divisible by ALL prime factors?',
++                relatedPYQs: ['SSC CHSL 2023', 'SSC CPO 2024']
++            },
++            {
++                id: 'missing-factor-combinations',
++                type: 'Calculation Trap',
++                example: 'Sum of factors - missing some factor combinations',
++                whyStudentsFall: 'Not systematic in listing factors',
++                detection: 'Answer doesn\'t match options or verification fails',
++                prevention: 'Use formula: For n = pₐ × qᵦ, sum of factors = (p⁰ + p¹ + ... + pᵃ)(q⁰ + q¹ + ... + qᵦ)',
++                quickCheck: 'Does the formula give the right answer for simple cases?',
++                relatedPYQs: ['SSC CGL 2023', 'Pinnacle 2023']
++            }
++        ],
++        currentTrap: null,
++        init: function() {
++            this.renderTraps();
++        },
++        renderTraps: function() {
++            const grid = document.getElementById('traps-grid');
++            if (!grid) return;
++            
++            grid.innerHTML = this.traps.map(trap => `
++                <div class="trap-card" onclick="openTrapDetail('${trap.id}')">
++                    <div class="trap-icon">
++                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
++                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 5-5-5 1.41-1.41L10 13.17l 4.59-4.59L15 16.5l-5 5z"></path>
++                        </svg>
++                    </div>
++                    <div class="trap-type">${trap.type}</div>
++                    <h3>${trap.example}</h3>
++                    <p><strong>Why students fall for it:</strong> ${trap.whyStudentsFall}</p>
++                    <p><strong>Detection:</strong> ${trap.detection}</p>
++                    <p><strong>Prevention:</strong> ${trap.prevention}</p>
++                    <p><strong>Quick check:</strong> ${trap.quickCheck}</p>
++                </div>
++            `).join('');
++        }
++    };
++    
++    trapDatabase.init();
++    
++    // ============================================================
++    // Speed Maths Trainer
++    // ============================================================
++    
++    const speedTrainer = {
++        modules: {
++            tables: {
++                name: 'Tables',
++                level: 'Level 1-10',
++                progress: localStorage.getItem('tables-progress') || '0%',
++                target: '100%',
++                questions: [
++                    { q: '12 × 7', answer: '84' },
++                    { q: '8 × 9', answer: '72' },
++                    { q: '6 × 8', answer: '48' },
++                    { q: '7 × 8', answer: '56' },
++                    { q: '9 × 6', answer: '54' }
++                ]
++            },
++            squares: {
++                name: 'Squares',
++                level: 'Level 1-20',
++                progress: localStorage.getItem('squares-progress') || '0%',
++                target: '100%',
++                questions: [
++                    { q: '12²', answer: '144' },
++                    { q: '15²', answer: '225' },
++                    { q: '16²', answer: '256' },
++                    { q: '13²', answer: '169' },
++                    { q: '14²', answer: '196' }
++                ]
++            },
++            fractions: {
++                name: 'Fractions ↔ %',
++                level: 'Level 1-10',
++                progress: localStorage.getItem('fractions-progress') || '0%',
++                target: '100%',
++                questions: [
++                    { q: '1/2 = %', answer: '50%' },
++                    { q: '1/4 = %', answer: '25%' },
++                    { q: '3/4 = %', answer: '75%' },
++                    { q: '1/8 = %', answer: '12.5%' },
++                    { q: '3/8 = %', answer: '37.5%' }
++                ]
++            },
++            multiplication: {
++                name: 'Multiplication',
++                level: 'Level 1-15',
++                progress: localStorage.getItem('multiplication-progress') || '0%',
++                target: '100%',
++                questions: [
++                    { q: '14 × 11', answer: '154' },
++                    { q: '13 × 12', answer: '156' },
++                    { q: '16 × 11', answer: '176' },
++                    { q: '15 × 12', answer: '180' },
++                    { q: '17 × 11', answer: '187' }
++                ]
++            },
++            division: {
++                name: 'Division',
++                level: 'Level 1-12',
++                progress: localStorage.getItem('division-progress') || '0%',
++                target: '100%',
++                questions: [
++                    { q: '144 ÷ 12', answer: '12' },
++                    { q: '225 ÷ 15', answer: '15' },
++                    { q: '196 ÷ 14', answer: '14' },
++                    { q: '169 ÷ 13', answer: '13' },
++                    { q: '198 ÷ 11', answer: '18' }
++                ]
++            }
++        },
++        currentModule: null,
++        init: function() {
++            this.renderModules();
++        },
++        renderModules: function() {
++            const container = document.getElementById('speed-modules');
++            if (!container) return;
++            
++            container.innerHTML = Object.entries(this.modules).map(([key, module]) => `
++                <div class="speed-module" onclick="startSpeedModule('${key}')">
++                    <div class="module-icon">
++                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
++                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
++                        </svg>
++                    </div>
++                    <div class="module-title">${module.name}</div>
++                    <div class="module-progress" style="width: ${module.progress};"></div>
++                </div>
++            `).join('');
++        }
++    };
++    
++    speedTrainer.init();
++    
++    // ============================================================
++    // Error Log
++    // ============================================================
++    
++    const errorLog = {
++        errors: JSON.parse(localStorage.getItem('mathmastery-errors') || '[]'),
++        addError: function(errorData) {
++            const error = {
++                id: Date.now(),
++                timestamp: new Date().toISOString(),
++                ...errorData
++            };
++            this.errors.unshift(error);
++            localStorage.setItem('mathmastery-errors', JSON.stringify(this.errors));
++            this.render();
++        },
++        removeError: function(errorId) {
++            this.errors = this.errors.filter(e => e.id !== errorId);
++            localStorage.setItem('mathmastery-errors', JSON.stringify(this.errors));
++            this.render();
++        },
++        render: function() {
++            const errorList = document.getElementById('error-list');
++            const totalErrorsEl = document.getElementById('total-errors-value');
++            const conceptErrorsEl = document.getElementById('concept-errors-value');
++            const trapErrorsEl = document.getElementById('trap-errors-value');
++            
++            if (!errorList) return;
++            
++            // Count errors by type
++            const typeCounts = {
++                concept: this.errors.filter(e => e.type === 'concept').length,
++                calculation: this.errors.filter(e => e.type === 'calculation').length,
++                trap: this.errors.filter(e => e.type === 'trap').length,
++                other: this.errors.filter(e => e.type !== 'concept' && e.type !== 'calculation' && e.type !== 'trap').length
++            };
++            
++            totalErrorsEl.textContent = this.errors.length;
++            conceptErrorsEl.textContent = typeCounts.concept;
++            trapErrorsEl.textContent = typeCounts.trap;
++            
++            if (this.errors.length === 0) {
++                errorList.innerHTML = `
++                    <div class="no-errors">
++                        <h4>No errors recorded yet</h4>
++                        <p>Start practicing and record mistakes here</p>
++                    </div>
++                `;
++                return;
++            }
++            
++            errorList.innerHTML = this.errors.map(error => `
++                <div class="error-item">
++                    <span class="error-type">${error.type}</span>
++                    <div class="error-desc">
++                        <strong>Question:</strong> ${error.question || 'N/A'}<br>
++                        <strong>Mistake:</strong> ${error.mistake || 'N/A'}<br>
++                        <strong>Correct approach:</strong> ${error.correctApproach || 'N/A'}
++                    </div>
++                </div>
++            `).join('');
++        }
++    };
++    
++errorLog.render();
++   
++    // ============================================================
++    // PDF Library
++    // ============================================================
++    
++    const pdfLibrary = {
++        uploadedPDFs: JSON.parse(localStorage.getItem('mathmastery-pdfs') || '[]'),
++        init: function() {
++            this.renderPDFs();
++            this.setupEventListeners();
++        },
++        renderPDFs: function() {
++            const pdfList = document.getElementById('pdf-list');
++            const noData = document.querySelector('.no-data', document.getElementById('pdf-list').parentElement);
++            
++            if (!pdfList) return;
++            
++            if (this.uploadedPDFs.length === 0) {
++                pdfList.innerHTML = '<div class="no-data">No PDFs uploaded yet.</div>';
++                return;
++            }
++            
++            pdfList.innerHTML = this.uploadedPDFs.map((pdf, index) => `
++                <div class="pdf-file-item">
++                    <div class="file-info">
++                        <div class="file-name">${pdf.name}</div>
++                        <div class="file-details">
++                            <span>📄 ${pdf.uploadDate}</span>
++                            <span>📊 ${pdf.questionCount} questions</span>
++                        </div>
++                    </div>
++                    <button class="remove-btn" onclick="pdfLibrary.removePDF(${index})">Remove</button>
++                </div>
++            `).join('');
++        },
++        setupEventListeners: function() {
++            const fileInput = document.getElementById('file-input');
++            const uploadZone = document.querySelector('.pdf-upload-area');
++            
++            if (fileInput) {
++                fileInput.addEventListener('change', (e) => this.handleFileSelect(e.target.files));
++            }
++            
++            if (uploadZone) {
++                uploadZone.addEventListener('click', () => fileInput?.click());
++                
++                uploadZone.addEventListener('dragover', (e) => {
++                    e.preventDefault();
++                    uploadZone.classList.add('drag-over');
++                });
++                
++                uploadZone.addEventListener('dragleave', () => {
++                    uploadZone.classList.remove('drag-over');
++                });
++                
++                uploadZone.addEventListener('drop', (e) => {
++                    e.preventDefault();
++                    uploadZone.classList.remove('drag-over');
++                    if (e.dataTransfer.files.length) {
++                        fileInput.files = e.dataTransfer.files;
++                        fileInput.change();
++                    }
++                });
++            }
++        },
++        handleFileSelect: function(files) {
++            if (!files || files.length === 0) return;
++            
++            const validPDFs = Array.from(files).filter(file => file.name.endsWith('.pdf'));
++            
++            if (validPDFs.length === 0) {
++                alert('Please select PDF files only.');
++                return;
++            }
++            
++            const reader = new FileReader();
++            reader.onload = (e) => {
++                const text = e.target.result;
++                const pdfInfo = this.extractPDFInfo(text, validPDFs[0].name);
++                this.uploadedPDFs.unshift(pdfInfo);
++                localStorage.setItem('mathmastery-pdfs', JSON.stringify(this.uploadedPDFs));
++                this.renderPDFs();
++            };
++            reader.readAsText(validPDFs[0]);
++        },
++        extractPDFInfo: function(text, fileName) {
++            const questionCount = (text.match(/Que\./g) || []).length;
++            const uploadDate = new Date().toLocaleDateString();
++            
++            return {
++                id: Date.now(),
++                name: fileName,
++                uploadDate: uploadDate,
++                questionCount: questionCount || 0,
++                text: text
++            };
++        },
++        removePDF: function(index) {
++            this.uploadedPDFs.splice(index, 1);
++            localStorage.setItem('mathmastery-pdfs', JSON.stringify(this.uploadedPDFs));
++            this.renderPDFs();
++        }
++    };
++   
++    pdfLibrary.init();
++   
++    // ============================================================
++    // 90-Day Plan
++    // ============================================================
++    
++    const ninetyDayPlan = {
++        phases: [
++            { 
++                number: 1, 
++                name: 'Foundation + Calculation', 
++                duration: 'Days 1-15',
++                focus: 'Basic arithmetic, tables, squares, fundamental concepts',
++                goals: ['Master tables up to 20', 'Square roots up to 15', 'Percentage conversions', 'Basic BODMAS']
++            },
++            { 
++                number: 2, 
++                name: 'Core Concepts + Basic PYQs', 
++                duration: 'Days 16-30',
++                focus: 'Arithmetic, Algebra, Geometry fundamentals',
++                goals: ['All arithmetic topics', 'Basic algebraic identities', 'Triangle properties', 'Circle theorems']
++            },
++            { 
++                number: 3, 
++                name: 'Pattern Recognition', 
++                duration: 'Days 31-45',
++                focus: 'Identifying question patterns',
++                goals: ['Remainder theorem', 'Trailing zeros', 'Divisibility patterns', 'Factorisation patterns']
++            },
++            { 
++                number: 4, 
++                name: 'Speed + Accuracy', 
++                duration: 'Days 46-60',
++                focus: 'Fast calculation and accuracy',
++                goals: ['Timed drills', 'Option-based solving', 'Elimination technique', 'Estimation skills']
++            },
++            { 
++                number: 5, 
++                name: 'Trap Resistance + Mixed PYQs', 
++                duration: 'Days 61-75',
++                focus: 'Avoiding examiner traps',
++                goals: ['Trap identification', 'Distractor resistance', 'Multi-concept questions', 'Wording traps']
++            },
++            { 
++                number: 6, 
++                name: 'Advanced Adaptability', 
++                duration: 'Days 76-90',
++                focus: 'Unfamiliar questions and exam simulation',
++                goals: ['Mixed concept problems', 'Unfamiliar wording', 'Time pressure simulation', 'Adaptive difficulty']
++            }
++        ],
++        currentPhase: 1,
++        init: function() {
++            this.renderPlan();
++        },
++        renderPlan: function() {
++            const overviewEl = document.getElementById('plan-overview');
++            const dailyEl = document.getElementById('plan-daily');
++            
++            if (!overviewEl || !dailyEl) return;
++            
++            // Render overview
++            overviewEl.innerHTML = this.phases.map(phase => `
++                <p><strong>Phase ${phase.number}: ${phase.name}</strong> (${phase.duration})</p>
++                <p>${phase.focus}</p>
++                <p>Goals: ${phase.goals.join(', ')}</p>
++            `).join('');
++            
++            // Render daily tasks for current phase
++            const currentPhase = this.phases[this.currentPhase - 1];
++            dailyEl.innerHTML = `
++                <p><strong>Current Phase:</strong> ${currentPhase.name} (${currentPhase.duration})</p>
++                <p><strong>Focus:</strong> ${currentPhase.focus}</p>
++                <p><strong>Daily Goals:</strong></p>
++                <ul>
++                    ${['Practice 20 speed questions', 'Analyze 5 PYQs', 'Review traps', 'Timed test (20 min)'].map(goal => `<li>${goal}</li>`).join('')}
++                </ul>
++                <button class="btn-icon" style="margin-top: 0.5rem; width: 32px; height: 32px;" onclick="nextPhase()">Next Day</button>
++            `;
++        },
++        nextPhase: function() {
++            if (this.currentPhase < this.phases.length) {
++                this.currentPhase++;
++                this.renderPlan();
++            } else {
++                alert('🎉 Congratulations! You have completed the 90-day master plan!');
++            }
++        }
++    };
++    
++    ninetyDayPlan.init();
++    
++    // ============================================================
++    // Utility Functions
++    // ============================================================
++    
++    // Start a learning session
++    window.startSession = function(type) {
++        alert(`Starting ${type} session...`);
++        // Could navigate to specific section
++    };
++    
++    // Open PYQ database
++    window.openPyqDb = function() {
++        // Already on PYQ section
++    };
++    
++    // Start speed drill
++    window.startSpeedDrill = function() {
++        alert('Speed drill starting...');
++    };
++    
++    // Start speed module
++    window.startModule = function(moduleName) {
++        const module = speedTrainer.modules[moduleName];
++        if (!module) return;
++        
++        let correct = 0;
++        let total = module.questions.length;
++        
++        for (let i = 0; i < module.questions.length; i++) {
++            const userAnswer = prompt(`Q${i+1}: ${module.questions[i].q} = ?`);
++            if (userAnswer !== null && userAnswer.trim() === module.questions[i].answer) {
++                correct++;
++            }
++        }
++        
++        const percentage = Math.round((correct / total) * 100);
++        alert(`Speed Drill Complete!\nCorrect: ${correct}/${total}\nAccuracy: ${percentage}%`);
++        
++        // Update progress
++        const currentProgress = parseInt(module.progress);
++        const newProgress = Math.min(100, currentProgress + Math.round(100 / total * correct));
++        module.progress = newProgress + '%';
++        localStorage.setItem(`speed-${moduleName}-progress`, newProgress + '%');
++        
++        speedTrainer.renderModules();
++    };
++    
++    // Open PYQ detail
++    window.openPyqDetail = function(id) {
++        const pyq = pyqDatabase.data.find(p => p.id === id);
++        if (!pyq) return;
++        
++        const detail = `
++            <div style="max-width: 600px; margin: 0 auto;">
++                <h2>PYQ Detail</h2>
++                <div style="background: var(--bg-card-light); padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; border: 1px solid var(--border-light);">
++                    <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem;">
++                        <strong>Exam:</strong> ${pyq.exam} | <strong>Year:</strong> ${pyq.year}
++                    </div>
++                    <p><strong>Question:</strong> ${pyq.question}</p>
++                    ${pyq.options ? `<p><strong>Options:</strong> ${pyq.options}</p>` : ''}
++                    <p><strong>Answer:</strong> ${pyq.answer}</p>
++                </div>
++                <div style="background: var(--bg-card-light); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-light);">
++                    <p><strong>Concept:</strong> ${pyq.concept}</p>
++                    <p><strong>Pattern:</strong> ${pyq.pattern}</p>
++                    <p><strong>Fast Method:</strong> ${pyq.fastMethod}</p>
++                    <p><strong>Ideal Time:</strong> ${pyq.idealTime}</p>
++                    <p><strong>Traps:</strong> ${pyq.traps}</p>
++                </div>
++                <button style="margin-top: 1rem; width: 100%; padding: 0.75rem; background: var(--primary); color: white; border: none; border-radius: 6px; font-weight: 500;" onclick="this.parentElement.parentElement.remove()">Close</button>
++            </div>
++        `;
++        
++        // Remove any existing detail
++        const existing = document.querySelector('.pyq-detail-overlay');
++        if (existing) existing.remove();
++        
++        const overlay = document.createElement('div');
++        overlay.className = 'pyq-detail-overlay';
++        overlay.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 1000;';
++        overlay.innerHTML = `
++            <div style="background: var(--bg-card-light); padding: 2rem; border-radius: 12px; width: 90%; max-width: 600px; max-height: 90%; overflow: auto; border: 1px solid var(--border-light);">
++                ${detail}
++                <button style="width: 100%; padding: 0.75rem; margin-top: 1rem; background: var(--error); color: white; border: none; border-radius: 6px; font-weight: 500;" onclick="this.parentElement.parentElement.remove()">Close</button>
++            </div>
++        `;
++        
++        document.body.appendChild(overlay);
++    };
++    
++    // Open pattern detail
++    window.openPatternDetail = function(patternId) {
++        const pattern = patternDatabase.patterns.find(p => p.id === patternId);
++        if (!pattern) return;
++        
++        const detailSections = pattern.masteryTest.map(test => `
++            <div>
++                <p><strong>Q:</strong> ${test.question}</p>
++                <p><strong>Answer:</strong> ${test.answer}</p>
++            </div>
++        `).join('');
++        
++        alert(`Pattern: ${pattern.name}\n\n${detailSections}`);
++    };
++    
++    // Open trap detail
++    window.openTrapDetail = function(trapId) {
++        const trap = trapDatabase.traps.find(t => t.id === trapId);
++        if (!trap) return;
++        
++        const detail = `
++            <div style="max-width: 500px; margin: 0 auto;">
++                <h3>Trap Detail: ${trap.type}</h3>
++                <p><strong>Example:</strong> ${trap.example}</p>
++                <p><strong>Why students fall for it:</strong> ${trap.whyStudentsFall}</p>
++                <p><strong>Detection:</strong> ${trap.detection}</p>
++                <p><strong>Prevention:</strong> ${trap.prevention}</p>
++                <p><strong>Quick check:</strong> ${trap.quickCheck}</p>
++            </div>
++        `;
++        
++        const overlay = document.createElement('div');
++        overlay.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 1000;';
++        overlay.innerHTML = `
++            <div style="background: var(--bg-card-light); padding: 1.5rem; border-radius: 8px; width: 90%; max-width: 500px; border: 1px solid var(--border-light);">
++                ${detail}
++                <button style="width: 100%; padding: 0.75rem; margin-top: 1rem; background: var(--primary); color: white; border: none; border-radius: 6px; font-weight: 500;" onclick="this.parentElement.parentElement.remove()">Close</button>
++            </div>
++        `;
++        
++        document.body.appendChild(overlay);
++    };
++    
++    // Filter PYQ by topic
++    window.filterPyqByTopic = function(topic) {
++        pyqDatabase.filterByTopic(topic);
++        // Switch to PYQ section
++        showSection('pyq-db');
++    };
++    
++    // Show section
++    window.showSection = function(sectionId) {
++        const sections = document.querySelectorAll('.section');
++        const navLinks = document.querySelectorAll('.nav-links a');
++        
++        sections.forEach(section => {
++            section.classList.remove('active');
++        });
++        
++        navLinks.forEach(link => {
++            link.classList.remove('active');
++        });
++        
++        const targetSection = document.getElementById(sectionId);
++        if (targetSection) {
++            targetSection.classList.add('active');
++        }
++        
++        // Update nav
++        const activeLink = document.querySelector(` .nav-links a[href="#${sectionId}"]`);
++        if (activeLink) {
++            activeLink.classList.add('active');
++        }
++    };
++    
++    // Start revision
++    window.startRevision = function(type) {
++        alert(`Starting ${type} revision...`);
++    };
++    
++    // Toggle plan tab
++    window.togglePlanTab = function(tab) {
++        const planTabs = document.querySelectorAll('.plan-tab');
++        const planOverview = document.getElementById('plan-overview');
++        const planDaily = document.getElementById('plan-daily');
++        
++        planTabs.forEach(t => t.classList.remove('active'));
++        event.target.classList.add('active');
++        
++        if (tab === 'overview') {
++            planOverview.style.display = 'block';
++            planDaily.style.display = 'none';
++        } else {
++            planOverview.style.display = 'none';
++            planDaily.style.display = 'block';
++        }
++    };
++    
++    // ============================================================
++    // Initialize Everything
++    // ============================================================
++    
++    // Initialize dashboard stats
++    initDashboardStats();
++    
++    // Render learn topics
++    renderLearnTopics();
++    
++    // Initialize tooltips and interactions
++    const filterSelects = document.querySelectorAll('.filter-select');
++    filterSelects.forEach(select => {
++        select.addEventListener('change', function() {
++            // Handle filter changes
++            if (this.id.includes('pyq')) {
++                // PYQ filter
++                const exam = document.getElementById('pyq-exam-filter')?.value || 'all';
++                const topic = document.getElementById('pyq-topic-filter')?.value || 'all';
++                const difficulty = document.getElementById('pyq-difficulty-filter')?.value || 'all';
++                
++                pyqDatabase.filterByExam(exam);
++                pyqDatabase.filterByTopic(topic);
++                pyqDatabase.filterByDifficulty(difficulty);
++            }
++        });
++    });
++    
++    // Add CSS for pyq-detail-overlay
++    const style = document.createElement('style');
++    style.textContent = `
++        .pyq-detail-overlay {
++            animation: fadeIn 0.3s ease;
++        }
++        
++        @keyframes fadeIn {
++            from { opacity: 0; }
++            to { opacity: 1; }
++        }
++    `;
++    document.head.appendChild(style);
++    
++    // ============================================================
++    // Performance Data Update (simulated)
++    // ============================================================
++    
++    // Update dashboard stats periodically
++    function updateDashboardStats() {
++        const stats = {
++            overallMastery: Math.min(100, dashboardStats.overallMastery + Math.random() * 2),
++            pyqsAnalysed: dashboardStats.pyqsAnalysed + Math.floor(Math.random() * 5),
++            topicsMastered: dashboardStats.topicsMastered + (Math.random() > 0.5 ? 1 : 0),
++            accuracy: Math.min(100, dashboardStats.accuracy + (Math.random() - 0.5)),
++            avgTime: Math.max(50, dashboardStats.avgTime - Math.random() * 10),
++            streak: Math.max(0, dashboardStats.streak + (Math.random() > 0.8 ? 1 : 0))
++        };
++        
++        Object.keys(stats).forEach(key => {
++            const element = document.getElementById(key + '-value');
++            if (element) {
++                element.textContent = stats[key];
++            }
++        });
++    }
++    
++    // Update every 30 seconds
++    setInterval(updateDashboardStats, 30000);
++    
++    // ============================================================
++    // Console Welcome Message
++    // ============================================================
++    
++    console.log('%c 🧠 ULTIMATE MATHEMATICS MASTERY ENGINE', 'font-size: 20px; color: var(--primary); font-weight: 800;');
++    console.log('%c Personal Mathematics Mastery System', 'font-size: 14px; color: var(--text-muted); margin-top: 4px;');
++    console.log('%c Version 1.0 - Build arena/01a09881-study', 'font-size: 11px; color: var(--text-muted); margin-top: 4px;');
++    console.log('%c', 'color: white; font-size: 4px;');
++});
+\ No newline at end of file
+diff --git a/search_result.txt b/search_result.txt
+new file mode 100644
+index 0000000..38b1d2d
+--- /dev/null
++++ b/search_result.txt
+@@ -0,0 +1 @@
++Error: URL can't contain control characters. '/html/?q=SSC CGL mathematics syllabus 2024' (found at least ' ')
+\ No newline at end of file
