@@ -1,0 +1,32 @@
+ALGEBRA PYQ_2023.pdf                     new= 571 dup=  47 skip=0 col=55 key=620 sol=619
+ALGEBRA PYQ_2024.pdf                     new= 118 dup= 482 skip=0 col=48 key=601 sol=600
+ALGEBRA PYQ_2025.pdf                     new= 109 dup= 491 skip=0 col=46 key=601 sol=601
+GEOMETRY PYQ_2023.pdf                    new= 229 dup= 425 skip=0 col=23 key=659 sol=657
+GEOMETRY PYQ_2024.pdf                    new=  93 dup= 538 skip=0 col=23 key=635 sol=634
+GEOMETRY PYQ_2025.pdf                    new= 111 dup= 521 skip=0 col=20 key=635 sol=635
+HCF and LCM PYQ_2023.pdf                 new=  29 dup=  96 skip=0 col=7 key=125 sol=124
+HCF and LCM PYQ_2024.pdf                 new=   4 dup= 100 skip=0 col=4 key=104 sol=103
+HCF and LCM PYQ_2025.pdf                 new=   8 dup=  96 skip=0 col=4 key=104 sol=104
+HEIGHT and DISTANCE PYQ_2023.pdf         new=  18 dup=  34 skip=0 col=0 key=52 sol=52
+HEIGHT and DISTANCE PYQ_2024.pdf         new=   4 dup=  41 skip=0 col=0 key=45 sol=45
+HEIGHT and DISTANCE PYQ_2025.pdf         new=  32 dup=  28 skip=0 col=1 key=60 sol=60
+MENSURATION PYQ_2023.pdf                 new= 275 dup= 452 skip=0 col=18 key=730 sol=728
+MENSURATION PYQ_2024.pdf                 new= 118 dup= 601 skip=0 col=21 key=725 sol=725
+MENSURATION PYQ_2025.pdf                 new= 191 dup= 518 skip=0 col=13 key=715 sol=714
+MIXTURE and ALLIGATION PYQ_2025.pdf      new=  51 dup=  36 skip=0 col=1 key=88 sol=88
+NUMBER SYSTEM PYQ_2023.pdf               new=  74 dup= 203 skip=0 col=8 key=277 sol=277
+NUMBER SYSTEM PYQ_2024.pdf               new=  60 dup= 225 skip=0 col=7 key=286 sol=286
+NUMBER SYSTEM PYQ_2025 (1).pdf           new=  88 dup= 197 skip=0 col=7 key=286 sol=285
+PARTNERSHIP PYQ_2023.pdf                 new=  37 dup=   6 skip=0 col=0 key=43 sol=43
+PARTNERSHIP PYQ_2024.pdf                 new=   6 dup=  31 skip=0 col=0 key=37 sol=37
+PARTNERSHIP PYQ_2025.pdf                 new=  57 dup=  23 skip=0 col=4 key=80 sol=80
+RATIO and PROPORTION PYQ_2023.pdf        new=  81 dup= 188 skip=0 col=6 key=269 sol=269
+RATIO and PROPORTION PYQ_2024.pdf        new=  51 dup= 232 skip=0 col=7 key=284 sol=284
+RATIO and PROPORTION PYQ_2025.pdf        new=  54 dup= 224 skip=0 col=5 key=282 sol=282
+SIMPLIFICATION PYQ_2023.pdf              new= 137 dup=  45 skip=0 col=29 key=184 sol=184
+SIMPLIFICATION PYQ_2024.pdf              new=  84 dup= 100 skip=0 col=29 key=185 sol=185
+SIMPLIFICATION PYQ_2025.pdf              new=  86 dup=  99 skip=0 col=34 key=185 sol=185
+TRIGONOMETRY PYQ_2023.pdf                new= 413 dup= 140 skip=0 col=85 key=560 sol=560
+TRIGONOMETRY PYQ_2024.pdf                new= 146 dup= 408 skip=0 col=89 key=557 sol=556
+TRIGONOMETRY PYQ_2025.pdf                new=  98 dup= 456 skip=0 col=115 key=557 sol=557
+TOTAL NEW: 3433

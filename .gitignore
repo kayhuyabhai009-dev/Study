@@ -1,0 +1,13 @@
+# Deep-research working artifacts (PDF dumps, extraction JSONs, test harness)
+.research/
+
+# Local dependencies and Python environment
+node_modules/
+.venv/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
