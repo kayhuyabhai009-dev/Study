@@ -77,8 +77,11 @@ window.MMTheme = (function () {
 
     function init() {
         var saved = MMStore.get(KEY, null);
+        // Premium default: dark (deep-space) theme. System preference is
+        // only used when it is explicitly dark; first-time users see the
+        // flagship dark theme and can switch via the toggle.
         var sys = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        apply(saved || sys);
+        apply(saved || (sys === 'dark' ? 'dark' : 'dark'));
         var btn = document.getElementById('theme-toggle');
         if (btn) btn.addEventListener('click', function () {
             apply(current() === 'dark' ? 'light' : 'dark');
@@ -99,7 +102,7 @@ window.MMTheme = (function () {
    2. Navigation / section switching
    ============================================================ */
 window.MM = (function () {
-    var SECTION_IDS = ['dashboard', 'learn', 'formulas', 'pyq-db', 'quiz', 'patterns', 'traps', 'speed', 'flashcards', 'calc-lab', 'error-log', 'revision', 'plan', 'timer', 'profile'];
+    var SECTION_IDS = ['dashboard', 'learn', 'mastery', 'formulas', 'pyq-db', 'quiz', 'patterns', 'traps', 'speed', 'flashcards', 'calc-lab', 'error-log', 'revision', 'plan', 'timer', 'profile'];
 
     function showSection(id) {
         if (SECTION_IDS.indexOf(id) === -1) id = 'dashboard';
@@ -1265,10 +1268,232 @@ window.MM = (function () {
         }
     }
 
+    /* ---------- MASTERY CENTER ----------
+       Topic-by-topic master plans from window.MASTERY_PLANS
+       (js/data/mastery.js — weightage research + strategy guides).
+       Checklist state persists in MMStore under 'mm-mastery-checks'. */
+    var masteryState = { topic: null };
+    var MASTERY_CHECK_KEY = 'mm-mastery-checks';
+
+    function masteryChecks() {
+        return MMStore.get(MASTERY_CHECK_KEY, {}) || {};
+    }
+
+    function renderMasteryRoadmap() {
+        var host = document.getElementById('mastery-roadmap');
+        if (!host) return;
+        var plan = window.MASTERY_MASTER_PLAN;
+        if (!plan) return;
+        var html = '<div class="mr-title">🧭 ' + MMUtil.esc(plan.title) + '</div>';
+        html += '<div class="mr-sub">' + MMUtil.esc(plan.sub) + '</div>';
+        html += '<div class="mr-grid">';
+        (plan.rules || []).forEach(function (r) {
+            html += '<div class="mr-rule"><b>⚡ ' + MMUtil.esc(r.name) + '</b><span>' + MMUtil.esc(r.text) + '</span></div>';
+        });
+        html += '</div>';
+        html += '<div class="mr-phases">';
+        (plan.phases || []).forEach(function (ph, i) {
+            html += '<div class="mr-phase"><div class="mr-phase-num">' + (i + 1) + '</div><div><b>' + MMUtil.esc(ph.name) + '</b>';
+            html += '<div class="mrp-why">' + MMUtil.esc(ph.why) + '</div>';
+            html += '<div class="mrp-meta">';
+            (ph.topics || []).forEach(function (t) {
+                html += '<span class="mrp-chip">' + topicIcon(t) + ' ' + topicName(t) + '</span>';
+            });
+            html += '<span class="mrp-chip gold">🎯 ' + MMUtil.esc(ph.milestone) + '</span>';
+            html += '</div></div></div>';
+        });
+        html += '</div>';
+        host.innerHTML = html;
+    }
+
+    function diffDots(n) {
+        var s = '';
+        for (var i = 1; i <= 5; i++) {
+            s += '<span class="danger-dot' + (i <= n ? ' on' : '') + '" style="' + (i <= n ? 'background:var(--primary-2);box-shadow:0 0 6px rgba(139,92,246,.5)' : '') + '"></span>';
+        }
+        return '<span class="danger-dots">' + s + '</span>';
+    }
+
+    function renderMasteryTabs() {
+        var host = document.getElementById('mastery-tabs');
+        if (!host) return;
+        var plans = window.MASTERY_PLANS || {};
+        var keys = Object.keys(plans);
+        if (!masteryState.topic || !plans[masteryState.topic]) masteryState.topic = keys[0];
+        var html = '';
+        keys.forEach(function (t) {
+            var p = plans[t];
+            html += '<button class="mastery-tab' + (t === masteryState.topic ? ' active' : '') + '" data-mt="' + t + '">' +
+                p.icon + ' ' + MMUtil.esc(p.name) + ' <span class="mt-diff">' + diffDots(p.difficulty) + '</span></button>';
+        });
+        host.innerHTML = html;
+        host.querySelectorAll('.mastery-tab').forEach(function (b) {
+            b.addEventListener('click', function () {
+                masteryState.topic = b.getAttribute('data-mt');
+                renderMastery();
+                var det = document.getElementById('mastery-detail');
+                if (det) det.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    }
+
+    function renderMasteryDetail() {
+        var host = document.getElementById('mastery-detail');
+        if (!host) return;
+        var p = (window.MASTERY_PLANS || {})[masteryState.topic];
+        if (!p) { host.innerHTML = '<div class="no-data">No mastery plan loaded.</div>'; return; }
+
+        var html = '<div class="md-hero" style="--md-color:linear-gradient(90deg,' + p.color + ', ' + p.color + 'cc)">';
+        html += '<div class="md-hero-head"><span class="md-icon">' + p.icon + '</span><h3>' + MMUtil.esc(p.name) + '</h3>';
+        html += '<div class="md-badges"><span class="md-badge">⏱ Master in ' + MMUtil.esc(p.timeToMaster) + '</span><span class="md-badge brand">difficulty ' + diffDots(p.difficulty) + '</span></div></div>';
+        html += '<p class="md-why">' + MMUtil.esc(p.whyMatters) + '</p>';
+        html += '<div class="md-weights">';
+        html += '<div class="md-weight"><span class="w-v">' + MMUtil.esc(p.weightage.tier1) + '</span><span class="w-l">CGL Tier 1</span></div>';
+        html += '<div class="md-weight"><span class="w-v">' + MMUtil.esc(p.weightage.tier2) + '</span><span class="w-l">CGL Tier 2</span></div>';
+        html += '<div class="md-weight"><span class="w-v">' + MMUtil.esc(p.weightage.rrb) + '</span><span class="w-l">RRB NTPC</span></div>';
+        html += '</div>';
+        html += '<div class="md-note">' + MMUtil.esc(p.weightage.note) + '</div>';
+        html += '</div>';
+
+        html += '<div class="md-body">';
+
+        // plan timeline
+        html += '<div class="md-block"><h4><span class="h4-icon">🗓</span> Day-by-Day Master Plan</h4><div class="md-plan">';
+        (p.plan || []).forEach(function (ph) {
+            html += '<div class="mp-phase"><div class="mp-head"><span class="mp-days">' + MMUtil.esc(ph.days) + '</span><span class="mp-title">' + MMUtil.esc(ph.title) + '</span></div>';
+            html += '<div class="mp-action">' + MMUtil.esc(ph.action) + '</div>';
+            html += '<ul class="mp-details">';
+            (ph.details || []).forEach(function (d) { html += '<li>' + MMUtil.esc(d) + '</li>'; });
+            html += '</ul>';
+            if (ph.target) html += '<span class="mp-target">🎯 ' + MMUtil.esc(ph.target) + '</span>';
+            html += '</div>';
+        });
+        html += '</div></div>';
+
+        // dos / donts
+        html += '<div class="md-two-col">';
+        html += '<div class="md-dos"><h4>✅ Kya Karein</h4><ul class="md-list">' + p.doThis.map(function (d) { return '<li>' + MMUtil.esc(d) + '</li>'; }).join('') + '</ul></div>';
+        html += '<div class="md-donts"><h4>🚫 Kya NAHI Karna</h4><ul class="md-list">' + p.avoidThis.map(function (d) { return '<li>' + MMUtil.esc(d) + '</li>'; }).join('') + '</ul></div>';
+        html += '</div>';
+
+        // key techniques
+        html += '<div class="md-block"><h4><span class="h4-icon">⚡</span> Key Techniques</h4><div class="md-techniques">';
+        (p.keyTechniques || []).forEach(function (k) {
+            html += '<div class="md-technique"><div class="md-technique-name">' + MMUtil.esc(k.name) + '</div><p>' + MMUtil.esc(k.how) + '</p>';
+            if (k.example) html += '<div class="md-technique-ex"><b>Example:</b> ' + MMUtil.esc(k.example) + '</div>';
+            html += '</div>';
+        });
+        html += '</div></div>';
+
+        // worked examples
+        html += '<div class="md-block"><h4><span class="h4-icon">🧮</span> Solved PYQ Examples</h4><div class="md-examples">';
+        (p.workedExamples || []).forEach(function (ex) {
+            html += '<div class="md-example">';
+            html += '<div class="md-example-q">' + MMUtil.esc(ex.q) + '</div>';
+            if (ex.source) html += '<div class="md-example-src">📝 ' + MMUtil.esc(ex.source) + '</div>';
+            html += '<ol class="md-example-steps">';
+            (ex.steps || []).forEach(function (s) { html += '<li>' + MMUtil.esc(s) + '</li>'; });
+            html += '</ol>';
+            html += '<div class="md-example-fast"><b>⚡ Fast method:</b> ' + MMUtil.esc(ex.fast) + '</div>';
+            html += '</div>';
+        });
+        html += '</div></div>';
+
+        // checklist
+        var checks = masteryChecks();
+        var doneIdx = checks[masteryState.topic] || [];
+        html += '<div class="md-block"><h4><span class="h4-icon">🏁</span> Mastery Checklist (' + doneIdx.length + '/' + (p.masteryChecklist || []).length + ' complete)</h4><div class="md-checklist">';
+        (p.masteryChecklist || []).forEach(function (c, i) {
+            var done = doneIdx.indexOf(i) !== -1;
+            html += '<label class="mc-item' + (done ? ' done' : '') + '"><input type="checkbox" data-mci="' + i + '" ' + (done ? 'checked' : '') + '><span>' + MMUtil.esc(c) + '</span></label>';
+        });
+        html += '</div></div>';
+
+        // practice prescription + exam tips
+        html += '<div class="md-two-col">';
+        html += '<div class="md-block" style="padding:1.3rem"><h4 style="margin-bottom:0.9rem"><span class="h4-icon">📅</span> Daily Prescription</h4><div class="md-practice">';
+        var pr = p.dailyPractice || {};
+        html += '<div class="md-practice-card"><span class="p-v">' + (pr.questions || 0) + '</span><span class="p-l">Questions/day</span></div>';
+        html += '<div class="md-practice-card"><span class="p-v">' + (pr.minutes || 0) + '</span><span class="p-l">Minutes</span></div>';
+        html += '<div class="md-practice-card" style="text-align:left;grid-column:1/-1"><span class="p-l">Focus</span><p style="font-size:0.8rem;color:var(--text-2);margin-top:0.25rem">' + MMUtil.esc(pr.focus || '—') + '</p></div>';
+        if (pr.drill) html += '<div class="md-practice-card" style="text-align:left;grid-column:1/-1"><span class="p-l">Daily drill</span><p style="font-size:0.8rem;color:var(--text-2);margin-top:0.25rem">' + MMUtil.esc(pr.drill) + '</p></div>';
+        html += '</div></div>';
+        html += '<div class="md-block" style="padding:1.3rem"><h4 style="margin-bottom:0.9rem"><span class="h4-icon">🎯</span> Exam-Day Tips</h4><ul class="md-exam-tips">';
+        (p.examDayTips || []).forEach(function (t) { html += '<li>' + MMUtil.esc(t) + '</li>'; });
+        html += '</ul></div>';
+        html += '</div>';
+
+        // CTA row
+        html += '<div class="md-cta-row">';
+        html += '<button class="btn btn-primary" id="md-practice">🚀 Practice Now (15 Qs)</button>';
+        html += '<button class="btn btn-ghost" id="md-pyq">📚 Open PYQ Bank for ' + MMUtil.esc(p.name) + '</button>';
+        html += '<button class="btn btn-ghost" id="md-patterns">⚡ See Related Patterns</button>';
+        html += '</div>';
+
+        html += '</div>';
+        host.innerHTML = html;
+
+        // wire checklist
+        host.querySelectorAll('.mc-item input').forEach(function (inp) {
+            inp.addEventListener('change', function () {
+                var i = parseInt(inp.getAttribute('data-mci'), 10);
+                var all = masteryChecks();
+                var cur = all[masteryState.topic] || [];
+                if (inp.checked) {
+                    if (cur.indexOf(i) === -1) cur.push(i);
+                } else {
+                    cur = cur.filter(function (x) { return x !== i; });
+                }
+                all[masteryState.topic] = cur;
+                MMStore.set(MASTERY_CHECK_KEY, all);
+                inp.closest('.mc-item').classList.toggle('done', inp.checked);
+                renderMasteryDetail();
+                if (all[masteryState.topic].length === (p.masteryChecklist || []).length) {
+                    MMUtil.toast('🏆 ' + p.name + ' mastered — full checklist complete!', 'gold');
+                }
+            });
+        });
+
+        // wire CTAs
+        var pb = host.querySelector('#md-practice');
+        if (pb) pb.addEventListener('click', function () {
+            MM.showSection('quiz');
+            MMQuiz.startTopic(masteryState.topic, 15);
+        });
+        var pqb = host.querySelector('#md-pyq');
+        if (pqb) pqb.addEventListener('click', function () {
+            MM.setPyqTopic(masteryState.topic);
+        });
+        var pab = host.querySelector('#md-patterns');
+        if (pab) pab.addEventListener('click', function () {
+            MM.setPatternTopic(masteryState.topic);
+        });
+    }
+
+    function renderMastery() {
+        renderMasteryRoadmap();
+        renderMasteryTabs();
+        renderMasteryDetail();
+    }
+
+    function setPyqTopic(t) {
+        pyqState.topic = t;
+        pyqState.page = 1;
+        showSection('pyq-db');
+        renderPyqList();
+    }
+
+    function setPatternTopic(t) {
+        patternState.topic = t;
+        showSection('patterns');
+        renderPatterns();
+    }
+
     /* ---------- RENDERERS registry ---------- */
     var RENDERERS = {
         'dashboard': function () { updateDashboard(); },
         'learn': function () { renderLearn(); },
+        'mastery': function () { renderMastery(); },
         'formulas': function () { renderFormulas(); },
         'pyq-db': function () { renderPyqList(); },
         'quiz': function () { initQuizShell(); },
@@ -1345,26 +1570,26 @@ window.MM = (function () {
         if (btn) btn.addEventListener('click', addManualError);
     }
 
-    function initRevision() {
+    function runRevision(key) {
         var opts = {
             'weak': revisionWeakTopics,
             'errors': revisionErrorReview,
             'patterns': revisionPatternReview,
             'formulas': revisionFormulaRevision,
-            'traps': revisionTrapReview,
-            'srs': revisionDailySRS
+            'traps': revisionTrapReview
         };
-        var host = document.getElementById('revision-content');
-        var btns = document.querySelectorAll('.rev-option');
-        var keys = Object.keys(opts);
-        btns.forEach(function (b, i) {
-            b.addEventListener('click', function () {
-                if (i === 5) { flashReview(); return; } // SRS opens in flash section
-                btns.forEach(function (x) { x.style.borderColor = ''; });
-                b.style.borderColor = 'var(--accent-gold)';
-                renderRevisionContent(opts[keys[i]]());
-            });
-        });
+        showSection('revision');
+        if (key === 'srs') {
+            showSection('flashcards');
+            flashReview();
+            return;
+        }
+        renderRevisionContent(opts[key]());
+    }
+
+    function initRevision() {
+        // Buttons use inline onclick → MMRevision.* (global, defined
+        // below the IIFE); nothing extra to wire here.
     }
 
     /* ---------- boot ---------- */
@@ -1391,6 +1616,14 @@ window.MM = (function () {
         startSpeedAgain: startSpeedAgain,
         flashReview: flashReview,
         onTopicQuizPrompt: onTopicQuizPrompt,
+        setPyqTopic: setPyqTopic,
+        setPatternTopic: setPatternTopic,
+        runRevision: runRevision,
+        openMasteryTopic: function (t) {
+            if (window.MASTERY_PLANS && MASTERY_PLANS[t]) masteryState.topic = t;
+            showSection('mastery');
+            renderMastery();
+        },
         _renderers: RENDERERS,
         _init: init,
         _openPYQModal: openPYQModal,
@@ -1400,6 +1633,21 @@ window.MM = (function () {
 
 // expose for inline onclick handlers in index.html
 window.MMPlanRenderDaily = function () { MM._renderPlanDaily(); };
+window.startSession = function (id) { MM.showSection(id); };
+window.MMFlash = {
+    review: function () {
+        MM.showSection('flashcards');
+        MM.flashReview();
+    }
+};
+window.MMRevision = {
+    weakTopics: function () { MM.runRevision('weak'); },
+    errorReview: function () { MM.runRevision('errors'); },
+    patternReview: function () { MM.runRevision('patterns'); },
+    formulaRevision: function () { MM.runRevision('formulas'); },
+    trapReview: function () { MM.runRevision('traps'); },
+    dailySRS: function () { MM.runRevision('srs'); }
+};
 
 document.addEventListener('DOMContentLoaded', function () {
     MM._init();

@@ -84,6 +84,7 @@
         <ul class="nav-links" id="nav-links">
             <li><a href="#dashboard" class="active">Dashboard</a></li>
             <li><a href="#learn">Learn</a></li>
+            <li><a href="#mastery">Mastery</a></li>
             <li><a href="#formulas">Formulas</a></li>
             <li><a href="#pyq-db">PYQ Bank</a></li>
             <li><a href="#quiz">Quiz &amp; Mocks</a></li>
@@ -181,6 +182,10 @@
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>
                         <span>Start Learning</span>
                     </button>
+                    <button class="action-btn" onclick="MM.showSection('mastery')">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8m-4-4v4m-6.6-10.3a7.5 7.5 0 1 1 13.2 0l1.9 3.8a1 1 0 0 1-.9 1.5H6.4a1 1 0 0 1-.9-1.5z" /><circle cx="12" cy="10" r="3" /></svg>
+                        <span>Mastery Plans</span>
+                    </button>
                     <button class="action-btn" onclick="MM.showSection('quiz');MMQuiz.startTopicQuizPrompt()">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8" cy="8" r="2" /><circle cx="16" cy="16" r="2" /></svg>
                         <span>Topic Quiz</span>
@@ -227,6 +232,25 @@
                 <button class="btn btn-ghost btn-sm" onclick="MMNotes.close()">← Back to topics</button>
                 <div class="notes-reader-body" id="notes-reader-body"></div>
             </div>
+        </section>
+
+        <!-- ================= MASTERY ================= -->
+        <section id="mastery" class="section">
+            <div class="section-header">
+                <h2>🏆 Topic Mastery Center</h2>
+                <p>Har topic ka complete master-karna ka blueprint — din-din ka plan, techniques, solved examples, checklist. Weightage data 2023–2025 PYQ research + latest strategy guides se.</p>
+            </div>
+
+            <!-- Universal roadmap -->
+            <div class="mastery-roadmap" id="mastery-roadmap">
+                <!-- rendered by JS -->
+            </div>
+
+            <!-- Topic tabs -->
+            <div class="mastery-tabs" id="mastery-tabs"></div>
+
+            <!-- Topic detail -->
+            <div class="mastery-detail" id="mastery-detail"></div>
         </section>
 
         <!-- ================= FORMULA BANK ================= -->
@@ -597,6 +621,7 @@
                     <h4>Study</h4>
                     <ul>
                         <li><a href="#learn">Learn Mathematics</a></li>
+                        <li><a href="#mastery">Topic Mastery Plans</a></li>
                         <li><a href="#formulas">Formula Bank</a></li>
                         <li><a href="#pyq-db">PYQ Bank (10,518)</a></li>
                         <li><a href="#patterns">Pattern Engine</a></li>
@@ -635,8 +660,9 @@
     <script src="js/data/traps.js"></script>
     <script src="js/data/speed.js"></script>
     <script src="js/data/flashcards.js"></script>
-    <script src="js/data/plans.js"></script>
-    <script src="js/data/featured.js"></script>
+            <script src="js/data/plans.js"></script>
+            <script src="js/data/mastery.js"></script>
+            <script src="js/data/featured.js"></script>
     <!-- Engines -->
     <script src="js/engines.js"></script>
     <script src="js/quiz-engine.js"></script>

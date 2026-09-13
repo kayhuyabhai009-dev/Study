@@ -789,6 +789,14 @@ window.MMQuiz = (function () {
     }
 
     function exitToSetup() {
+        if (S.timerHandle) {
+            clearInterval(S.timerHandle);
+            S.timerHandle = null;
+        }
+        S.active = false;
+        S.mode = null;
+        S.questions = [];
+        S.answers = {};
         var host = document.getElementById('quiz-active');
         if (host) {
             host.style.display = 'none';
