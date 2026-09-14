@@ -26,7 +26,9 @@ const DEFAULT_STATE = {
     notesRead: [],
     masterySteps: {},     // { chapterId: ['concept','formula','practice','test'] }
     masteryAwarded: [],   // XP is awarded once per chapter/stage
-    tricksRead: []        // fast-making playbooks opened
+    tricksRead: [],       // fast-making playbooks opened
+    trickTrainerBest: 0,
+    trickTrainerAttempts: 0
 };
 
 let state = loadState();
@@ -625,6 +627,97 @@ function initFastTricks() {
         fastSearch = e.target.value.trim().toLowerCase();
         renderFastTopics();
     });
+    document.getElementById('fast-trainer-next').addEventListener('click', nextFastTrainerQuestion);
+    renderDailyFastTrick();
+    renderFastTopics();
+}
+
+function allFastMethods() {
+    return FAST_TRICKS.flatMap(topic => topic.tricks.map(trick => ({ ...trick, topicId: topic.id, topic: topic.topic, icon: topic.icon })));
+}
+
+function renderDailyFastTrick() {
+    const all = allFastMethods();
+    const key = todayKey();
+    let hash = 0;
+    for (const ch of key) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+    const t = all[hash % all.length];
+    document.getElementById('daily-fast-trick').innerHTML = `<div class="daily-trick-label">⚡ आज की Fast Trick</div>
+        <h3>${t.icon} ${t.name}</h3><p><b>Signal:</b> ${esc(t.signal)}</p>
+        <button class="drill-btn" onclick="openFastTopic('${t.topicId}')">पूरी method देखें →</button>`;
+}
+
+let fastTrainer = null;
+function shuffledCopy(items) {
+    const out = items.slice();
+    for (let i=out.length-1;i>0;i--) { const j=Math.floor(Math.random()*(i+1)); [out[i],out[j]]=[out[j],out[i]]; }
+    return out;
+}
+
+function startFastTrainer() {
+    const all = allFastMethods();
+    fastTrainer = { questions: shuffledCopy(all).slice(0,10), idx:0, score:0, answered:false, started:Date.now(), tick:null, options:[] };
+    document.getElementById('fast-trainer-launch').style.display='none';
+    document.getElementById('fast-trainer').style.display='block';
+    document.getElementById('fast-trainer-result').style.display='none';
+    renderFastTrainerQuestion();
+    fastTrainer.tick=setInterval(()=>{
+        if (!fastTrainer) return;
+        const sec=Math.floor((Date.now()-fastTrainer.started)/1000);
+        document.getElementById('fast-trainer-time').textContent=Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');
+    },1000);
+}
+
+function renderFastTrainerQuestion() {
+    const q=fastTrainer.questions[fastTrainer.idx];
+    const wrong=shuffledCopy(allFastMethods().filter(x=>x.name!==q.name)).slice(0,3);
+    fastTrainer.options=shuffledCopy([q,...wrong]); fastTrainer.answered=false;
+    document.getElementById('fast-trainer-no').textContent=fastTrainer.idx+1;
+    document.getElementById('fast-trainer-score').textContent=fastTrainer.score;
+    document.getElementById('fast-trainer-topic').textContent=q.icon+' '+q.topic;
+    document.getElementById('fast-trainer-signal').innerHTML='<small>इस signal पर कौन-सी trick सबसे तेज़ है?</small><br>'+esc(q.signal);
+    document.getElementById('fast-trainer-options').innerHTML=fastTrainer.options.map((x,i)=>`<button class="quiz-option" onclick="answerFastTrainer(${i})">${String.fromCharCode(65+i)}. ${x.name}</button>`).join('');
+    const fb=document.getElementById('fast-trainer-feedback'); fb.className='quiz-feedback'; fb.innerHTML='';
+    document.getElementById('fast-trainer-next').style.display='none';
+}
+
+function answerFastTrainer(index) {
+    if (!fastTrainer || fastTrainer.answered) return;
+    fastTrainer.answered=true;
+    const q=fastTrainer.questions[fastTrainer.idx], chosen=fastTrainer.options[index];
+    const correct=chosen.name===q.name;
+    if (correct) fastTrainer.score++;
+    document.querySelectorAll('#fast-trainer-options .quiz-option').forEach((b,i)=>{
+        b.disabled=true;
+        if (fastTrainer.options[i].name===q.name) b.classList.add('correct');
+        else if (i===index) b.classList.add('wrong');
+    });
+    const fb=document.getElementById('fast-trainer-feedback'); fb.className='quiz-feedback '+(correct?'good':'bad');
+    fb.innerHTML=`<div class="qf-head">${correct?'✅ सही पहचान!':'❌ सही trick: '+q.name}</div>
+        <p><b>Fast method:</b> ${esc(q.method)}</p><p><b>Example:</b> ${esc(q.example)}</p><p><b>🛡️ Guard:</b> ${esc(q.guard)}</p>`;
+    document.getElementById('fast-trainer-score').textContent=fastTrainer.score;
+    document.getElementById('fast-trainer-next').style.display='inline-flex';
+}
+
+function nextFastTrainerQuestion() {
+    if (!fastTrainer || !fastTrainer.answered) return;
+    fastTrainer.idx++;
+    if (fastTrainer.idx>=fastTrainer.questions.length) finishFastTrainer(); else renderFastTrainerQuestion();
+}
+
+function finishFastTrainer() {
+    clearInterval(fastTrainer.tick);
+    const result={score:fastTrainer.score,seconds:Math.floor((Date.now()-fastTrainer.started)/1000)};
+    state.trickTrainerAttempts=(state.trickTrainerAttempts||0)+1;
+    state.trickTrainerBest=Math.max(state.trickTrainerBest||0,result.score);
+    state.xp+=result.score*2; saveState(); updateDashboard(); updateProfile();
+    fastTrainer=null;
+    document.getElementById('fast-trainer').style.display='none';
+    document.getElementById('fast-trainer-launch').style.display='block';
+    const el=document.getElementById('fast-trainer-result'); el.style.display='block';
+    el.innerHTML=`<h3>${result.score>=9?'🏆 Signal Master!':result.score>=7?'⚡ Speed बढ़ रही है':'📚 Signals दोहराएँ'}</h3>
+        <div class="score-ring">${result.score}/10</div><p>समय: ${fmtTime(result.seconds)} • Best: ${state.trickTrainerBest}/10 • +${result.score*2} XP</p>
+        <button class="btn btn-primary" onclick="startFastTrainer()">🔁 फिर खेलें</button>`;
     renderFastTopics();
 }
 
@@ -634,7 +727,8 @@ function renderFastTopics() {
     document.getElementById('fast-stats').innerHTML = `
         <div class="stat-card card-blue"><div class="stat-icon">📚</div><div><div class="stat-value">${FAST_TRICKS.length}/19</div><div class="stat-label">Chapters covered</div></div></div>
         <div class="stat-card card-gold"><div class="stat-icon">⚡</div><div><div class="stat-value">${total}</div><div class="stat-label">Validated tricks</div></div></div>
-        <div class="stat-card card-green"><div class="stat-icon">✅</div><div><div class="stat-value">${read}/${FAST_TRICKS.length}</div><div class="stat-label">Playbooks पढ़े</div></div></div>`;
+        <div class="stat-card card-green"><div class="stat-icon">✅</div><div><div class="stat-value">${read}/${FAST_TRICKS.length}</div><div class="stat-label">Playbooks पढ़े</div></div></div>
+        <div class="stat-card card-purple"><div class="stat-icon">🎮</div><div><div class="stat-value">${state.trickTrainerBest||0}/10</div><div class="stat-label">Trainer best</div></div></div>`;
     const list = FAST_TRICKS.filter(t => !fastSearch || (t.topic+' '+t.prereq+' '+t.tricks.map(x=>x.name+' '+x.signal+' '+x.method).join(' ')).toLowerCase().includes(fastSearch));
     const grid = document.getElementById('fast-topic-grid');
     grid.style.display='grid';

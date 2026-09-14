@@ -175,6 +175,23 @@
                 <div class="fast-flow"><span>👀 Signal पहचानें</span><b>→</b><span>⚡ Trick लगाएँ</span><b>→</b><span>🧪 Option/estimate check</span><b>→</b><span>✅ Guard verify</span></div>
             </div>
             <div class="fast-stats dashboard-grid" id="fast-stats"></div>
+            <div class="fast-learning-grid">
+                <div class="card" id="daily-fast-trick"></div>
+                <div class="card fast-trainer-launch" id="fast-trainer-launch">
+                    <h3>🎮 Trick Recognition Trainer</h3>
+                    <p>Signal देखकर सही fast method पहचानिए — 10 random rounds, तुरंत explanation और safety guard।</p>
+                    <button class="btn btn-primary" onclick="startFastTrainer()">▶ Trainer शुरू करें</button>
+                </div>
+            </div>
+            <div class="fast-trainer card" id="fast-trainer" style="display:none;">
+                <div class="quiz-hud"><span>Round <b id="fast-trainer-no">1</b>/10</span><span>Score <b id="fast-trainer-score">0</b></span><span>⏱️ <b id="fast-trainer-time">0:00</b></span></div>
+                <div class="fast-trainer-topic" id="fast-trainer-topic"></div>
+                <div class="quiz-question" id="fast-trainer-signal"></div>
+                <div class="quiz-options" id="fast-trainer-options"></div>
+                <div class="quiz-feedback" id="fast-trainer-feedback"></div>
+                <div class="quiz-actions"><button class="btn btn-primary" id="fast-trainer-next" style="display:none;">अगला Signal ➡</button></div>
+            </div>
+            <div class="daily-result card" id="fast-trainer-result" style="display:none;"></div>
             <div class="search-wrap"><input type="search" id="fast-search" class="search-input" placeholder="🔍 ट्रिक खोजें… जैसे percentage, train, unit digit, SD"></div>
             <div class="fast-topic-grid" id="fast-topic-grid"></div>
             <div id="fast-detail" style="display:none;"></div>

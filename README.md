@@ -12,6 +12,7 @@ SSC और Railway परीक्षाओं के लिए हिंदी-
 - 13 detailed exam profiles with syllabus, pattern, strategy और bank-question analytics
 - calculation techniques और 12 speed drills
 - 19/19 chapters के 57 signal-based fast-making methods, examples और safety guards
+- daily fast trick तथा 10-round interactive Trick Recognition Trainer with score, timer, feedback और saved best
 - 452-question seeded daily-practice bank तथा Sunday mock
 - configurable quiz, 260 flashcards और 25 detailed note collections
 - 50 pattern modules, 43 exam traps, error log और revision center

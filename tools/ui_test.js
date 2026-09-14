@@ -17,7 +17,7 @@ for (const f of files) {
     let s = fs.readFileSync(f, 'utf8').replace(/\nif \(typeof module[\s\S]*$/, '');
     src += '\n/* ===== ' + f + ' ===== */\n' + s;
 }
-src += '\n;globalThis.__T = { PYQ_ALL, PATTERNS_ALL, FLASH_ALL, NOTES_ALL, MASTERY_ALL, MACRO_180_PLAN, EXAMS, PDF_ANALYSIS, FAST_TRICKS, legacyPyqToFull, quizAnswerIndex, pyqCard, pyqSolutionHtml, quizExplain, startQuiz, startFlashDeck, openNotesTopic, openMasteryTopic, toggleTimer, pyqLoadMore };';
+src += '\n;globalThis.__T = { PYQ_ALL, PATTERNS_ALL, FLASH_ALL, NOTES_ALL, MASTERY_ALL, MACRO_180_PLAN, EXAMS, PDF_ANALYSIS, FAST_TRICKS, legacyPyqToFull, quizAnswerIndex, pyqCard, pyqSolutionHtml, quizExplain, startQuiz, startFlashDeck, openNotesTopic, openMasteryTopic, toggleTimer, pyqLoadMore, startFastTrainer, answerFastTrainer, finishFastTrainer };';
 
 const store = {};
 const ctx = {
@@ -94,7 +94,9 @@ ok(T.MASTERY_ALL.master.phases.every(p => p.name && p.topics && p.why && p.daily
 ok(typeof T.MACRO_180_PLAN !== 'undefined' && T.MACRO_180_PLAN.phases.length === 3, 'MACRO_180_PLAN 3 phases');
 ok(typeof T.startQuiz === 'function' && typeof T.startFlashDeck === 'function' &&
    typeof T.openNotesTopic === 'function' && typeof T.openMasteryTopic === 'function' &&
-   typeof T.toggleTimer === 'function' && typeof T.pyqLoadMore === 'function', 'all new section handlers defined');
+   typeof T.toggleTimer === 'function' && typeof T.pyqLoadMore === 'function' &&
+   typeof T.startFastTrainer === 'function' && typeof T.answerFastTrainer === 'function' &&
+   typeof T.finishFastTrainer === 'function', 'all new section handlers defined');
 
 console.log(fails ? '\nRESULT: ' + fails + ' FAILURES' : '\nRESULT: ALL-CHECK-OK');
 process.exit(fails ? 1 : 0);
