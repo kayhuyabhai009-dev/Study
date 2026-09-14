@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mastery-additions.css">
     <link rel="stylesheet" href="css/research-additions.css">
+    <link rel="stylesheet" href="css/fast-tricks.css">
 </head>
 <body>
     <a class="skip-link" href="#dashboard">मुख्य सामग्री पर जाएँ</a>
@@ -29,6 +30,7 @@
             <li><a href="#learn" data-section="learn">सीखें</a></li>
             <li><a href="#formulas" data-section="formulas">फॉर्मूला बुक</a></li>
             <li><a href="#calculation" data-section="calculation">कैलकुलेशन बूस्टर</a></li>
+            <li><a href="#fast-tricks" data-section="fast-tricks">फास्ट ट्रिक्स</a></li>
             <li><a href="#daily" data-section="daily">डेली प्रैक्टिस</a></li>
             <li><a href="#quiz" data-section="quiz">क्विज़</a></li>
             <li><a href="#pyq" data-section="pyq">PYQ बैंक</a></li>
@@ -79,6 +81,7 @@
                 <div class="actions-grid">
                     <button class="action-btn" onclick="startDailyPractice()"><span>📅</span> डेली प्रैक्टिस</button>
                     <button class="action-btn" onclick="openSection('calculation')"><span>🧮</span> कैलकुलेशन बूस्टर</button>
+                    <button class="action-btn" onclick="openSection('fast-tricks')"><span>⚡</span> फास्ट ट्रिक लैब</button>
                     <button class="action-btn" onclick="openSection('formulas')"><span>📖</span> फॉर्मूला बुक</button>
                     <button class="action-btn" onclick="openSection('pyq')"><span>🗂️</span> PYQ बैंक</button>
                     <button class="action-btn" onclick="openSection('exams')"><span>🏛️</span> एग्जाम इंफो</button>
@@ -158,6 +161,23 @@
                 </div>
                 <div class="drill-result" id="drill-result" style="display:none;"></div>
             </div>
+        </section>
+
+        <!-- ================= FAST-MAKING TRICKS ================= -->
+        <section id="fast-tricks" class="section">
+            <div class="section-header">
+                <h2>⚡ Fast-Making Trick Lab</h2>
+                <p>19/19 chapters के 57 signal-based shortcuts — कब लगाना है, कैसे लगाना है और कब बिल्कुल नहीं लगाना</p>
+            </div>
+            <div class="fast-rule card">
+                <h3>🛡️ Golden Rule: पहले accuracy, फिर speed</h3>
+                <p>Shortcut को केवल तब लगाएँ जब उसका <b>Signal</b> और <b>Guard</b> दोनों match हों। हर trick को कम-से-कम 20 सही सवालों पर practice करने के बाद ही mock में भरोसा करें।</p>
+                <div class="fast-flow"><span>👀 Signal पहचानें</span><b>→</b><span>⚡ Trick लगाएँ</span><b>→</b><span>🧪 Option/estimate check</span><b>→</b><span>✅ Guard verify</span></div>
+            </div>
+            <div class="fast-stats dashboard-grid" id="fast-stats"></div>
+            <div class="search-wrap"><input type="search" id="fast-search" class="search-input" placeholder="🔍 ट्रिक खोजें… जैसे percentage, train, unit digit, SD"></div>
+            <div class="fast-topic-grid" id="fast-topic-grid"></div>
+            <div id="fast-detail" style="display:none;"></div>
         </section>
 
         <!-- ================= DAILY PRACTICE ================= -->
@@ -469,7 +489,7 @@
             <div class="footer-logo">🧮 <span>गणित गुरु — SSC व Railway गणित</span></div>
             <div class="footer-links">
                 <div class="footer-column"><h4>पढ़ाई</h4><ul><li><a href="#learn">सीखें</a></li><li><a href="#formulas">फॉर्मूला बुक</a></li><li><a href="#calculation">कैलकुलेशन</a></li><li><a href="#pyq">PYQ बैंक</a></li><li><a href="#notes">नोट्स</a></li><li><a href="#mastery">मास्टरी</a></li></ul></div>
-                <div class="footer-column"><h4>अभ्यास</h4><ul><li><a href="#daily">डेली प्रैक्टिस</a></li><li><a href="#quiz">क्विज़</a></li><li><a href="#flashcards">फ्लैशकार्ड</a></li><li><a href="#revision">रिवीजन</a></li><li><a href="#error-log">एरर लॉग</a></li><li><a href="#timer">टाइमर</a></li></ul></div>
+                <div class="footer-column"><h4>अभ्यास</h4><ul><li><a href="#fast-tricks">फास्ट ट्रिक्स</a></li><li><a href="#daily">डेली प्रैक्टिस</a></li><li><a href="#quiz">क्विज़</a></li><li><a href="#flashcards">फ्लैशकार्ड</a></li><li><a href="#revision">रिवीजन</a></li><li><a href="#error-log">एरर लॉग</a></li><li><a href="#timer">टाइमर</a></li></ul></div>
                 <div class="footer-column"><h4>जानकारी</h4><ul><li><a href="#exams">एग्जाम इंफो</a></li><li><a href="#pdf-research">PDF रिसर्च</a></li><li><a href="#patterns">पैटर्न इंजन</a></li><li><a href="#traps">ट्रैप बुक</a></li><li><a href="#plan">90-दिन प्लान</a></li><li><a href="#profile">प्रोफाइल</a></li></ul></div>
             </div>
             <div class="footer-bottom"><p>© 2026 गणित गुरु • हिंदी माध्यम के विद्यार्थियों के लिए, पूरी मेहनत से बनाया गया 🇮🇳</p></div>
@@ -524,6 +544,7 @@
     <script src="js/data-advanced-topics.js"></script>
     <script src="js/data-specialist-maths.js"></script>
     <script src="js/data-pdf-analysis.js"></script>
+    <script src="js/data-fast-tricks.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

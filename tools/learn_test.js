@@ -9,7 +9,7 @@ const files = [
     'js/data-patterns-legacy.js', 'js/data-flashcards.js', 'js/data-notes.js',
     'js/data-notes-detailed-1.js', 'js/data-notes-detailed-2.js', 'js/data-mastery.js',
     'js/data-practice.js', 'js/data-practice-bank-1.js', 'js/data-practice-bank-2.js',
-    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/data-specialist-maths.js', 'js/data-pdf-analysis.js', 'js/main.js'
+    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/data-specialist-maths.js', 'js/data-pdf-analysis.js', 'js/data-fast-tricks.js', 'js/main.js'
 ];
 let src = '';
 for (const f of files) src += '\n/*' + f + '*/\n' + fs.readFileSync(f, 'utf8').replace(/\nif \(typeof module[\s\S]*$/, '');

@@ -11,6 +11,7 @@ SSC और Railway परीक्षाओं के लिए हिंदी-
 - 10,124 searchable/filterable PYQ records और exam-specific quiz mode
 - 13 detailed exam profiles with syllabus, pattern, strategy और bank-question analytics
 - calculation techniques और 12 speed drills
+- 19/19 chapters के 57 signal-based fast-making methods, examples और safety guards
 - 452-question seeded daily-practice bank तथा Sunday mock
 - configurable quiz, 260 flashcards और 25 detailed note collections
 - 50 pattern modules, 43 exam traps, error log और revision center
@@ -37,6 +38,10 @@ python3 -m http.server 8000
 ```
 
 फिर `http://localhost:8000` खोलें। App में backend या build step की जरूरत नहीं है।
+
+## Fast-trick methodology
+
+Fast methods को केवल answer hacks नहीं बनाया गया। हर method में छह चीजें हैं: पहचानने का **signal**, छोटा method, worked example, expected time saving, prerequisite और गलत प्रयोग रोकने वाला **guard**। SATHEE/IIT Kanpur की [SSC Quant strategy](https://sathee.iitk.ac.in/sathee-ssc/ssc-blogs/mastering_quantitative_aptitude_for_ssc_exams_2025/) की accuracy-first, daily calculation और easy→moderate→hard selection approach को design baseline की तरह उपयोग किया गया है।
 
 ## PDF analysis दोबारा बनाना
 

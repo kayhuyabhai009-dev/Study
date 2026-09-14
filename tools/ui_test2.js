@@ -10,14 +10,14 @@ const files = [
     'js/data-patterns-legacy.js', 'js/data-flashcards.js', 'js/data-notes.js',
     'js/data-notes-detailed-1.js', 'js/data-notes-detailed-2.js', 'js/data-mastery.js',
     'js/data-practice.js', 'js/data-practice-bank-1.js', 'js/data-practice-bank-2.js',
-    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/data-specialist-maths.js', 'js/data-pdf-analysis.js', 'js/main.js'
+    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/data-specialist-maths.js', 'js/data-pdf-analysis.js', 'js/data-fast-tricks.js', 'js/main.js'
 ];
 let src = '';
 for (const f of files) {
     let s = fs.readFileSync(f, 'utf8').replace(/\nif \(typeof module[\s\S]*$/, '');
     src += '\n/* ===== ' + f + ' ===== */\n' + s;
 }
-src += '\n;globalThis.__T = { PYQ_ALL, PATTERNS_ALL, FLASH_ALL, NOTES_ALL, MASTERY_ALL, MACRO_180_PLAN, EXAMS, PDF_ANALYSIS, legacyPyqToFull, quizAnswerIndex, pyqCard, pyqSolutionHtml, quizExplain, startQuiz, startFlashDeck, openNotesTopic, openMasteryTopic, toggleTimer, pyqLoadMore };';
+src += '\n;globalThis.__T = { PYQ_ALL, PATTERNS_ALL, FLASH_ALL, NOTES_ALL, MASTERY_ALL, MACRO_180_PLAN, EXAMS, PDF_ANALYSIS, FAST_TRICKS, legacyPyqToFull, quizAnswerIndex, pyqCard, pyqSolutionHtml, quizExplain, startQuiz, startFlashDeck, openNotesTopic, openMasteryTopic, toggleTimer, pyqLoadMore };';
 
 const store = {};
 const ctx = {
@@ -52,6 +52,8 @@ ok(T.NOTES_ALL.length === 25, 'NOTES_ALL = ' + T.NOTES_ALL.length);
 ok(T.EXAMS.length === 13, 'EXAMS = ' + T.EXAMS.length);
 ok(T.PDF_ANALYSIS.totals.pdf_files === 61 && T.PDF_ANALYSIS.totals.pages === 2567, 'PDF library 61 files / 2567 pages');
 ok(T.PDF_ANALYSIS.totals.pyq_unique_imported === 3433, 'PDF unique PYQ = 3433');
+ok(T.FAST_TRICKS.length === 19 && T.FAST_TRICKS.reduce((n,t)=>n+t.tricks.length,0) === 57, 'Fast tricks 19 chapters / 57 methods');
+ok(T.FAST_TRICKS.every(t => t.target && t.prereq && t.drill && t.tricks.every(x => x.signal && x.method && x.example && x.guard)), 'Fast trick safety fields complete');
 ok(T.MASTERY_ALL.topics.length === 11, 'MASTERY topics = ' + T.MASTERY_ALL.topics.length);
 ok(!!(T.MASTERY_ALL.master && T.MASTERY_ALL.master.rules), 'MASTERY master present');
 

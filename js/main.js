@@ -25,7 +25,8 @@ const DEFAULT_STATE = {
     flashKnown: 0,
     notesRead: [],
     masterySteps: {},     // { chapterId: ['concept','formula','practice','test'] }
-    masteryAwarded: []    // XP is awarded once per chapter/stage
+    masteryAwarded: [],   // XP is awarded once per chapter/stage
+    tricksRead: []        // fast-making playbooks opened
 };
 
 let state = loadState();
@@ -614,6 +615,54 @@ function endDrill() {
     activeDrill = null;
     updateDashboard();
     updateProfile();
+}
+
+/* ================= FAST-MAKING TRICK LAB ================= */
+let fastSearch = '';
+
+function initFastTricks() {
+    document.getElementById('fast-search').addEventListener('input', e => {
+        fastSearch = e.target.value.trim().toLowerCase();
+        renderFastTopics();
+    });
+    renderFastTopics();
+}
+
+function renderFastTopics() {
+    const total = FAST_TRICKS.reduce((n,t)=>n+t.tricks.length,0);
+    const read = (state.tricksRead || []).length;
+    document.getElementById('fast-stats').innerHTML = `
+        <div class="stat-card card-blue"><div class="stat-icon">📚</div><div><div class="stat-value">${FAST_TRICKS.length}/19</div><div class="stat-label">Chapters covered</div></div></div>
+        <div class="stat-card card-gold"><div class="stat-icon">⚡</div><div><div class="stat-value">${total}</div><div class="stat-label">Validated tricks</div></div></div>
+        <div class="stat-card card-green"><div class="stat-icon">✅</div><div><div class="stat-value">${read}/${FAST_TRICKS.length}</div><div class="stat-label">Playbooks पढ़े</div></div></div>`;
+    const list = FAST_TRICKS.filter(t => !fastSearch || (t.topic+' '+t.prereq+' '+t.tricks.map(x=>x.name+' '+x.signal+' '+x.method).join(' ')).toLowerCase().includes(fastSearch));
+    const grid = document.getElementById('fast-topic-grid');
+    grid.style.display='grid';
+    grid.innerHTML = list.map(t => `<button class="fast-topic-card" onclick="openFastTopic('${t.id}')">
+        <span class="fast-icon">${t.icon}</span><div><h3>${t.topic}</h3><p>${t.tricks.length} fast methods • लक्ष्य ${t.target}</p></div>
+        <span class="fast-arrow">${(state.tricksRead||[]).includes(t.id)?'✅':'→'}</span></button>`).join('') || '<div class="no-data">कोई matching trick नहीं मिली। दूसरा keyword आज़माएँ।</div>';
+    document.getElementById('fast-detail').style.display='none';
+}
+
+function openFastTopic(id) {
+    const topic = FAST_TRICKS.find(t=>t.id===id);
+    if (!topic) return;
+    if (!state.tricksRead) state.tricksRead=[];
+    if (!state.tricksRead.includes(id)) { state.tricksRead.push(id); state.xp+=8; saveState(); updateDashboard(); updateProfile(); }
+    document.getElementById('fast-topic-grid').style.display='none';
+    const detail=document.getElementById('fast-detail');
+    detail.style.display='block';
+    detail.innerHTML=`<button class="back-btn" onclick="renderFastTopics()">← सभी फास्ट ट्रिक्स</button>
+        <div class="fast-detail-head"><span>${topic.icon}</span><div><h2>${topic.topic}</h2><p>Target: <b>${topic.target}</b> • पहले पक्का करें: ${esc(topic.prereq)}</p></div></div>
+        <div class="fast-drill">🎯 <b>Speed Drill:</b> ${esc(topic.drill)}</div>
+        <div class="fast-trick-list">${topic.tricks.map((tr,i)=>`<article class="fast-trick-card">
+            <div class="fast-trick-title"><b>⚡ Trick ${i+1}</b><h3>${tr.name}</h3><span>${tr.save}</span></div>
+            <div class="fast-trick-row signal"><strong>👀 Signal</strong><p>${esc(tr.signal)}</p></div>
+            <div class="fast-trick-row method"><strong>🚀 Fast Method</strong><p>${esc(tr.method)}</p></div>
+            <div class="fast-example"><strong>✍️ Example</strong><p>${esc(tr.example)}</p></div>
+            <div class="fast-guard"><strong>🛡️ Guard — यहाँ गलती मत करना</strong><p>${esc(tr.guard)}</p></div>
+        </article>`).join('')}</div>`;
+    window.scrollTo({top:0,behavior:'smooth'});
 }
 
 /* ================= डेली प्रैक्टिस ================= */
@@ -1238,6 +1287,7 @@ function resetAllData() {
         renderErrors();
         renderFormulaChapters();
         renderLearn();
+        renderFastTopics();
         renderCalcLevel();
         renderDrillSelect();
         alert('सारा डेटा रीसेट हो गया। नई शुरुआत की शुभकामनाएँ! 🌱');
@@ -1701,6 +1751,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initLearnSearch();
     initFormulaSearch();
     initCalculation();
+    initFastTricks();
     initPyq();
     initQuiz();
     initFlashcards();
