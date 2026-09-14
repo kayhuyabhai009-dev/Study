@@ -1044,15 +1044,82 @@ function startRevision(type) {
     }
 }
 
+/* ================= PDF LIBRARY DEEP ANALYSIS ================= */
+let pdfCollectionFilter = 'all';
+let pdfSearch = '';
+
+function initPdfResearch() {
+    const collections = Object.keys(PDF_ANALYSIS.collections);
+    document.getElementById('pdf-collection-filter').innerHTML = '<option value="all">सभी collections</option>' +
+        collections.map(c => `<option value="${c}">${c}</option>`).join('');
+    document.getElementById('pdf-collection-filter').addEventListener('change', e => { pdfCollectionFilter = e.target.value; renderPdfFiles(); });
+    document.getElementById('pdf-search').addEventListener('input', e => { pdfSearch = e.target.value.trim().toLowerCase(); renderPdfFiles(); });
+    renderPdfResearch();
+}
+
+function renderPdfResearch() {
+    const t = PDF_ANALYSIS.totals;
+    document.getElementById('pdf-summary').innerHTML = [
+        ['📚', t.pdf_files, 'कुल PDFs'], ['📄', t.pages.toLocaleString('en-IN'), 'हर page scan'],
+        ['❓', t.pyq_source_questions_with_keys.toLocaleString('en-IN'), 'Answer-key questions'],
+        ['✅', t.pyq_unique_imported.toLocaleString('en-IN'), 'Unique PDF PYQs'],
+        ['♻️', t.pyq_duplicates_removed.toLocaleString('en-IN'), 'Duplicates हटे'],
+        ['🧾', t.pyq_solutions_detected.toLocaleString('en-IN'), 'Solutions मिले']
+    ].map(x => `<div class="stat-card"><div class="stat-icon">${x[0]}</div><div class="stat-info"><div class="stat-value">${x[1]}</div><div class="stat-label">${x[2]}</div></div></div>`).join('');
+    document.getElementById('pdf-collections').innerHTML = Object.entries(PDF_ANALYSIS.collections).map(([name,c]) => `
+        <div class="card pdf-collection"><h3>${name}</h3><div><b>${c.files}</b> files • <b>${c.pages}</b> pages • ${c.size_mb} MB</div>
+        <div class="mini-progress"><span style="width:${c.text_coverage_percent}%"></span></div>
+        <small>${c.text_coverage_percent}% pages text-readable ${c.text_coverage_percent < 50 ? '• बाकी scanned/image pages को OCR चाहिए' : ''}</small></div>`).join('');
+    const years = ['2023','2024','2025'];
+    const matrix = PDF_ANALYSIS.topicYear;
+    document.getElementById('pdf-topic-matrix').innerHTML = `<thead><tr><th>टॉपिक</th>${years.map(y=>`<th>${y}</th>`).join('')}<th>Unique total</th></tr></thead><tbody>` +
+        Object.entries(matrix).map(([topic, vals]) => {
+            const total = years.reduce((n,y)=>n+(vals[y]?.unique_imported||0),0);
+            return `<tr><td><b>${topic}</b></td>${years.map(y=>`<td>${vals[y] ? vals[y].source_questions.toLocaleString('en-IN')+' / '+vals[y].unique_imported : '—'}</td>`).join('')}<td><b>${total}</b></td></tr>`;
+        }).join('') + '</tbody>';
+    renderPdfFiles();
+}
+
+function renderPdfFiles() {
+    const files = PDF_ANALYSIS.files.filter(f => {
+        if (pdfCollectionFilter !== 'all' && f.collection !== pdfCollectionFilter) return false;
+        return !pdfSearch || (f.file + ' ' + f.topic + ' ' + f.collection).toLowerCase().includes(pdfSearch);
+    });
+    document.getElementById('pdf-file-count').innerHTML = `<b>${files.length}</b> PDF मिले • ${files.reduce((n,f)=>n+f.pages,0).toLocaleString('en-IN')} pages`;
+    document.getElementById('pdf-file-list').innerHTML = files.map(f => {
+        const p = f.pipeline || {};
+        const href = encodeURI(f.file).replace(/'/g, '%27');
+        return `<a class="pdf-file-card" href="${href}" target="_blank" rel="noopener">
+            <div class="pdf-file-icon">📕</div><div class="pdf-file-info"><h4>${f.file.split('/').pop()}</h4>
+            <p>${f.topic} • ${f.pages} pages • ${f.size_mb} MB • text coverage ${f.text_coverage_percent}%</p>
+            ${p.answer_keys != null ? `<div class="pdf-badges"><span>${p.answer_keys} source Q</span><span>${p.unique_imported} unique</span><span>${p.duplicates} duplicate</span><span>${p.solutions} solutions</span></div>` : '<div class="pdf-badges"><span>Classnotes/Book</span><span>Visual study source</span></div>'}
+            </div><span class="pdf-open">खोलें ↗</span></a>`;
+    }).join('') || '<div class="no-data">कोई PDF नहीं मिला। Filter बदलकर देखें।</div>';
+}
+
 /* ================= एग्जाम इंफो ================= */
+function examMatches(q, examId) {
+    const rules = {
+        'ssc-cgl': /CGL/i, 'ssc-chsl': /CHSL/i, 'ssc-cpo': /CPO|SI/i, 'ssc-mts': /MTS/i,
+        'ssc-gd': /SSC GD|CONSTABLE/i, 'ssc-selection-post': /SELECTION/i, 'ssc-stenographer': /STENO/i,
+        'rrb-ntpc': /NTPC/i, 'rrb-group-d': /GROUP D/i, 'rrb-alp': /ALP/i,
+        'rrb-technician': /TECHNICIAN/i, 'rpf-constable': /RPF/i, 'rrb-je': /RRB JE|RAILWAY JE/i
+    };
+    return (rules[examId] || /$a/).test(q.exam || '');
+}
+function examQuestions(examId) { return PYQ_ALL.filter(q => examMatches(q, examId)); }
+
 function renderExams() {
-    document.getElementById('exam-cards').innerHTML = EXAMS.map(e => `
-        <div class="exam-card" onclick="openExamDetail('${e.id}')" role="button" tabindex="0">
+    document.getElementById('exam-cards').innerHTML = EXAMS.map(e => {
+        const qCount = examQuestions(e.id).length;
+        return `<div class="exam-card" onclick="openExamDetail('${e.id}')" role="button" tabindex="0">
             <span class="ec-badge ${e.badge === 'SSC' ? 'badge-ssc' : 'badge-rrb'}">${e.badge}</span>
+            <span class="exam-q-count">${qCount ? qCount.toLocaleString('en-IN') + ' bank questions' : 'Syllabus profile'}</span>
             <h3>${e.name}</h3>
             <p>${e.short}</p>
             <div class="ec-tags">${e.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
-        </div>`).join('');
+        </div>`;
+    }).join('');
     document.getElementById('exam-tips-list').innerHTML = EXAM_TIPS.map(t => `<li>${t}</li>`).join('');
     document.getElementById('exam-detail').style.display = 'none';
 }
@@ -1060,6 +1127,10 @@ function renderExams() {
 function openExamDetail(id) {
     const e = EXAMS.find(x => x.id === id);
     if (!e) return;
+    const bank = examQuestions(id);
+    const topicCounts = {};
+    bank.forEach(q => { topicCounts[q.topic || 'विविध'] = (topicCounts[q.topic || 'विविध'] || 0) + 1; });
+    const topTopics = Object.entries(topicCounts).sort((a,b)=>b[1]-a[1]).slice(0,8);
     document.getElementById('exam-cards').style.display = 'none';
     const d = document.getElementById('exam-detail');
     d.style.display = 'block';
@@ -1069,6 +1140,12 @@ function openExamDetail(id) {
             <span class="ec-badge ${e.badge === 'SSC' ? 'badge-ssc' : 'badge-rrb'}">${e.badge}</span>
             <h3>${e.name}</h3>
             <p>${e.overview}</p>
+            <div class="exam-bank-analysis">
+                <h4>🧪 Question Bank Deep Analysis</h4>
+                <div class="exam-bank-number"><b>${bank.length.toLocaleString('en-IN')}</b><span>इस exam-tag के उपलब्ध questions</span></div>
+                ${topTopics.length ? `<div class="exam-topic-bars">${topTopics.map(([topic,n])=>`<div><span>${esc(topic)}</span><div class="mini-progress"><span style="width:${Math.round(n/topTopics[0][1]*100)}%"></span></div><b>${n}</b></div>`).join('')}</div>
+                <button class="btn btn-primary" onclick="practiceExam('${id}')">🎯 ${Math.min(25,bank.length)}-Question Exam Quiz</button>` : '<p class="muted">इस exact exam tag के questions PDF bank में नहीं हैं; नीचे official syllabus profile से तैयारी करें।</p>'}
+            </div>
             <h4>📐 गणित का वेटेज (टॉपिक अनुसार)</h4>
             <div class="ed-note">${esc(e.mathsWeightage)}</div>
             ${e.structure.map(s => `
@@ -1170,6 +1247,7 @@ function resetAllData() {
 /* ================= क्विज़ (कस्टम सेट) ================= */
 let customQuiz = null;
 let lastQuizWrong = [];
+let quizExamOverride = null;
 
 function quizAnswerIndex(q) {
     if (q.optLetters && q.answerLetter) return q.optLetters.indexOf(q.answerLetter);
@@ -1180,6 +1258,7 @@ function quizPool() {
     const topic = document.getElementById('quiz-topic').value;
     const lang = document.getElementById('quiz-lang').value;
     return PYQ_ALL.filter(q => {
+        if (quizExamOverride && !examMatches(q, quizExamOverride)) return false;
         if (topic !== 'all' && q.topic !== topic) return false;
         if (lang === 'hi' && q.lang === 'en') return false;
         if (lang === 'en' && q.lang !== 'en') return false;
@@ -1195,9 +1274,23 @@ function initQuiz() {
     const upd = () => {
         document.getElementById('quiz-pool-info').textContent = 'इस चयन में ' + quizPool().length + ' प्रश्न उपलब्ध हैं';
     };
-    document.getElementById('quiz-topic').addEventListener('change', upd);
-    document.getElementById('quiz-lang').addEventListener('change', upd);
+    const manualUpdate = () => { quizExamOverride = null; upd(); };
+    document.getElementById('quiz-topic').addEventListener('change', manualUpdate);
+    document.getElementById('quiz-lang').addEventListener('change', manualUpdate);
     upd();
+}
+
+function practiceExam(examId) {
+    const exam = EXAMS.find(e => e.id === examId);
+    const pool = examQuestions(examId).filter(q => (q.options || []).length >= 2 && quizAnswerIndex(q) >= 0);
+    if (!exam || !pool.length) return;
+    quizExamOverride = examId;
+    document.getElementById('quiz-topic').value = 'all';
+    document.getElementById('quiz-lang').value = 'all';
+    document.getElementById('quiz-count').value = String(Math.min(25, pool.length));
+    document.getElementById('quiz-pool-info').innerHTML = `<b>${exam.name}</b> के ${pool.length.toLocaleString('en-IN')} valid questions में से exam-mode quiz`;
+    openSection('quiz');
+    startQuiz();
 }
 
 function startQuiz() {
@@ -1612,6 +1705,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initQuiz();
     initFlashcards();
     initErrorTopicSelect();
+    initPdfResearch();
     initPlan();
     initPatternTrapSearch();
 

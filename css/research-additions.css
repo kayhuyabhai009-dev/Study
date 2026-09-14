@@ -1,0 +1,32 @@
+/* PDF research and exam-bank analytics */
+.pdf-methodology { margin-bottom: 1rem; border-left: 4px solid var(--accent-blue); }
+.pdf-methodology h3, .pdf-matrix-card h3 { margin-bottom: .35rem; }
+.pdf-methodology p { color: var(--text-muted); font-size: .9rem; }
+.pdf-collection-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: .8rem; margin-bottom: 1rem; }
+.pdf-collection h3 { font-size: .95rem; color: var(--primary); margin-bottom: .35rem; }
+.pdf-collection > div { font-size: .82rem; }
+.pdf-collection small { color: var(--text-muted); }
+.pdf-collection .mini-progress { margin: .55rem 0 .25rem; }
+.pdf-matrix-card { margin-bottom: 1rem; }
+.table-scroll { overflow-x: auto; }
+.pdf-file-list { display: grid; gap: .65rem; }
+.pdf-file-card { display: flex; align-items: center; gap: .8rem; padding: .85rem 1rem; background: var(--bg-card-light); border: 1px solid var(--border-light); border-radius: 10px; box-shadow: var(--shadow-sm); transition: .2s ease; }
+.pdf-file-card:hover { border-color: var(--primary); transform: translateX(3px); }
+.pdf-file-icon { font-size: 1.5rem; flex: 0 0 auto; }
+.pdf-file-info { min-width: 0; flex: 1; }
+.pdf-file-info h4 { font-size: .9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pdf-file-info p { font-size: .76rem; color: var(--text-muted); }
+.pdf-badges { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .3rem; }
+.pdf-badges span { font-size: .65rem; padding: .1rem .45rem; border-radius: 12px; background: var(--primary-soft); color: var(--primary); font-weight: 700; }
+.pdf-open { color: var(--primary); font-weight: 700; font-size: .78rem; white-space: nowrap; }
+.exam-q-count { float: right; background: var(--success-soft); color: var(--success); font-size: .65rem; font-weight: 700; border-radius: 12px; padding: .15rem .5rem; }
+.exam-bank-analysis { margin: 1rem 0; padding: 1rem; border-radius: 12px; background: var(--primary-soft); border: 1px solid var(--border-light); }
+.exam-bank-analysis h4 { margin-top: 0; }
+.exam-bank-number { display: flex; align-items: baseline; gap: .5rem; margin-bottom: .7rem; }
+.exam-bank-number b { font-size: 1.7rem; color: var(--primary); }
+.exam-bank-number span { color: var(--text-muted); font-size: .8rem; }
+.exam-topic-bars { display: grid; grid-template-columns: repeat(2,1fr); gap: .35rem 1rem; margin-bottom: .8rem; }
+.exam-topic-bars > div { display: grid; grid-template-columns: minmax(80px,1fr) 2fr 38px; gap: .4rem; align-items: center; font-size: .72rem; }
+.exam-topic-bars .mini-progress { height: 5px; }
+.exam-topic-bars b { text-align: right; }
+@media(max-width:640px){.exam-topic-bars{grid-template-columns:1fr}.pdf-file-card{align-items:flex-start}.pdf-open{display:none}}

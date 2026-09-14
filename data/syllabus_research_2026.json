@@ -6,29 +6,124 @@
       "exam": "SSC CGL",
       "notice": "CGL 2025 official notice",
       "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf",
-      "coverage": ["Number Systems", "Arithmetic", "Algebra", "Geometry", "Mensuration", "Trigonometry", "Statistics", "Probability"]
+      "coverage": [
+        "Number Systems",
+        "Arithmetic",
+        "Algebra",
+        "Geometry",
+        "Mensuration",
+        "Trigonometry",
+        "Statistics",
+        "Probability"
+      ]
     },
     {
       "exam": "SSC CHSL",
       "notice": "CHSL 2025 official notice",
       "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
-      "coverage": ["Arithmetic", "Geometry", "Mensuration", "Trigonometry", "Tables and Graphs", "Mean Median Mode", "Standard Deviation", "Simple Probability"]
+      "coverage": [
+        "Arithmetic",
+        "Geometry",
+        "Mensuration",
+        "Trigonometry",
+        "Tables and Graphs",
+        "Mean Median Mode",
+        "Standard Deviation",
+        "Simple Probability"
+      ]
     },
     {
       "exam": "RRB NTPC",
       "notice": "CEN 06/2024 detailed notification",
       "url": "https://www.rrbcdg.gov.in/uploads/2024/06-NTPCUG/Detailed%20CEN%2006-2024%20NTPC.pdf",
-      "coverage": ["Number System", "Decimals and Fractions", "LCM HCF", "Ratio", "Percentage", "Mensuration", "Time Work Distance", "Interest", "Profit Loss", "Algebra", "Geometry", "Trigonometry", "Elementary Statistics"]
+      "coverage": [
+        "Number System",
+        "Decimals and Fractions",
+        "LCM HCF",
+        "Ratio",
+        "Percentage",
+        "Mensuration",
+        "Time Work Distance",
+        "Interest",
+        "Profit Loss",
+        "Algebra",
+        "Geometry",
+        "Trigonometry",
+        "Elementary Statistics"
+      ]
     },
     {
       "exam": "RRB ALP",
       "notice": "CEN 01/2026 official notification",
       "url": "https://www.rrbcdg.gov.in/uploads/2026/01-ALP/012026ALP-CEN.pdf",
-      "coverage": ["Core Arithmetic", "Algebra", "Geometry", "Trigonometry", "Elementary Statistics", "Square Root", "Age Calculations", "Calendar and Clock", "Pipes and Cistern"]
+      "coverage": [
+        "Core Arithmetic",
+        "Algebra",
+        "Geometry",
+        "Trigonometry",
+        "Elementary Statistics",
+        "Square Root",
+        "Age Calculations",
+        "Calendar and Clock",
+        "Pipes and Cistern"
+      ]
+    },
+    {
+      "exam": "RRB Technician",
+      "notice": "CEN 02/2025 updated notification",
+      "url": "https://www.rrbcdg.gov.in/uploads/2025/02-TECH/022025-CEN_updated.pdf",
+      "coverage": [
+        "Core Arithmetic",
+        "Quadratic Equations",
+        "Arithmetic Progression",
+        "Coordinate Geometry",
+        "Sets",
+        "Dispersion",
+        "Probability"
+      ]
+    },
+    {
+      "exam": "RPF Constable",
+      "notice": "CEN RPF 02/2024",
+      "url": "https://www.rrbcdg.gov.in/uploads/2024/RPF02-CONS/CEN%202024-02%20RPF-Const.pdf",
+      "coverage": [
+        "Arithmetic",
+        "Tables and Graphs",
+        "Mensuration",
+        "Time and Distance"
+      ]
     }
   ],
   "website_chapters": [
-    "Number System", "Simplification", "Percentage", "Profit Loss Discount", "Simple and Compound Interest", "Ratio Mixture Partnership", "Average", "Time Work Pipes", "Time Distance Train Boat", "Mensuration 2D", "Mensuration 3D", "Algebra", "Geometry", "Trigonometry", "Statistics and Data Interpretation", "Probability and Counting", "Ages Calendar Clock"
+    "Number System",
+    "Simplification",
+    "Percentage",
+    "Profit Loss Discount",
+    "Simple and Compound Interest",
+    "Ratio Mixture Partnership",
+    "Average",
+    "Time Work Pipes",
+    "Time Distance Train Boat",
+    "Mensuration 2D",
+    "Mensuration 3D",
+    "Algebra",
+    "Geometry",
+    "Trigonometry",
+    "Statistics and Data Interpretation",
+    "Probability and Counting",
+    "Ages Calendar Clock",
+    "Sets Arithmetic Progression and Coordinate Geometry",
+    "SSC CGL JSO Advanced Statistics"
   ],
-  "quality_note": "The website is a preparation aid, not a score guarantee. Exam patterns, dates and syllabi can change; candidates should verify the latest official notice."
+  "quality_note": "The website is a preparation aid, not a score guarantee. Exam patterns, dates and syllabi can change; candidates should verify the latest official notice.",
+  "pdf_library_analysis": {
+    "files": 61,
+    "pages": 2567,
+    "size_mb": 792.53,
+    "source_questions_with_answer_keys": 10571,
+    "unique_questions_imported": 3433,
+    "duplicates_removed": 7083,
+    "solutions_detected": 10559,
+    "image_or_low_text_pages_requiring_ocr": 1520
+  }
 }

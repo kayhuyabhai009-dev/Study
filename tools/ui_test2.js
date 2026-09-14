@@ -5,19 +5,19 @@ const vm = require('vm');
 const files = [
     'js/data-formulas.js', 'js/data-formulas-mensuration.js',
     'js/data-topic-guides-1.js', 'js/data-topic-guides-2.js',
-    'js/data-calculation.js', 'js/data-exams.js', 'js/data-pyq.js',
+    'js/data-calculation.js', 'js/data-exams.js', 'js/data-exams-extended.js', 'js/data-pyq.js',
     'js/data-pyq-featured.js', 'js/data-pyq-legacy.js', 'js/data-pyq-pdf.js',
     'js/data-patterns-legacy.js', 'js/data-flashcards.js', 'js/data-notes.js',
     'js/data-notes-detailed-1.js', 'js/data-notes-detailed-2.js', 'js/data-mastery.js',
     'js/data-practice.js', 'js/data-practice-bank-1.js', 'js/data-practice-bank-2.js',
-    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/main.js'
+    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/data-specialist-maths.js', 'js/data-pdf-analysis.js', 'js/main.js'
 ];
 let src = '';
 for (const f of files) {
     let s = fs.readFileSync(f, 'utf8').replace(/\nif \(typeof module[\s\S]*$/, '');
     src += '\n/* ===== ' + f + ' ===== */\n' + s;
 }
-src += '\n;globalThis.__T = { PYQ_ALL, PATTERNS_ALL, FLASH_ALL, NOTES_ALL, MASTERY_ALL, MACRO_180_PLAN, legacyPyqToFull, quizAnswerIndex, pyqCard, pyqSolutionHtml, quizExplain, startQuiz, startFlashDeck, openNotesTopic, openMasteryTopic, toggleTimer, pyqLoadMore };';
+src += '\n;globalThis.__T = { PYQ_ALL, PATTERNS_ALL, FLASH_ALL, NOTES_ALL, MASTERY_ALL, MACRO_180_PLAN, EXAMS, PDF_ANALYSIS, legacyPyqToFull, quizAnswerIndex, pyqCard, pyqSolutionHtml, quizExplain, startQuiz, startFlashDeck, openNotesTopic, openMasteryTopic, toggleTimer, pyqLoadMore };';
 
 const store = {};
 const ctx = {
@@ -48,7 +48,10 @@ function ok(cond, msg) {
 ok(T.PYQ_ALL.length === 50 + 40 + 6601 + 3433, 'PYQ_ALL = ' + T.PYQ_ALL.length + ' (expect 10124)');
 ok(T.PATTERNS_ALL.length >= 32, 'PATTERNS_ALL = ' + T.PATTERNS_ALL.length);
 ok(T.FLASH_ALL.length === 260, 'FLASH_ALL = ' + T.FLASH_ALL.length);
-ok(T.NOTES_ALL.length === 23, 'NOTES_ALL = ' + T.NOTES_ALL.length);
+ok(T.NOTES_ALL.length === 25, 'NOTES_ALL = ' + T.NOTES_ALL.length);
+ok(T.EXAMS.length === 13, 'EXAMS = ' + T.EXAMS.length);
+ok(T.PDF_ANALYSIS.totals.pdf_files === 61 && T.PDF_ANALYSIS.totals.pages === 2567, 'PDF library 61 files / 2567 pages');
+ok(T.PDF_ANALYSIS.totals.pyq_unique_imported === 3433, 'PDF unique PYQ = 3433');
 ok(T.MASTERY_ALL.topics.length === 11, 'MASTERY topics = ' + T.MASTERY_ALL.topics.length);
 ok(!!(T.MASTERY_ALL.master && T.MASTERY_ALL.master.rules), 'MASTERY master present');
 

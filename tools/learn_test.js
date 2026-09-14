@@ -4,12 +4,12 @@ const vm = require('vm');
 const files = [
     'js/data-formulas.js', 'js/data-formulas-mensuration.js',
     'js/data-topic-guides-1.js', 'js/data-topic-guides-2.js',
-    'js/data-calculation.js', 'js/data-exams.js', 'js/data-pyq.js',
+    'js/data-calculation.js', 'js/data-exams.js', 'js/data-exams-extended.js', 'js/data-pyq.js',
     'js/data-pyq-featured.js', 'js/data-pyq-legacy.js', 'js/data-pyq-pdf.js',
     'js/data-patterns-legacy.js', 'js/data-flashcards.js', 'js/data-notes.js',
     'js/data-notes-detailed-1.js', 'js/data-notes-detailed-2.js', 'js/data-mastery.js',
     'js/data-practice.js', 'js/data-practice-bank-1.js', 'js/data-practice-bank-2.js',
-    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/main.js'
+    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/data-specialist-maths.js', 'js/data-pdf-analysis.js', 'js/main.js'
 ];
 let src = '';
 for (const f of files) src += '\n/*' + f + '*/\n' + fs.readFileSync(f, 'utf8').replace(/\nif \(typeof module[\s\S]*$/, '');
@@ -28,15 +28,15 @@ const T = ctx.__T;
 let fails = 0;
 const ok = (c, m) => { console.log((c ? 'PASS' : 'FAIL') + ' | ' + m); if (!c) fails++; };
 
-ok(T.FORMULA_BOOK.length === 17, 'FORMULA_BOOK chapters = ' + T.FORMULA_BOOK.length + ' (expect 17)');
+ok(T.FORMULA_BOOK.length === 19, 'FORMULA_BOOK chapters = ' + T.FORMULA_BOOK.length + ' (expect 19)');
 ok(T.FORMULA_BOOK.every(c => c.id && c.name && c.formulas.length >= 5), 'all chapters have 5+ detailed formulas');
 const mens = T.FORMULA_BOOK.filter(c => c.id.startsWith('mensuration'));
 ok(mens.length === 2 && mens.every(c => c.formulas.length >= 14), 'mensuration 2D/3D present with 14+ formulas each');
-ok(T.TOPIC_GUIDES.length === 17, 'TOPIC_GUIDES = ' + T.TOPIC_GUIDES.length);
+ok(T.TOPIC_GUIDES.length === 19, 'TOPIC_GUIDES = ' + T.TOPIC_GUIDES.length);
 // every learn card opens a real chapter
 const chIds = new Set(T.FORMULA_BOOK.map(c => c.id));
 const broken = T.LEARN_TOPICS.filter(t => !chIds.has(t.chapter));
-ok(broken.length === 0, 'all 17 learn cards map to chapters (broken=' + broken.length + ')');
+ok(broken.length === 0, 'all 19 learn cards map to chapters (broken=' + broken.length + ')');
 // every chapter has a guide
 const gIds = new Set(T.TOPIC_GUIDES.map(g => g.id));
 const noGuide = T.FORMULA_BOOK.filter(c => !gIds.has(c.id));
@@ -51,7 +51,7 @@ try {
         const h = T.guidePanelHtml(g);
         if (!h.includes('वेटेज') || !h.includes('माइक्रो-प्लान')) throw new Error('panel incomplete for ' + g.id);
     }
-    ok(true, 'guidePanelHtml renders all 17 guides');
+    ok(true, 'guidePanelHtml renders all 19 guides');
 } catch (e) { ok(false, e.message); }
 console.log(fails ? 'RESULT: ' + fails + ' FAILURES' : 'RESULT: ALL-CHECK-OK');
 process.exit(fails ? 1 : 0);

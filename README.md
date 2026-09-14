@@ -4,14 +4,18 @@ SSC और Railway परीक्षाओं के लिए हिंदी-
 
 ## मुख्य सुविधाएँ
 
-- 17 official-syllabus-aligned chapters और 160 विस्तृत formula lessons
-- SSC Tier-II के Statistics, Probability, DI तथा RRB के Ages/Calendar/Clock modules
+- 19 official-syllabus-aligned chapters और 188 विस्तृत formula lessons
+- SSC Tier-II Statistics/Probability/DI, CGL JSO specialist statistics और RRB Technician Grade-I Sets/AP/Coordinate modules
+- RRB के Ages, Calendar, Clock, Pipes/Cistern सहित विस्तृत coverage
 - हर chapter में Concept → Formula Recall → Timed Practice → Test mastery tracker
-- 10,124 searchable/filterable PYQ records
+- 10,124 searchable/filterable PYQ records और exam-specific quiz mode
+- 13 detailed exam profiles with syllabus, pattern, strategy और bank-question analytics
 - calculation techniques और 12 speed drills
-- 437-question seeded daily-practice bank तथा Sunday mock
-- configurable quiz, 260 flashcards और 23 detailed note collections
+- 452-question seeded daily-practice bank तथा Sunday mock
+- configurable quiz, 260 flashcards और 25 detailed note collections
 - 50 pattern modules, 43 exam traps, error log और revision center
+- सभी 61 repository PDFs (2,567 pages, 792.53 MB) की searchable library और page-level analysis
+- 10,571 keyed source questions में से 3,433 unique PDF PYQs; 7,083 duplicates removed और 10,559 solutions detected
 - topic mastery roadmaps, exam information और 90/180-day plans
 - focus timer, achievements, streaks, XP, dark mode और responsive navigation
 
@@ -34,12 +38,24 @@ python3 -m http.server 8000
 
 फिर `http://localhost:8000` खोलें। App में backend या build step की जरूरत नहीं है।
 
+## PDF analysis दोबारा बनाना
+
+Repository में PDF बदलने के बाद reproducible report बनाएँ:
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r tools/requirements.txt
+.venv/bin/python tools/analyze_pdf_library.py
+```
+
+Report `data/pdf_deep_analysis.json` में बनती है। Scanned/image-only pages को text-understood बताने के बजाय साफ़ तौर पर OCR-required mark किया जाता है।
+
 ## जाँच
 
 ```bash
 node tools/fulltest.js
 ```
 
-यह data integrity, merged datasets, renderers, formula chapters और topic guides validate करता है।
+यह data integrity, merged datasets, PDF inventory, exam profiles, renderers, formula chapters और topic guides validate करता है।
 
 > परीक्षा तिथियों और नियमों के लिए आवेदन से पहले संबंधित SSC/RRB की आधिकारिक notification अवश्य जाँचें।
