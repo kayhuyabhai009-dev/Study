@@ -23,7 +23,9 @@ const DEFAULT_STATE = {
     bestMock: 0,
     quizDone: 0,
     flashKnown: 0,
-    notesRead: []
+    notesRead: [],
+    masterySteps: {},     // { chapterId: ['concept','formula','practice','test'] }
+    masteryAwarded: []    // XP is awarded once per chapter/stage
 };
 
 let state = loadState();
@@ -166,10 +168,18 @@ function getAccuracy() {
     return Math.round(state.correct / state.questions * 100);
 }
 function getMastery() {
-    const ch = Math.min(state.chaptersRead.length / 14, 1) * 40;
-    const xp = Math.min(state.xp / 1000, 1) * 30;
-    const acc = getAccuracy() * 0.3;
-    return Math.round(ch + xp + acc);
+    const totalChapters = Math.max(FORMULA_BOOK.length, 1);
+    const readScore = Math.min(state.chaptersRead.length / totalChapters, 1) * 20;
+    const doneSteps = Object.values(state.masterySteps || {}).reduce((n, steps) => n + new Set(steps).size, 0);
+    const stepScore = Math.min(doneSteps / (totalChapters * 4), 1) * 30;
+    const xpScore = Math.min(state.xp / 1500, 1) * 20;
+    const accuracyScore = getAccuracy() * 0.3;
+    return Math.round(readScore + stepScore + xpScore + accuracyScore);
+}
+
+function chapterMastery(id) {
+    const steps = new Set((state.masterySteps && state.masterySteps[id]) || []);
+    return Math.round(steps.size / 4 * 100);
 }
 function getStreak() {
     let streak = 0, off = 0;
@@ -190,7 +200,7 @@ function getBestDrill() {
 function updateDashboard() {
     document.getElementById('overall-mastery-value').textContent = getMastery() + '%';
     document.getElementById('pyqs-analysed-value').textContent = state.questions;
-    document.getElementById('topics-mastered-value').textContent = state.chaptersRead.length;
+    document.getElementById('topics-mastered-value').textContent = FORMULA_BOOK.filter(ch => chapterMastery(ch.id) === 100).length;
     document.getElementById('accuracy-value').textContent = getAccuracy() + '%';
     document.getElementById('speed-value').textContent = getBestDrill();
     document.getElementById('streak-value').textContent = getStreak();
@@ -208,11 +218,21 @@ function updateDashboard() {
 }
 
 /* ================= सीखें (Learn) ================= */
-function renderLearn() {
+function renderLearn(filter = '') {
     const grid = document.getElementById('learn-cards');
-    grid.innerHTML = LEARN_TOPICS.map(t => {
+    const q = filter.trim().toLowerCase();
+    const topics = LEARN_TOPICS.filter(t => !q || (t.name + ' ' + t.desc + ' ' + t.tags.join(' ')).toLowerCase().includes(q));
+    const formulaCount = FORMULA_BOOK.reduce((n, ch) => n + ch.formulas.length, 0);
+    const completed = FORMULA_BOOK.filter(ch => chapterMastery(ch.id) === 100).length;
+    document.getElementById('learn-overview').innerHTML = `
+        <div><b>${FORMULA_BOOK.length}</b><span>पूर्ण अध्याय</span></div>
+        <div><b>${formulaCount}+</b><span>गहरे फॉर्मूले</span></div>
+        <div><b>${DAILY_BANK.length}+</b><span>Practice Questions</span></div>
+        <div><b>${completed}/${FORMULA_BOOK.length}</b><span>100% Mastered</span></div>`;
+    grid.innerHTML = topics.map(t => {
         const ch = FORMULA_BOOK.find(c => c.id === t.chapter);
         const g = (typeof TOPIC_GUIDES !== 'undefined' ? TOPIC_GUIDES : []).find(x => x.id === t.id);
+        const mastery = chapterMastery(t.chapter);
         const fc = ch ? `<span class="learn-badge">📖 ${ch.formulas.length} फॉर्मूले</span>` : '<span class="learn-badge soon">⏳ जल्द आ रहा</span>';
         const wt = g ? `<span class="learn-badge wt">⚖️ CGL-T1: ${g.exams.cgl1} • T2: ${g.exams.cgl2}</span>` : '';
         return `
@@ -220,10 +240,53 @@ function renderLearn() {
             <div class="lc-icon">${t.icon}</div>
             <h4>${t.name}</h4>
             <p>${t.desc}</p>
-            <div class="learn-badges">${fc}${wt}</div>
+            <div class="learn-badges">${fc}${wt}<span class="learn-badge mastery">🏆 ${mastery}% mastery</span></div>
+            <div class="mini-progress"><span style="width:${mastery}%"></span></div>
             <div class="tags">${t.tags.map(x => `<span class="tag">${x}</span>`).join('')}</div>
         </div>`;
-    }).join('');
+    }).join('') || '<div class="no-data">इस खोज से कोई टॉपिक नहीं मिला। दूसरा शब्द आज़माएँ।</div>';
+}
+
+function initLearnSearch() {
+    document.getElementById('learn-search').addEventListener('input', e => renderLearn(e.target.value));
+}
+
+const MASTERY_STAGES = [
+    ['concept', '🧠 कॉन्सेप्ट समझा'],
+    ['formula', '📖 फॉर्मूला Recall'],
+    ['practice', '✍️ Timed Practice'],
+    ['test', '🎯 Chapter Test 90%+']
+];
+
+function masteryTrackerHtml(chapterId) {
+    const done = new Set((state.masterySteps && state.masterySteps[chapterId]) || []);
+    return `<div class="chapter-mastery">
+        <div class="chapter-mastery-head"><h3>🏆 Chapter Mastery Tracker</h3><b>${chapterMastery(chapterId)}%</b></div>
+        <p>हर चरण ईमानदारी से पूरा करने के बाद टिक करें। लक्ष्य: चारों चरण + timed revision.</p>
+        <div class="mastery-stage-grid">${MASTERY_STAGES.map(([id, label]) => `
+            <button class="mastery-stage ${done.has(id) ? 'done' : ''}" onclick="toggleMasteryStep('${chapterId}','${id}')">
+                ${done.has(id) ? '✅' : '⬜'} ${label}
+            </button>`).join('')}</div>
+    </div>`;
+}
+
+function toggleMasteryStep(chapterId, step) {
+    if (!state.masterySteps) state.masterySteps = {};
+    const steps = new Set(state.masterySteps[chapterId] || []);
+    const wasDone = steps.has(step);
+    if (wasDone) steps.delete(step); else steps.add(step);
+    state.masterySteps[chapterId] = [...steps];
+    const awardKey = chapterId + ':' + step;
+    if (!state.masteryAwarded) state.masteryAwarded = [];
+    if (!wasDone && !state.masteryAwarded.includes(awardKey)) {
+        state.masteryAwarded.push(awardKey);
+        state.xp += 15;
+    }
+    saveState();
+    openChapter(chapterId);
+    renderLearn(document.getElementById('learn-search').value);
+    updateDashboard();
+    updateProfile();
 }
 
 /* टॉपिक गाइड पैनल (अध्याय के ऊपर): वेटेज + प्रश्न-प्रकार + ट्रैप + प्लान */
@@ -277,6 +340,7 @@ function openChapter(id) {
         <button class="back-btn" onclick="renderFormulaChapters()">← सभी अध्याय</button>
         <h3 style="font-weight:800; font-size:1.4rem; margin-bottom:.4rem;">${ch.icon} ${ch.name}</h3>
         <p class="muted" style="margin-bottom:1rem;">${ch.desc} — उपविषय: ${ch.subtopics.join(', ')}</p>
+        ${masteryTrackerHtml(ch.id)}
         ${guidePanelHtml(gd)}
         ${ch.formulas.map((f, i) => formulaBlock(f, i)).join('')}`;
     document.getElementById('formula-chapters').style.display = 'none';
@@ -1096,6 +1160,7 @@ function resetAllData() {
         renderDailyHeader();
         renderErrors();
         renderFormulaChapters();
+        renderLearn();
         renderCalcLevel();
         renderDrillSelect();
         alert('सारा डेटा रीसेट हो गया। नई शुरुआत की शुभकामनाएँ! 🌱');
@@ -1540,6 +1605,7 @@ function esc(s) {
 document.addEventListener('DOMContentLoaded', function () {
     initTheme();
     initNav();
+    initLearnSearch();
     initFormulaSearch();
     initCalculation();
     initPyq();

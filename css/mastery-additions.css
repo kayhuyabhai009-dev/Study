@@ -1,0 +1,36 @@
+/* Learn & chapter mastery additions */
+.learn-overview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.learn-overview > div { display: flex; flex-direction: column; }
+.learn-overview b { color: var(--primary); font-size: 1.65rem; line-height: 1.2; }
+.learn-overview span { color: var(--text-muted); font-size: .8rem; }
+.mastery-path { margin-bottom: 1.2rem; border-left: 4px solid var(--accent-gold); }
+.mastery-path h3 { margin-bottom: .7rem; }
+.mastery-path-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .65rem; }
+.mastery-path-grid > div { background: var(--primary-soft); border-radius: 10px; padding: .65rem .8rem; display: flex; flex-direction: column; }
+.mastery-path-grid b { color: var(--primary); font-size: .88rem; }
+.mastery-path-grid span { color: var(--text-muted); font-size: .74rem; }
+.learn-badge.mastery { background: var(--success-soft); color: var(--success); }
+.mini-progress { height: 6px; border-radius: 6px; background: var(--border-light); overflow: hidden; }
+.mini-progress span { display: block; height: 100%; background: linear-gradient(90deg,var(--accent-green),var(--primary)); transition: width .3s ease; }
+.chapter-mastery { background: var(--warning-soft); border: 1px solid var(--accent-gold); border-radius: var(--radius); padding: 1rem 1.2rem; margin-bottom: 1rem; }
+.chapter-mastery-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.chapter-mastery-head h3 { font-size: 1.05rem; }
+.chapter-mastery-head b { color: var(--warning); font-size: 1.3rem; }
+.chapter-mastery > p { color: var(--text-muted); font-size: .82rem; margin: .2rem 0 .7rem; }
+.mastery-stage-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
+.mastery-stage { background: var(--bg-card-light); color: var(--text-dark); border: 1px solid var(--border-light); padding: .55rem .7rem; border-radius: 9px; font-weight: 700; font-size: .8rem; }
+.mastery-stage:hover { border-color: var(--primary); }
+.mastery-stage.done { background: var(--success-soft); color: var(--success); border-color: var(--success); }
+@media (max-width: 760px) {
+    .learn-overview, .mastery-path-grid, .mastery-stage-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 420px) {
+    .learn-overview { grid-template-columns: repeat(2, 1fr); }
+    .mastery-path-grid, .mastery-stage-grid { grid-template-columns: 1fr; }
+}

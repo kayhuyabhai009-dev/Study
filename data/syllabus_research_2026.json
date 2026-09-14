@@ -1,0 +1,34 @@
+{
+  "researched_on": "2026-09-14",
+  "scope": "SSC and Railway competitive-exam mathematics coverage used by Ganit Guru",
+  "official_sources": [
+    {
+      "exam": "SSC CGL",
+      "notice": "CGL 2025 official notice",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf",
+      "coverage": ["Number Systems", "Arithmetic", "Algebra", "Geometry", "Mensuration", "Trigonometry", "Statistics", "Probability"]
+    },
+    {
+      "exam": "SSC CHSL",
+      "notice": "CHSL 2025 official notice",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+      "coverage": ["Arithmetic", "Geometry", "Mensuration", "Trigonometry", "Tables and Graphs", "Mean Median Mode", "Standard Deviation", "Simple Probability"]
+    },
+    {
+      "exam": "RRB NTPC",
+      "notice": "CEN 06/2024 detailed notification",
+      "url": "https://www.rrbcdg.gov.in/uploads/2024/06-NTPCUG/Detailed%20CEN%2006-2024%20NTPC.pdf",
+      "coverage": ["Number System", "Decimals and Fractions", "LCM HCF", "Ratio", "Percentage", "Mensuration", "Time Work Distance", "Interest", "Profit Loss", "Algebra", "Geometry", "Trigonometry", "Elementary Statistics"]
+    },
+    {
+      "exam": "RRB ALP",
+      "notice": "CEN 01/2026 official notification",
+      "url": "https://www.rrbcdg.gov.in/uploads/2026/01-ALP/012026ALP-CEN.pdf",
+      "coverage": ["Core Arithmetic", "Algebra", "Geometry", "Trigonometry", "Elementary Statistics", "Square Root", "Age Calculations", "Calendar and Clock", "Pipes and Cistern"]
+    }
+  ],
+  "website_chapters": [
+    "Number System", "Simplification", "Percentage", "Profit Loss Discount", "Simple and Compound Interest", "Ratio Mixture Partnership", "Average", "Time Work Pipes", "Time Distance Train Boat", "Mensuration 2D", "Mensuration 3D", "Algebra", "Geometry", "Trigonometry", "Statistics and Data Interpretation", "Probability and Counting", "Ages Calendar Clock"
+  ],
+  "quality_note": "The website is a preparation aid, not a score guarantee. Exam patterns, dates and syllabi can change; candidates should verify the latest official notice."
+}

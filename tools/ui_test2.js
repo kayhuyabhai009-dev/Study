@@ -10,7 +10,7 @@ const files = [
     'js/data-patterns-legacy.js', 'js/data-flashcards.js', 'js/data-notes.js',
     'js/data-notes-detailed-1.js', 'js/data-notes-detailed-2.js', 'js/data-mastery.js',
     'js/data-practice.js', 'js/data-practice-bank-1.js', 'js/data-practice-bank-2.js',
-    'js/data-misc.js', 'js/main.js'
+    'js/data-misc.js', 'js/data-advanced-topics.js', 'js/main.js'
 ];
 let src = '';
 for (const f of files) {
@@ -48,7 +48,7 @@ function ok(cond, msg) {
 ok(T.PYQ_ALL.length === 50 + 40 + 6601 + 3433, 'PYQ_ALL = ' + T.PYQ_ALL.length + ' (expect 10124)');
 ok(T.PATTERNS_ALL.length >= 32, 'PATTERNS_ALL = ' + T.PATTERNS_ALL.length);
 ok(T.FLASH_ALL.length === 260, 'FLASH_ALL = ' + T.FLASH_ALL.length);
-ok(T.NOTES_ALL.length === 20, 'NOTES_ALL = ' + T.NOTES_ALL.length);
+ok(T.NOTES_ALL.length === 23, 'NOTES_ALL = ' + T.NOTES_ALL.length);
 ok(T.MASTERY_ALL.topics.length === 11, 'MASTERY topics = ' + T.MASTERY_ALL.topics.length);
 ok(!!(T.MASTERY_ALL.master && T.MASTERY_ALL.master.rules), 'MASTERY master present');
 

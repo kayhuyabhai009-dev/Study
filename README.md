@@ -4,14 +4,25 @@ SSC और Railway परीक्षाओं के लिए हिंदी-
 
 ## मुख्य सुविधाएँ
 
-- 14 syllabus chapters और विस्तृत formula book
+- 17 official-syllabus-aligned chapters और 160 विस्तृत formula lessons
+- SSC Tier-II के Statistics, Probability, DI तथा RRB के Ages/Calendar/Clock modules
+- हर chapter में Concept → Formula Recall → Timed Practice → Test mastery tracker
 - 10,124 searchable/filterable PYQ records
 - calculation techniques और 12 speed drills
-- seeded daily practice तथा Sunday mock
-- configurable quiz, 260 flashcards और detailed notes
-- pattern engine, trap book, error log और revision center
+- 437-question seeded daily-practice bank तथा Sunday mock
+- configurable quiz, 260 flashcards और 23 detailed note collections
+- 50 pattern modules, 43 exam traps, error log और revision center
 - topic mastery roadmaps, exam information और 90/180-day plans
 - focus timer, achievements, streaks, XP, dark mode और responsive navigation
+
+## Syllabus research basis
+
+Coverage को official notifications के indicative syllabi से cross-check किया गया है:
+
+- [SSC CGL 2025 official notice](https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2025.pdf) — Mathematical Abilities में arithmetic, algebra, geometry, mensuration, trigonometry, statistics और simple probability
+- [SSC CHSL 2025 official notice](https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf) — tables/graphs, central tendency, standard deviation और probability
+- [RRB NTPC CEN 06/2024](https://www.rrbcdg.gov.in/uploads/2024/06-NTPCUG/Detailed%20CEN%2006-2024%20NTPC.pdf) — arithmetic से elementary statistics तक
+- [RRB ALP CEN 01/2026](https://www.rrbcdg.gov.in/uploads/2026/01-ALP/012026ALP-CEN.pdf) — age calculations, calendar/clock और pipes/cistern सहित Railway coverage
 
 ## चलाना
 
