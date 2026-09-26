@@ -2538,6 +2538,8 @@ function refreshAllViews() {
     renderDrillSelect();
     renderCalcScorecard();
     renderChallenge();
+    renderNotes();
+    updateTopbarChips();
 }
 
 /* ================= बूट ================= */
