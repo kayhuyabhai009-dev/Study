@@ -7,14 +7,35 @@
 
 'use strict';
 
-/* ================= स्टेट (localStorage) ================= */
-const LS_KEY = 'ganit-guru-state';
+/* ================= उपयोगकर्ता (नाम से लॉगिन, लॉगआउट तक सेव) ================= */
+const LS_KEY = 'ganit-guru-state';          // पुराना shared key (legacy/migration fallback)
+const LS_USER = 'gg-current-user';          // अभी लॉगिन उपयोगकर्ता का नाम
+const LS_USERS = 'gg-users-list';           // अब तक के सभी उपयोगकर्ता
+function stateKeyFor(name) { return 'gg-state-' + String(name || '').trim().toLowerCase(); }
+function currentUser() {
+    try { return localStorage.getItem(LS_USER); } catch (e) { return null; }
+}
+function getUsersList() {
+    try { return JSON.parse(localStorage.getItem(LS_USERS) || '[]'); } catch (e) { return []; }
+}
+function rememberUser(name) {
+    const list = getUsersList().filter(u => u.toLowerCase() !== name.toLowerCase());
+    list.unshift(name);
+    try {
+        localStorage.setItem(LS_USERS, JSON.stringify(list.slice(0, 8)));
+        localStorage.setItem(LS_USER, name);
+    } catch (e) { /* ignore */ }
+}
+
+/* ================= स्टेट (localStorage, प्रति-उपयोगकर्ता) ================= */
 const DEFAULT_STATE = {
     xp: 0,
     questions: 0,
     correct: 0,
     sets: {},            // { 'YYYY-MM-DD': { score, total } }
     bestDrill: {},       // { genName: score }
+    drillHistory: [],    // [{ gen, score, correct, wrong, sec, diff, date }]
+    calcWorkout: {},     // { 'YYYY-MM-DD': { score, total, sec, best:boolean } }
     errorLog: [],        // { id, topic, type, desc, lesson, date }
     chaptersRead: [],
     trapsRead: [],
@@ -28,22 +49,60 @@ const DEFAULT_STATE = {
     masteryAwarded: [],   // XP is awarded once per chapter/stage
     tricksRead: [],       // fast-making playbooks opened
     trickTrainerBest: 0,
-    trickTrainerAttempts: 0
+    trickTrainerAttempts: 0,
+    joinedAt: null,
+    challenge: { start: null, done: {}, checks: {}, rewards: [] }  // 90-दिन चैलेंज
 };
 
 let state = loadState();
 
+function normalizeState(s) {
+    const out = Object.assign({}, DEFAULT_STATE, s);
+    out.challenge = Object.assign({ start: null, done: {}, checks: {}, rewards: [] }, (s && s.challenge) || {});
+    if (!out.challenge.done || typeof out.challenge.done !== 'object') out.challenge.done = {};
+    if (!out.challenge.checks || typeof out.challenge.checks !== 'object') out.challenge.checks = {};
+    if (!Array.isArray(out.challenge.rewards)) out.challenge.rewards = [];
+    out.xp = Math.max(0, parseInt(out.xp, 10) || 0);
+    out.questions = Math.max(0, parseInt(out.questions, 10) || 0);
+    out.correct = Math.max(0, parseInt(out.correct, 10) || 0);
+    ['notesRead', 'errorLog', 'chaptersRead', 'trapsRead', 'pyqsSeen', 'masteryAwarded', 'tricksRead'].forEach(k => {
+        if (!Array.isArray(out[k])) out[k] = [];
+    });
+    ['sets', 'bestDrill', 'masterySteps'].forEach(k => {
+        if (!out[k] || typeof out[k] !== 'object' || Array.isArray(out[k])) out[k] = {};
+    });
+    out.drillHistory = Array.isArray(out.drillHistory) ? out.drillHistory.slice(0, 60) : [];
+    if (!out.calcWorkout || typeof out.calcWorkout !== 'object' || Array.isArray(out.calcWorkout)) out.calcWorkout = {};
+    return out;
+}
+
 function loadState() {
+    const u = currentUser();
+    if (u) {
+        try {
+            const raw = localStorage.getItem(stateKeyFor(u));
+            if (raw) return normalizeState(JSON.parse(raw));
+        } catch (e) { /* ignore */ }
+        // पहली बार लॉगिन: पुराना shared डेटा migrate करें ताकि progress न मिटे
+        try {
+            const legacy = localStorage.getItem(LS_KEY);
+            if (legacy) { localStorage.setItem(stateKeyFor(u), legacy); return normalizeState(JSON.parse(legacy)); }
+        } catch (e) { /* ignore */ }
+        return normalizeState({ joinedAt: todayKey() });
+    }
     try {
         const raw = localStorage.getItem(LS_KEY);
-        if (raw) return Object.assign({}, DEFAULT_STATE, JSON.parse(raw));
+        if (raw) return normalizeState(JSON.parse(raw));
     } catch (e) { /* ignore */ }
-    return Object.assign({}, DEFAULT_STATE);
+    return normalizeState({});
 }
 function saveState() {
-    try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) { /* ignore */ }
+    try {
+        const u = currentUser();
+        localStorage.setItem(u ? stateKeyFor(u) : LS_KEY, JSON.stringify(state));
+    } catch (e) { /* ignore */ }
 }
-function addXP(n) { state.xp += n; saveState(); updateDashboard(); updateProfile(); }
+function addXP(n) { state.xp += n; saveState(); updateDashboard(); updateProfile(); updateTopbarChips(); }
 
 function todayKey(offsetDays) {
     const d = new Date();
@@ -105,26 +164,31 @@ function setTheme(t) {
     localStorage.setItem('ganit-guru-theme', t);
 }
 
-/* ================= नेविगेशन ================= */
-function initNav() {
-    const navLinks = document.querySelector('.nav-links');
-    const menuBtn = document.createElement('button');
-    menuBtn.className = 'menu-toggle';
-    menuBtn.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M3 18h18M3 12h18M3 6h18"/></svg>';
-    menuBtn.setAttribute('aria-label', 'मेन्यू खोलें');
-    const navLogo = document.querySelector('.nav-logo');
-    navLogo.parentNode.insertBefore(menuBtn, navLogo.nextSibling);
-    menuBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
+/* ================= नेविगेशन (साइडबार + टॉपबार) ================= */
+const SECTION_LABELS = {
+    dashboard: '📊 डैशबोर्ड', challenge: '🔥 90-दिन चैलेंज', learn: '📚 सीखें',
+    formulas: '📖 फॉर्मूला बुक', calculation: '🧮 कैलकुलेशन बूस्टर', 'fast-tricks': '⚡ फास्ट ट्रिक्स',
+    daily: '📅 डेली प्रैक्टिस', quiz: '🎮 क्विज़', pyq: '🗂️ PYQ बैंक', flashcards: '🃏 फ्लैशकार्ड',
+    notes: '📓 नोट्स', patterns: '🧠 पैटर्न इंजन', traps: '🛡️ ट्रैप बुक', mastery: '🏆 मास्टरी',
+    'error-log': '❌ एरर लॉग', revision: '🔄 रिवीजन', timer: '⏱️ टाइमर',
+    'pdf-research': '🔬 PDF रिसर्च', exams: '🏛️ एग्जाम इंफो', plan: '🗓️ रणनीति प्लान', profile: '👤 प्रोफाइल'
+};
 
-    document.querySelectorAll('.nav-links a').forEach(link => {
+function initNav() {
+    const menuBtn = document.getElementById('menu-toggle');
+    if (menuBtn) menuBtn.addEventListener('click', () => document.body.classList.toggle('drawer-open'));
+    const scrim = document.getElementById('drawer-scrim');
+    if (scrim) scrim.addEventListener('click', () => document.body.classList.remove('drawer-open'));
+
+    document.querySelectorAll('.side-nav a').forEach(link => {
         link.addEventListener('click', e => {
             e.preventDefault();
             openSection(link.getAttribute('data-section'));
-            navLinks.classList.remove('active');
+            document.body.classList.remove('drawer-open');
         });
     });
 
-    // फुटर लिंक भी सेक्शन खोलें (पहले ये काम नहीं करते थे)
+    // फुटर लिंक भी सेक्शन खोलें
     document.querySelectorAll('.footer-links a').forEach(link => {
         link.addEventListener('click', e => {
             e.preventDefault();
@@ -140,7 +204,7 @@ function initNav() {
             e.target.click();
         }
         if (e.key === 'Escape') {
-            navLinks.classList.remove('active');
+            document.body.classList.remove('drawer-open');
             const modal = document.getElementById('error-modal');
             if (modal && modal.style.display !== 'none') closeErrorModal();
         }
@@ -156,13 +220,98 @@ function openSection(name, updateUrl = true) {
     if (!target || !target.classList.contains('section')) return;
     document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
     target.classList.add('active');
-    document.querySelectorAll('.nav-links a').forEach(a =>
+    document.querySelectorAll('.side-nav a').forEach(a =>
         a.classList.toggle('active', a.getAttribute('data-section') === name));
+    const tb = document.getElementById('topbar-title');
+    if (tb) tb.textContent = SECTION_LABELS[name] || 'गणित गुरु';
+    if (name === 'challenge') renderChallenge();
     if (updateUrl && window.location && window.location.hash !== '#' + name) {
         try { window.history.pushState(null, '', '#' + name); }
         catch (e) { window.location.hash = name; }
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* ================= टॉपबार चिप्स (स्ट्रीक + XP) ================= */
+function updateTopbarChips() {
+    const st = document.getElementById('chip-streak');
+    if (st) st.textContent = getStreak();
+    const xp = document.getElementById('chip-xp');
+    if (xp) xp.textContent = state.xp || 0;
+    const hs = document.getElementById('hero-streak');
+    if (hs) hs.textContent = getStreak();
+}
+
+/* ================= उपयोगकर्ता मोडल (नाम पूछें/सेव करें) ================= */
+function initUserModal() {
+    const modal = document.getElementById('user-modal');
+    if (!modal) return;
+    const input = document.getElementById('user-name-input');
+    const hint = document.getElementById('user-modal-hint');
+    const chipsBox = document.getElementById('user-quick-list');
+
+    const users = getUsersList();
+    if (users.length && chipsBox) {
+        chipsBox.innerHTML = '<p class=\"um-quick-label\">🙋 पहले से मौजूद हैं:</p><div class=\"um-chips\">' +
+            users.map(u => `<button class=\"um-chip\" data-u=\"${esc(u)}\">${esc(u)}</button>`).join('') + '</div>';
+        chipsBox.querySelectorAll('.um-chip').forEach(b => b.addEventListener('click', () => loginUser(b.getAttribute('data-u'))));
+    }
+    document.getElementById('user-name-save').addEventListener('click', () => {
+        const name = (input.value || '').trim();
+        if (name.length < 2) { hint.textContent = 'कम-से-कम 2 अक्षर लिखें 🙏'; input.focus(); return; }
+        if (name.length > 24) { hint.textContent = 'नाम 24 अक्षरों से छोटा रखें'; input.focus(); return; }
+        loginUser(name);
+    });
+    input.addEventListener('keydown', e => { if (e.key === 'Enter') document.getElementById('user-name-save').click(); });
+
+    if (!currentUser()) {
+        modal.style.display = 'flex';
+        document.body.classList.add('locked');
+        setTimeout(() => input.focus(), 250);
+    } else {
+        modal.style.display = 'none';
+        document.body.classList.remove('locked');
+        refreshUserChrome();
+    }
+}
+
+function loginUser(name) {
+    rememberUser(name);
+    state = loadState();
+    if (!state.joinedAt) { state.joinedAt = todayKey(); saveState(); }
+    const modal = document.getElementById('user-modal');
+    if (modal) modal.style.display = 'none';
+    document.body.classList.remove('locked');
+    refreshAllViews();
+    refreshUserChrome();
+}
+
+function logoutUser() {
+    if (!confirm('लॉगआउट करें? आपकी सारी progress इसी डिवाइस पर सुरक्षित रहेगी — दोबारा नाम डालकर वहीं से शुरू कर सकते हैं।')) return;
+    try { localStorage.removeItem(LS_USER); } catch (e) { /* ignore */ }
+    location.reload();
+}
+
+function userInitial(name) {
+    const s = String(name || 'ग').trim();
+    return s.charAt(0).toUpperCase();
+}
+
+function refreshUserChrome() {
+    const u = currentUser();
+    const nameEl = document.getElementById('side-user-name');
+    if (nameEl) nameEl.textContent = u || 'अतिथि';
+    const av = document.getElementById('side-user-avatar');
+    if (av) av.textContent = userInitial(u);
+    const lvl = document.getElementById('side-user-level');
+    if (lvl) {
+        const L = LEVELS.filter(l => state.xp >= l.xp).pop();
+        lvl.textContent = L ? L.name.replace(/^\S+\s/, '') : 'शुरुआती';
+    }
+    const ring = document.getElementById('side-user-xpbar');
+    if (ring) ring.style.width = Math.min(100, state.xp % 100) + '%';
+    updateTopbarChips();
+    updateDashboard();
 }
 
 /* ================= डैशबोर्ड ================= */
@@ -200,6 +349,22 @@ function getBestDrill() {
     return Math.max(0, ...Object.values(state.bestDrill));
 }
 
+function hindiGreeting() {
+    const h = new Date().getHours();
+    if (h < 12) return '🌅 सुप्रभात';
+    if (h < 17) return '☀️ शुभ दोपहर';
+    if (h < 21) return '🌇 शुभ संध्या';
+    return '🌙 शुभ रात्रि';
+}
+const DASH_QUOTES = [
+    'प्रतिदिन छोटी-छोटी progress = 90 दिन बाद बड़ा परिणाम।',
+    'स्पीड तभी आती है जब नींव पक्की हो — आज भी कैलकुलेशन ड्रिल मत छोड़ें।',
+    'गलती दर्ज नहीं की तो गलती दोहराई जाएगी।',
+    'Formula रटना नहीं, समझना — exam hall में समझ ही काम आती है।',
+    'PYQ आपके सबसे अच्छे शिक्षक हैं — रोज़ थोड़ा, लगातार।',
+    'Challenge का असली इनाम: परीक्षा हॉल का आत्मविश्वास।'
+];
+
 function updateDashboard() {
     document.getElementById('overall-mastery-value').textContent = getMastery() + '%';
     document.getElementById('pyqs-analysed-value').textContent = state.questions;
@@ -208,16 +373,46 @@ function updateDashboard() {
     document.getElementById('speed-value').textContent = getBestDrill();
     document.getElementById('streak-value').textContent = getStreak();
 
-    // आज का फोकस
-    const dow = new Date().getDay();
-    let focus;
-    if (dow === 0) {
-        focus = '<p>आज <b>रविवार</b> है — साप्ताहिक मॉक का दिन! 🎯</p><ul><li>📝 20 प्रश्नों का मॉक (डेली प्रैक्टिस में)</li><li>🔄 इस हफ्ते का एरर लॉग पूरा दोहराएँ</li><li>📖 इस हफ्ते के फॉर्मूले बिना देखे बोलें</li></ul>';
-    } else {
-        const topic = LEARN_TOPICS[(dow + (new Date().getDate() % 5)) % LEARN_TOPICS.length];
-        focus = '<p>आज का टॉपिक: <b>' + topic.name + '</b></p><ul><li>📖 फॉर्मूला बुक में "' + topic.name + '" अध्याय पढ़ें</li><li>🗂️ PYQ बैंक में "' + topic.name + '" के प्रश्न हल करें</li><li>🧮 कैलकुलेशन बूस्टर की रोज़ की ड्रिल न भूलें</li></ul>';
+    // हीरो — नाम, तारीख, चैलेंज स्थिति
+    const u = currentUser();
+    const greet = document.getElementById('hero-greet');
+    if (greet) greet.innerHTML = hindiGreeting() + (u ? ', <b>' + esc(u) + '</b>' : '') + ' 👋';
+    const dateEl = document.getElementById('hero-date');
+    if (dateEl) {
+        const now = new Date();
+        const days = ['रविवार', 'सोमवार', 'मंगलवार', 'बुधवार', 'गुरुवार', 'शुक्रवार', 'शनिवार'];
+        const months = ['जनवरी', 'फरवरी', 'मार्च', 'अप्रैल', 'मई', 'जून', 'जुलाई', 'अगस्त', 'सितंबर', 'अक्टूबर', 'नवंबर', 'दिसंबर'];
+        dateEl.textContent = days[now.getDay()] + ', ' + now.getDate() + ' ' + months[now.getMonth()] + ' ' + now.getFullYear();
     }
-    document.getElementById('today-focus-content').innerHTML = focus;
+    const quoteEl = document.getElementById('hero-quote');
+    if (quoteEl) quoteEl.textContent = '💡 ' + DASH_QUOTES[new Date().getDate() % DASH_QUOTES.length];
+
+    renderChallengeMini();
+
+    // आज का फोकस — चैलेंज चालू हो तो चैलेंज ड्रिव्हन, नहीं तो सामान्य
+    const cd = challengeCurrentDay();
+    const focus = document.getElementById('today-focus-content');
+    if (state.challenge.start && cd) {
+        const day = CHALLENGE_90_DATA[cd - 1];
+        if (day && !state.challenge.done[cd]) {
+            focus.innerHTML = '<p>🔥 आज चैलेंज का <b>दिन ' + cd + '</b> है — <b>' + esc(day.title) + '</b></p><ul>' +
+                day.tasks.slice(0, 3).map(t => '<li>' + t.i + ' ' + esc(t.t) + '</li>').join('') +
+                '<li class="tf-more">⭐ पूरी चेकलिस्ट चैलेंज पेज पर देखें</li></ul>';
+        } else {
+            focus.innerHTML = '<p>✅ आज का चैलेंज दिन पूरा! अब गेहराई वाला काम:</p><ul><li>🧮 कैलकुलेशन ड्रिल के 2 राउंड — अपना रिकॉर्ड तोड़ें</li><li>🃏 भूले हुए फ्लैशकार्ड दोहराएँ</li><li>🗂️ PYQ बैंक से अपने कमज़ोर टॉपिक के 10 प्रश्न</li></ul>';
+        }
+    } else {
+        const dow = new Date().getDay();
+        let f;
+        if (dow === 0) {
+            f = '<p>आज <b>रविवार</b> है — साप्ताहिक मॉक का दिन! 🎯</p><ul><li>📝 20 प्रश्नों का मॉक (डेली प्रैक्टिस में)</li><li>🔄 इस हफ्ते का एरर लॉग पूरा दोहराएँ</li><li>📖 इस हफ्ते के फॉर्मूले बिना देखे बोलें</li></ul>';
+        } else {
+            const topic = LEARN_TOPICS[(dow + (new Date().getDate() % 5)) % LEARN_TOPICS.length];
+            f = '<p>आज का टॉपिक: <b>' + topic.name + '</b></p><ul><li>📖 फॉर्मूला बुक में "' + topic.name + '" अध्याय पढ़ें</li><li>🗂️ PYQ बैंक में "' + topic.name + '" के प्रश्न हल करें</li><li>🧮 कैलकुलेशन बूस्टर की रोज़ की ड्रिल न भूलें</li></ul>';
+        }
+        focus.innerHTML = f;
+    }
+    updateTopbarChips();
 }
 
 /* ================= सीखें (Learn) ================= */
@@ -459,26 +654,33 @@ function openTechnique(id) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-/* -------- स्पीड ड्रिल इंजन -------- */
+/* -------- स्पीड ड्रिल इंजन (कठिनाई-स्तर + इतिहास + लक्ष्य सहित) -------- */
 const DRILLS = [
-    { gen: 'tables', name: '🎲 पहाड़े', desc: '2-20 तक के गुणा' },
-    { gen: 'squares', name: '🔲 वर्ग (1-50)', desc: 'n² बोलिए' },
-    { gen: 'fracPercent', name: '💯 भिन्न → %', desc: '1/2 = ?%' },
-    { gen: 'addSub', name: '➕ जोड़-घटाव', desc: '2-3 अंकीय' },
-    { gen: 'twoDigitMul', name: '✖️ दो अंकीय गुणा', desc: '20-99 × 20-99' },
-    { gen: 'baseMul', name: '🎯 100-आधार गुणा', desc: '90-110 के बीच' },
-    { gen: 'successive', name: '📉 सतत %', desc: 'a% फिर b%' },
-    { gen: 'series', name: '🔢 श्रेणी योग', desc: '1 से n, वर्ग, घन' },
-    { gen: 'sqrt', name: '√ वर्गमूल', desc: 'पूर्ण वर्ग 1000-10000' },
-    { gen: 'unitDigit', name: '🔚 इकाई अंक', desc: 'aᵇ का इकाई अंक' },
-    { gen: 'remainder', name: '➗ शेषफल', desc: '(n−1)ᵏ ÷ n' },
-    { gen: 'percentCalc', name: '💹 % के सवाल', desc: 'x का y%' }
+    { gen: 'tables', name: '🎲 पहाड़े', desc: '2-30 तक के गुणा', target: 15 },
+    { gen: 'squares', name: '🔲 वर्ग (1-60)', desc: 'n² बोलिए', target: 12 },
+    { gen: 'cubes', name: '🧊 घन (1-20)', desc: 'n³ याद/निकालिए', target: 12 },
+    { gen: 'fracPercent', name: '💯 भिन्न ↔ %', desc: '1/2 = ?%', target: 15 },
+    { gen: 'addSub', name: '➕ जोड़-घटाव', desc: '2-3 अंकीय', target: 15 },
+    { gen: 'chainAdd', name: '⛓️ जंजीरी जोड़', desc: '4-6 संख्याएँ एक साथ', target: 10 },
+    { gen: 'twoDigitMul', name: '✖️ दो अंकीय गुणा', desc: '20-99 × 20-99', target: 10 },
+    { gen: 'baseMul', name: '🎯 100-आधार गुणा', desc: '90-110 के बीच', target: 12 },
+    { gen: 'successive', name: '📉 सतत %', desc: 'a% फिर b%', target: 10 },
+    { gen: 'percentCalc', name: '💹 % के सवाल', desc: 'x का y%', target: 12 },
+    { gen: 'series', name: '🔢 श्रेणी योग', desc: '1 से n, वर्ग, घन', target: 8 },
+    { gen: 'sqrt', name: '√ वर्गमूल', desc: 'पूर्ण वर्ग 1000-10000', target: 10 },
+    { gen: 'cubeRoot', name: '∛ घनमूल', desc: 'पूर्ण घन से जड़ तक', target: 10 },
+    { gen: 'unitDigit', name: '🔚 इकाई अंक', desc: 'aᵇ का इकाई अंक', target: 12 },
+    { gen: 'remainder', name: '➗ शेषफल', desc: '(n−1)ᵏ ÷ n', target: 8 },
+    { gen: 'mixedSprint', name: '⚡ मिक्स्ड स्प्रिंट', desc: 'सब कुछ मिलाकर — असली परीक्षण', target: 12 }
 ];
 
 function renderDrillSelect() {
     document.getElementById('drill-select').innerHTML = DRILLS.map(d => {
         const best = state.bestDrill[d.gen] || 0;
-        return `<button class="drill-btn" onclick="startDrill('${d.gen}')">${d.name} ${best ? '<small>🏆 ' + best + '</small>' : ''}</button>`;
+        const tgt = d.target || 12;
+        const done = best >= tgt;
+        return `<button class="drill-btn ${done ? 'done' : ''}" onclick="startDrill('${d.gen}')" title="${esc(d.desc)} — लक्ष्य: ${tgt} सही/60से">
+            ${d.name} <small>${done ? '✅' : '🏆 ' + best + '/' + tgt}</small></button>`;
     }).join('');
 }
 
@@ -490,20 +692,38 @@ function supNum(n) {
     return String(n).split('').map(c => m[c] || c).join('');
 }
 
-function genDrillQuestion(gen) {
+/* diff: 0 आसान, 1 मध्यम, 2 कठिन — रेंज अपने-आप बदलती है */
+function genDrillQuestion(gen, diff = 1) {
+    const D = diff;
     switch (gen) {
-        case 'tables': { const a = rnd(2, 20), b = rnd(2, 20); return { q: a + ' × ' + b + ' = ?', a: a * b }; }
-        case 'squares': { const n = rnd(1, 50); return { q: n + '² = ?', a: n * n }; }
+        case 'tables': { const hi = [12, 20, 30][D], lo = [2, 7, 11][D]; const a = rnd(lo, hi), b = rnd(lo, hi); return { q: a + ' × ' + b + ' = ?', a: a * b }; }
+        case 'squares': { const hi = [25, 50, 60][D]; const n = rnd(1, hi); return { q: n + '² = ?', a: n * n }; }
+        case 'cubes': { const hi = [10, 15, 20][D]; const n = rnd(2, hi); return { q: n + '³ = ?', a: n * n * n }; }
+        case 'cubeRoot': { const hi = [12, 18, 25][D]; const n = rnd(3, hi); return { q: '∛' + (n * n * n) + ' = ?', a: n }; }
         case 'fracPercent': {
             const fracs = [[2, 50], [3, 33.33], [4, 25], [5, 20], [6, 16.67], [7, 14.28], [8, 12.5], [9, 11.11], [10, 10], [11, 9.09], [12, 8.33], [16, 6.25], [20, 5], [25, 4]];
             const f = fracs[rnd(0, fracs.length - 1)];
+            if (D === 2 && Math.random() < 0.5) return { q: f[1] + '% = 1/?', a: f[0] };
             return { q: '1/' + f[0] + ' = ?%', a: f[1], tol: 0.15 };
         }
         case 'addSub': {
-            const a = rnd(20, 499), b = rnd(11, 299), plus = Math.random() < 0.5;
+            const hiA = [99, 499, 999][D], hiB = [49, 299, 899][D];
+            const a = rnd(20, hiA), b = rnd(11, hiB), plus = Math.random() < 0.5;
             return { q: a + (plus ? ' + ' : ' − ') + b + ' = ?', a: plus ? a + b : a - b };
         }
-        case 'twoDigitMul': { const a = rnd(20, 99), b = rnd(20, 99); return { q: a + ' × ' + b + ' = ?', a: a * b }; }
+        case 'chainAdd': {
+            const n = [4, 5, 6][D];
+            const nums = [];
+            for (let i = 0; i < n; i++) nums.push(rnd([9, 25, 45][D], [49, 89, 199][D]));
+            let txt = nums[0] + '', total = nums[0];
+            for (let i = 1; i < n; i++) {
+                const minus = D > 0 && Math.random() < 0.3 && total - nums[i] > 0;
+                txt += (minus ? ' − ' : ' + ') + nums[i];
+                total += minus ? -nums[i] : nums[i];
+            }
+            return { q: txt + ' = ?', a: total };
+        }
+        case 'twoDigitMul': { const lo = [11, 20, 25][D], hi = [19, 99, 99][D]; const a = rnd(lo, hi), b = rnd(lo, hi); return { q: a + ' × ' + b + ' = ?', a: a * b }; }
         case 'baseMul': { const a = rnd(90, 110), b = rnd(90, 110); return { q: a + ' × ' + b + ' = ?', a: a * b }; }
         case 'successive': {
             const a = rnd(5, 40), b = rnd(5, 40), mode = rnd(0, 2);
@@ -514,20 +734,20 @@ function genDrillQuestion(gen) {
             return { q: txt, a: Math.round(ans * 100) / 100, tol: 0.05 };
         }
         case 'series': {
-            const n = rnd(6, 60), mode = rnd(0, 2);
+            const n = rnd(6, [40, 60, 80][D]), mode = rnd(0, 2);
             if (mode === 0) return { q: '1+2+…+' + n + ' = ?', a: n * (n + 1) / 2 };
             if (mode === 1) return { q: '1²+2²+…+' + n + '² = ?', a: n * (n + 1) * (2 * n + 1) / 6 };
             return { q: '1³+2³+…+' + n + '³ = ?', a: Math.pow(n * (n + 1) / 2, 2) };
         }
-        case 'sqrt': { const n = rnd(32, 99); return { q: '√' + (n * n) + ' = ?', a: n }; }
+        case 'sqrt': { const n = rnd([25, 32, 45][D], 99); return { q: '√' + (n * n) + ' = ?', a: n }; }
         case 'unitDigit': {
-            const base = [2, 3, 4, 7, 8, 9][rnd(0, 5)], exp = rnd(10, 199);
+            const base = [2, 3, 4, 7, 8, 9][rnd(0, 5)], exp = rnd(10, [99, 199, 999][D]);
             let u = 1, b = base % 10;
             for (let i = 0; i < exp; i++) u = (u * b) % 10;
             return { q: base + supNum(exp) + ' का इकाई अंक = ?', a: u };
         }
         case 'remainder': {
-            const n = [9, 11, 12, 14, 16, 18, 20, 24][rnd(0, 7)], exp = rnd(2, 60);
+            const n = [9, 11, 12, 14, 16, 18, 20, 24][rnd(0, 7)], exp = rnd(2, [30, 60, 120][D]);
             let r = 1;
             for (let i = 0; i < exp; i++) r = (r * (n - 1)) % n;
             return { q: (n - 1) + supNum(exp) + ' ÷ ' + n + ' का शेष = ?', a: r };
@@ -539,18 +759,29 @@ function genDrillQuestion(gen) {
             if (mode === 2) { const x = rnd(10, 200), p = [5, 10, 20, 25, 50][rnd(0, 4)]; return { q: 'x का ' + p + '% = ' + (x * p / 100) + ' → x = ?', a: x }; }
             return { q: '25% का 25% = ?%', a: 6.25 };
         }
+        case 'mixedSprint': {
+            const gens = ['tables', 'squares', 'fracPercent', 'addSub', 'percentCalc', 'cubes'];
+            if (D >= 1) gens.push('twoDigitMul', 'baseMul');
+            if (D >= 2) gens.push('sqrt', 'unitDigit', 'series', 'chainAdd');
+            return genDrillQuestion(gens[rnd(0, gens.length - 1)], D);
+        }
     }
     return { q: '?', a: 0 };
 }
 
 function startDrill(gen) {
     if (drillTimer) { clearInterval(drillTimer); drillTimer = null; }
-    activeDrill = { gen, score: 0, correct: 0, wrong: 0, timeLeft: 60, current: null };
+    const secs = (document.getElementById('drill-duration') ? parseInt(document.getElementById('drill-duration').value, 10) : null) || drillConfig.secs || 60;
+    const diff = (document.getElementById('drill-difficulty') ? parseInt(document.getElementById('drill-difficulty').value, 10) : null);
+    activeDrill = { gen, score: 0, correct: 0, wrong: 0, timeLeft: secs, totalSecs: secs, diff: isNaN(diff) ? drillConfig.diff : diff, current: null, answered: 0 };
+    const dMeta = DRILLS.find(d => d.gen === gen);
     document.getElementById('drill-play').style.display = 'block';
     document.getElementById('drill-result').style.display = 'none';
-    document.getElementById('drill-desc').textContent = DRILLS.find(d => d.gen === gen).desc + ' — जितने ज़्यादा सही, उतना अच्छा!';
+    document.getElementById('drill-desc').textContent = dMeta.desc + ' — ' + DIFF_LABEL[activeDrill.diff] + ' • ' + secs + ' सेकंड • लक्ष्य ' + (dMeta.target || 12) + '+ सही';
     document.getElementById('drill-feedback').className = 'drill-feedback';
     document.getElementById('drill-feedback').textContent = '';
+    const stEl = document.getElementById('calc-workout-status');
+    if (stEl) stEl.style.display = 'none';
     updateDrillHUD();
     nextDrillQuestion();
     document.getElementById('drill-input').focus();
@@ -570,7 +801,7 @@ function updateDrillHUD() {
 
 function nextDrillQuestion() {
     if (!activeDrill || activeDrill.timeLeft <= 0) return;
-    activeDrill.current = genDrillQuestion(activeDrill.gen);
+    activeDrill.current = genDrillQuestion(activeDrill.gen, activeDrill.diff);
     document.getElementById('drill-question').textContent = activeDrill.current.q;
     const input = document.getElementById('drill-input');
     input.value = '';
@@ -584,6 +815,7 @@ function checkDrillAnswer() {
     const val = parseFloat(document.getElementById('drill-input').value.trim().replace(',', '.'));
     const fb = document.getElementById('drill-feedback');
     if (isNaN(val)) { fb.className = 'drill-feedback bad'; fb.textContent = 'कृपया संख्या लिखें!'; return; }
+    activeDrill.answered++;
     const tol = activeDrill.current.tol || 0.02;
     if (Math.abs(val - activeDrill.current.a) <= tol) {
         activeDrill.correct++;
@@ -606,14 +838,24 @@ function endDrill() {
     addXP(d.correct);
     const prevBest = state.bestDrill[d.gen] || 0;
     const isBest = d.score > prevBest;
-    if (isBest) { state.bestDrill[d.gen] = d.score; saveState(); }
+    if (isBest) { state.bestDrill[d.gen] = d.score; }
+    updateDrillHistoryAfter(d);
+    renderDrillSelect();
+    renderCalcScorecard();
+    const attempts = d.correct + d.wrong;
+    const acc = attempts ? Math.round(d.correct / attempts * 100) : 0;
+    const perQ = d.correct ? Math.round(d.totalSecs / d.correct * 10) / 10 : 0;
+    const target = (DRILLS.find(x => x.gen === d.gen) || {}).target || 12;
+    const hitTarget = d.correct >= target;
     document.getElementById('drill-play').style.display = 'none';
     const res = document.getElementById('drill-result');
     res.style.display = 'block';
-    res.innerHTML = `<h4>⏱️ समय समाप्त!</h4>
-        <p class="score-ring">${d.correct}</p><p>सही उत्तर | ${d.wrong} गलत | +${d.correct} XP</p>
-        ${isBest ? '<p class="drill-best">🏆 नया रिकॉर्ड!</p>' : '<p class="muted">सर्वश्रेष्ठ: ' + prevBest + ' — और अभ्यास कीजिए!</p>'}
-        <button class="btn btn-primary" onclick="startDrill('${d.gen}')">🔁 फिर से खेलें</button>`;
+    res.innerHTML = `<h4>⏱️ समय समाप्त — ${hitTarget ? '🎯 लक्ष्य हासिल!' : '💪 लक्ष्य ' + target + ' है'}</h4>
+        <p class="score-ring">${d.correct}</p>
+        <p>सही उत्तर | ${d.wrong} गलत | सटीकता ${acc}% | ⚡ ${perQ} से/सही | +${d.correct} XP</p>
+        ${isBest ? '<p class="drill-best">🏆 नया रिकॉर्ड!</p>' : '<p class="muted">सर्वश्रेष्ठ: ' + prevBest + '</p>'}
+        ${drillTrendHtml(d.gen)}
+        <button class="btn btn-primary" style="margin-top:.8rem;" onclick="startDrill('${d.gen}')">🔁 फिर से खेलें</button>`;
     activeDrill = null;
     updateDashboard();
     updateProfile();
@@ -1361,29 +1603,48 @@ function updateProfile() {
         accuracy: getAccuracy(), streak: getStreak(), totalSets: Object.keys(state.sets).length,
         bestSet: state.bestSet, bestMock: state.bestMock, bestDrill: getBestDrill(),
         chaptersRead: state.chaptersRead.length, trapsRead: state.trapsRead.length, pyqsSeen: state.pyqsSeen.length,
-        quizDone: state.quizDone || 0, flashKnown: state.flashKnown || 0, notesRead: state.notesRead || []
+        quizDone: state.quizDone || 0, flashKnown: state.flashKnown || 0, notesRead: state.notesRead || [],
+        challengeDone: challengeDoneCount(), workoutDays: Object.keys(state.calcWorkout || {}).length,
+        drillsMastered: DRILLS.filter(d => (state.bestDrill[d.gen] || 0) >= (d.target || 12)).length
     };
-    document.getElementById('achievements-list').innerHTML = '<h4>🏅 उपलब्धियाँ (' +
-        ACHIEVEMENTS.filter(a => a.check(stats)).length + '/' + ACHIEVEMENTS.length + ')</h4>' +
-        ACHIEVEMENTS.map(a => {
+    const allAch = ACHIEVEMENTS.concat(CH_ACHIEVEMENTS);
+    const gotCount = allAch.filter(a => a.check(stats)).length;
+    document.getElementById('achievements-list').innerHTML = '<h4>🏅 उपलब्धियाँ (' + gotCount + '/' + allAch.length + ')</h4>' +
+        allAch.map(a => {
             const got = a.check(stats);
             return `<span class="achievement ${got ? '' : 'locked'}">${a.icon} ${a.name} — ${a.desc}</span>`;
         }).join('');
+
+    // प्रोफाइल: उपयोगकर्ता + चैलेंज लाइन
+    const uEl = document.getElementById('profile-user-line');
+    if (uEl) {
+        const u = currentUser() || 'अतिथि';
+        const cd = state.challenge.start ? challengeCurrentDay() : null;
+        uEl.innerHTML = '👤 <b>' + esc(u) + '</b> • 📅 ' + (state.joinedAt || todayKey()) + ' से' +
+            (state.challenge.start ? ' • 🔥 चैलेंज दिन ' + cd + ' (' + stats.challengeDone + ' पूरे)' : ' • 🚩 चैलेंज अभी शुरू नहीं हुआ');
+    }
 }
 
+/* चैलेंज/वर्कआउट से जुड़ी अतिरिक्त उपलब्धियाँ */
+const CH_ACHIEVEMENTS = [
+    { id: 'ch-1', icon: '🚀', name: 'शुभारंभ', desc: '90-दिन चैलेंज शुरू करें', check: s => s.challengeDone >= 1 },
+    { id: 'ch-7', icon: '🔥', name: 'हफ्ते का सिपाही', desc: 'चैलेंज के 7 दिन पूरे', check: s => s.challengeDone >= 7 },
+    { id: 'ch-30', icon: '⚔️', name: '30-दिन योद्धा', desc: 'चैलेंज के 30 दिन पूरे', check: s => s.challengeDone >= 30 },
+    { id: 'ch-60', icon: '🛡️', name: '60-दिन वीर', desc: 'चैलेंज के 60 दिन पूरे', check: s => s.challengeDone >= 60 },
+    { id: 'ch-90', icon: '👑', name: 'गणित चैंपियन', desc: '90 दिन पूरे — महा-उपलब्धि!', check: s => s.challengeDone >= 90 },
+    { id: 'wo-1', icon: '🧮', name: 'पहला वर्कआउट', desc: 'पहला कैलकुलेशन वर्कआउट पूरा', check: s => s.workoutDays >= 1 },
+    { id: 'wo-10', icon: '💪', name: 'कड़िया मेहनत', desc: '10 दिन के वर्कआउट', check: s => s.workoutDays >= 10 },
+    { id: 'drill-5', icon: '🎯', name: 'पाँच-ड्रिल मास्टर', desc: '5 अलग ड्रिल में लक्ष्य पूरा', check: s => s.drillsMastered >= 5 },
+    { id: 'drill-all', icon: '🏆', name: 'ड्रिल साम्राज्य', desc: '12+ ड्रिल में लक्ष्य पूरा', check: s => s.drillsMastered >= 12 }
+];
+
 function resetAllData() {
-    if (confirm('⚠️ क्या आप पक्का सारा डेटा (XP, स्ट्रीक, एरर लॉग, सब कुछ) मिटाना चाहते हैं?')) {
-        localStorage.removeItem(LS_KEY);
-        state = loadState();
-        updateDashboard();
-        updateProfile();
-        renderDailyHeader();
-        renderErrors();
-        renderFormulaChapters();
-        renderLearn();
-        renderFastTopics();
-        renderCalcLevel();
-        renderDrillSelect();
+    if (confirm('⚠️ क्या आप पक्का सारा डेटा (XP, स्ट्रीक, चैलेंज, एरर लॉग, सब कुछ) मिटाना चाहते हैं?')) {
+        const u = currentUser();
+        localStorage.removeItem(u ? stateKeyFor(u) : LS_KEY);
+        state = normalizeState({ joinedAt: todayKey() });
+        saveState();
+        refreshAllViews();
         alert('सारा डेटा रीसेट हो गया। नई शुरुआत की शुभकामनाएँ! 🌱');
     }
 }
@@ -1833,13 +2094,459 @@ function timerBeep() {
     } catch (e) { /* ऑडियो नहीं चला तो कोई बात नहीं */ }
 }
 
-/* ================= सहायक ================= */
-function esc(s) {
-    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>');
+/* ================= 🔥 90-दिन चैलेंज इंजन ================= */
+const CHALLENGE_90_DATA = (typeof CHALLENGE_90 !== 'undefined') ? CHALLENGE_90 : [];
+const CH_MILESTONES_DATA = (typeof CH_MILESTONES !== 'undefined') ? CH_MILESTONES : [];
+let chViewDay = null;  // चैलेंज सेक्शन में चुना हुआ दिन (null = आज का दिन)
+
+function challengeCurrentDay() {
+    if (!state.challenge.start) return null;
+    const start = new Date(state.challenge.start + 'T00:00:00');
+    const diff = Math.floor((new Date(todayKey() + 'T00:00:00') - start) / 86400000);
+    return Math.min(Math.max(diff + 1, 1), 90);
+}
+function challengeDoneCount() { return Object.keys(state.challenge.done).filter(k => state.challenge.done[k]).length; }
+function challengeProgressPct() { return Math.round(challengeDoneCount() / 90 * 100); }
+function challengeDayDate(d) {
+    const start = new Date(state.challenge.start + 'T00:00:00');
+    start.setDate(start.getDate() + d - 1);
+    return start.getDate() + '/' + (start.getMonth() + 1);
+}
+function challengePhaseOf(day) {
+    const groups = [ [1, 28, ['🟢', 'नींव व अंकगणित कोर']], [29, 56, ['🟡', 'PYQ अभियान + मेंसुरेशन + बीजगणित']],
+        [57, 84, ['🟠', 'एडवांस्ड — ज्यामिति त्रिग आँकड़े']], [85, 90, ['👑', 'फाइनल मोड']] ];
+    const g = groups.find(x => day >= x[0] && day <= x[1]);
+    return g ? g[2] : ['', ''];
+}
+
+function renderChallengeMini() {
+    const ring = document.getElementById('hero-ch-ring');
+    if (!ring) return;
+    const btn = document.getElementById('hero-ch-action');
+    const info = document.getElementById('hero-ch-info');
+    if (!state.challenge.start) {
+        ring.style.background = 'conic-gradient(var(--primary) 0%, var(--track) 0%)';
+        ring.innerHTML = '<div class="ring-core"><b>0</b><span>/90</span></div>';
+        info.innerHTML = '<b>90-दिन गणित चैलेंज</b><span>पूरा syllabus, दिन-वाइज़ टाइमटेबल के साथ — आज Day 1 बनाइए!</span>';
+        btn.innerHTML = '🚀 चैलेंज शुरू करें';
+        btn.onclick = () => { openSection('challenge'); };
+        return;
+    }
+    const cd = challengeCurrentDay();
+    const done = challengeDoneCount();
+    const pct = challengeProgressPct();
+    ring.style.background = 'conic-gradient(var(--primary) ' + pct + '%, var(--track) ' + pct + '%)';
+    ring.innerHTML = '<div class="ring-core"><b>' + pct + '%</b><span>पूरा</span></div>';
+    const behind = Math.max(0, cd - 1 - done);
+    info.innerHTML = '<b>दिन ' + cd + '/90</b> • ' + done + ' दिन पूरे' +
+        (behind > 0 ? '<span class="warn">⚠️ ' + behind + ' दिन पीछे — आज पकड़ लें!</span>' : '<span>⭐ शानदार रफ्तार है!</span>');
+    if (cd >= 90 && done >= 90) {
+        btn.innerHTML = '🏆 चैंपियन रिपोर्ट देखें';
+    } else if (state.challenge.done[cd]) {
+        btn.innerHTML = '✅ आज का दिन पूरा — फिर भी देखें';
+    } else {
+        btn.innerHTML = '▶ दिन ' + cd + ' की चेकलिस्ट';
+    }
+    btn.onclick = () => { chViewDay = null; openSection('challenge'); };
+}
+
+function startChallenge() {
+    if (state.challenge.start) return;
+    const errStart = todayKey();
+    state.challenge.start = errStart;
+    state.challenge.done = {};
+    state.challenge.checks = {};
+    saveState();
+    addXP(20);
+    chViewDay = null;
+    renderChallenge();
+}
+
+function restartChallenge() {
+    if (!confirm('चैलेंज दोबारा शुरू करें? पुराने दिनों के टिक हट जाएँगे (XP, प्रश्न-डेटा, एरर लॉग सुरक्षित रहेगा)।')) return;
+    state.challenge = { start: todayKey(), done: {}, checks: {}, rewards: [] };
+    saveState();
+    chViewDay = null;
+    renderChallenge();
+}
+
+function renderChallenge() {
+    const wrap = document.getElementById('ch-stage');
+    if (!wrap || !CHALLENGE_90_DATA.length) return;
+
+    if (!state.challenge.start) {
+        wrap.innerHTML = `<div class="ch-start card">
+            <div class="ch-start-emoji">🏔️</div>
+            <h3>90-दिन गणित चैलेंज — पूरा syllabus, एक मिशन</h3>
+            <p>SSC व Railway गणित का <b>पूरा sillebus</b> 13 सप्ताह में: हर दिन <b>क्या पढ़ना है, क्या रिवाइज़ करना है, क्या प्रैक्टिस करना है</b> — सब तय। हर सप्ताह रिवीज़न + टेस्ट। हर दिन पूरा करने पर XP, मील-स्टोन बैज और streak।</p>
+            <div class="ch-start-grid">
+                <div><b>90</b><span>दिन की journey</span></div>
+                <div><b>13</b><span>सप्ताह की संरचना</span></div>
+                <div><b>64</b><span>सीखने के दिन</span></div>
+                <div><b>25+</b><span>रिवीज़न/टेस्ट दिन</span></div>
+            </div>
+            <ul class="ch-start-rules">
+                <li>📅 हर दिन 2-3 घंटे — चेकलिस्ट सच बोलेगी</li>
+                <li>🧮 रोज़ की कैलकुलेशन ड्रिल चैलेंज में शामिल</li>
+                <li>🔄 शनिवार रिवीज़न, रविवार टेस्ट — लय नहीं टूटेगी</li>
+                <li>🏆 90 दिन पूरे = 'गणित चैंपियन' सम्मान</li>
+            </ul>
+            <button class="btn btn-primary btn-lg" onclick="startChallenge()">🚀 आज से Day 1 शुरू करें</button>
+            <small class="muted">शुरुआत आज की तारीख से गिनी जाएगी; progress आपके नाम के साथ सुरक्षित रहेगी।</small>
+        </div>`;
+        return;
+    }
+
+    const cd = challengeCurrentDay();
+    const viewDay = (chViewDay && chViewDay >= 1 && chViewDay <= 90) ? chViewDay : cd;
+    const day = CHALLENGE_90_DATA[viewDay - 1];
+    const done = challengeDoneCount();
+    const pct = challengeProgressPct();
+    const phase = challengePhaseOf(viewDay);
+    const isDone = !!state.challenge.done[viewDay];
+    const isToday = viewDay === cd;
+    const isFuture = viewDay > cd;
+    const typeLabel = { learn: '📚 सीखने का दिन', revise: '🔄 रिवीज़न डे', test: '📝 टेस्ट डे', mock: '🏆 फिनाले मॉक' };
+
+    // हीरो बार
+    let html = `<div class="ch-hero card">
+        <div class="ch-hero-left">
+            <div class="ch-hero-title">${phase[0]} ${CH_MILESTONES_DATA.length ? esc(challengePhaseOf(viewDay)[1]) : ''}</div>
+            <div class="ch-hero-big">दिन <b>${cd}</b><span>/90</span></div>
+            <div class="ch-hero-sub">${state.challenge.start} से शुरू • ${done} दिन पूरे • ${pct}% सम्पन्न</div>
+            <div class="ch-progress-bar"><span style="width:${pct}%"></span></div>
+            <div class="ch-hero-btns">
+                ${!isDone && !isFuture && isToday ? `<button class="btn btn-primary" onclick="chCompleteDay(${viewDay})">✅ दिन ${viewDay} पूरा करें</button>` : ''}
+                ${!isDone && !isFuture && !isToday ? `<button class="btn btn-primary" onclick="chCompleteDay(${viewDay})">✅ छूटा दिन ${viewDay} पूरा करें</button>` : ''}
+                ${isDone ? `<button class="btn" style="border:1px solid var(--border-light);" onclick="chCompleteDay(${viewDay})">↩️ दिन वापस खोलें</button>` : ''}
+                <button class="btn" style="border:1px solid var(--border-light);" onclick="restartChallenge()">🔁 चैलेंज रीस्थট</button>
+            </div>
+        </div>
+        <div class="ch-ring-lg" style="background:conic-gradient(var(--primary) ${pct}%, var(--track) ${pct}%);">
+            <div class="ring-core"><b>${pct}%</b><span>पूरा</span></div>
+        </div>
+    </div>`;
+
+    // दिन-वाइज़ स्ट्रिप (90 सेल)
+    html += '<div class="ch-strip card"><div class="ch-strip-grid">' + CHALLENGE_90_DATA.map(dz => {
+        const cls = state.challenge.done[dz.d] ? 'done' : (dz.d === viewDay ? 'view' : (dz.d === cd ? 'today' : (dz.d > cd ? 'lock' : 'miss')));
+        const typeDot = dz.type === 'learn' ? '' : (dz.type === 'revise' ? 'R' : (dz.type === 'test' ? 'T' : '🏆'));
+        return `<button class="ch-cell ${cls} t-${dz.type}" title="दिन ${dz.d} — ${esc(dz.title)}" onclick="chSelectDay(${dz.d})">${typeDot || dz.d}</button>`;
+    }).join('') + '</div><div class="ch-strip-legend"><span><i class="dot done"></i>पूरा</span><span><i class="dot today"></i>आज</span><span><i class="dot miss"></i>छूटा</span><span><i class="dot lock"></i>आगे का</span><span><i class="dot view"></i>देख रहे हैं</span> • R=रिवीज़न, T=टेस्ट</div></div>';
+
+    // चुने हुए दिन का विवरण
+    const checks = state.challenge.checks || {};
+    const taskHtml = (list, gi) => list.map((t, i) => {
+        const key = viewDay + '-' + gi + '-' + i;
+        const ck = !!checks[key] || isDone;
+        const goBtn = chActionBtn(t.go);
+        return `<div class="ch-task ${ck ? 'done' : ''}">
+            <button class="ch-check" ${isFuture ? '' : `onclick="chToggleTask('${key}',${viewDay})"`} aria-label="टिक करें">${ck ? '✅' : '⬜'}</button>
+            <div class="ch-task-text"><span>${t.i} ${esc(t.t)}</span></div>
+            ${goBtn}
+        </div>`;
+    }).join('');
+
+    const calcNames = { tables: '🎲 पहाड़े', squares: '🔲 वर्ग', fracPercent: '💯 भिन्न→%', addSub: '➕ जोड़-घटाव', twoDigitMul: '✖️ 2-अंकीय गुणा', percentCalc: '💹 % सवाल', successive: '📉 सतत %', series: '🔢 श्रेणी योग', sqrt: '√ वर्गमूल', unitDigit: '🔚 इकाई अंक', remainder: '➗ शेषफल', cubes: '🧊 घन', cubeRoot: '∛ घनमूल', chainAdd: '⛓️ जंजीरी जोड़', mixedSprint: '⚡ मिक्स्ड स्प्रिंट' };
+
+    html += `<div class="ch-day card ${isDone ? 'is-done' : ''}">
+        <div class="ch-day-head">
+            <div>
+                <div class="ch-day-type">${typeLabel[day.type]} • दिन ${day.d}/90 ${viewDay !== cd ? `<button class="ch-today-btn" onclick="chSelectDay(${cd})">⤳ आज के दिन पर जाएँ (दिन ${cd})</button>` : ''}</div>
+                <h3>${esc(day.title)}</h3>
+                <p class="muted">${esc(day.sub)} • ⏱️ अनुमानित समय: ${day.mins} मिनट ${state.challenge.start ? '• 📅 ' + challengeDayDate(day.d) : ''}</p>
+            </div>
+            <div class="ch-day-badge">${isDone ? '✅ पूरा' : (isFuture ? '🔒 आगामी' : (isToday ? '🔥 आज' : '⏳ पेंडिंग'))}</div>
+        </div>
+        ${day.chap && FORMULA_BOOK.find(c => c.id === day.chap) ? `<div class="ch-chap-link">📚 आज का अध्याय: <b>${FORMULA_BOOK.find(c => c.id === day.chap).name}</b> <button class="drill-btn" onclick="openChapter('${day.chap}')">खोलें →</button></div>` : ''}
+        <div class="ch-cols">
+            <div class="ch-col"><h4>🎯 आज का पढ़ाई-कार्यक्रम</h4>${taskHtml(day.tasks, 0)}</div>
+            <div class="ch-col"><h4>🔁 रिवीज़न (कल/पुराना)</h4>${taskHtml(day.rev, 1)}
+                <h4 style="margin-top:1rem;">🧮 आज की कैलकुलेशन ड्रिल</h4>
+                ${day.calc.map(g => `<button class="drill-btn ch-drill" onclick="openSection('calculation');startDrill('${g}')">${calcNames[g] || g} ▶</button>`).join(' ')}
+                <div class="muted" style="margin-top:.4rem; font-size:.8rem;">60 सेकंड के 2 राउंड — कैलकुलेशन बूस्टर में target तक पहुँचें।</div>
+            </div>
+        </div>
+        ${day.topics && day.topics.length ? `<div class="ch-topic-chips">${day.topics.map(tp => `<button class="tag ch-tag" onclick="openPyqTopic('${esc(tp)}')">🗂️ ${esc(tp)} PYQ</button>`).join('')}</div>` : ''}
+    </div>`;
+
+    // मील-स्टोन
+    html += '<div class="ch-miles card"><h4>🏅 मील के पत्थर</h4><div class="ch-mile-grid">' + CH_MILESTONES_DATA.map(mz => {
+        const got = done >= mz.d;
+        return `<div class="ch-mile ${got ? 'got' : ''}" title="${esc(mz.hint)}"><span>${mz.icon}</span><b>दिन ${mz.d}</b><small>${mz.name}</small></div>`;
+    }).join('') + '</div></div>';
+
+    // पूरा टाइमटेबल (सप्ताहवार, मुड़ने वाला)
+    let table = '<div class="ch-full"><h4>🗓️ पूरा 90-दिन टाइमटेबल</h4>';
+    for (let wNo = 1; wNo <= 13; wNo++) {
+        const weekDays = CHALLENGE_90_DATA.filter(dz => dz.wk === wNo);
+        const wDone = weekDays.filter(dz => state.challenge.done[dz.d]).length;
+        const open = weekDays.some(dz => dz.d === viewDay);
+        table += `<details class="ch-week" ${open ? 'open' : ''}>
+            <summary>सप्ताह ${wNo} <b>${wDone}/${weekDays.length}</b> — दिन ${weekDays[0].d}–${weekDays[weekDays.length - 1].d} (${esc(weekDays[0].sub.split('•').pop().trim())})</summary>
+            <div class="ch-week-days">` + weekDays.map(dz => `
+                <button class="ch-week-row t-${dz.type} ${state.challenge.done[dz.d] ? 'done' : ''} ${dz.d === viewDay ? 'view' : ''}" onclick="chSelectDay(${dz.d})">
+                    <span class="cwr-d">${state.challenge.done[dz.d] ? '✅' : 'दिन ' + dz.d}</span>
+                    <span class="cwr-t">${esc(dz.title)}</span>
+                    <span class="cwr-mins">${dz.mins} मि</span>
+                </button>`).join('') + `</div></details>`;
+    }
+    html += table + '</div>';
+
+    wrap.innerHTML = html;
+}
+
+function chSelectDay(d) { chViewDay = d; renderChallenge(); }
+
+function chToggleTask(key, dayNo) {
+    if (!state.challenge.checks) state.challenge.checks = {};
+    state.challenge.checks[key] = !state.challenge.checks[key];
+    saveState();
+    renderChallenge();
+}
+
+function chCompleteDay(d) {
+    if (!state.challenge.start) return;
+    const was = !!state.challenge.done[d];
+    state.challenge.done[d] = !was;
+    if (!was) {
+        state.xp += 30;
+        // दिन के सारे टास्क भी टिक मानें
+        const day = CHALLENGE_90_DATA[d - 1];
+        day.tasks.forEach((t, i) => { state.challenge.checks[d + '-0-' + i] = true; });
+        day.rev.forEach((t, i) => { state.challenge.checks[d + '-1-' + i] = true; });
+    }
+    saveState();
+    renderChallenge();
+    updateDashboard();
+    updateProfile();
+}
+
+function chActionBtn(go) {
+    if (!go) return '';
+    const map = {
+        chapter: [`openChapter('${go[1]}')`, '📖 खोलें'],
+        pyq: [`openPyqTopic('${go[1]}')`, '🗂️ PYQ'],
+        quiz: [`startPresetQuiz(${go[1]})`, '🎮 शुरू'],
+        daily: [`openSection('daily')`, '📅 खोलें'],
+        flash: [`openSection('flashcards')`, '🃏 खोलें'],
+        errors: [`openSection('error-log')`, '❌ खोलें'],
+        traps: [`openSection('traps')`, '🛡️ खोलें'],
+        revision: [`openSection('revision')`, '🔄 खोलें'],
+        section: [`openSection('${go[1]}')`, '➜ खोलें'],
+        calc: [`openSection('calculation')`, '🧮 खोलें'],
+        profile: [`openSection('profile')`, '👤 खोलें'],
+    };
+    const m = map[go[0]];
+    if (!m) return '';
+    return `<button class="ch-go" onclick="${m[0]}">${m[1]}</button>`;
+}
+
+function openPyqTopic(topic) {
+    openSection('pyq');
+    const sel = document.getElementById('pyq-topic-filter');
+    let found = false;
+    if (sel) {
+        for (const opt of sel.options) { if (opt.value === topic) { found = true; break; } }
+        sel.value = found ? topic : 'all';
+    }
+    pyqFilters.topic = found ? topic : 'all';
+    if (!found) {
+        const search = document.getElementById('pyq-search');
+        if (search) { search.value = topic; pyqFilters.search = topic.toLowerCase(); }
+    } else {
+        const search = document.getElementById('pyq-search');
+        if (search) search.value = '';
+        pyqFilters.search = '';
+    }
+    pyqShown = PYQ_PAGE;
+    renderPyq();
+}
+
+function startPresetQuiz(count) {
+    openSection('quiz');
+    document.getElementById('quiz-topic').value = 'all';
+    document.getElementById('quiz-lang').value = 'all';
+    const cnt = document.getElementById('quiz-count');
+    cnt.value = String(Math.min(30, Math.max(10, count || 25)));
+    quizExamOverride = null;
+    startQuiz();
+}
+
+/* ================= 🧮 कैलकुलेशन बूस्टर 2.0: कॉन्फ़िग + इतिहास + वर्कआउट ================= */
+let drillConfig = { secs: 60, diff: 1 };  // diff: 0 आसान, 1 मध्यम, 2 कठिन
+
+function drillConfigInit() {
+    const sSel = document.getElementById('drill-duration');
+    const dSel = document.getElementById('drill-difficulty');
+    if (sSel) sSel.addEventListener('change', e => { drillConfig.secs = parseInt(e.target.value, 10) || 60; });
+    if (dSel) dSel.addEventListener('change', e => { drillConfig.diff = parseInt(e.target.value, 10) || 0; });
+    renderCalcScorecard();
+}
+
+const DIFF_LABEL = ['🌱 आसान', '💪 मध्यम', '🔥 कठिन'];
+
+function renderCalcScorecard() {
+    const el = document.getElementById('calc-scorecard');
+    if (!el) return;
+    const hist = state.drillHistory || [];
+    const workoutDays = Object.keys(state.calcWorkout || {}).length;
+    const totalBest = Object.values(state.bestDrill || {}).reduce((a, b) => a + (b || 0), 0);
+    const drillsPlayed = new Set(hist.map(h => h.gen)).size;
+    el.innerHTML = [
+        ['🏆', totalBest, 'कुल best स्कोर-योग'],
+        ['🎯', drillsPlayed + '/' + DRILLS.length, 'ड्रिल्स आज़माई'],
+        ['💪', workoutDays, 'वर्कआउट दिन'],
+        ['⚡', getBestDrill(), 'सर्वश्रेष्ठ (एक ड्रिल)']
+    ].map(x => `<div class="calc-stat"><b>${x[0]} ${x[1]}</b><span>${x[2]}</span></div>`).join('');
+    renderWorkoutStatus();
+}
+
+function updateDrillHistoryAfter(d) {
+    if (!state.drillHistory) state.drillHistory = [];
+    state.drillHistory.unshift({ gen: d.gen, score: d.score, correct: d.correct, wrong: d.wrong, sec: d.totalSecs || 60, diff: d.diff == null ? 1 : d.diff, date: todayKey() });
+    state.drillHistory = state.drillHistory.slice(0, 60);
+    saveState();
+}
+
+function drillTrendHtml(gen) {
+    const hist = (state.drillHistory || []).filter(h => h.gen === gen).slice(0, 10).reverse();
+    if (!hist.length) return '';
+    const max = Math.max(...hist.map(h => h.score), 1);
+    return '<div class="drill-trend">' + hist.map(h =>
+        `<div class="dt-bar" style="height:${Math.max(8, Math.round(h.score / max * 60))}px" title="${h.date}: ${h.score} (${DIFF_LABEL[h.diff] || ''})"></div>`).join('') + '</div><div class="muted" style="font-size:.75rem;">पिछले ' + hist.length + ' प्रयास</div>';
+}
+
+/* -------- दैनिक कैलकुलेशन वर्कआउट (तारीख-seeded 15 मिश्रित सवाल) -------- */
+let calcWorkout = null;
+
+function buildWorkoutSet() {
+    const key = todayKey();
+    const rand = seededRandom('calc-' + key);
+    const gens = ['tables', 'squares', 'fracPercent', 'addSub', 'percentCalc', 'twoDigitMul', 'baseMul', 'successive', 'cubes', 'chainAdd', 'sqrt', 'unitDigit'];
+    const pool = [];
+    for (let i = 0; i < 15; i++) {
+        const g = gens[Math.floor(rand() * gens.length)];
+        pool.push(genDrillQuestion(g, 1));
+    }
+    return pool;
+}
+
+function renderWorkoutStatus() {
+    const el = document.getElementById('calc-workout-status');
+    if (!el) return;
+    const key = todayKey();
+    const rec = state.calcWorkout[key];
+    const recent = Object.keys(state.calcWorkout).sort().slice(-10);
+    let bars = '';
+    if (recent.length) {
+        const entries = recent.map(k => ({ k, r: state.calcWorkout[k] }));
+        const max = Math.max(...entries.map(e => e.r.score), 1);
+        bars = '<div class="wo-bars">' + entries.map(e => {
+            const pctv = Math.round(e.r.score / e.r.total * 100);
+            return `<div class="wo-bar ${e.k === key ? 'today' : ''}" style="height:${Math.max(10, Math.round(pctv * 0.7))}px" title="${e.k}: ${e.r.score}/${e.r.total}"></div>`;
+        }).join('') + '</div>';
+    }
+    el.innerHTML = rec
+        ? `<div class="wo-done">✅ आज का वर्कआउट पूरा: <b>${rec.score}/${rec.total}</b> • ${rec.sec} सेकंड</div>${bars}<button class="btn btn-primary" onclick="startCalcWorkout()">🔁 फिर से वर्कआउट</button>`
+        : `<p class="muted">आज का वर्कआउट बाकी है — 15 मिश्रित सवाल, टाइमर के साथ। हर दिन 3 मिनट = 90 दिन में कैलकुलेटर-स्पीड!</p>${bars}
+           <button class="btn btn-primary btn-lg" onclick="startCalcWorkout()">▶ आज का वर्कआउट शुरू करें</button>`;
+}
+
+function startCalcWorkout() {
+    calcWorkout = { questions: buildWorkoutSet(), idx: 0, correct: 0, start: Date.now() };
+    document.getElementById('calc-workout-status').style.display = 'none';
+    const play = document.getElementById('calc-workout-play');
+    play.style.display = 'block';
+    renderWorkoutQuestion();
+}
+
+function renderWorkoutQuestion() {
+    const q = calcWorkout.questions[calcWorkout.idx];
+    document.getElementById('wo-qno').textContent = (calcWorkout.idx + 1);
+    document.getElementById('wo-qtotal').textContent = calcWorkout.questions.length;
+    document.getElementById('wo-score').textContent = calcWorkout.correct;
+    document.getElementById('wo-question').textContent = q.q;
+    const inp = document.getElementById('wo-input');
+    inp.value = '';
+    inp.focus();
+    const fb = document.getElementById('wo-feedback');
+    fb.className = 'drill-feedback';
+    fb.textContent = '';
+}
+
+function checkWorkoutAnswer() {
+    const q = calcWorkout.questions[calcWorkout.idx];
+    const val = parseFloat(document.getElementById('wo-input').value.trim().replace(',', '.'));
+    const fb = document.getElementById('wo-feedback');
+    if (isNaN(val)) { fb.className = 'drill-feedback bad'; fb.textContent = 'कृपया संख्या लिखें!'; return; }
+    const tol = q.tol || 0.02;
+    const good = Math.abs(val - q.a) <= tol;
+    if (good) calcWorkout.correct++;
+    fb.className = 'drill-feedback ' + (good ? 'good' : 'bad');
+    fb.textContent = (good ? '✅ इन्होंने सही!' : '❌ सही उत्तर: ' + q.a);
+    document.getElementById('wo-score').textContent = calcWorkout.correct;
+    setTimeout(() => {
+        calcWorkout.idx++;
+        if (calcWorkout.idx >= calcWorkout.questions.length) finishCalcWorkout();
+        else renderWorkoutQuestion();
+    }, 600);
+}
+
+function finishCalcWorkout() {
+    const sec = Math.round((Date.now() - calcWorkout.start) / 1000);
+    const key = todayKey();
+    const prev = state.calcWorkout[key];
+    const isBest = !prev || calcWorkout.correct > prev.score;
+    state.calcWorkout[key] = { score: calcWorkout.correct, total: calcWorkout.questions.length, sec };
+    saveState();
+    addXP(calcWorkout.correct * 2);
+    document.getElementById('calc-workout-play').style.display = 'none';
+    const stEl = document.getElementById('calc-workout-status');
+    stEl.style.display = 'block';
+    renderWorkoutStatus();
+    renderCalcScorecard();
+    const pct = Math.round(calcWorkout.correct / calcWorkout.questions.length * 100);
+    const msg = pct >= 93 ? '🏆 कैलकुलेटर-लेवल!' : pct >= 80 ? '🚀 स्पीड बढ़ रही है!' : pct >= 60 ? '💪 अच्छी शुरुआत — रोज़ आएँ!' : '📚 आज के formulas दोहराकर कल फिर आएँ!';
+    stEl.insertAdjacentHTML('afterbegin', `<div class="wo-result-flash">${msg} Score: <b>${calcWorkout.correct}/15</b> (${sec} सेकंड) ${isBest ? '• 🆕 नया best!' : ''}</div>`);
+    setTimeout(() => { const x = stEl.querySelector('.wo-result-flash'); if (x) x.remove(); }, 4000);
+    calcWorkout = null;
+    updateDashboard();
+    updateProfile();
 }
 
 /* ================= बूट ================= */
-document.addEventListener('DOMContentLoaded', function () {
+/* ================= सहायक ================= */
+function esc(s) {
+    return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/\n/g, '<br>');
+}
+
+/* सभी व्यूज़ को दोबारा खींचें (लॉगिन/रीসet के बाद) */
+function refreshAllViews() {
+    updateDashboard();
+    updateProfile();
+    renderLearn();
+    renderFormulaChapters();
+    renderPatterns();
+    renderTraps();
+    renderErrors();
+    renderExams();
+    renderMastery();
+    renderDailyHeader();
+    renderFastTopics();
+    renderCalcLevel();
+    renderDrillSelect();
+    renderCalcScorecard();
+    renderChallenge();
+    renderNotes();
+    updateTopbarChips();
+}
+
+/* ================= बूट ================= */
+let appBooted = false;
+function bootApp() {
+    if (appBooted) return;
+    appBooted = true;
     initTheme();
     initNav();
     initLearnSearch();
@@ -1853,6 +2560,13 @@ document.addEventListener('DOMContentLoaded', function () {
     initPdfResearch();
     initPlan();
     initPatternTrapSearch();
+    drillConfigInit();
+
+    // वर्कआउट बटन/इनपुट
+    const woCheck = document.getElementById('wo-check');
+    if (woCheck) woCheck.addEventListener('click', checkWorkoutAnswer);
+    const woInput = document.getElementById('wo-input');
+    if (woInput) woInput.addEventListener('keydown', e => { if (e.key === 'Enter') checkWorkoutAnswer(); });
 
     updateDashboard();
     renderLearn();
@@ -1866,12 +2580,20 @@ document.addEventListener('DOMContentLoaded', function () {
     renderDailyHeader();
     updateTimerUI();
     updateProfile();
+    renderCalcScorecard();
+    renderChallenge();
+    updateTopbarChips();
 
     const initialSection = window.location.hash.slice(1);
     if (initialSection) openSection(initialSection, false);
 
     const errorModal = document.getElementById('error-modal');
-    errorModal.addEventListener('click', e => {
+    if (errorModal) errorModal.addEventListener('click', e => {
         if (e.target === errorModal) closeErrorModal();
     });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    bootApp();
+    initUserModal();
 });
