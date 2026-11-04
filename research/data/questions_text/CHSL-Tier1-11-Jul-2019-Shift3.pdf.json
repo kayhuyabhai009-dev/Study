@@ -1,0 +1,414 @@
+{
+ "paper": "CHSL-Tier1-11-Jul-2019-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The average of 24 numbers is 65. The average of first 11 numbers is 67 and the average of last 10 numbers is 70. If the 12% number is 13 less than the 13\" number, and the 14\" number is one more than the 13\" number, then the average of 12\" and 14% number is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A person covers 40% of a distance with a speed of 60 km/h and the remaining with a speed of 40 km/h. What is his average speed for the whole journey in km/h? we ., 500 11 600 past 13 500 y Oe is 600 x. 11 Addale4i7) Samseey",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Four cubes, each of edge 5 cm are joined end to end. What is the total surface area of the resulting cuboid?",
+   "options": [
+    {
+     "text": "475 cm?",
+     "added": false
+    },
+    {
+     "text": "450 cm?",
+     "added": false
+    },
+    {
+     "text": "600 cm?",
+     "added": false
+    },
+    {
+     "text": "500 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Ifin AABC, D isa point on BC, such that BD : BC = 2 : 5, what is the ratio area(AABD) : area(AADC)?",
+   "options": [
+    {
+     "text": "2:3",
+     "added": false
+    },
+    {
+     "text": "4:9",
+     "added": false
+    },
+    {
+     "text": "1:2",
+     "added": false
+    },
+    {
+     "text": "2:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Inacircle, chords AD and BC meet at a point E outside the circle. If 2BAE = 76° and ZADC = 102’, then ZAEC is equal to:",
+   "options": [
+    {
+     "text": "28°",
+     "added": false
+    },
+    {
+     "text": "25°",
+     "added": false
+    },
+    {
+     "text": "24° e",
+     "added": false
+    },
+    {
+     "text": "26",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Ifa+b+c =5 andab + be + ca = 4, then a? +b? + c? — 3abe is equal to:",
+   "options": [
+    {
+     "text": "62",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "68",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "7 . ° ° ° 2 Be 97 (sin?36 + tan?60° + sec?30° + sin?54°) is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The cost price of an article is 2425. A shopkeeper gives a discount of 20% and still gains 16%. What is the marked price of the article?",
+   "options": [
+    {
+     "text": "2605.75",
+     "added": false
+    },
+    {
+     "text": "2620.50",
+     "added": false
+    },
+    {
+     "text": "2624.50",
+     "added": false
+    },
+    {
+     "text": "2616.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The selling price of 24 articles is equal to the cost price of 26 articles. What is the gain percentage (correct to one decimal place) in such a situation?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The difference between compound interest and simple interest on 2x at 6.5% per annum for 2 years is 233.80. What is the value of x?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-vs-si",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The given Bar Graph presents the percentages of population in the age groups, X(above 50 years), Y(20 to 50 years), Z(below 20 years) in five different villages, A, B, C, D and E with total population of 5000, 6000, $000, 4500 and 6000 respectively. © so so s s =x bad = 35 = ey | | | | | 53° 2s 2 ps 2 20 20 2» 0 ° A 8 c D E villages The number of persons having ages below 20 years in villages, B and C taken together is what percentage of the total population of the said villages?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "912 Given that x, y, z are positive real numbers, if (x+y)? —z? =8,(y+ z)?— x? =10 and (xk+ 2)2—y2.—75 then (x +y +z) is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": ". A, Band C, alone can do a piece of work in 9, 12 and 18 days respectively. They all started the work together, but A left after 3 days. In how many days, was the remaining work completed?",
+   "options": [
+    {
+     "text": "2 5",
+     "added": false
+    },
+    {
+     "text": "25 2 at",
+     "added": false
+    },
+    {
+     "text": "523",
+     "added": false
+    },
+    {
+     "text": "Addale4i7) Googe Pisy 9 Y 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "tn AABC, ZABC =90° and BD | AC. If AD =4 cmand CD = 5 cm, then BD is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "What is the ratio of the mean proportional between 14.4 and 3.6 and the third proportional of 5 and 4?",
+   "options": [
+    {
+     "text": "4:9",
+     "added": false
+    },
+    {
+     "text": "5:8",
+     "added": false
+    },
+    {
+     "text": "9:4",
+     "added": false
+    },
+    {
+     "text": "8:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "1 a?+b?-3ab . Ifa=V8—y7 anda =-, then ———— is equal to: V8—y7 b’ a? +ab+b? q",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Re Addale4/7) ic The given Bar Graph presents the percentages of population in the age groups. X(above 50 years), Y(20 to 50 years). Z(below 20 years) in five different villages, A, B, C, D and E with total population of 5000, 6000, $000, 4500 and 6000 respectively. es 0 ho ‘What is the total number of persons in the age group of 20 to 50 years in the villages A and B, taken together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "918 The simplified value of 20 —[2.8x 5+ 0.7 -—3+0.9 X 1.5+2] is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The price of petrol is increased by 24%. A person wants to increase his expenditure by 14% only. By what percentage (correct to one decimal place), should he decrease his consumption in order to maintain the same level of expenditure?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The given Bar Graph presents the percentages of population in the age groups, X(above 50 years), Y(20 to 50 years), Z(below 20 years) in five different villages, A, B, C, D and E with total population of 000, 6000, 8000, 4500 and 6000 respectively. « 0 » 4s 45 =x ” “0 s © 3) 3s 3s oY : 20 20 » 0 . A 8 c . £ Vitages The difference between the number of persons of ages below 20 years in villages D and E, taken together, is what percentage of the number of persons of the same age group in village D?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "A quadrilateral ABCD is inscribed in a circle with centre O. If ZBOC =92° and ZADC = 112’, then ZABO is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The eight digit number 5x32465y is divisible by 88. What is the value of (2x + 3y)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "923 If 2sin?@ + 3sin9— 2=0, (0°< @ < 90°) then the value of @ is: Addale4/7) Sash",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "3 ‘ \" ‘ , Iftan@ ==, (0°<6 < 90°) then sin@ cos @ is equal to:",
+   "options": [
+    {
+     "text": "4 , v34",
+     "added": false
+    },
+    {
+     "text": "V17 16 H 2 ee",
+     "added": false
+    },
+    {
+     "text": "4 5",
+     "added": false
+    },
+    {
+     "text": "1s 34",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The given Bar Graph presents the percentages of population in the age groups, X(above 50 years), Y(20 to 50 years), Z(below 20 years) in five different villages, A, B, C, D and E with total population of 5000, 6000, $000, 4500 and 6000 respectively, © so ” 4s as =x “ « a 3s 3s av g 30 130 ied x > fe 2» » é A 8 c > E Villages ‘What is the ratio of the total number of persons of ages above 50 years in the villages, B and C, taken together to the total number of persons having ages between 20 and 50 years in the said villages?",
+   "options": [
+    {
+     "text": "49:57",
+     "added": false
+    },
+    {
+     "text": "47:53",
+     "added": false
+    },
+    {
+     "text": "51:59",
+     "added": false
+    },
+    {
+     "text": "24:27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  }
+ ]
+}

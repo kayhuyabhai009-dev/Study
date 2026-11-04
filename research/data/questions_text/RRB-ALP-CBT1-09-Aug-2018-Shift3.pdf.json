@@ -1,0 +1,39 @@
+{
+ "paper": "RRB-ALP-CBT1-09-Aug-2018-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 6,
+   "text": "Addae4i7 Good! Google Play rier eo Ing em H Gs welt & aie sesreat (ent H) fe se &i| Chosen Option : -- srehtO -31ea, raguS -eTrY, taehW -4g, Rlec - aac aie Her Seat 9000 cat a ah Mae Sea FATT cat AF TCT The given pie chart represents the annual yield of certain crops in tons. If the total production is 9000 tons, then the yield of rice is tons.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "1000"
+  },
+  {
+   "n": 21,
+   "text": "Buy : bought oa Select the missing word pair based on the given related pair. Buy : bought ::",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "early-late",
+   "key_answer": "1 hour"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 260,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

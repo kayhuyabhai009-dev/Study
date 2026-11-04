@@ -1,0 +1,792 @@
+{
+ "paper": "RRB-NTPC-Graduate-CBT1-16-Mar-2026-Shift2.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "source_pdf": "RRB_NTPC_2025_Graduation_Level_Answer_Key_16th_March_Shift_2.pdf",
+ "tagged_count": 29,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Under the Delhi Women & Child Development (WCD) Department’s Women Safety Policy, 2025, what mandatory arrangement must be made for women staff if they are required to work late hours?",
+   "options": [
+    {
+     "text": "Accommodation",
+     "added": false
+    },
+    {
+     "text": "Dinner",
+     "added": false
+    },
+    {
+     "text": "Bonus",
+     "added": false
+    },
+    {
+     "text": "Transport",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Permutation and Combination",
+   "sub": "permutations",
+   "key_answer": "Transport"
+  },
+  {
+   "n": 2,
+   "text": "Reema and Juhi, when each is working alone, can complete a piece of work in, respectively, 12 days and 36 days. Each work on alternate days, with Reema and Juhi starting to work on Day 1 and Day 2, respectively. How many days in all will it take to complete the work? 4091",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": "16:25"
+  },
+  {
+   "n": 3,
+   "text": "A triangle ABC with sides 3 cm, 4 cm and 5 cm is revolved about the side 3 cm. Find the volume of the solid so obtained. (Use )",
+   "options": [
+    {
+     "text": "55.61 cubic cm",
+     "added": false
+    },
+    {
+     "text": "40.55 cubic cm",
+     "added": false
+    },
+    {
+     "text": "42.62 cubic cm",
+     "added": false
+    },
+    {
+     "text": "50.24 cubic cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "50.24 cubic cm"
+  },
+  {
+   "n": 4,
+   "text": "If the equations x2 – 3px + q = 0 and x2 – 2kx + t = 0 have one common root, and the first equation has equal roots, what is the value of (t + q)2?",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "4pk",
+     "added": false
+    },
+    {
+     "text": "9p2k2",
+     "added": false
+    },
+    {
+     "text": "(3p – 2k)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "quadratic-equations",
+   "key_answer": "9p2k2"
+  },
+  {
+   "n": 5,
+   "text": "A shopkeeper professes to sell his goods at a 60% loss but uses a false balance and gains 90%. The actual weight (rounded off to one decimal place) he uses for 1 kg is:",
+   "options": [
+    {
+     "text": "210.5 gm",
+     "added": false
+    },
+    {
+     "text": "214.1 gm",
+     "added": false
+    },
+    {
+     "text": "209.5 gm",
+     "added": false
+    },
+    {
+     "text": "213.6 gm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "210.5 gm"
+  },
+  {
+   "n": 6,
+   "text": "Side PQ of a cyclic quadrilateral PQRS is produced to the point T. If , then the measure of is:14",
+   "options": [
+    {
+     "text": "116°",
+     "added": false
+    },
+    {
+     "text": "122°",
+     "added": false
+    },
+    {
+     "text": "29°",
+     "added": false
+    },
+    {
+     "text": "58°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "cyclic-quadrilaterals",
+   "key_answer": "58°"
+  },
+  {
+   "n": 7,
+   "text": "Under the ELI scheme approved in July 2025, first-time employees will benefit by getting one month’s wage under this scheme, up to what amount?",
+   "options": [
+    {
+     "text": "₹15,000",
+     "added": false
+    },
+    {
+     "text": "₹10,000",
+     "added": false
+    },
+    {
+     "text": "₹12,000",
+     "added": false
+    },
+    {
+     "text": "₹20,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": "₹15,000"
+  },
+  {
+   "n": 8,
+   "text": "Suman, Kunal, and Pooja invest ₹1050, ₹1510, and ₹1280 respectively to start a business. If the profit at the end of the year is ₹1650, then what is the share of Pooja in the profit?9022",
+   "options": [
+    {
+     "text": "₹550",
+     "added": false
+    },
+    {
+     "text": "₹549",
+     "added": false
+    },
+    {
+     "text": "₹551",
+     "added": false
+    },
+    {
+     "text": "₹548",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "₹550"
+  },
+  {
+   "n": 9,
+   "text": "The LCM of two numbers is 1116 and their HCF is 186. If one of the number is 372, then the other number is",
+   "options": [
+    {
+     "text": "930",
+     "added": false
+    },
+    {
+     "text": "465",
+     "added": false
+    },
+    {
+     "text": "558",
+     "added": false
+    },
+    {
+     "text": "372",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "558"
+  },
+  {
+   "n": 10,
+   "text": "The formation of a spectrum by a glass prism occurs due to ________.",
+   "options": [
+    {
+     "text": "Scattering",
+     "added": false
+    },
+    {
+     "text": "Refraction",
+     "added": false
+    },
+    {
+     "text": "Dispersion",
+     "added": false
+    },
+    {
+     "text": "Reflection",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "frustum-prism-pyramid",
+   "key_answer": "Dispersion"
+  },
+  {
+   "n": 11,
+   "text": "If a : b :: b : c; c = 4a; and b = 6, find the positive value of c.",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "12"
+  },
+  {
+   "n": 12,
+   "text": "Two trains are moving in opposite directions at speeds of 110 km/hr and 120 km/hr. The length of one train is 450 m. The time taken by them to cross each other is 12 seconds. The length (in m) of the other train (rounded off to 2 decimal places) is:",
+   "options": [
+    {
+     "text": "316.67",
+     "added": false
+    },
+    {
+     "text": "318.7",
+     "added": false
+    },
+    {
+     "text": "317.34",
+     "added": false
+    },
+    {
+     "text": "314.28",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": "316.67"
+  },
+  {
+   "n": 13,
+   "text": "Refer to the following letter, number and symbol series and answer the question that follows. Counting to be done from left to right only. All numbers are single-digit numbers. (Left) G 6 E * @ # 3 D 2 % 7 4 Y & 5 + C R K S T (Right) How many such numbers are there each of which is immediately preceded by a symbol and also immediately followed by a letter?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": "18"
+  },
+  {
+   "n": 14,
+   "text": "A conical tent is to be made for a school event. The radius of the base is 7 metres, and the height of the tent is 24 metres. A decorative cloth is to be used to cover the entire curved surface area of the tent. The cloth costs ₹40 per square metre. What will be the total cost of the cloth required?",
+   "options": [
+    {
+     "text": "₹21,000",
+     "added": false
+    },
+    {
+     "text": "₹22,000",
+     "added": false
+    },
+    {
+     "text": "₹23,800",
+     "added": false
+    },
+    {
+     "text": "₹22,800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "quadrilaterals",
+   "key_answer": "₹22,000"
+  },
+  {
+   "n": 15,
+   "text": "The average of 11 results is 61. If the average of the first 6 results is 64 and that of the last 6 is 61, find the 6th result.",
+   "options": [
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "78",
+     "added": false
+    },
+    {
+     "text": "79",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "79"
+  },
+  {
+   "n": 16,
+   "text": "Which of the following apparent forces, caused by Earth’s rotation, deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere?",
+   "options": [
+    {
+     "text": "Gravitational force",
+     "added": false
+    },
+    {
+     "text": "Pressure gradient force",
+     "added": false
+    },
+    {
+     "text": "Frictional force",
+     "added": false
+    },
+    {
+     "text": "Coriolis force",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": "Coriolis force"
+  },
+  {
+   "n": 17,
+   "text": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statement. Statements: All tea is a snack. All tea is brunch. All brunches are dinner. Conclusions: (I) All tea is dinner. (II) Some brunches are snacks.",
+   "options": [
+    {
+     "text": "Only conclusion (I) follows.",
+     "added": false
+    },
+    {
+     "text": "Neither conclusion (I) nor (II) follows.",
+     "added": false
+    },
+    {
+     "text": "Both conclusions (I) and (II) follow.",
+     "added": false
+    },
+    {
+     "text": "Only conclusion (II) follows.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "20%"
+  },
+  {
+   "n": 18,
+   "text": "Solve the following system of 3 equations in 3 unknowns. x − 3z = −5 2x − y + 2z = 16 7x − 3y − 5z = 19",
+   "options": [
+    {
+     "text": "x = 4, y = −2, z = −3",
+     "added": false
+    },
+    {
+     "text": "x = 4, y = −2, z = 3",
+     "added": false
+    },
+    {
+     "text": "x = −4, y = 2, z = −3",
+     "added": false
+    },
+    {
+     "text": "x = −4, y = 3, z = −2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "quadratic-equations",
+   "key_answer": "x = 4, y = −2, z = 3"
+  },
+  {
+   "n": 19,
+   "text": "The price of fuel decreases by 40%, 60% and 60% in three successive months, but increases by 70% in the fourth month. What is the percentage increase or decrease in the price of fuel in the fourth month as compared to its original price?8597",
+   "options": [
+    {
+     "text": "Increase by 87.04%",
+     "added": false
+    },
+    {
+     "text": "Decrease by 84.38%",
+     "added": false
+    },
+    {
+     "text": "Increase by 80.38%",
+     "added": false
+    },
+    {
+     "text": "Decrease by 83.68%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "Decrease by 83.68%"
+  },
+  {
+   "n": 20,
+   "text": "The average of the first 62 even natural numbers is:",
+   "options": [
+    {
+     "text": "61",
+     "added": false
+    },
+    {
+     "text": "63",
+     "added": false
+    },
+    {
+     "text": "62",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "63"
+  },
+  {
+   "n": 21,
+   "text": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) (44, 968, 22) (26, 650, 25)",
+   "options": [
+    {
+     "text": "(34, 173, 5)",
+     "added": false
+    },
+    {
+     "text": "(18, 108, 6)",
+     "added": false
+    },
+    {
+     "text": "(15, 348, 23)",
+     "added": false
+    },
+    {
+     "text": "(23, 210, 9)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "14 : 31"
+  },
+  {
+   "n": 22,
+   "text": "100 men have provisions for 26 days. If 50 men have left, for how many days the same provisions would last for the remaining men?",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "52"
+  },
+  {
+   "n": 23,
+   "text": "A dealer buys two articles X and Y for ₹800 each. He marks each of them at the same price. He sells X by giving two successive discounts of 45% and 73% and still earns ₹523 as profit. If he sells Y at a single discount of 89%, then what is the profit percentage on Y?",
+   "options": [
+    {
+     "text": "22%",
+     "added": false
+    },
+    {
+     "text": "21.5%",
+     "added": false
+    },
+    {
+     "text": "21%",
+     "added": false
+    },
+    {
+     "text": "22.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "22.5%"
+  },
+  {
+   "n": 24,
+   "text": "Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of operations as in question? (NOTE – A two/three-digit number cannot be broken into individual digits for operations, e.g., if 37 is followed by 10, the operation cannot be 3+7 as a two-digit number cannot be broken into individual digits.) 6 - 11 - 22 - 32; 9 - 14 - 28 - 38",
+   "options": [
+    {
+     "text": "7-12-24-14",
+     "added": false
+    },
+    {
+     "text": "14-19-38-58",
+     "added": false
+    },
+    {
+     "text": "13-18-36-46",
+     "added": false
+    },
+    {
+     "text": "12-17-34-54",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "7"
+  },
+  {
+   "n": 25,
+   "text": "What will come in the place of the ‘?’ in the following equation, if ‘+’ and ‘−’ are interchanged and ‘×’ and ‘÷’ are interchanged? 156 × 12 − 13 ÷ 8 + 71 = ?",
+   "options": [
+    {
+     "text": "41",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "46",
+     "added": false
+    },
+    {
+     "text": "43",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "25"
+  },
+  {
+   "n": 26,
+   "text": "A shopkeeper purchased 59 dozens of articles at the rate of ₹520 per dozen. He sold each one of them at the rate of ₹52. What percentage profit did he make?720",
+   "options": [
+    {
+     "text": "19%",
+     "added": false
+    },
+    {
+     "text": "23%",
+     "added": false
+    },
+    {
+     "text": "21%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": "24"
+  },
+  {
+   "n": 27,
+   "text": "Who among the following is NOT directly associated with the Prarthana Samaj?",
+   "options": [
+    {
+     "text": "Debendranath Tagore",
+     "added": false
+    },
+    {
+     "text": "Mahadev Govind Ranade",
+     "added": false
+    },
+    {
+     "text": "Atmaram Pandurang",
+     "added": false
+    },
+    {
+     "text": "R.C. Bhandarkar",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "digit-sum-and-place-value",
+   "key_answer": "Two"
+  },
+  {
+   "n": 28,
+   "text": "Jaspreet deposited a sum of ₹28,450 at 20% rate of interest per annum, compounded annually. The total amount received by Jaspreet after 2 years is:7624",
+   "options": [
+    {
+     "text": "₹40,624",
+     "added": false
+    },
+    {
+     "text": "₹40,968",
+     "added": false
+    },
+    {
+     "text": "₹40,958",
+     "added": false
+    },
+    {
+     "text": "₹41,126",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "₹40,968"
+  },
+  {
+   "n": 29,
+   "text": "A boy flying a kite holds the string of length 24.4 m such that it makes an angle of 30° with the ground. Find the height of the kite from the ground.",
+   "options": [
+    {
+     "text": "13.6 m",
+     "added": false
+    },
+    {
+     "text": "13.2 m",
+     "added": false
+    },
+    {
+     "text": "12.2 m",
+     "added": false
+    },
+    {
+     "text": "11.5 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": "12.2 m"
+  }
+ ]
+}

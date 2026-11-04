@@ -1,0 +1,584 @@
+{
+ "paper": "CHSL-Tier1-17-Mar-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Radii of two circles are 20 cm and 4 cm. Length of direct common tangent is 30 cm. What is the distance between their centres?",
+   "options": [
+    {
+     "text": "36cm",
+     "added": false
+    },
+    {
+     "text": "38cm",
+     "added": false
+    },
+    {
+     "text": "4cm",
+     "added": false
+    },
+    {
+     "text": "32cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "distance-and-section",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "6m61 is divisible by 11. What is the value of m?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The following bar chart shows the quantity (in million kg) of grains exported by India from 2018-2022. By how much percentage is the minimum export less than the average export in the given period? 120000 99000 100000 3 85000 § 80000 s 53000 poe) ae = 40000 z 20900 £ 20000 oO ° au my 209 ma 22 Years",
+   "options": [
+    {
+     "text": "67.74%",
+     "added": false
+    },
+    {
+     "text": "77.25%",
+     "added": false
+    },
+    {
+     "text": "88.25%",
+     "added": false
+    },
+    {
+     "text": "38.44%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The bar graph given below shows the cost price and selling price of four articles J, K, L and M. | 1100 900, oy 800 300 700 | 600 600 . i K t M ; wCost price Selling price The average cost price of J and K together is how much percent more than the average selling price of L and M together?",
+   "options": [
+    {
+     "text": "12.5 percent",
+     "added": false
+    },
+    {
+     "text": "14.28 percent",
+     "added": false
+    },
+    {
+     "text": "20 percent",
+     "added": false
+    },
+    {
+     "text": "7.28 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "®5 Tf sec B + tan B = 2, then what is the value of cot B ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "26 Tf sec A= 9/4, then what is the value of cot A?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "In APQR, PN is the median on QR. If PN = QN, then what is the value of ZQPR?",
+   "options": [
+    {
+     "text": "90 degree",
+     "added": false
+    },
+    {
+     "text": "80 degree",
+     "added": false
+    },
+    {
+     "text": "60 degree",
+     "added": false
+    },
+    {
+     "text": "75 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs Lis the incentre of AONP . If ZOLP - ZONP = 195 degree. then what will be the value of ZOLP ?",
+   "options": [
+    {
+     "text": "115 degree",
+     "added": false
+    },
+    {
+     "text": "140 degree",
+     "added": false
+    },
+    {
+     "text": "135 degree",
+     "added": false
+    },
+    {
+     "text": "125 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "99 Tratb+c=Oandae +b? +? = 40, then what is the value of ab + be + ca?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Tf the sum of a number and its reciprocal is 4, find the sum of their squares.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "On decreasing the price of a fan by 30 percent, its sales increases by 40 percent. What will be the percentage decrease in its revenne?",
+   "options": [
+    {
+     "text": "2 percent decrease",
+     "added": false
+    },
+    {
+     "text": "5 percent decrease",
+     "added": false
+    },
+    {
+     "text": "8 percent decrease",
+     "added": false
+    },
+    {
+     "text": "3 percent decrease",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The average age of Rustam and Preetam is 30 years. The average age of Preetam and Geetam is 20 years. The average age of Rustam and Geetam is 26 years. What will be the age of the youngest of the three after 5 years?",
+   "options": [
+    {
+     "text": "21 years",
+     "added": false
+    },
+    {
+     "text": "22 years",
+     "added": false
+    },
+    {
+     "text": "26 years",
+     "added": false
+    },
+    {
+     "text": "25 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "On selling a table for Rs. 210 and Rs, 420 there will be loss of Li% and L2 % respectively. If Li - Li = 7, then what is the cost price of table",
+   "options": [
+    {
+     "text": "Rs.5,000",
+     "added": false
+    },
+    {
+     "text": "Rs.3,000",
+     "added": false
+    },
+    {
+     "text": "Rs.7,000",
+     "added": false
+    },
+    {
+     "text": "Rs.4,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ifsecx+cos x= 5/2, where x lies between 0° and 90°, then what is the value of sin?x ?",
+   "options": [
+    {
+     "text": "3/4",
+     "added": false
+    },
+    {
+     "text": "1/2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "1/4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Given bar graph shows the number of jobs held by Indians over different years in Canada. In which of these year minimum jobs are held by Indians? be © x mm 0 r “o = 20 t-) » 20 20 10 ° 2000 zat 2012 Eat) 2008 Years",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The distance between P and Q is 720 km. A train leaves P at 6 am and runs at a speed of 20 mvs. The train stops on the way for | hour 30 minutes, At what time train will reach at Q?",
+   "options": [
+    {
+     "text": "5:00 pm",
+     "added": false
+    },
+    {
+     "text": "4:45 pm",
+     "added": false
+    },
+    {
+     "text": "5:15 pm",
+     "added": false
+    },
+    {
+     "text": "5:30 pm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The table given below shows production of taxi by two companies J and K in 5 years. [Years|s [x | [p_[90__[55_ | lg [70 [eo | [R_ |[s0_ [90 | [s_ [4s | 80_| [tT [40 [6s | Which of the following statement is NOT correct? 1. The difference between the total production of taxi by J and K in all years is 35. IL The production of taxi by J in year P and Q together is 92.11 percent of the production of taxi by K in years R and S together.",
+   "options": [
+    {
+     "text": "Only I",
+     "added": false
+    },
+    {
+     "text": "Both I and II",
+     "added": false
+    },
+    {
+     "text": "Neither I nor II",
+     "added": false
+    },
+    {
+     "text": "OnlyI",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "What is the compound interest for 1 year on a sum of Rs. 18000 at the annual rate of 20 percent per annum compounding half yearly?",
+   "options": [
+    {
+     "text": "Rs. 3780",
+     "added": false
+    },
+    {
+     "text": "Rs. 2450",
+     "added": false
+    },
+    {
+     "text": "Rs. 4500",
+     "added": false
+    },
+    {
+     "text": "Rs. 3650",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Manoj sold an article on marked price for Rs.13,000, Had he offered a discount of 10% on the marked price he would have eared a profit of 30%. What is the cost price?",
+   "options": [
+    {
+     "text": "Rs.10,000",
+     "added": false
+    },
+    {
+     "text": "Rs.9,900",
+     "added": false
+    },
+    {
+     "text": "Rs.9,000",
+     "added": false
+    },
+    {
+     "text": "Rs.11,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "920 Ratio of the angles of a triangle are 2 : 2 : 5. What is the largest angle?",
+   "options": [
+    {
+     "text": "120 degree",
+     "added": false
+    },
+    {
+     "text": "80 degree",
+     "added": false
+    },
+    {
+     "text": "110 degree",
+     "added": false
+    },
+    {
+     "text": "100 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "5 oA 32 1 9518 What is the value of £3 25 3 6 259 rx) 2 Em 2 — of —x—+ = of —x= 122.65 8 25 6",
+   "options": [
+    {
+     "text": "3/13",
+     "added": false
+    },
+    {
+     "text": "—5/13",
+     "added": false
+    },
+    {
+     "text": "-8/25",
+     "added": false
+    },
+    {
+     "text": "-3/25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Rani can doa work in 10 days, Priya can do the same work in 15 days and Guddu can do the same work in 12 days. If they do that work together and they are paid Rs. 9000, then what is the share of Priya?",
+   "options": [
+    {
+     "text": "Rs. 2400",
+     "added": false
+    },
+    {
+     "text": "Rs. 3000",
+     "added": false
+    },
+    {
+     "text": "Rs. 3500",
+     "added": false
+    },
+    {
+     "text": "Rs. 3600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The length of a cuboid is 8 cm. If the breadth of the cuboid is twice of its length and height of the cuboid is half of its length, then what is the total surface area of the cuboid?",
+   "options": [
+    {
+     "text": "48cm?",
+     "added": false
+    },
+    {
+     "text": "216 cm?",
+     "added": false
+    },
+    {
+     "text": "188 cm?",
+     "added": false
+    },
+    {
+     "text": "154 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "24 A 924 Ifa =12, b =—7 and c =-5, then what is the value of a? + b? + c??",
+   "options": [
+    {
+     "text": "1260",
+     "added": false
+    },
+    {
+     "text": "1125",
+     "added": false
+    },
+    {
+     "text": "1200",
+     "added": false
+    },
+    {
+     "text": "1380",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Rs. 13000 is divided among X. Y and Z such that 2 times of X°s share is equal to 3 times of Y's share which is equal to 4 times of Z’s share, What is the share of Y?",
+   "options": [
+    {
+     "text": "Rs, 3200",
+     "added": false
+    },
+    {
+     "text": "Rs. 4800",
+     "added": false
+    },
+    {
+     "text": "Rs. 5600",
+     "added": false
+    },
+    {
+     "text": "000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  }
+ ]
+}

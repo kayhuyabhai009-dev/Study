@@ -1,0 +1,1 @@
+{"paper": "CHSL-Tier1-13-Oct-2020-Shift2.pdf", "status": "alignment_failed", "tagged_count": 3, "questions": [], "detail": {"qdot-whole": {"n": 91, "anchor_cov": 0.0, "printed_cov": 1.0}, "numbered-whole": {"n": 283, "anchor_cov": 0.0, "printed_cov": 0.33}}}

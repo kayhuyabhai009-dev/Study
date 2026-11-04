@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-02-Feb-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A shopkeeper offers a pen free on buying every dozen pens. Calculate % discount offered by the shopkeeper. Cost price of all the pens is same.( rounded off to one decimal place)",
+   "options": [
+    {
+     "text": "8.3 Percent",
+     "added": false
+    },
+    {
+     "text": "12.5 Percent",
+     "added": false
+    },
+    {
+     "text": "6.3 Percent",
+     "added": false
+    },
+    {
+     "text": "7.6 Percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Two trains start at the same time from Bangalore and Chennai and proceed towards each other at the speeds of 80 km/h and 95 km/h. When they meet, it is found that one train has travelled 180 km more than the other. The distance between Bangalore and Chennai is:",
+   "options": [
+    {
+     "text": "345 km",
+     "added": false
+    },
+    {
+     "text": "400 km",
+     "added": false
+    },
+    {
+     "text": "1200 km",
+     "added": false
+    },
+    {
+     "text": "2100 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "M, N, and O can do work in 22, 24, and 16 days respectively. If they work for a day alternately such that M works on the first day, N works on the second day, O works on the third day and then again M works on the fourth day and so on, then in how many days approximately, the work will be completed?",
+   "options": [
+    {
+     "text": "17 days",
+     "added": false
+    },
+    {
+     "text": "20 days",
+     "added": false
+    },
+    {
+     "text": "16 days",
+     "added": false
+    },
+    {
+     "text": "19 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Abhi has a solid sphere of diameter 10 cm. He cuts it into two equal halves and decides to paint it. The painting cost per square cm is Rs.10. Which of the following is the approximate difference between the painting cost of the sphere and the hemispheres? (Use π = 22/7, rounded off to two decimal places.)",
+   "options": [
+    {
+     "text": "Rs.1,600.00",
+     "added": false
+    },
+    {
+     "text": "Rs.1,500.556",
+     "added": false
+    },
+    {
+     "text": "Rs.1,571.43",
+     "added": false
+    },
+    {
+     "text": "Rs.1,512.45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "If the price of petrol becomes Rs.110/litre from Rs.95/litre, by how much percentage the consumption of petrol should be reduced by Ravi so that his expenditure remains the same? (correct up to two decimals)",
+   "options": [
+    {
+     "text": "15.29%",
+     "added": false
+    },
+    {
+     "text": "16.34%",
+     "added": false
+    },
+    {
+     "text": "14.63%",
+     "added": false
+    },
+    {
+     "text": "13.64%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "If 3,x,12 and 2x + 7 are in proportion, then 6x is :",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The greatest number that can exactly divide 1560 and 2040 is X. What is the value of 121 - X?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The sum of two numbers is 21, and their HCF and LCM are 7 and 14, respectively. The sum of the reciprocals of the two numbers is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The fourth proportional 6, 9, 18 is:",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A person invests ₹30,000 for 5 years at a certain rate of interest compounded annually. At the end of 1 year, if the sum amounts to ₹34,200, then find the amount at the end of the second year.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Three bicycles are bought for Rs.16,500 and the transport cost per bicycle is Rs.200. What should be the selling price (in Rs.) of each bicycle to have a profit of 8%?",
+   "options": [
+    {
+     "text": "5661",
+     "added": false
+    },
+    {
+     "text": "5166",
+     "added": false
+    },
+    {
+     "text": "6651",
+     "added": false
+    },
+    {
+     "text": "6156",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "If a man climbs a hill at 6 km/h on the journey from foot to top of the hill and returns at 10 km/h, then find his average speed for the journey (in km/h).",
+   "options": [
+    {
+     "text": "6.5",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "7.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Vinod buys an article and sells it at a loss of 5%. If he would have bought it for 20% less and sold it for Rs.25 more, he would have gained 20%. What was the original cost price?",
+   "options": [
+    {
+     "text": "Rs.2,500",
+     "added": false
+    },
+    {
+     "text": "Rs.2,000",
+     "added": false
+    },
+    {
+     "text": "Rs.2,250",
+     "added": false
+    },
+    {
+     "text": "Rs.1,850",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The present population of a city is estimated to be 10 lakh and is expected to increase to 12.10 lakh during the next 2 years. The uniform annual rate of growth is:",
+   "options": [
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "7%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "growth-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The percentage equivalence of the fraction ¾ is:",
+   "options": [
+    {
+     "text": "80%",
+     "added": false
+    },
+    {
+     "text": "65%",
+     "added": false
+    },
+    {
+     "text": "75%",
+     "added": false
+    },
+    {
+     "text": "70%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "In a circular race of 625 m, X and Y start from the same point, at the same time and at speeds of 36 km/h and 54 km/h, respectively. When will they meet again for the first time on the track if they are running in the opposite directions?",
+   "options": [
+    {
+     "text": "In 15 seconds",
+     "added": false
+    },
+    {
+     "text": "In 20 seconds",
+     "added": false
+    },
+    {
+     "text": "In 25 seconds",
+     "added": false
+    },
+    {
+     "text": "In 10 seconds",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The average marks obtained by Mahesh in five subjects is 62 and he obtains 71 marks in the sixth subject. What is the average of the marks secured by Mahesh in all six subjects?",
+   "options": [
+    {
+     "text": "63.5",
+     "added": false
+    },
+    {
+     "text": "65.5",
+     "added": false
+    },
+    {
+     "text": "64.6",
+     "added": false
+    },
+    {
+     "text": "62.4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The marked price of a woollen jacket is Rs.800. The shopkeeper allows a discount of 10% on every item. Due to off-season, the shopkeeper allows additional discount of 5% on jacket. Find the selling price of the jacket?",
+   "options": [
+    {
+     "text": "Rs.720",
+     "added": false
+    },
+    {
+     "text": "Rs.684",
+     "added": false
+    },
+    {
+     "text": "Rs.705",
+     "added": false
+    },
+    {
+     "text": "Rs.668",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 332,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

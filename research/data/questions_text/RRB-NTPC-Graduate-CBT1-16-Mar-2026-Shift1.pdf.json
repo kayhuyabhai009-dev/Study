@@ -1,0 +1,856 @@
+{
+ "paper": "RRB-NTPC-Graduate-CBT1-16-Mar-2026-Shift1.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "source_pdf": "RRB_NTPC_2025_Graduation_Level_Answer_Key_16th_March_Shift_1.pdf",
+ "tagged_count": 32,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Find the area of a quadrilateral ABCD whose area is twice the area of a triangle PQR. The sides of triangle PQR are in the ratio 4:5:6 and the perimeter of the triangle is 90 cm (use ).",
+   "options": [
+    {
+     "text": "656 cm2",
+     "added": false
+    },
+    {
+     "text": "702 cm2",
+     "added": false
+    },
+    {
+     "text": "763 cm2",
+     "added": false
+    },
+    {
+     "text": "698 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": "702 cm2"
+  },
+  {
+   "n": 2,
+   "text": "20% of a number is more than 20% of 620 by 210. The number is:",
+   "options": [
+    {
+     "text": "1520",
+     "added": false
+    },
+    {
+     "text": "1720",
+     "added": false
+    },
+    {
+     "text": "1670",
+     "added": false
+    },
+    {
+     "text": "1770",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "1670"
+  },
+  {
+   "n": 3,
+   "text": "Working of hydraulic lift and hydraulic brakes is based on:",
+   "options": [
+    {
+     "text": "Faraday's law",
+     "added": false
+    },
+    {
+     "text": "Gay-Lussac’s law",
+     "added": false
+    },
+    {
+     "text": "Pascal’s law",
+     "added": false
+    },
+    {
+     "text": "Coulomb's law",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "Pascal’s law"
+  },
+  {
+   "n": 4,
+   "text": "Anand has ₹1407 with him. He divides this amount between his two sons, Anil and Ashok, and asks them to invest their respective shares at a compound interest rate of 10% per annum, compounded annually. It is observed that Anil’s investment amounts to the same value after 15 years as Ashok’s investment does after 16 years. How much (in ₹) did Anand give to Ashok?",
+   "options": [
+    {
+     "text": "737",
+     "added": false
+    },
+    {
+     "text": "837",
+     "added": false
+    },
+    {
+     "text": "520",
+     "added": false
+    },
+    {
+     "text": "670",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "670"
+  },
+  {
+   "n": 5,
+   "text": "The average of 13 numbers is 8. If each number is multiplied by 7, then what will the new average be:538",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "56"
+  },
+  {
+   "n": 6,
+   "text": "At the 2025 ICC Champions Trophy held in Dubai, which country did India defeat to secure their seventh ICC title in men’s senior cricket?",
+   "options": [
+    {
+     "text": "South Africa",
+     "added": false
+    },
+    {
+     "text": "England",
+     "added": false
+    },
+    {
+     "text": "New Zealand",
+     "added": false
+    },
+    {
+     "text": "Australia",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "22%"
+  },
+  {
+   "n": 7,
+   "text": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. Only five people have exams between V and T. Only two people have exams between R and T. Q has the exam immediately after R. S has the exam immediately before P but after T. How many people have exams between P and U?",
+   "options": [
+    {
+     "text": "One",
+     "added": false
+    },
+    {
+     "text": "Two",
+     "added": false
+    },
+    {
+     "text": "Three",
+     "added": false
+    },
+    {
+     "text": "Four",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": "1"
+  },
+  {
+   "n": 8,
+   "text": "If the median of a data is 61.54 less than its mode, then the median of the data exceeds its mean by _____. (Use the empirical formula to find the answer)",
+   "options": [
+    {
+     "text": "32.03",
+     "added": false
+    },
+    {
+     "text": "36.77",
+     "added": false
+    },
+    {
+     "text": "30.77",
+     "added": false
+    },
+    {
+     "text": "28.47",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "30.77"
+  },
+  {
+   "n": 9,
+   "text": "A train travelling at 60 km/hr crosses another train travelling in the opposite direction at 84 km/hr in 30 seconds. What is the combined length (in m) of both the trains?",
+   "options": [
+    {
+     "text": "1000",
+     "added": false
+    },
+    {
+     "text": "1300",
+     "added": false
+    },
+    {
+     "text": "1200",
+     "added": false
+    },
+    {
+     "text": "1100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": "1200"
+  },
+  {
+   "n": 10,
+   "text": "A boat can row 36 km downstream in the same time as it takes to row 24 km upstream. If the speed of the stream is 3 km/h, what is the speed of the boat in still water? Ans A. B. C. D.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "still-water-and-stream-speed",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A tower stands vertically on the ground. From a point on the ground which is 28.6 m away from the foot of a tower, the angle of elevation of the top of the tower is found to be 45°. Find the height of the tower.",
+   "options": [
+    {
+     "text": "22.6 m",
+     "added": false
+    },
+    {
+     "text": "28.6 m",
+     "added": false
+    },
+    {
+     "text": "24.6 m",
+     "added": false
+    },
+    {
+     "text": "26.6 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "heights-and-distances",
+   "key_answer": "28.6 m"
+  },
+  {
+   "n": 12,
+   "text": "Three printing machines, P, Q and R, when each is working alone, can print one lakh books in, respectively, 8 hours, 16 hours and 24 hours. These machines print books in turns of one hour each, starting with P, followed by Q and then by R. However, after a total of 9 hours, P stops functioning, but Q and R continue working alternately for an hour each, with Q working during the 10th hour, till the printing of all the one lakh books is completed. In how many hours in all did machines Q and R complete printing the remaining books?4094",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": "9"
+  },
+  {
+   "n": 13,
+   "text": "Evaluate: (-9) - (-56) ÷ (-14) + (-4) × 7",
+   "options": [
+    {
+     "text": "-40",
+     "added": false
+    },
+    {
+     "text": "-41",
+     "added": false
+    },
+    {
+     "text": "-43",
+     "added": false
+    },
+    {
+     "text": "-44",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "-41"
+  },
+  {
+   "n": 14,
+   "text": "Seven people F, G, H, I, V, W, and X are sitting around a circular table facing the centre of the table. I sits second to the right of W. I sits third to the left of F. V sits third to the left of X. G is an immediate neighbour of both W and F. How many people sit between H and G when counted from the left of H?949",
+   "options": [
+    {
+     "text": "One",
+     "added": false
+    },
+    {
+     "text": "Zero",
+     "added": false
+    },
+    {
+     "text": "Three",
+     "added": false
+    },
+    {
+     "text": "Two",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Three friends X, Y and Z started a business by investing a sum of money in the ratio of 4 : 2 : 5. After 6 months, X withdraws half of his capital. If the sum invested by Z is ₹23,000, then out of a total annual profit of ₹37,000, what is the difference between X's and Y's profit?",
+   "options": [
+    {
+     "text": "₹3700",
+     "added": false
+    },
+    {
+     "text": "₹5015",
+     "added": false
+    },
+    {
+     "text": "₹3065",
+     "added": false
+    },
+    {
+     "text": "₹4255",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "₹3700"
+  },
+  {
+   "n": 16,
+   "text": "At present, Sharad is three times as old as his son, and his daughter is 3 years younger than the son. If the sum of the ages of these three people 3 years ago was 63 years, then Sharad's present age (in years) is:",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "55",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": "45"
+  },
+  {
+   "n": 17,
+   "text": "Find the area of a regular hexagon whose side measures 14√3 cm.3116",
+   "options": [
+    {
+     "text": "509√3 cm2",
+     "added": false
+    },
+    {
+     "text": "294√3 cm2",
+     "added": false
+    },
+    {
+     "text": "882√3 cm2",
+     "added": false
+    },
+    {
+     "text": "441√3 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "polygons",
+   "key_answer": "882√3 cm2"
+  },
+  {
+   "n": 18,
+   "text": "This question is based on the five, three-digit numbers given below. (Left) 318 745 472 123 672 (Right) (Example: 697 – First digit = 6, second digit = 9 and third digit = 7) (NOTE: All operations to be done from left to right.) If all the numbers are arranged in the ascending order, the position of how many numbers will remain unchanged?",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "0"
+  },
+  {
+   "n": 19,
+   "text": "In a triangle PQR, ∠ QOR = 130°, where O is the in-centre of triangle PQR. The measure of ∠ QPR is:",
+   "options": [
+    {
+     "text": "70°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "50°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": "80°"
+  },
+  {
+   "n": 20,
+   "text": "2178",
+   "options": [
+    {
+     "text": "24,527",
+     "added": false
+    },
+    {
+     "text": "23,455",
+     "added": false
+    },
+    {
+     "text": "25,344",
+     "added": false
+    },
+    {
+     "text": "24,325",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": "6"
+  },
+  {
+   "n": 21,
+   "text": "Which Harappan city, around 2500 BCE, is noted for its dockyard, indicating advanced architectural planning for trade?",
+   "options": [
+    {
+     "text": "Mohenjodaro",
+     "added": false
+    },
+    {
+     "text": "Kalibangan",
+     "added": false
+    },
+    {
+     "text": "Lothal",
+     "added": false
+    },
+    {
+     "text": "Dholavira",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "96"
+  },
+  {
+   "n": 22,
+   "text": "A, B, C, D, E and F live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2, and so on till the topmost floor is numbered 6. Only five people live above D. Only two people live above A. C lives below F but above A. B does not live on an even numbered floor. How many people live below C?",
+   "options": [
+    {
+     "text": "Four",
+     "added": false
+    },
+    {
+     "text": "One",
+     "added": false
+    },
+    {
+     "text": "Three",
+     "added": false
+    },
+    {
+     "text": "Two",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "heights-and-distances",
+   "key_answer": "Four"
+  },
+  {
+   "n": 23,
+   "text": "When was the India European Free Trade Association (EFTA) Trade and Economic Partnership Agreement (TEPA) signed, which came into effect on 1 October 2025?",
+   "options": [
+    {
+     "text": "March 2024",
+     "added": false
+    },
+    {
+     "text": "August 2024",
+     "added": false
+    },
+    {
+     "text": "January 2025",
+     "added": false
+    },
+    {
+     "text": "September 2025",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "March 2024"
+  },
+  {
+   "n": 24,
+   "text": "At what rate (in percentage) per year will a sum of money double itself in 16 years on simple interest?",
+   "options": [
+    {
+     "text": "4.25",
+     "added": false
+    },
+    {
+     "text": "12.5",
+     "added": false
+    },
+    {
+     "text": "8.25",
+     "added": false
+    },
+    {
+     "text": "6.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "6.25"
+  },
+  {
+   "n": 25,
+   "text": "There are 78 members in group A, 22 members in group B and 34 members in group C. All the members of these groups went to a restaurant. The average amounts spent on each member of groups A, B and C are ₹136, ₹383 and ₹457, respectively. The overall average amount (in ₹) spent per member is:",
+   "options": [
+    {
+     "text": "256",
+     "added": false
+    },
+    {
+     "text": "261",
+     "added": false
+    },
+    {
+     "text": "258",
+     "added": false
+    },
+    {
+     "text": "255",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "258"
+  },
+  {
+   "n": 26,
+   "text": "In 2025, which Indian High Court issued the pioneering 'Policy Regarding the Use of AI Tools in District Judiciary', becoming the first in the country to frame comprehensive guidelines for artificial intelligence (AI) use in judicial work?",
+   "options": [
+    {
+     "text": "Delhi High Court",
+     "added": false
+    },
+    {
+     "text": "Madras High Court",
+     "added": false
+    },
+    {
+     "text": "Bombay High Court",
+     "added": false
+    },
+    {
+     "text": "Kerala High Court",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "Kerala High Court"
+  },
+  {
+   "n": 27,
+   "text": "P sells an item to Q at 50% profit. Q sells the same item to R at 60% loss. If R paid ₹ 3234 for the item, then at what price (in ₹) is the item purchased by P? 6637",
+   "options": [
+    {
+     "text": "5390",
+     "added": false
+    },
+    {
+     "text": "5387",
+     "added": false
+    },
+    {
+     "text": "5391",
+     "added": false
+    },
+    {
+     "text": "5393",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "5390"
+  },
+  {
+   "n": 28,
+   "text": "",
+   "options": [
+    {
+     "text": "2 : 19",
+     "added": false
+    },
+    {
+     "text": "3 : 11",
+     "added": false
+    },
+    {
+     "text": "13 : 6",
+     "added": false
+    },
+    {
+     "text": "3 : 14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": true,
+   "topic": "Number System",
+   "sub": "fractions-decimals",
+   "key_answer": "1"
+  },
+  {
+   "n": 29,
+   "text": "Which of the given letter-number clusters will replace the question mark (?) in the following series to make it logically complete? FZN 4 XRF 6 PJX 9 HBP 13 ?",
+   "options": [
+    {
+     "text": "ZKW 21",
+     "added": false
+    },
+    {
+     "text": "LFR 17",
+     "added": false
+    },
+    {
+     "text": "ZTH 18",
+     "added": false
+    },
+    {
+     "text": "XHD 19",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "21"
+  },
+  {
+   "n": 30,
+   "text": "A dealer buys two articles X and Y for ₹500 each. He marks each of them at the same price. He sells X by giving two successive discounts of 50% and 28% and still earns ₹958 as profit. If he sells Y at a single discount of 77%, then what is the profit percentage on Y?",
+   "options": [
+    {
+     "text": "86.3%",
+     "added": false
+    },
+    {
+     "text": "86%",
+     "added": false
+    },
+    {
+     "text": "85%",
+     "added": false
+    },
+    {
+     "text": "85.3%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "86.3%"
+  },
+  {
+   "n": 31,
+   "text": "Find the third proportional to the numbers 16 and 24.",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": "36"
+  },
+  {
+   "n": 32,
+   "text": "Each of the digits in the number 15762349 is arranged in ascending order from left to right. The position of how many digits will remain unchanged as compared to that in the original number?",
+   "options": [
+    {
+     "text": "Two",
+     "added": false
+    },
+    {
+     "text": "One",
+     "added": false
+    },
+    {
+     "text": "None",
+     "added": false
+    },
+    {
+     "text": "Three",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "fractions-decimals",
+   "key_answer": "Two"
+  }
+ ]
+}

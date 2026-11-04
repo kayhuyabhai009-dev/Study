@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-08-Feb-2023-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Ajit takes twice as much time as Arun and thrice as much time as Sanjeev to complete a job. If working together, all three can complete it in 53 hours, then find the time taken by Sanjeev alone to complete the job.",
+   "options": [
+    {
+     "text": "105 hours",
+     "added": false
+    },
+    {
+     "text": "100 hours",
+     "added": false
+    },
+    {
+     "text": "106 hours",
+     "added": false
+    },
+    {
+     "text": "103 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Amit can complete a piece of work in 120 days. Amit and Sejal can complete the same work in 72 days. They started together but Sejal left after working for 20 days. Find the approximate number of days in which Amit will complete the remaining work.",
+   "options": [
+    {
+     "text": "87 days",
+     "added": false
+    },
+    {
+     "text": "76 days",
+     "added": false
+    },
+    {
+     "text": "90 days",
+     "added": false
+    },
+    {
+     "text": "84 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A person follows a strict diet and loses his weight from 80 kg to 72 kg in a month. The percent weight loss of the person is:",
+   "options": [
+    {
+     "text": "12 percent",
+     "added": false
+    },
+    {
+     "text": "10 percent",
+     "added": false
+    },
+    {
+     "text": "8 percent",
+     "added": false
+    },
+    {
+     "text": "5 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The marked price of an article is Rs.1000 and shopkeeper gave 40 percent discount. What will be the selling price ?",
+   "options": [
+    {
+     "text": "Rs. 700",
+     "added": false
+    },
+    {
+     "text": "Rs. 400",
+     "added": false
+    },
+    {
+     "text": "Rs. 600",
+     "added": false
+    },
+    {
+     "text": "Rs 500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Two years ago, the population of a city was 260000. If the population is depreciating by 4% every year, its present population now is:",
+   "options": [
+    {
+     "text": "139616",
+     "added": false
+    },
+    {
+     "text": "239000",
+     "added": false
+    },
+    {
+     "text": "239616",
+     "added": false
+    },
+    {
+     "text": "339610",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Three runners start running on a circular track. They start from the same point at 6 AM and take 12 seconds, 15 seconds and 24 seconds respectively to finish 1 round. At what time will they meet again at the starting point?",
+   "options": [
+    {
+     "text": "6:03:20 AM",
+     "added": false
+    },
+    {
+     "text": "6:02:30 AM",
+     "added": false
+    },
+    {
+     "text": "6:01:40 AM",
+     "added": false
+    },
+    {
+     "text": "6:02:00 AM",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "application-problems",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "A man rows downstream to some destination and returns in 3 hours. If the speed of the boat in still water and the speed of stream are 6 km/h and 3 km/h, respectively, then the distance of the destination from the starting place is:",
+   "options": [
+    {
+     "text": "6.75 km",
+     "added": false
+    },
+    {
+     "text": "5.55 km",
+     "added": false
+    },
+    {
+     "text": "3.25 km",
+     "added": false
+    },
+    {
+     "text": "4.20 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "round-trip",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "How many two-digit numbers are divisible by 6?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The prices of a school bag and a shoe are in the ratio 11 : 9. The price of a school bag is Rs.450 more than the price of a shoe. The price of a shoe is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A merchant marks up his goods by 20% and gives a discount of 10%. He uses a faulty balance which measures 800 grams instead of 1 kg. What is his net percentage profit?",
+   "options": [
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "35%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A boy buys a toy car for Rs.650 and sells it for Rs.750. Find the gain percentage.",
+   "options": [
+    {
+     "text": "13.33%",
+     "added": false
+    },
+    {
+     "text": "15.38%",
+     "added": false
+    },
+    {
+     "text": "16.38%",
+     "added": false
+    },
+    {
+     "text": "14.38%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "If the volume of a cylindrical pillar is 924 m3 and its curved surface area is 264 m2, then the total surface area is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A shopkeeper earns a profit of 8% after offering a 15% discount on the marked price. To clear the stock, the shopkeeper offers a successive discount of x% and earns no profit or loss. What is the value (approximate) of 'x'?",
+   "options": [
+    {
+     "text": "7.8",
+     "added": false
+    },
+    {
+     "text": "7.6",
+     "added": false
+    },
+    {
+     "text": "7.4",
+     "added": false
+    },
+    {
+     "text": "8.0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Rashmi brought 50 books at the rate of Rs.80 each, 46 pens at the rate of Rs.60 each and 60 pencils at the rate of Rs.30 each. Calculate the average price (in Rs.) of all the stationary goods. (Rounded up to 2 decimal places)",
+   "options": [
+    {
+     "text": "Rs.49.87",
+     "added": false
+    },
+    {
+     "text": "Rs.65.79",
+     "added": false
+    },
+    {
+     "text": "Rs.46.77",
+     "added": false
+    },
+    {
+     "text": "Rs.54.87",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "If the simple interest on a sum of money at 6% per annum for 2 years is Rs.1,800, find the compound interest on the same sum for the same period at the same rate, compounding annually?",
+   "options": [
+    {
+     "text": "Rs.1,584",
+     "added": false
+    },
+    {
+     "text": "Rs.1,458",
+     "added": false
+    },
+    {
+     "text": "Rs.1,548",
+     "added": false
+    },
+    {
+     "text": "Rs.1,854",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "si-ci-difference",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Find the mean proportional of 500 and 8000.",
+   "options": [
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "4000",
+     "added": false
+    },
+    {
+     "text": "2000",
+     "added": false
+    },
+    {
+     "text": "632.46",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The average age of 2 children of a family is 12 years. The average age of father, mother and 2 children is 30 years. If the father is 4 years elder to the mother, then find the age of the father?",
+   "options": [
+    {
+     "text": "52 years",
+     "added": false
+    },
+    {
+     "text": "50 years",
+     "added": false
+    },
+    {
+     "text": "48 years",
+     "added": false
+    },
+    {
+     "text": "46 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A man walks from P to Q at a speed 10 km/h, but comes back from Q to P at 12 km/h. Find his average speed.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 305,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

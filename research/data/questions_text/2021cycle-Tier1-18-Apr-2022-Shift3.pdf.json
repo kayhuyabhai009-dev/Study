@@ -1,0 +1,550 @@
+{
+ "paper": "2021cycle-Tier1-18-Apr-2022-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Study the given histogram and answer the question that follows. : Wi y = 3S o~Cté‘<‘ KX if 8 wo 1 ZAI . Daily wages (in 2) 7 The total number of workers whose daily wages are less than 2500 is what percentage more than the total number of workers whose daily wages are 2650 and above (correct to one decimal place)?",
+   "options": [
+    {
+     "text": "111.8%",
+     "added": false
+    },
+    {
+     "text": "110.5%",
+     "added": false
+    },
+    {
+     "text": "101.2%",
+     "added": false
+    },
+    {
+     "text": "114.3%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "a2 1 _ o' ee i = If Vx ar 3, then what is the value of +o?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "prepp prepp 93 If A= 10°, what is the value of: 12 sin3A + 5cos (5A— 5°), - 9A - 9 sin om 4cos (5A + 10°)",
+   "options": [
+    {
+     "text": "(9 — 2v2) 6V2— 5",
+     "added": false
+    },
+    {
+     "text": "——____ (9 — 2v2) (9 — 22)",
+     "added": false
+    },
+    {
+     "text": "6V2 + 5) 6V2 + 5",
+     "added": false
+    },
+    {
+     "text": "———_—___ (9+ 2V2)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The area of similar triangles PQR and MNT are 196 cm? and 169 cm? respectively. If the longest side of the larger APQR be 28 cm then what is the length (in cm) of the longest side of the smaller A MNT?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Acircle with centre O has radius 15 cm. D is a point on the circle such that a 24 cm long chord AB is bisected by OD at point C. Find the length of CD (in cm).",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "prepp prepp Q.6 Ashopkeeper earns a profit of 17% on selling a book at 10% discount on the printed price. If the cost price is 2500, then the printed price (in 2) is:",
+   "options": [
+    {
+     "text": "615",
+     "added": false
+    },
+    {
+     "text": "750",
+     "added": false
+    },
+    {
+     "text": "585",
+     "added": false
+    },
+    {
+     "text": "650",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "ABisa diameter of a circle with centre O. The tangent at a point C on the circle and AB, when produced, meet at the point P. If ZAPC = 38°, then what is the measure of 2PCB?",
+   "options": [
+    {
+     "text": "23°",
+     "added": false
+    },
+    {
+     "text": "26°",
+     "added": false
+    },
+    {
+     "text": "29°",
+     "added": false
+    },
+    {
+     "text": "19°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Asum of 217,200 is lent out at simple interest in two parts for 2 years at 8% p.a. and 10% p.a., respectively. If the total interest received after 2 years is 23,008, then the money lent (in 2) at the rate of 8% p.a. is:",
+   "options": [
+    {
+     "text": "6,400",
+     "added": false
+    },
+    {
+     "text": "9,200",
+     "added": false
+    },
+    {
+     "text": "9,800",
+     "added": false
+    },
+    {
+     "text": "10,800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "3 Ifthe volume of a sphere is 4,851 cm? , then what is its diameter (in cm )? 22 (Take m = =)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Prepp Q.10 From the top of a 195-m high cliff, the angles of depression of the top and bottom of a tower are 30° and 60°, respectively. Find the height of the tower (in m).",
+   "options": [
+    {
+     "text": "195y3",
+     "added": false
+    },
+    {
+     "text": "195",
+     "added": false
+    },
+    {
+     "text": "130",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "heights-and-distances",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Inan election between two candidates, 5% of the registered voters did not cast their vote. 10% of the votes were found to be either invalid or of NOTA. The winning candidate received 60% votes in his favour and won the election by 17271 votes. Find the number of registered voters.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A manufacturer who marks the price of an article at 21,800, sells it to a dealer at a discount of 15%. The dealer gets a further discount of 8% on his net payment for paying in cash. What amount (to the nearest rupee) does the dealer pay to the manufacturer?",
+   "options": [
+    {
+     "text": "1,500",
+     "added": false
+    },
+    {
+     "text": "1,408",
+     "added": false
+    },
+    {
+     "text": "1,530",
+     "added": false
+    },
+    {
+     "text": "1,378",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The area of a cardboard (in cm?) needed to make a closed box of size 20 cm = 10 cm * 8 cm will be:",
+   "options": [
+    {
+     "text": "880",
+     "added": false
+    },
+    {
+     "text": "690",
+     "added": false
+    },
+    {
+     "text": "750",
+     "added": false
+    },
+    {
+     "text": "960",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "prepp prepp Q.14 The given bar graph shows the income and expenditure (in crores 2) of a company over 5 years, from 2014 to 2018. Study the bar graph and answer the question that follows. Income and expenditure (in crores 8) of a company over 5 years 8 . 325 “Si 335 20 30 20 om nncome 100 ebpensiore a ‘I J | a In which of the following years is the ratio of income to expenditure the minimum?",
+   "options": [
+    {
+     "text": "2017",
+     "added": false
+    },
+    {
+     "text": "2018",
+     "added": false
+    },
+    {
+     "text": "2014",
+     "added": false
+    },
+    {
+     "text": "2016",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Anup can row 33 km downstream and 35 km upstream in § hours. He can also row 44 km downstream and 28 km upstream in the same time. How much time (in hours) will he take to row 55 km downstream and 14 km upstream?",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Find the value of the following expression: 3+ 1x2+5—2 3x32",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Prepp Q.17 The bar graph shows the number of people who visited Mall A and Mall B on different days of a week. The bar graph showing the number of people who visited Mall A and Mall B on different days of the week. 1600 1500 satis a 1350 2 1200 1100 © 1000 4 820 840 3 800 700 700° 680 Te. i@ Bae “ 3 400 320 i= il li x Monday Tuesday Wednesday Thursday Friday: ‘Saturday ‘Sunday Days eManA @Mons The total number of people visiting Mall A on Monday, Tuesday, Friday and Sunday is what percentage of the total number of people visiting Mall B on Tuesday, Thursday, Saturday and Sunday? Express your answer correct to one place of decimal.",
+   "options": [
+    {
+     "text": "86.5%",
+     "added": false
+    },
+    {
+     "text": "92.3%",
+     "added": false
+    },
+    {
+     "text": "95.7%",
+     "added": false
+    },
+    {
+     "text": "82.4%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "O18 If 2 sin? 6 +3 cos@ =3, 0° <6 <90°, then the value of ( sec? 6 + cot? 8) is",
+   "options": [
+    {
+     "text": "3= 3 1",
+     "added": false
+    },
+    {
+     "text": "3=",
+     "added": false
+    },
+    {
+     "text": "1 v3 44 3 1",
+     "added": false
+    },
+    {
+     "text": "4- 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "prepp prepp Q.19 Monthly expenditure of a family on different heads is shown in the following pie chart. The family eams 71,08,000 every month. How much (in 2) does the family spend on food and transport? Expenditure on different Heads",
+   "options": [
+    {
+     "text": "34,000",
+     "added": false
+    },
+    {
+     "text": "35,250",
+     "added": false
+    },
+    {
+     "text": "34,800",
+     "added": false
+    },
+    {
+     "text": "34,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "LCM of two numbers is 22 times their HCF. If one of the numbers is 132 and the sum of LCM and HCF is 276, then what is the other number?",
+   "options": [
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The average of a set of 18 consecutive integers is 22.5. What is the largest integer in the set?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "prepp prepp Q.22 A number ‘n’ when divided by 6 leaves remainder 2. What will be the remainder when (n? + n + 2) is divided by 6?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Acan do a certain work in 15 days, while B can do the same work in 21 days. If they work together, then in how many days will the same work be completed?",
+   "options": [
+    {
+     "text": "92 4 3",
+     "added": false
+    },
+    {
+     "text": "9 4",
+     "added": false
+    },
+    {
+     "text": "*K3. 6",
+     "added": false
+    },
+    {
+     "text": "S48 z 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Ind PQR, S isa point on the side QR such that PS is the bisector of ZQPR. If PQ = 12 cm, QS = 3 cm and QR=7 cm, then what is the length of side PR?",
+   "options": [
+    {
+     "text": "18cm",
+     "added": false
+    },
+    {
+     "text": "14cm",
+     "added": false
+    },
+    {
+     "text": "15cm",
+     "added": false
+    },
+    {
+     "text": "16cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Three years ago, the ratio of the age of father to that of his son was 8 : 3. After 4 years, their ages will be in the ratio 11 : 5. What is the present age (in years) of the father?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  }
+ ]
+}

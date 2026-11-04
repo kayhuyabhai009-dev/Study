@@ -1,0 +1,83 @@
+{
+ "paper": "RRB-ALP-CBT1-28-Nov-2024-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The length of the base of a triangle is equal to the perimeter of a square whose diagonal is 7\\2 cm and the corresponding height of the triangle is equal to the length of a side of the square whose area is 169 sq cm. The area (in sq cm) of the triangle is:",
+   "options": [
+    {
+     "text": "152",
+     "added": false
+    },
+    {
+     "text": "182",
+     "added": false
+    },
+    {
+     "text": "156",
+     "added": false
+    },
+    {
+     "text": "130",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "182"
+  },
+  {
+   "n": 3,
+   "text": "Ina country, 55% of the population are females. 80% of the male population is literate. What percentage of females are literate if the total literacy rate is 58%?",
+   "options": [
+    {
+     "text": "55%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "45%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "40%"
+  },
+  {
+   "n": 4,
+   "text": "Study the following table and answer the question. The table shows the number of people who visited hill stations A and B in the years from 2011 to 2013. fe le alee] What is the absolute difference between the number of people who visited hill station A in the year 2011 to the number of people who visited hill station B in the same year?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "211"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 229,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,431 @@
+{
+ "paper": "2019-Tier1-06-Mar-2020-1600.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "| The following table gives the details of Five commodities A, B, C, D and E with quantity required and their costs for a family in a month. Study the table and answer the questions that follow. comma Sa required/month ini ee se [> 3 The amount spent extra on commodities B and C in the year 2019 as compared to that in the year 2016, is:",
+   "options": [
+    {
+     "text": "2192",
+     "added": false
+    },
+    {
+     "text": "2110",
+     "added": false
+    },
+    {
+     "text": "2248",
+     "added": false
+    },
+    {
+     "text": "2260",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Atvrain crosses a platform 180 m long in 60 sec at a speed of 72 knv/h. The time taken by the train to cross an electric pole is:",
+   "options": [
+    {
+     "text": "0.51 min",
+     "added": false
+    },
+    {
+     "text": "5.1 sec",
+     "added": false
+    },
+    {
+     "text": "5.1 min",
+     "added": false
+    },
+    {
+     "text": "Si sec",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-platform",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": ".3 cr = Fe 93 JA lies in third quadrant, and 20tanA = 21, then the value of Ssindn2cosé jg. 4cos Az sinA",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The following table gives the details of Five commodities A, B, C, D and E with quantity required and their costs for a family in a month. Study the table and answer the questions that follow. Caan) Say required/month 1s [zoo [eso nn 8 The ratio of the total amount spent on A and D commodities in the year 2019 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Two circles of radii 8 cm and 6 cm touch each other externally. The length of the direct common tangent is:",
+   "options": [
+    {
+     "text": "3.86",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "10.12",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "( 2 2: 1—secA)“+(1+secA)*]. The value of 4 | is: 1+sec*A",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "In AABC, if the ratio of angles is in the proportion 3 : 5 : 4, then the difference between the biggest and the smallest angles (in degrees) is:",
+   "options": [
+    {
+     "text": "35°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "25°",
+     "added": false
+    },
+    {
+     "text": "20°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs 1p1 1 t jis Ifb+c=ax,c+a=by,a+b=cz, then the value of —|—-+ —+—| is: Olet1° y+1l” z+1",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The inner and outer radius of a circular track are, respectively, 29 m and 23 m. The cost of levelling the track at €7/m2 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "An article was sold at a gain of 16%. If it had been sold for 236 more, the gain would have been 20%. The cost price of the article is",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "i T\\is Ifa? + = 52, then the value of 2 (a + *) is: a a",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The rate of simple interest on a sum of money is 5% p.a. for the first 4 years, $% p.a. for the next 3 years and 10% p.a. for the period beyond 7 years. If the simple interest accrued by the sum over a period of 10 years is £1,850, then the sum is:",
+   "options": [
+    {
+     "text": "32,750",
+     "added": false
+    },
+    {
+     "text": "Z1,650",
+     "added": false
+    },
+    {
+     "text": "1,500",
+     "added": false
+    },
+    {
+     "text": "2,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "913 What is the smallest integer that is divisible by 3, 7 and 18?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ina triangle ABC, DE is parallel to BC; AD = a, DB =a + 4, AE = 2a +3, EC = 7a. What is the value of ‘a’ ifa>0?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "[54—(5+2)x8]+13 , The value of ————_———— is: 48-—4+3x8-2",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The following Table gives the details of Five commodities A, B, C, D and E with quantity required and their costs for a family in a month. Study the Table and answer the questions that follow. Cama. ay required/month 2 [p> [+0 s The total amount spent on the Five commodities by the family in the year 2019 is:",
+   "options": [
+    {
+     "text": "25,400",
+     "added": false
+    },
+    {
+     "text": "27,248",
+     "added": false
+    },
+    {
+     "text": "26,856",
+     "added": false
+    },
+    {
+     "text": "28,122",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The sum of the squares of 3 natural numbers is 1029, and they are in the proportion | : 2 : 4. The difference between greatest number and smallest number is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "as} If x* —4x+4=0, then the value of 16 (x* - ~) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The following table gives the details of Five commodities A, B, C, D and E with quantity required and their costs for a family in a month. Study the table and answer the questions that follow. cence] Say required/month tak 15 [pf 5 The percentage of increase(per kg) in the rate of commodity D from 2016 to 2019 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "25 litres of a mixture contains 30% of spirit and rest water. If 5 litres of water be mixed in it, the percentage of spirit in the new mixture is:",
+   "options": [
+    {
+     "text": "25% 1",
+     "added": false
+    },
+    {
+     "text": "12=% 2 1",
+     "added": false
+    },
+    {
+     "text": "33=% 3",
+     "added": false
+    },
+    {
+     "text": "45%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The average of 60 student’s results is 38. If the average of the first 22 students is 36, and that of the last 32 students is 32, then the average result of the remaining students is:",
+   "options": [
+    {
+     "text": "77.33",
+     "added": false
+    },
+    {
+     "text": "65.30",
+     "added": false
+    },
+    {
+     "text": "52.12",
+     "added": false
+    },
+    {
+     "text": "81.9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "A, Band C can individually complete a task in 20 days, 16 days and 30 days, respectively. If A and B started working on the task, and they worked for 4 days and left, then the number of days required by C to finish the remaining task is:",
+   "options": [
+    {
+     "text": "12 5 days",
+     "added": false
+    },
+    {
+     "text": "13 days af",
+     "added": false
+    },
+    {
+     "text": "16= days 2",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Ashopkeeper fixes the price of an article in such a way that after allowing 32% discount, he wants a gain of 14%. If the marked price is $342, then the cost price of the article is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "A,Band C are three points on a circle such that the angles subtended by the chords AB and AC at the centre O are $0° and 120°, respectively. The value of ZBAC is:",
+   "options": [
+    {
+     "text": "75°",
+     "added": false
+    },
+    {
+     "text": "85°",
+     "added": false
+    },
+    {
+     "text": "70°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "25 24 a 15 a Q If0 <A, B < 45°, cos(A+B)= ze andsin(A — B) = a7 then tan2A is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  }
+ ]
+}

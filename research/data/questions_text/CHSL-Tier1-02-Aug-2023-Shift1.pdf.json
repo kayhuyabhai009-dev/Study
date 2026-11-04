@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-02-Aug-2023-Shift1.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Www.prepp.in Prepp Study the given pie-chart and table and answer the question that follows. The pie-chart shows the percentage distribution of age groups of visitors to a park ina month. The table shows the male, female distribution of the visitors in terms of the percentage. More than 60 45-60 | a0 | 0 345 [kt 25-35 Less than 25 If 2000 male visitors and 1500 female visitors were there in all, then the ratio of the number of male visitors in the age group 25-35, to the female visitors of the age group 45-60 is:",
+   "options": [
+    {
+     "text": "71:45",
+     "added": false
+    },
+    {
+     "text": "57:41",
+     "added": false
+    },
+    {
+     "text": "63:47",
+     "added": false
+    },
+    {
+     "text": "81:29",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "d"
+  },
+  {
+   "n": 2,
+   "text": ". Ashopkeeper marks his goods at 80% more than their cost price and allows a discount of 48% on the marked price. His loss percentage is:",
+   "options": [
+    {
+     "text": "2=% 5",
+     "added": false
+    },
+    {
+     "text": "72%",
+     "added": false
+    },
+    {
+     "text": "6 5 %",
+     "added": false
+    },
+    {
+     "text": "3 e %",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The three sides of a triangle are 9, 24 and S units. Which of the following is correct?",
+   "options": [
+    {
+     "text": "15<S$<33",
+     "added": false
+    },
+    {
+     "text": "15< $<33",
+     "added": false
+    },
+    {
+     "text": "15<S< 33",
+     "added": false
+    },
+    {
+     "text": "15< S< 33",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 4,
+   "text": "a4 2 3 1 2 If 2x +-=5, then the value of (x +542) will be: x x",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "84",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Bhushan's monthly income is 745,000 and his monthly expenditure is 33,000. If his manthly income is increased by 22% while monthly expenditure is increased by 11%, then what is his new monthly savings (in 2)?",
+   "options": [
+    {
+     "text": "18,270",
+     "added": false
+    },
+    {
+     "text": "18,690",
+     "added": false
+    },
+    {
+     "text": "18,000",
+     "added": false
+    },
+    {
+     "text": "19,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": "a"
+  },
+  {
+   "n": 6,
+   "text": "Qé i 1; Ifx += = 7, then the value of x? +— is: x x",
+   "options": [
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "51",
+     "added": false
+    },
+    {
+     "text": "47",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "c"
+  },
+  {
+   "n": 7,
+   "text": "www prepp.in prepp Two circles of radii 12 cm and 13 em are concentric. The length of the chord of the larger circle which touches the smaller circle is:",
+   "options": [
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "18cm",
+     "added": false
+    },
+    {
+     "text": "10cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": "c"
+  },
+  {
+   "n": 8,
+   "text": "tfsina + sin? A= 1, then the value of the expression (cos? A+ cos* A) is z",
+   "options": [
+    {
+     "text": "72.1",
+     "added": false
+    },
+    {
+     "text": "x32",
+     "added": false
+    },
+    {
+     "text": "xat",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 9,
+   "text": "= The average age of 6 members of a family is 25 years. If the youngest member is 4 years old, then what was the average age of family just before the birth of the youngest member?",
+   "options": [
+    {
+     "text": "27.2 years",
+     "added": false
+    },
+    {
+     "text": "24.8 years",
+     "added": false
+    },
+    {
+     "text": "32.8 years",
+     "added": false
+    },
+    {
+     "text": "25.2 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "d"
+  },
+  {
+   "n": 10,
+   "text": "9 If cot@ = al find the value of cosec”6.",
+   "options": [
+    {
+     "text": "1— 17",
+     "added": false
+    },
+    {
+     "text": "208 289",
+     "added": false
+    },
+    {
+     "text": "2 17 81",
+     "added": false
+    },
+    {
+     "text": "1—",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 11,
+   "text": "www prepp.in prepp How long (in years) will a sum of money invested at 6% per annum simple interest to increase its value by 40%?",
+   "options": [
+    {
+     "text": "6= 3",
+     "added": false
+    },
+    {
+     "text": "5=",
+     "added": false
+    },
+    {
+     "text": "1 XK 3. 6— 3 1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A tangent AB at point A of a circle of radius 6 cm meets a line through the centre O at point B. If OB = 10 cm, then the Jength of AB (in cm) is equal to:",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": "d"
+  },
+  {
+   "n": 13,
+   "text": "Suhas, a 3.15 m tall tree. and an 11.25 m tall building are positioned such that their feet on the ground are collinear and the tree is located between Suhas and the building. The tree is located at a distance of 45 m from the building. Further, the eyes of Suhas. the top of the tree, and the top of the building fall in one line, and the eyes of Suhas are at a height of 1.8 m from the ground. At what distance (in m) from Suhas is the tree located?",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "c"
+  },
+  {
+   "n": 14,
+   "text": "14 pe . : 244 Find the third proportional of 25 and 45.",
+   "options": [
+    {
+     "text": "85",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "76",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": "c"
+  },
+  {
+   "n": 15,
+   "text": "Wwww.prepp.in Prepp Q.15_ Study the given table and answer the question that follows. The table indicates the number of students studying in three disciplines in four different colleges. Disciplines [A |B fe |p [Commerce [520 [550__|515_| 690_| Which college has the minimum number of students in Commerce?",
+   "options": [
+    {
+     "text": "A",
+     "added": false
+    },
+    {
+     "text": "8B",
+     "added": false
+    },
+    {
+     "text": "C",
+     "added": false
+    },
+    {
+     "text": "D",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "the following bar graph indicates the sales of various items in a shop for one day. Study the bar graph carefully and answer the question that follows. Onions Sugar Rice Wheat | 0 5 10 15 20 25 Find the ratio between the sale of wheat and rice and also the ratio between the sale of sugar and onions, respectively.",
+   "options": [
+    {
+     "text": "2and1:1",
+     "added": false
+    },
+    {
+     "text": "1:land2:1",
+     "added": false
+    },
+    {
+     "text": "2:land1:2",
+     "added": false
+    },
+    {
+     "text": "1:land1:1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "www prepp.in prepp Ifa right circular cone of height 24 cm has the circumference of its base 42 7 cm, then the volume of the cone is {use t= =);",
+   "options": [
+    {
+     "text": "15211 cm?",
+     "added": false
+    },
+    {
+     "text": "11088 cm?",
+     "added": false
+    },
+    {
+     "text": "12034 cm?",
+     "added": false
+    },
+    {
+     "text": "21011 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": "b"
+  },
+  {
+   "n": 18,
+   "text": "A dishonest shopkeeper professes to sell grains at the cost price, but he uses a weight of 920 gm for 1 kg weight. Find his gain percentage (round up to two decimal places).",
+   "options": [
+    {
+     "text": "7.90%",
+     "added": false
+    },
+    {
+     "text": "8.70%",
+     "added": false
+    },
+    {
+     "text": "8.50%",
+     "added": false
+    },
+    {
+     "text": "7.80%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 19,
+   "text": "Acan finish a work in 15 days, B can finish the same work in 25 days. They work together for 5 days. The rest of the work is finished by A and C in 4 days. Then C alone can finish the work in:",
+   "options": [
+    {
+     "text": "18 days",
+     "added": false
+    },
+    {
+     "text": "24 days",
+     "added": false
+    },
+    {
+     "text": "20 days",
+     "added": false
+    },
+    {
+     "text": "21 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "c"
+  },
+  {
+   "n": 20,
+   "text": "Zeenat and Nasreen participate ina circular race of 1.2 km. They start the race at a speed of 18 km/h and 27 km/h. respectively, from the same point at the same time. After how much time (in minutes) will they meet at the starting point for the first time, if they are running in the same direction?",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "d"
+  },
+  {
+   "n": 21,
+   "text": "921 Which of the following numbers is NOT divisible by 11?",
+   "options": [
+    {
+     "text": "1735624",
+     "added": false
+    },
+    {
+     "text": "752563",
+     "added": false
+    },
+    {
+     "text": "1661308",
+     "added": false
+    },
+    {
+     "text": "1904529",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "b"
+  },
+  {
+   "n": 22,
+   "text": "Ima show room, the marked prices of various items are displayed in such a manner that after giving a 10% discount to the customers, the owner of the show room earns a profit of 20%. What is the ratio of the marked price and cost price of each item?",
+   "options": [
+    {
+     "text": "334",
+     "added": false
+    },
+    {
+     "text": "4:3",
+     "added": false
+    },
+    {
+     "text": "5:2",
+     "added": false
+    },
+    {
+     "text": "2:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 23,
+   "text": "023 If 5x + 3y = 15 and 2xy = 6, then the value of 5x - 3y is:",
+   "options": [
+    {
+     "text": "3 3",
+     "added": false
+    },
+    {
+     "text": "3V5",
+     "added": false
+    },
+    {
+     "text": "3y2",
+     "added": false
+    },
+    {
+     "text": "3y4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "b"
+  },
+  {
+   "n": 24,
+   "text": "cos8 cosO.. —— +—— is equal to: sec8-1 secO+1",
+   "options": [
+    {
+     "text": "2sec?0",
+     "added": false
+    },
+    {
+     "text": "2cot?6",
+     "added": false
+    },
+    {
+     "text": "2cos?6",
+     "added": false
+    },
+    {
+     "text": "2sin76",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Acertain amount of money was lent for a period of 1 year 9 months at a rate of 10% per annum compounded annually. If the compound interest is <1,460, find the amount of money lent.",
+   "options": [
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "X7,500",
+     "added": false
+    },
+    {
+     "text": "000",
+     "added": false
+    },
+    {
+     "text": "000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  }
+ ]
+}

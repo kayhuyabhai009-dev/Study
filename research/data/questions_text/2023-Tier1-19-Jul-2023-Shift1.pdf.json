@@ -1,0 +1,616 @@
+{
+ "paper": "2023-Tier1-19-Jul-2023-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "An 11-digit number 7823326867X is divisible by 18. What is the value of X?",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "(N+18) persons, each working for 7.5 hours a day, can complete 48% of a work in 20 days. (N+12) persons can complete the remaining work in 30 days, if each of them works for 6.5 hours per day. Determine the value of N.",
+   "options": [
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "d th If Mohit can complete 2 of a work in 24 days, then in how many days can ; of the work be completed by him?",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Qs in x — 2 1+cot?x . If —7*—<°** — = then the value of ———— is: sinx + cosx 5 1—cot?x",
+   "options": [
+    {
+     "text": "2.25",
+     "added": false
+    },
+    {
+     "text": "1.45",
+     "added": false
+    },
+    {
+     "text": "3.75",
+     "added": false
+    },
+    {
+     "text": "5.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Study the given pie-chart and answer the question that follows. The pie-chart displays the percentage of fruits sold (in kg) by a fruit seller in one month. © Mangoes ® Grapes @ Bere @ Oranges @ Cherries © Pomegranates If the total fruits sold by a fruit seller in one month was 50,000 kg, find the approximate difference of the quantity (in kg) of pomegranates and that of berries.",
+   "options": [
+    {
+     "text": "11,480",
+     "added": false
+    },
+    {
+     "text": "13,535",
+     "added": false
+    },
+    {
+     "text": "21,408",
+     "added": false
+    },
+    {
+     "text": "12,465",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Qa7 2 P Simplify the given expression, 432 x 432 + 247 x 247-432 x 247 “432 x 432 x 432 +247 x 247 x 247",
+   "options": [
+    {
+     "text": "—",
+     "added": false
+    },
+    {
+     "text": "59 ” 4: 2. — 185 w 1",
+     "added": false
+    },
+    {
+     "text": "SS 679 - 1",
+     "added": false
+    },
+    {
+     "text": ",— 450",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Simplify the following. 3a+b a-—3b +b 2 3",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "UNI US Up UA ea Hea BAG, YoTa A Tad S ed H Sa A HS Gar a ch oh ya ured S10% wa Mh SAA Tat B ustesy H ST A SH Ter wh S ch Gt yer ursrsy S 20% HA i afe wer & ae wa wr Bel UTS 24 UT she Nowa OU, cl ae Aa gu fH saat Tord A alg afe ae 8, Gera A fara una urea fear?",
+   "options": [
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "21.6",
+     "added": false
+    },
+    {
+     "text": "26.4",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "On day one, with speed v, R covers a distance x, in t time. On the next day, he covers a distance 2.5x in 0.75t time. What is his speed the next day?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Ina 1170 m race, Raman reaches the final point in 65 seconds and Mohan reaches the final point in 90 seconds. By how much distance does Raman beat Mohan?",
+   "options": [
+    {
+     "text": "325m",
+     "added": false
+    },
+    {
+     "text": "300m",
+     "added": false
+    },
+    {
+     "text": "375m",
+     "added": false
+    },
+    {
+     "text": "350m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "races",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "It takes A and B, 3 and 6 hours, respectively, to complete a certain work. If they work on the alternate hour. How long will it take them to accomplish the task?",
+   "options": [
+    {
+     "text": "3 hours",
+     "added": false
+    },
+    {
+     "text": "4 hours",
+     "added": false
+    },
+    {
+     "text": "2 hours",
+     "added": false
+    },
+    {
+     "text": "4.5 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Two chords of a circle, AB and CD, meet outside the circle at the point P. If m(AP) = 200 mm, m( AB) = 120 mm, and m( CP) = 160 mm, what is the length of CD ?",
+   "options": [
+    {
+     "text": "100mm",
+     "added": false
+    },
+    {
+     "text": "75mm",
+     "added": false
+    },
+    {
+     "text": "60mm",
+     "added": false
+    },
+    {
+     "text": "150 mm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Two circles of same radius 6 cm, intersect each other at P and Q. If PQ = 10cm, then what is the distance between the centres of the two circles?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "215 Find the value of (sin8 + cos @)? + (sin@ — cos 8).",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A grocer claims that he is selling sugar at 48/kg, which costs him %50/kg, but he is giving 900 g instead of 1000 g. What will be the approximate percentage profit?",
+   "options": [
+    {
+     "text": "7.5%",
+     "added": false
+    },
+    {
+     "text": "5.5%",
+     "added": false
+    },
+    {
+     "text": "8.5%",
+     "added": false
+    },
+    {
+     "text": "6.7%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Which of the following numbers is divisible by 36 ?",
+   "options": [
+    {
+     "text": "8840",
+     "added": false
+    },
+    {
+     "text": "1542",
+     "added": false
+    },
+    {
+     "text": "96272",
+     "added": false
+    },
+    {
+     "text": "55512",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Find the length of the arc of the sector of a circle of diameter 7 cm with a central angle of 108°. [Use tr = 22/7]",
+   "options": [
+    {
+     "text": "6.6cm",
+     "added": false
+    },
+    {
+     "text": "5.6 cm",
+     "added": false
+    },
+    {
+     "text": "13.2cm",
+     "added": false
+    },
+    {
+     "text": "11.2cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "How much simple interest will $6,000 earn in 21 months at 8% per annum?",
+   "options": [
+    {
+     "text": "2750",
+     "added": false
+    },
+    {
+     "text": "%880",
+     "added": false
+    },
+    {
+     "text": "%620",
+     "added": false
+    },
+    {
+     "text": "2840",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A varies directly as (B + 18) and A = 108 when B = 36. Find the value of A when B = 68.",
+   "options": [
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "86",
+     "added": false
+    },
+    {
+     "text": "127",
+     "added": false
+    },
+    {
+     "text": "172",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Aconical tent has a radius of 7 m and a vertical height of 24 m. How many full bags of rice can be emptied in it if the space occupied by the rice in each bag is 2 m3?",
+   "options": [
+    {
+     "text": "566",
+     "added": false
+    },
+    {
+     "text": "616",
+     "added": false
+    },
+    {
+     "text": "716",
+     "added": false
+    },
+    {
+     "text": "650",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The following figure shows the scores of students in three tests organised by a coaching institution. Who scored the best on average? Scores in different tests 120 101 99 100 — gy 95 93 9094 _ gg 9390 76 79 80 80 71 71 vv oe o 60 a 40 20 0 A B Cc D E Student Name @Test1 mTest2 mTest3",
+   "options": [
+    {
+     "text": "D",
+     "added": false
+    },
+    {
+     "text": "c",
+     "added": false
+    },
+    {
+     "text": "E",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Aman drives his car for 24 km at a speed of 48 km/h, and for the next 1.5 hours he drives at a speed of 80 km/h. Find his average speed (in km/h) for the entire journey.",
+   "options": [
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "68",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "‘i rn rf (5*_) + (<24,) = 4, then what will be the value of A? (0° <@< 90°) 1—sinA 1+ sind.",
+   "options": [
+    {
+     "text": "90°",
+     "added": false
+    },
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Adealer purchased a washing machine for %9,000. He allows a discount of 10% on its marked price and still gains 10%. Find the marked price of the machine.",
+   "options": [
+    {
+     "text": "%11,000",
+     "added": false
+    },
+    {
+     "text": "12,000",
+     "added": false
+    },
+    {
+     "text": "%13,000",
+     "added": false
+    },
+    {
+     "text": "%10,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 3,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 6,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

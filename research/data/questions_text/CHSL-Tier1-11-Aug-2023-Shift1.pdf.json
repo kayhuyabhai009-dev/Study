@@ -1,0 +1,482 @@
+{
+ "paper": "CHSL-Tier1-11-Aug-2023-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": ".— Aman invested 24.400 at 10% and 27.500 at 8% simple interest. What amount (in 2) will he get from his investments after 12 years?",
+   "options": [
+    {
+     "text": "24,830",
+     "added": false
+    },
+    {
+     "text": "24,380",
+     "added": false
+    },
+    {
+     "text": "28,380",
+     "added": false
+    },
+    {
+     "text": "28,840",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Pie chart represents the modes of transport used by different employees in a university. STrin Bus =Car ‘® Two wheeler ™ Metro The number of employees who use the bus if there are total of 150 employees is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Two cities P and Q are 181 km apart on a straight road. One man starts from P at 8:30 A.M. and travels toward Q at 30 knvh, If another man starts from Q at 8:54 A.M. and travels towards P at a speed of 35 knv/h, then at what time will they meet?",
+   "options": [
+    {
+     "text": "11:30 A.M.",
+     "added": false
+    },
+    {
+     "text": "10:00 A.M.",
+     "added": false
+    },
+    {
+     "text": "10:30 A.M.",
+     "added": false
+    },
+    {
+     "text": "11:00 A.M.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The angle subtended by an arc at the circumference of the circle is 55*, Find the angle subtended by it at the centre.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The ratio of the father’s age to his son's age is 5: 3. The product of the numbers representing their ages is 960. The ratio of their ages after 6 years will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The cost price of an article is 72% of the marked price. The profit percentage after allowing a discount of 6% on the marked price is (rounded off to 2 decimal places):",
+   "options": [
+    {
+     "text": "32.50%",
+     "added": false
+    },
+    {
+     "text": "28.23%",
+     "added": false
+    },
+    {
+     "text": "30.56%",
+     "added": false
+    },
+    {
+     "text": "35.65%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "2 2 ‘ «¢ 36a\" —49b’ Simplify ————_ P i 6a+7b",
+   "options": [
+    {
+     "text": "7b — 6a",
+     "added": false
+    },
+    {
+     "text": "6a + 7b",
+     "added": false
+    },
+    {
+     "text": "6a — 7b 1",
+     "added": false
+    },
+    {
+     "text": "—_—>_.. 6a — 7b",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Ashopkeeper does a faulty weighing of an item of 930 gram instead of | kg and sells it at its cast price. Find his profit percentage on selling 15 kg of the item.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Study the given pie-chart and answer the question that follows. Percentage-wise distribution of teachers in six different subjects in a school is given in the pie-chart. The total number of teachers is 600. The ratio of male and female teachers is 3 : 1. sw Engish a Sonsket Hindi ‘= Mathematics = Biology Social Stucies Find the total number of teachers in Mathematics, Biology and Social Studies.",
+   "options": [
+    {
+     "text": "320",
+     "added": false
+    },
+    {
+     "text": "420",
+     "added": false
+    },
+    {
+     "text": "360",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Rohita offers a discount of 20% on the marked price of an object. Due to recession of market, she further offers a discount of 30% on its sale. What is the equivalent single discount percentage corresponding to these two successive discounts offers?",
+   "options": [
+    {
+     "text": "42%",
+     "added": false
+    },
+    {
+     "text": "56%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "4%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Following table shows the details of students, from universities A, B, C about Applied (App), Qualified (Qual), selected (sel) in various competitive examinations: |__| Ave | Quai set | app | qual set | app | Qual | set | [20i6 | 6500 | 1000| 150 7500 720 [82] se00| 500 | 178] [2017 soo0 [#50 [348 00] 90 [334] 5500 #20 [105] | 2018 | 8000 | 1200 | 128 | 6500 | 600 | 128 | 6000| soo | 148) [2020 | 8500 [1500 170 90001200 50 [9000 000] 320] The percentage of students qualified over the applied number of students, from University B, is highest in the year:",
+   "options": [
+    {
+     "text": "2016",
+     "added": false
+    },
+    {
+     "text": "2020",
+     "added": false
+    },
+    {
+     "text": "2018",
+     "added": false
+    },
+    {
+     "text": "2019",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "|f four-fifths of five-sixths of one-eighth of a certain number is 4365, what is 65% of the number?",
+   "options": [
+    {
+     "text": "36,375",
+     "added": false
+    },
+    {
+     "text": "53,280",
+     "added": false
+    },
+    {
+     "text": "34,047",
+     "added": false
+    },
+    {
+     "text": "52,380",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Let ABC be aright-angied triangle where 4A = 90° and 4C = 45°. Find the value of sec C + sin C secC.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "3 1 If (3y +=) =8, find the value of (y? +—). y i",
+   "options": [
+    {
+     "text": "1.55 v 9S 5",
+     "added": false
+    },
+    {
+     "text": "4=— 6 x",
+     "added": false
+    },
+    {
+     "text": "72 § 1",
+     "added": false
+    },
+    {
+     "text": "92 9S",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If(4sin 6 +5 cos0) = 3, then the value of (4cos@ — 5sin 8) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "2-16 The total surface area of a solid hemisphere of diameter 14 cm is (use 1 = = ):",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "30 women working 5 hours a day can complete a work in 18 days, In how many days will 21 women working § hours a day complete the same work?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The distance between two parallel chords of length 6 cmeach, in a circle of diameter 10 cmis:",
+   "options": [
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "6cm",
+     "added": false
+    },
+    {
+     "text": "4cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The sum of the cubes of two given numbers is 10234, while the sum of the two given numbers is 34, What is the positive difference between the cubes of the two given numbers?",
+   "options": [
+    {
+     "text": "3484",
+     "added": false
+    },
+    {
+     "text": "3488",
+     "added": false
+    },
+    {
+     "text": "3356",
+     "added": false
+    },
+    {
+     "text": "8602",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "7 r If Cosec 8 — cot 8 = 3 then the value of Cosec 6 will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The population of a city was 12,50,000 in the year 2010. It increased at the rate of 2% per annum during the years 2011 and 2012. In the year 2013, it decreased by 1%. Find the population of the city at the end of 2013.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The average weight of a class of 30 students is 45 kg. One of the students whose weight is 48.5 kg is replaced by another student and the average weight was increased by 200 g. Find the weight of the new student.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "If AABC = APQR, then the value of ZA is: B Z| Q 90° Cc AP LIR",
+   "options": [
+    {
+     "text": "55°",
+     "added": false
+    },
+    {
+     "text": "90°",
+     "added": false
+    },
+    {
+     "text": "35°",
+     "added": false
+    },
+    {
+     "text": "45°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "the perimeter of a minor sector of a circle of radius 5 cm is 15.5 cm. Find the area of the minor sector (use 1 = =).",
+   "options": [
+    {
+     "text": "17.53 em?",
+     "added": false
+    },
+    {
+     "text": "13.75 cm?",
+     "added": false
+    },
+    {
+     "text": "13.57 em?",
+     "added": false
+    },
+    {
+     "text": "17.35 cn?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Find the least value for * in the number 3*7440 such that it is divisible by 12.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  }
+ ]
+}

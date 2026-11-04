@@ -1,0 +1,448 @@
+{
+ "paper": "CHSL-Tier1-04-Jul-2019-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A number is increased by 30%, then decreased by 25%, and then further increased by 25%. What is the net increase/decrease percent in the number (correct to the nearest integer)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Ifa 10-digit number 1220x558y2 is divisible by 88, then the value of (x + y) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "10 years ago, the average age of a family of five members was 38 years. Now, two new members join, whose age difference is 8 years. If the present average age of the family is the same as it was 10 years ago, what is the age (in years) of the new younger member?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "If(x—7)? + (x—8)? + (x+ 6)? = 3 (x— 7) (x— 8) (x+6), then what is the value of x?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "2 ee If cos6 = i , then sin@ is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "What is the area of a rhombus (in cm?) whose side is 10 cm and the smaller diagonal is 12 cm?",
+   "options": [
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "192",
+     "added": false
+    },
+    {
+     "text": "96",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Be The given Bar Graph presents the results in terms of number of students in a school for the five academic years, 2013- 2014 to 2017-2018. abl bh? In which year the percentage increase in the total number of students is the highest in comparison to the previous academic year?",
+   "options": [
+    {
+     "text": "2017-2018",
+     "added": false
+    },
+    {
+     "text": "2015-2016",
+     "added": false
+    },
+    {
+     "text": "2016-2017",
+     "added": false
+    },
+    {
+     "text": "2014-2015",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "8 3 é 7 3 98 The simplified value of 5 of 8 — 6 + [(27 —3) + 6 — 4] is:",
+   "options": [
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "124",
+     "added": false
+    },
+    {
+     "text": "116",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Qo a £ x Ifx— == 10 . then x® - = is equal to: x x",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A, Band C can complete a piece of work in 10, 20 and 60 days respectively. Working together, they can complete the same work in how many days?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "| Q.11 A train covers 360 km at a uniform speed. If the speed had been 10 knv/h more, it would have taken 3 hours less for the same journey. What is the speed of the train (in km/h)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "12 i a If a2 + b? = 88 and ab =6, (a > 0, b > 0) then what is the value of (a? rs b+)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Intriangle ABC, D and E are two points on the sides AB and AC respectively so that DE Il BC and AD/BD = 3/4. The ratio of the area of trapezium DECB to the area of AABC is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "260000 invested at a certain rate for a certain even number of years, compounded annually, grows to 263,654. To how much amount would it grow if it is invested at the same rate for half the period?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "perv ABc ~ AQPRand EO =. If AB =9 cm, BC = 6 cmand AC = 12 cm then QR is equal to:",
+   "options": [
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "9cm",
+     "added": false
+    },
+    {
+     "text": "16cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "There was 29% off on bags. A lady bought a bag and got 12% discount for paying in cash. She paid 2312.40. What is the price tag (in 2) on the bag?",
+   "options": [
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "625",
+     "added": false
+    },
+    {
+     "text": "450",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Acircle is inscribed in a triangle ABC. It touches sides AB, BC and AC at the points P, Q and R respectively. If BP = 6.5 cm, CQ = 4.5 cm and AR = 5.5 cm, then the perimeter (in cm) of the triangle AABC is:",
+   "options": [
+    {
+     "text": "16.5",
+     "added": false
+    },
+    {
+     "text": "66",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A man bought 2 articles for 22650 each. He sold one article at 10% profit and another at 5% profit. The total profit percentage he earned is:",
+   "options": [
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "8.5%",
+     "added": false
+    },
+    {
+     "text": "2. 7.5%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Ina AABC, the bisectors of 2B and 2 C meet at point O within the triangle. If 2A is given, then which among the given options is true?",
+   "options": [
+    {
+     "text": "ZBOC = 90° + (24/2)",
+     "added": false
+    },
+    {
+     "text": "ZBOC = 180° - (ZA/2)",
+     "added": false
+    },
+    {
+     "text": "ZBOC = 90° - (ZA/2)",
+     "added": false
+    },
+    {
+     "text": "ZBOC = 180° - (ZA)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "920 TF tan x = cot (65°+9x), then what is the value of x?",
+   "options": [
+    {
+     "text": "2.5°",
+     "added": false
+    },
+    {
+     "text": "1.0°",
+     "added": false
+    },
+    {
+     "text": "2.0°",
+     "added": false
+    },
+    {
+     "text": "15°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The given Bar Graph presents the results in terms of number of students in a school for the five academic years, 2013- 2014 to 2017-2018. Resultin @ schoo! 7 LL i} | ‘What is the average of failed students in five academic years?",
+   "options": [
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "90",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The given Bar Graph presents the results in terms of number of students in a school for the five academic years. 2013- 2014 to 2017-2018. Resultin a schoo! Tat The difference between the number of students passed and those who failed is the highest in which academic year?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "|.23 = ie 023 Ifx* +x~* = 2207, (x > 0) then the value ofx + x7? is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The given Bar Graph presents the results in terms of number of students in a school for the five academic years, 2013- 2014 to 2017-2018. Resultin a schoo! ‘What is the approximate percentage of students passed during five academic years (correct to the nearest integer)?",
+   "options": [
+    {
+     "text": "72%",
+     "added": false
+    },
+    {
+     "text": "78%",
+     "added": false
+    },
+    {
+     "text": "79%",
+     "added": false
+    },
+    {
+     "text": "73%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Two circles of radii 5 cm and 8 cm intersect at the points A and B. If AB = Sem and the distance between the centres of two circles is x cm, then the value of X (to the closest integer) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  }
+ ]
+}

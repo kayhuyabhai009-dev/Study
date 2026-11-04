@@ -1,0 +1,559 @@
+{
+ "paper": "SSC-GD-10-Jan-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The value of an article depreciated from Rs. 18,000 to Rs. 14,580 in 2 years. Find the yearly rate of depreciation in the value of the article.",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "9%",
+     "added": false
+    },
+    {
+     "text": "8%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "growth-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Ramu and Mohan can separately complete a work in 10 hours and 16 hours, respectively. After working for 2 hours together, Mohan leaves the work. In how many hours will Ramu finish the remaining work?",
+   "options": [
+    {
+     "text": "6 14",
+     "added": false
+    },
+    {
+     "text": "6 34",
+     "added": false
+    },
+    {
+     "text": "5 34",
+     "added": false
+    },
+    {
+     "text": "7 34",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A car covers a certain distance in 3 h with a speed of 108 km/h. If the speed is reduced by 27 km/h, then the time taken by the car to cover the same distance will be:",
+   "options": [
+    {
+     "text": "2 12 h",
+     "added": false
+    },
+    {
+     "text": "2 h",
+     "added": false
+    },
+    {
+     "text": "3 12 h",
+     "added": false
+    },
+    {
+     "text": "4 h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Rahul travels a certain distance at a speed of 4 km/h and returns at a speed of 3 km/h via same route. What was his average speed for the entire journey (correct to 2 decimal places)?",
+   "options": [
+    {
+     "text": "3.43 km/h",
+     "added": false
+    },
+    {
+     "text": "5.92 km/h",
+     "added": false
+    },
+    {
+     "text": "1.23 km/h",
+     "added": false
+    },
+    {
+     "text": "2.5 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Rohan divides his complete journey in three equal parts and covers the first part at a speed of 30 km/h, the second part at 40 km/h and the last part at 50 km/h with his car. What is the average speed (in km/h) of his car during his entire journey?",
+   "options": [
+    {
+     "text": "35 14 47",
+     "added": false
+    },
+    {
+     "text": "38 14 47",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A can do a piece of work in 8 days and B in 24 days. They begin together, but 4 days before the completion of the work, A leaves. Find the number of days taken by A and B to complete the entire work.",
+   "options": [
+    {
+     "text": "11 days",
+     "added": false
+    },
+    {
+     "text": "8 days",
+     "added": false
+    },
+    {
+     "text": "9 days",
+     "added": false
+    },
+    {
+     "text": "7 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A thief started his journey at a speed of 60 km/h. After 30 minutes, police started from the same place but at a speed of 80 km/h. How much time (in hours) will the police take to catch the thief?",
+   "options": [
+    {
+     "text": "3 2 hours",
+     "added": false
+    },
+    {
+     "text": "1 2 hours",
+     "added": false
+    },
+    {
+     "text": "1 3 hours",
+     "added": false
+    },
+    {
+     "text": "5 2 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "What is the difference between the compound interest on Rs. 5,750 for one year at 16% per annum compounded yearly and compounded half- yearly?",
+   "options": [
+    {
+     "text": "Rs. 49.76",
+     "added": false
+    },
+    {
+     "text": "Rs. 36.80",
+     "added": false
+    },
+    {
+     "text": "Rs. 29.50",
+     "added": false
+    },
+    {
+     "text": "Rs. 32.58",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Evaluate the following expression. [ −4 7 1 ÷ 12 ] ÷ [− 45 × {(−2) − (− 27 )}]",
+   "options": [
+    {
+     "text": "-5",
+     "added": false
+    },
+    {
+     "text": "- 15",
+     "added": false
+    },
+    {
+     "text": "1 5",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The volumes of two cones are in the ratio of 3 ∶ 2 and their radii are in the ratio 3 ∶ 4. The ratio of their heights is:",
+   "options": [
+    {
+     "text": "8 ∶ 3",
+     "added": false
+    },
+    {
+     "text": "9 ∶ 4",
+     "added": false
+    },
+    {
+     "text": "4 ∶ 9",
+     "added": false
+    },
+    {
+     "text": "2 ∶ 1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "In an election, there were two candidates A and B. The total number of voters in the constituency was 90000 and 70% of the total votes were polled. If 60% of the polled votes were cast in favour of A, how many votes were received by B?",
+   "options": [
+    {
+     "text": "28500",
+     "added": false
+    },
+    {
+     "text": "25200",
+     "added": false
+    },
+    {
+     "text": "28700",
+     "added": false
+    },
+    {
+     "text": "28600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The curved surface area of a sphere is 1386 cm2. The volume of this sphere is:",
+   "options": [
+    {
+     "text": "4815 cm3",
+     "added": false
+    },
+    {
+     "text": "4851 cm3",
+     "added": false
+    },
+    {
+     "text": "2425.5 cm3",
+     "added": false
+    },
+    {
+     "text": "1617 cm3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The ratio of milk and water in two containers of 20 litres and 36 litres are in the ratio 3 ∶ 7 and 7 ∶ 5, respectively. What will be the ratio of milk and water if the two containers are mixed together?",
+   "options": [
+    {
+     "text": "9 ∶ 13",
+     "added": false
+    },
+    {
+     "text": "27 ∶ 29",
+     "added": false
+    },
+    {
+     "text": "21 ∶ 23",
+     "added": false
+    },
+    {
+     "text": "21 ∶ 25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The square of 28 is divided by the largest number that can exactly divide both 42 and 56. What is the result?",
+   "options": [
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A table whose marked price Rs. 300 is sold at two successive discounts of 20% and 10%. If in addition, a discount of 5% is offered on cash payment, then the cash price for the table is:",
+   "options": [
+    {
+     "text": "Rs. 210.25",
+     "added": false
+    },
+    {
+     "text": "Rs. 216.50",
+     "added": false
+    },
+    {
+     "text": "Rs. 240.25",
+     "added": false
+    },
+    {
+     "text": "Rs. 205.20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The price of petrol is raised to Rs. 96.5 per litre from Rs.92 per litre. What is the percentage increase in price of petrol?",
+   "options": [
+    {
+     "text": "4.5%",
+     "added": false
+    },
+    {
+     "text": "4.7%",
+     "added": false
+    },
+    {
+     "text": "4.9%",
+     "added": false
+    },
+    {
+     "text": "5.1%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The third proportional to 24 and 36 is:",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "46",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Under a discount scheme, after allowing a discount of 20%, there is still a gain of 10%. The marked price is what percentage more than the cost price?",
+   "options": [
+    {
+     "text": "39%",
+     "added": false
+    },
+    {
+     "text": "37.5%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "35.2%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Harshi bought a new sweatshirt at the store, when they were giving a 40 percent discount. If the marked price of the sweatshirt was Rs. 2999, then how much did Harshi pay with the discount?",
+   "options": [
+    {
+     "text": "Rs. 2099.20",
+     "added": false
+    },
+    {
+     "text": "Rs. 1799.40",
+     "added": false
+    },
+    {
+     "text": "Rs. 2399.50",
+     "added": false
+    },
+    {
+     "text": "Rs. 1899.80",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A man sold two chairs for Rs. 475 each, gaining 25% on one and losing 20% on the other. Had he sold the two chairs for Rs. 575 each, what would have been his gain/loss percentage (rounded off to the nearest integer)?",
+   "options": [
+    {
+     "text": "45% gain",
+     "added": false
+    },
+    {
+     "text": "18% gain",
+     "added": false
+    },
+    {
+     "text": "41% gain",
+     "added": false
+    },
+    {
+     "text": "25% gain",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-slice": {
+   "n": 120,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 165,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

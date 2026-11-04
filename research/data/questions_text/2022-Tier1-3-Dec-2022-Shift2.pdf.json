@@ -1,0 +1,516 @@
+{
+ "paper": "2022-Tier1-3-Dec-2022-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In an equilateral triangle ABC, D is the midpoint of side BC. If the length of BC is 8 cm, then the height of the triangle is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A thief steals a bike at 12:30p.m. and drives it at 48km/h. But the theft is discovered after half an hour. The bike owner starts to chase him on another bike at 58km/h. The thief will be caught at .",
+   "options": [
+    {
+     "text": "3:40p.m.",
+     "added": false
+    },
+    {
+     "text": "3:54p.m.",
+     "added": false
+    },
+    {
+     "text": "3:10p.m.",
+     "added": false
+    },
+    {
+     "text": "3:24p.m.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "If ∆ ABC~∆ FDE such that AB = 9 cm, AC = 11 cm, DF = 16 cm and DE = 12 cm, then the length of BC is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The radii of two cylinders are in the ratio 1 : 4 and their heights are in the ratio 4 : 3. Their volumes will be in the ratio .",
+   "options": [
+    {
+     "text": "1 : 12",
+     "added": false
+    },
+    {
+     "text": "2 : 9",
+     "added": false
+    },
+    {
+     "text": "3 : 10",
+     "added": false
+    },
+    {
+     "text": "1 : 9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Qs 1 1 Ifx+== 2cos6,thenx?+—=? x =",
+   "options": [
+    {
+     "text": "2cos20",
+     "added": false
+    },
+    {
+     "text": "cos 36",
+     "added": false
+    },
+    {
+     "text": "2 cos 30",
+     "added": false
+    },
+    {
+     "text": "cos 20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A and B can do a certain work in 6 hours, and A, B and C together take 4 hours to do the same. How long will it take for C alone to accomplish the task?",
+   "options": [
+    {
+     "text": "12 hours",
+     "added": false
+    },
+    {
+     "text": "4 hours",
+     "added": false
+    },
+    {
+     "text": "2 hours",
+     "added": false
+    },
+    {
+     "text": "6 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The pie chart given below shows the expenditure incurred by a person on 7 articles. The total expenditure of all these 7 articles are 3600. Expenditure incurred on a particular article is shown in terms of degree with respect to the total expenditure incurred in all these 7 articles. What is the average expenditure incurred on article P and Q?",
+   "options": [
+    {
+     "text": "875",
+     "added": false
+    },
+    {
+     "text": "905",
+     "added": false
+    },
+    {
+     "text": "885",
+     "added": false
+    },
+    {
+     "text": "950",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs 4 4a: . ‘. é sin*® + cos*@ in terms of sin@ can be written as:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Three circles of radius 6 cm are kept touching each other. The string is tightly tied around these three circles. What is the length of the string?",
+   "options": [
+    {
+     "text": "36 + 12p cm",
+     "added": false
+    },
+    {
+     "text": "36 + 18p cm",
+     "added": false
+    },
+    {
+     "text": "24 + 36p cm",
+     "added": false
+    },
+    {
+     "text": "36 + 20p cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "1 Ifx =3+2v2, x >0, then the value of yx — ais:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "study the given graph and table and answer the following question, Data of different states regarding population of states in the year 1998 ‘Uttar Pradesh ‘amil Nadu, Bihar = Arunachal Pradesh {Delhi | Total population of the given states = 32760000 States | Sex] Literacy AmunachalPradesh | 5 | 3 | 2 | [Debi [Goa [Bihr Tamil Nadu [3 fay oo» | 4 | If in the year 1998, there was an increase of 20% in the population of Goa and 10% in the population of Arunachal Pradesh compared to the previous year, then what was the ratio of populations of Goa and Arunachal Pradesh in 1997?",
+   "options": [
+    {
+     "text": "medi",
+     "added": false
+    },
+    {
+     "text": "11:25",
+     "added": false
+    },
+    {
+     "text": "4:5",
+     "added": false
+    },
+    {
+     "text": "25:11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Suman paid ₹9,600 in interest on a loan she obtained 5 years ago with a simple interest rate of 16%. What was the amount of the loan she had taken?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "tan(θ -14π) is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "at4 . ; was What will be the remainder when 7*? is divided by 48?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The following pie chart is represents the units of electricity sold to various categories in a month by an Electricity Supplier. Electricity sold to various categories of a town = Domestic Supply @ Street Light mw Indutries m Others The central angle of the sector corresponding to supply for Industries is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Number p is 15% more than 150. If k is 15% less than p, then k is equal to:",
+   "options": [
+    {
+     "text": "136.324",
+     "added": false
+    },
+    {
+     "text": "166.625",
+     "added": false
+    },
+    {
+     "text": "116.328",
+     "added": false
+    },
+    {
+     "text": "146.625",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "What is the HCF of 36 and 198?",
+   "options": [
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The cost of a piece of diamond varies with the square of its weight. A diamond of Rs.6,084 value is cut into 3 pieces whose weights are in the ratio 3 : 2 : 1. Find the loss involved in the cutting.",
+   "options": [
+    {
+     "text": "Rs.3,768",
+     "added": false
+    },
+    {
+     "text": "Rs.3,718",
+     "added": false
+    },
+    {
+     "text": "Rs.3,168",
+     "added": false
+    },
+    {
+     "text": "Rs.3,518",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The marked price of an article is ₹10,927. Due festive season, a certain percentage of discount is declared. Raju buys an article at reduced price and sells it at ₹109,27, and makes a profit of 11.5%. What was the percentage discount offered?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "If , then what is the value of ? (x < 0)",
+   "options": [
+    {
+     "text": "–2",
+     "added": false
+    },
+    {
+     "text": "–1",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": ".21 1. . °*1 Find the mean proportion between (6 + V8) and (3 — v2).",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "2.2 . Ifx—y =1 and x? + y” = 41 where x,y = 0, then the value of x + y will be:",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "aXyZ ~AGST and XY : GS = 2:3, XV is the median to the side YZ, and GD is the median to the side ST. The value of ey is g",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Vikas covered a certain distance by bike. If he covers 40% of the distance at 40 km/h, 50% of the distance at 25 km/h and the remaining 10% distance at 10 km/h. Find his average speed over the whole distance.",
+   "options": [
+    {
+     "text": "25 km/h",
+     "added": false
+    },
+    {
+     "text": "28 km/h",
+     "added": false
+    },
+    {
+     "text": "26 km/h",
+     "added": false
+    },
+    {
+     "text": "30 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The table given below shows the production of refrigerator by 6 companies. What is the ratio of production of refrigerator by company G to the production of refrigerator by company I?",
+   "options": [
+    {
+     "text": "12 : 13",
+     "added": false
+    },
+    {
+     "text": "11 : 13",
+     "added": false
+    },
+    {
+     "text": "13 : 11",
+     "added": false
+    },
+    {
+     "text": "13 : 12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  }
+ ]
+}

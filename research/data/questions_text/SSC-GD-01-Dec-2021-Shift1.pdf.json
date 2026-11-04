@@ -1,0 +1,694 @@
+{
+ "paper": "SSC-GD-01-Dec-2021-Shift1.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The price of a sweater was slashed from ₹1422 to ₹1264 by a shopkeeper in the winter season. Find the rate of discount given by him ( Correct to two decimal places).",
+   "options": [
+    {
+     "text": "11.11%",
+     "added": false
+    },
+    {
+     "text": "12.11%",
+     "added": false
+    },
+    {
+     "text": "9.11%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The average of nine numbers is 20.6. The average of three of them is 26.1, while the average of another three of theses numbers is 15.2. What is the average of the remaining three numbers?",
+   "options": [
+    {
+     "text": "21.5",
+     "added": false
+    },
+    {
+     "text": "20.5",
+     "added": false
+    },
+    {
+     "text": "35.75",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Hari bought two articles A and B for a total of ₹1,250. He sold A at a loss of 20% and B at a profit of 15%. If the selling price of B was ₹75 less than two times that of A, then the cost price (in ₹) of A was:",
+   "options": [
+    {
+     "text": "650",
+     "added": false
+    },
+    {
+     "text": "550",
+     "added": false
+    },
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "525",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "There is a discount of 12.5% on 6 shirts marked at ₹8,400. How many shirts can be bought with ₹4,900?",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The average marks of 100 students in a class were 80. The average marks of the top 15 students and the bottom 15 students in the merit list were 84 and 74, respectively. Find the average marks of the remaining students (correct to two decimal places).",
+   "options": [
+    {
+     "text": "79.43",
+     "added": false
+    },
+    {
+     "text": "82.42",
+     "added": false
+    },
+    {
+     "text": "70.42",
+     "added": false
+    },
+    {
+     "text": "80.43",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "How much maximum water can be poured into an empty cylindrical tank having the depth of 7 m and radius of 20 m? (Take π = 22 7 )",
+   "options": [
+    {
+     "text": "8800 m3",
+     "added": false
+    },
+    {
+     "text": "4800 m3",
+     "added": false
+    },
+    {
+     "text": "8000 m3",
+     "added": false
+    },
+    {
+     "text": "4000 m3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The ratio of X's and Y's incomes in the last year was 4 : 5. The ratio of their own incomes of the last year to those of this year is 3 : 4 and 2 : 3, respectively. If the sum of their present incomes is ₹15,400, what is the present income of X?",
+   "options": [
+    {
+     "text": "₹6,400",
+     "added": false
+    },
+    {
+     "text": "₹7,900",
+     "added": false
+    },
+    {
+     "text": "₹9,000",
+     "added": false
+    },
+    {
+     "text": "₹7,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "If the HCF of 273, 312 and 351 is x, then x lies between:",
+   "options": [
+    {
+     "text": "35 and 40",
+     "added": false
+    },
+    {
+     "text": "25 and 30",
+     "added": false
+    },
+    {
+     "text": "30 and 35",
+     "added": false
+    },
+    {
+     "text": "40 and 45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "If 0.25 : x : : 5 : 6, then x is equal to:",
+   "options": [
+    {
+     "text": "0.9",
+     "added": false
+    },
+    {
+     "text": "0.3",
+     "added": false
+    },
+    {
+     "text": "1.3",
+     "added": false
+    },
+    {
+     "text": "0.6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The value of 60 ÷ 16 × 2 - [76 ÷ 5 of 19 - 15 ÷ 8 × (21 - 25) - 3] ÷ 53 is: 4",
+   "options": [
+    {
+     "text": "6 15 7",
+     "added": false
+    },
+    {
+     "text": "3 10",
+     "added": false
+    },
+    {
+     "text": "7 25",
+     "added": false
+    },
+    {
+     "text": "4 25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Three numbers are such that the first number is 30 % more than the third number and the second number is 40% less than the third number. What is the ratio of the first number to the sum of the first number and the second number? 13",
+   "options": [
+    {
+     "text": "19 9",
+     "added": false
+    },
+    {
+     "text": "13 6",
+     "added": false
+    },
+    {
+     "text": "13 6",
+     "added": false
+    },
+    {
+     "text": "19",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A man borrows ₹13,000 to be paid back with the compound interest at a rate of 8% per annum compounded annually by the end of 2 years in two equal yearly instalments. How much will each instalment be?",
+   "options": [
+    {
+     "text": "₹7,500",
+     "added": false
+    },
+    {
+     "text": "₹7,725",
+     "added": false
+    },
+    {
+     "text": "₹7,290",
+     "added": false
+    },
+    {
+     "text": "₹7,250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Three numbers are in the ratio 4 : 3 : 7 and their HCF is 6. What is the sum of the three numbers?",
+   "options": [
+    {
+     "text": "84",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "98",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "application-problems",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A man covered a distance of 245 km in 7 hours on a scooter. How much distance (in km) can be covered on a electric cycle in 4 hours, if he rides the electric cycle at 3/7 of the speed of the scooter?",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Express the given fraction percentage as a ratio in the lowest term. 75 17 %",
+   "options": [
+    {
+     "text": "3 : 67",
+     "added": false
+    },
+    {
+     "text": "3 : 68",
+     "added": false
+    },
+    {
+     "text": "68 : 3",
+     "added": false
+    },
+    {
+     "text": "3 : 57",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Two pipes A and B can empty a full tank in 10 minutes and 15 minutes, respectively, whereas pipe C along can fill the same (empty) tank in 12 minutes. When the tank is full, A and B are opened for 4 minutes and then only pipe A is closed, and C is opened instantly (with B). How much time (in minutes) will it take now to fill the tank completely ?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The price of an article increases by 20% every year. If the difference between its price at the end of the third and that of the fourth year is ₹86.40, then its price (in ₹) at the end of the second year is:",
+   "options": [
+    {
+     "text": "360",
+     "added": false
+    },
+    {
+     "text": "420",
+     "added": false
+    },
+    {
+     "text": "350",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A train can travel 50% faster than a car. Both start from point A at the same time and reach point B, 81 kms away from A, at the same time. On the way, however, the train lost about 12 minutes while stopping at the stations. The speed of the car is (rounded off to the nearest integer):",
+   "options": [
+    {
+     "text": "85 km/h",
+     "added": false
+    },
+    {
+     "text": "95 km/h",
+     "added": false
+    },
+    {
+     "text": "105 km/h",
+     "added": false
+    },
+    {
+     "text": "135 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A shopkeeper bought two pairs of shoes at the same price and sold one pair at a profit of 15% and the other pair at a loss of 5%. if the difference between their selling prices is ₹140, then how much profit did he earn in the whole transaction?",
+   "options": [
+    {
+     "text": "₹210",
+     "added": false
+    },
+    {
+     "text": "₹35",
+     "added": false
+    },
+    {
+     "text": "₹70",
+     "added": false
+    },
+    {
+     "text": "₹7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "By selling an article for ₹210.80, a man loses 15%. To gain 9.5%, he should sell it for:",
+   "options": [
+    {
+     "text": "₹280.45",
+     "added": false
+    },
+    {
+     "text": "₹265.40",
+     "added": false
+    },
+    {
+     "text": "₹291.50",
+     "added": false
+    },
+    {
+     "text": "₹271.56",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The simple interest on a certain sum of money for three and a half years at 10% per annum is ₹55 less than the simple interest on the same sum for four and a half years at 9% per annum. What is the sum?",
+   "options": [
+    {
+     "text": "₹407.40",
+     "added": false
+    },
+    {
+     "text": "₹975",
+     "added": false
+    },
+    {
+     "text": "₹1,000",
+     "added": false
+    },
+    {
+     "text": "₹500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-difference-problems",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Initially, Rekha works at such a rate that she can complete a piece of work in 24 h, but she works at that rate only for 8 h. After that, she works in such a way that she can complete the remaining work in 9 h. Rekha has to complete this work in one working period, then how many h will she take to complete that work?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Mrs. Gupta invested a sum of ₹50,000 in fixed deposit for 1 year at the rate of 8% per annum compound interest compounded semi-annually. What amount will she get on maturity of the fixed deposit?",
+   "options": [
+    {
+     "text": "₹58,000",
+     "added": false
+    },
+    {
+     "text": "₹54,000",
+     "added": false
+    },
+    {
+     "text": "₹54,080",
+     "added": false
+    },
+    {
+     "text": "₹50,416",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Find the number of lead balls, each 2 cm in diameter, which can be made from a sphere of 18 cm of diameter.",
+   "options": [
+    {
+     "text": "729",
+     "added": false
+    },
+    {
+     "text": "827",
+     "added": false
+    },
+    {
+     "text": "843",
+     "added": false
+    },
+    {
+     "text": "972 1−1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The value of 45 ÷ 3 14 of 8 - 7 8 × 4 27 + 3 is equal to: 13 1 1 5 7+8 5",
+   "options": [
+    {
+     "text": "7 2",
+     "added": false
+    },
+    {
+     "text": "7 3",
+     "added": false
+    },
+    {
+     "text": "7 6",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-slice": {
+   "n": 50,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 105,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

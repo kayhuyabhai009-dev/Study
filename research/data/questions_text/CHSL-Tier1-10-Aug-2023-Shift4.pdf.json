@@ -1,0 +1,380 @@
+{
+ "paper": "CHSL-Tier1-10-Aug-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Two candidates A and B contested in an election. 80% of the voters cast their votes, out of which 2% of the votes were invalid. A got 9,408 votes which was 60% of the valid votes. Find the total number of votes.",
+   "options": [
+    {
+     "text": "12,000",
+     "added": false
+    },
+    {
+     "text": "22,000",
+     "added": false
+    },
+    {
+     "text": "20,000",
+     "added": false
+    },
+    {
+     "text": "21,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "4 : 16 If(Sa +-- 2) = 13 anda = 0, what is the value of (25a? + *) ? a a",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "What is the value of x in the number 3426x if the number is divisible by 6 but NOT divisible by 5?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Rice worth 3504 per kg and %540 per kg are mixed with the third variety in the ratio 1: 1: 2. if the mixture is worth 612 per kg, find the price (per kg in %) of the third variety.",
+   "options": [
+    {
+     "text": "630",
+     "added": false
+    },
+    {
+     "text": "702",
+     "added": false
+    },
+    {
+     "text": "764",
+     "added": false
+    },
+    {
+     "text": "522",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "simplify the given expression. (x3 -y7 (x+y) x? +xy+y?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "if two circles of different radii touch externally, then what is the maximum number of common tangents that can be drawn to the two circles?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Find the value of the following expression. 2(tan2A cos2A + cos2A)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Ifa, B, Care the acute angles, such that tan(4 + B —C) = +, cos(B + — A) = =, andsin(C + A-B) = . The value of A> B —C will be equal to: : ¥",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Study the table given below and answer the question. The table shows the number of Athletes who participated in sports event from 4 different countries over the years. ‘yews |S [Rema [ Sale [ Fee [Nae [Female [Sale [ Femie [2016 [460 [ago [740 aso aso [280 [320 [ion [017 [30 fa30——~fss0 [90 —‘fe4o—*tno—«d 2200 —id [zis [200 fio soo [t30 350 too 000 [209 [3602055025000 [600 tooo [300 ‘What is the ratio of the average number of female athletes who participated from England over all the years together to the average number of female athletes who participated from France over all the years together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "-10 a Q10 Tf 3+5b =13 and ab = 9, find the value of a? + 25b?.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Ina triangle ABC; 8 2A = 6 2B = 3ZC. Whatare the degree measures of 2 A,2B and ZC?",
+   "options": [
+    {
+     "text": "48°, 96°, 36",
+     "added": false
+    },
+    {
+     "text": "36°, 96°, 48°",
+     "added": false
+    },
+    {
+     "text": "36°, 48°, 96°",
+     "added": false
+    },
+    {
+     "text": "96°, 48°, 36°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "When P is subtracted from each of the numbers 8, 6, 2 and 9, the numbers so obtained in this order are in proportion. ‘What is the mean proportional between (3P — 6) and (9P — 4)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "ina 140m race, Pankaj runs at a speed ofS avs. He gives a start of 20 m to Amun and still defeats him by 4 seconds. The speed of Arun is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The bar graph below gives the mins scored by Team A in the fust six overs of a cricket match. The runs scored by Team A in the 7th over was 5 more than the runs scored by them in the 8th over, but 6 Jess than the runs scored by them in the 9th over. If the average muns scored per over by Team A in the first nine overs of the match was 9, how many runs did the team score in the Sth over?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Abookseller gives 7 books free on buying 13 books. Find the percentage of discount given to the customer's.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In what time will 33,20,000 amount to %4,05,000 if compounded at 12.5% per annum?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Acan finish a work in 24 days and B in 30 days, individually. They work together for 11 days. The percentage of the work still to be finished will be:",
+   "options": [
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "16%",
+     "added": false
+    },
+    {
+     "text": "- 17.5%",
+     "added": false
+    },
+    {
+     "text": "12.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Two similar triangles are given i.e. ALMN — APQR, with measurement of angle and side as angle L = 40°. angle N= 80°. LM=6 cm. LN=8 em and PQ = 7.5 cm Find the value of angle Q and side PR, respectively.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Two circles of radius 2.4 cm and 4 em, respectively, have a common tangent. The distance between the centres of the two circles is 6.5 cm. If the common tangent does not intersect the line joining the centres, then find the length ofa common tangent to the circles.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "distance-and-section",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "920 Find the value of the following expression. (1 + sec) ——(1- cos9) secO",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "9.21 Study the given table and answer the question that follows. The table shows the total score scored by 8 batsmen in the year 2022. Bassman | A | B|c|DI|E|F | GI|H | Total 1356 | 1301 | 1278 | 1156 | 1380] 1281 | 1129 | 1365 Score Who is the second-highest scorer in the year 2022?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "An amount of 2P was put at simple interest at a certain rate for 4 years. If it had been put at a 6% higher rate for the same period, it would have fetched 2600 more interest. What is the value of 2.5 P?",
+   "options": [
+    {
+     "text": "23,750",
+     "added": false
+    },
+    {
+     "text": "26,250",
+     "added": false
+    },
+    {
+     "text": "24,850",
+     "added": false
+    },
+    {
+     "text": "22,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Ashopkeeper marks his goods at 90% more than their cost price and allows a discount of 40% on the marked price. His gain percentage is:",
+   "options": [
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "16%",
+     "added": false
+    },
+    {
+     "text": "14%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Aselisa television to B for 24,860, thereby losing 19%. B sells it to C at a price which would have given Aa 17% profit. Find the gain of B.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Ahemispherical dome of a building needs to be painted. If the circumference of the base of the dome is 154 cm, then find the cost of painting it if the cost of painting is 24 per 100 cur (use 1 = =) 4",
+   "options": [
+    {
+     "text": "2150.92",
+     "added": false
+    },
+    {
+     "text": "2150.66",
+     "added": false
+    },
+    {
+     "text": "2105.29",
+     "added": false
+    },
+    {
+     "text": "105.66",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  }
+ ]
+}

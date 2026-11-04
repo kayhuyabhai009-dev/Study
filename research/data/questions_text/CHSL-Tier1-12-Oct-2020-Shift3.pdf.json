@@ -1,0 +1,533 @@
+{
+ "paper": "CHSL-Tier1-12-Oct-2020-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "What is the radius of the circle whose area is equal to the sum of the areas of two circles whose radii are 15 cm and 8 cm?",
+   "options": [
+    {
+     "text": "14cm",
+     "added": false
+    },
+    {
+     "text": "15cm",
+     "added": false
+    },
+    {
+     "text": "13cm",
+     "added": false
+    },
+    {
+     "text": "17m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "2 . . 9? What is the value of sin?45° + cos?45° ?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "-1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "19/33 Q3 Tf 22% of x = 30% of y, then y : x is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "percentage-basics",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "a4 : The value of [0.9 — {2.3 - 3.2-(7.1-5.4-3.5)}] is:",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "2.6",
+     "added": false
+    },
+    {
+     "text": "0.18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "5 If2x + y = 6and xy = 4, then find the value of 8x? + y’? is:",
+   "options": [
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "What is the distance between two parallel tangents of a circle of radius 8 cm?",
+   "options": [
+    {
+     "text": "$cm",
+     "added": false
+    },
+    {
+     "text": "4cm",
+     "added": false
+    },
+    {
+     "text": "16cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": ".. 20/33 Q.7 The lengths of the two sides forming the right angle of a right-angled triangle are 21 cm and 20 cm. What is the radius of the circle circumscribing the triangle?",
+   "options": [
+    {
+     "text": "4.5cm",
+     "added": false
+    },
+    {
+     "text": "14cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "15.5cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Shyam can complete a task in 12 days by working 10 hours a day. How many hours a day should he work to complete the task in 8 days?",
+   "options": [
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Qa 20,000 18000 18,000 16,000 15000 a } 34,000 2.000 12,000 | & 10.00 sae 8900 — = 5550 550 4,000 2,000 ° A 8 c o BSalery WExpendture aTax S@Savings The above graph represents the salary, expenditure, tax and savings (in rupees) per month of the persons A, B, C and D per month. Study the graph and answer the question. The expenditure as a percentage of salary is the least for:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "se. 21/33 Q.10 20 sin@-cos@ . If tan @ = — , then the value of ———~ is: 21 sin @+cos @",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A train of length 350 m crosses a bridge of length 250 m in 20 seconds. What is the speed of the train (in km/h)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "one-train",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "When an integer n is divided by 5, the remainder is 3. What is the remainder if 8n is divided by 5?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainders",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "se 22/33 Q.13 2000 18000 1000 sso Taam } 34.009 42,000 12,000 | @ soo La eco. 9400 pps 5550 SSO 4,000 2,000 ° a 8 z ° MSolary MEpendiure @Tax eSevings The above graph represents the salary, expenditure, tax and savings (in rupees) details of the persons A, B, C and D per month. Study the graph and answer the question. Tax as the percentage of salary is least in case of:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Two concentric circles are of radii 13 cm and 5 cm. The length of the chord of the larger circle which touches the smaller circle is:",
+   "options": [
+    {
+     "text": "24cm",
+     "added": false
+    },
+    {
+     "text": "15cm",
+     "added": false
+    },
+    {
+     "text": "13cm",
+     "added": false
+    },
+    {
+     "text": "10cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If the three sides of a triangle are 11 cm, 12 cm and 13 cm, then what is the area of the given triangle (in.cm*)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "-. 23/33 Q.16 Three years ago, the average age of a husband, wife and child was 26 years, and that of the wife and the child, 5 years ago, was 20 years. The present age of the husband is:",
+   "options": [
+    {
+     "text": "42 years",
+     "added": false
+    },
+    {
+     "text": "37 years",
+     "added": false
+    },
+    {
+     "text": "39 years",
+     "added": false
+    },
+    {
+     "text": "45 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "2 1 2 1 If x* +— = 38, then what is the value of |x -+| C) x x",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "2000 18000 ‘000 sooo is | 000 12,000 | © oom a oo 9400 eR 5550 50 4,000 2,000 ‘<* a 8 g ° Bsalery SExpenditure BTax © Savings The above graph represents the salary, expenditure, tax and savings (in rupees) details of the persons A, B, C and D per month. Study the graph and answer the question. The tax as a percentage of salary is highest in case of:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "s 24/33 Q.19 ~ 12 + If sinx = ea then what is the value of tan x?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The marked price of a ceiling fan is 23,250 and the shopkeeper allows a discount of 8% on it. What is the selling price of the fan?",
+   "options": [
+    {
+     "text": "23,070",
+     "added": false
+    },
+    {
+     "text": "22,590",
+     "added": false
+    },
+    {
+     "text": "33,270",
+     "added": false
+    },
+    {
+     "text": "22,990",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "A person deposits 28,000 in a bank which pays 8% p.a. simple interest. The amount after 8 years will be:",
+   "options": [
+    {
+     "text": "212.600",
+     "added": false
+    },
+    {
+     "text": "210,784",
+     "added": false
+    },
+    {
+     "text": "213,120",
+     "added": false
+    },
+    {
+     "text": "Z12,545",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "25/33 Q.22 Kishore had a loss of 20% on selling an article for 27,160. At what price should he have sold the item to make a profit of 30%?",
+   "options": [
+    {
+     "text": "211,635",
+     "added": false
+    },
+    {
+     "text": "212,007",
+     "added": false
+    },
+    {
+     "text": "210,678",
+     "added": false
+    },
+    {
+     "text": "38,988",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The sum of three numbers is 79. If the ratio of the first number to the second number is 4 : 7 and that of the second number to the third number is 4 : 5, then the second number is:",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Ifthe sum of two numbers is 11 and the sum of their squares is 65, then the sum of their cubes will be:",
+   "options": [
+    {
+     "text": "355",
+     "added": false
+    },
+    {
+     "text": "576",
+     "added": false
+    },
+    {
+     "text": "407",
+     "added": false
+    },
+    {
+     "text": "615",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "26/33 Q.25 200 eins ‘000 ssooo Tam } 14,00 42000 12,000 © oom a ta 9400 peas 5550 p50 4,000 2,000 ° A 8 c ° ‘BSolery BEmpenditure STax w Savings The above graph represents the salary, expenditure, tax and savings (in rupees) per month of the persons A, B, C and D. Study the graph and answer the question. Savings as a percentage of salary is highest in case of:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  }
+ ]
+}

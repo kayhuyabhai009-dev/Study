@@ -1,0 +1,597 @@
+{
+ "paper": "2023-Tier1-14-Jul-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Virat can complete a work in 30 days and Daniel is 60% more efficient than Virat to complete the same work. Find the total time taken by Daniel to complete the work.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The average of 36 numbers was found to be 45. Later, it was detected that 84 was misread as 48. Find the correct average of the given numbers.",
+   "options": [
+    {
+     "text": "58",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "46",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": ". a + ” If sin 23° = =o then the value of sec 23° — sin 67° is ,",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "What is the central angle corresponding to the sector indicating the expenses incurred on Health? Amount spent on various expenses 5000 2000 8000 2 15000 *Rent #Health «Education © Entertainment »* Electricity",
+   "options": [
+    {
+     "text": "72°",
+     "added": false
+    },
+    {
+     "text": "54°",
+     "added": false
+    },
+    {
+     "text": "110°",
+     "added": false
+    },
+    {
+     "text": "108°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "In an election between three candidates, Arjun, Bhaskar and Saral contested for a post. Arjun got 50% votes more than Saral, and Saral got 2% votes less than Bhaskar. The difference between the votes of Bhaskar and Saral is 1296. What is the half of the difference between the votes of Arjun and Bhaskar?",
+   "options": [
+    {
+     "text": "3888",
+     "added": false
+    },
+    {
+     "text": "13988",
+     "added": false
+    },
+    {
+     "text": "7766",
+     "added": false
+    },
+    {
+     "text": "15228",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Solve the following expression. [7 + 30 +6 -(6 + 6) + 7]",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Inan office, a typing work can be finished by Monika in 6 hours, Anita in 8 hours and Manju in 5 hours if they work alone. How much time (in hours) will they take if they work together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Which of the following statements is INCORRECT?",
+   "options": [
+    {
+     "text": "If achord is extended outside the circle on both ends then it is called secant.",
+     "added": false
+    },
+    {
+     "text": "Tangent is perpendicular to the radius of the circle at the point of contact.",
+     "added": false
+    },
+    {
+     "text": "Aline which intersects two distinct points of a circle is called tangent.",
+     "added": false
+    },
+    {
+     "text": "Tangent is a line touching only one point of the circle.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A's efficiency is twice that of B's. A can work only for 8 hours a day while B can work for 12 hours a day. If A can finish a work in 12 days, in how many days can B finish the same work?",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Two friends P and Q simultaneously start running from same point around a circular track. They run in the same direction. P runs at 6 m/sec and Q runs at b m/sec. If they cross each other at exactly two points on the circular track and b is a natural number less than 6, then how many values can b take?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A dealer professing to sell his goods at cost price uses 950 grams weight for 1 kg. His gain percentage is: ( rounded off to two decimal places)",
+   "options": [
+    {
+     "text": "5.35%",
+     "added": false
+    },
+    {
+     "text": "5.26%",
+     "added": false
+    },
+    {
+     "text": "3.86%",
+     "added": false
+    },
+    {
+     "text": "5.96%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A trader allows a 20% trade discount and a 30% cash discount. If the list price is %1,200, then the selling price (in %) is:",
+   "options": [
+    {
+     "text": "627",
+     "added": false
+    },
+    {
+     "text": "720",
+     "added": false
+    },
+    {
+     "text": "762",
+     "added": false
+    },
+    {
+     "text": "672",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "1 Ay Ifx+ oo 7, then the value of x® + xe iS:",
+   "options": [
+    {
+     "text": "113682",
+     "added": false
+    },
+    {
+     "text": "103682",
+     "added": false
+    },
+    {
+     "text": "103882",
+     "added": false
+    },
+    {
+     "text": "103862",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The current ages of Sudhir and Ashish are in the ratio 5 : 7. Twelve years ago, the ratio of their ages was 1 : 2. What will be the age of Sudhir after five years from now?",
+   "options": [
+    {
+     "text": "20 years",
+     "added": false
+    },
+    {
+     "text": "25 years",
+     "added": false
+    },
+    {
+     "text": "33 years",
+     "added": false
+    },
+    {
+     "text": "28 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Aman invests a total sum of 10,000 in a company. A part of the sum was invested at 10% simple interest per annum and the remaining part at 15% simple interest per annum. If the total interest accrued to him in two years equals %2,400, the sum invested at 15% simple interest per annum is:",
+   "options": [
+    {
+     "text": "%8,000",
+     "added": false
+    },
+    {
+     "text": "%4,000",
+     "added": false
+    },
+    {
+     "text": "%6,000",
+     "added": false
+    },
+    {
+     "text": "%5,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "AB is the diameter of a circle with centre O. P be a point on it. If 2 AOP = 95°, then ZOBP = .",
+   "options": [
+    {
+     "text": "57.5°",
+     "added": false
+    },
+    {
+     "text": "45.5°",
+     "added": false
+    },
+    {
+     "text": "475°",
+     "added": false
+    },
+    {
+     "text": "55.5°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "; 1f 228 — 15 and “8 = 16, then the value of sin? is : sec a seca ———",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "2-78 What is the value of sin30° + cos30° + tan30°",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "25 . If sec? 6 + tan? 6 = oi then the value of sec*6@ — tan*6 is:",
+   "options": [
+    {
+     "text": "8 x 1.—",
+     "added": false
+    },
+    {
+     "text": "9 25 x 2. — 12 25",
+     "added": false
+    },
+    {
+     "text": "— 9 25",
+     "added": false
+    },
+    {
+     "text": "— 18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The volume of a cone is 73920 cm’, If the height of the cone is 160cm, then find the diameter of its base.",
+   "options": [
+    {
+     "text": "21cm",
+     "added": false
+    },
+    {
+     "text": "40cm",
+     "added": false
+    },
+    {
+     "text": "22cm",
+     "added": false
+    },
+    {
+     "text": "42cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Aand B have some toffees. If A gives one toffee to B, then they have equal number of toffees. If B gives one toffee to A, then the toffees with A are double with B. The total number of toffees with A and B are .",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Study the given table carefully and answer the following question. The table shows the percentage of students of four departments — Mechanical, Civil, Computer Science and Applied — with each student being in only one department. The table also shows the number of students of these four departments in five different colleges, with the total number of students being 2080. Number of Students | Mechanical | Civil | Computer Science | Applied | [ urpelhi | 430 | 0m 10% UTKanpur | 350 | 20% =| — [25% UTBombay[ | 20% tam | 32% UTMadras | sm | 18% 350% _ UTGuwahati| 400] 20% | 22% | 20% If the number of students in IIT Bombay is 20% less than the number of students in IIT Madras, then the number of students in IIT Bombay is:",
+   "options": [
+    {
+     "text": "300",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    },
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "9.23 Simplify the following expression. [e w 1 (S 27 ) ( 86 ¥ a f al 34 18 69 135 129° 14/, 36",
+   "options": [
+    {
+     "text": "x1. 32 5 3",
+     "added": false
+    },
+    {
+     "text": "3- +t 1",
+     "added": false
+    },
+    {
+     "text": "32 2 1",
+     "added": false
+    },
+    {
+     "text": "3= ¥ 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "An inlet pipe can fill an empty tank in 140 hours while an outlet pipe drains a completely-filled tank in 63 hours. If 8 inlet pipes and y outlet pipes are opened simultaneously, when the tank is empty, then the tank gets completely filled in 105 hours. Find the value of y.",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Jehangir had to cover a distance of 90 km in an hour. During the first 25 minutes he travelled at a speed of 15.2 metres per second. How many metres did Jehangir cover per second during the remaining period to reach his destination just on time?",
+   "options": [
+    {
+     "text": "30.8",
+     "added": false
+    },
+    {
+     "text": "32.5",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "31.2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  }
+ ]
+}

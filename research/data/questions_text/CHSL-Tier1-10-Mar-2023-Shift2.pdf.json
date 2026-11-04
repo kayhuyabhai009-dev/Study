@@ -1,0 +1,499 @@
+{
+ "paper": "CHSL-Tier1-10-Mar-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In the Lok Sabha election, Party A got 30% of the total votes. Party B got 25% of the total votes. Party C got the remaining votes and they got 9000 more votes than Party A. Find the number of votes Party B got.",
+   "options": [
+    {
+     "text": "21000",
+     "added": false
+    },
+    {
+     "text": "15000",
+     "added": false
+    },
+    {
+     "text": "18000",
+     "added": false
+    },
+    {
+     "text": "12000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "> The table given below shows the cost price and value of profit of 6 articles. rs [Gonna] P| mm | =| | = | | som | * | Bll & Which of the following statement is NOT correct? I. The profit of D, E and F is 30.63 percent of the cost price of G, H and I. IL. The ratio of total cost price to the total profit is 1 : 2.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The length of rectangular sheet of paper is 24 cm more than the breadth and perimeter of the rectangular sheet is 128 cm. Find the length of the rectangular sheet.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A wheel makes 500 revolutions in covering a distance of 44 km. Find the radius of the wheel.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Tf 2p +5q= 12 and pq = 3, find the value of 4p? + 25q?.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "If (a—b) = 5 and ab = 150, then what is the value of (a? —b*)?",
+   "options": [
+    {
+     "text": "2250",
+     "added": false
+    },
+    {
+     "text": "2375",
+     "added": false
+    },
+    {
+     "text": "1125",
+     "added": false
+    },
+    {
+     "text": "2640",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "a7 What is the value of x? + Ay? +2- 4xy + 4yz — 2xz?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "What is cosec90°/(1 —cos? 60°)",
+   "options": [
+    {
+     "text": "4/3",
+     "added": false
+    },
+    {
+     "text": "1/4",
+     "added": false
+    },
+    {
+     "text": "3/4",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "If in the sales department of a company, the average salary per employee is Rs.350, average salary of 10 senior employees is Rs.450 per employee and average salary of remaining staff is Rs.250 per employee, then what is the total number of employees working in the sales department?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Rs. 6000 is lent at the annual rate of 10 percent for 2 years. Which of the following is statement(s) is/are correct? I. Simple interest to be received on this sum is Rs. 1200 II. Compound Interest (compounding annually) to be received on this sum is Rs. 1260",
+   "options": [
+    {
+     "text": "Statement I is correct",
+     "added": false
+    },
+    {
+     "text": "Both statement I and II are correct",
+     "added": false
+    },
+    {
+     "text": "Statement II is correct",
+     "added": false
+    },
+    {
+     "text": "None of them are correct.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "What is the equivalent single discount of two successive discounts of 12% and 10%?",
+   "options": [
+    {
+     "text": "20 percent",
+     "added": false
+    },
+    {
+     "text": "18.5 percent",
+     "added": false
+    },
+    {
+     "text": "20.8 percent",
+     "added": false
+    },
+    {
+     "text": "18 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Ina triangle ABC, AB = 6 cm, BC = 11 cm. How many integral values of AC can be possible ?",
+   "options": [
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Length of chord MN is 40 cm. Distance of chord MN from the centre is 15 cm. What will be the radius of this circle?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The Bar graph shows four different toys (Bicycle, Train, Car & Bus) manufactured by ABC Pvt Ltd. company in 3 consecutive years. 52016 82017 \"2018 i) = +3000 im) x a°) im we Hoae 10 ar) 1600 £1300 g 1000 Zo 5 2 6 Bicyle Tain Gr bus Toys What is the ratio between the sum of cars and trains manufactured in 2017 and 2018 to the total number of buses manufactured in 2016, 2017 and 2018 together ?",
+   "options": [
+    {
+     "text": "33:40",
+     "added": false
+    },
+    {
+     "text": "30:41",
+     "added": false
+    },
+    {
+     "text": "40:33",
+     "added": false
+    },
+    {
+     "text": "35:41",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Ram needs to reach the examination center in 6 hours, the journey itself is 250 km. If Ram has covered (3/5)th of the distance in 3.5 hours then what is the speed required to reach the destination 30 minutes early than the required time ?",
+   "options": [
+    {
+     "text": "90 km/h",
+     "added": false
+    },
+    {
+     "text": "60 km/h",
+     "added": false
+    },
+    {
+     "text": "50 knv/h",
+     "added": false
+    },
+    {
+     "text": "40 knv/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "early-late",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The table given below shows the number of male teacher and female teachers in 5 schools. a oe Which of the following statement is correct? I. The number of male teachers in school L is 135.44 percent of the number of female teachers in school P. IL. The ratio of number of female teachers in M and N together to the number of male teachers in N and P together is 29:32.",
+   "options": [
+    {
+     "text": "Only",
+     "added": false
+    },
+    {
+     "text": "Both I and II",
+     "added": false
+    },
+    {
+     "text": "Neither I nor II",
+     "added": false
+    },
+    {
+     "text": "Only!",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The following line graph shows the annual profit percentage earned by a company during the years 2016 to 2020. ‘What is the average profit percent earned by the company during the years 2016 to 2020? 80 70 70 60 60 55 50 45 40 = 40 3 a 30 20 10 ° 2016 2017 2018 2019 2020 Year",
+   "options": [
+    {
+     "text": "54%",
+     "added": false
+    },
+    {
+     "text": "55%",
+     "added": false
+    },
+    {
+     "text": "48%",
+     "added": false
+    },
+    {
+     "text": "44%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "line-graph",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "IfA alone can complete a work in 20 days and B alone can complete the same work in 30 days, then which of the following statement(s) is/are correct? I. Ratio of efficiency of A and B is 3 : 2. IL. Working together A and B can complete the same work in 12 days. Al ns ¥'- BothI and I % 2. Neither I nor II X% 3. Only I X 4. Only II",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The area (in cm?) of biggest circle that could be drawn in a square of side 18 cm is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Tf sin x = 1/2, then find the value of (sec*x + cosec*x) - (tan*x + cot?x).",
+   "options": [
+    {
+     "text": "26/3",
+     "added": false
+    },
+    {
+     "text": "26/23",
+     "added": false
+    },
+    {
+     "text": "97/12",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "221 Find the value of 1200 + 15 = [45 + (17-2)] of 2 + [-2(1+2)].",
+   "options": [
+    {
+     "text": "484",
+     "added": false
+    },
+    {
+     "text": "474",
+     "added": false
+    },
+    {
+     "text": "486",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "A family consists of a father, mother and son. The ratio of their present ages is 8 : 5 : 2 and the present age of the father is 48 years. What will be the average age of family after 3 years ?",
+   "options": [
+    {
+     "text": "35 years",
+     "added": false
+    },
+    {
+     "text": "33 years",
+     "added": false
+    },
+    {
+     "text": "30 years",
+     "added": false
+    },
+    {
+     "text": "31 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Tf tan 9+ cot 6 = 2, then what is the value of tan 6 — cot 6?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "924 How many prime numbers are there between 20 and 50?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Janki purchased 10 dozens of com at the rate of Rs.180 per dozen. She sold each corn at the rate of Rs.22. What was her percent profit?",
+   "options": [
+    {
+     "text": "37.7 percent",
+     "added": false
+    },
+    {
+     "text": "18.8 percent",
+     "added": false
+    },
+    {
+     "text": "25.5 percent",
+     "added": false
+    },
+    {
+     "text": "46.6 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  }
+ ]
+}

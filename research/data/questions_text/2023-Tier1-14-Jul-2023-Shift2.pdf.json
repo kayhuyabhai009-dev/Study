@@ -1,0 +1,584 @@
+{
+ "paper": "2023-Tier1-14-Jul-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In a race around a circular cycling track of 75 km, two cyclists are riding at a speed of 30 km/h and 25 km/h. After what time (in hours) will they meet at the point from where they started their journey?",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "P is two times more efficient than Q. P is able to complete a piece of work in 40 days less than Q. Working together, the whole number of days taken by them to complete the work is: (Round off to the nearest integer)",
+   "options": [
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "In an election, 2% persons enrolled in the voter list did not participate and 500 votes were invalid. Two candidates A and B fought the election, and A defeated B by 200 votes. If 43% of the persons enrolled in the voter list casted their votes in favour of A, then what is the number of the total casted votes?",
+   "options": [
+    {
+     "text": "2450",
+     "added": false
+    },
+    {
+     "text": "2800",
+     "added": false
+    },
+    {
+     "text": "3000",
+     "added": false
+    },
+    {
+     "text": "3250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Evaluate the following. sin 25° sin 65° – cos 25° cos 65°.",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Qs Study the given pie chart and answer the question that follows. Population of Six Villages in 2020 eA aE eC 60 wear The population of village D in 2020 was 10,500. What was the population of village A in 2020? Total population of these six villages is 100%.",
+   "options": [
+    {
+     "text": "15,570",
+     "added": false
+    },
+    {
+     "text": "15,750",
+     "added": false
+    },
+    {
+     "text": "17,550",
+     "added": false
+    },
+    {
+     "text": "7,875",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "What is the value of 64x3 + 38xy + 20xy? + y3, when x = 3 and y =— 4?",
+   "options": [
+    {
+     "text": "1236",
+     "added": false
+    },
+    {
+     "text": "488",
+     "added": false
+    },
+    {
+     "text": "536",
+     "added": false
+    },
+    {
+     "text": "1256",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "X and Y can complete a work in 9 days and 36 days, respectively. X begins to do the work and they work alternately one at a time for one day each. The whole work will be complete in:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "A shopkeeper uses 940 gm weight in place of one kg weight. He sells it at 4% profit. What will be the actual profit percentage? (rounded off to two decimal places)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "If D is the midpoint of BC in △ABC and ∠A = 90⁰, then AD = _______.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "In what ratio must water be mixed with milk, costing₹32 per litre, in order to get a mixture costing₹28 per litre?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "5 women and 9 girls earn a total of ₹18,720 in 9 days, while 9 women and 16 girls earn a total of ₹ 52,080 in 14 days. How much will 12 women and 7 girls together earn (in ₹) in 13 days?",
+   "options": [
+    {
+     "text": "42510",
+     "added": false
+    },
+    {
+     "text": "41990",
+     "added": false
+    },
+    {
+     "text": "42380",
+     "added": false
+    },
+    {
+     "text": "42120",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "An electronic store owner allows two successive discounts of 20% and 25% on each item. The store has a reward points scheme which enables a customer to get free shopping worth ₹0.10 on every 1 reward point credited to the customer’s account on previous purchases from the store. A customer decides to buy a laptop that is marked at ₹72,000. What will be its net selling price if he has 2850 reward points to his credit?",
+   "options": [
+    {
+     "text": "₹43,200",
+     "added": false
+    },
+    {
+     "text": "₹42,915",
+     "added": false
+    },
+    {
+     "text": "₹42,215",
+     "added": false
+    },
+    {
+     "text": "₹42,942",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": ": 3 3 3° What is the value of a? + b?+ c? if (a+b+c)=0?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Evaluate the following: cos(36° + A).cos(36° − A) + cos(54° + A).cos(54° − A)",
+   "options": [
+    {
+     "text": "sin 2A",
+     "added": false
+    },
+    {
+     "text": "cos A",
+     "added": false
+    },
+    {
+     "text": "sin A",
+     "added": false
+    },
+    {
+     "text": "cos 2A",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Study the given pie-chart and answer the question that follows. The pie-chart shows the expenditure incurred in the preparation of a book by a publisher, under various heads. What is the difference between the angle of pie-chart showing the expenditure incurred on binding and printing?",
+   "options": [
+    {
+     "text": "15°",
+     "added": false
+    },
+    {
+     "text": "20°",
+     "added": false
+    },
+    {
+     "text": "18°",
+     "added": false
+    },
+    {
+     "text": "22°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "If the total surface area of a cube is 24 sq.units, then what is the volume of the cube?",
+   "options": [
+    {
+     "text": "8 cu.units",
+     "added": false
+    },
+    {
+     "text": "16 cu.units",
+     "added": false
+    },
+    {
+     "text": "10 cu.units",
+     "added": false
+    },
+    {
+     "text": "4 cu.units",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "2.17 Find the simplified value of the given expression. 4 3 4.3 1 ete, Ss, So 5 5 10 5",
+   "options": [
+    {
+     "text": "1- 5",
+     "added": false
+    },
+    {
+     "text": "5 16",
+     "added": false
+    },
+    {
+     "text": "12 25",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Let ABC, PQR be two congruent triangles such that angle A = angle P = 90°. If BC = 13cm, PR = 5cm, find AB.",
+   "options": [
+    {
+     "text": "12 cm",
+     "added": false
+    },
+    {
+     "text": "8 cm",
+     "added": false
+    },
+    {
+     "text": "10 cm",
+     "added": false
+    },
+    {
+     "text": "5 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The mean proportion between 7 and 112 is:",
+   "options": [
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "4 women or 6 boys can finish a work in the same number of days. A man can finish it in 60 days. In how many days can 5 women finish the work, working together every day?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "A 15 cm long perpendicular is drawn from the centre of a circle to its 40 cm long chord. Find the radius of the circle.",
+   "options": [
+    {
+     "text": "25 cm",
+     "added": false
+    },
+    {
+     "text": "27 cm",
+     "added": false
+    },
+    {
+     "text": "22 cm",
+     "added": false
+    },
+    {
+     "text": "20 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "22 * Bins 2 9.22 What is the value of sec? 54° — cot? 36° + = sin? 37° x sec? 53° + <q tan60°? v",
+   "options": [
+    {
+     "text": "=",
+     "added": false
+    },
+    {
+     "text": "5 G2 = 2",
+     "added": false
+    },
+    {
+     "text": "x3 — 2 7",
+     "added": false
+    },
+    {
+     "text": "— ie",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "If the simple interest at the same interest rate on ₹500 for 4 years and ₹700 for 2 years, combined together, is ₹280, then what is the rate of interest?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "A thief steals a van at 3:00 a.m. and drives it at a speed of 57 km/h. The thief is discovered at 4:00 a.m. and the owner starts the chase with another van at a speed of 76 km/h. At what time will he catch the thief?",
+   "options": [
+    {
+     "text": "7:30 a.m.",
+     "added": false
+    },
+    {
+     "text": "7:00 p.m.",
+     "added": false
+    },
+    {
+     "text": "7:00 a.m.",
+     "added": false
+    },
+    {
+     "text": "6:00 a.m.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The present age of Rahim is five times the present age of his daughter, Savita. Seven years from now, Rahim will be three times as old as Savita. What is the present age (in years) of Rahim?",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "present-age",
+   "key_answer": null
+  }
+ ]
+}

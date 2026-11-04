@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-24-Jan-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In a school, there are 200 students. If the ratio of the number of boys and the number of girls is 9 : 1, then find the mean proportion between the number of boys and that of girls in the school.",
+   "options": [
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Which number should be subtracted from 17, 30, 22 and 40 so that the obtained numbers may become proportional?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A man purchased two items at the same price and sold one at a profit of 15% and the other at a loss of 5%. If the difference between the two selling prices is ₹80, then what is the cost price of one item?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A company offers different types of discounts schemes. (i) Two successive discounts of 10% and 20% (ii) Buy 1 get 1 free (iii) Buy 5 get 3 free (iv) Buy 5 get 6 Which scheme has the minimum discount percentage?",
+   "options": [
+    {
+     "text": "(iv)",
+     "added": false
+    },
+    {
+     "text": "(iii)",
+     "added": false
+    },
+    {
+     "text": "(i)",
+     "added": false
+    },
+    {
+     "text": "(ii)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A thief noticing a policeman from a distance of 500 metres starts running at a speed of 8 km/h. The policeman chased him with a speed of 11 km/h. What is the distance run by the thief before he was caught? (Rounded off to two decimal places, if required)",
+   "options": [
+    {
+     "text": "1,333.33 metres",
+     "added": false
+    },
+    {
+     "text": "1,666.67 metres",
+     "added": false
+    },
+    {
+     "text": "4,000 metres",
+     "added": false
+    },
+    {
+     "text": "2,922 metres",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A person buys the stock of a company at Rs.12,000. If he sells that stock (a year later) he gets Rs.15,000. Determine the percentage profit earned.",
+   "options": [
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "35%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Find the sum which becomes ₹1,166.40 after 2 years at the rate of 8% per annum on compound interest, compounding annually.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The area of the base of a right circular cone is 154 cm2 and its height is 24 cm. The curved surface area of the cone is: (Use π = 22/7)",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A park had an average of 30 children playing on weekdays and an average of 60 children playing on weekends. Find the average number of children playing per day in the park for the month of June beginning with a Saturday.",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The population of a town 3 years ago was 84000. Due to migration to cities, it decreases every year at the rate of 10 percent. The present population of the town is :",
+   "options": [
+    {
+     "text": "51563",
+     "added": false
+    },
+    {
+     "text": "61236",
+     "added": false
+    },
+    {
+     "text": "41526",
+     "added": false
+    },
+    {
+     "text": "63526",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The average income of 74 persons is Rs.5,200 and that of a manager is Rs.6,000. Then the average income of the whole group is (consider up to two decimals):",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The least value of 'a' for which the number 638a435 is completely divisible by 3 is:",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "If 18 percent of A is equal to 40 percent of B, then what is the ratio of A : B?",
+   "options": [
+    {
+     "text": "10 : 9",
+     "added": false
+    },
+    {
+     "text": "20 : 9",
+     "added": false
+    },
+    {
+     "text": "9 : 11",
+     "added": false
+    },
+    {
+     "text": "11 : 9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The shopkeeper gave 50 percent discount on marked price of Rs.750. What will be the selling price ?",
+   "options": [
+    {
+     "text": "Rs. 657",
+     "added": false
+    },
+    {
+     "text": "Rs. 370",
+     "added": false
+    },
+    {
+     "text": "Rs. 375",
+     "added": false
+    },
+    {
+     "text": "Rs. 250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In an exam, a student scored 40% on the first paper out of a total of 200. How much percentage should the student score in the second paper out of 200 if he has to get 60% marks overall?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A and B can finish a work in 15 days and 10 days, respectively. A started the work alone and after 5 days, B joined A in the work. They both did the remaining work. What is the total number of days to complete the work?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If Ramesh walks at a speed of 15 km/h, instead of 12 km/h, he would have walked 2 km more in the same time. What is the actual distance (in km) travelled by Ramesh at 12 km/h in the same time?",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Work done by two men is equal to work done by three women, and work done by five women is equal to work done by seven boys. If 16 men can finish a work in 2 days, then in how many days the work will be completed by two boys?",
+   "options": [
+    {
+     "text": "33.6",
+     "added": false
+    },
+    {
+     "text": "28.3",
+     "added": false
+    },
+    {
+     "text": "23.8",
+     "added": false
+    },
+    {
+     "text": "36.3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The smallest number exactly divisible by 104, 78 and 260 is P. If P + 40 = Q2, then what is the positive value of Q?",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "39",
+     "added": false
+    },
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 309,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-23-Jan-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The HCF and LCM of two natural numbers are 7 and 84, respectively. If one of the numbers is 7, then the difference between the two numbers is:",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "84",
+     "added": false
+    },
+    {
+     "text": "77",
+     "added": false
+    },
+    {
+     "text": "91",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A manufacturer sells his product at 10% profit to the distributor and the distributor sells it to the customer at 5% profit. If the cost price to the customer is Rs.11,500, determine the profit (in Rs.) (neglect the fraction) earned by the manufacturer.",
+   "options": [
+    {
+     "text": "700",
+     "added": false
+    },
+    {
+     "text": "1205",
+     "added": false
+    },
+    {
+     "text": "845",
+     "added": false
+    },
+    {
+     "text": "995",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A person driving to a store travels 100 metres in 200 seconds. Then he went to another store driving another 200 metres in 400 seconds. What is his average speed (in m/s)?",
+   "options": [
+    {
+     "text": "0.5",
+     "added": false
+    },
+    {
+     "text": "0.2",
+     "added": false
+    },
+    {
+     "text": "0.4",
+     "added": false
+    },
+    {
+     "text": "0.3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Mohit and Shivam together can complete a piece of work in 4 days, Shivam and Mukesh together can complete it in 5 days and Mohit and Mukesh together can complete it in 6 days. In how many days can Mohit, Shivam and Mukesh together finish the work?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A, B, and C can complete a work in 9 days and B can do the same work in 18 days. If B takes 33.33% less time than C, find the time taken by C to complete the work.",
+   "options": [
+    {
+     "text": "24 days",
+     "added": false
+    },
+    {
+     "text": "25 days",
+     "added": false
+    },
+    {
+     "text": "27 days",
+     "added": false
+    },
+    {
+     "text": "22 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A manufacturer offers a 25% discount on the marked price of a product. The retailer offers another 28% discount on the reduced price. What is the single discount equivalent to the two discounts offered?",
+   "options": [
+    {
+     "text": "34%",
+     "added": false
+    },
+    {
+     "text": "46%",
+     "added": false
+    },
+    {
+     "text": "38%",
+     "added": false
+    },
+    {
+     "text": "41%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "How much interest would Sonia have to pay on a loan of Rs.25,000 at the rate of 12% p.a. compounded quarterly for the period of 1 year (rounded off to two decimal places)?",
+   "options": [
+    {
+     "text": "Rs.3,127.52",
+     "added": false
+    },
+    {
+     "text": "Rs.3,000.00",
+     "added": false
+    },
+    {
+     "text": "Rs.2,137.72",
+     "added": false
+    },
+    {
+     "text": "Rs.3,137.72",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "How many metallic spheres, each of diameter 3 cm, should be melted to mould into a solid cylinder of diameter 4 cm and height 54 cm?",
+   "options": [
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "If x[-3{-6(-a)}]+6[-3{-3(-a)}]=6a, then find x.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "If Ramu’s salary is 10% less than Bhema’s salary, by what percentage is Bhema’s salary more Ramu’s salary?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "After giving a discount of 28 percent the selling price of an article is Rs. 13392. The marked price of the article is:",
+   "options": [
+    {
+     "text": "Rs. 18600",
+     "added": false
+    },
+    {
+     "text": "Rs. 15400",
+     "added": false
+    },
+    {
+     "text": "Rs. 14800",
+     "added": false
+    },
+    {
+     "text": "Rs. 16200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Incomes of Teena and Sheena are in the ratio of 2 : 3 and their expenditures are in ratio of 3 : 5. If each saves ₹1,000, then Teena’s income is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "If 85% of (x - y) = 35% of (x + y), Then y is what percentage of x ?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Radha takes a loan of Rs.4,00,000 at 14% per annum compound interest, compounded half-yearly. What is the interest that she repays after 2 years?",
+   "options": [
+    {
+     "text": "Rs.1,24,375.40",
+     "added": false
+    },
+    {
+     "text": "Rs.1,24,318.40",
+     "added": false
+    },
+    {
+     "text": "Rs.1,24,398.40",
+     "added": false
+    },
+    {
+     "text": "Rs.1,24,324.40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Two trains of equal lengths take 13 seconds and 26 seconds, respectively, to cross a pole. If these trains are moving in the same direction, then how long will they take to cross each other?",
+   "options": [
+    {
+     "text": "40 seconds",
+     "added": false
+    },
+    {
+     "text": "50 seconds",
+     "added": false
+    },
+    {
+     "text": "39 seconds",
+     "added": false
+    },
+    {
+     "text": "52 seconds",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Manoj buys 15 pencils for Rs.12 and sells them at the rate of Rs.1.50/pencil. What is his profit percentage?",
+   "options": [
+    {
+     "text": "64.67%",
+     "added": false
+    },
+    {
+     "text": "46.67%",
+     "added": false
+    },
+    {
+     "text": "87.50%",
+     "added": false
+    },
+    {
+     "text": "85.70%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "In a circular race of 1200 m, A and B start from the same point, at the same time with speeds of 27 km/h and 45 km/h, respectively. After how much time will they meet again for the first time on the track when they running in the same direction?",
+   "options": [
+    {
+     "text": "220 sec",
+     "added": false
+    },
+    {
+     "text": "180 sec",
+     "added": false
+    },
+    {
+     "text": "200 sec",
+     "added": false
+    },
+    {
+     "text": "240 sec",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "In a chemistry laboratory, there are two varieties of some acid. Variety A costs Rs.80 per litre, while variety B costs Rs.100 per litre. In what proportion must a scientist mix both the varieties A and B, so that the mixture becomes worth Rs.92 per litre?",
+   "options": [
+    {
+     "text": "5 : 6",
+     "added": false
+    },
+    {
+     "text": "4 : 7",
+     "added": false
+    },
+    {
+     "text": "5 : 4",
+     "added": false
+    },
+    {
+     "text": "2 : 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 309,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

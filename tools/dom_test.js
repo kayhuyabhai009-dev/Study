@@ -69,10 +69,41 @@ function waitForResources() {
     ok(doc.getElementById('hero-ch-ring').innerHTML.includes('ring-core'), 'dashboard ring updated');
 
     // सेक्शन नेविगेशन — हर सेक्शन खोलते हुए render error न आए
-    const sections = ['learn','formulas','calculation','fast-tricks','daily','quiz','pyq','flashcards','notes','patterns','traps','mastery','error-log','revision','timer','pdf-research','exams','plan','profile'];
+    // (research सेक्शन अलग है — iframe lazy-load; नीचे अलग से जाँच)
+    const sections = ['learn','formulas','calculation','fast-tricks','daily','quiz','pyq','pyq-analysis','flashcards','notes','patterns','traps','mastery','error-log','revision','timer','pdf-research','exams','plan','profile'];
     for (const s of sections) { w.openSection(s); }
     ok(doc.querySelector('.section.active'), 'सेक्शन्स खुलते हैं');
     ok(doc.getElementById('achievements-list').innerHTML.includes('उपलब्धियाँ'), 'प्रोफाइल achievements render');
+
+    // नए merged हिस्से: PYQ एनालिसिस + research bridge
+    ok(w.eval('typeof PYQ_ANALYSIS !== "undefined" && PYQ_ANALYSIS.totals.questions') === 10124, 'PYQ_ANALYSIS: 10,124 प्रश्न (script scope)');
+    ok(doc.querySelectorAll('#pa-topics .pa-topic-card').length >= 20, 'PYQ एनालिसिस: टॉपिक कार्ड render');
+    w.eval("openPaTopic('बीजगणित')");
+    ok(doc.querySelectorAll('.pa-pat-chip').length > 3, 'PYQ एनालिसिस: कॉन्सेप्ट chips');
+    ok(doc.querySelectorAll('#pa-qlist .pa-q').length > 0, 'PYQ एनालिसिस: प्रश्न कार्ड');
+    w.eval("selectPaPattern('सर्वसमिका')");
+    ok(/सर्वसमिका/.test(doc.getElementById('pa-qcount').textContent), 'PYQ एनालिसिस: कॉन्सेप्ट फिल्टर');
+    ok(doc.getElementById('learn-research-bridge').innerHTML.includes('lr-topic'), 'Learn सेक्शन: research bridge render');
+    ok(doc.getElementById('challenge-research-bridge') !== null, 'Challenge सेक्शन: research bridge मौजूद');
+    ok(doc.querySelectorAll('#rs-tabbar .rs-tab').length >= 14, 'research sub-tabs render');
+    ok(doc.getElementById('rs-frame') !== null, 'research iframe मौजूद (lazy-load)');
+    ok(typeof w.openResearchPage === 'function', 'openResearchPage global (onclick-ready)');
+
+    // मास्टरी मार्ग (Learn का नया रूप) + चैलेंज exact-data
+    w.openSection('learn');
+    ok(w.eval('typeof MASTERY_DATA !== "undefined" && MASTERY_DATA.totals.concepts') === 295, 'MASTERY_DATA: 295 concepts (script scope)');
+    ok(doc.querySelectorAll('#mastery-topics .m-topic').length === 35, 'मास्टरी मार्ग: 35 topic cards');
+    w.eval("openMasteryTopic('number-system')");
+    ok(doc.querySelectorAll('#mastery-detail .m-concept').length >= 4, 'मास्टरी मार्ग: concept cards');
+    ok(doc.querySelectorAll('#mastery-detail .m-tag').length >= 10, 'मास्टरी मार्ग: concept-tag chips');
+    ok(doc.getElementById('mastery-hero').textContent.includes('295'), 'मास्टरी hero: 295 concepts');
+    const cid = w.eval('MASTERY_DATA.topics[0].sub_topics[0].concepts[0].id');
+    w.eval(`setConceptStage('${cid}', 3)`);
+    ok(w.eval(`conceptStage('${cid}')`) === 3, 'concept mastery tracker सेव');
+    w.eval('startChallenge()');
+    ok(doc.getElementById('ch-stage').textContent.includes('exact concept-count'), 'चैलेंज: exact concept-count panel');
+    ok(doc.querySelectorAll('.chm-chip').length >= 1, 'चैलेंज: topic chips (concepts + records)');
+    ok(doc.querySelectorAll('.chwm').length === 13, 'चैलेंज: 13 सप्ताह exact analysis');
 
     // कैलकुलेशन: scorecard + drills + workout
     w.openSection('calculation');

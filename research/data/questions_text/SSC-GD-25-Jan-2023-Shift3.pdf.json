@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-25-Jan-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A man, who practices running, covers the first half of the distance at 4 km/h and the remaining half of the distance at 6 km/h. What is his average speed?",
+   "options": [
+    {
+     "text": "5 km/h",
+     "added": false
+    },
+    {
+     "text": "5.2 km/h",
+     "added": false
+    },
+    {
+     "text": "4.8 km/h",
+     "added": false
+    },
+    {
+     "text": "4.5 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Three years ago, Rahul borrowed a sum of money at compound interest rate of 10% per annum compounding annually. If the present value of that borrowed money is Rs.11,979, how much money was borrowed by Rahul?",
+   "options": [
+    {
+     "text": "Rs.9,000",
+     "added": false
+    },
+    {
+     "text": "Rs.8,979",
+     "added": false
+    },
+    {
+     "text": "Rs.9,979",
+     "added": false
+    },
+    {
+     "text": "Rs.8,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "If A, B and C work individually, then they can finish a piece of work in 27, 36 and 45 days respectively. How many days are required to complete the task if they work together?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "In 65 litres of a mixture of kerosene and petrol, the ratio of kerosene to petrol is 3 : 2. In order to make this ratio 4 : 5, how many litres of petrol should be added to the given mixture?",
+   "options": [
+    {
+     "text": "29.25",
+     "added": false
+    },
+    {
+     "text": "24.5",
+     "added": false
+    },
+    {
+     "text": "23.25",
+     "added": false
+    },
+    {
+     "text": "22.75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A dealer marks an air-conditioner for ₹1,20,000 and allows a discount of 12% on it. What is its selling price (in ₹)?",
+   "options": [
+    {
+     "text": "1,10,500",
+     "added": false
+    },
+    {
+     "text": "1,16,000",
+     "added": false
+    },
+    {
+     "text": "1,06,050",
+     "added": false
+    },
+    {
+     "text": "1,05,600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A shopkeeper listed the marked price of a table as a certain amount and he gave two successive discounts of 10% and 10%. If the shopkeeper sold it at ₹1,458, then the marked price is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "An amount of ₹10,000 becomes ₹12,100 in 2 years at a certain interest rate compounded annually. Find the amount after 4 years.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "A number is increased by 8% and then, the increased number is decreased by 8%. What is the net increase or decrease in the number?",
+   "options": [
+    {
+     "text": "0.36% increase",
+     "added": false
+    },
+    {
+     "text": "0.36% decrease",
+     "added": false
+    },
+    {
+     "text": "0.64% decrease",
+     "added": false
+    },
+    {
+     "text": "0.64% increase",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "If books bought at prices ranging from Rs.200 to Rs.350 are being sold at prices ranging from Rs.300 to Rs.450, what is the highest possible profit that might be made in selling 8 books?",
+   "options": [
+    {
+     "text": "Rs.1,800",
+     "added": false
+    },
+    {
+     "text": "Rs.2,000",
+     "added": false
+    },
+    {
+     "text": "Rs.400",
+     "added": false
+    },
+    {
+     "text": "Rs.1,600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "If a number 'a' is divisible by 18 and another number 'b' is divisible by 12, then (a2 - b2 ) is divisible by :",
+   "options": [
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "If the radius and height of the cylinder are 91 m and 2.5 m, respectively, then what is the curved surface area and total surface area of the cylinder in respective manner? (Use π = 22/7)",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Find the ratio of the total surface area to curved surface area of a cylinder whose radius is 20 cm and height 50 cm.",
+   "options": [
+    {
+     "text": "5 : 7",
+     "added": false
+    },
+    {
+     "text": "7 : 5",
+     "added": false
+    },
+    {
+     "text": "3 : 5",
+     "added": false
+    },
+    {
+     "text": "5 : 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ram wants to paint all the walls and ceiling of his reading room personally. He started painting his room and after painting the area of 16 m2 , a paint tin of 4 litres is exhausted. How many paint tins are required to paint the remaining area, if the total area of his room to be painted is 176 m2 ?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If x and y are inversely proportional to each other and x = 27 when y = 7, then what is the value of x when y = 21?",
+   "options": [
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "direct-inverse-variation",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A thief moving at 40 km/h covers a distance in 5 hours 15 minutes. If the police chasing him cover the same distance at 50 km/h, then how long will the police take to cover the same distance?",
+   "options": [
+    {
+     "text": "5 hours 20 minutes",
+     "added": false
+    },
+    {
+     "text": "4 hours 12 minutes",
+     "added": false
+    },
+    {
+     "text": "3 hours 15 minutes",
+     "added": false
+    },
+    {
+     "text": "4 hours 50 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "An umbrella is bought at Rs.80 and sold at Rs.68. What is the percentage of loss?",
+   "options": [
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "14%",
+     "added": false
+    },
+    {
+     "text": "13%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The average weight of 20 people is 75 kgs. The average weight of 10 people out of them is 70 kgs. The average weight of 5 people out of the remaining people is 75 kgs. Find the average weight of 5 people remaining in the end.",
+   "options": [
+    {
+     "text": "80 kgs",
+     "added": false
+    },
+    {
+     "text": "75 kgs",
+     "added": false
+    },
+    {
+     "text": "90 kgs",
+     "added": false
+    },
+    {
+     "text": "85 kgs",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "By what percentage should a car driver increase the speed of the car to reduce the time by 40% to cover a fixed distance?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A is thrice as good a workman as B. A started the work and they worked together on alternate days and finished the work in 24 days. The number of days taken by A alone to finish the work was:",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 331,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

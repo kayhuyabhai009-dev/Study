@@ -1,0 +1,550 @@
+{
+ "paper": "CHSL-Tier1-09-Mar-2023-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qi If sec6+tan 9=5, then what is the value of sec 8—tan 6 ?",
+   "options": [
+    {
+     "text": "1/2",
+     "added": false
+    },
+    {
+     "text": "1/6",
+     "added": false
+    },
+    {
+     "text": "1/5",
+     "added": false
+    },
+    {
+     "text": "1/3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "= Ifa+b+c=0, then what is the value of a? + b? + c3 — 3abc?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "-1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Find the area of a triangle whose length of each side is 13 inches, 15 inches and 14 inches.",
+   "options": [
+    {
+     "text": "84 square inches",
+     "added": false
+    },
+    {
+     "text": "81.2 square inches",
+     "added": false
+    },
+    {
+     "text": "42.1 square inches",
+     "added": false
+    },
+    {
+     "text": "84.2 square inches",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Length ofa chord is 30 cm ina circle whose radius is 17 cm. What will be the distance of this chord from the centre?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Qs 12 . If coty = =a then what is the value of cosy?",
+   "options": [
+    {
+     "text": "44 A 1. ee 169 84",
+     "added": false
+    },
+    {
+     "text": "oo, 143 4",
+     "added": false
+    },
+    {
+     "text": "ee 143 72",
+     "added": false
+    },
+    {
+     "text": "— 91",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The pie chart given below shows the number of girls in six schools P, Q R, S, T and U. The total number of girls in all these six schools are 3000. Number of girls in a particular school is shown as a percentage of total number of girls in all these six schools. : 3 ‘What is the total number of girls in school P and R?",
+   "options": [
+    {
+     "text": "930",
+     "added": false
+    },
+    {
+     "text": "1440",
+     "added": false
+    },
+    {
+     "text": "1620",
+     "added": false
+    },
+    {
+     "text": "870",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The table given below shows the number of pens sold by two shopkeepers P and Q in 5 months. [Months|P_[Q | [B_[so_|20 | [c [40 [120 | [D__ {30 _|oo | le |io |so__| J1 = The value of average number of pens sold by P in all five months. J2 = The value of average number of pens sold by Q in all five months. What is the value of (J1/J2)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Radii of two circles are 12 cm and 5 cm. Distance between their centres is 25 cm. What is the length of the direct common tangent?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "distance-and-section",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The bar graph given below shows the saving and expenditure of 5 companies J, K, L, M and N. 2000 1600 1200 800 800 600 600 600 400 200 4 K L M N Saving Expenditure The average savings of all companies is what percent of the average expenditure of all companies?",
+   "options": [
+    {
+     "text": "120 percent",
+     "added": false
+    },
+    {
+     "text": "150 percent",
+     "added": false
+    },
+    {
+     "text": "100 percent",
+     "added": false
+    },
+    {
+     "text": "90 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The radius of a wheel is 14 cm. How much distance will be travelled by the wheel in 10 revolutions?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "z Pe 3 . 1+sec“A 1tsin“ A What is the value of =) je) 2 1+cos 1+cosec“A",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "9.12 What is the value of 44 x 12 — (25 + 13 = 10)?",
+   "options": [
+    {
+     "text": "373",
+     "added": false
+    },
+    {
+     "text": "613",
+     "added": false
+    },
+    {
+     "text": "633",
+     "added": false
+    },
+    {
+     "text": "573",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "5.2.8) das : 245K s-S ix What is the value of x7 3 345-4, ? 55) 27254 '2° 50s",
+   "options": [
+    {
+     "text": "32/127",
+     "added": false
+    },
+    {
+     "text": "28/125",
+     "added": false
+    },
+    {
+     "text": "25/123",
+     "added": false
+    },
+    {
+     "text": "31/127",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Aperson sells wheat at a profit of 25 percent. If he reduces its selling price by Rs. 40, then he suffers a loss of 25 percent. What was the initial selling price of the wheat?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "What will be the compound interest on Rs.14,000 for 2 years at the rate of 10% per annum compounded annually?",
+   "options": [
+    {
+     "text": "Rs.3,490",
+     "added": false
+    },
+    {
+     "text": "Rs.1,490",
+     "added": false
+    },
+    {
+     "text": "Rs.6,940",
+     "added": false
+    },
+    {
+     "text": "Rs.2,940",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Angle subtended by a chord xy on the centre of a circle is 180 degree. If length of this chord is 36 cm, then what will be the radius of this circle?",
+   "options": [
+    {
+     "text": "18cm",
+     "added": false
+    },
+    {
+     "text": "27cm",
+     "added": false
+    },
+    {
+     "text": "24cm",
+     "added": false
+    },
+    {
+     "text": "21cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The average age of 30 students is 15 years. It was observed that while calculating the average age, the age of a student was taken as 15 years instead of 9 years. What will be the correct average age?",
+   "options": [
+    {
+     "text": "14.8 years",
+     "added": false
+    },
+    {
+     "text": "16.4 years",
+     "added": false
+    },
+    {
+     "text": "14.2 years",
+     "added": false
+    },
+    {
+     "text": "15.6 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "2 4 a 1+x 1-x x(1—x) What is the value of —— + —— X ——? 1-x x-1 (1+x)",
+   "options": [
+    {
+     "text": "ds (1+x)? —x",
+     "added": false
+    },
+    {
+     "text": "— 1+2x? —-x",
+     "added": false
+    },
+    {
+     "text": "—— 1+x —x",
+     "added": false
+    },
+    {
+     "text": "— 1t+x?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "9.13 The following histogram shows the score by the students of grade 10. What percent of total student scored more than 60%? 30 25 25 4 i 3 20 o 3h 12 3 10 3 5 z= 2 2 2 i) 0-20 21-40 41-60 61-80 981-100 Score (in %)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Acar travels a distance of 60 km at uniform speed. If the speed of car is increased by 8 km/hr, then it takes 2 hours less to cover the same distance. What is the original speed of the car?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Tina alone can do a piece of work in 12 days and Meena alone can do the same work in 15 days. If Tina and Meena undertook to do this work for Rs.18,000, then how much amount will Meena get. if they work together?",
+   "options": [
+    {
+     "text": "Rs.10,000",
+     "added": false
+    },
+    {
+     "text": "Rs.8,000",
+     "added": false
+    },
+    {
+     "text": "Rs.6,000",
+     "added": false
+    },
+    {
+     "text": "Rs.12,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "If 20 percent of P is added to 40 percent of Q, then the resultant comes as 80 percent of Q. P is what percentage of Q?",
+   "options": [
+    {
+     "text": "200 percent",
+     "added": false
+    },
+    {
+     "text": "225 percent",
+     "added": false
+    },
+    {
+     "text": "150 percent",
+     "added": false
+    },
+    {
+     "text": "125 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "9/5 of marked price is equal to 5/8 of selling price. What is the discount percent?",
+   "options": [
+    {
+     "text": "42 percent",
+     "added": false
+    },
+    {
+     "text": "36 percent",
+     "added": false
+    },
+    {
+     "text": "50 percent",
+     "added": false
+    },
+    {
+     "text": "40 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Tf p/q=r/s = t/u = 2/5, then what is the value of (4p + 3r + 7t) : (4q+3s~+ 7u)?",
+   "options": [
+    {
+     "text": "4: 11",
+     "added": false
+    },
+    {
+     "text": "3:7",
+     "added": false
+    },
+    {
+     "text": "5:9",
+     "added": false
+    },
+    {
+     "text": "2S",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The average of 32, 34, 38, 21, 26 and x is 30. What will be the value of x?",
+   "options": [
+    {
+     "text": "29",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "31",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  }
+ ]
+}

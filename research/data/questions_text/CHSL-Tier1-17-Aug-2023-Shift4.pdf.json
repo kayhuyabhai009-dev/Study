@@ -1,0 +1,448 @@
+{
+ "paper": "CHSL-Tier1-17-Aug-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Directions; The table below shows the laptop sold on different days by different wholesalers. Study the table and answer the questions that follow. [wotsair2[ as [a5 | os] te | fwoweners [ie [| om | se [winissira [zs | go) a2) os | Laptop sold by wholesaler 1 and wholesaler 2 together on Thursday is what per cent of laptop sold by wholesalers 3 on Friday?",
+   "options": [
+    {
+     "text": "200%",
+     "added": false
+    },
+    {
+     "text": "150%",
+     "added": false
+    },
+    {
+     "text": "100%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Find the area of a right-angled triangle whose base is 12 cm and hypotenuse is 13 cm.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "3 iS 93 Find the value of tan(50+6)-Cot(40-6).",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "= 1n 2021, Sam received an annual increment in his salary by 40% but due to recession in 2022, the company started taking cost-cutting measures and his salary was reduced by 15%. What was the net change in his salary?",
+   "options": [
+    {
+     "text": "17% increase",
+     "added": false
+    },
+    {
+     "text": "19% increase",
+     "added": false
+    },
+    {
+     "text": "9% decrease",
+     "added": false
+    },
+    {
+     "text": "11% increase",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Arod ofS cm radius and 52 cm length is converted into a wire of 100 cm length of uniform thickness, The radius of the wire (in cm) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Qé 2,1 a If (y +2) = 74 and y > 1, find the value of (y — )-",
+   "options": [
+    {
+     "text": "6V2",
+     "added": false
+    },
+    {
+     "text": "—2V19",
+     "added": false
+    },
+    {
+     "text": "2V19",
+     "added": false
+    },
+    {
+     "text": "— 6v2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Ifa sum of money at simple interest becomes 45 times in 110 years, then in how many years will that sum become 23 times?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Two trains 320 mand 205 m in length are running towards each other on parallel lines. One train runs at the rate of 70 kmph and the other train runs at the rate of 56 kmph. Find the time they will take to cross each other (in seconds).",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Acan complete a task in the same time in which B and C work together. If A and B could complete it jointly in 10 days and C alone in 50 days, then B could complete it independently in:",
+   "options": [
+    {
+     "text": "26 days",
+     "added": false
+    },
+    {
+     "text": "27 days",
+     "added": false
+    },
+    {
+     "text": "25 days",
+     "added": false
+    },
+    {
+     "text": "23 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": ". 2 2 ? What is the value of (1 - sin“A) cosec“A? Given A is an acute angle.",
+   "options": [
+    {
+     "text": "cot?A",
+     "added": false
+    },
+    {
+     "text": "cos2A",
+     "added": false
+    },
+    {
+     "text": "tan2A",
+     "added": false
+    },
+    {
+     "text": "sin2A",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "If3x—2y = 3 and xy =9, then find the value of 3x + 2y.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Study the table given below and answer the question that follows. The table below shows the total number of students studying different subjects in a college and the percentage of boys and girls. a Cs ES a a [Maines [a0 | >» «i Sid [compurers | oP ‘What is the ratio of the total number of girls in all the subjects to that of boys in all the subjects?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "2.13 Simplify the following: 18 x [24 + 70 x {25 x 49 + (5x 7)}]",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A 40-litre mixture of milk and water contains milk and water in the ratio of 7 : 3. How many litres of water should be added to the mixture so that the resulting mixture has 60% of water in it?",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "AABC inscribe in a circle with center O. if AB = 9 cm, BC = 40 cm and AC = 41 cm, then whatis the circum-radius ofa triangle?",
+   "options": [
+    {
+     "text": "20- cm",
+     "added": false
+    },
+    {
+     "text": "i. x 2.12 7m 1",
+     "added": false
+    },
+    {
+     "text": "18- cm 2 1",
+     "added": false
+    },
+    {
+     "text": "16 7m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The compound interest accrued on a sum of 20,000 at the end of 2 years compounded annually is ¢2,050. Find the compound interest at the end of the 3rd year.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "O47 Tf Tan 15° = 2— V3, then the value of Tan 15° Cot 75° + Tan 75° Cot 15° is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A certain sum was to be divided between A and B in the ratio 8 : 5. However, by mistake, it was divided in the ratio 5: 8. Thus, A gets 2300 Jess than his original share. Find the sum.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Akash sold a motorcycle to Navin at a profit of 10%. Navin sold it to Vinay at a profit of 20%. Vinay sold it to Vishal at a loss of 5%. If Vishal paid %62,700 for the motorcycle, then what was the cost of the motorcycle (in %} for Akash?",
+   "options": [
+    {
+     "text": "48,000",
+     "added": false
+    },
+    {
+     "text": "48,500",
+     "added": false
+    },
+    {
+     "text": "52,500",
+     "added": false
+    },
+    {
+     "text": "50,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The perimeters of two similar triangles XYZ and POR are respectively 62 cm and 42 cm. If PQ = 21 cm. find XY",
+   "options": [
+    {
+     "text": "27cm",
+     "added": false
+    },
+    {
+     "text": "28cm",
+     "added": false
+    },
+    {
+     "text": "29cm",
+     "added": false
+    },
+    {
+     "text": "3lcm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "O21 Teyy + qy = 1 and qx + py = 4, then (x? + y2)(p? + q2) is equal to: px + qy = Land qx + py = 0 then (x? + y?)(p? + q”) is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": ". The radii of two circles are 9 cm and 4 cm, the distance between their centres is 13 cm, then the length of the direct common tangent is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "distance-and-section",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Ifan electricity bill is paid before the due date, one gets a reduction of 13% on the amount of the bill. By paying the bill before the due date, Ravi got a reduction of 260.39. The amount of his electricity bill (in %) was:",
+   "options": [
+    {
+     "text": "2,003",
+     "added": false
+    },
+    {
+     "text": "2,580",
+     "added": false
+    },
+    {
+     "text": "2,230",
+     "added": false
+    },
+    {
+     "text": "2,064",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Asalesman marks his goods 30% above the cost and gives a discount of 10% on them. Find his gain or loss percentage.",
+   "options": [
+    {
+     "text": "Loss 7%",
+     "added": false
+    },
+    {
+     "text": "Gain 7%",
+     "added": false
+    },
+    {
+     "text": "Loss 17%",
+     "added": false
+    },
+    {
+     "text": "Gain 17%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Study the given pie-chart and answer the question that follows. Percentage-wise distribution of teachers in six different subjects in a school is given in the pie-chart. The total number of teachers is 600. The ratio of male and female teachers is 3 : 1. sm Engish sm Sancker Hino} = Mathemavics Biology Social stucies Find the ratio of teachers in English, Sanskrit and Hindi to teachers in Mathematics, Biology and Social Studies.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  }
+ ]
+}

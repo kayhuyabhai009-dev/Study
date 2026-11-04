@@ -1,0 +1,534 @@
+{
+ "paper": "CHSL-Tier1-21-Oct-2020-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Ifa dining table with marked price 26,000 was sold to a customer for 25,520, then the rate of discount allowed on the marked price of the table is:",
+   "options": [
+    {
+     "text": "7%",
+     "added": false
+    },
+    {
+     "text": "5%",
+     "added": false
+    },
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "6%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "1 1 If a+—+2=0, then the value of at® —— is: a qioo",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "-2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Ashopkeeper has certain number of apples of which 10% are found to be rotten. He sells 85% of the remaining good apples and still has 405 good apples. How many apples did he originally have?",
+   "options": [
+    {
+     "text": "3500",
+     "added": false
+    },
+    {
+     "text": "3000",
+     "added": false
+    },
+    {
+     "text": "2500",
+     "added": false
+    },
+    {
+     "text": "2000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The bar graph shows the number of students (in hundreds) admitted and passed out per year ina college during the years 2010 to 2014. Study the bar-graph and answer the question. ed Admitted Zu > a Zn 5 £ = — % g. Ba $ °° = 2 2010 «2011.2 2012,- 20131 years The ratio of the number of students admitted in the year 2012 to the average number of students passed out in the years 2013 and 2014 is:",
+   "options": [
+    {
+     "text": "4:5",
+     "added": false
+    },
+    {
+     "text": "4:7",
+     "added": false
+    },
+    {
+     "text": "2:5",
+     "added": false
+    },
+    {
+     "text": "3:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "a5 _ _ BM?+CN? | Ina AABC, 2A = 90°, if BM and CN are two medians, ger 8 equal to:",
+   "options": [
+    {
+     "text": "2 5",
+     "added": false
+    },
+    {
+     "text": "3 5",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "x45 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Achord 10 cm long is drawn in a circle of diameter 26 cm. The perpendicular distance of the chord from the centre is:",
+   "options": [
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "7cm",
+     "added": false
+    },
+    {
+     "text": "5cm",
+     "added": false
+    },
+    {
+     "text": "8cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "1 52 1 If 4a +— =4, then the value of 250° + —; Is: 5a 16a",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "; 3 1 f tN | fe. The value of 752+) 15+ 30f 5+7+—-)| 78+3=] | is: = 14 \\ 3",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The profit made by selling an article for 28,800 is equal to the amount of loss incurred on selling the same article for 27,200. What will be the profit per cent, if it was sold for 29,600?",
+   "options": [
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": ".10 P| ae 910 218 _ 4 is divisible by:",
+   "options": [
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "8 pens and 3 pencils cost as much as 3 pens and 9 pencils. What is the ratio of the cost of one pen to the cost of one pencil?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The pie-chart shows the annual car production (percentage wise) of six countries A, B, C, D, E and F. Study the pie chart and answer the question. Total number of cars produced = 40,00,000 If 45% of the cars number of produced by these six countries are diesel cars and the rest are petrol cars, then how many petrol cars were produced?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "oc st m xa .e",
+   "options": [
+    {
+     "text": "w",
+     "added": false
+    },
+    {
+     "text": "w",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "1.14 . . O14 teat B = 90° and a = 28 , then the value of cos*a+ sin’ is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "ks oc st m",
+   "options": [
+    {
+     "text": "xa",
+     "added": false
+    },
+    {
+     "text": ".e",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "916 tFsec@ +tan@ =2+-¥V5 and@ is anacute angle, then the value of sin @ is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "ty AABC, AB=AC. If 2A is twice the sum of other two angles of the triangle, then the measure of. - ZA is:",
+   "options": [
+    {
+     "text": "70°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The ratio of the length and the perimeter of a rectangle is 2 : 7. What is the ratio of the length and breadth of the rectangle?",
+   "options": [
+    {
+     "text": "4:3",
+     "added": false
+    },
+    {
+     "text": "4:5",
+     "added": false
+    },
+    {
+     "text": "5:4",
+     "added": false
+    },
+    {
+     "text": "5:3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Aand B can doa work in 12 days, B and C can do it in 15 days and C and A can do it in 20 days. If A, B and C work together, then they will complete the same work in:",
+   "options": [
+    {
+     "text": "12 days",
+     "added": false
+    },
+    {
+     "text": "5 days",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    },
+    {
+     "text": "14 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "In the figure, O is the centre of a circle of radius 29 cm, OT 1 AB, OQ 1 CD and AB is parallel CD. If AB = 40 cm and CD = 42 cm, then the length of PQ is: a",
+   "options": [
+    {
+     "text": "32cm",
+     "added": false
+    },
+    {
+     "text": "20cm",
+     "added": false
+    },
+    {
+     "text": "41cm",
+     "added": false
+    },
+    {
+     "text": "21cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Aman is walking at a speed of 12 km/h. After every km, he takes rest for 3 minutes. How much time will he take to cover a distance of 6 km?",
+   "options": [
+    {
+     "text": "42 minutes",
+     "added": false
+    },
+    {
+     "text": "40 minutes",
+     "added": false
+    },
+    {
+     "text": "48 minutes",
+     "added": false
+    },
+    {
+     "text": "5 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "1 18 (512 4 26 F If x+-= 73 , then the value of x*°+x7**+x°41 is: =",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Ifthe total simple interest on a sum of 21,400 for 4 years at rate of interest x% p.a. and on the same sum for two years at the same rate, is 2672, then the value of x is:",
+   "options": [
+    {
+     "text": "9%",
+     "added": false
+    },
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "6%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The average weight of A, B and C is 55 kg. The weight of C is 10 kg more than A and 5 kg more than B. The average weight of A, B, C and D, if D's weight is 19 kg more than C, is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The elimination of 9 from x cos @ — ysin@ = 2 andxsin@ + ycos@ =4 will give: A",
+   "options": [
+    {
+     "text": "3x?—y? = 20",
+     "added": false
+    },
+    {
+     "text": "x2 +y? =20",
+     "added": false
+    },
+    {
+     "text": "3x? +y? = 20",
+     "added": false
+    },
+    {
+     "text": "x? —y? =20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  }
+ ]
+}

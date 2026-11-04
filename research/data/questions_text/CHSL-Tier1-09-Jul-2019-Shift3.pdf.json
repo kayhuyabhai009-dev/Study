@@ -1,0 +1,465 @@
+{
+ "paper": "CHSL-Tier1-09-Jul-2019-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "21 The simplified value of 1.0025+6.25x107® j.. 0.0025+0.95",
+   "options": [
+    {
+     "text": "1.0025",
+     "added": false
+    },
+    {
+     "text": "1.0525",
+     "added": false
+    },
+    {
+     "text": "1.0005",
+     "added": false
+    },
+    {
+     "text": "1.0505",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "If (3x+ 1)? + (x— 3)? + (2x— 4)? = 6(3x+ 1)(x— 3)(x— 2), then x is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "4 4a—b+2c Ifa: b:c=1: 3:5, what is the value of ——— ? 3(at+b+c)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "IfA, Band c can respectively complete a piece of work in 20, 24 and 36 days respectively, how many days will they take to complete the work, if they work together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The diagonals of a rhombus are respectively 4 cm and 12 cm. Its area (in cm?) is equal to:",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Foran examination of a practical based subject, the total marks is 100. The break-up for theory, practical, project and viva voce is 40%, 30%, 20%, 10%. A candidate scored 80% in theory. 70% in practical, 60% in project and 50% in viva voce. What was her aggregate percentage?",
+   "options": [
+    {
+     "text": "70",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "68",
+     "added": false
+    },
+    {
+     "text": "67",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "16 is an acute angle, and it is given that 5 sin6 + 12 cos8 = 13, then what is the value of tan6 ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "extrema-of-trig-expressions",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "If I travel by bus, I reach my office 15 min late, and if travel by car, I reach 10 min early. If the distance between my home and my office is 25 km, then the difference of the reciprocals of average speeds of the bus and the car, in second per metre is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "early-late",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Qg The given Bar Graph presents the sale (in 1000 kg) of a particular brand of tea by three outlets, A, B and C during the months Jan, Feb, Mar and Apr, 2018. Pe . oo. wk i on i a 5 ” . i i ae ror What is the ratio of rate of growth in sales from B to the rate of growth in sales from C in Mar 2018 with reference to its previous month?",
+   "options": [
+    {
+     "text": "9: 16",
+     "added": false
+    },
+    {
+     "text": "10: 19",
+     "added": false
+    },
+    {
+     "text": "9:19",
+     "added": false
+    },
+    {
+     "text": "10:21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The circumcentre, incentre, orthocentre and the centroid of a triangle are one and the same point. The triangle must be: (a) isosceles (b) right-angled (c) right- angled isosceles (d) equilateral",
+   "options": [
+    {
+     "text": "(a)",
+     "added": false
+    },
+    {
+     "text": "(d)",
+     "added": false
+    },
+    {
+     "text": "(b)",
+     "added": false
+    },
+    {
+     "text": "(c)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Which among the following increases continuously in the range 0° << 8 < 90° ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "i Ft E Fy 2 The value of the expression f(a + *) = (a = *) } is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A certain sum invested on compound interest grows to 78,000 and 27,000 in three and six years, respectively when the interest is compounded annually. What is the percentage rate of interest?",
+   "options": [
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "0.5",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "For @ being an acute angle, it is given that, 3(cosec?® + cot?@) = 5. Then @ is equal to:",
+   "options": [
+    {
+     "text": ", 45°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "0°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The seven digit number 78 x | y 68 is divisible by 88. The value of (x + y) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Two items are sold for 18,602, each. On one item there has been a gain of 31% and on the second item a loss of 29%. ‘What was the overall loss or gain in the transaction?",
+   "options": [
+    {
+     "text": "Loss. 7.91%",
+     "added": false
+    },
+    {
+     "text": "Loss 8.25%",
+     "added": false
+    },
+    {
+     "text": "Gain 8.25%",
+     "added": false
+    },
+    {
+     "text": "Gain 7.91%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Ina stadium an athlete is running on a circular path with uniform speed during a practice session. The angle covered by him during one second is found to be 10° by a coach observing him from the centre of the circular track. What would be the measure of angle (in degrees) described by the athlete by an observer standing on the circle?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "NN a | 218 The simplified value of 1 3 2 2 19 1\\ 3 2- of (2+2)-(42+ 2 +3) is: 3 5 9 5. 20 2.",
+   "options": [
+    {
+     "text": "00 1",
+     "added": false
+    },
+    {
+     "text": "- 4 1",
+     "added": false
+    },
+    {
+     "text": "2 2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The given Bar Graph presents the sale (in 1000 kg) of a particular brand of tea by three outlets, A, B and C during the months Jan, Feb, Mar and Apr, 2018. ao ’ co. we 3 on rs = * ’ ” net = a pers ‘What is the average sale per month by A during Jan-Mar, 2018?",
+   "options": [
+    {
+     "text": "7333.33 kg",
+     "added": false
+    },
+    {
+     "text": "7505 kg",
+     "added": false
+    },
+    {
+     "text": "7334.67 kg",
+     "added": false
+    },
+    {
+     "text": "5500 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Two chords AB and CD ofa circle intersect at a point O inside the circle. It is given that AO = Lom, AB = 13.cm,CD = 8 cm. What is the ratio between the larger and smaller section among CO and OD?",
+   "options": [
+    {
+     "text": "11:5",
+     "added": false
+    },
+    {
+     "text": "9:7",
+     "added": false
+    },
+    {
+     "text": "3:1",
+     "added": false
+    },
+    {
+     "text": "5:3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The given Bar Graph presents the sale (in 1000 kg) of a particular brand of tea by three outlets, A, B and C during the months Jan, Feb, Mar and Apr, 2018. ia . ao. oe g on ‘i | 7 - : _ toe — oe Months By how much quantity is the average sale per month from B more or less than that from C?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Ina triangle ABC, PQ is a straight line parallel to AC, such that Area ABC : Area PBQ=3: 1 Then CB : CQ is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "An article is sold for 7688.16 after two successive discounts of 12% and 8% respectively. What is its marked price?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The given Bar Graph presents the sale (in 1000 kg) of a particular brand of tea by three outlets, A, B and C during the months Jan, Feb, Mar and Apr, 2018. res os . ao. wa 3 on = Bee . - Moet: Arrange the ratio of sales from B to that from A and C, taken together, month wise in ascending order.",
+   "options": [
+    {
+     "text": "Jan, Mar, Feb, Apr",
+     "added": false
+    },
+    {
+     "text": "Jan, Mar, Apr, Feb",
+     "added": false
+    },
+    {
+     "text": "Jan, Feb, Mar, Apr",
+     "added": false
+    },
+    {
+     "text": "Jan, Apr, Mar, Feb",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The average of a number and its reciprocal is 4. The average of its cube and its reciprocal is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "paper": "RRB-ALP-CBT1-29-Nov-2024-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 22,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Simplify the following expression: 9991 x 1",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "99,999,919"
+  },
+  {
+   "n": 4,
+   "text": "— Pis 30% more efficient than Q. How much time will they, working together, take to complete a job that P alone could have done in 23 days?",
+   "options": [
+    {
+     "text": "11 days",
+     "added": false
+    },
+    {
+     "text": "13 days",
+     "added": false
+    },
+    {
+     "text": "202 days 17",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": "13 days"
+  },
+  {
+   "n": 7,
+   "text": "Umesh gave 20% of his chocolates to Shalaka and 35% of his chocolates to Marry. Then Ruchi gave 50% of her remaining chocolates to Umesh. Find the number of chocolates Umesh had at the end.",
+   "options": [
+    {
+     "text": "125",
+     "added": false
+    },
+    {
+     "text": "130",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "75 Addaz47",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "120"
+  },
+  {
+   "n": 8,
+   "text": "The weights (in kg) of 9 members of a school cricket team are 50, 63, x, 62, 64, 48, 51, 55, 48. If the mean weight is 56 kg, then the value of x is :",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "63"
+  },
+  {
+   "n": 9,
+   "text": "Which two numbers should be interchanged to make the given equation correct? 75+5+15*4—-17*3+(60+6)<x10 =100 (Note: Interchange should be done of the entire number and not individual digits of a given number.)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "2"
+  },
+  {
+   "n": 11,
+   "text": "An order was placed for the supply of a carpet whose breadth was 6 m and whose length were 1.44 times the breadth. What is the cost of a carpet whose length and breadth are 40% more and 25% more respectively than the first carpet. [The cost of a carpet is Rs. 45 per sq m.]",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "₹4082.40"
+  },
+  {
+   "n": 15,
+   "text": "§ men and 12 women can build a wall in 10 days. 6 men and 8 women can build the same wall in 14 days. How long will take for 2 women and | man to build it together?",
+   "options": [
+    {
+     "text": "280 days",
+     "added": false
+    },
+    {
+     "text": "35 days",
+     "added": false
+    },
+    {
+     "text": "140 days",
+     "added": false
+    },
+    {
+     "text": "70 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "70 days"
+  },
+  {
+   "n": 20,
+   "text": "Two trains of equal length, running at the speeds of 60 km/h and 40 km/h, take 50 seconds to cross each other while they are running in the same direction. What time will they take to cross each other if they are running in opposite directions?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": "10 sec"
+  },
+  {
+   "n": 21,
+   "text": "A solution contains 40 g of common salt in 320 g of water. What is the concentration of the solution in terms of mass by mass percentage?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "11.1%"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.05,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 228,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

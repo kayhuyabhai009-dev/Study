@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-31-Jan-2023-Shift4.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "If 2P = 3Q = 5R and P + Q + R = 6200, then the difference between P and R is:",
+   "options": [
+    {
+     "text": "3000",
+     "added": false
+    },
+    {
+     "text": "2000",
+     "added": false
+    },
+    {
+     "text": "1200",
+     "added": false
+    },
+    {
+     "text": "1800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Anil and Bablu can do a given piece of work in 50 days, Bablu and Candy can do the same work in 60 days, and Anil, Bablu, and Candy complete it in 30 days. Find the number of days required by Bablu to finish the total work.",
+   "options": [
+    {
+     "text": "400 days",
+     "added": false
+    },
+    {
+     "text": "450 days",
+     "added": false
+    },
+    {
+     "text": "550 days",
+     "added": false
+    },
+    {
+     "text": "300 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "From place A to B, which are 50 km apart, T covers half of the distance in 20 minutes. What should be his speed (in km/h) in the second half so that his average speed from A to B is 80 km/h?",
+   "options": [
+    {
+     "text": "57.8",
+     "added": false
+    },
+    {
+     "text": "87.5",
+     "added": false
+    },
+    {
+     "text": "75.8",
+     "added": false
+    },
+    {
+     "text": "85.7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A buys 150 gm gold for Rs.6,00,000 and gives 6% as making charges. What should be the selling price per 10 gm to have a profit of 6%?",
+   "options": [
+    {
+     "text": "Rs.49,444",
+     "added": false
+    },
+    {
+     "text": "Rs.44,449",
+     "added": false
+    },
+    {
+     "text": "Rs.44,494",
+     "added": false
+    },
+    {
+     "text": "Rs.44,944",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The population of a country increases by 8% in the first year, depreciates by 10% in the second year and again increases by 6% in the third year. If the present population is 6 crore, find the population growth after 3 years.",
+   "options": [
+    {
+     "text": "18,19,200",
+     "added": false
+    },
+    {
+     "text": "18,99,500",
+     "added": false
+    },
+    {
+     "text": "19,19,200",
+     "added": false
+    },
+    {
+     "text": "20,35,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A lady spends 20 percent of her total income on house rent, and 75 percent of the rest on household items. If she saves ₹600, then what is her income?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Due to delay in submission of an assignment the marks of Suhani were decreased by 10 percent and she got 135 marks. What could have been her marks in the assignment, if there was no delay in submission?",
+   "options": [
+    {
+     "text": "145",
+     "added": false
+    },
+    {
+     "text": "155",
+     "added": false
+    },
+    {
+     "text": "150",
+     "added": false
+    },
+    {
+     "text": "140",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "An aeroplane flies along the four sides of a square field at the speeds of 150 km/h, 300 km/h, 450 km/h and 600 km/h. Find the average speed of the plane around the field.",
+   "options": [
+    {
+     "text": "350 km/h",
+     "added": false
+    },
+    {
+     "text": "288 km/h",
+     "added": false
+    },
+    {
+     "text": "228 km/h",
+     "added": false
+    },
+    {
+     "text": "225 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The average of the following numbers is 25. Find the value of X. 24, 30, 12, 18, 20, 10, 40, X",
+   "options": [
+    {
+     "text": "46",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "47",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "If a conical vessel has a radius of 4 cm and volume of 16π cm3, then its curved surface area is:",
+   "options": [
+    {
+     "text": "16π cm2",
+     "added": false
+    },
+    {
+     "text": "4π cm2",
+     "added": false
+    },
+    {
+     "text": "12π cm2",
+     "added": false
+    },
+    {
+     "text": "20π cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A class teacher conducted a unit test in the class. If out of 30 students, 14 students scored 80 and rest 16 students scored 65, then what is the weighted average score?",
+   "options": [
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "70",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "76",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "What will be the remainder when 327 is divided by 26?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The product of 2 numbers is 1890 and the numbers differ by 3. Find the LCM of the numbers.",
+   "options": [
+    {
+     "text": "450",
+     "added": false
+    },
+    {
+     "text": "540",
+     "added": false
+    },
+    {
+     "text": "720",
+     "added": false
+    },
+    {
+     "text": "630",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A and B alone take 4 and 6 hours, respectively, to complete a certain work. If they work alternatively each hour, starting with A first, how long will it take them to complete the work?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Seema purchased a boat that cost her for Rs.3200 and marked price is Rs.4000. How much discount she get ?",
+   "options": [
+    {
+     "text": "Rs. 600",
+     "added": false
+    },
+    {
+     "text": "Rs. 700",
+     "added": false
+    },
+    {
+     "text": "Rs. 500",
+     "added": false
+    },
+    {
+     "text": "Rs. 800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The marked price of a product is Rs. 1000. If it is sold at 7 percent discount and the dealer earns 50 percent profit, then what is the cost price of the product?",
+   "options": [
+    {
+     "text": "Rs. 930",
+     "added": false
+    },
+    {
+     "text": "Rs. 840",
+     "added": false
+    },
+    {
+     "text": "Rs. 620",
+     "added": false
+    },
+    {
+     "text": "Rs. 720",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Find the compound interest on Rs.1,000 at 20% per annum for one year if interest is compounded half-yearly.",
+   "options": [
+    {
+     "text": "Rs.211",
+     "added": false
+    },
+    {
+     "text": "Rs.210",
+     "added": false
+    },
+    {
+     "text": "Rs.209",
+     "added": false
+    },
+    {
+     "text": "Rs.208",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "By selling 50 fruits, a fruit seller gains the selling price of 10 fruits. Find the gain percentage.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 307,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,451 @@
+{
+ "paper": "SSC-GD-27-Jan-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Rajneesh deposited Rs.3,00,000 in a bank for three years. What will be the final amount if the rate of interest is 8% compounded annually?",
+   "options": [
+    {
+     "text": "Rs.3,77,913.60",
+     "added": false
+    },
+    {
+     "text": "Rs.3,70,000.00",
+     "added": false
+    },
+    {
+     "text": "Rs.3,57,931.60",
+     "added": false
+    },
+    {
+     "text": "Rs.3,50,000.00",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Two trains running in opposite directions cross a man standing on the platform in 30 sec and 15 sec respectively and they cross each other in 25 sec. The ratio of their speeds is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The average temperature of a certain city on different days is as follows: Monday, Tuesday, Wednesday and Thursday = 42° Tuesday, Wednesday, Thursday and Friday = 44° What is the temperature on Friday if the ratio of the temperature on Monday and Friday is 3: 5?",
+   "options": [
+    {
+     "text": "42°",
+     "added": false
+    },
+    {
+     "text": "44°",
+     "added": false
+    },
+    {
+     "text": "20°",
+     "added": false
+    },
+    {
+     "text": "15°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A lady goes from home to office at a speed of 40 km/h, and returns back at a speed of 70 km/h. What is her average speed during the journey?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Find the third proportional to 16 and 320.",
+   "options": [
+    {
+     "text": "6400",
+     "added": false
+    },
+    {
+     "text": "3200",
+     "added": false
+    },
+    {
+     "text": "8000",
+     "added": false
+    },
+    {
+     "text": "2100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The price of a commodity increases by 10% from 2020 to 2021 and it again increases by 15% from 2021 to 2022. The difference in the prices in 2020 and 2022 is ₹35. What is the price of the commodity (in ₹) in 2021 (rounded up to one decimal place)?",
+   "options": [
+    {
+     "text": "145.3",
+     "added": false
+    },
+    {
+     "text": "154.3",
+     "added": false
+    },
+    {
+     "text": "314.5",
+     "added": false
+    },
+    {
+     "text": "134.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "An electric geyser is sold at Rs.7,100 after reducing Rs.244 in addition to two successive discounts of 15% and 4% on the marked price. Find the marked price (in Rs.) of the geyser.",
+   "options": [
+    {
+     "text": "9,000",
+     "added": false
+    },
+    {
+     "text": "8,800",
+     "added": false
+    },
+    {
+     "text": "8,500",
+     "added": false
+    },
+    {
+     "text": "8,200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "In a discount scheme, there is 50% discount on the marked price of Rs.500, but at the end it is sold for Rs.200. What additional discount did the customer get?",
+   "options": [
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "22%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "An article is marked at Rs.7,500 and available at a discount of 12%. The shopkeeper gives another off-season discount to the buyer and sell the article for Rs.5,400. Find the off-season discount. (Correct to two decimals places.)",
+   "options": [
+    {
+     "text": "18.18%",
+     "added": false
+    },
+    {
+     "text": "19.53%",
+     "added": false
+    },
+    {
+     "text": "18.95%",
+     "added": false
+    },
+    {
+     "text": "19.63%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A dishonest dealer professes to sell his goods at the cost price but uses a false weight of 950 g instead of 1 kg. What is his gain percentage?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The material of a solid right circular cylinder is converted into the shape of a solid cone of equal radius. If the height of the cylinder is 8.8 cm, then the height of the cone is:",
+   "options": [
+    {
+     "text": "8.8 cm",
+     "added": false
+    },
+    {
+     "text": "35.2 cm",
+     "added": false
+    },
+    {
+     "text": "17.6 cm",
+     "added": false
+    },
+    {
+     "text": "26.4 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "From 2011 to 2014, a town’s population is increasing at the rate of 2% annually. If its population was 13,265 in 2014, then what would have been its population (Approximately) in 2011?",
+   "options": [
+    {
+     "text": "12500",
+     "added": false
+    },
+    {
+     "text": "12275",
+     "added": false
+    },
+    {
+     "text": "12250",
+     "added": false
+    },
+    {
+     "text": "12000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A stock of food is enough for 315 men for 48 days. For how many days the same stock of food is enough, if 45 more men join?",
+   "options": [
+    {
+     "text": "46",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "44",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If the number 40 is increased by 40%, then what will be the actual increase?",
+   "options": [
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Find the square of the sum of the digits of the smallest number divisible by both 18 and 24.",
+   "options": [
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "121",
+     "added": false
+    },
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A man can row upstream at 12 km/h and downstream at 20 km/h. Find the man’s rowing speed in still water, and the rate of current.",
+   "options": [
+    {
+     "text": "16 km/h and 4 km/h",
+     "added": false
+    },
+    {
+     "text": "32 km/h and 8 km/h",
+     "added": false
+    },
+    {
+     "text": "32 km/h and 4 km/h",
+     "added": false
+    },
+    {
+     "text": "16 km/h and 8 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "still-water-and-stream-speed",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 308,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

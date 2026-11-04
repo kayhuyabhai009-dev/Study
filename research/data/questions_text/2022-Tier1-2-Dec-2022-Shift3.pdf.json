@@ -1,0 +1,618 @@
+{
+ "paper": "2022-Tier1-2-Dec-2022-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "If the ratio of corresponding sides of two similar triangles is √3 ∶ √2 then what is the ratio of the area of the two triangles?",
+   "options": [
+    {
+     "text": "3 : 2",
+     "added": false
+    },
+    {
+     "text": "9 : 4",
+     "added": false
+    },
+    {
+     "text": "√3 ∶ √2",
+     "added": false
+    },
+    {
+     "text": "27 : 8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Various expenditures incurred by a publishing company for publishing a book in 2018 are given in the following pie-chart. Study the chart and answer the question. Expenditures of the company Price printed on a book is 15% above the cost price, If the price printed on a book is 2942, then the cost of paper for a single copy in 2 is (rounded off to one decimal place)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "In a 100-m race, A beats B by 20 m and B beats C by 20 m. By how much distance does A beat C.",
+   "options": [
+    {
+     "text": "64 m",
+     "added": false
+    },
+    {
+     "text": "24 m",
+     "added": false
+    },
+    {
+     "text": "25 m",
+     "added": false
+    },
+    {
+     "text": "36 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "If one man or two women or four boys or five girls can finish a work in 39 days, then how many days will one man, one woman, one boy and one girl together take to finish the same work?",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The value of cot 15° cot 25° cot 45° cot 75° cot 65° is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Qé / . : . . In triangle PQR, right angled at Q, if cot P=/3, then the value of sin P is:",
+   "options": [
+    {
+     "text": "it 1",
+     "added": false
+    },
+    {
+     "text": "—",
+     "added": false
+    },
+    {
+     "text": "XK 3. v3 2 x",
+     "added": false
+    },
+    {
+     "text": "= 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The difference of two numbers is 1564. After dividing the larger number by the smaller, we get 6 as quotient and 19 as remainder. What is the smaller number?",
+   "options": [
+    {
+     "text": "456",
+     "added": false
+    },
+    {
+     "text": "287",
+     "added": false
+    },
+    {
+     "text": "623",
+     "added": false
+    },
+    {
+     "text": "309",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "fas b+c=6,a7-b?-@= 14 and ab + be + ca = 11, then what is the value of a3 + b? +c? —3abe?",
+   "options": [
+    {
+     "text": "31",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The length of the tangent to a circle from a point P is 15 cm. Point P is 17 cm away from the centre. What is the radius of the circle?",
+   "options": [
+    {
+     "text": "7 cm",
+     "added": false
+    },
+    {
+     "text": "9 cm",
+     "added": false
+    },
+    {
+     "text": "8 cm",
+     "added": false
+    },
+    {
+     "text": "4 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Side of an equilateral triangle is 24 cm. What will be the radius of in circle of this equilateral triangle?",
+   "options": [
+    {
+     "text": "6 cm",
+     "added": false
+    },
+    {
+     "text": "12 cm",
+     "added": false
+    },
+    {
+     "text": "8 cm",
+     "added": false
+    },
+    {
+     "text": "3 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The radius of a right circular cylinder is five times of its height. If the height of the cylinder is 3.5 cm, then what is the volume of cylinder?",
+   "options": [
+    {
+     "text": "3368.75 cm3",
+     "added": false
+    },
+    {
+     "text": "3872.75 cm3",
+     "added": false
+    },
+    {
+     "text": "3146.75 cm3",
+     "added": false
+    },
+    {
+     "text": "3524.25 cm3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "In an election between two candidates, 12% of voters did not cast their votes. The winner by obtaining 68% of the total votes defeated his contestant by 2880 votes. What was the total number of voters who cast their votes in the election?",
+   "options": [
+    {
+     "text": "5280",
+     "added": false
+    },
+    {
+     "text": "8000",
+     "added": false
+    },
+    {
+     "text": "4000",
+     "added": false
+    },
+    {
+     "text": "6000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A cuboid of length 36 m, breadth 18 m and height 9 m is melted and recast into a cube. Find the length of the diagonal of the cube.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The following table shows the number of delivery partners (in thousands) who joined five different companies during six different years. CC CC CCC CC i Find the percentage increase in the number of delivery partners that joined Pyntra from 2017 to 2021.",
+   "options": [
+    {
+     "text": "26.57%",
+     "added": false
+    },
+    {
+     "text": "25.87%",
+     "added": false
+    },
+    {
+     "text": "27.58%",
+     "added": false
+    },
+    {
+     "text": "28.57%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": ".- * A Simplify the following. 762X762X762+316X316x316 762X762—762X316+316X316",
+   "options": [
+    {
+     "text": "1064",
+     "added": false
+    },
+    {
+     "text": "1056",
+     "added": false
+    },
+    {
+     "text": "1042",
+     "added": false
+    },
+    {
+     "text": "1078",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The price of some wooden furniture increases by 65% when it passes through three hands. If the first and second sellers made a profit of 20% and 25%, respectively, then find the profit percentage of the third seller.",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "12.5%",
+     "added": false
+    },
+    {
+     "text": "16%",
+     "added": false
+    },
+    {
+     "text": "8%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "What is the ratio of the fourth proportional of 2, 5, 6 and the fourth proportional of 6, 8, 9?",
+   "options": [
+    {
+     "text": "3 : 2",
+     "added": false
+    },
+    {
+     "text": "5 : 3",
+     "added": false
+    },
+    {
+     "text": "3 : 4",
+     "added": false
+    },
+    {
+     "text": "5 : 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "1 . a 7 Ifa man travels at = kn/h on a journey and returns at a km/h, then his average speed for the journey is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "If , then what is the value of ?",
+   "options": [
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The HCF of two numbers 2040 and 391 is:",
+   "options": [
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "What annual instalment will discharge a debit of ₹5,664 in 4 years at 12% simple interest?",
+   "options": [
+    {
+     "text": "₹1,230",
+     "added": false
+    },
+    {
+     "text": "₹1,210",
+     "added": false
+    },
+    {
+     "text": "₹1,200",
+     "added": false
+    },
+    {
+     "text": "₹1,220",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The table given below shows the production of five companies in two years. J1= The average production of A in year Y1 and Y2. J2 = Sum of production of B, C and D in year Y1 and Y2. What is the value of (J2/J1)?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Study the given table and answer the question that follows. Find the difference between the number of female students and male students who opted biology in school C. Total number of students Percentage of enrolled Ratio of male to female enrolled students, opted Biology students who opted Biology a ) 78 |B fan 9:10 1 12 [p> soo",
+   "options": [
+    {
+     "text": "240",
+     "added": false
+    },
+    {
+     "text": "160",
+     "added": false
+    },
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "How far will the tip of a 2cm-long minute hand of a clock move in 45 minutes?",
+   "options": [
+    {
+     "text": "π cm",
+     "added": false
+    },
+    {
+     "text": "3π cm",
+     "added": false
+    },
+    {
+     "text": "4π cm",
+     "added": false
+    },
+    {
+     "text": "2π cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Sunil purchased a fan at a 10% discount on the labelled price. If he had purchased it at a 15% discount, he would have saved ₹400. Find the labelled price of the fan.",
+   "options": [
+    {
+     "text": "₹8,400",
+     "added": false
+    },
+    {
+     "text": "₹7,500",
+     "added": false
+    },
+    {
+     "text": "₹800",
+     "added": false
+    },
+    {
+     "text": "₹8,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  }
+ ]
+}

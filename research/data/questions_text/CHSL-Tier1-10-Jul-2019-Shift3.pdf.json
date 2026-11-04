@@ -1,0 +1,533 @@
+{
+ "paper": "CHSL-Tier1-10-Jul-2019-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "91 Tf@ = 9°, then what is the value of cot 8 cot2 8 cot3 6 cot 44 cot5 @ cot6 A cot7 A cot8 A cot9 A ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "2 ‘ 92 Ifa? + b? = 169, ab=60, (a>b), then ( a? — b? ) is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Qazi 4 1 1 1 1 14 a x, Ifx = 12.13 te isis * tas hstinack: 2324 )~ gear 3708 * seas tT then > is equal m",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "4 Fora and B both being acute angles, it is given that F 1 sin(a + B) = 1,cos(a— B) = me The values of a and B are:",
+   "options": [
+    {
+     "text": "75°, 15°",
+     "added": false
+    },
+    {
+     "text": "45°,15°",
+     "added": false
+    },
+    {
+     "text": "75°, 45°",
+     "added": false
+    },
+    {
+     "text": "60°, 30°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "5 s 0.01404 f The simplified value of —-—,—— is: 24°+6°—-144",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "OABC is a quadrilateral, where O is the centre of a circle and A, B, C are points in the circle, such that ABC = 120°. ‘What is the ratio of the measure of AOC to that of ZOAC?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "7 The simplified value of 1 8 1 5 3 7 2 sO {2+ - (= +2x 12=2)} is: 2 f 5 5 16 5 8 3",
+   "options": [
+    {
+     "text": "rar 4",
+     "added": false
+    },
+    {
+     "text": "4 1",
+     "added": false
+    },
+    {
+     "text": "5 5",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Given that the lengths of the paths of a ball thrown with different speeds by two boys are the same, and that the average speed for the first and second throws are respectively 90km/h and 162 kny/h, then what is the time taken by the first throw to cover the length if the same for the second thrown is one second?",
+   "options": [
+    {
+     "text": "= sec",
+     "added": false
+    },
+    {
+     "text": "% 2 1 sec 5",
+     "added": false
+    },
+    {
+     "text": "= sec 9 2",
+     "added": false
+    },
+    {
+     "text": "= sec 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A and B are two points on a circle with centre O. AT is a tangent, such that 2BAT = 45°. N is a point on OA, such that BN = 10 cm. The length of the median OM of the A NOB is:",
+   "options": [
+    {
+     "text": "10V2 cm",
+     "added": false
+    },
+    {
+     "text": "52 cm",
+     "added": false
+    },
+    {
+     "text": "5/3 cm",
+     "added": false
+    },
+    {
+     "text": "5cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The area of a sector of a circle with central angle 60° is A. The circumference of the circle is C. Then A is equal to: A ns c2",
+   "options": [
+    {
+     "text": "61",
+     "added": false
+    },
+    {
+     "text": "x2 187 c2",
+     "added": false
+    },
+    {
+     "text": "241 2",
+     "added": false
+    },
+    {
+     "text": "= 4m TT TY, Addale4i7) ic",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The difference between the average of first ten prime numbers and the first ten prime numbers of two digits is:",
+   "options": [
+    {
+     "text": "14.5",
+     "added": false
+    },
+    {
+     "text": "16.5",
+     "added": false
+    },
+    {
+     "text": "12.5",
+     "added": false
+    },
+    {
+     "text": "13.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The side BC of a right-angled triangle ABC (ZABC = 90°) is divided into four equal parts at P, Q and R respectively. If AP? + AQ? + AR? = 3b? + 17na’, then n is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": ": . 1-sinx : It is given that, | —— =a-~—tanx then a is equal to: 1+sinx",
+   "options": [
+    {
+     "text": "cosx",
+     "added": false
+    },
+    {
+     "text": "sinx",
+     "added": false
+    },
+    {
+     "text": "cosecx",
+     "added": false
+    },
+    {
+     "text": "secx",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A shopkeeper bought an article for 100 and marked its price 25% above the cost price. How much discount percentage should he announce in order to make a profit of 15%?",
+   "options": [
+    {
+     "text": "8.25",
+     "added": false
+    },
+    {
+     "text": "8.5",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A rectangular portion of an airport runway was getting repaired for which an estimate was made on the basis of a rate R per square unit. But while doing the work, the length of the portion got increased by 10% and the breadth by 8%. Over and above this, there was an increase in the cost of the repair work to the extent of 15%. What was the overall percentage increase in the cost of repair over the estimate?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A borrowed a sum of €3,000 from his friend B on 31 December 2007 on the condition that he would return the same after one year with simple interest at 15% per annum. However, A gets into a position of returning the sum on 31 August 2008. How much amount had A to return to B?",
+   "options": [
+    {
+     "text": "33,300",
+     "added": false
+    },
+    {
+     "text": "33,200",
+     "added": false
+    },
+    {
+     "text": "33,310",
+     "added": false
+    },
+    {
+     "text": "33,305",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The given Bar Graph presents the data of annual,income (A) and annual expenditure (B) ofan IT officer in a multi- national company during the years 2012 to 2016. : 2 : q . : ‘ ” iz Zo For which pair of years, the ratio of savings to expenditure is equal?",
+   "options": [
+    {
+     "text": "2012, 2013",
+     "added": false
+    },
+    {
+     "text": "2013, 2014",
+     "added": false
+    },
+    {
+     "text": "2014, 2015",
+     "added": false
+    },
+    {
+     "text": "2012, 2015",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "9.18 Which among the following numbers is exactly divisible by 11, 13 and 7?",
+   "options": [
+    {
+     "text": "259237",
+     "added": false
+    },
+    {
+     "text": "259248",
+     "added": false
+    },
+    {
+     "text": "259270",
+     "added": false
+    },
+    {
+     "text": "259259",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The given Bar Graph presents the data of annual income (A) and annual expenditure (B) of an IT officer in a multi- national company during the years 2012 to 2016. _ 2 = 7.” ® fe ‘ 5 hs . { g2 to 1 = 2012 pat aoe 2015 2016 ‘What was his average monthly savings (in %) in 2015 and 2016, taken together (correct to two decimal places)?",
+   "options": [
+    {
+     "text": "14,506.33",
+     "added": false
+    },
+    {
+     "text": "14,967.67",
+     "added": false
+    },
+    {
+     "text": "13,687.67",
+     "added": false
+    },
+    {
+     "text": "14,583.33",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Itis given that AABC ~ APRQ and that Area ABC : Area PRQ = 16: 169. If AB=x, AC=y, BC=z (allincm), then PQ is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The given Bar Graph presents the data of annual income (A) and annual expenditure (B) of an IT officer in a multi- national company during the years 2012 to 2016. na , ” 5 $2 lee What is the percentage of his total savings with reference to his total income for the period 2012-15?",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "27.5",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Itis given that men are twice as efficient than women in respect of doing a work. If three men and two women can complete the work in 2 days, then in how many days can a woman working alone complete the work?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The given Bar Graph presents the data of annual income (A) and annual expenditure (B) of an IT officer in a multi- national company during the years 2012 to 2016. B * » 3* ’ = ‘ * rio 7 as : 3 1 | I | | Pir = 5 ‘ mu re er a ‘What is the ratio between the ratios of Savings to Expenditure, respectively for the periods 2012-13 and 2015-16?",
+   "options": [
+    {
+     "text": "146: 135",
+     "added": false
+    },
+    {
+     "text": "155: 147",
+     "added": false
+    },
+    {
+     "text": "21:34",
+     "added": false
+    },
+    {
+     "text": "25: 36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Anarticle is subject to two successive discounts of 10% and 5% before being sold. If its marked price is $800, then its selling price is:",
+   "options": [
+    {
+     "text": "2722",
+     "added": false
+    },
+    {
+     "text": "%684",
+     "added": false
+    },
+    {
+     "text": "3703",
+     "added": false
+    },
+    {
+     "text": "%680",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "A milkman uses three containers for selling milk, their capacities being 40 L, 30 L and 20 L respectively. He fills respectively 87.5%, 80% and 90% of the containers with a mix of milk and water in the ratios, 3: 2,5: 1 and 7:2 respectively. What is the ratio of the total quantity of milk to that of water carried by him?",
+   "options": [
+    {
+     "text": "7:2",
+     "added": false
+    },
+    {
+     "text": "31:12",
+     "added": false
+    },
+    {
+     "text": "35:9",
+     "added": false
+    },
+    {
+     "text": "5:2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  }
+ ]
+}

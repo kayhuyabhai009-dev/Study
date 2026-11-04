@@ -1,0 +1,130 @@
+{
+ "paper": "RRB-ALP-CBT1-29-Nov-2024-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 3,
+   "text": "A sum of money, on compound interest, amounts to 25,290 in 2 years and to 26,083.50 in 3 years. If interest is compounded annually, then the rate of interest per annum is: A \"Xt. 162% +2. 15%",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "12"
+  },
+  {
+   "n": 6,
+   "text": "The smallest natural number that must be added to 1212 to make it a perfect square is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "18"
+  },
+  {
+   "n": 8,
+   "text": "— § men and 12 women can build a wall in 10 days. 6 men and 8 women can build the same wall in 14 days. How long will it take for 1 woman to build it alone?",
+   "options": [
+    {
+     "text": "280 days",
+     "added": false
+    },
+    {
+     "text": "140 days",
+     "added": false
+    },
+    {
+     "text": "350 days",
+     "added": false
+    },
+    {
+     "text": "700 days Addaeu7!",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "280 days"
+  },
+  {
+   "n": 11,
+   "text": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same work in 2 days, then the time taken by 10 men and 20 boys for doing the same piece of work will be:",
+   "options": [
+    {
+     "text": "3 days",
+     "added": false
+    },
+    {
+     "text": "5 days",
+     "added": false
+    },
+    {
+     "text": "4 days",
+     "added": false
+    },
+    {
+     "text": "2 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "5 days"
+  },
+  {
+   "n": 13,
+   "text": "If A means +, B means —, C means =, D means +, then what will come in place of the question mark (?) in the following equation? ISD2A4C5B15=?",
+   "options": [
+    {
+     "text": "16 F214 “3.12",
+     "added": false
+    },
+    {
+     "text": "18 Oss yp 283 = 158 , then the value of K is: 0.155 K",
+     "added": false
+    },
+    {
+     "text": "1.55 “2.15.51",
+     "added": false
+    },
+    {
+     "text": "0.0155 “4. 155",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "0.0155"
+  },
+  {
+   "n": 20,
+   "text": "Ifthe mean of 22, 25, 27, 24 and x is 26, then the value of x is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "32"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 230,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

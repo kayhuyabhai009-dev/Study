@@ -1,0 +1,120 @@
+{
+ "paper": "RRB-ALP-CBT1-27-Nov-2024-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 22,
+ "questions": [
+  {
+   "n": 7,
+   "text": "The smallest four-digit number that is exactly divisible by each of 24, 40 and 56 is:",
+   "options": [
+    {
+     "text": "1080",
+     "added": false
+    },
+    {
+     "text": "1680",
+     "added": false
+    },
+    {
+     "text": "1170",
+     "added": false
+    },
+    {
+     "text": "1260",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "1680"
+  },
+  {
+   "n": 8,
+   "text": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same in 2 days, the time taken by 15 men and 20 boys in doing the same type of work will be:",
+   "options": [
+    {
+     "text": "5 days",
+     "added": false
+    },
+    {
+     "text": "6 days",
+     "added": false
+    },
+    {
+     "text": "4 days",
+     "added": false
+    },
+    {
+     "text": "7 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "4 days"
+  },
+  {
+   "n": 9,
+   "text": "For certain data, the mode is 24.6 and mean is 20.1. What is the median of that data, using empirical formula?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "21.6"
+  },
+  {
+   "n": 16,
+   "text": "Study the following graph and answer the given question. The bar graph shows the number of different items sold by a shopkeeper in their respective quantities. 40 35 35 30 30 25 25 = 20 = 20 ° 15 10 10 ; | it) ee & ra a . ~ ¥ we Items What is the total units of Headphones and Mobile phones sold put together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "45"
+  },
+  {
+   "n": 21,
+   "text": "A solution contains 25 g of copper chloride salt in 250 g of water. Calculate the concentration in terms of mass by mass percentage of the solution.",
+   "options": [
+    {
+     "text": "J 1. 9.09%",
+     "added": false
+    },
+    {
+     "text": "36.01%",
+     "added": false
+    },
+    {
+     "text": "18.01%",
+     "added": false
+    },
+    {
+     "text": "27.01%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "9.09%"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.09,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 230,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

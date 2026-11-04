@@ -1,0 +1,499 @@
+{
+ "paper": "CHSL-Tier1-04-Jul-2019-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "| The average of n numbers is 36, If each of 75% of the numbers is increased by 6 and each of the remaining numbers is decreased by 9, then the new average of the numbers is:",
+   "options": [
+    {
+     "text": "37.125",
+     "added": false
+    },
+    {
+     "text": "33.75",
+     "added": false
+    },
+    {
+     "text": "38.25",
+     "added": false
+    },
+    {
+     "text": "36.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "2 2 Ag, BN nF : If x* — 6x+ 1 = 0, then the value of (x* +>) + (x? + 1) is: x",
+   "options": [
+    {
+     "text": "39",
+     "added": false
+    },
+    {
+     "text": "33",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "93 For @ being an acute angle, if cosec8 = 1.25, then the value of 4tan8—5cos@ . ——— is equal to: sec6+4cot8",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Three articles are bought at $200 each. One of them is sold at a loss of 10%. If the other two articles are sold so as to gain 20% on the whole transaction, then what is the gain percent on the two articles?",
+   "options": [
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "ABCD is acyclic quadrilateral such that its sides AD and BC produced meet at P and sides AB and DC produced meet at Q. If ZA = 62° and ZABC = 74°, then the difference between 2P and 2Q is:",
+   "options": [
+    {
+     "text": "ge",
+     "added": false
+    },
+    {
+     "text": "23°",
+     "added": false
+    },
+    {
+     "text": "32°",
+     "added": false
+    },
+    {
+     "text": "38°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "cyclic-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Acan do 40% of a work in 6 days and B can do 30% of the same work in 3 days. They started the work together but B Jeft after 2 days and A continued to work. In how many days was the entire work completed?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The given Bar Graph presents the Revenue and Expenditure (in crores of Rupees) of a company during the five year period, 2014 - 2018. Revenue and Expenditure (in % crores) of a company during 2014 to 2018 What is the ratio of the total revenue of the company in 2015 and 2018 to that of its expenditure in 2014 and 2018?",
+   "options": [
+    {
+     "text": "5:4",
+     "added": false
+    },
+    {
+     "text": "7:5",
+     "added": false
+    },
+    {
+     "text": "9:7",
+     "added": false
+    },
+    {
+     "text": "13:10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Ifx+y+z=3 and xy + yz+zx=-18, then what is the value of x? + y? + z? — 3xyz =?",
+   "options": [
+    {
+     "text": "187",
+     "added": false
+    },
+    {
+     "text": "217",
+     "added": false
+    },
+    {
+     "text": "191",
+     "added": false
+    },
+    {
+     "text": "189",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Ifa 10-digit number 75y97405x2 is divisible by 72, then the value of (2x-y), for the greatest value of x, is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Addale4i7) Sie al | | 10 . : 919 For 0° < 6 < 90°, if 2cos?@ = 3sin6, then the value of (cosec?6 — cot*6 + cos*6) is equal to:",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "x22: 4",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "x42 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Sudha decided to donate 12% of her monthly income to an orphanage. On the day of donation, she changed her decision and donated a sum of 4800 which was equal to 80% of what she had decided earlier. What is 27% of her monthly income?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "tn AABC, Dis a pointon BC such that 2BAD #2ZADC, 2BAC =)87° and 2C = 42°, Whats the measure of ADB?",
+   "options": [
+    {
+     "text": "94°",
+     "added": false
+    },
+    {
+     "text": "68°",
+     "added": false
+    },
+    {
+     "text": "102°",
+     "added": false
+    },
+    {
+     "text": "78°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": ".-sec8(1-sin@)(secO+tan8) _ 1+k For 0° < @ < 90°, if (1-sin@) (sec6+tan6) _ j (sec6—tan8)? i-k then k is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Incomes of A and B are in the ratio 5 : 3 and their expenditures are in the ratio 9 : 5. If income of A is twice the expenditure of B, then what is the ratio of savings of A and B?",
+   "options": [
+    {
+     "text": "2:3",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "3:2",
+     "added": false
+    },
+    {
+     "text": "3:4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The given Bar Graph presents the Revenue and Expenditure (in crores of Rupees) of a company during the five year period, 2014-2018, Revenue and Expenditure (in % crores) of a company during 2014 to 2018 The expenditure of the company in 2017 is what percentage less than the average revenue (per year) in 2014, 2015 and 2016?",
+   "options": [
+    {
+     "text": "11- 9 aL",
+     "added": false
+    },
+    {
+     "text": "11- 9 1 os. 8",
+     "added": false
+    },
+    {
+     "text": "f",
+     "added": false
+    },
+    {
+     "text": "12 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The parallel sides of a trapezium are 20 cm and 10 cm and its non-parallel sides are equal to each other. If its area is 180 cm, then what is the length (in cm) of each non-parallel side?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Ina circle with centre O, AB is a diameter. Points C, D and E are on the circle on one side of AB such that ABEDC is a pentagon. The sum of angles ACD and DEB is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "AABC isa triangle, where 2B is obtuse. AD is perpendicular on CB produced at D. If AB = Scm, BC = 7em and BD = 4em, then AC is equal to:",
+   "options": [
+    {
+     "text": "14cm",
+     "added": false
+    },
+    {
+     "text": "13cm",
+     "added": false
+    },
+    {
+     "text": "15cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A shopkeeper marks his goods at 25% above the cost price, He sells three-fourth of the goods at the marked price and the remaining at 40% discount on the marked price. His gain/loss percent is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Asum invested at 8%\\p.a. amounts to 720280 at the end of one year, When the interest is compounded half yearly. What will be the simple interest on the same sum for e years at double the earlier rate of interest?",
+   "options": [
+    {
+     "text": "313500",
+     "added": false
+    },
+    {
+     "text": "%113800",
+     "added": false
+    },
+    {
+     "text": "714200",
+     "added": false
+    },
+    {
+     "text": "714500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "221 The simplified value of 3 x 6+ 4 of 6@— 6 +2 x (4-6) +4—2X 3+ 6 of? is:",
+   "options": [
+    {
+     "text": "12 4 3",
+     "added": false
+    },
+    {
+     "text": "7- 4",
+     "added": false
+    },
+    {
+     "text": "“3.13",
+     "added": false
+    },
+    {
+     "text": "x48 fa 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "1f8(a+b)? + (a—b)? = (3a+ b)(Aa* + Bab + Cb’), then what is the value of (A + B—C) ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "polynomials-and-factorisation",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The given Bar Graph presents the Revenue and Expenditure (in crores of Rupees) of a company during the five year period, 2014 — 2018. Revenue and Expenditure (in 2 crores) of @ company during 2014 to 2018 The total expenditure of the company from 2016 to 2018 is what percentage (nearest to an integer) of the total revenue for the five year period?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "A train covers a certain distance in 45 minutes. If its speed is reduced by 5 kni/h, it takes 3 minutes more to cover the same distance. The distance (in km) is:",
+   "options": [
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The given Bar Graph presents the Revenue and Expenditure (in crores of Rupees) of a company during the five year period, 2014 — 2018. Revenue and Expenditure (in % crores) of a company during 2014 to 2018 In which year the percentage increase in the revenue as compared to that in its preceding year is between 5% and 8% ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "paper": "RRB-ALP-CBT1-25-Nov-2024-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 2,
+   "text": "The average of the first 25 multiples of 3 is:",
+   "options": [
+    {
+     "text": "39",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": "39"
+  },
+  {
+   "n": 4,
+   "text": "4 3-digit number is such that its units’ digit, tens’ digit and hundreds’ digit are in the ratio 2 : 3 : 4. The sum of this number and the number obtained by reversing its digits is 1332. Find the positive difference between the 3-digit number and the number formed by reversing its digit.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "digit-sum-and-place-value",
+   "key_answer": "396"
+  },
+  {
+   "n": 5,
+   "text": "Ifx ++ = 5, thenx?++ =? x x?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "23"
+  },
+  {
+   "n": 6,
+   "text": "Th the adjoining figure line / is parallel to line m . What is the value of x + 2y ? Ls l XY, 105° m",
+   "options": [
+    {
+     "text": "340°",
+     "added": false
+    },
+    {
+     "text": "225°",
+     "added": false
+    },
+    {
+     "text": "270°",
+     "added": false
+    },
+    {
+     "text": "315°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": "315°"
+  },
+  {
+   "n": 7,
+   "text": "Ata particular time during the day, owing to the position of the sun, a 6 feet tall man casts a shadow of 4 feet, whereas a pole next to the man casts a shadow of 36 feet. What is the height of the pole?",
+   "options": [
+    {
+     "text": "56 feet",
+     "added": false
+    },
+    {
+     "text": "54 feet",
+     "added": false
+    },
+    {
+     "text": "63 feet",
+     "added": false
+    },
+    {
+     "text": "60 feet",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": "54 feet"
+  },
+  {
+   "n": 13,
+   "text": "Evaluate the given expression. 23 x (—9)° x 33",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": "216"
+  },
+  {
+   "n": 15,
+   "text": "A shopkeeper provides successive discounts of 5% and 4%, which are equivalent to a single discount of :",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "8.8%"
+  },
+  {
+   "n": 18,
+   "text": "The average height of 50 pupils in a class is 150 cm. Five of them whose average height is 146 cm, leave the class, and five others whose average height is 156 cm, join. The new average height of the pupils of the class (in cm) is",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": "151"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 230,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

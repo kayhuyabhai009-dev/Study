@@ -1,0 +1,150 @@
+{
+ "paper": "RRB-ALP-CBT1-28-Nov-2024-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 2,
+   "text": "What repo rate was declared by the Reserve Bank of India’s Monetary Policy Committee (MPC) on 9th October 2024?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "6.25%"
+  },
+  {
+   "n": 4,
+   "text": "is coded as ‘84592’, and ‘PRIME’ is coded as ‘64237’. What is the code for *G’ in the given code language?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": "8 cm"
+  },
+  {
+   "n": 5,
+   "text": "Tn an election between two candidates, one got 55% of the total valid votes and 20% of the votes were invalid. If the total number of votes was 7500, then the winner won the election by a majority of votes.",
+   "options": [
+    {
+     "text": "750",
+     "added": false
+    },
+    {
+     "text": "800",
+     "added": false
+    },
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "700",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": "600"
+  },
+  {
+   "n": 6,
+   "text": "One candidate secured 70% of the valid votes and won by a majority of 172 votes. The total number of valid votes was:",
+   "options": [
+    {
+     "text": "570",
+     "added": false
+    },
+    {
+     "text": "560",
+     "added": false
+    },
+    {
+     "text": "430",
+     "added": false
+    },
+    {
+     "text": "480",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": "430"
+  },
+  {
+   "n": 8,
+   "text": "Refer to the following number and symbol series and answer the question that follows. Counting to be done from left to right only. (Left) 9#1* £2 & % 4 @6 8$7&305 (Right) How many such numbers are there, each of which is immediately preceded by a number and also immediately followed as ? by a symbol",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": "25%"
+  },
+  {
+   "n": 10,
+   "text": "The sum of five consecutive even numbers is 3720. The sum of the third largest and the largest even numbers among them is:",
+   "options": [
+    {
+     "text": "1392",
+     "added": false
+    },
+    {
+     "text": "1488",
+     "added": false
+    },
+    {
+     "text": "1492",
+     "added": false
+    },
+    {
+     "text": "1388",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "other",
+   "key_answer": "1492"
+  },
+  {
+   "n": 17,
+   "text": "Study the following table and answer the question. The table depicts the number of cars and bikes manufactured by a company in the year 2012 and 2013. [Years [Number of cars [Number of bikes In Thousand) |(In Thousand) ee a How many cars (In Thousand) were manufactured in the year 2012 and 2013 together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "85"
+  },
+  {
+   "n": 21,
+   "text": "The value of K, satisfying the equation > 0.01 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "0.9"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.24,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 231,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

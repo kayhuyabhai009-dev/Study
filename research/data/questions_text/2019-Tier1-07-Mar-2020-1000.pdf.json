@@ -1,0 +1,499 @@
+{
+ "paper": "2019-Tier1-07-Mar-2020-1000.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": ". From the given table, what is the percentage of students scoring 40 or more. but less than 70. less than |less than | less than | less than | less than | less than | less than 20 30 40 50 60 70 80 No. of 12 22 31 38 students",
+   "options": [
+    {
+     "text": "56%",
+     "added": false
+    },
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "96%",
+     "added": false
+    },
+    {
+     "text": "48%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Inan examination, Anita scored 31% marks and failed by 16 marks. Sunita scored 40% marks and obtained 56 marks more than those required to pass. Find the minimum marks required to pass.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "By selling 18 table fans for 711,664 a man incurs a loss of 10%. How many fans should he sell for 17,424 to earn 10% profit?",
+   "options": [
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "23",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The area of the four walls of a room having length 6 m, breadth 4 m and height 4 m, is:",
+   "options": [
+    {
+     "text": "50m?",
+     "added": false
+    },
+    {
+     "text": "som?",
+     "added": false
+    },
+    {
+     "text": "40 m?",
+     "added": false
+    },
+    {
+     "text": "60 m?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "25 What is the value of sin 30° + cos 30° — tan45°?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Ina school, the distribution of teachers is as follows: 20-25 25-30 [30-35 | 35-40 | 40-45 | 45-50 | 50-55 The total number of teachers of age less than 40 years is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "present-age",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The average of five consecutive odd numbers is m. If the next three odd numbers are also included, then what is the increase in the average?",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Ten men or twelve women can finish the same work in 10 days. If 5 men and 2 women undertake the work together, how many days will they take to complete the work?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The simple interest on a sum of $50,000 at the end of two years is €4,000. What would be the compound interest on the same sum at the same rate for the same period?",
+   "options": [
+    {
+     "text": "$8,000",
+     "added": false
+    },
+    {
+     "text": "%4,080",
+     "added": false
+    },
+    {
+     "text": "&4,040",
+     "added": false
+    },
+    {
+     "text": "34,008",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "a.10 Th f f 1-2sin? @cos*@ 1i C Vale Of anata is: sin*@+cos*® A °",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Study the given table carefully and answer the question that follows. Number of students that appeared for 750 840 1020 an examination Number of students passed [420 [S10 [525 [620 [810 _| Number of students passed with 120 | 165 210 | 324 450 distinction The percentage of students who have passed with distinction in the year 2012, is:",
+   "options": [
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "27%",
+     "added": false
+    },
+    {
+     "text": "22%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "ina particular year, the number of students enrolled in different streams in a College is as follows: Ss 2 = = = i = | The percentage of girl students is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": ". ° The Value of 3—(9-3xX8+2) is",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "a If 1 — 64x? — 12x+ px? = (1— 44x), then the value of p is:",
+   "options": [
+    {
+     "text": "-12",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "—48",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Tf the given number 925x85 is divisible by 11, then the smallest value of xis:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "~ The value of 151? — 149? is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "While selling an article of marked price €5,040 at a discount of 40%, if a trader gains 20%, then the profit in is:",
+   "options": [
+    {
+     "text": "2720",
+     "added": false
+    },
+    {
+     "text": "%504",
+     "added": false
+    },
+    {
+     "text": "%642",
+     "added": false
+    },
+    {
+     "text": "72,520",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "218 Th the given figure, cos @ is equal to: P a 13 a a Q 12 R",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "218 TFA: B=3:5,andB:C=2: 3, thenA:B: C is equal to:",
+   "options": [
+    {
+     "text": "6:10:15",
+     "added": false
+    },
+    {
+     "text": "3:8:6",
+     "added": false
+    },
+    {
+     "text": "6:15:10",
+     "added": false
+    },
+    {
+     "text": "3:73",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "In the given figure, AABC is an isosceles triangle, in which AB= AC, AD 1 BC, BC = 6 cmand AD = 4 cm. The length of AB is: VAN B D Cc",
+   "options": [
+    {
+     "text": "5cm",
+     "added": false
+    },
+    {
+     "text": "4cm",
+     "added": false
+    },
+    {
+     "text": "6cm",
+     "added": false
+    },
+    {
+     "text": "7cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "221 Th the figure, if ZA = 100° then ZC =? A D Cc",
+   "options": [
+    {
+     "text": "100°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    },
+    {
+     "text": "50°",
+     "added": false
+    },
+    {
+     "text": "90°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Two cars A and B leave Delhi at 8:30 a.m. and at 9 a.m. for Shimla, respectively. They travel at the speeds of 40km/h and 50 knw/h respectively. How many kilometres away from Delhi will the two cars be together?",
+   "options": [
+    {
+     "text": "45 km",
+     "added": false
+    },
+    {
+     "text": "5km",
+     "added": false
+    },
+    {
+     "text": "200 km",
+     "added": false
+    },
+    {
+     "text": "+ 100 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "In the given figure, MP is tangent to a circle with centre A and NQ is a tangent to a circle with centre B. If MP = 15 cm, NQ=8 cm, PA= 17 cm and BQ = 10 cm, then AB is: (_. VP P J™., M",
+   "options": [
+    {
+     "text": "23cm",
+     "added": false
+    },
+    {
+     "text": "13.5 cm",
+     "added": false
+    },
+    {
+     "text": "28cm",
+     "added": false
+    },
+    {
+     "text": "14cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "224 Th the given figure, the measure of ZBAC is: A ° 110 f) * B Cc D",
+   "options": [
+    {
+     "text": "56°",
+     "added": false
+    },
+    {
+     "text": "58°",
+     "added": false
+    },
+    {
+     "text": "62°",
+     "added": false
+    },
+    {
+     "text": "48°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": ". . . L. The coefficient of y in the expansion of (2y — 5), is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  }
+ ]
+}

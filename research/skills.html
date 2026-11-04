@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Calculation Skills — Gov Exam Maths</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css"><link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('gems-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){}</script>
+</head>
+<body><div class="shell"><aside class="sidebar"></aside><div class="main"><div class="topbar"></div>
+<main class="content">
+<div class="page-hero"><p class="eyebrow">Calculation, Speed &amp; Difficulty Analytics</p><h1>Calculation skills</h1>
+<p>Skills are mapped to topics — the numbers shown are those mapped topics' certain-record totals, <strong>not</strong> skill-tagged counts (skills are not a field in the tagging records). Solving-time and speed-improvement numbers were never measured: <strong>Data unavailable</strong> for those, everywhere on this page.</p></div>
+<div class="grid grid-3" id="skillGrid"></div>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const SKILLS = [
+    ["Arithmetic", ["Number System", "Simplification"], "sign error, off-by-one"],
+    ["Fractions", ["Number System", "Simplification"], "sign error, formula confusion"],
+    ["Decimals", ["Number System", "Simplification"], "misread, off-by-one"],
+    ["Percentages", ["Percentage"], "trap option, formula confusion"],
+    ["Ratios", ["Ratio-Proportion"], "misread, formula confusion"],
+    ["Multiplication & Division", ["Simplification", "Number System"], "sign error"],
+    ["Squares & Cubes", ["Number System", "Algebra"], "formula confusion"],
+    ["Roots", ["Number System", "Algebra"], "formula confusion"],
+    ["Simplification & BODMAS", ["Simplification"], "sign error, off-by-one"],
+    ["LCM & HCF", ["HCF-LCM"], "off-by-one, formula confusion"],
+    ["Approximation", ["Simplification", "Percentage"], "trap option"],
+    ["Mental Calculations", ["Simplification", "Number System"], "sign error"],
+    ["Unit Conversions", ["Time-Speed-Distance", "Mensuration 2D", "Mensuration 3D"], "unit conversion"],
+    ["Shortcuts", ["Simplification", "Percentage", "Ratio-Proportion"], "trap option — see Patterns for real shortcut labels"],
+  ];
+  let topics = [];
+  try { topics = await loadJSON("data/topics.json"); } catch (e) {}
+  const byName = {};
+  topics.forEach(t => byName[t.name] = t);
+  document.getElementById("skillGrid").innerHTML = SKILLS.map(([name, mapped, traps]) => {
+    const rows = mapped.map(m => {
+      const t = byName[m];
+      return esc(m) + (t ? ' <span class="muted">(' + fmt(t.certain) + ' certain)</span>' : '');
+    }).join(" · ");
+    return '<div class="card"><h3>' + esc(name) + '</h3><p class="small">Mapped topics: ' + rows + '</p>' +
+      '<p class="small muted">Watch for: ' + esc(traps) + '</p>' +
+      '<p class="small muted">Expected solving time: <strong>Data unavailable</strong></p></div>';
+  }).join("");
+});
+</script>
+</main>
+<footer class="site-footer" style="max-width:1180px;margin:0 auto;padding:0 32px 32px"></footer></div></div>
+<div class="palette" id="palette"><div class="palette-box"><input type="text" placeholder="Jump to a page, topic, exam… (Esc to close)"><div class="palette-results" id="paletteResults"></div></div></div>
+<script src="js/chrome.js"></script><script src="js/data.js"></script><script src="js/ui.js"></script>
+</body></html>

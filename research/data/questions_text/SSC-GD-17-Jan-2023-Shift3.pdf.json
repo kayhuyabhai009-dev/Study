@@ -1,0 +1,451 @@
+{
+ "paper": "SSC-GD-17-Jan-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 2,
+   "text": "A can run 1 km in 4 min, and B can cover the same distance in 4 min 10 sec. By what distance can A beat B in a 1 km race?",
+   "options": [
+    {
+     "text": "45 m",
+     "added": false
+    },
+    {
+     "text": "40 m",
+     "added": false
+    },
+    {
+     "text": "35 m",
+     "added": false
+    },
+    {
+     "text": "30 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A sum of money doubles itself at compound interest in 10 years. In how many years will it be four times at the same rate of interest?",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The marked price of a chair was Rs.5,000. The shopkeeper was offering a discount of 20%, but on further bargaining agreed to offer a successive discount and finally sold the chair for Rs.3,600. What was the second discount offered by the shopkeeper?",
+   "options": [
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "11%",
+     "added": false
+    },
+    {
+     "text": "9%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "If 90 is divided into two parts in the ratio of 2:3, then what are the values of two parts?",
+   "options": [
+    {
+     "text": "50 and 40",
+     "added": false
+    },
+    {
+     "text": "36 and 54",
+     "added": false
+    },
+    {
+     "text": "42 and 48",
+     "added": false
+    },
+    {
+     "text": "40 and 50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The weight of five boys is recorded as 22.450 kg, 24.150 kg, 24.720 kg, 28.530 kg and 25.150 kg. What is the average weight of all the five boys?",
+   "options": [
+    {
+     "text": "29 kg",
+     "added": false
+    },
+    {
+     "text": "27 kg",
+     "added": false
+    },
+    {
+     "text": "25 kg",
+     "added": false
+    },
+    {
+     "text": "26 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A bus covered a distance of 72 km in 60 min. What is the speed of the bus in km/h?",
+   "options": [
+    {
+     "text": "91",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "84",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "A hemisphere of lead of radius 5 cm is cast into a right circular cone of height 75 cm. If the volume of cone and hemisphere are equal, then what will be the radius of the base of the cone?",
+   "options": [
+    {
+     "text": "1.8 cm",
+     "added": false
+    },
+    {
+     "text": "1.4 cm",
+     "added": false
+    },
+    {
+     "text": "1.5 cm",
+     "added": false
+    },
+    {
+     "text": "1.2 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A man spends 31% and 9% of his monthly income on food and clothing, respectively, and one third of the remaining on the education of children. He saves ₹4,500 per month, which is equal to half the balance after spending on food, clothing and education of children. His monthly salary is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A, B, and C start running simultaneously, starting from a point, around a circular track of length 900m, with respective speeds of 3m/s, 5m/s, and 6m/s. A and B run in the same direction while C runs in the opposite direction of the other two. After how much time will they meet for the first time?",
+   "options": [
+    {
+     "text": "12 minutes",
+     "added": false
+    },
+    {
+     "text": "13 minutes",
+     "added": false
+    },
+    {
+     "text": "14 minutes",
+     "added": false
+    },
+    {
+     "text": "15 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A lady professes to sell sugar at 20% profit on the cost price and using a weight which is 30% less than the actual measure. What is her gain percentage?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The difference between two numbers is 1086. When we divide the larger number by the smaller we get six as quotient and six as remainder. Find the larger number.",
+   "options": [
+    {
+     "text": "1402",
+     "added": false
+    },
+    {
+     "text": "1302",
+     "added": false
+    },
+    {
+     "text": "1502",
+     "added": false
+    },
+    {
+     "text": "1202",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "After getting two successive discounts Rupa got a dress at Rs. 1619.20, whose marked price is Rs. 2000. If the second discount is 8 percent, then the first discount is:",
+   "options": [
+    {
+     "text": "10 percent",
+     "added": false
+    },
+    {
+     "text": "6 percent",
+     "added": false
+    },
+    {
+     "text": "12 percent",
+     "added": false
+    },
+    {
+     "text": "15 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A and B together can do a piece of work in 20 days, and B and C together can do the same work in 100 days. If B alone can do the same work in 140 days, then in how many days will A and C together can complete the same work?",
+   "options": [
+    {
+     "text": "125/8 days",
+     "added": false
+    },
+    {
+     "text": "175/8 days",
+     "added": false
+    },
+    {
+     "text": "111/3 days",
+     "added": false
+    },
+    {
+     "text": "145/6 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A can do a piece of work in 4 days, while B can do it in 8 days. If they work on alternate days beginning with A, then in how many days will the work be completed?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3.5",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "If a diamond ring is sold for ₹5,94,320, then a woman will get a loss of 5%. At what price should she sell it so that her profit becomes 25%?",
+   "options": [
+    {
+     "text": "₹7,32,140",
+     "added": false
+    },
+    {
+     "text": "₹7,42,800",
+     "added": false
+    },
+    {
+     "text": "₹7,52,010",
+     "added": false
+    },
+    {
+     "text": "₹7,82,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "In a panchayat election, there were two candidates A and B. Candidate A got 42% of the votes and lost to B by 8000 votes. What is the total number of votes?",
+   "options": [
+    {
+     "text": "30000",
+     "added": false
+    },
+    {
+     "text": "3000",
+     "added": false
+    },
+    {
+     "text": "5000",
+     "added": false
+    },
+    {
+     "text": "50000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 309,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

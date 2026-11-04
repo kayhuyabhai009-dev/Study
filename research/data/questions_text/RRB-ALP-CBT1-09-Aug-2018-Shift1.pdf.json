@@ -1,0 +1,66 @@
+{
+ "paper": "RRB-ALP-CBT1-09-Aug-2018-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 2,
+   "text": "Which of the following numbers will have an irrational square root?",
+   "options": [
+    {
+     "text": "2048",
+     "added": false
+    },
+    {
+     "text": "2401",
+     "added": false
+    },
+    {
+     "text": "1024",
+     "added": false
+    },
+    {
+     "text": "4096",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "2048"
+  },
+  {
+   "n": 16,
+   "text": "The ratio of the numbers of blue to red balls in a bag is constant. When there were 44 red balls, the number of blue balls was 36. If the number of blue balls is 54, how many red balls will be in the bag?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "direct-inverse-variation",
+   "key_answer": "66"
+  },
+  {
+   "n": 19,
+   "text": "Ina class, there were 9 boys and some girls. In a test the mean score obtained by the boys was 12 while that obtained by the girls was 14. If the overall average was 13.1, what was the total number of students in the class?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": "20"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 273,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

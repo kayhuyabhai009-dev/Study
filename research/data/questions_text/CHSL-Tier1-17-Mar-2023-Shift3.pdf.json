@@ -1,0 +1,516 @@
+{
+ "paper": "CHSL-Tier1-17-Mar-2023-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Rajiv sells a pen ata profit of 5 percent. If he sells the pen for Rs. 36 more, then he ears a profit of 14 percent. What is the cost price of the pen?",
+   "options": [
+    {
+     "text": "Rs. 600",
+     "added": false
+    },
+    {
+     "text": "Rs. 300",
+     "added": false
+    },
+    {
+     "text": "Rs. 500",
+     "added": false
+    },
+    {
+     "text": "00",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "What is the value of tan 10°.tan 25°.tan 45°.tan 65°.tan 80°",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "43",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "4 1 ™ 2 i If x += 16, then what is the value of x ee",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The table given below shows the cost price and value of profit of 6 articles. IB [25025 lc [iso | 100 ID [200 | 150 Ji = The value of average cost price of A, B, C and D. J2 = The total profit of all articles. What is the value of (J1 : J2)?",
+   "options": [
+    {
+     "text": "927",
+     "added": false
+    },
+    {
+     "text": "7:3",
+     "added": false
+    },
+    {
+     "text": "3:11",
+     "added": false
+    },
+    {
+     "text": "3:7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Piyush marks the price of his article 30 percent more than its cost price. If he sells the article for Rs. 3720 after allowing a discount of 20 percent, then what will be the cost price of the article?",
+   "options": [
+    {
+     "text": "Rs. 5000",
+     "added": false
+    },
+    {
+     "text": "Rs. 5350",
+     "added": false
+    },
+    {
+     "text": "Rs. 5200",
+     "added": false
+    },
+    {
+     "text": "Rs. 5500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Parallel sides of a trapezium are 21 cm and 14 em and its area is 875 cm?. What is the distance between parallel sides?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The line chart given below shows the number of male teacher and female teachers in 5 schools, 0 i \\ \\ 30 19 ‘i Pp Qq R Ss T —e-Maleteacher Female teacher Ji =Total number of male and female teachers in school P. J2 = The difference between the total number of male and the total number of female teachers in all the 5 schools. What is the value of (J1 : J2)?",
+   "options": [
+    {
+     "text": "4:7",
+     "added": false
+    },
+    {
+     "text": "9:7",
+     "added": false
+    },
+    {
+     "text": "5:7",
+     "added": false
+    },
+    {
+     "text": "7:4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs . 70f14+4 | 6+12x3 | 15+5x6 What is the value of ———— + ——— + ——— ? 5x4+2 5+25x2 5x15+6",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The ratio of the present age of two girls is 3 : 4. After (wo year the ratio will be 7: 9. Which of the following statement(s) is/are correct? I, Ratio of their ages after 10 year is 6 : 7. II. Ratio of their ages after 12 years is 6; 7.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "ABCD isa cyclic quadrilateral in which angle B is opposite to angle D. If 22 =x + 10 degree and 2D = 2x +35 degree, then what is the value of x?",
+   "options": [
+    {
+     "text": "35 degree",
+     "added": false
+    },
+    {
+     "text": "40 degree",
+     "added": false
+    },
+    {
+     "text": "50 degree",
+     "added": false
+    },
+    {
+     "text": "45 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "P's income is 250 percent of Q’s income and P's expenditure is 180 percent of Q’s expenditure. If P’s income is 400 percent of Q’s expenditure, then what is the respective ratio of P’s savings and Q’s savings?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "2 s 5 P cos? 6—sin* 6 If sin 9 = —, then what is the value of —-—\" >\"? 13 2cos 6.sin8",
+   "options": [
+    {
+     "text": "115/126",
+     "added": false
+    },
+    {
+     "text": "113/120",
+     "added": false
+    },
+    {
+     "text": "117/136",
+     "added": false
+    },
+    {
+     "text": "119/120",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The perimeter of an isosceles triangle is 91 cm. If one of the equal sides measures 28 cm, then what is the value of the other non-equal side?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "What is the average of all prime numbers between 30 and 50?",
+   "options": [
+    {
+     "text": "38.5",
+     "added": false
+    },
+    {
+     "text": "39.8",
+     "added": false
+    },
+    {
+     "text": "34.2",
+     "added": false
+    },
+    {
+     "text": "36.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "In AXYZ, Lis the incentre of the AXYZ. If ZXYZ = 40 degree, then what is the value of ZXIZ?",
+   "options": [
+    {
+     "text": "115 degree",
+     "added": false
+    },
+    {
+     "text": "110 degree",
+     "added": false
+    },
+    {
+     "text": "120 degree",
+     "added": false
+    },
+    {
+     "text": "130 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Sides of a triangle are 9 cm, 6 cm and 5 cm. What is the value of circumradius of this triangle?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "5 does halfas much work as T in 1/8 of the time taken by I. If they together complete a work in 60 days, then how may days shall $ alone take to complete that work?",
+   "options": [
+    {
+     "text": "80 days",
+     "added": false
+    },
+    {
+     "text": "90 days",
+     "added": false
+    },
+    {
+     "text": "75 days",
+     "added": false
+    },
+    {
+     "text": "100 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If sina = 1/2 and sin B = 1/2. then what is the value of cos (a + B)? (0 degree < o, 8 < 90 degree)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "= = = : 3443 + 639 Ifa+b+c=1,ab+be+ca=— | and abc =—1, then what is the value of a° + b? + ¢°?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Initial value ofa car is Rs. 20000. The value of car depreciated by 20 percent of its initial value each year. What will be its value after 3 years?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "« What is the value of (a+b) —a? —b*?",
+   "options": [
+    {
+     "text": "3ab(a—b)",
+     "added": false
+    },
+    {
+     "text": "—3ab(a—b)",
+     "added": false
+    },
+    {
+     "text": "3ab(a +b)",
+     "added": false
+    },
+    {
+     "text": "-3ab(a+ b)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The pie chart given below show the runs scored by 5 batsman in a cricket match, Total mus scored by these batsman. are 400. Runs scored by a batsman is shown as a percentage of runs scored by all these five batsman 4 ‘ ‘What is the ratio of runs scored by D to the runs scored by H?",
+   "options": [
+    {
+     "text": "125",
+     "added": false
+    },
+    {
+     "text": "4:1",
+     "added": false
+    },
+    {
+     "text": "1:3",
+     "added": false
+    },
+    {
+     "text": "31",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The following bar graph shows the amount (in lakh Rs.) investment by a company in purchasing raw materials over the years 2015 to 2019. By how much percent the company increase its investment on raw materials in 2019, as compared to 2015? a 350 500 = 425 2 1.0 375 sia 3 330 | 300 = g 200 & 2 100 ° 2015 2016 2017 2018 2019 Year",
+   "options": [
+    {
+     "text": "33.33%",
+     "added": false
+    },
+    {
+     "text": "66.66%",
+     "added": false
+    },
+    {
+     "text": "11.66%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Average of § values is 36. If 4 is subtracted from each of the first three values and 5 is added in the each of the next five values, then what will be the new average?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Diameter of wheel of a cycle is 7 cm. A cyclist takes 75 minutes to reach a destination at the speed of 36.3 kmv/hr. How many revolutions will the wheel make during the journey?",
+   "options": [
+    {
+     "text": "196280",
+     "added": false
+    },
+    {
+     "text": "206250",
+     "added": false
+    },
+    {
+     "text": "216580",
+     "added": false
+    },
+    {
+     "text": "212520",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  }
+ ]
+}

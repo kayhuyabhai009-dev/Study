@@ -1,0 +1,311 @@
+{
+ "paper": "RRB-ALP-CBT2-PartA-02-May-2025-Shift1.pdf",
+ "status": "ok",
+ "mode": "answer-anchored-partial",
+ "splitter": "qdot",
+ "section_slice": false,
+ "extracted_count": 175,
+ "tagged_count": 26,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The area of a regular polygon with a side of 8 cm is 112 cm?. If the perpendicular distance from the centre to the side of the polygon is 7 cm, then the number of sides of the polygon is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "polygons",
+   "key_answer": "4"
+  },
+  {
+   "n": 2,
+   "text": "Two plumbers, X and Y, are paid a total of ₹770 per day by their employer. If X is paid 140% of the sum paid to Y, then how much is Y paid (in ₹, rounded off to two decimal places) per day?",
+   "options": [
+    {
+     "text": "320.83",
+     "added": false
+    },
+    {
+     "text": "270.83",
+     "added": false
+    },
+    {
+     "text": "220.83",
+     "added": false
+    },
+    {
+     "text": "370.83",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "320.83"
+  },
+  {
+   "n": 3,
+   "text": "Study the given bar-graph and answer the question that follows. The given bar-graph indicates the number of flats sold by a builder in five different cities in 2020. The number of flats sold in Delhi is what percentage more than the number of flats sold in Mumbai?",
+   "options": [
+    {
+     "text": "150%",
+     "added": false
+    },
+    {
+     "text": "75%",
+     "added": false
+    },
+    {
+     "text": "120%",
+     "added": false
+    },
+    {
+     "text": "125%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "150%"
+  },
+  {
+   "n": 7,
+   "text": "Jaspreet deposited a sum of ₹58,550 at 20% rate of interest per annum, compounded annually. The total amount (in ₹) received by Jaspreet after 2 years will be:",
+   "options": [
+    {
+     "text": "83,876",
+     "added": false
+    },
+    {
+     "text": "84,312",
+     "added": false
+    },
+    {
+     "text": "84,735",
+     "added": false
+    },
+    {
+     "text": "84,700",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "84312"
+  },
+  {
+   "n": 9,
+   "text": "The areas of three adjacent faces of a solid cuboid are 216 cm2, 114 cm2 and 19 cm2. What is the volume (in cm3) of the cuboid?",
+   "options": [
+    {
+     "text": "532",
+     "added": false
+    },
+    {
+     "text": "880",
+     "added": false
+    },
+    {
+     "text": "684",
+     "added": false
+    },
+    {
+     "text": "955",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "684"
+  },
+  {
+   "n": 11,
+   "text": "A 280 m long train running at a speed of 72 km/hr passes a platform in 30 seconds. Find the length of the platform (in m).",
+   "options": [
+    {
+     "text": "335",
+     "added": false
+    },
+    {
+     "text": "320",
+     "added": false
+    },
+    {
+     "text": "280",
+     "added": false
+    },
+    {
+     "text": "300",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-platform",
+   "key_answer": "320"
+  },
+  {
+   "n": 12,
+   "text": "Amit's income in 2019 was ₹27,000. He gets an increment of 10% every year. What was his income (in ₹) in 2021?",
+   "options": [
+    {
+     "text": "27,000",
+     "added": false
+    },
+    {
+     "text": "32,670",
+     "added": false
+    },
+    {
+     "text": "29,700",
+     "added": false
+    },
+    {
+     "text": "32,400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "growth-and-depreciation",
+   "key_answer": "32670"
+  },
+  {
+   "n": 15,
+   "text": "Megha bought a bag for ₹1,271 after getting a discount of 18% on its marked price. Find the marked price of the bag.",
+   "options": [
+    {
+     "text": "₹1,450",
+     "added": false
+    },
+    {
+     "text": "₹1,550",
+     "added": false
+    },
+    {
+     "text": "₹1,350",
+     "added": false
+    },
+    {
+     "text": "₹1,650",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": "1550"
+  },
+  {
+   "n": 17,
+   "text": "Simplify 976 ⨯ 265 + 976 ⨯ 735.",
+   "options": [
+    {
+     "text": "876000",
+     "added": false
+    },
+    {
+     "text": "976000",
+     "added": false
+    },
+    {
+     "text": "752800",
+     "added": false
+    },
+    {
+     "text": "658200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "976000"
+  },
+  {
+   "n": 18,
+   "text": "The average of 5 results is 51 and that of the first 4 is 50. The 5th result is _____.",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "55",
+     "added": false
+    },
+    {
+     "text": "51",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "55"
+  },
+  {
+   "n": 19,
+   "text": "Rinku riding his car covers 136 metres in 17 seconds. What is his speed (in km/hr)?",
+   "options": [
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "28.8",
+     "added": false
+    },
+    {
+     "text": "11.6",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "28.8"
+  },
+  {
+   "n": 21,
+   "text": "Why is it important for every person to follow safety procedures in the workplace?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "2"
+  },
+  {
+   "n": 22,
+   "text": "In a hospital, the ratio between the number of doctors and the number of nurses was 1 :",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "12"
+  }
+ ]
+}

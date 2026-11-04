@@ -1,0 +1,160 @@
+{
+ "paper": "RRB-ALP-CBT1-26-Nov-2024-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 22,
+ "questions": [
+  {
+   "n": 3,
+   "text": "Th Ve e value of (0.000001) ”° is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "roots",
+   "key_answer": "0.01"
+  },
+  {
+   "n": 9,
+   "text": "— Study the given table and answer the question that follows. The table depicts new admissions in the Primary and Middle wings of a school in the years 2021 and 2022. [New admission in |New admission in [Primary Wing Middle Wing How many new admissions were there in the Primary wing of the school in the years 2021 and 2022 together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "37"
+  },
+  {
+   "n": 10,
+   "text": "A solution contains 40 ml of acid in 120 ml of water. Calculate the concentration in terms of volume by volume percentage of the solution.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "25%"
+  },
+  {
+   "n": 13,
+   "text": "The income of X is 60% more than Y’s income and the income of Y is 40% more than Z’s income. By what percentage is X’s income more than Z’s income?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": "124%"
+  },
+  {
+   "n": 15,
+   "text": "An article is sold for x after offering two successive discounts of 20% and 15% on its marked price of 500. The value of x is:",
+   "options": [
+    {
+     "text": "340",
+     "added": false
+    },
+    {
+     "text": "285",
+     "added": false
+    },
+    {
+     "text": "280",
+     "added": false
+    },
+    {
+     "text": "345",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "340"
+  },
+  {
+   "n": 16,
+   "text": "— § men and 12 women can build a wall in 10 days. 6 men and 8 women can build the same wall in 14 days. How many more days will 1 woman take to build that wall alone compared to the number of days | man will take to build the same wall alone?",
+   "options": [
+    {
+     "text": "35 days",
+     "added": false
+    },
+    {
+     "text": "280 days",
+     "added": false
+    },
+    {
+     "text": "70 days",
+     "added": false
+    },
+    {
+     "text": "140 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "140 days"
+  },
+  {
+   "n": 17,
+   "text": "Simplify the following expression: 4,33%4.33 ~ 2.65% 2.65",
+   "options": [
+    {
+     "text": "68",
+     "added": false
+    },
+    {
+     "text": "6.94 S22 6.98",
+     "added": false
+    },
+    {
+     "text": "6.99",
+     "added": false
+    },
+    {
+     "text": "6.96",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "6.98"
+  },
+  {
+   "n": 20,
+   "text": "A invests 28,000 and B invests 211,000 at the same rate of simple interest per annum. If, at the end of 3 years, B gets 2720 more interest than A, then find the rate of simple interest per annum.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": "8%"
+  },
+  {
+   "n": 22,
+   "text": "Find the median of the data 11, 16, 33, 15, 51, 19, 71, 75, 21, 17.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "20"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.14,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 227,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "paper": "RRB-ALP-CBT1-09-Aug-2018-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 24,
+ "questions": [
+  {
+   "n": 3,
+   "text": "There are saplings of 361 Mango tree and Neem tree in a garden. The ratio of the number . of Mango tree to that of Neem tree saplings is 8 : 11, then how many Neem tree saplings are in the garden?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "209"
+  },
+  {
+   "n": 5,
+   "text": ": : jan feb mar apr may jun The given data shows the registration of bikes and total vehicles (in thousands) for 6 months in 2017 in City X. Note: In the chart, the first number represents bikes and the second number represents total vehicles. Based on the given data, from January to April 2017, the increase in the registration of vehicles other than bikes is :",
+   "options": [
+    {
+     "text": "9000",
+     "added": false
+    },
+    {
+     "text": "8500",
+     "added": false
+    },
+    {
+     "text": "9050",
+     "added": false
+    },
+    {
+     "text": "8000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "9000"
+  },
+  {
+   "n": 14,
+   "text": "a , . . we Who among the following laid the foundation of chemical sciences by establishing two important laws of chemical combination? ral Hage TETHIS Emest Rutherford",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": "3"
+  },
+  {
+   "n": 17,
+   "text": "ais Rt 9 A sy Say Cas WSR BY GT Ba @uesiion (SEED 750 invested for 3 months gave an interest of € 18. What was the simple rate of interest Siatusl Answered per annum?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": "9.6%"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 267,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

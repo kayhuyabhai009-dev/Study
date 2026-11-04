@@ -1,0 +1,533 @@
+{
+ "paper": "CHSL-Tier1-09-Mar-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Anarticle is sold at 10 percent loss. If its cost price is decreased by Rs.5 and selling price is increased by Rs.8, then profit of 10 percent is earned on it. What is the original selling price of the article?",
+   "options": [
+    {
+     "text": "Rs.68.5",
+     "added": false
+    },
+    {
+     "text": "Rs.62.5",
+     "added": false
+    },
+    {
+     "text": "Rs.67.5",
+     "added": false
+    },
+    {
+     "text": "Rs.60.75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "15 ‘ , If tanF= 3 then what is the value of sin F + cos F?",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "1 2.2 17 22",
+     "added": false
+    },
+    {
+     "text": "17 20",
+     "added": false
+    },
+    {
+     "text": "— 17",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Average of 9 consecutive odd numbers is 27. If the previous and next odd number to these 9 odd numbers are also included, then what will be the new average?",
+   "options": [
+    {
+     "text": "29",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Two trains, one 125 metres and the other 375 metres long are running in opposite directions on parallel tracks, at the speed of 81 knv/hr and 63 km/hr respectively. How much time will they take to cross each other?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "APQR isa right angled triangle. 2Q = 90 degree, PQ = 12 cm, QR = 5 cm. What is the value of cot P—tan R?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "é 36+18x5 S+15xX5+6X2—-5 5 If A = ——— and B = ————_, then what is the value of (A+B)? 36+(3x4) 15+5xX25-2x3+6",
+   "options": [
+    {
+     "text": "776/225",
+     "added": false
+    },
+    {
+     "text": "772/225",
+     "added": false
+    },
+    {
+     "text": "401/225",
+     "added": false
+    },
+    {
+     "text": "424/225",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Instead of increasing a number successively by 20 percent and 30 percent, it is decreased by 22 percent. Resultant value is what percentage of the required correct value?",
+   "options": [
+    {
+     "text": "55 percent",
+     "added": false
+    },
+    {
+     "text": "350 percent",
+     "added": false
+    },
+    {
+     "text": "48 percent",
+     "added": false
+    },
+    {
+     "text": "60 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "On Selling a book at 8/15 of the marked price there is a loss of 20 percent. What will be the ratio of marked price and cost price of the book?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The bar graph given below shows the number of books sold by two shopkeepers $1 and S2 in 5 months. 60 20 40 20 38 25 5 a rb 5 . Mio M2 MaMa MS usi_os2 J1 =The total number of books sold by S1 and S2 in all 5 months. J2 =The difference between the total number of books sold by Si in all 5 months and total number of books sold by S2 in all 5 months. ‘What is the value of (J1 +J2)?",
+   "options": [
+    {
+     "text": "260",
+     "added": false
+    },
+    {
+     "text": "160",
+     "added": false
+    },
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "130",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Mohit and Rohit undertook a work for Rs. 4400. Mohit alone can do that work in 10 days and Rohit alone can do the same work in 15 days. If they work together, then what will be the difference in the amount they receive?",
+   "options": [
+    {
+     "text": "Rs. 1050",
+     "added": false
+    },
+    {
+     "text": "Rs. 800",
+     "added": false
+    },
+    {
+     "text": "Rs. 900",
+     "added": false
+    },
+    {
+     "text": "Rs. 880",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Three numbers are in the ratio of 2 : 3 : 5. If the sum of the largest and the smallest number is 9800, then what is the difference of the largest and the smallest number?",
+   "options": [
+    {
+     "text": "2400",
+     "added": false
+    },
+    {
+     "text": "4200",
+     "added": false
+    },
+    {
+     "text": "3300",
+     "added": false
+    },
+    {
+     "text": "3600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": ". The radii of two concentric circles are x cm and 26 cm. Pand S are the points on larger circle and Q and R are points on smaller circle. If PQRS is a straight line and QR = 40 cm and PS = 48 cm, then what is the value of x? (x < 26 cm)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Compound interest (compounding annually) on a sum for 2 yeats is Rs. 4180. If rate of interest is 20 percent per annum, then what is the sum?",
+   "options": [
+    {
+     "text": "Rs. 9500",
+     "added": false
+    },
+    {
+     "text": "Rs. 9800",
+     "added": false
+    },
+    {
+     "text": "Rs. 8500",
+     "added": false
+    },
+    {
+     "text": "Rs. 8800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "\" 2 A ‘ Ina ARST . Z isa point on side ST and SZ = ZT. If ZRZS = 90 degree and RS = 10 cm, then what is the value of RT?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The bar graph given below shows the production of refrigerator by 6 companies. 300 210 180 150 120 60 A B c D E F The production of refrigerator by A is what percent of the production of refrigerator by E?",
+   "options": [
+    {
+     "text": "200 percent",
+     "added": false
+    },
+    {
+     "text": "600 percent",
+     "added": false
+    },
+    {
+     "text": "500 percent",
+     "added": false
+    },
+    {
+     "text": "400 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "WAXYZ, ZY =90 degree and YN is perpendicular to XZ. If XY = 30 cm and XZ = 34 cm, then what is the value of YN?",
+   "options": [
+    {
+     "text": "(280/17) cm",
+     "added": false
+    },
+    {
+     "text": "(240/17) cm",
+     "added": false
+    },
+    {
+     "text": "(220/17) cm",
+     "added": false
+    },
+    {
+     "text": "(210/17) cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The table given below shows the sales of two companies in 5 years. | | _—_ Companies Yers | A | B | | P| 350 | 150 | @ | sso | 850 | | RR | 750 | 950 Ps | «0 | 350 | L1 = The difference between the total sales of A and B in all years. L2 = The value of average sales of A in all years. What is the value of (L1 : L2)?",
+   "options": [
+    {
+     "text": "16: 11",
+     "added": false
+    },
+    {
+     "text": "11:17",
+     "added": false
+    },
+    {
+     "text": "13:12",
+     "added": false
+    },
+    {
+     "text": "11:16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Angle subtended by a chord CD on the centre of a circle is 180 degree. If radius of this circle is 14 cm, then what will be the length of chord CD?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Ina school average weight of girls and boys are 30 kg and 36 kg. If number of girls is twice of the number of boys, then what will be the average weight of all the students in school?",
+   "options": [
+    {
+     "text": "32kg",
+     "added": false
+    },
+    {
+     "text": "31 kg",
+     "added": false
+    },
+    {
+     "text": "31.5 kg",
+     "added": false
+    },
+    {
+     "text": "33 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": ".20 , . 220 FF total surface area of a cube is 384 cm2, then what is the volume of cube?",
+   "options": [
+    {
+     "text": "1728 cm?",
+     "added": false
+    },
+    {
+     "text": "729 om3",
+     "added": false
+    },
+    {
+     "text": "512 cm?",
+     "added": false
+    },
+    {
+     "text": "1331 om?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "221 Tf sin B—cos A=0, then what is the value of A+ B?",
+   "options": [
+    {
+     "text": "45 degree",
+     "added": false
+    },
+    {
+     "text": "90 degree",
+     "added": false
+    },
+    {
+     "text": "60 degree",
+     "added": false
+    },
+    {
+     "text": "0 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The bar graph given below shows the number of players participating in two games in six different schools L, M. N, P, Qand R. 16 110, a 102 108 \" . « & >» -—S ao oe Total number of players participating in game D from all schools is what percentage of the total number of players participating in game E from all schools?",
+   "options": [
+    {
+     "text": "99.68 percent",
+     "added": false
+    },
+    {
+     "text": "142.56 percent",
+     "added": false
+    },
+    {
+     "text": "132.78 percent",
+     "added": false
+    },
+    {
+     "text": "75.3 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "2 . Tix“ + y = 29 and x — y = 3, then what is the value of 4xy?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "924 Tf572X41 is divisible by 9, then what is the value of X?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "6 2 . a ti Ifa* + = = 194, then what is the value of —— ? a a",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  }
+ ]
+}

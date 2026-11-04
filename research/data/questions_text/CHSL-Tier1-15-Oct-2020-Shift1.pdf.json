@@ -1,0 +1,533 @@
+{
+ "paper": "CHSL-Tier1-15-Oct-2020-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "cosx 1+si 5 — + his equal to: 1+sinx cosx",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "2 2 92 The factors of the expression 2x* — 5x —12 are:",
+   "options": [
+    {
+     "text": "(x — 4) and (2x— 3)",
+     "added": false
+    },
+    {
+     "text": "(x +4) and (2x+ 3)",
+     "added": false
+    },
+    {
+     "text": "(x— 4) and (2x+ 3)",
+     "added": false
+    },
+    {
+     "text": "(«4+ 4) and (2x— 3)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "factorisation",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "9.3 The area of a rectangle is a? — b? and its length is @ + b, what will be its breadth?",
+   "options": [
+    {
+     "text": "2ab",
+     "added": false
+    },
+    {
+     "text": "a+b",
+     "added": false
+    },
+    {
+     "text": "ab",
+     "added": false
+    },
+    {
+     "text": "a-b",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The radius of a circular cone is 6 cm and its height is 7 cm. Then the volume of cone in cm? is: (Take m = 2)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Addale4/7) ic 25 Tf 7129p465 is divisible by 9, then the value of p is:",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Ifa and b are two positive real numbers such that a+ b = 20 and ab = 4, then the value of a? + b? is:",
+   "options": [
+    {
+     "text": "7760",
+     "added": false
+    },
+    {
+     "text": "240",
+     "added": false
+    },
+    {
+     "text": "8000",
+     "added": false
+    },
+    {
+     "text": "8240",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The given graph represents the rainfall (in cm) in a city, over a period of six years. Study the graph and answer the question that follows. | 10 2120 120 £100 100 & 80 pa & Fei no. 3 20 a 2005 2006 2007 2008 2009 2010 Years In which two consecutive years was the difference of the rainfall minimum?",
+   "options": [
+    {
+     "text": "2007 - 2008",
+     "added": false
+    },
+    {
+     "text": "2006 - 2007",
+     "added": false
+    },
+    {
+     "text": "2008 - 2009",
+     "added": false
+    },
+    {
+     "text": "2005 - 2006",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "line-graph",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "MmAPQR, the side QR is extended to S such that RS = PR. If 4QPS = 110° and 2PRQ = 70°, then the value of ZPQR is:",
+   "options": [
+    {
+     "text": "50°",
+     "added": false
+    },
+    {
+     "text": "40°",
+     "added": false
+    },
+    {
+     "text": "5°",
+     "added": false
+    },
+    {
+     "text": "45°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The given bar graph represents the pass percentage of the 10\" and 12% classes of a school during the consecutive four year period 2016-2019. 100 90 82 bod | oj) 7 J ies n oo, s2 so. «0 | £ so | H 205 104 8 2016 2017 2018 2019 10th class 12th class ‘What is the average of pass percentage of the 10\" class for all four years?",
+   "options": [
+    {
+     "text": "65.75%",
+     "added": false
+    },
+    {
+     "text": "63.25%",
+     "added": false
+    },
+    {
+     "text": "63.75%",
+     "added": false
+    },
+    {
+     "text": "65.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Mohan covers a distance of 2.5 km by scooter at the rate of 30 km/h. The time taken by Mohan to cover the given distance in minutes is:",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The compound interest on 74,000 after 3 year is $630.50. Then the rate of interest compounded yearly is :",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The average marks of Ravi in five subjects are 150, but in mathematics 43 was misread as 23 during the calculation. The correct average is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "If an amount of 7800 is distributed between Ravi, Mohan and Govind in the proportions 2 : 5 ; 3, then the sum of the shares of Mohan and Govind, is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "If the marked price of a television set is €24,500, then, its selling price after a 12% discount on it is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Inacircle, two equal and parallel chords are 6 cm apart and they lie on the opposite sides of the centre of the circle, whose radius is 5 cm. The length of each chord (in cm), is:",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Ina class, if 60% of the students are boys and the number of girls is 36, then the number of boys is:",
+   "options": [
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "58",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "percentage-basics",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Pp ° oO i If cosx = . and 0° < x < 90°, then the value of tanx is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Addale4i7) Sie al Q.18 The given bar graph represents the pass percentage of 10\" and 12\" classes of a school during the consecutive four year period 2016-2019. 100 90 2 bad 80 n i mi n i. Pr n io £ 30 i 20 10 0} : l 2016 2017 2018 2019 ‘moth class w 12th class ‘What is the average percentage of the failed students of the 12\" class for all four years?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "919 IF sinx — cosx = 0,0° < x < 90° then the value of (secx + cosecx)? is:",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Ina AABC, ZABC = 22CAB. If the side BC is extended to D and ZACD = 126°, then 2CAB is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Study the given pie-chart and table carefully and answer the question that follows. The percentage-wise distribution of lecturers in five different subjects in a university is shown in the pie-chart. The total number of lecturers is 500. Physics 22% Chemistry 20% Botany’ Ratio of male to female lecturers: jowaer fa nl a Find the number of male lecturers in Physics.",
+   "options": [
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "46",
+     "added": false
+    },
+    {
+     "text": "44",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "22 . . 922 The value of 27 + [3(50— 20) + 168+4+4+2—11x 2] is:",
+   "options": [
+    {
+     "text": "245",
+     "added": false
+    },
+    {
+     "text": "139",
+     "added": false
+    },
+    {
+     "text": "149",
+     "added": false
+    },
+    {
+     "text": "239",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Acircle is centred at O. Two tangents AP and AQ are drawn from an external point A. If 2POQ = 118°, then ZPAQ is equal to:",
+   "options": [
+    {
+     "text": "112°",
+     "added": false
+    },
+    {
+     "text": "62°",
+     "added": false
+    },
+    {
+     "text": "72°",
+     "added": false
+    },
+    {
+     "text": "98°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Tap Acan fill a tank in 6 hours and tap B can empty the same tank in 10 hours. If both taps are opened together, then how much time (in hours) will be taken to fill the tank?",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "two-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The cost price of 15 pens is equal to the selling price of 20 pens. The loss or profit percentage is:",
+   "options": [
+    {
+     "text": "20% loss",
+     "added": false
+    },
+    {
+     "text": "25% loss",
+     "added": false
+    },
+    {
+     "text": "20% profit",
+     "added": false
+    },
+    {
+     "text": "25% profit",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  }
+ ]
+}

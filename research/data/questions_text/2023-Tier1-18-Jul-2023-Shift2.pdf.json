@@ -1,0 +1,621 @@
+{
+ "paper": "2023-Tier1-18-Jul-2023-Shift2.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "If the areas of two similar triangles are in the ratio 196 : 625,what would be the ratio of the corresponding sides?",
+   "options": [
+    {
+     "text": "14:25",
+     "added": false
+    },
+    {
+     "text": "13:20",
+     "added": false
+    },
+    {
+     "text": "14:20",
+     "added": false
+    },
+    {
+     "text": "13:25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "If secO + tané = 5, then find the value of tan®.",
+   "options": [
+    {
+     "text": "— 12 13",
+     "added": false
+    },
+    {
+     "text": "— 5 13",
+     "added": false
+    },
+    {
+     "text": "— 3 12",
+     "added": false
+    },
+    {
+     "text": "— 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "° The ratio of the length of each equal side and the third side of an isosceles triangle is 3 : 5. If the area of the triangle is 30V11 cm?, then the length of the third side (in cm) is:",
+   "options": [
+    {
+     "text": "0V6",
+     "added": false
+    },
+    {
+     "text": "5V¥6",
+     "added": false
+    },
+    {
+     "text": "13V6",
+     "added": false
+    },
+    {
+     "text": "11V6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Ina factory, utensils are manufactured in three plants, plant A, B and C. How many plates are manufactured by plant B if total plates are 3260? Share in manufacturing 100% BO% 60% 40% 20% 0% Bow! Spoons Plates. Glass wPlantA mPlantB @PlantC",
+   "options": [
+    {
+     "text": "1467",
+     "added": false
+    },
+    {
+     "text": "1304",
+     "added": false
+    },
+    {
+     "text": "1254",
+     "added": false
+    },
+    {
+     "text": "1141",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "1 1 1 1 Ps The value of (4 + a) (5 - =) is: in@ tan6/ \\sin6 tan®@",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The percentage profit earned by selling an article for 2,000 is the same as the percentage loss incurred by selling the same article for 1,200. At what price should that article be sold to make a profit of 20%?",
+   "options": [
+    {
+     "text": "2,000",
+     "added": false
+    },
+    {
+     "text": "%1,800",
+     "added": false
+    },
+    {
+     "text": "%1,920",
+     "added": false
+    },
+    {
+     "text": "%1,840",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Which number among 24963, 24973, 24983 and 24993 is divisible by 7?",
+   "options": [
+    {
+     "text": "24973",
+     "added": false
+    },
+    {
+     "text": "24983",
+     "added": false
+    },
+    {
+     "text": "24963",
+     "added": false
+    },
+    {
+     "text": "24993",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Simplify the following: sin 2x + 2 sin 4x + sin 6x",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "If405:y::y: 125, and y > 0, then find the value of y.",
+   "options": [
+    {
+     "text": "225",
+     "added": false
+    },
+    {
+     "text": "205",
+     "added": false
+    },
+    {
+     "text": "215",
+     "added": false
+    },
+    {
+     "text": "235",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A policeman follows a thief who is 600 m ahead of the policeman. If the policeman and the thief run at speeds of 10 km/h and 8 km/h, respectively, in how much time (in minutes), will the policeman catch the thief?",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Which of the following numbers is divisible by 36?",
+   "options": [
+    {
+     "text": "47502",
+     "added": false
+    },
+    {
+     "text": "29412",
+     "added": false
+    },
+    {
+     "text": "54732",
+     "added": false
+    },
+    {
+     "text": "87064",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Amar can complete a work in 15 days, and Prem, in 12 days. Starting with Amar, they work on alternate days. In how many days will the work be completed?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Aand B alone can do a piece of work in 4 and 9 days, respectively. In how many days will the work be completed, if they both work on alternate days, starting with B?",
+   "options": [
+    {
+     "text": "W152 3",
+     "added": false
+    },
+    {
+     "text": "72. 5-",
+     "added": false
+    },
+    {
+     "text": "x3 5 t",
+     "added": false
+    },
+    {
+     "text": "5- 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "If two qualities of pulses ‘X’ and ‘Y’ of prices 7100 and 150 per kg are mixed in the ratio 7 : 20, then what is the price (in %) of this mixture of pulses (correct to the nearest Rupee)?",
+   "options": [
+    {
+     "text": "137",
+     "added": false
+    },
+    {
+     "text": "135",
+     "added": false
+    },
+    {
+     "text": "134",
+     "added": false
+    },
+    {
+     "text": "136",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "1 Fe 1 Ifx-\"=-6, what will be the value of x =e",
+   "options": [
+    {
+     "text": "— 8898",
+     "added": false
+    },
+    {
+     "text": "-8896",
+     "added": false
+    },
+    {
+     "text": "— 8886",
+     "added": false
+    },
+    {
+     "text": "-8892",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Study the following bar chart and answer the question. Sales of XYZ Phones over the years 60 Pa 30 bes 5 in “0 a0 ep 30 e a an 18 3 to B wo | [| ° 2015 2016 207 2018 2019 2020 Years Find the percentage increase of sales of XYZ phones from 2019 to 2020? (Rounded up to 2 decimal places)",
+   "options": [
+    {
+     "text": "122.22 Percent",
+     "added": false
+    },
+    {
+     "text": "110.11 Percent",
+     "added": false
+    },
+    {
+     "text": "119.19 Percent",
+     "added": false
+    },
+    {
+     "text": "121.89 Percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "In a factory, 48% of the number of male workers is equal to two-third of the number of female workers. What is the ratio of the number of males to that of the females in the factory?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "TF(a+b+c)= 19, and (a2 + b? + c2) = 155, find the value of (a—b)? + (b—¢)2 + (c—ap’.",
+   "options": [
+    {
+     "text": "104",
+     "added": false
+    },
+    {
+     "text": "108",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "98",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The difference (in =) between a discount of 35% on %3,600 and two successive discounts of 30% and 5% on the same amount is:",
+   "options": [
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "78",
+     "added": false
+    },
+    {
+     "text": "82",
+     "added": false
+    },
+    {
+     "text": "52",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Raja and Rocky together can complete painting work in 5 days. Together they both start painting, but after 2 days, Rocky falls sick and leaves the work. If Raja completes the remaining painting in 4 days, find the number of days in which Rocky alone can do the work.",
+   "options": [
+    {
+     "text": "12 days",
+     "added": false
+    },
+    {
+     "text": "15 days",
+     "added": false
+    },
+    {
+     "text": "20 days",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "‘s 3 re . If sinA = — = A lies in III quadrant, the value of sec A is:",
+   "options": [
+    {
+     "text": "-- 5 5",
+     "added": false
+    },
+    {
+     "text": "-—- 4",
+     "added": false
+    },
+    {
+     "text": "x3. —=",
+     "added": false
+    },
+    {
+     "text": "3 “4S 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Aand B can do a piece of work in 5 days and 10 days, respectively. They began the work together but A left after some days and B finished the remaining work in 8 days. After how many days did A leave?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "To go a distance of 144 km upstream, a rower takes 12 hours while it takes her only 9 hours to row the same distance downstream. What is the speed of the stream?",
+   "options": [
+    {
+     "text": "3 km/h",
+     "added": false
+    },
+    {
+     "text": "1 km/h",
+     "added": false
+    },
+    {
+     "text": "1.5 km/h",
+     "added": false
+    },
+    {
+     "text": "2 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The perimeter of an equilateral triangle is 48 cm. Find its area (in cm? ).",
+   "options": [
+    {
+     "text": "81v3",
+     "added": false
+    },
+    {
+     "text": "8V3",
+     "added": false
+    },
+    {
+     "text": "25v3",
+     "added": false
+    },
+    {
+     "text": "64V3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The cost of 32 pens and 12 pencils is 790. What is the total cost (in %) of 8 pens and 3 pencils together?",
+   "options": [
+    {
+     "text": "200.5",
+     "added": false
+    },
+    {
+     "text": "1975",
+     "added": false
+    },
+    {
+     "text": "180.5",
+     "added": false
+    },
+    {
+     "text": "220.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 3,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

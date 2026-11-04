@@ -1,0 +1,448 @@
+{
+ "paper": "CHSL-Tier1-10-Aug-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": ". Ashopkeeper earns a profit of 20% after offering a discount of 10% on the marked price of an electric mixer. What is the cost price (in %) of the electric mixer having marked price =6,500?",
+   "options": [
+    {
+     "text": "4,900",
+     "added": false
+    },
+    {
+     "text": "4,825",
+     "added": false
+    },
+    {
+     "text": "4,850",
+     "added": false
+    },
+    {
+     "text": "4,875",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Study the following table carefully and answer the question that follows. [State/Year [1994 [1995 [1996 [1997 [1998 | [Maharashtra | 723_| e840 | 900 | 920 | 925 | [Kerala | 1035 | 940 | 1200 | 1400 | 1500 |Karnataka | 750 | 600 | 830 | 575 | 900 | |WestBengal | 500_| 550 | 450 | 600 | 525 | [Deni | 00 | 1625 | 1700 | 1475 | 1800 | [foal ss | 5308 | 5395 | 5955 | 5895 | 6435 | In the case of which state/UT was there a continuous increase in the number of students over the given years?",
+   "options": [
+    {
+     "text": "Andhra Pradesh",
+     "added": false
+    },
+    {
+     "text": "Maharashtra",
+     "added": false
+    },
+    {
+     "text": "Karnataka",
+     "added": false
+    },
+    {
+     "text": "West Bengal",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "X.Y and Z can complete a piece of work in 20, 12 and 28 days, respectively. If all work together, the approximate number of days to complete the work will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Ifeach side of a cube is decreased by 12%, then the percentage decrease in its surface area is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Atrader allows a discount of 5% for cash payment. What percentage above the cost price must he mark his goods to make a profit of 14%?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "macircle of radius 8 units, a chord of length 10 units is drawn. What is the perpendicular distance of the chord from the centre of the circle in units?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Lakshita purchased a sofa set at a discount of 25%. As per her calculations. she noticed that if she would have not been given this discount, she would have paid 222,400 more as the cost of this sofa set. How much did Lakshita pay for the sofa set?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs 1 Bek If (y— —) =8, find the value of (y* + —). y ¥*",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Qg 2 . 1? 2 2 If]+m +n =0, then what will be the value of (— += +=) ? mn nl Im.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A man bought 13 chairs at 2150 each and 15 chairs at 2130 each. The average price of a chair (to the nearest mpee) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Qi ° If tan (50 - 10°) = cot (S@ + 20°), then the value of 6 + 9 is:",
+   "options": [
+    {
+     "text": "16°",
+     "added": false
+    },
+    {
+     "text": "18°",
+     "added": false
+    },
+    {
+     "text": "15°",
+     "added": false
+    },
+    {
+     "text": "20°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Achord of length 24 cm is at a distance of 5 cm from the centre of the circle. The radius of the circle is:",
+   "options": [
+    {
+     "text": "13cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "16cm",
+     "added": false
+    },
+    {
+     "text": "15cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Deepak starts a business with a capital of 71,60,000. He incurs a loss of 10% during the first year. But he makes a profit of 5% during the second year on his remaining investment. Finally, he makes a profit of 25% on his new capital during the third year. Find his total profit at the end of three years.",
+   "options": [
+    {
+     "text": "329,500",
+     "added": false
+    },
+    {
+     "text": "229,000",
+     "added": false
+    },
+    {
+     "text": "%28,000",
+     "added": false
+    },
+    {
+     "text": "328,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ara certain annual rate (rounded off to the nearest integer) of simple interest, a sum of money becomes nine times its original value in 21 years. By how much does the rate of interest change if the same sum of money has to become 12 times its origina! value in 25 years?",
+   "options": [
+    {
+     "text": "Decreases by 6%",
+     "added": false
+    },
+    {
+     "text": "Increases by 6%",
+     "added": false
+    },
+    {
+     "text": "Increases by 8%",
+     "added": false
+    },
+    {
+     "text": "Decreases by 8%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Inacircle, an are subtends an angle of 84° at the centre. If the length of the are is 22 cm, then the radius of the circle (in em) is equal to: 22 Take a =>",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Ife isanacute angle and sin 8 cos @ = 2cos* 6 —tcos 6, then the value of sin@ is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "217 The value of (sin 45° + cos 45°) is .",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "In amixture, the ratio of a chemical X and water is 15 ; 9. When 48 litres of this mixture is replaced with water, the ratio becomes 11 ; 13. Find the quantity of water after replacement.",
+   "options": [
+    {
+     "text": "97,5 litres",
+     "added": false
+    },
+    {
+     "text": "99 litres",
+     "added": false
+    },
+    {
+     "text": "92 litres",
+     "added": false
+    },
+    {
+     "text": "102.5 litres",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "replacement",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Three partners P,Q and R invest %1,000, 71,200 and %1,500, respectively, in a business, What should be the share of Q if the total profit is 3666?",
+   "options": [
+    {
+     "text": "3216",
+     "added": false
+    },
+    {
+     "text": "2275",
+     "added": false
+    },
+    {
+     "text": "3252",
+     "added": false
+    },
+    {
+     "text": "3284",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "0.20 fsepaT (a+b +c) = 20 WIE a2 +b? ~ 2 = 262 CRA, ab +be+ca MCSD AMPS!",
+   "options": [
+    {
+     "text": "69",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "84",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Find the value of the given expression. ee ee 2 ge (at +3? x if +3? x (1 +14)) a ar} a)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The following bar graph gives the details of income and expenditure of five companies A, B, C, D, E (in crores of rupees) MINCOME EXPENDITURE g 8 2 ge & A B c D E The profit percentage (eee x 100) is highest for the company:",
+   "options": [
+    {
+     "text": "-D",
+     "added": false
+    },
+    {
+     "text": "E",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "C",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "In triangle STU, V is 2 point on the side ST and W is a point on the side SU such that VWUT is a trapezium. Given that VW: TU =2: 7, what is the ratio of area of trapezium VWUT to the area of the triangle STU?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Sanjana can row a boat at 9 kn/h in the still water. It takes her twice as long to row up a certain distance as to row down the same distance in the river. What is the rate of the stream (in km/h)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "still-water-and-stream-speed",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The annual agricultural production (in tonnes) of an Indian state is given in the pie chart. The total production is 12960 tonnes. ‘What is the annual production of Maize?",
+   "options": [
+    {
+     "text": "3240 tonnes",
+     "added": false
+    },
+    {
+     "text": "4140 tonnes",
+     "added": false
+    },
+    {
+     "text": "3420 tonnes",
+     "added": false
+    },
+    {
+     "text": "2160 tonnes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  }
+ ]
+}

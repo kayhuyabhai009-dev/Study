@@ -1,0 +1,150 @@
+{
+ "paper": "RRB-ALP-CBT1-26-Nov-2024-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 3,
+   "text": "The LCM of 24, 42 and 56 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "168"
+  },
+  {
+   "n": 7,
+   "text": "Jaggu can make one wooden chair in 3 days and Rabbu can make the same chair in 4 days. If they work together, in how many days will they make 14 chairs of the same kind?",
+   "options": [
+    {
+     "text": "18 days",
+     "added": false
+    },
+    {
+     "text": "16 days",
+     "added": false
+    },
+    {
+     "text": "24 days",
+     "added": false
+    },
+    {
+     "text": "20 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "24 days"
+  },
+  {
+   "n": 11,
+   "text": "Study the given graph and answer the question that follows. The graph shows the daily production of TV sets in a factory for 6 days of a week. 500 450 450 400 400 400 z 350 300 ‘5 300 250 § 250 200 & 200 2 150 100 50 0 Mon Tues Wed Thu Fri Sat Days How many units of TV sets were produced on Monday and Tuesday together?",
+   "options": [
+    {
+     "text": "400",
+     "added": false
+    },
+    {
+     "text": "700",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    },
+    {
+     "text": "600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "line-graph",
+   "key_answer": "500"
+  },
+  {
+   "n": 12,
+   "text": "Which of the following options represents two successive discounts that are equivalent to a single discount of 84%?",
+   "options": [
+    {
+     "text": "30% and 70%",
+     "added": false
+    },
+    {
+     "text": "20% and 80%",
+     "added": false
+    },
+    {
+     "text": "10% and 90%",
+     "added": false
+    },
+    {
+     "text": "40% and 60%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "20% and 80%"
+  },
+  {
+   "n": 13,
+   "text": "— Out of his total income, Sanjay spends 20% on house rent and 70% of the rest on household expenses. If he saves 21,800, then his total income is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "digit-sum-and-place-value",
+   "key_answer": "27"
+  },
+  {
+   "n": 14,
+   "text": "A solid metallic sphere of radius 12 cm is melted and recast in the form of small spheres of radius 2 cm. How many small spheres are formed?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": "216"
+  },
+  {
+   "n": 16,
+   "text": "What percentage of the numbers from 1 to 70, both included, have | or 7 in the unit's digit?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "20%"
+  },
+  {
+   "n": 18,
+   "text": "The simplified value of 0.002 * 0.5 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "0.001"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.1,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 228,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

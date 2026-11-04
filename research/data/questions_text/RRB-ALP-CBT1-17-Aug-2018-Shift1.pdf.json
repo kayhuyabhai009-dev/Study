@@ -1,0 +1,59 @@
+{
+ "paper": "RRB-ALP-CBT1-17-Aug-2018-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 4,
+   "text": "ae x2 + kx + k = 08 WS oe at a ak Hw Ae feet AS eT HART BVT? Ifx? + kx + k =0 has no solution, then the value of k will satisfy: ral k>4 k>4 <k< v2 O<k<4 O0<k<4 = x,,k<4 k<4 2/26 9/14/2018 x4 k>-4 k>—-4 28 fet vere aigfed Hr Hara Hl FA Hel Ae 8: A sound of single frequency is called a: x me Note",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "roots",
+   "key_answer": "81"
+  },
+  {
+   "n": 7,
+   "text": "The rate of discount on an article whose marked price is € 170 and selling price is = 130 Is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": "23.53%"
+  },
+  {
+   "n": 10,
+   "text": "sa Rays ar same Bet Ht fora ere (2, 4), - 3, - 1) ste (6, 3) far ee a: The area of the triangle whose vertices are given by (2, 4), (— 3, — 1) and (5, 3) is: 7 at sHgat Xi. 7 sq. units 14 at sargar",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "area-and-centroid",
+   "key_answer": "10 sq. units"
+  },
+  {
+   "n": 13,
+   "text": "IfJ is the current through a wire and ¢ is the charge of an electron, then the number of electrons crossing in f seconds will be given by:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": "4"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.05,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 270,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

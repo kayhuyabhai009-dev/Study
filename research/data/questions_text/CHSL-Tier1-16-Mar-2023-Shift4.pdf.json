@@ -1,0 +1,584 @@
+{
+ "paper": "CHSL-Tier1-16-Mar-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Kapil dist f 1200 met 10 mimutes. What is the speed of Kapila?",
+   "options": [
+    {
+     "text": "1.2 kmph",
+     "added": false
+    },
+    {
+     "text": "72 kmph",
+     "added": false
+    },
+    {
+     "text": "120 kmph",
+     "added": false
+    },
+    {
+     "text": "7.2 kmph",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The below bar graph shows the number of bikes (in hundreds) sold by Hero and Bajaj over the first six months of 2022. Hero © Bap) FZ wo 1} ue had “ ” [ies fe: fol ies wo se £ = 6 i =| Heal I mary Febrary March ert Moy ine Month In July, the sales for the number of bikes for Hero company decreased with respect to the previous month by the same percentage as the sales of Hero company decreases in the month of March with respect to February, then find the approximate number of bikes sold by Hero in the month of July.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The bar graph given below shows the temperature recorded every day in a certain week. 50 4 40 35 20 10 5 Monday Tuesday Wednesday Thursday Friday Saturday Sunday What is the sum of the temperatures recorded on all the days?",
+   "options": [
+    {
+     "text": "240 degree",
+     "added": false
+    },
+    {
+     "text": "215 degree",
+     "added": false
+    },
+    {
+     "text": "235 degree",
+     "added": false
+    },
+    {
+     "text": "205 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "24 Tf cot 2A = tan (A—48 °), then what is the value of A?",
+   "options": [
+    {
+     "text": "36 degree",
+     "added": false
+    },
+    {
+     "text": "46 degree",
+     "added": false
+    },
+    {
+     "text": "42 degree",
+     "added": false
+    },
+    {
+     "text": "40 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "If PQ isa tangent ofa circle (touches the circle at Q) with centre O and angle POQ is 75°, then what is the value of angle OPQ?",
+   "options": [
+    {
+     "text": "15°",
+     "added": false
+    },
+    {
+     "text": "35°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "25°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "= The perimeter of two similar wiangles RST and IJK (in correspondence) are 64 em and 56 cm respectively. If IT = 16 em, then what is the length of RS?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "@7 What is the circumference of a circle whose radius is 10.5 cm?",
+   "options": [
+    {
+     "text": "21cm",
+     "added": false
+    },
+    {
+     "text": "66cm",
+     "added": false
+    },
+    {
+     "text": "30cm",
+     "added": false
+    },
+    {
+     "text": "110 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "How many numbers are there between 201 and 401 which are divisible by 5 but not by 4?",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "as SAA 724 2 ; If - X -+—-+-—=-—. What is the value of x? 2 ES 6 ob x",
+   "options": [
+    {
+     "text": "7/12",
+     "added": false
+    },
+    {
+     "text": "4/13",
+     "added": false
+    },
+    {
+     "text": "13/4",
+     "added": false
+    },
+    {
+     "text": "6/7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Asum becomes 1.96 times of itself in 2 years when invested at compound interest (compounding annually), What is the annual rate of interest?",
+   "options": [
+    {
+     "text": "20 percent",
+     "added": false
+    },
+    {
+     "text": "25 percent",
+     "added": false
+    },
+    {
+     "text": "40 percent",
+     "added": false
+    },
+    {
+     "text": "30 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The table given below shows the income and expenditure of a company in five years. [B_ [250 {100 [D_ [400100 [E [iso [7s Saving = Income — Expenditure What is the average saving in all years?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Awork can be completed by 8 boys in 48 days. If 2 boys leave after working for 24 days, then how many days will be needed to complete the remaining work?",
+   "options": [
+    {
+     "text": "20 days",
+     "added": false
+    },
+    {
+     "text": "24 days",
+     "added": false
+    },
+    {
+     "text": "32 days",
+     "added": false
+    },
+    {
+     "text": "30 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Ina cyclic quadrilateral MNOP, 2M is opposite to 2O, If 220 = 32M, then what is the value of 2M?",
+   "options": [
+    {
+     "text": "88 degree",
+     "added": false
+    },
+    {
+     "text": "108 degree",
+     "added": false
+    },
+    {
+     "text": "72 degree",
+     "added": false
+    },
+    {
+     "text": "96 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Aperson buys three spectacles at the rate of Rs.4,000 per spectacles. He sells first spectacles at a profit of 30 percent, sells second spectacles at a loss of 10 percent and sells third spectacles at a loss of 10 percent. What is the total percentage of profit earned in the whole transaction?",
+   "options": [
+    {
+     "text": "7.14 percent",
+     "added": false
+    },
+    {
+     "text": "2.18 percent",
+     "added": false
+    },
+    {
+     "text": "3.33 percent",
+     "added": false
+    },
+    {
+     "text": "5.41 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Ashopkeeper has a sale of Rs. 10.000, Rs.7.500, Rs.8,000 and Rs. 10,500 for 4 consecutive months. How much sale must he have in the fifth month so he gets an average sale of Rs.9,000 in five months?",
+   "options": [
+    {
+     "text": "Rs.10,200",
+     "added": false
+    },
+    {
+     "text": "Rs.8,500",
+     "added": false
+    },
+    {
+     "text": "Rs.11,000",
+     "added": false
+    },
+    {
+     "text": "Rs.9,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The line chart given below shows the production of bike and truck by five companies L, M, N, O and P. 600 soo — = 550 re 400m iso A a a if 200 200 ef 150 100 ———_—_ —_—__——. L uM N Oo Pp —@-Bike —m Truck Which of the following statement is correct? I. The ratio of production of bike to the production of truck by company M are 7 : 4. IL The difference between ayerage of production of bike and truck by all companies is 10.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "What is the value of cot when 6 is 60°?",
+   "options": [
+    {
+     "text": "WN3",
+     "added": false
+    },
+    {
+     "text": "V3",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Asum of Rs.1,248 is to be distributed among Ridhaan and Vihaan in the proportion of 2 : 3. What is the share of Vihaan?",
+   "options": [
+    {
+     "text": "Rs.684.20",
+     "added": false
+    },
+    {
+     "text": "Rs.776.40",
+     "added": false
+    },
+    {
+     "text": "Rs.748.80",
+     "added": false
+    },
+    {
+     "text": "Rs.874.50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "a9 If tan(x + y) = 1 and cos(x —y) = V3/2, then what is the value of x and y?",
+   "options": [
+    {
+     "text": "x=3,y=4.5",
+     "added": false
+    },
+    {
+     "text": "X=375,y=7.5",
+     "added": false
+    },
+    {
+     "text": "X=7.5, y=37.5",
+     "added": false
+    },
+    {
+     "text": "x=4:5,y=3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "9.20 What is the expansion of (x + 11) (x—11)?",
+   "options": [
+    {
+     "text": "x?+ 11",
+     "added": false
+    },
+    {
+     "text": "2 -121",
+     "added": false
+    },
+    {
+     "text": "x2+ 121",
+     "added": false
+    },
+    {
+     "text": "x2-11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "AC is the diameter of the circle. B is a point on the circumference. If angle BAC is 40°, then what is angle BCA?",
+   "options": [
+    {
+     "text": "50°",
+     "added": false
+    },
+    {
+     "text": "990°",
+     "added": false
+    },
+    {
+     "text": "55°",
+     "added": false
+    },
+    {
+     "text": "40°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "A fivit seller had some watermelons. He sells 45% of the watermelons and still has 495 watermelons left. How many watermelons he originally had?",
+   "options": [
+    {
+     "text": "900",
+     "added": false
+    },
+    {
+     "text": "800",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    },
+    {
+     "text": "600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The marked price ofa chair is Rs.1,650. This chair is sold at tvo successive discounts of 10 percent and 20 percent. ‘What is the selling price of chair?",
+   "options": [
+    {
+     "text": "Rs.1,188",
+     "added": false
+    },
+    {
+     "text": "Rs.1,288",
+     "added": false
+    },
+    {
+     "text": "Rs.1,166",
+     "added": false
+    },
+    {
+     "text": "Rs.1,265",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "1 F eo Ifx + x = 2K, then what is the value of x\" + 34?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Ns 2 2 2 What is the value of a“ + 4b“ + 9c — dab + 12be - 6ca?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  }
+ ]
+}

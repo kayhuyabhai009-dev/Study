@@ -1,0 +1,638 @@
+{
+ "paper": "2023-Tier1-17-Jul-2023-Shift2.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The lengths of the three sides of a triangle are 30 cm, 42 cm and x cm. Which of the following is correct?",
+   "options": [
+    {
+     "text": "12sx<72",
+     "added": false
+    },
+    {
+     "text": "12>x>72",
+     "added": false
+    },
+    {
+     "text": "12<x<72",
+     "added": false
+    },
+    {
+     "text": "12sxs72",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The largest 5-digit number exactly divisible by 88 is:",
+   "options": [
+    {
+     "text": "99990",
+     "added": false
+    },
+    {
+     "text": "99984",
+     "added": false
+    },
+    {
+     "text": "99978",
+     "added": false
+    },
+    {
+     "text": "99968",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The following pie chart shows the monthly sale of laptops of five companies A, B, C, D and E in a store. If 2,500 laptops were sold by the store in a month, then what is the difference between the number of laptops sold of Company A and that of Company C?",
+   "options": [
+    {
+     "text": "750",
+     "added": false
+    },
+    {
+     "text": "650",
+     "added": false
+    },
+    {
+     "text": "800",
+     "added": false
+    },
+    {
+     "text": "700",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "1 5 oe Ifa+— = 7, then a? + 3s is equal to:",
+   "options": [
+    {
+     "text": "15127",
+     "added": false
+    },
+    {
+     "text": "13127",
+     "added": false
+    },
+    {
+     "text": "14527",
+     "added": false
+    },
+    {
+     "text": "11512",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Find the value of cos47°sec133° + sin44°cosec136°.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A,B andC run simultaneously, starting from a point, around a circular track of length 1200m, at respective speeds of 2m/s, 4m/s and 6m/s. A and B run in the same direction, while C runs in the opposite direction to the other two. After how much time will they meet for the first time?",
+   "options": [
+    {
+     "text": "10 minutes",
+     "added": false
+    },
+    {
+     "text": "9 minutes",
+     "added": false
+    },
+    {
+     "text": "12 minutes",
+     "added": false
+    },
+    {
+     "text": "11 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Asum of money invested at a certain rate of simple interest per annum amounts to %14,522 in seven years and to 18,906 in eleven years. Find the sum invested (in Z).",
+   "options": [
+    {
+     "text": "6850",
+     "added": false
+    },
+    {
+     "text": "6900",
+     "added": false
+    },
+    {
+     "text": "6800",
+     "added": false
+    },
+    {
+     "text": "6750",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "If the side of an equilateral triangle is increased by 34%, then by what percentage will its area increase?",
+   "options": [
+    {
+     "text": "70.65%",
+     "added": false
+    },
+    {
+     "text": "79.56%",
+     "added": false
+    },
+    {
+     "text": "68.25%",
+     "added": false
+    },
+    {
+     "text": "75.15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Qo . 2 3 8 Find the sum of 3 + 3° + 3° +++.+3°.",
+   "options": [
+    {
+     "text": "6561",
+     "added": false
+    },
+    {
+     "text": "6560",
+     "added": false
+    },
+    {
+     "text": "9840",
+     "added": false
+    },
+    {
+     "text": "3280",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Sequences and Series",
+   "sub": "geometric-progression",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A,B and C can do a piece of work in 30 days, 40 days and 50 days, respectively. Beginning with A, if A, B and C do the work alternatively then in how many days will the work be finished?",
+   "options": [
+    {
+     "text": "1. 38— v 12 di",
+     "added": false
+    },
+    {
+     "text": "365 2",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "39 1 ~~\" 12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A thief is spotted by a constable from 200 m. When the constable starts the chase, the thief also starts running. If the speed of the constable is 8 km/h and thief runs at the speed of 6 km/h, then how far (in m) will the thief be able to run before he is overtaken?",
+   "options": [
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    },
+    {
+     "text": "550",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "In a bag containing red, green and blue pens, the ratio of red, blue and green pens, in the given order, was 7 : 4: 9. If the total number of pens in the bag was 320, how many of them were red?",
+   "options": [
+    {
+     "text": "112",
+     "added": false
+    },
+    {
+     "text": "105",
+     "added": false
+    },
+    {
+     "text": "119",
+     "added": false
+    },
+    {
+     "text": "126",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Ravi can do a piece of work in 40 days and Sudha can do the same piece of work in 60 days. If they work on alternative days starting with Sudha on the first day, then in how many days will the work be completed?",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Anare of length 23.1 cm subtends an 18° angle at the centre. What is the area of the circle? [Use a -2)",
+   "options": [
+    {
+     "text": "16978.50 cm?",
+     "added": false
+    },
+    {
+     "text": "16988.50 cm?",
+     "added": false
+    },
+    {
+     "text": "16878.50 cm?",
+     "added": false
+    },
+    {
+     "text": "16798.50 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Study the given table and answer the question that follows. The table shows the number of candidates who appeared (App), qualified (Qual) and selected (Sel) in a competitive examination from four states Delhi, Goa, Kamataka, and Maharashtra over the years 2012 to 2016. |__| App [ Qual] Sel [App [Qual [ Sel | App | Qual | Sel_| App [ Qual] Sel | [2012 | sooo[ 50 [94 |7800[810 [82 [7500720 | 78 |8200[ 680 | 85_| [2013 | 4800[ Soo [48 [7500|800 [65 |s600/ 620 | 85_|6800[ 600 | 70 | [2014 | 9500/50 [90 |s800[920 [86 [7000] 650 | 70 |7800[720 | 34 | [2015 | 9000[ 800 [70 [7200|ss0 [75 [aso0/ 950 |80 |5700[485 | 60 | [2016 | 7s00[ 680 [82 [7400[s60 [70 [4soo[ 400 | 48 | sso0[s25 | 65_| The number of candidates selected from Maharashtra during the period under review is approximately what percentage of the number selected from Delhi during this period?",
+   "options": [
+    {
+     "text": "96.79%",
+     "added": false
+    },
+    {
+     "text": "92.79%",
+     "added": false
+    },
+    {
+     "text": "93.39%",
+     "added": false
+    },
+    {
+     "text": "94.79%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Tw T If tan> + sec =x, then find x.",
+   "options": [
+    {
+     "text": "v3 A'.V3 - 1",
+     "added": false
+    },
+    {
+     "text": "==",
+     "added": false
+    },
+    {
+     "text": "—1 M3. v3 2",
+     "added": false
+    },
+    {
+     "text": "v3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "What is the whole surface area of a cone of base radius 6 cm and height 8 cm?",
+   "options": [
+    {
+     "text": "354.50 cm?",
+     "added": false
+    },
+    {
+     "text": "350.51 cm?",
+     "added": false
+    },
+    {
+     "text": "301.71 cm?",
+     "added": false
+    },
+    {
+     "text": "364.61 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "15 men can complete a work in 25 days, and 25 women can complete the same work in 40 days. If all the 15 men and 25 women work together, in how many days will the work get completed?",
+   "options": [
+    {
+     "text": "15 — days 13 5",
+     "added": false
+    },
+    {
+     "text": "10 — days 13 5",
+     "added": false
+    },
+    {
+     "text": "15 — days 12",
+     "added": false
+    },
+    {
+     "text": "X% 4. 15 — days 13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Suhani pays tax at the rate of 30% on her entire income of $90,000 and Ritika pays tax at the rate of 40% on her entire income of @y. If the overall tax rate on their combined income comes to 37%, then what is the value of y?",
+   "options": [
+    {
+     "text": "%2,04,000",
+     "added": false
+    },
+    {
+     "text": "%2,16,000",
+     "added": false
+    },
+    {
+     "text": "%2,13,000",
+     "added": false
+    },
+    {
+     "text": "%2,10,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "working 5 hours a day, A can complete a task in 8 days and working 6 hours a day, B can finish the same task in 10 days. working 8 hours a day, they can jointly complete the task in :",
+   "options": [
+    {
+     "text": "5 days",
+     "added": false
+    },
+    {
+     "text": "3 days",
+     "added": false
+    },
+    {
+     "text": "4.5 days",
+     "added": false
+    },
+    {
+     "text": "6 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "4 2 . - x= 2x\" +1 Simplify, =————_. fy, x?-2x4+1",
+   "options": [
+    {
+     "text": "x2-2x +1",
+     "added": false
+    },
+    {
+     "text": "x2 + 2x +2",
+     "added": false
+    },
+    {
+     "text": "2 + 2x41",
+     "added": false
+    },
+    {
+     "text": "x24+x41",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "polynomials-and-factorisation",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "1, : g_ ty9 If(x—=) = V6, and x > 1, what is the value of (x' =",
+   "options": [
+    {
+     "text": "1024V15",
+     "added": false
+    },
+    {
+     "text": "992V15",
+     "added": false
+    },
+    {
+     "text": "998V15",
+     "added": false
+    },
+    {
+     "text": "101215",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The successive discounts of 12%, 20% and 25% is equivalent to a single discount of:",
+   "options": [
+    {
+     "text": "52.2%",
+     "added": false
+    },
+    {
+     "text": "49.5%",
+     "added": false
+    },
+    {
+     "text": "47.2%",
+     "added": false
+    },
+    {
+     "text": "57.0%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "“3 4 If Sin 8= ze find the value of tan 8—Cot 8.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Ram sells a suitcase to Mohan at a 20% profit. Mohan sells it to Shyam at a 40% profit. If Shyam pays 21,430 for it, then the price at which Ram bought it is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 3,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

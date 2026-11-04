@@ -1,0 +1,448 @@
+{
+ "paper": "CHSL-Tier1-19-Mar-2020-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The given bar graph represents the production and sales of a certain crop in quintals by the farmers F1, F2, F3 and F4. 800 720 100) pase 20 00) 550 Zk : s 300 | Bias 100 ot . E = A R 5 f E555 EE —EE What is the percentage less in the production by farmer F1 with respect to the production by farmer F2?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "atb . If a = 2), then the value of ap IS:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Ravi, Mohan and Govind can complete a task in 12 days, 10 days and 15 days, respectively. In how many days can Ravi, Mohan and Govind together complete the same task?",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Q.4 The given bar graph represents the production and sales of a certain crop in quintals by the farmers F1, F2, F3 and F4. 800 720 700 4 660 20 600 + 550 i 300 BS 30 3 a 10 g 300 S 200 100 ot me = Z ft R F3 ad = Production ‘BSale Which farmer recorded the highest percentage of sales with respect to the production?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "@5 Which of the following numbers is divisible by both 7 and 11?",
+   "options": [
+    {
+     "text": "16,324",
+     "added": false
+    },
+    {
+     "text": "12,235",
+     "added": false
+    },
+    {
+     "text": "16,257",
+     "added": false
+    },
+    {
+     "text": "16,425",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The marked price of a book is 2900. What is the selling price of the book after giving two successive discounts each of 10% on it?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Q.7 The radius of a circular cone is R and its height is H. The volume of cone is:",
+   "options": [
+    {
+     "text": "eos 3",
+     "added": false
+    },
+    {
+     "text": "m2 _",
+     "added": false
+    },
+    {
+     "text": "mR?H % 3 nR?H",
+     "added": false
+    },
+    {
+     "text": "mRH?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Ina AABC, DE is parallel to BC, AD = 3 cm, AE = 4 cm and AC = 10 cm, then the value of BD in centimetres, is:",
+   "options": [
+    {
+     "text": "3.5",
+     "added": false
+    },
+    {
+     "text": "72.5",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "5.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Inacertain time, a sum of money becomes five times itself if the rate of the interest is 16% p.a. Then the certain time (in years) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The average of the ages of a group of 65 men is 32 years. If 5 men join the group. the average of the ages of 70 men is 34 years. Then the average of the ages of those 5 men joined later (in years) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Qn The value of Sim30°%cos60°+cos45°sin45° j.. tan60°cot30°",
+   "options": [
+    {
+     "text": ", co v3",
+     "added": false
+    },
+    {
+     "text": "V3",
+     "added": false
+    },
+    {
+     "text": "2 1",
+     "added": false
+    },
+    {
+     "text": "= 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "12 Q sinx+cosx 6 tan? x+1 P i. = 55 thenthe-valueof:- 45 ___ “1s: sinx—cosx 5 tan* x-1",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A motorboat goes 24 km in 2 hour along the stream and 10 km in | hour against the stream. The speed of the motorboat in kilometres per hour, is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "boat-stream",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, Vacancies and updates on one click Q.14 Ravi sells a chair to Mohan at a profit 10% and Mohan sells it to Govind at profit 20%. If Govind pays 1,320 for it. Then the cost price for Ravi is:",
+   "options": [
+    {
+     "text": "2980",
+     "added": false
+    },
+    {
+     "text": "21,000",
+     "added": false
+    },
+    {
+     "text": "%900",
+     "added": false
+    },
+    {
+     "text": "%800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "25 The value of 18% of 15% of e of 3800 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "percentage-basics",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The given bar graph represents the production and sales of a certain crop in quintals by the farmers F1, F2, F3 and F4. $00 no 70 | 660 \" ao | a KS § 30) io 5 x0 | 5 a 100 aul i. . = cL Aa Rp B a Production —_w Sale } What is the ratio between the total sales and total production by all farmers?",
+   "options": [
+    {
+     "text": "4:5",
+     "added": false
+    },
+    {
+     "text": "5:6",
+     "added": false
+    },
+    {
+     "text": "3:4",
+     "added": false
+    },
+    {
+     "text": "6:7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click 917 The length of tangents drawn from an external point to the circle are:",
+   "options": [
+    {
+     "text": "not equal",
+     "added": false
+    },
+    {
+     "text": "perpendicular",
+     "added": false
+    },
+    {
+     "text": "parallel",
+     "added": false
+    },
+    {
+     "text": "equal",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "918 Tfx:y=3:2andx+y=90, then the value (x — y) is:",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": ". 3 5 é If sinx = 30 <x <= 90° then the value of cotx.secx is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "If AABC is a right angled triangle with ZABC = 90°, and AC = 10 cm, BC = 8 cm, then the length of AB is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "s d Latest Sarkari Jobs, Govt Exam Results, K were’ ) : Vacancies and updates on one click Q.21 The value of [(a? — b?)? + (b? —c?)? + (c? —a?)?] + [(a—b)? + (b—c)? + (c —a)?] is equal to: (Givena + b +c)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The given bar graph represents the production and sales of a certain crop in quintals by the farmers F1, F2, F3 and F4. 800 no 700 raed 0 _ 600 + aa ‘350 2) ho 8 400 ce ‘eel 100 7 ar : @ Production wSale What is the average of a crop in quintals, sold by the all farmers?",
+   "options": [
+    {
+     "text": "470",
+     "added": false
+    },
+    {
+     "text": "490",
+     "added": false
+    },
+    {
+     "text": "510",
+     "added": false
+    },
+    {
+     "text": "530",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "If kx? + 4x? + 3x—4 and x?—4x+k leave the same remainder when divided by (x — 3), then the value of k is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click 24 $ 924 The value of 8 — [8 — (5 + 8) — {8 — (8—5 + 8)} + 10] is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "A pair of tangents AB and AC are drawn from a point which is at a distance of 10 cm from the centre O ofa circle of radius 6 cm, then the area in cm? of quadrilateral ABOC, is:",
+   "options": [
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  }
+ ]
+}

@@ -1,0 +1,655 @@
+{
+ "paper": "2023-Tier1-20-Jul-2023-Shift4.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Pass percentage of an examination is 35%. If a student who got 210 marks, failed by 14 marks, then what are the maximum marks of the examination?",
+   "options": [
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "660",
+     "added": false
+    },
+    {
+     "text": "620",
+     "added": false
+    },
+    {
+     "text": "640",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The following pie charts show the data of the number of appeared and passed students of class 12 in sections A.B,C.D and E. Appeared students = 1800 Passed students = 800 wA @B eC wD @E MAB eC @D mE What is the percentage of students who appeared for the exam in section E (correct to one decimal place)?",
+   "options": [
+    {
+     "text": "29.1%",
+     "added": false
+    },
+    {
+     "text": "16.8%",
+     "added": false
+    },
+    {
+     "text": "18.2%",
+     "added": false
+    },
+    {
+     "text": "16.1%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "1 >» 1 If (x a = 6, and x > 0, find the value of (x? — 2",
+   "options": [
+    {
+     "text": "12V10",
+     "added": false
+    },
+    {
+     "text": "18V10",
+     "added": false
+    },
+    {
+     "text": "24/2",
+     "added": false
+    },
+    {
+     "text": "24V10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "a4 , 2 2 What is the value of sec“ A—tan- A?",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "cot?",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "sin2A",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The average monthly income of the father and mother is =5,000. The average monthly income of the mother and her son is %6,000. The average monthly income of the father and his son is 10,000. Find the monthly income (in %) of the father.",
+   "options": [
+    {
+     "text": "9000",
+     "added": false
+    },
+    {
+     "text": "8000",
+     "added": false
+    },
+    {
+     "text": "12000",
+     "added": false
+    },
+    {
+     "text": "10000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "AABC ~ APQR, ar (AABC) = 16 cm? and ar (APQR) = 25 cm?. If BC = 20 cm, then QR is equal to:",
+   "options": [
+    {
+     "text": "15cm",
+     "added": false
+    },
+    {
+     "text": "10cm",
+     "added": false
+    },
+    {
+     "text": "25cm",
+     "added": false
+    },
+    {
+     "text": "16 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "X,Y and Z completed a work costing %3,400. X worked for 5 days, Y for 7 days and Z for 10 days. If their daily wages are in the ratio of 4 : 5 : 3, how much amount will be received by X?",
+   "options": [
+    {
+     "text": "2700",
+     "added": false
+    },
+    {
+     "text": "900",
+     "added": false
+    },
+    {
+     "text": "%800",
+     "added": false
+    },
+    {
+     "text": "2600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Ram rides at the rate of 36 km/h but stops for five minutes to take a drink at the end of every 10 km. Find the time that Ram will take to cover a distance of 84 km.",
+   "options": [
+    {
+     "text": "180 minutes",
+     "added": false
+    },
+    {
+     "text": "60 minutes",
+     "added": false
+    },
+    {
+     "text": "220 minutes",
+     "added": false
+    },
+    {
+     "text": "120 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A 15 cm long perpendicular is drawn from the centre of a circle to a 40 cm long chord. Find the diameter of the circle.",
+   "options": [
+    {
+     "text": "52cm",
+     "added": false
+    },
+    {
+     "text": "48 cm",
+     "added": false
+    },
+    {
+     "text": "50cm",
+     "added": false
+    },
+    {
+     "text": "45cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "1 : © Lina If (x +=) = 32, and x > 1, what is the value of (x*-— )? x x'",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "In a AABC, DE || BC, where D is a point on AB and E is a point on AC. If DE divides the area of AABC into two equal parts, then DB : AB is equal to:",
+   "options": [
+    {
+     "text": "V2: V3",
+     "added": false
+    },
+    {
+     "text": "2: ¥2+1",
+     "added": false
+    },
+    {
+     "text": "¥2+1: V2",
+     "added": false
+    },
+    {
+     "text": "¥2—1: V2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Simplify: [0.08 - {3.5 - 4.9 - (12.5 - 7.8 - 4.6)}]",
+   "options": [
+    {
+     "text": "1.58",
+     "added": false
+    },
+    {
+     "text": "0.08",
+     "added": false
+    },
+    {
+     "text": "2.58",
+     "added": false
+    },
+    {
+     "text": "12.58",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Ina right-angle triangle, the hypotenuse is 5 cm and the base is 3 cm. If one angle is 0, then tan @ is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The width of a rectangle is 2 m less than its length. If the perimeter of the rectangle is 68 m, then what is the length (in metres) of the rectangle?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Pipe A can fill a tank in 12 minutes; pipe B can fill it in 18 minutes, while pipe C can empty the full tank in 36 minutes. If all the pipes are opened simultaneously, how much time will it take to fill the empty tank completely?",
+   "options": [
+    {
+     "text": "7 minutes 30 seconds",
+     "added": false
+    },
+    {
+     "text": "10 minutes",
+     "added": false
+    },
+    {
+     "text": "9 minutes",
+     "added": false
+    },
+    {
+     "text": "6 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A vertical pole of 28m height casts a 19.2m long shadow. At the same time, find the length of the shadow cast by another pole of 52.5m height.",
+   "options": [
+    {
+     "text": "36m",
+     "added": false
+    },
+    {
+     "text": "35m",
+     "added": false
+    },
+    {
+     "text": "40m",
+     "added": false
+    },
+    {
+     "text": "30m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "direct-inverse-variation",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": ". cos41_ sinS1 Find the value of ——— + ——. sin 49 cos 39",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The cost price and selling price of rice are the same. Due to a faulty weighing machine, the seller earns a 15% profit. If Rs. x is the cost price of 1000 gm rice and the machine is changed which shows 1000 gm instead of 950 gm, what should be the selling price (in 2) now to get the same percentage of profit?",
+   "options": [
+    {
+     "text": "1.0295x",
+     "added": false
+    },
+    {
+     "text": "1.0259x",
+     "added": false
+    },
+    {
+     "text": "1.0925x",
+     "added": false
+    },
+    {
+     "text": "1.0950x",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The length, breadth and height of a cuboid are in the ratio 1 : 2 : 3. The length, breadth and height of the cuboid are increased by 200%, 300% and 300%, respectively. Then compared to the original volume, the increase in the volume of the cuboid will be:",
+   "options": [
+    {
+     "text": "47 times",
+     "added": false
+    },
+    {
+     "text": "26 times",
+     "added": false
+    },
+    {
+     "text": "17 times",
+     "added": false
+    },
+    {
+     "text": "15 times",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A boat’s speed in still water is 45 km/h, while the river is flowing at a speed of 15 km/h. The time taken to cover a certain distance upstream is 9 h more than the time taken to cover the same distance downstream. Find the distance (in km).",
+   "options": [
+    {
+     "text": "540",
+     "added": false
+    },
+    {
+     "text": "320",
+     "added": false
+    },
+    {
+     "text": "480",
+     "added": false
+    },
+    {
+     "text": "450",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Adealer’s cost price for each fan he would like to sell is 2,000. After allowing a discount of 20% on its marked price, he gains 20%. His marked price of the fan is:",
+   "options": [
+    {
+     "text": "25,000",
+     "added": false
+    },
+    {
+     "text": "2,500",
+     "added": false
+    },
+    {
+     "text": "%3,000",
+     "added": false
+    },
+    {
+     "text": "%4,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Which number among 34936, 35508, 35580 and 36508 is divisible by 33?",
+   "options": [
+    {
+     "text": "35508",
+     "added": false
+    },
+    {
+     "text": "35580",
+     "added": false
+    },
+    {
+     "text": "36508",
+     "added": false
+    },
+    {
+     "text": "34936",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The ratio of the speed of a motorboat to that of the current of water is 31 : 6. The motorboat starts from a point and covers a certain distance along the current in 4h 10 min. Find the time taken by the motorboat to come back to its initial point.",
+   "options": [
+    {
+     "text": "4h10min",
+     "added": false
+    },
+    {
+     "text": "510 min",
+     "added": false
+    },
+    {
+     "text": "5h50 min",
+     "added": false
+    },
+    {
+     "text": "6 10 min",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "round-trip",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Asum of %30,000 becomes 238,400 after being invested at a simple interest of 8% per annum in how many years?",
+   "options": [
+    {
+     "text": "3.5",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2.5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "study the given table carefully and answer the following question. The table shows the percentage of students of four departments — Mechanical, Civil, Computer Science and Applied — with each student being in only one department. The table also shows the number of students of these four departments in five different colleges, with the total number of students being 2080. Science wurden | 430 | 20% | = 10% uTKanpur [| 350 | 20% =| - [25% [| - | UTBombay | — | 20% [18%] — | 32% | uTMadras | - | — [25%] 18% | 35% | UT Guwahati | 400 | 20% [22%] = | 20% | If the number of students in IIT Bombay is 20% less than the number of students in IIT Madras, then what is the difference between the total number of students who study in the Applied department in these two colleges and that of the students who study in the Civil department in these two colleges?",
+   "options": [
+    {
+     "text": "106",
+     "added": false
+    },
+    {
+     "text": "206",
+     "added": false
+    },
+    {
+     "text": "116",
+     "added": false
+    },
+    {
+     "text": "126",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 3,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

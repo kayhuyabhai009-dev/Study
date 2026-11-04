@@ -1,0 +1,819 @@
+{
+ "paper": "RRB-NTPC-UG-CBT1-07-May-2026-Shift3.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "source_pdf": "rrb-ntpc-ug-level-07-05-2026-shift-3.pdf",
+ "tagged_count": 30,
+ "questions": [
+  {
+   "n": 1,
+   "text": "",
+   "options": [
+    {
+     "text": "1223",
+     "added": false
+    },
+    {
+     "text": "1227",
+     "added": false
+    },
+    {
+     "text": "1225",
+     "added": false
+    },
+    {
+     "text": "1221",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": true,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "1225"
+  },
+  {
+   "n": 2,
+   "text": "A store sells pens and notebooks. If 3 pens and 2 notebooks cost ₹120, and 2 pens and 4 notebooks cost ₹140, what is the price of one notebook?",
+   "options": [
+    {
+     "text": "₹35.00",
+     "added": false
+    },
+    {
+     "text": "₹32.50",
+     "added": false
+    },
+    {
+     "text": "₹25.00",
+     "added": false
+    },
+    {
+     "text": "₹22.50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "₹22.50"
+  },
+  {
+   "n": 3,
+   "text": "A shopkeeper wants to earn a profit of even after giving two successive discounts of and on the marked price of an article. If the cost price of the article for the shopkeeper is ₹1800, what should its marked price be?",
+   "options": [
+    {
+     "text": "₹2800",
+     "added": false
+    },
+    {
+     "text": "₹2500",
+     "added": false
+    },
+    {
+     "text": "₹3200",
+     "added": false
+    },
+    {
+     "text": "₹3000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "₹3000"
+  },
+  {
+   "n": 4,
+   "text": "If the third proportional to two numbers is 32 and the second number is 16, find the first number.",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": "8"
+  },
+  {
+   "n": 5,
+   "text": "The 7-digit number 32A776B is divisible by 24. What is the minimum value of (A + B)?",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": "2"
+  },
+  {
+   "n": 6,
+   "text": "The sum of two positive numbers is 30 and their product is 176. The positive difference between them is:",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "14"
+  },
+  {
+   "n": 7,
+   "text": "3628",
+   "options": [
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "7"
+  },
+  {
+   "n": 8,
+   "text": "A shopkeeper offers the following schemes on toys of the same marked price. (A) Successive discounts of 39% and 3% on any number of toys bought. (B) Successive discounts of 36%, 13% and 8% on any number of toys bought. (C) 18% discount on the first 2 toys and 41% discount on each toy thereon. (D) 5 toys free of cost on buying 7 toys. A customer wants to buy 7 toys. Which of the above schemes is the least beneficial to her?",
+   "options": [
+    {
+     "text": "A",
+     "added": false
+    },
+    {
+     "text": "C",
+     "added": false
+    },
+    {
+     "text": "D",
+     "added": false
+    },
+    {
+     "text": "B",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "C"
+  },
+  {
+   "n": 9,
+   "text": "The salary of an employee is increased by 5% in the first year and again by 5% in the second year. What is the overall percentage increase in the salary after two years?",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "10.25%",
+     "added": false
+    },
+    {
+     "text": "11.5%",
+     "added": false
+    },
+    {
+     "text": "11%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "10.25%"
+  },
+  {
+   "n": 10,
+   "text": "A 104-metre-long train crosses another 94-metre-long train running in the same direction in 16.2 seconds. If the speed of the first train is 61 kmph, what is the speed of the second train in kmph?",
+   "options": [
+    {
+     "text": "105 km/hr",
+     "added": false
+    },
+    {
+     "text": "109 km/hr",
+     "added": false
+    },
+    {
+     "text": "17 km/hr",
+     "added": false
+    },
+    {
+     "text": "101 km/hr",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": "17 km/hr"
+  },
+  {
+   "n": 11,
+   "text": "Ravi spends 70% of his income. If his income increases by 25% and his expenditure increases by 10%, by what percentage do his savings increase?",
+   "options": [
+    {
+     "text": "Savings increase by 60%",
+     "added": false
+    },
+    {
+     "text": "Savings increase by 50%",
+     "added": false
+    },
+    {
+     "text": "Savings increase by 40%",
+     "added": false
+    },
+    {
+     "text": "Savings increase by 30%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": "Savings increase by 60%"
+  },
+  {
+   "n": 12,
+   "text": "The fourth proportional to 1.2, 4.8, and 7.15 is:",
+   "options": [
+    {
+     "text": "28.4",
+     "added": false
+    },
+    {
+     "text": "28.6",
+     "added": false
+    },
+    {
+     "text": "28.2",
+     "added": false
+    },
+    {
+     "text": "28.8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": "28.6"
+  },
+  {
+   "n": 13,
+   "text": "Given the data set: 12, 36, 22, 27, 31, 17. What is the median value?",
+   "options": [
+    {
+     "text": "26.5",
+     "added": false
+    },
+    {
+     "text": "24.5",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "24.5"
+  },
+  {
+   "n": 14,
+   "text": "The total surface area of a cube having side 86 cm is:",
+   "options": [
+    {
+     "text": "44,294 cm2",
+     "added": false
+    },
+    {
+     "text": "44,376 cm2",
+     "added": false
+    },
+    {
+     "text": "44,462 cm2",
+     "added": false
+    },
+    {
+     "text": "44,325 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "44,376 cm2"
+  },
+  {
+   "n": 15,
+   "text": "A quadrilateral has one diagonal of length 36 cm, and the perpendiculars from the other two vertices to this diagonal are 20 cm and 10 cm. What is the area of this quadrilateral?",
+   "options": [
+    {
+     "text": "360 cm²",
+     "added": false
+    },
+    {
+     "text": "600 cm²",
+     "added": false
+    },
+    {
+     "text": "540 cm²",
+     "added": false
+    },
+    {
+     "text": "480 cm²",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "polygons",
+   "key_answer": "540 cm²"
+  },
+  {
+   "n": 16,
+   "text": "During a sale, 40% of the goods are sold at a profit of 10%. Of the remaining goods, 25% are sold at a profit of 15%, and the rest are sold at a loss of 29%. If there is an overall loss of x%, find the value of x.",
+   "options": [
+    {
+     "text": "1.5",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "6.8",
+     "added": false
+    },
+    {
+     "text": "3.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "6.8"
+  },
+  {
+   "n": 17,
+   "text": "Two numbers are in the ratio 4 : 5. If their LCM is 240, what is the sum of the two numbers?",
+   "options": [
+    {
+     "text": "108",
+     "added": false
+    },
+    {
+     "text": "96",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "108"
+  },
+  {
+   "n": 18,
+   "text": "The sum of the present ages of a mother and her daughter is 50 years. Five years ago, the mother's age was 7 times the daughter's age. What is the present age of the mother?",
+   "options": [
+    {
+     "text": "40 years",
+     "added": false
+    },
+    {
+     "text": "38 years",
+     "added": false
+    },
+    {
+     "text": "35 years",
+     "added": false
+    },
+    {
+     "text": "42 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": "40 years"
+  },
+  {
+   "n": 19,
+   "text": "A rectangular garden has a length of 25 meters and a width of 18 meters. If a path of uniform width 2 meters is constructed around the outside of the garden, what is the perimeter of the outer edge of the path?",
+   "options": [
+    {
+     "text": "86 meters",
+     "added": false
+    },
+    {
+     "text": "98 meters",
+     "added": false
+    },
+    {
+     "text": "112 meters",
+     "added": false
+    },
+    {
+     "text": "102 meters",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "102 meters"
+  },
+  {
+   "n": 20,
+   "text": "A train, 380 meters long, crosses a stationary train of length 340 m in 16 seconds. Find the speed of the train.",
+   "options": [
+    {
+     "text": "162 km/h",
+     "added": false
+    },
+    {
+     "text": "164 km/h",
+     "added": false
+    },
+    {
+     "text": "166 km/h",
+     "added": false
+    },
+    {
+     "text": "160 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": "162 km/h"
+  },
+  {
+   "n": 21,
+   "text": "",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "0.1",
+     "added": false
+    },
+    {
+     "text": "0.01",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": true,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "1"
+  },
+  {
+   "n": 22,
+   "text": "A and B can do a piece of work in 12 days and 36 days, respectively. Both work for 4 days and then A leaves. How long (in days) will B take to complete the remaining work?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "19",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "20"
+  },
+  {
+   "n": 23,
+   "text": "What is the mode of the following data? 40, 41, 42, 51, 45, 43, 45, 43, 51, 40, 51, 54, 46, 50, 55, 47, 42, 46",
+   "options": [
+    {
+     "text": "41",
+     "added": false
+    },
+    {
+     "text": "51",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "51"
+  },
+  {
+   "n": 24,
+   "text": "Simplify: 30 + [{-9 × (26 - 11 + 6)}]",
+   "options": [
+    {
+     "text": "-160",
+     "added": false
+    },
+    {
+     "text": "-162",
+     "added": false
+    },
+    {
+     "text": "-159",
+     "added": false
+    },
+    {
+     "text": "-161",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "-159"
+  },
+  {
+   "n": 25,
+   "text": "A tank is normally filled by pipe A in 10 hours. Due to a leak, the tank takes 12 hours to fill. Find the time taken by the leak alone to empty a full tank.",
+   "options": [
+    {
+     "text": "60 hours",
+     "added": false
+    },
+    {
+     "text": "40 hours",
+     "added": false
+    },
+    {
+     "text": "30 hours",
+     "added": false
+    },
+    {
+     "text": "80 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": "60 hours"
+  },
+  {
+   "n": 26,
+   "text": "The mean proportional between two positive numbers is 30. If the difference between the two numbers is 45, what is the smaller of the two numbers?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": "15"
+  },
+  {
+   "n": 27,
+   "text": "If a sum of ₹70,000 amounts to ₹74,263 in X years under compound interest, compounded annually at 3% per annum, find X.",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "2"
+  },
+  {
+   "n": 28,
+   "text": "If ₹25,200 is invested at a simple interest rate of 6% per annum for 4 years, find the interest earned.",
+   "options": [
+    {
+     "text": "₹6,070",
+     "added": false
+    },
+    {
+     "text": "₹6,025",
+     "added": false
+    },
+    {
+     "text": "₹6,048",
+     "added": false
+    },
+    {
+     "text": "₹8,021",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "₹6,048"
+  },
+  {
+   "n": 29,
+   "text": "A and B can do a piece of work in 12 days and 36 days, respectively. Both work for 4 days and then A leaves. How long (in days) will B take to complete the remaining work?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "19",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "20"
+  },
+  {
+   "n": 30,
+   "text": "Three numbers are in the ratio 3 : 2 : 13, and their LCM is 6318. Their HCF is:8627",
+   "options": [
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "128",
+     "added": false
+    },
+    {
+     "text": "124",
+     "added": false
+    },
+    {
+     "text": "81",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "81"
+  }
+ ]
+}

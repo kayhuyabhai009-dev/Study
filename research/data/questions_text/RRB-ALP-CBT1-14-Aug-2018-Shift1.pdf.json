@@ -1,0 +1,56 @@
+{
+ "paper": "RRB-ALP-CBT1-14-Aug-2018-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 5,
+   "text": "1998 6a AGIA SQA aeal 7890, AIS 1999 6a FE Clim 16.5% Eel CSET 1999 GAGA Gell SQA AIIGHAIG 6aSS Aral I 1999 1998 The given chart represents the sales of different companies in the year 1999 and 1998. If the total sales in 1998 was 7890, which increased by 16.5% in 1999, then the total sales in the year 1999 is approximately .",
+   "options": [
+    {
+     "text": "9911",
+     "added": false
+    },
+    {
+     "text": "9191",
+     "added": false
+    },
+    {
+     "text": "9119",
+     "added": false
+    },
+    {
+     "text": "1919",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "9191"
+  },
+  {
+   "n": 10,
+   "text": "A pipe, working at full speed, can fill an empty cistem in 1 hour. However, during the first hour it worked at one-twelfth of its capacity, during the second hour at one-ninth of its capacity, during the third hour at one-sixth of its usual capacity, during the fourth hour at one- fourth of its usual capacity and during the fifth hour it was only one-third as efficient as it was supposed to be. A second pipe also displayed similar performance, but if it worked at full speed would have filled the empty cistern in 2 hours. Together with a drain pipe that drained water out of the tank at a constant rate, the empty cistern could be filled in 5 hours, all the three pipes working concurrently. How many hours will it take the drain pipe to empty the filled cistern ifno other pipe was functioning during the time?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "range-and-spread",
+   "key_answer": "16"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.1,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 272,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

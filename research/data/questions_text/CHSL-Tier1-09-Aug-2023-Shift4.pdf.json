@@ -1,0 +1,431 @@
+{
+ "paper": "CHSL-Tier1-09-Aug-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qi . + : : 2 x2 3x42 Which of the following expressions is equal to the expression [ ? x",
+   "options": [
+    {
+     "text": "x+1",
+     "added": false
+    },
+    {
+     "text": "—1 gee. 22 x+2",
+     "added": false
+    },
+    {
+     "text": "x+2 —1",
+     "added": false
+    },
+    {
+     "text": "xt x-2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "92 What is the fourth proportional of 35, 5 V8 and 3 V10?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "ap If tan6 =—, then the value of pe is: 15 i+sin6",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "94 Study the given table and answer the question that follows. The table represents the mathematics marks of five students. eS a What is the average marks?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Aman buys an article for 280 and marks it at 2125. He then allows a discount of 40%. What is his percentage of loss or gain?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Subhas, a 3.15 m tall tee, and an 11.25 m tall building are positioned such that their feet on the ground are collinear and the tree is located between Subhas and the building. The tree is located at a distance of 7.5 m from Subhas and at a distance of 45 m from the building. Further, the eyes of Subhas, the top of the tree, and the top of the building fall in one line. Find the height (in m) from the ground at which Subhas* eyes are situated,",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The lengths of two parallel chords of a circle are 10 cm and 24 cm lie on the opposite sides of the centre. If the smaller chord is 12 cm from the centre, what is the distance (in cm) between the two chords?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs , 39 F , If is an acute angle and cos@ = oe) what is the value of sin6?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Study the given pie chart and answer the question that follows. The pie chart shows the distribution (in terms of central angles) of the number of professors in six different departments of a college. [Total number of professors = 600 The number of professors in Economics and Mathematics is approximately (correct up to two decimal places) what per cent more than the number of professors in English and Statistics?",
+   "options": [
+    {
+     "text": "69.23%",
+     "added": false
+    },
+    {
+     "text": "59.09%",
+     "added": false
+    },
+    {
+     "text": "40.91%",
+     "added": false
+    },
+    {
+     "text": "70.91%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The marked price of a sunglass is 71,350. It is sold at 71,188 after allowing a certain discount. Find the rate of discount.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Qa 1 3 1 Ifa+-=5, then determine the value of a? + —. a a",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "212 Tf tan @.tan26 = 1, then the value of cot 56 is:",
+   "options": [
+    {
+     "text": "-1",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "V3",
+     "added": false
+    },
+    {
+     "text": "V3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Aman sells rice at 8% profit and uses weight 25% less than the actual measure. What is his percentage profit?",
+   "options": [
+    {
+     "text": "44%",
+     "added": false
+    },
+    {
+     "text": "41%",
+     "added": false
+    },
+    {
+     "text": "23%",
+     "added": false
+    },
+    {
+     "text": "36%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The simple interest (in 2, rounded off to the tens place) on 212,300 from 22 May 1993 to 2 August 1993 (both days are included) at the rate of 12% per annum is:",
+   "options": [
+    {
+     "text": "300",
+     "added": false
+    },
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "250",
+     "added": false
+    },
+    {
+     "text": "350",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Two points P and Qare 3 cm apart. These two points lie on the circumference of a circle having radius 1.7 cm. What is the distance (in cm) of the line segment PQ from the centre of the circle?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Two people A and B started running from the same point on a circular track of length 400 min opposite directions with initial speeds of 10 m/s and 40 m/s, respectively. Whenever they meet, A's speed doubles and B's speed halves. After what time from the start will they meet for the third time?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Two years ago, the population of the city was 5,00,000. If the annual birth rate and the annual death rate are 6% and 3%, respectively, what is the present population of the city?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "918 Find the value of the given expression. (23 i) 2 2 ty Seopa oe Meso’ or pea = 2 8 8 3.8",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "919 Find the average of prime numbers lying between 69 and 92.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "In AABC, P and Q are the middle points of the sides AB and AC, respectively, R is point on the segment PQ such that PR: RQ = 1:3. If PR=6 cm, then BC:",
+   "options": [
+    {
+     "text": "46cm",
+     "added": false
+    },
+    {
+     "text": "48cm",
+     "added": false
+    },
+    {
+     "text": "44cm",
+     "added": false
+    },
+    {
+     "text": "50cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The diameter of a sphere is 14 cm, then the volume of this sphere is (use 1 = 22/7):",
+   "options": [
+    {
+     "text": "¥ 1‘. 1437= cm? 3 1",
+     "added": false
+    },
+    {
+     "text": "16832 cm? 2 3",
+     "added": false
+    },
+    {
+     "text": "1521- cm ae",
+     "added": false
+    },
+    {
+     "text": "21 25° cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "\" 1 Ifx = (7 + 35), then find the value of x? +. x",
+   "options": [
+    {
+     "text": ", 380+315V5 8 +",
+     "added": false
+    },
+    {
+     "text": "7994328V5 8 Me",
+     "added": false
+    },
+    {
+     "text": ", 7994315V5 12",
+     "added": false
+    },
+    {
+     "text": "799+315V5 8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "A person spent 12% of his salary on groceries, 8% on medicines, 20% on children’s school fee and he had a balance of 36,000. Find his salary.",
+   "options": [
+    {
+     "text": "%56,000",
+     "added": false
+    },
+    {
+     "text": "354,000",
+     "added": false
+    },
+    {
+     "text": "360,000",
+     "added": false
+    },
+    {
+     "text": "366,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Study the given bar graph and answer the question that follows. The production of cement (in lakh tonnes) by a company during the last six years is presented by the bar graph, oo = F I = Looe =— a: | — = ie ww — ce we a oe ‘What is the average cement production (in lakh tonnes) during the given six years?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Three people A, B and C worked together and finished a work in 9 days. If A alone can finish the same work in 18 days, B alone in 30 days, then the number of days C alone will take is:",
+   "options": [
+    {
+     "text": "36 days",
+     "added": false
+    },
+    {
+     "text": "45 days",
+     "added": false
+    },
+    {
+     "text": "40 days",
+     "added": false
+    },
+    {
+     "text": "54 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  }
+ ]
+}

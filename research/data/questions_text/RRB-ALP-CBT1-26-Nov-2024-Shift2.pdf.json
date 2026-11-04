@@ -1,0 +1,150 @@
+{
+ "paper": "RRB-ALP-CBT1-26-Nov-2024-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Anarticle is sold for x after offering two successive discounts of 25% and 8% on its marked price of 2500. The value of x is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "345"
+  },
+  {
+   "n": 5,
+   "text": "The larger angle is 6° less than five times the measure of the smaller angle. What is the measure of the larger angle?",
+   "options": [
+    {
+     "text": "63°",
+     "added": false
+    },
+    {
+     "text": "87°",
+     "added": false
+    },
+    {
+     "text": "74°",
+     "added": false
+    },
+    {
+     "text": "66°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": "74°"
+  },
+  {
+   "n": 7,
+   "text": "= Amita is 2 years older than her friend Amrita. Amita's father is twice as old as Amita, and Amrita is twice as old as her sister. The ages of Amita's father and Amrita's sister differ by 43 years. The sum of the ages (in years) of Amita and Anita is:",
+   "options": [
+    {
+     "text": "#1. 54",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "68",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "sum-difference",
+   "key_answer": "54"
+  },
+  {
+   "n": 10,
+   "text": "A trader lost 20% by selling a watch for 21,024. What percentage will he gain by selling it for 21,472?",
+   "options": [
+    {
+     "text": "SA 1. 15%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": "15%"
+  },
+  {
+   "n": 13,
+   "text": "The tax on a commodity is reduced by 10%, but its consumption is increased by 20%. The percentage increase in the tax revenue derived from it is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": "8%"
+  },
+  {
+   "n": 15,
+   "text": "The radius of a cylinder is 5 cm more than its height. If the curved surface area of the cylinder is 792 cm/, then the volume of the cylinder (in cm), is . [Use t= = ]",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": "5544"
+  },
+  {
+   "n": 16,
+   "text": "is coded as ‘6823°. What is the code for ‘L’ in the given code language? S25 x32 x48 964 The highest common factor of a set of coprime numbers is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "1"
+  },
+  {
+   "n": 19,
+   "text": "The sum of the length, the breadth and the height of a cuboid is 38 cm and the length of its diagonal is 22 cm. Find the total surface area of the cuboid.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "960 cm²"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.05,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 229,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

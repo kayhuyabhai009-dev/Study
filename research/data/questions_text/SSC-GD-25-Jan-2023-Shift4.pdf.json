@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-25-Jan-2023-Shift4.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A number ‘y’ when divided by 225 leaves 33 as the remainder. The same number when divided by 15 leaves ‘z’ as the remainder. The value of z is:",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "What is the average of first five prime numbers?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Ravi and Sumant can complete a piece of work in 40 and 50 days, respectively. If they work at it on alternate days starting with Ravi on the first day, in how many days will the work get over?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "By compounding annually, the compound interest on a sum of Rs.4,900 in 2 years is Rs.725. What is the rate of interest per annum?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A trader offers an 8% discount on all his goods and still make a 15% profit. If an item is marked with a price of ₹250, the cost price is:",
+   "options": [
+    {
+     "text": "₹185",
+     "added": false
+    },
+    {
+     "text": "₹180",
+     "added": false
+    },
+    {
+     "text": "₹200",
+     "added": false
+    },
+    {
+     "text": "₹176",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Krishan bought first and second item for ₹150 and ₹300 respectively. He sold the first item at 20% profit, and the second item at 20% loss. Find his overall profit or loss percentage. (Rounded off to two decimal places)",
+   "options": [
+    {
+     "text": "Profit 13.33%",
+     "added": false
+    },
+    {
+     "text": "Loss 6.67%",
+     "added": false
+    },
+    {
+     "text": "Loss 13.33%",
+     "added": false
+    },
+    {
+     "text": "Profit 6.67%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "12% of the voters in an election did not cast their votes and 2% of the casted votes were declared invalid. In this election, there were only two candidates. The winner by obtaining 46% of the total registered voters defeated his opponent by 1,044 votes. What was the total number of voters registered in the election?",
+   "options": [
+    {
+     "text": "18125",
+     "added": false
+    },
+    {
+     "text": "10440",
+     "added": false
+    },
+    {
+     "text": "16750",
+     "added": false
+    },
+    {
+     "text": "14400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "What is the LCM of two co-prime numbers whose product is 323?",
+   "options": [
+    {
+     "text": "161.5",
+     "added": false
+    },
+    {
+     "text": "646",
+     "added": false
+    },
+    {
+     "text": "323",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A certain number is added to each of the numbers 11,15,19 and 25. After addition, these numbers are in proportional. What is the number added?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The average of 29 observations is 40. If the average of the first 15 observations is 38, and that of the last 15 observations is 45, then the 15th observation is:",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "29.5",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "85",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The marked price of an item was Rs. 4000 but the shopkeeper offered a double discount of 5 percent and 7 percent. In how much did he finally sell the item?",
+   "options": [
+    {
+     "text": "Rs. 3948",
+     "added": false
+    },
+    {
+     "text": "Rs. 3872",
+     "added": false
+    },
+    {
+     "text": "Rs. 3534",
+     "added": false
+    },
+    {
+     "text": "Rs. 3665",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Two friends are running on a circular track of 720 m. They started from the same point and are moving in the same direction with speeds of 1.5 m/s and 3.5 m/s. After how much time will they cross each other for the second time?",
+   "options": [
+    {
+     "text": "12 minutes",
+     "added": false
+    },
+    {
+     "text": "3.5 minutes",
+     "added": false
+    },
+    {
+     "text": "7 minutes",
+     "added": false
+    },
+    {
+     "text": "10 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A sum of P was borrowed and paid back in three equal yearly instalments, each of ₹30,000. If the rate of interest was 5% compounded annually, then the value of P (approximate) is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A can do a piece of work in 51 days and B can do the same work in 34 days. Find the time required to complete the same work if they work on alternate days and A starts the work.",
+   "options": [
+    {
+     "text": "44 days",
+     "added": false
+    },
+    {
+     "text": "41 days",
+     "added": false
+    },
+    {
+     "text": "46 days",
+     "added": false
+    },
+    {
+     "text": "42 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "What should be added to the each numbers 9, 22, 14, and 32 so that the obtained numbers are proportional?",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A shopkeeper sells rice. He buys it at a rate 15% less than the selling price. His total sales value for a month is Rs.5,50,000 and he pays Rs.8,000 as rent of the shop at the start of the month. His profit percentage in the month is ________.",
+   "options": [
+    {
+     "text": "14.5%",
+     "added": false
+    },
+    {
+     "text": "15.7%",
+     "added": false
+    },
+    {
+     "text": "17.5%",
+     "added": false
+    },
+    {
+     "text": "12.7%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Ramesh and Naresh start running at speeds of 26 km/h and 18 km/h respectively towards each other, they meet after one hour and 45 minutes. How far (in metres) were they from each other when they started running?",
+   "options": [
+    {
+     "text": "75000",
+     "added": false
+    },
+    {
+     "text": "77000",
+     "added": false
+    },
+    {
+     "text": "66000",
+     "added": false
+    },
+    {
+     "text": "65000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "If the radius of a cylinder is 7 m and its total surface area is 440 m2, then find the height of the cylinder. (Use π = 22/7)",
+   "options": [
+    {
+     "text": "3 m",
+     "added": false
+    },
+    {
+     "text": "7 m",
+     "added": false
+    },
+    {
+     "text": "4 m",
+     "added": false
+    },
+    {
+     "text": "5 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "In an assembly election, a candidate got 72% of the total valid votes. 1.2% of the total votes were declared invalid. If the total number of voters is 3,32,000, then the number of valid votes polled in favour of this candidate is: (Consider integral part only)",
+   "options": [
+    {
+     "text": "337877",
+     "added": false
+    },
+    {
+     "text": "136188",
+     "added": false
+    },
+    {
+     "text": "236171",
+     "added": false
+    },
+    {
+     "text": "133666",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 324,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

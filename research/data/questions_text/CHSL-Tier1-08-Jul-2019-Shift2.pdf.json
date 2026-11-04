@@ -1,0 +1,465 @@
+{
+ "paper": "CHSL-Tier1-08-Jul-2019-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "3 « Ifx = 2+ 3, then the value of x? — x? is:",
+   "options": [
+    {
+     "text": "-52",
+     "added": false
+    },
+    {
+     "text": "-30v3",
+     "added": false
+    },
+    {
+     "text": "03",
+     "added": false
+    },
+    {
+     "text": "52",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Addale4i7) ic The given Bar Graph presents the number of students of two schools for six years. sSchool A *Schoo! 8 1000 900 $00, ‘800 820 = a so pass ony S00 S00, 480 400 300, 200 100 * 2008 2009 2010 2017 2012 2013 What is the average of the number of students from school A during the six year period?",
+   "options": [
+    {
+     "text": "760",
+     "added": false
+    },
+    {
+     "text": "700",
+     "added": false
+    },
+    {
+     "text": "715",
+     "added": false
+    },
+    {
+     "text": "765",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Aand B can complete a piece of work in 15 days and 10 days respectively. They got a contract to complete the work for 235000. The share of A (in 2) in the contracted money will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Chords AB and CD ofa circle intersect externally at P. If AB=6cm, CD = 3.cmand PB = 4 cm. then the length (in cm) of PD is:",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "If each side ofa rectangle is increased by 13%, then its area will increase by:",
+   "options": [
+    {
+     "text": "21.69%",
+     "added": false
+    },
+    {
+     "text": "13%",
+     "added": false
+    },
+    {
+     "text": "27.69%",
+     "added": false
+    },
+    {
+     "text": "26%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The sum of the salaries of A and B together is 243000. A spends 95% of his salary and B, 80% of his salary. If now their savings are the same, what is B’s salary (in 2)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "&7 The value of 8 (3; ya is: 1/5 1.1 X Ef} 8 8 8 3",
+   "options": [
+    {
+     "text": "9 1S 16 19",
+     "added": false
+    },
+    {
+     "text": "2% 7 19",
+     "added": false
+    },
+    {
+     "text": "9 19",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The given Bar Graph presents the number of students of two schools for six years. *School A *School B 1000 ‘900 = 640 rt om a ee ~ 300 Z 500, 480 400 : | 200 100 9 2008 2009 2010 2017 2012 2013 In which year, the absolute difference of the students in two schools is the lowest?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": ": 3 2) ats If sin 6 = 3x and cos 6 ==, (x ¥ 0) then the value of 6(x? + —) is: x x",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "If ina AABC, the bisectors of 2 B and 2 C meet at O, inside the triangle. If 2BOC = 156° , then the measure of 2A is:",
+   "options": [
+    {
+     "text": "66°",
+     "added": false
+    },
+    {
+     "text": "132°",
+     "added": false
+    },
+    {
+     "text": "84°",
+     "added": false
+    },
+    {
+     "text": "156°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Two numbers are in the ratio 3 : 4. On increasing each of them by 30, the ratio becomes 9 : 10. The numbers are:",
+   "options": [
+    {
+     "text": "30,40",
+     "added": false
+    },
+    {
+     "text": "15, 20",
+     "added": false
+    },
+    {
+     "text": "12, 16",
+     "added": false
+    },
+    {
+     "text": "18, 24",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The compound interest on a certain sum of money at 11% for 2 years is 26963. Its simple interest (in 2) at the same rate and for the same period is:",
+   "options": [
+    {
+     "text": "26500",
+     "added": false
+    },
+    {
+     "text": "26600",
+     "added": false
+    },
+    {
+     "text": "26750",
+     "added": false
+    },
+    {
+     "text": "26000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "| Q.13 A dealer buys an article marked at 20000 with two successive discounts of10% and 8%, He spends 21440 on repairs and sells it for 20000, what is his profit/loss percent (correct to one decimal place)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "v3 3m : If cosx = — and wm < x <= , then the value of 2 cot*x — 3sec?x is:",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The ratio between the speeds of two trains is 2 : 5. If the first train runs 350 km in 5 hours, then the sum of the speed (in Knyv/h) of both the trains is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Two students, A and B, appeared for an examination. A secured 8 marks more than B and the marks of the former was 60% of the sum of their marks. The sum of the marks obtained by A and B is:",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The distance between the centre of two circles of radius 4 cm, and 2 cm is 10 cm. The length (in cm) of a transverse common tangent is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The given Bar Graph presents the number of students of two schools for six years. sScheoth School 8 TD * ‘800 org 10 700 wo = In which year, the percentage increase of students in school A is the highest in comparison to its previous year?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "919 Given n is an integer, what is the remainder when (6n + 3)? is divided by 9?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "There is a polygon of 11 sides, How many triangles can be drawn by only using the vertices of the polygon?",
+   "options": [
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "150",
+     "added": false
+    },
+    {
+     "text": "175",
+     "added": false
+    },
+    {
+     "text": "180",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "polygons",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "4 4 4 5 1f6 ** +8 °* = 10%, then the value of x is:",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "i¢ A(cosec? 66° — tan? 24°) + $sin90° — 4tan?66°y tan? 24° = a then the value of y is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The given Bar Graph presents the number of students of two schools for six years. a @ - Pa 0 400 ot ©~\"yo08” 2009 2010=«2011«ate 2013 What is the ratio of the number of students taken for all years together from school A to that from school B?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "if(x—7)? + (2x+8)? + (2x— 3)? = 3 (x — 7) (2x + 8) (2x — 3), then what is the value of x?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The average age of fifteen persons is 32 years. If two more persons are added then the average is increased by 3 years. The new persons have an age difference of 7 years between them. The age (in years) of the elder among the new persons is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  }
+ ]
+}

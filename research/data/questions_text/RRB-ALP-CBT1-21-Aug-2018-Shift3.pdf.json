@@ -1,0 +1,54 @@
+{
+ "paper": "RRB-ALP-CBT1-21-Aug-2018-Shift3.pdf",
+ "status": "no_text_layer",
+ "tagged_count": 22,
+ "questions": [
+  {
+   "n": 12,
+   "text": "ue Ee Se cenacaae A shopkeeper allows a discount of 20% to his customers and still gains 25%. Find the So Marked price of an article which costs ¢ 600 to the shopkeeper.",
+   "options": [
+    {
+     "text": "Wf 1. % 937.50",
+     "added": false
+    },
+    {
+     "text": "F937",
+     "added": false
+    },
+    {
+     "text": "F930",
+     "added": false
+    },
+    {
+     "text": "% 1,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": "₹937.50"
+  },
+  {
+   "n": 19,
+   "text": "we spice Hea st a 5, 6, 7 ar 8 F fenfae fear stat s at sete ee are H 4 Shr ear 21 VS we Wemst HS wea Os wea staat 27 Question |b Seeaneetse A natural number, when divided by 5, 6, 7 or 8, leaves a remainder of 4 in cach case. ‘What is the smallest of all such numbers?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": "844"
+  },
+  {
+   "n": 21,
+   "text": "“y Sugar - ‘aT Wheat - 7 Rice - Uae Others - 31a The pie chart represents the annual yield in tons of a certain place. If the yield of sugar is 6000 tons then the yield of wheat will be tons.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "7500"
+  }
+ ]
+}

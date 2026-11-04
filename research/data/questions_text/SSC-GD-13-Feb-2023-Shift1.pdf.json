@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-13-Feb-2023-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The store price of a chair is Rs.2,000. The successive discounts offered by the store is 10% and 15%. Calculate the total discount percentage for the chair.",
+   "options": [
+    {
+     "text": "10.25%",
+     "added": false
+    },
+    {
+     "text": "15.30%",
+     "added": false
+    },
+    {
+     "text": "12.50%",
+     "added": false
+    },
+    {
+     "text": "23.50%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A, B and C can finish a work in 10, 15 and 30 days, respectively. In how many days can A finish the work if he is assisted by B and C both every third day?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The population of bacteria in a culture prepared in a lab is 8 x 108. Their birth and death rates per hour are 12.75% and 10.75% respectively. Find their population in the culture after 3 h.",
+   "options": [
+    {
+     "text": "84,89,66,400",
+     "added": false
+    },
+    {
+     "text": "84,89,44,600",
+     "added": false
+    },
+    {
+     "text": "8,48,96,640",
+     "added": false
+    },
+    {
+     "text": "8,48,96,460",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The marked price of a book is ₹600. After allowing a discount of 20% on the marked price, shopkeeper makes profit of ₹48. Find the gain percent.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "By selling a plot of land for ₹5,45,000 a person loses 8%. At what price should he sell it to gain 12%?",
+   "options": [
+    {
+     "text": "₹6,60,012.30",
+     "added": false
+    },
+    {
+     "text": "₹5,62,391.30",
+     "added": false
+    },
+    {
+     "text": "₹6,63,478.25",
+     "added": false
+    },
+    {
+     "text": "₹6,66,667.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Mohi and Suniti working separately can do a work in 12 and 15 days, respectively. Mohi starts the work and they work on alternate days. In how many days will the work be completed?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "How many hours will a car take to cover a distance of 354 kms at a speed of 59 km/h?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "If the cost price and the selling price of an article are Rs.1,850 and Rs.1,480 respectively, then what is the loss percentage?",
+   "options": [
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A thief is spotted by a policeman from a distance of 100 m. When the policeman starts the chase, the thief also starts running. If the speed of the thief is 8 km/h and that of the policeman is 10 km/h, how far will the thief have run before he is overtaken?",
+   "options": [
+    {
+     "text": "400 m",
+     "added": false
+    },
+    {
+     "text": "300 m",
+     "added": false
+    },
+    {
+     "text": "250 m",
+     "added": false
+    },
+    {
+     "text": "350 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A solid metallic hemisphere is melted and recast in the shape of a cone with the same base radius (r) as that of the hemisphere. If h is the height of the cone, then the ratio of r and h is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The ratio between two numbers is 3:5. If the LCM of these numbers is 240, then what are the two numbers?",
+   "options": [
+    {
+     "text": "48 and 80",
+     "added": false
+    },
+    {
+     "text": "42 and 88",
+     "added": false
+    },
+    {
+     "text": "48 and 88",
+     "added": false
+    },
+    {
+     "text": "36 and 94",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The numerator of a fraction is decreased by 25% and the denominator is increased by 25%. New fraction is how much percentage less than the original fraction?",
+   "options": [
+    {
+     "text": "45%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The ratio of third proportional to X and Y and fourth proportional to X, Y and Z is 7 : 22, then the ratio Z : Y is:",
+   "options": [
+    {
+     "text": "22 : 7",
+     "added": false
+    },
+    {
+     "text": "1 : 5",
+     "added": false
+    },
+    {
+     "text": "49 : 484",
+     "added": false
+    },
+    {
+     "text": "7 : 22",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The average weight of 18 students in a class increases by 3.5 kg when one student weighing 45 kg is replaced by a new student. What is the weight (in kg) of the new student?",
+   "options": [
+    {
+     "text": "582",
+     "added": false
+    },
+    {
+     "text": "507",
+     "added": false
+    },
+    {
+     "text": "108",
+     "added": false
+    },
+    {
+     "text": "723",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The sum of the present ages of X, Y and Z is 165 years. Five years ago, the ratio of their ages was 3 : 5 : 7. What is the present average age of X and Z?",
+   "options": [
+    {
+     "text": "75 years",
+     "added": false
+    },
+    {
+     "text": "55 years",
+     "added": false
+    },
+    {
+     "text": "45 years",
+     "added": false
+    },
+    {
+     "text": "70 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A sum of Rs.6,000 was deposited for 3 years at 5% per annum, interest compounded annually. Find the interest for the third year.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A number 2X16 is divided by the smallest number divisible by 4 and 9. The resultant number is the square of 9. Find the value of X.",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Find the volume of a cone whose radius is 10 cm and the slant height is 26 cm. (Take π = 3.14.)",
+   "options": [
+    {
+     "text": "2432 cm3",
+     "added": false
+    },
+    {
+     "text": "2564 cm3",
+     "added": false
+    },
+    {
+     "text": "2512 cm3",
+     "added": false
+    },
+    {
+     "text": "2498 cm3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 306,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

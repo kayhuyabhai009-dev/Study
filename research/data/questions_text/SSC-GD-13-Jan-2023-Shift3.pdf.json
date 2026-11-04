@@ -1,0 +1,559 @@
+{
+ "paper": "SSC-GD-13-Jan-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A toy is in the form of a cone mounted on a hemisphere. The radius of the hemisphere and that of the cone is 7 cm and height of the cone is 5 cm. The total surface area of the toy (take π = 22 7 ) is (rounded off to two places of decimal):",
+   "options": [
+    {
+     "text": "2648.81 cm2",
+     "added": false
+    },
+    {
+     "text": "2666.85 cm2",
+     "added": false
+    },
+    {
+     "text": "497.25 cm2",
+     "added": false
+    },
+    {
+     "text": "486.65 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Find the mean proportional of (x + y)4 and (x - y)4.",
+   "options": [
+    {
+     "text": "(x2 - y2)3",
+     "added": false
+    },
+    {
+     "text": "(x2 - y2 ) 2",
+     "added": false
+    },
+    {
+     "text": "(x2 - y2 )",
+     "added": false
+    },
+    {
+     "text": "(x2 - y2 )4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The average salary of all the workers in a factory is Rs. 3,000. Among these workers, there are 12 higher officers and their average salary is Rs.12,000. The average salary of the remaining workers is Rs. 2,500. The total number of the workers is ______.",
+   "options": [
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "204",
+     "added": false
+    },
+    {
+     "text": "216",
+     "added": false
+    },
+    {
+     "text": "228",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The HCF of 38 , 12 5 and 15 16 is:",
+   "options": [
+    {
+     "text": "1 12",
+     "added": false
+    },
+    {
+     "text": "1 24",
+     "added": false
+    },
+    {
+     "text": "1 48",
+     "added": false
+    },
+    {
+     "text": "1 36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-fractions",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The population of a town is increasing at 5% per annum. What will be the population of the town after 2 years, if the present population is 16000?",
+   "options": [
+    {
+     "text": "17960",
+     "added": false
+    },
+    {
+     "text": "16560",
+     "added": false
+    },
+    {
+     "text": "16960",
+     "added": false
+    },
+    {
+     "text": "17640",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A sum of money compound interest annually, the principal becomes Rs 30,250 in 2 years and Rs 33,275 in 3 years. Then find the principal?",
+   "options": [
+    {
+     "text": "Rs. 23,000",
+     "added": false
+    },
+    {
+     "text": "Rs. 26,000",
+     "added": false
+    },
+    {
+     "text": "Rs. 24,000",
+     "added": false
+    },
+    {
+     "text": "Rs. 25,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A and B can together finish a work in 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days can A alone finish the whole work?",
+   "options": [
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "66",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "62",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "By selling goods for ₹15,000, Ramu gains ₹3,000. What is his profit percentage?",
+   "options": [
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A, B and C together can complete a piece of work in 40/3 days. All three started working at it together and after 5 days A left. Then B and C together completed the remaining work in 17 days. Find the number of days (approximately) in which A alone can complete the total work.",
+   "options": [
+    {
+     "text": "24 days",
+     "added": false
+    },
+    {
+     "text": "29 days",
+     "added": false
+    },
+    {
+     "text": "26 days",
+     "added": false
+    },
+    {
+     "text": "44 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Find the remainder when the smallest 6-digit number divisible by 12, 15 and 25 is divided by 9.",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A train travels from Delhi to Dehradun at the speed of 120 km/h and from Dehradun to Delhi at the speed of 130 km/h. What is the average speed during the whole journey?",
+   "options": [
+    {
+     "text": "127.8 km/h",
+     "added": false
+    },
+    {
+     "text": "126.8 km/h",
+     "added": false
+    },
+    {
+     "text": "125.4 km/h",
+     "added": false
+    },
+    {
+     "text": "124.8 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The marked price of a bedsheet is 14 percent more than its cost price. If a discount of 14 percent is given on the marked price. What is the gain or loss percent?",
+   "options": [
+    {
+     "text": "1.44 percent gain",
+     "added": false
+    },
+    {
+     "text": "1.96 percent loss",
+     "added": false
+    },
+    {
+     "text": "1.64 percent gain",
+     "added": false
+    },
+    {
+     "text": "1.82 percent loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A single discount equivalent to successive discounts of 10%, 20% and 40% on marked price is:",
+   "options": [
+    {
+     "text": "56 45 %",
+     "added": false
+    },
+    {
+     "text": "52 15 %",
+     "added": false
+    },
+    {
+     "text": "51 45 %",
+     "added": false
+    },
+    {
+     "text": "48 15 %",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "75% of first number is equal to 60% of second number. What is the ratio of the first number and second number?",
+   "options": [
+    {
+     "text": "2 ∶ 3",
+     "added": false
+    },
+    {
+     "text": "4 ∶ 5",
+     "added": false
+    },
+    {
+     "text": "1 ∶ 2",
+     "added": false
+    },
+    {
+     "text": "3 ∶ 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Find the volume of a cone, the radius of whose base is 21 cm and height is 20 cm. Take π = 22 7 .",
+   "options": [
+    {
+     "text": "8840 cm3",
+     "added": false
+    },
+    {
+     "text": "9204 cm3",
+     "added": false
+    },
+    {
+     "text": "9420 cm3",
+     "added": false
+    },
+    {
+     "text": "9240 cm3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Find the mean proportional between 18 and 32.",
+   "options": [
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "An almirah was brought for Rs. 14,360 and Rs. 240 was spent on its transportation. At what price should it be sold, to gain 15%?",
+   "options": [
+    {
+     "text": "Rs. 16,780",
+     "added": false
+    },
+    {
+     "text": "Rs. 16,800",
+     "added": false
+    },
+    {
+     "text": "Rs. 16,770",
+     "added": false
+    },
+    {
+     "text": "Rs. 16,790",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Ravish travelled the first 20 km of an entire distance at a speed of 12 km/h; the next 25 km at a speed of 10 km/h and the remaining distance at a speed of 15 km/h. If his overall average speed was 13.5 km/h, what was the distance that Ravish travelled at a speed of 15 km/h?",
+   "options": [
+    {
+     "text": "111.95 km",
+     "added": false
+    },
+    {
+     "text": "110.95 km",
+     "added": false
+    },
+    {
+     "text": "112.5 km",
+     "added": false
+    },
+    {
+     "text": "113.95 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A car covers a distance of 1080 km in 240 minutes. What is the speed of the car in m/sec?",
+   "options": [
+    {
+     "text": "70",
+     "added": false
+    },
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "55",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Om decided to order 12 percent more millet flour for his bakery than last year. If he ordered 240 kg last year, then how much quantity of millet flour should he order this year?",
+   "options": [
+    {
+     "text": "272.2 kg",
+     "added": false
+    },
+    {
+     "text": "268.8 kg",
+     "added": false
+    },
+    {
+     "text": "252.2 kg",
+     "added": false
+    },
+    {
+     "text": "258.8 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-slice": {
+   "n": 126,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 166,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

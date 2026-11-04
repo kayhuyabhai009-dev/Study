@@ -1,0 +1,76 @@
+{
+ "paper": "RRB-ALP-CBT1-30-Aug-2018-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 24,
+ "questions": [
+  {
+   "n": 11,
+   "text": "Stu/ Sub |_w_| 70 | 90 | so | 8s | |_x | s5 | 80 | 95 | 60 | | _y | 60] 20 | 90 | 40 | [_z | 90] 80 | 40 | 65 | The given table represents the marks obtained by four students W, X, Y and Z in four subjects P, C, B and M, with the maximum marks in each subject being 100. The difference between the highest and the lowest percentage (P. C. M and B together) among the four students is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "21.25"
+  },
+  {
+   "n": 13,
+   "text": "-— What is the cost price of an article when selling price is ¥ 2592 and the gain is 8%?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "₹2400"
+  },
+  {
+   "n": 21,
+   "text": "Question 109864494516 18% of 60 is 54% of . TTT",
+   "options": [
+    {
+     "text": "9X 1. 40",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "180",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "20"
+  },
+  {
+   "n": 22,
+   "text": "Mugdha and Mayuri, working together, can complete a job in 18 days. However, Mayuri works alone and leaves after completing two-fifths of the job and then Mugdha takes over and completes the remaining work by herself. As a result, the duo could complete the job in 39 days. How many days would Mugdha alone have taken to do the job if Mayuri worked faster than Mugdha?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "45 days"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 74,
+   "anchor_cov": 0.08,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 278,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

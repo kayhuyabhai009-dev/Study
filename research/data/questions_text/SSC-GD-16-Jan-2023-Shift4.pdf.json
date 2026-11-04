@@ -1,0 +1,559 @@
+{
+ "paper": "SSC-GD-16-Jan-2023-Shift4.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The ratio of the weight of Ram, Shyam and Mohan is 7 ∶ 8 ∶ 5 respectively. The average weight of Ram, Shyam and Mohan is 80 kg. What is the average weight of Ram and Shyam?",
+   "options": [
+    {
+     "text": "95 kg",
+     "added": false
+    },
+    {
+     "text": "80 kg",
+     "added": false
+    },
+    {
+     "text": "90 kg",
+     "added": false
+    },
+    {
+     "text": "85 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "In a 500 m race, P runs at 2 kmph. P gives Q a head start of 20 m and still beats him by 60 seconds. Find the speed of Q.",
+   "options": [
+    {
+     "text": "1.6 kmph",
+     "added": false
+    },
+    {
+     "text": "1.8 kmph",
+     "added": false
+    },
+    {
+     "text": "1.9 kmph",
+     "added": false
+    },
+    {
+     "text": "1.5 kmph",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A batsman scored 96 runs which included 2 boundaries and 6 sixes. What percent of his total score did he make by running between the wickets?",
+   "options": [
+    {
+     "text": "52.68 percent",
+     "added": false
+    },
+    {
+     "text": "54.16 percent",
+     "added": false
+    },
+    {
+     "text": "64.18 percent",
+     "added": false
+    },
+    {
+     "text": "72.16 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The cost of painting a solid cone at 30 paise per cm2 is ₹1056. Find the radius of the cone if its slant height is 36 cm. (U se π = 22 7 )",
+   "options": [
+    {
+     "text": "50 cm",
+     "added": false
+    },
+    {
+     "text": "40 cm",
+     "added": false
+    },
+    {
+     "text": "30 cm",
+     "added": false
+    },
+    {
+     "text": "20 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Manoj invests Rs.57,695, which is 11% of his annual income, in mutual funds. What is his monthly income? (Rounded up to 2 decimal places)",
+   "options": [
+    {
+     "text": "Rs. 43,708.33",
+     "added": false
+    },
+    {
+     "text": "Rs. 63,441.99",
+     "added": false
+    },
+    {
+     "text": "Rs. 77,266.54",
+     "added": false
+    },
+    {
+     "text": "Rs. 54,329.89",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Find the value of 60 ÷ 5 × ( 98 of 43 ÷ 34 of 23 ) .",
+   "options": [
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "If 9 persons can do a job in 18 days, then 18 persons with twice the efficiency can do the same job in:",
+   "options": [
+    {
+     "text": "9 2 days",
+     "added": false
+    },
+    {
+     "text": "5 2 days",
+     "added": false
+    },
+    {
+     "text": "11 2 days",
+     "added": false
+    },
+    {
+     "text": "7 2 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "A sphere of radius 6 m is cut into two equal halves. Find the volume of each hemisphere so formed. (U se π = 22 7 )",
+   "options": [
+    {
+     "text": "331.14 m3",
+     "added": false
+    },
+    {
+     "text": "452.57 m3",
+     "added": false
+    },
+    {
+     "text": "562.18 m3",
+     "added": false
+    },
+    {
+     "text": "531.11 m3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The marked price of a toy is Rs.1,600. If the shopkeeper declares a discount of 10% and then 10% cash discount, then what is the selling price of the toy?",
+   "options": [
+    {
+     "text": "Rs.1,096",
+     "added": false
+    },
+    {
+     "text": "Rs.1,296",
+     "added": false
+    },
+    {
+     "text": "Rs.1,240",
+     "added": false
+    },
+    {
+     "text": "Rs.1,088",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The valuation of a house depreciates at the rate of 10% in a year, compared to its value at the beginning of that year. If the current value of the house is ₹40,00,000, then what will be the value of house after three years?",
+   "options": [
+    {
+     "text": "₹29,16,000",
+     "added": false
+    },
+    {
+     "text": "₹28,00,000",
+     "added": false
+    },
+    {
+     "text": "₹29,06,000",
+     "added": false
+    },
+    {
+     "text": "₹29,26,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "growth-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Reeta says that she sells her goods at the cost price. If she uses 80 gram weight instead of 100 gram, then what is her profit percentage?",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Find the fourth proportional of s3, s2t, and st2.",
+   "options": [
+    {
+     "text": "t3",
+     "added": false
+    },
+    {
+     "text": "st",
+     "added": false
+    },
+    {
+     "text": "t2",
+     "added": false
+    },
+    {
+     "text": "s2t2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Suman and Arun together can finish a piece of work in 96 days, Arun and Rahul in 48 days, and Rahul and Suman in 80 days, then Rahul, Suman, and Arun jointly can finish the same work in approximately how many days?",
+   "options": [
+    {
+     "text": "55 days",
+     "added": false
+    },
+    {
+     "text": "44 days",
+     "added": false
+    },
+    {
+     "text": "54 days",
+     "added": false
+    },
+    {
+     "text": "46 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Regularly, a shop offers a 12% discount on the marked price. During festive seasons, it offers a successive discount of 10% and the owner still earns a profit of 5%. What would have been the profit in percentage if only 4% successive discount is offered with regular discount?",
+   "options": [
+    {
+     "text": "11%",
+     "added": false
+    },
+    {
+     "text": "12.5%",
+     "added": false
+    },
+    {
+     "text": "11.5%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The average weight of 10 persons increases by 7.9 kg when a new person replaces one of them weighing 20 kg. What is the weight of the new person?",
+   "options": [
+    {
+     "text": "170 kg",
+     "added": false
+    },
+    {
+     "text": "86 kg",
+     "added": false
+    },
+    {
+     "text": "99 kg",
+     "added": false
+    },
+    {
+     "text": "72 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Anand can row 8 km/h in still water. It takes him thrice as long to row up as to row down the stream. Find the speed of the stream.",
+   "options": [
+    {
+     "text": "4 km/h",
+     "added": false
+    },
+    {
+     "text": "3 km/h",
+     "added": false
+    },
+    {
+     "text": "4.5 km/h",
+     "added": false
+    },
+    {
+     "text": "3.5 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "What is the third proportional of 5x2 and 3xy? (9y 2 )",
+   "options": [
+    {
+     "text": "5 (9x2 y 2 )",
+     "added": false
+    },
+    {
+     "text": "5 (9xy)",
+     "added": false
+    },
+    {
+     "text": "5x (9x2 )",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "On a certain principal, the compound interest, compounded annually, for the second year at 20% per annum is Rs.1,300. The principal is (consider nearest integral value):",
+   "options": [
+    {
+     "text": "Rs.5,600",
+     "added": false
+    },
+    {
+     "text": "Rs.5,400",
+     "added": false
+    },
+    {
+     "text": "Rs.5,416",
+     "added": false
+    },
+    {
+     "text": "Rs.4,416",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Two cars start taking laps of a circular track of 3.6 kms at the same time of 12:00 PM. They start from the same point and they are moving in the same direction. Their speeds are 72 kmph and 90 kmph respectively. At what time will the cars meet again?",
+   "options": [
+    {
+     "text": "12:12 PM",
+     "added": false
+    },
+    {
+     "text": "12:06 PM",
+     "added": false
+    },
+    {
+     "text": "12:03 PM",
+     "added": false
+    },
+    {
+     "text": "12:09 PM",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A shopkeeper sells oil at ₹200 per litre, which he purchased for ₹160 per litre, but he gives only 800 ml of oil instead of 1 litre while selling. Find the actual percentage of profit.",
+   "options": [
+    {
+     "text": "56.25%",
+     "added": false
+    },
+    {
+     "text": "54.25%",
+     "added": false
+    },
+    {
+     "text": "52.25%",
+     "added": false
+    },
+    {
+     "text": "58.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-slice": {
+   "n": 124,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 166,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

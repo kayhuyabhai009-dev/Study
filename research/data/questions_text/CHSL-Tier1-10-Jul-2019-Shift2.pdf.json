@@ -1,0 +1,482 @@
+{
+ "paper": "CHSL-Tier1-10-Jul-2019-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qt 1 ee; a Ne If a +—= 3, then the value of (| a° + —) is equal to: a a'",
+   "options": [
+    {
+     "text": "319",
+     "added": false
+    },
+    {
+     "text": "322",
+     "added": false
+    },
+    {
+     "text": "780",
+     "added": false
+    },
+    {
+     "text": "730",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "92 The simplified value of 1 8 1 5 3 7 = ‘ =0f {2>— (=+2x 12 ~2)} is: 2 f 5 5 16 q 8 3",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Equilateral triangles are drawn on the hypotenuse and one of the perpendicular sides of a right-angled isosceles triangles. Their areas are H and A respectively. ‘ is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "What is the simplified value of sin?21°+cos?19° —— —_— 1 . ————————--+ in 69°:+:60s 71° +—_————___-:'is: sin21°+cos19 sec69° cosec 71",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "If 40 men working 12 hours a day can complete a work in 8 days, then how many men working 4 hours a day can complete the same work in 16 days?",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A book has been co-authored by X and Y. The prices of the book in India and abroad are %800 and %1000 respectively. The royalties earned on sale in India and abroad are 10% and 16% respectively. The royalty amount is distributed among X and Y in the ratio 5 : 3. The given Bar Graph presents the number of copies of the book sold in India (A) and abroad (B) during 2012-16. il ‘ $s 35 H s s = 5 as 5 4 ad iz 35 2 - aA aa) 2012 2013 204 2015 2016 ‘What is the ratio of royalties eared in the following cases — By X for sale of books in India in 2013 and 2014 and By Y for sale of books abroad in 2015 and 2016?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The price of sugar got raised by 25%. To maintain the same level of expenses on sugar, a person reduced the consumption of sugar by 4% and also increased his expenditure on sugar by x% . The value of x is:",
+   "options": [
+    {
+     "text": "19.5",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "18.75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "By selling an article for 7144, a shopkeeper loses 28%, What should be the selling price for bringing down the loss to 14%?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Twelve sticks, each of length | unit, are used to form a right-angled triangle. The area‘of the triangle is:",
+   "options": [
+    {
+     "text": "4sq units",
+     "added": false
+    },
+    {
+     "text": "6 sq units",
+     "added": false
+    },
+    {
+     "text": "8 sq units",
+     "added": false
+    },
+    {
+     "text": "10 sq units",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Addale4i7) ac a A book has been co-authored by X and Y. The prices of the book in India and abroad are $800 and €1000 respectively. The royalties eamed on sale in India and abroad are 10% and 16% respectively. The royalty amount is distributed among X and Y in the ratio 5 : 3. The given Bar Graph presents the number of copies of the book sold in India (A) and abroad (B) during 2012-16. g : gs 3s j: — 3 + 4 es 35 = Ld as ; 1 { l | ; Ba 31 zo 22 zs 2 as 26 ‘What is the total amount of royalty paid (in %) to the authors during the years 2012, 2013 and 2016?",
+   "options": [
+    {
+     "text": "3,16,000",
+     "added": false
+    },
+    {
+     "text": "2,73,400",
+     "added": false
+    },
+    {
+     "text": "2,72,000",
+     "added": false
+    },
+    {
+     "text": "2,71,600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A book has been co-authored by X and Y. The prices of the book in India and abroad are €800 and 71000 respectively. The royalties earned on sale in India and abroad are 10% and 16% respectively. The royalty amount is distributed among X and Y in the ratio 5 : 3. The given Bar Graph presents the number of copies of the book sold in India (A) and abroad (B) during 2012-16. g ‘ 5 55 H 5 s gs 4s 3 ‘ ‘ es as 2 ° aA ar ” 32 ee zs 2014 ay 206 year What is the total number of the copies of the book sold in India during 2012-2015?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "1 1 - If,a3 + b3 + c3 = 0, then (a+b +c)® is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "%10,000/- has to be distributed among 3 craftsmen, 5 helpers and 6 labourers such that each helper receives the amount twice as much as a labourer receives and each craftsman receives the amount thrice as much as a labourer receives. What is the amount received by the three craftsmen?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "It is given that the area of a triangle is A. The values of its perimeter, inradius, circumradius and the average of the lengths of the medians are respectively, p, r, R and d. The ratio A : p is equal to:",
+   "options": [
+    {
+     "text": "(R+r)?:d",
+     "added": false
+    },
+    {
+     "text": "41:2",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "(R-1r)?:r",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A borrows a sum of 22,000 from his friend B on. 31 December 2011 on the condition that he will return the same after one year with simple interest at 8% per annum. However, A gets into a position of returning the money on July 2012. How much amount he has to return to B?",
+   "options": [
+    {
+     "text": "%2,200",
+     "added": false
+    },
+    {
+     "text": "22,080",
+     "added": false
+    },
+    {
+     "text": "32,088",
+     "added": false
+    },
+    {
+     "text": "22,070",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "916 Fill in the blank. The average of first 101 numbers is equal to 102.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Two circles of diameters 2 cm and 5.6 cm are such that the distance between their centres is 8.2 cm. What is the length of a common tangent to the circles that does not intersect the line joining the centres?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "9.18 Which among the following numbers is exactly divisible by 11, 13 and 7? (a) 624613 (b) 624624 (c) 624635 (d) 624646",
+   "options": [
+    {
+     "text": "(a)",
+     "added": false
+    },
+    {
+     "text": "(b)",
+     "added": false
+    },
+    {
+     "text": "(c)",
+     "added": false
+    },
+    {
+     "text": "(d)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "ABCDEFGH is a regular octagon inscribed in a circle with centre at 0. The ratio of OAB to ZAOB is equal to:",
+   "options": [
+    {
+     "text": "8:3",
+     "added": false
+    },
+    {
+     "text": "/3:2",
+     "added": false
+    },
+    {
+     "text": "4:3",
+     "added": false
+    },
+    {
+     "text": "3:",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "polygons",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A shopkeeper normally allows a discount of 10% on the marked price of each article. During a sale season, he decides to give two more discounts, the first being at a rate of 50% of the original and the second at a rate of 40% of the first. ‘What is the percentage rate of the equivalent single discount (correct up to two decimal places)?",
+   "options": [
+    {
+     "text": "11.25",
+     "added": false
+    },
+    {
+     "text": "16.21",
+     "added": false
+    },
+    {
+     "text": "14.85",
+     "added": false
+    },
+    {
+     "text": "13.27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "921 Which among the following is an irrational quantity? (a) tan30° tan60° (b) sin30° (c) tan45° (d) cos30°",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Ifa+b—c=12 anda? +b? +c? = 110, then which among the following relations is true? (p) ab + be + ca = 34, (q) ab + be —ca=17 (rt) ab— be +ca=17, (s)ab—be —ca=17",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Given that the lengths of the paths of a ball thrown with different speeds by two boys are the same, if they take 0.6 seconds and | second respectively to cover the said length, what is the average speed of travel for the first throw, if the same for the second is 96 km/h?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "@ being an acute angle, it is given that sec?@ + 4tan?@ = 6. What is the value of 8?",
+   "options": [
+    {
+     "text": "450",
+     "added": false
+    },
+    {
+     "text": "0°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "A book has been co-authored by X and Y. The prices of the book in India and abroad are %800 and %1000 respectively. The royalties eamed on sale in India and abroad are 10% and 16% respectively. The royalty amount is distributed among X and Y in the ratio 5 : 3. The given Bar Graph presents the number of copies of the book sold in India (A) and abroad (B) during 2012-16. . 5 =e ss H s s is = as = és as or - Pe i: 3 2 ° 2012 23 20 ams 2016 ‘What is the difference between the royalties eared by X and Y (in 2) during the years 2014 and 2015 taken together?",
+   "options": [
+    {
+     "text": "41,340",
+     "added": false
+    },
+    {
+     "text": "41,250",
+     "added": false
+    },
+    {
+     "text": "57,550",
+     "added": false
+    },
+    {
+     "text": "57,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  }
+ ]
+}

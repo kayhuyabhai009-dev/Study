@@ -1,0 +1,1 @@
+{"paper": "2021cycle-Tier2-Quant-08-Aug-2022.pdf", "status": "alignment_failed", "tagged_count": 96, "questions": [], "detail": {"qdot-whole": {"n": 100, "anchor_cov": 0.0, "printed_cov": 1.0}, "numbered-whole": {"n": 331, "anchor_cov": 0.0, "printed_cov": 0.04}}}

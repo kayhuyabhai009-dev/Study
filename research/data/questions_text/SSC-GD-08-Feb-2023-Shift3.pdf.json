@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-08-Feb-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In a 100-metre race, A can beat B by 20 m and B can beat by C 10 m. In the same race, A can beat C by:",
+   "options": [
+    {
+     "text": "28 m",
+     "added": false
+    },
+    {
+     "text": "30 m",
+     "added": false
+    },
+    {
+     "text": "26 m",
+     "added": false
+    },
+    {
+     "text": "20 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A batsman scores 50, 56, 42, 38 and 78 in his 5 innings. How much does he need to score in his 6th inning to get his average to 60 in 6 innings?",
+   "options": [
+    {
+     "text": "90",
+     "added": false
+    },
+    {
+     "text": "96",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "106",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Find the discount, if the marked price of book is Rs.500 and sold it for Rs. 400.",
+   "options": [
+    {
+     "text": "Rs. 60",
+     "added": false
+    },
+    {
+     "text": "Rs. 100",
+     "added": false
+    },
+    {
+     "text": "Rs. 50",
+     "added": false
+    },
+    {
+     "text": "Rs. 200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Potato's per-kilogram price has risen from Rs.18 to Rs.25. What should be the percentage reduction in potato use so that expenditure does NOT increase?",
+   "options": [
+    {
+     "text": "28%",
+     "added": false
+    },
+    {
+     "text": "31%",
+     "added": false
+    },
+    {
+     "text": "22%",
+     "added": false
+    },
+    {
+     "text": "34%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The base diameter of a closed cylinder is 20 cm and its height is 11 cm. Find the total surface area of the cylinder.(Use π=22/7)",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The difference between the value of a number increased by 5 percent and the value of a number decreased by 15 percent is 9. What is the original number?",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "55",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The sides of a triangle are 5 cm, 12 cm and 13 cm. The area (in cm2 ) of the triangle formed by joining the mid-points of the sides of the triangle is:",
+   "options": [
+    {
+     "text": "7.5 cm2",
+     "added": false
+    },
+    {
+     "text": "21.5 cm2",
+     "added": false
+    },
+    {
+     "text": "15 cm2",
+     "added": false
+    },
+    {
+     "text": "30 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "When 20% of first number is added to second number, the second number increases by 50%. What is the ratio of the first number to the second number?",
+   "options": [
+    {
+     "text": "5 : 3",
+     "added": false
+    },
+    {
+     "text": "2 : 5",
+     "added": false
+    },
+    {
+     "text": "3 : 5",
+     "added": false
+    },
+    {
+     "text": "5 : 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "What will be the amount due on Rs.25,000 in 2 years when the rate of interest in successive years is 12% and 10% per annum respectively (interest is compounding annually)?",
+   "options": [
+    {
+     "text": "Rs.30,800",
+     "added": false
+    },
+    {
+     "text": "Rs.33,800",
+     "added": false
+    },
+    {
+     "text": "Rs.28,000",
+     "added": false
+    },
+    {
+     "text": "Rs.27,800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Prem can do a piece of work in 112 days. Ben can do this work in 90 days. Prem started the work alone. After how many days should Ben join him, so that the total work is finished in 56 days?",
+   "options": [
+    {
+     "text": "10 days",
+     "added": false
+    },
+    {
+     "text": "8 days",
+     "added": false
+    },
+    {
+     "text": "11 days",
+     "added": false
+    },
+    {
+     "text": "7 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "What is the fourth proportional to the numbers 10,16 and 20?",
+   "options": [
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The difference between the selling prices of an article available in two schemes of successive discounts 25% followed by 30%, and 25% followed by 20% is ₹75. Find the marked price of the article (in ₹).",
+   "options": [
+    {
+     "text": "900",
+     "added": false
+    },
+    {
+     "text": "1500",
+     "added": false
+    },
+    {
+     "text": "1200",
+     "added": false
+    },
+    {
+     "text": "1000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A watch is sold for Rs.15,000 at a loss of 25%. What is the cost price of the watch?",
+   "options": [
+    {
+     "text": "Rs.18,500",
+     "added": false
+    },
+    {
+     "text": "Rs.20,000",
+     "added": false
+    },
+    {
+     "text": "Rs.16,000",
+     "added": false
+    },
+    {
+     "text": "Rs.18,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Ajay can do a piece of work in 20 days and Vijay can do the same work in 22 days. In how many days they will complete the work together if they work on alternate days and the work is started by Vijay?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A faulty machine weighs 900 g as 1000 g. A shopkeeper uses this weighing machine to sell 45 kg of rice at Rs.65 per kg which he bought at Rs.58 per kg. His overall profit percentage is approximately equal to:",
+   "options": [
+    {
+     "text": "23.8%",
+     "added": false
+    },
+    {
+     "text": "18.9%",
+     "added": false
+    },
+    {
+     "text": "22.6%",
+     "added": false
+    },
+    {
+     "text": "24.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The value of a machine in a company depreciates by 10% every year. Determine the value (in Rs.) of the machine after 2 years if the current value is Rs.2 lakh.",
+   "options": [
+    {
+     "text": "1,64,000",
+     "added": false
+    },
+    {
+     "text": "1,80,000",
+     "added": false
+    },
+    {
+     "text": "1,60,000",
+     "added": false
+    },
+    {
+     "text": "1,62,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "growth-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "There are four sections: A, B, C and D of class X in a school. In every section, there are 30 students. The average score in maths of the four sections is 89.8, 92.6, 99.1 and 94.5, respectively. What is the average score in maths of the whole class X in that school?",
+   "options": [
+    {
+     "text": "96.8",
+     "added": false
+    },
+    {
+     "text": "95.0",
+     "added": false
+    },
+    {
+     "text": "92.5",
+     "added": false
+    },
+    {
+     "text": "94.0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "R runs for 10 hours at speeds of 10 km/h, 9 km/h, …,1 km/h, respectively, in the first hour, second hour, and so on. His average speed is __________ km/h.",
+   "options": [
+    {
+     "text": "4.5",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "5.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 315,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

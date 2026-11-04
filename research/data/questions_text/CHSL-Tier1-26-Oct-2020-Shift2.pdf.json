@@ -1,0 +1,431 @@
+{
+ "paper": "CHSL-Tier1-26-Oct-2020-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The perimeter of a rectangular field is 32 metres and its sides are in the ratio 5 : 3. Then the sides of the field are:",
+   "options": [
+    {
+     "text": "10 mand6m",
+     "added": false
+    },
+    {
+     "text": "9mand7m",
+     "added": false
+    },
+    {
+     "text": "12 mand 10m",
+     "added": false
+    },
+    {
+     "text": "Smand3m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Ifsin(2x— 45°) = cosx and angle x and (2x - 45°) (in degrees) are acute angles, then the value of cot x is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The given bar graph represents the number of students who appeared in the board examination in session 2017-18 and 2018-19. Study the graph and answer the question that follows. my of 5 © 33 Zz — : ao! oS aes % 20 = 1 cdl i & 21 _ a. &§ ! z 10 + — = ° — — = Science Commerce Humanities. Vocational 2017-18 2018.19 The difference between the average number of students of Science and Humanities streams in 2017-2018 and that in Commerce and Vocational in 2018-19, is:",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Anu purchased a car and then sold it. If the ratio of the cost price and selling price is 10 : 11, then the profit percentage is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Ravi and Mohan together can complete a task in 3 days. Ravi alone can complete the same task in 7 days. How many days will Mohan alone take to complete the same task?",
+   "options": [
+    {
+     "text": "G5 : days 1",
+     "added": false
+    },
+    {
+     "text": "4= days 5",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    },
+    {
+     "text": "4 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "= The income of Renu is 10% less than the income of Sudha, and the income of Sudha is 10% more than €3,000. The income of Renu is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "14+2x 1-2x A+B. If A= —— and B = —.,, then the value of —— is: 1-2x 1+2x A-B",
+   "options": [
+    {
+     "text": "Vixt— 4x",
+     "added": false
+    },
+    {
+     "text": "x- = 4x",
+     "added": false
+    },
+    {
+     "text": "2—x",
+     "added": false
+    },
+    {
+     "text": "x 1 KH 4x? + 4x2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The difference between the compound interest and the simple interest on a sum of 8,000 for 2 years at the rate of 5% p.a., is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "si-ci-difference",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The following pie-chart shows the percentage-wise distribution of the number of students in five different schools P, Q, R, Sand T. The total number of students in all five schools together is $400. | P Find the average number of students in schools R and S together.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The marked price of a book is $540. After 10% discount on the marked price, the selling price of the book is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Ina circle centred at O, AB is a chord and C is any point on AB such that OC is perpendicular to AB. If the radius of the circle is 10 cm and OC = 6 cm, then the length of the chord is:",
+   "options": [
+    {
+     "text": "$cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "4cm",
+     "added": false
+    },
+    {
+     "text": "16cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "secO+tand . ———_ is equal to: secO—tan@ A \" x. ' sec —tanO M2. secO+tan@ W 3. (secé + tané)? X% 4 (secé — tané)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Abhi finishes a journey by car in 9 hours. He travels the first half of the journey at a speed of 40 km/h and the second half of the journey at a speed of 50 knv/h. The total distance covered is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ifthe number 62783 xy is divisible by both § and 5, then the smallest possible value of x andy is:",
+   "options": [
+    {
+     "text": "x=2, y=2",
+     "added": false
+    },
+    {
+     "text": "x=6, y=0",
+     "added": false
+    },
+    {
+     "text": "x=2, y=0",
+     "added": false
+    },
+    {
+     "text": "x=2, y=5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The value of [(3 + 5- 4) + (17-3 x 4)] + [4+ 2-16 +4 + 3]is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "If AABC is an isosceles triangle with AB = AC and ZABC is 65°, then ZBCA and ZBAC are, respectively:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "917 Tf the edge of a cube be 7 cm, then the volume of the cube is:",
+   "options": [
+    {
+     "text": "321 cm?",
+     "added": false
+    },
+    {
+     "text": "343 cm?",
+     "added": false
+    },
+    {
+     "text": "433 cm?",
+     "added": false
+    },
+    {
+     "text": "243 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The average of the ages of Sonu, Hari and Govind is 30 years. If their ages are in the ratio of 4 : 5 : 6, respectively, then the difference between the ages of Sonu and Govind is:",
+   "options": [
+    {
+     "text": "18 years",
+     "added": false
+    },
+    {
+     "text": "21 years",
+     "added": false
+    },
+    {
+     "text": "15 years",
+     "added": false
+    },
+    {
+     "text": "12 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "If x3 + 2x? —ax—b is exactly divisible by (x? — 1), then the values of a and b are:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "polynomials-and-factorisation",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The given bar graph represents the number of students who appeared in the board examination in session 2017-18 and 2018-19. Study the graph and answer the question that follows. 90 ey g 0 — ¢ 40 58. s 32 freee — 2 z 12 eos ° a _ Science Commerce Humanities. Vocational 201718 #201819 ‘What is the ratio of the total number of students appeared in examination in 2017-18 and 2018-19?",
+   "options": [
+    {
+     "text": "536",
+     "added": false
+    },
+    {
+     "text": "6:5",
+     "added": false
+    },
+    {
+     "text": "3:4",
+     "added": false
+    },
+    {
+     "text": "4:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Iman equilateral AABC, the medians AD, BE and CF intersect to each other at point G. If the area of quadrilateral BDGF is 12-3 cm’, then the side of AABC is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The given bar graph represents the number of students who appeared in the board examination in session 2017-18 and 2018-19. Study the graph and answer the question that follows. 7+ - at a j ni ™ ey 40 a , — 2 2 10 + ~ — — — es)” Cee) Memes” yea 8201718 = 2018.19 ‘What percentage is the total number of students who appeared in 2017-18 is less than the total number of students who appeared in 2018-19? (correct to one decimal place)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "sin23°cos67°tan45°+cos23°sin67°cos45° . The value of ———_—@£._ ———@— is: 2sin45°cos45°",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Ina circle centred at O, a tangent AP is drawn from an external point A. If OA= 13 cm and OP = 5 cm, then the length of tangent AP is:",
+   "options": [
+    {
+     "text": "10cm",
+     "added": false
+    },
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "18cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "£ 1. If x +— =5, then the value of x? + — is: x x",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  }
+ ]
+}

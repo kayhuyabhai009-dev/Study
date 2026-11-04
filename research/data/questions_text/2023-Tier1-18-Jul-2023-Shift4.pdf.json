@@ -1,0 +1,660 @@
+{
+ "paper": "2023-Tier1-18-Jul-2023-Shift4.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Simplify the following expression. x . : gi [ ¥25+12+3—{20+(16 of 8+16)-(54+18 of5)4]",
+   "options": [
+    {
+     "text": "-13",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Ifa+b+c=6 and a? +b? +c? = 14, then what is the value of (a — b)? + (b — c)? + (c - a)??",
+   "options": [
+    {
+     "text": "-8",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "An amount becomes double in 8 years on simple interest. In how many years would Rs.25,000 become Rs.1,00,000 with the same rate of interest?",
+   "options": [
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The marked price on a book is 71,000. In a book fair, it is available for sale with a discount scheme offering two successive discounts of 12% and 8%. What is the final selling price (in &) of the book for a customer (rounded off to the nearest integer)?",
+   "options": [
+    {
+     "text": "810",
+     "added": false
+    },
+    {
+     "text": "790",
+     "added": false
+    },
+    {
+     "text": "825",
+     "added": false
+    },
+    {
+     "text": "800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "AandB invested money in a business in the ratio of 7 : 5. If 15% of the total profit goes for charity, and A’s share in the profit is Rs.5,950, then what is the total profit?",
+   "options": [
+    {
+     "text": "Rs.12,500",
+     "added": false
+    },
+    {
+     "text": "Rs.12,000",
+     "added": false
+    },
+    {
+     "text": "Rs.10,500",
+     "added": false
+    },
+    {
+     "text": "Rs.11,750",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Ashopkeeper purchases six small cold drink bottles for $100. For how much should he sell one such bottle to get a profit of 20%?",
+   "options": [
+    {
+     "text": "%22",
+     "added": false
+    },
+    {
+     "text": "%20",
+     "added": false
+    },
+    {
+     "text": "%21",
+     "added": false
+    },
+    {
+     "text": "%23",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "®7 Find the value of the given expression. 4 3 5 tan? 45° + 3 cos? 30° — 2 sec? 30° — ; cot? 60°",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Meenu is 38 years old. Her daughter is 8 years old. In how many years will Meenu be double her daughter’s age?",
+   "options": [
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Shatabdi Express train covers 700 km in 5 hours and another 1012 km in 11 hours. What is the average speed of the train (in metres/second)?",
+   "options": [
+    {
+     "text": "107 1",
+     "added": false
+    },
+    {
+     "text": "385— 5 13",
+     "added": false
+    },
+    {
+     "text": "29 —— 18",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "In a company, a piece of work can be completed in 4, 6 and 18 days alone by R, S and T, respectively. In how many days will the work be completed if they work together? (Rounded off to 2 decimal places)",
+   "options": [
+    {
+     "text": "3.32",
+     "added": false
+    },
+    {
+     "text": "2.12",
+     "added": false
+    },
+    {
+     "text": "2.42",
+     "added": false
+    },
+    {
+     "text": "3.21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Ina AABC, if 2A = 90°, AC = 5 cm, BC = 9 cm and in APQR, 2P = 90°,PR=3 cm, QR=8 cm, then:",
+   "options": [
+    {
+     "text": "AABC=APQR",
+     "added": false
+    },
+    {
+     "text": "AABC#APQR",
+     "added": false
+    },
+    {
+     "text": "AABC#APQR",
+     "added": false
+    },
+    {
+     "text": "AABC=APQR",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": ". The following diagram shows the rainfall over two years. Which of the following months shows the highest percentage change in rainfall? Rainfall (in mm) 80 2021 = 2022 70 60 = 50 £ 40 é 30 — - - 20 . f i 0 January March May july September November",
+   "options": [
+    {
+     "text": "January",
+     "added": false
+    },
+    {
+     "text": "September",
+     "added": false
+    },
+    {
+     "text": "May",
+     "added": false
+    },
+    {
+     "text": "March",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Vz 2 2 2+1 V2-1 p q Ifp = —— and q = —— then find the value of —+— . V2-1 V2+1 q p",
+   "options": [
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "196",
+     "added": false
+    },
+    {
+     "text": "198",
+     "added": false
+    },
+    {
+     "text": "188",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Find the exact value of cos 120°.",
+   "options": [
+    {
+     "text": ",-0.5",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "05",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Acone and a cylinder with equal radii have equal volumes. The ratio of their heights is",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "9.16 Observe the given figure. The distance between the two centers AB is c 12cm D \\/ - B",
+   "options": [
+    {
+     "text": "10cm",
+     "added": false
+    },
+    {
+     "text": "11cm",
+     "added": false
+    },
+    {
+     "text": "130m",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Quantity of various food items used by a restaurant during 4 months of a year (in kg). March April May June Food Item [A | 220 [| iso [270 | 320 | IB | 255 | 320 | 390 | 420 | ID | 350 [ 310 [250 | 280 | What is the average quantity of food item C used during all the 4 months together?",
+   "options": [
+    {
+     "text": "303.7kg",
+     "added": false
+    },
+    {
+     "text": "292.5 kg",
+     "added": false
+    },
+    {
+     "text": "211.8kg",
+     "added": false
+    },
+    {
+     "text": "253.6 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Find the fourth proportional of 144, 192 and 216.",
+   "options": [
+    {
+     "text": "361",
+     "added": false
+    },
+    {
+     "text": "288",
+     "added": false
+    },
+    {
+     "text": "324",
+     "added": false
+    },
+    {
+     "text": "289",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "G- : - : Simplify the following expression. 7 3 3 3 1 2 2 += of (2—+25)+-2+1=--= 10 7 ( 10 2) 5 5 7",
+   "options": [
+    {
+     "text": "21 5",
+     "added": false
+    },
+    {
+     "text": "0 = x 21 4",
+     "added": false
+    },
+    {
+     "text": "se v 21 5",
+     "added": false
+    },
+    {
+     "text": ">%EE x 21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": ". tanA — tanB t a ane ae oe d Vi 0 B; Using tan (A —B) Pek eal find the value of tan15",
+   "options": [
+    {
+     "text": "\\3+1",
+     "added": false
+    },
+    {
+     "text": "V¥3-1",
+     "added": false
+    },
+    {
+     "text": "2-13",
+     "added": false
+    },
+    {
+     "text": "2+13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Suresh and Anil are working on a special project. Suresh takes 5 hours to type 40 pages and Anil needs 6 hours to type 32 pages on a computer. How much time will it take them to type a 110-page assignment if they work on two different computers?",
+   "options": [
+    {
+     "text": "8 hours 15 minutes",
+     "added": false
+    },
+    {
+     "text": "8 hours",
+     "added": false
+    },
+    {
+     "text": "7 hours 35 minutes",
+     "added": false
+    },
+    {
+     "text": "8 hours 40 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "A thief is spotted by a policeman from a distance of 210 m. When the policeman starts the chase, the thief also starts running. If the speed of the thief is 25 km/h and that of the policeman is 32 km/h, then how far would the thief have run (in m) before he is overtaken?",
+   "options": [
+    {
+     "text": "920",
+     "added": false
+    },
+    {
+     "text": "480",
+     "added": false
+    },
+    {
+     "text": "1200",
+     "added": false
+    },
+    {
+     "text": "750",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Sudhin cycled at 8.5 km/h for 4 hours, then took an auto and travelled at 20 km/h for 1.5 hours, and then walked at 4 km/h for y hours. If Sudhin’s overall average speed for the entire journey was 10 km/h, what is the value of y?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1.25",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "1.75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Area of a sector is 1848 m? and the central angle of the sector is 270°. Find the radius of the circle. (Take 1=22/7)",
+   "options": [
+    {
+     "text": "784m",
+     "added": false
+    },
+    {
+     "text": "22m",
+     "added": false
+    },
+    {
+     "text": "27m",
+     "added": false
+    },
+    {
+     "text": "28m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Aman and a woman can finish a work together in half the time taken by a woman and a boy together. A boy can finish the work alone in 20 days and 2 women together can finish it in 30 days. In how many days will the work be finished by 4 men?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "2.14",
+     "added": false
+    },
+    {
+     "text": "2.5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 5,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 6,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,713 @@
+{
+ "paper": "RRB-ALP-CBT1-18-Feb-2026-Shift3.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "splitter": "qdot",
+ "section_slice": false,
+ "extracted_count": 75,
+ "tagged_count": 26,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A, B, C, D, E, F and G live on seven different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on till the topmost floor is numbered 7. B lives on the third floor. Only two persons live between B and D. Only one person live between D and A. Only one person lives between F and C but C does not live on the topmost floor. G lives immediately below E. On which floor number does E live?",
+   "options": [
+    {
+     "text": "Floor number 6",
+     "added": false
+    },
+    {
+     "text": "Floor number 7",
+     "added": false
+    },
+    {
+     "text": "Floor number 2",
+     "added": false
+    },
+    {
+     "text": "Floor number 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "6 years"
+  },
+  {
+   "n": 2,
+   "text": "Each of G, H, I, J, K, L and M has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. G has an exam on Wednesday. Only two persons have exam between G and L. I has exam immediately before L. H's exam is not on the last day. J has exam immediately after K. On which day does M have the exam?",
+   "options": [
+    {
+     "text": "Friday",
+     "added": false
+    },
+    {
+     "text": "Saturday",
+     "added": false
+    },
+    {
+     "text": "Sunday",
+     "added": false
+    },
+    {
+     "text": "Monday",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "12%"
+  },
+  {
+   "n": 3,
+   "text": "A shopkeeper marks an article at ₹x and offers a discount of 65% on it. He sells it for ₹378 after charging VAT of 44% on the discounted price. What is the value of x?",
+   "options": [
+    {
+     "text": "900",
+     "added": false
+    },
+    {
+     "text": "1,000",
+     "added": false
+    },
+    {
+     "text": "750",
+     "added": false
+    },
+    {
+     "text": "700",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": "750"
+  },
+  {
+   "n": 4,
+   "text": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed). 2-5 10 - 101",
+   "options": [
+    {
+     "text": "5 - 26",
+     "added": false
+    },
+    {
+     "text": "4 - 18",
+     "added": false
+    },
+    {
+     "text": "9 - 80",
+     "added": false
+    },
+    {
+     "text": "8 - 63",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": "24"
+  },
+  {
+   "n": 5,
+   "text": "Two alloys are made by mixing metals A and B in the ratio 3 : 2 and 5 : 3, respectively. Equal quantities of the two alloys are melted and mixed together. Find the ratio of metals A and B in the final mixture.",
+   "options": [
+    {
+     "text": "49 : 31",
+     "added": false
+    },
+    {
+     "text": "7 : 4",
+     "added": false
+    },
+    {
+     "text": "49 : 30",
+     "added": false
+    },
+    {
+     "text": "8 : 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": "49 : 31"
+  },
+  {
+   "n": 6,
+   "text": "In a division sum, the divisor is 10 times the quotient and 6 times the remainder. If the remainder is 25, what is the dividend?",
+   "options": [
+    {
+     "text": "2277",
+     "added": false
+    },
+    {
+     "text": "2280",
+     "added": false
+    },
+    {
+     "text": "2275",
+     "added": false
+    },
+    {
+     "text": "2276",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": "2275"
+  },
+  {
+   "n": 7,
+   "text": "D, E, F, G, K, L and M are sitting around a circular table, facing the centre of the table. Only four people sit between F and G when counted from the right of F. F sits third to the left of M. E sits third to the left of D. K is an immediate neighbour of both G and M. How many people sit between L and K when counted from the right of L?",
+   "options": [
+    {
+     "text": "One",
+     "added": false
+    },
+    {
+     "text": "Two",
+     "added": false
+    },
+    {
+     "text": "Three",
+     "added": false
+    },
+    {
+     "text": "Four",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": "65 meters"
+  },
+  {
+   "n": 8,
+   "text": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed). 2-5 10 - 101",
+   "options": [
+    {
+     "text": "5 - 26",
+     "added": false
+    },
+    {
+     "text": "4 - 18",
+     "added": false
+    },
+    {
+     "text": "9 - 80",
+     "added": false
+    },
+    {
+     "text": "8 - 63",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": "5"
+  },
+  {
+   "n": 9,
+   "text": "The given data shows the marks obtained by 50 students of a class in a test. What is the mean marks obtained by students? Marks Number of Students 20 - 30 5 30 - 40 12 40 - 50 10 50 - 60 15 60 - 70 8",
+   "options": [
+    {
+     "text": "52.3",
+     "added": false
+    },
+    {
+     "text": "45.2",
+     "added": false
+    },
+    {
+     "text": "61.1",
+     "added": false
+    },
+    {
+     "text": "46.8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "46.8"
+  },
+  {
+   "n": 10,
+   "text": "Let AB be an arc on a circle C that is 14 cm long. If the circumference of the circle is 180 cm, then find the angle made by arc AB at the centre.",
+   "options": [
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "32°",
+     "added": false
+    },
+    {
+     "text": "28°",
+     "added": false
+    },
+    {
+     "text": "24°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": "28°"
+  },
+  {
+   "n": 11,
+   "text": ".",
+   "options": [
+    {
+     "text": "125",
+     "added": false
+    },
+    {
+     "text": "143",
+     "added": false
+    },
+    {
+     "text": "225",
+     "added": false
+    },
+    {
+     "text": "223",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "223"
+  },
+  {
+   "n": 12,
+   "text": "During a sale, 44% of the goods are sold at a 28% profit, 25% of the remaining goods are sold at a 48% profit and the rest are sold at an 18% loss. If there is an overall profit of x%, then what is the value of x?",
+   "options": [
+    {
+     "text": "17%",
+     "added": false
+    },
+    {
+     "text": "11.48%",
+     "added": false
+    },
+    {
+     "text": "9%",
+     "added": false
+    },
+    {
+     "text": "17.55%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "11.48%"
+  },
+  {
+   "n": 13,
+   "text": "What sum (in ₹) will earn an interest of ₹480 in 2 years at 15% simple interest per year? 1833",
+   "options": [
+    {
+     "text": "1750",
+     "added": false
+    },
+    {
+     "text": "1600",
+     "added": false
+    },
+    {
+     "text": "1400",
+     "added": false
+    },
+    {
+     "text": "1800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "1600"
+  },
+  {
+   "n": 14,
+   "text": "If 33% of 497 = 71% of x, then the value of x is:",
+   "options": [
+    {
+     "text": "123",
+     "added": false
+    },
+    {
+     "text": "213",
+     "added": false
+    },
+    {
+     "text": "132",
+     "added": false
+    },
+    {
+     "text": "231",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "231"
+  },
+  {
+   "n": 15,
+   "text": "A solid sphere of diameter 24 cm is melted and recast into small solid cones each of base radius 4 cm and height 9 cm. How many cones will be obtained?",
+   "options": [
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "48"
+  },
+  {
+   "n": 16,
+   "text": "CH 43 is related to GL 23 in a certain way. In the same way, FK 85 is related to JO 65. To which of the given options is NS 76 related, following the same logic?",
+   "options": [
+    {
+     "text": "TW 56",
+     "added": false
+    },
+    {
+     "text": "RV 65",
+     "added": false
+    },
+    {
+     "text": "RW 56",
+     "added": false
+    },
+    {
+     "text": "TU 65",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": "56"
+  },
+  {
+   "n": 17,
+   "text": "6553",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": "14"
+  },
+  {
+   "n": 18,
+   "text": "A solid sphere of diameter 24 cm is melted and recast into small solid cones each of base radius 4 cm and height 9 cm. How many cones will be obtained?",
+   "options": [
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": "48"
+  },
+  {
+   "n": 19,
+   "text": "A and B started a business investing ₹45,000 and ₹60,000, respectively. After 4 months, C joined them with ₹75,000. If the total profit at the end of the year is ₹62,000, find the difference (in ₹) between the shares of B and C in the profit.",
+   "options": [
+    {
+     "text": "4,000",
+     "added": false
+    },
+    {
+     "text": "8,000",
+     "added": false
+    },
+    {
+     "text": "7,000",
+     "added": false
+    },
+    {
+     "text": "6,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "4000"
+  },
+  {
+   "n": 20,
+   "text": "A pipe can fill a tank in 5 hours, and another pipe can empty the same tank in 10 hours. How long will it take for both pipes to fill the tank when working together?",
+   "options": [
+    {
+     "text": "15 hours",
+     "added": false
+    },
+    {
+     "text": "10 hours",
+     "added": false
+    },
+    {
+     "text": "8 hours",
+     "added": false
+    },
+    {
+     "text": "12 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": "10 hours"
+  },
+  {
+   "n": 21,
+   "text": "If 2 is added to each odd digit and 1 is subtracted from each even digit in the number 7815642, which of the following digits will be third from the left?",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "225"
+  },
+  {
+   "n": 22,
+   "text": "4% of a number is what percentage of 16% of the same number?",
+   "options": [
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "400%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": "25:81"
+  },
+  {
+   "n": 23,
+   "text": "CH 43 is related to GL 23 in a certain way. In the same way, FK 85 is related to JO 65. To which of the given options is NS 76 related, following the same logic?",
+   "options": [
+    {
+     "text": "TW 56",
+     "added": false
+    },
+    {
+     "text": "RV 65",
+     "added": false
+    },
+    {
+     "text": "RW 56",
+     "added": false
+    },
+    {
+     "text": "TU 65",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": "65/3"
+  },
+  {
+   "n": 24,
+   "text": "A luxury watch is marked at ₹75,000. During a festival, an 18% discount is offered followed by another ₹5,000 off. What is the final price of the watch?",
+   "options": [
+    {
+     "text": "₹55,700",
+     "added": false
+    },
+    {
+     "text": "₹55,600",
+     "added": false
+    },
+    {
+     "text": "₹56,500",
+     "added": false
+    },
+    {
+     "text": "₹57,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": "56500"
+  },
+  {
+   "n": 25,
+   "text": "4% of a number is what percentage of 16% of the same number?",
+   "options": [
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "400%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "25%"
+  },
+  {
+   "n": 26,
+   "text": "Three persons P, Q and R started a business with their shares in the ratio 6 : 3 : 15. After 5 months Q withdrew his 80% share and R withdrew his 52% share 4 months prior to completion of the year. If total profit in the year is ₹29900 then find the share of R (in ₹) in the profit.5139",
+   "options": [
+    {
+     "text": "18498",
+     "added": false
+    },
+    {
+     "text": "18538",
+     "added": false
+    },
+    {
+     "text": "18580",
+     "added": false
+    },
+    {
+     "text": "18558",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "18538"
+  }
+ ]
+}

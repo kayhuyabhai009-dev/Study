@@ -1,0 +1,465 @@
+{
+ "paper": "CHSL-Tier1-14-Aug-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "| Subas, a 3.15 m tall wee, and a building are positioned such that their feet on the ground are collinear and the tree is located between Suhas and the building. The tree is located at a distance of 7.5 m from Suhas and ata distance of 45 m from the building. Further, the eyes of Suhas, the top of the tree, and the top of the building fall in one line, and the eyes of Suhas are at a height of 1.8 m from the ground. Find the height (in m) of the building.",
+   "options": [
+    {
+     "text": "11.25",
+     "added": false
+    },
+    {
+     "text": "11.50",
+     "added": false
+    },
+    {
+     "text": "10.25",
+     "added": false
+    },
+    {
+     "text": "10.75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Tf 3cot A= 4 and A is an acute angle, then find the value of sec A.",
+   "options": [
+    {
+     "text": "2 4 5",
+     "added": false
+    },
+    {
+     "text": "2 4",
+     "added": false
+    },
+    {
+     "text": "4 5",
+     "added": false
+    },
+    {
+     "text": "2 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "3 The number 76050 is NOT divisible by which of the following numbers?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Amerchant marked his goods 20% above the cost price and sold the goods at a profit of 8%. The rate of discount is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The radius of a circle is increased by 20%. Find the percentage increase in the circumference of the circle.",
+   "options": [
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "OG eo (0.83)?-(0.1)? Simplify: ——————___ =? (0.83)? +0.083+0.01",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Qz7 1 =f Ifx += = 2, then find the value of x° +. x x’",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Two circles touch each other externally at P. AB is a direct common tangent to the two circles, A and B are points of contact and ¢PAB = 22°. The measure of £ABP is:",
+   "options": [
+    {
+     "text": "72°",
+     "added": false
+    },
+    {
+     "text": "68°",
+     "added": false
+    },
+    {
+     "text": "70°",
+     "added": false
+    },
+    {
+     "text": "44°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "9%cm long perpendicular is drawn from the center of the circle to a 24 cm long chord. Find the radius of the circle.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Aman borrowed a certain sum of money at the rate of 10% per annum simple interest for the first three years and 15% per annum simple interest for the period beyond three years. If he pays a total interest of 22.884.50 at the end of 7 years, then the sum of money (in 2) that he borrowed is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "11 . . . ®\"\" Find the value of Sin 47 ° Cos 33° -Cos 43 °Sin57°.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "(4.2)?-0.008 Simplify the given expression. ——————_. Bly gt ep (4.2)? +0.84+0.04",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "If two qualities of a fruit costing 220 per kg and 238 per kg are mixed in the ratio of 5 : 4. then find the cost of the mixture per kg (in 2).",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "z a q 5 7 22 The total surface area of a cylinder whose radius is 6 cm and height is 8 cm is (use T= 2) z",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Inanelection, a candidate who got 73% of the votes is elected by a majority of 1426 votes. If 20% of votes are invalid, then what is the total number of votes polled?",
+   "options": [
+    {
+     "text": "1878",
+     "added": false
+    },
+    {
+     "text": "4824",
+     "added": false
+    },
+    {
+     "text": "2865",
+     "added": false
+    },
+    {
+     "text": "3875",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Ashopkeeper earns 15% profit on his goods. He loses 10% of his goods during transportation. What is his overall profit’ loss percentage?",
+   "options": [
+    {
+     "text": "Profit, 3.5%",
+     "added": false
+    },
+    {
+     "text": "Profit, 5%",
+     "added": false
+    },
+    {
+     "text": "Loss, 3.5%",
+     "added": false
+    },
+    {
+     "text": "Loss, 5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Acan finish a work in 25 days, and B can do the same work in 15 days. B worked for 10 days and left the jab. A alone can finish the remaining work in how many days?",
+   "options": [
+    {
+     "text": "* 1. 7= days 3 i",
+     "added": false
+    },
+    {
+     "text": "6= days",
+     "added": false
+    },
+    {
+     "text": "a ¥ 5. 8— days 3 1",
+     "added": false
+    },
+    {
+     "text": "5— days 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If secO + tanO = 4, then sec@ - tan = .",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The table given below shows the number of aerated drinks—A, B, C, D—manufactured (in thousands) by a company over the years, = pe Te Tey? | a ae ae | ae | ae | | ae | a | ae | | | The manufacturing numbers of which aerated drink saw a continuous decrease from 2020 to 2022?",
+   "options": [
+    {
+     "text": "Cc",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "D",
+     "added": false
+    },
+    {
+     "text": "A",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The graph shows the marks obtain by the four students in mathematics and English in four Unit Tests. 60 50 240 = 3” = Maths $2 @Engish ito o 1 \" ul Ww Unit Tests The difference between the average marks obtain for all unit tests in both subject is:",
+   "options": [
+    {
+     "text": "7.25",
+     "added": false
+    },
+    {
+     "text": "7.50",
+     "added": false
+    },
+    {
+     "text": "7.40",
+     "added": false
+    },
+    {
+     "text": "7.75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Break-up of the cost of construction of a house is shown in the following pie chart. The total cost of the construction of a house is 23,79,800. Steel 64° Labour 95° Others 158° What is the amount spent on steel?",
+   "options": [
+    {
+     "text": "21,36,728",
+     "added": false
+    },
+    {
+     "text": "267,520",
+     "added": false
+    },
+    {
+     "text": "26,75,200",
+     "added": false
+    },
+    {
+     "text": "367,52,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The speed of a car going from A to B is 110 km/h, while coming back, its speed is 76 knv/h. What is the average speed during the entire journey?",
+   "options": [
+    {
+     "text": "87% km/h 99 89",
+     "added": false
+    },
+    {
+     "text": "832 km/h 93",
+     "added": false
+    },
+    {
+     "text": "83 v> 892 km/h 93 91",
+     "added": false
+    },
+    {
+     "text": "822 km/h 97",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": ". + : What is the third proportional of 2/3 and 6/5 ? A",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The marked price on a fancy item is 2250 but there is an 18% discount during festival season. The price of the fancy item after discount is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Two persons A and B are running around a circular track of length 1200 m with respective speeds of 27 kmph and 36 kmph. They started at the same time from the same point and are running in the same direction. When will they meet for the first time on the track (in seconds)?",
+   "options": [
+    {
+     "text": "420",
+     "added": false
+    },
+    {
+     "text": "240",
+     "added": false
+    },
+    {
+     "text": "480",
+     "added": false
+    },
+    {
+     "text": "360",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  }
+ ]
+}

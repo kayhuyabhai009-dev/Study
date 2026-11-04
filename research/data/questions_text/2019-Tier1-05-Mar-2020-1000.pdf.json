@@ -1,0 +1,482 @@
+{
+ "paper": "2019-Tier1-05-Mar-2020-1000.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The given table represents the exports (in Zcrores) of four items A, B, C and D over a period of six years. Study the table and answer the question that follows. Item |A c Fe Year | }2013_ | 370 | 169 [340 | 224 | L20is_ [400 [209 [306 [275 | What is the ratio of the total exports of item A in 2014 and 2015 to the total exports of item C in 2011 and 2015?",
+   "options": [
+    {
+     "text": "3:2",
+     "added": false
+    },
+    {
+     "text": "4:3",
+     "added": false
+    },
+    {
+     "text": "5:4",
+     "added": false
+    },
+    {
+     "text": "7:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "If the nine-digit number 708x6y8z9 is divisible by 99, then what is the value of x + y + 2?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Dis the midpoint of side BC of AABC . Point E lies on AC such that CE = + AC. BE and AD intersect at G. What is “22",
+   "options": [
+    {
+     "text": "8:3",
+     "added": false
+    },
+    {
+     "text": "3:1",
+     "added": false
+    },
+    {
+     "text": "5:2",
+     "added": false
+    },
+    {
+     "text": "s)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "1£16a* + 36a7b? + 81b* = 91 and 4a? + 9b? — 6ab = 13, then what is the value of 3ab?",
+   "options": [
+    {
+     "text": "5 3",
+     "added": false
+    },
+    {
+     "text": "-= 2",
+     "added": false
+    },
+    {
+     "text": "x22 2",
+     "added": false
+    },
+    {
+     "text": "-3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The given table represents the exports (in Zcrores) of four items A, B, C and D over a period of six years. Study the table and answer the question that follows. Item | A Cc — Year ‘ [2010240 | 128 [iso [214 | L201s__ [400 [209 | 306 [275 | The total exports of item D in 2010, 2012 and 2014 is what percentage of the total exports of all the four items in 2011 and 2012?",
+   "options": [
+    {
+     "text": "46.2%",
+     "added": false
+    },
+    {
+     "text": "45%",
+     "added": false
+    },
+    {
+     "text": "44%",
+     "added": false
+    },
+    {
+     "text": "44.8%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": ". secO+4cot@ . If 5sin 6 = 4, then the value of ———— iis: 4tan@-Scosé",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "the compound interest on a certain sum at 162 % p.a. for 3 years is ¥6,350. What will be the simple interest on the same sum at the same rate for 55 years?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The given table represents the exports (in %crores) of four items A, B, C and D over a period of six years. Study the table and answer the question that follows. Item |A c a Year { [2012 225 [138 [230 | 247 | [2013 | 370 | 169 [340 | 224 | [2014 425 [182 [300 | 309 | L20is_ [400 [209 [306 [275 | In which year, the exports of item D were 1.4 times the average exports of item B during six years?",
+   "options": [
+    {
+     "text": "2011",
+     "added": false
+    },
+    {
+     "text": "2012",
+     "added": false
+    },
+    {
+     "text": "2014",
+     "added": false
+    },
+    {
+     "text": "2013",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "ns 1 If x? — 2V¥5x+ 1 =0, then what is the value of x° +=? =",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "sec°@—tan®@—3sec” @tan76+1 The value of —————_—_——___— js: cos*@-sin*@+2sin?@+2",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "O11 pp- ey _g _ Ge Pty ag R = SO thon what is the value of (P+ Q) x R? Ge—y)2432y ay? x2 -y?",
+   "options": [
+    {
+     "text": "2xy",
+     "added": false
+    },
+    {
+     "text": "200? +7)",
+     "added": false
+    },
+    {
+     "text": "x? +y?",
+     "added": false
+    },
+    {
+     "text": "4xy",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "eee 1,344 3= += of=-——=of 2=-+=x4 . The value of _3__30 \"3 4°\" 2 5 5 js: 2 of 7a 3-3 xa4422 5 24 4°2 “4",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The diagonal of a square A is (a + b) units. What is the area (in square units) of the square drawn on the diagonal of square B whose area is twice the area of A? A",
+   "options": [
+    {
+     "text": "4(a+b)?",
+     "added": false
+    },
+    {
+     "text": "8(a+b)?",
+     "added": false
+    },
+    {
+     "text": "2(a+b)?",
+     "added": false
+    },
+    {
+     "text": "(a+b)?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "polygons",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "2 2 _4 ° ° , cosecO+secO If 12cos*6 — 2sin?@ + 3cos@ = 3,0° < 8 < 90°, then what is the value of —————? tan@ +cot@",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Sides AB and DC of a cyclic quadrilateral ABCD are produced to meet at E, and sides AD and BC are produced to meet at F. If ZADC = 75°,and ZBEC = 52°, then the difference between BAD and ZAFB is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "cyclic-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "4 train takes 25 hours less for a journey of 300 km, if its speed is increased by 20 km/h from its usual speed. How much time will it take to cover a distance of 192 km at its usual speed?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Inan examination in which the full marks were 500, A scored 25% more marks than B, B scored 60% more marks than C and C scored 20% less marks than D. If A scored 80% marks, then the percentage of marks obtained by D is:",
+   "options": [
+    {
+     "text": "60%",
+     "added": false
+    },
+    {
+     "text": "54%",
+     "added": false
+    },
+    {
+     "text": "65%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Two chords AB and CD ofa circle with centre O intersect each other at P. If ZAPC = 95° and ZAOD = 110°, then ZBOC is:",
+   "options": [
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "55°",
+     "added": false
+    },
+    {
+     "text": "70°",
+     "added": false
+    },
+    {
+     "text": "65°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Pipes A and B can fill a tank in 10 hours and 40 hours, respectively. C is an outlet pipe attached to the tank. If all the three pipes are opened simultaneously, it takes 80 minutes more time than what A and B together take to fill the tank. A and B are kept opened for 7 hours and then closed and C was opened. C will now empty the tank in:",
+   "options": [
+    {
+     "text": "38.5 hours",
+     "added": false
+    },
+    {
+     "text": "45.5 hours",
+     "added": false
+    },
+    {
+     "text": "49 hours",
+     "added": false
+    },
+    {
+     "text": "42 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The average of 24 numbers is 56. The average of the first 10 numbers is 71.7 and that of the next 11 numbers is 42. The next three numbers (ie., 224, 23°4 and 24\") are in the ratio >:5:-—. What is the average of the 22°4 and 24\" numbers?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "A shopkeeper bought 80 kg of rice at a discount of 10%. Besides 1 kg rice was offered free to him on the purchase of every 20 kg rice. If he sells the rice at the marked price, his profit percentage will be:",
+   "options": [
+    {
+     "text": "15=% 3 3",
+     "added": false
+    },
+    {
+     "text": "15=% 7 2",
+     "added": false
+    },
+    {
+     "text": "16=% 3 2",
+     "added": false
+    },
+    {
+     "text": "142% 7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The given table represents the exports (in crores) of four items A, B, C and D over a period of six years. Study the table and answer the question that follows. Item [A c a Year { [2011 | 2s0 [134 [244 | 282 | [2012 | 225 [138 [230 | 247 | [2013 | 370 [169 [340 [224 | [2014 425 [182 [300 | 309 | L201is__ [400 [209 [306 [275 | The total exports of item A from 2012 to 2014 is what percentage less than the total exports of all the four items in 2015? (Correct to one decimal place)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The ratio of the ages of A and B, 8 years ago, was 2 : 3. Four years ago, the ratio of their ages was 5 : 7. What will be the ratio of their ages 8 years from now?",
+   "options": [
+    {
+     "text": "4:5",
+     "added": false
+    },
+    {
+     "text": "7:8",
+     "added": false
+    },
+    {
+     "text": "3:4",
+     "added": false
+    },
+    {
+     "text": "5:6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "sudha sold an article to Renu for %576 at a loss of 20%. Renu spent a sum of %224 on its transportation and sold it to Raghu at a price which would have given Sudha a profit of 24%. The percentage of gain for Renu is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "In AABC, 2C = 90°, AC=5 cm and BC = 12 cm. The bisector of ZA meets BC at D. What is the length of AD?",
+   "options": [
+    {
+     "text": "2V13 cm",
+     "added": false
+    },
+    {
+     "text": "5v13 v2 com",
+     "added": false
+    },
+    {
+     "text": "2 XK 3. 3 13 cm",
+     "added": false
+    },
+    {
+     "text": "nK4 3 13 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": null
+  }
+ ]
+}

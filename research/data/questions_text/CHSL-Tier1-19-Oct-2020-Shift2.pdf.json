@@ -1,0 +1,465 @@
+{
+ "paper": "CHSL-Tier1-19-Oct-2020-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "(17) ‘& testbook.com Qi. 3 3 Find the value of 309 + [(2) of (25+ 35)- 123].",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Anil bought some articles at 6 for 28 and sold them at 10 for 212. His percentage loss or gain is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Marked price of an article is 20% more than it’s cost price. At what percent less should it be sold for no profit and no loss?",
+   "options": [
+    {
+     "text": "14= % 3 KE xy",
+     "added": false
+    },
+    {
+     "text": "14= %",
+     "added": false
+    },
+    {
+     "text": "2 V3. 16= % 3 i 0",
+     "added": false
+    },
+    {
+     "text": "16-% 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "(18) ‘& testbook.com Q.4 — Given bar graph shows, total expenditure and the gross receipts of a company (in € crores). Study the graph and answer the question that follows. 1000 12000 j GGross Receipts Total Expenditure i. i, de A 2 g Eg i oo } 83 2% . 4000 2000 f 1994-95 1995-96 1996-97 1997.98 1998-99 Year In order to make a profit of 20%, what should have been the gross receipts (in crore %) in 1995-96, if the total expenditure remained the same?",
+   "options": [
+    {
+     "text": "6445",
+     "added": false
+    },
+    {
+     "text": "5776",
+     "added": false
+    },
+    {
+     "text": "6875",
+     "added": false
+    },
+    {
+     "text": "7565",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The diameter of a wheel is 49 cm. The number of revolutions in which it will have to cover a distance of 770 m, is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "* If cosec?x — 2 = 0, then the value of x(0 < x < 90°) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "(19) ‘& testbook.com Q.7 10 men working 5 hours/day earn 7300. How much money will 15 men working 10 hours/day earn?",
+   "options": [
+    {
+     "text": "%600",
+     "added": false
+    },
+    {
+     "text": "%00",
+     "added": false
+    },
+    {
+     "text": "7300",
+     "added": false
+    },
+    {
+     "text": "7650",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Tfa+3b= 12 and ab =9, then the value of ( a— 3b) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A,B, C are three points so that AB = 4 cm, BC = 6 cm and AC = 10 cm. The number of circles passing through the points A, B, C is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The printed price of a cooker is €2,000, and discounts are 30%, 20% and 10%, respectively. Find the selling price of the cooker.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "(20) ‘& testbook.com Q.11 The sum of simple interest on a sum at 8% p.a. for 4 years and 8 years is 2960. The sum is:",
+   "options": [
+    {
+     "text": "%900",
+     "added": false
+    },
+    {
+     "text": "% 71000",
+     "added": false
+    },
+    {
+     "text": "7300",
+     "added": false
+    },
+    {
+     "text": "71100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Mohan travels three equal distances at speeds of 12 km/h, 18 km/h and 24 km/h. If he takes a total of 13 hours, then what is the total distance covered?",
+   "options": [
+    {
+     "text": "214km",
+     "added": false
+    },
+    {
+     "text": "216km",
+     "added": false
+    },
+    {
+     "text": "218 km",
+     "added": false
+    },
+    {
+     "text": "212 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "213 The value of sin 60° cos30° — cos60° sin30° is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The average of 24 numbers is 26. The average of the first 15 numbers is 23 and that of the last 8 number is 33. Find the 16 number.",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "(21) ‘& testbook.com O15 oe, 2 72a? If a° +—=16, then find the value of _——_.. . a a +2+8a\"",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The centroid of an equilateral AXYZ is L. IfXY = 12 cm, then the length of XL (in cm), is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "217 Tfa:b=3: 4, find the value of (7a—4b) : (8a+ 4b).",
+   "options": [
+    {
+     "text": "1:8",
+     "added": false
+    },
+    {
+     "text": "2:3",
+     "added": false
+    },
+    {
+     "text": "3:8",
+     "added": false
+    },
+    {
+     "text": "2:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "9-18 The side MN of ALMN is produced to X . If ZLNX = 117° and 2M == ZL, then ZL is:",
+   "options": [
+    {
+     "text": "76°",
+     "added": false
+    },
+    {
+     "text": "78°",
+     "added": false
+    },
+    {
+     "text": "75°",
+     "added": false
+    },
+    {
+     "text": "77°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "(22) ‘& testbook.com Q.19 1f0 <6 < 90°, 3b cosec@ = asec@ and 3a secO — b cosec = 8, then the value of 9b? + a? is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Given bar graph shows, total expenditure and the gross receipts of a company (in € crores). Study the graph and answer the question that follows 11000 12000 Gross Receipts OTotal Expenditure a 2. if 28 = 2, fa iw): of a 4000 1996-95 1995-96 1996-97 1997-98 1998.99 Year If profit = gross receipts — total expenditure, then in 1997-98, what percentage of gross receipts is the profit made? (Correct to one decimal place)",
+   "options": [
+    {
+     "text": "6.1%",
+     "added": false
+    },
+    {
+     "text": "5.4%",
+     "added": false
+    },
+    {
+     "text": "4.8%",
+     "added": false
+    },
+    {
+     "text": "3.9%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "eo. E . If 29*1 + 37%? is divided by 33, then the reminder is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "(23) ‘& testbook.com Q.22 The sum of the squares of the sides of a rhombus is 900 m2. What is the side of the rhombus.",
+   "options": [
+    {
+     "text": "16m",
+     "added": false
+    },
+    {
+     "text": "15m",
+     "added": false
+    },
+    {
+     "text": "14m",
+     "added": false
+    },
+    {
+     "text": "17m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Given bar graph shows, total expenditure and the gross receipts of a company (in crores). Study the graph and answer the question that follows. 14000 12000 j GGross Receipts Total Expenditure a 2. Jf = 8 = a, A8 joo) ae me . 4000 7 1994-95 1995-96 1996-97 1997.98 1998-99 Year What is the percentage increase in the gross receipts in 1996-97 as compared to 1994-95?",
+   "options": [
+    {
+     "text": "43%",
+     "added": false
+    },
+    {
+     "text": "41%",
+     "added": false
+    },
+    {
+     "text": "42%",
+     "added": false
+    },
+    {
+     "text": "4%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Given bar graph shows, total expenditure and the gross receipts of a company (in € crores). Study the graph and answer the question that follows. 14000 12000 Gross Receipts Total Expenditure = 2: as = fg ce ieolae ch IF 3 6000 8 3 ca 2000 ° shee (aie) ie tates tae The total expenditure of the company in 1998-99 exceeds that in 1994-95 by (in crore):",
+   "options": [
+    {
+     "text": "3800",
+     "added": false
+    },
+    {
+     "text": "3700",
+     "added": false
+    },
+    {
+     "text": "4800",
+     "added": false
+    },
+    {
+     "text": "5500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "(24) & testbook.com Q25 1614 9r?+81r4 = 256 and 1+ 3r+ 9r? = 32, then find the value of 1 — 3r + 9r?.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  }
+ ]
+}

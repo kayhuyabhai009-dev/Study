@@ -1,0 +1,655 @@
+{
+ "paper": "2023-Tier1-17-Jul-2023-Shift1.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Simplify 2.5 * [144 + 198 x {121 x 81 + (11 * 9)}]",
+   "options": [
+    {
+     "text": "180",
+     "added": false
+    },
+    {
+     "text": "175",
+     "added": false
+    },
+    {
+     "text": "185",
+     "added": false
+    },
+    {
+     "text": "190",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "There are 3 members in a family. The average age of the father and mother is 40 years. The average age of the father, mother and daughter is 30 years. Find the age (in years) of the daughter.",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": ". A shopkeeper sells an item at a profit of 15% and uses a weight which is 20% less. Find his actual profit percentage.",
+   "options": [
+    {
+     "text": "42.5%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "43.75%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Find the smallest number that can be subtracted from 148109326 so that it becomes divisible by 8.",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Simplify the following expression. (3x45)? + (3x-5)2",
+   "options": [
+    {
+     "text": "500x",
+     "added": false
+    },
+    {
+     "text": "450x",
+     "added": false
+    },
+    {
+     "text": "9x? +50",
+     "added": false
+    },
+    {
+     "text": "2(9x? + 25)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The volume of a cone with height equal to radius, and slant height 5 cm is :",
+   "options": [
+    {
+     "text": "250 x 1. —— cm} 123 1250",
+     "added": false
+    },
+    {
+     "text": "—— cm? 6v3 1257",
+     "added": false
+    },
+    {
+     "text": "—~cm} 12v2",
+     "added": false
+    },
+    {
+     "text": "125t ar - 6v2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A policeman noticed a thief from 300 m. The thief started running and the policeman was Chasing him. The thief and the policeman ran at the speeds of 8 km/h and 9 km/h, respectively. What was the distance between them after 3 minutes?",
+   "options": [
+    {
+     "text": "225m",
+     "added": false
+    },
+    {
+     "text": "250m",
+     "added": false
+    },
+    {
+     "text": "300m",
+     "added": false
+    },
+    {
+     "text": "200m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "” 4 . Ifsint + cost = 53 then find sint. cost.",
+   "options": [
+    {
+     "text": "— 50 =",
+     "added": false
+    },
+    {
+     "text": "50 9",
+     "added": false
+    },
+    {
+     "text": "«— 25 —9",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Simplify the given expression. y+ 2x-[(y-(y—x+y)— (x+y) ty] - 2y.",
+   "options": [
+    {
+     "text": "-y",
+     "added": false
+    },
+    {
+     "text": "-2x",
+     "added": false
+    },
+    {
+     "text": "Y",
+     "added": false
+    },
+    {
+     "text": "2x",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A, B and C, working alone, can complete a job in 16, 24 and 36 days, respectively. In how many days can they complete the job if they work together?",
+   "options": [
+    {
+     "text": "Fes ll 19 17",
+     "added": false
+    },
+    {
+     "text": "5 19 13",
+     "added": false
+    },
+    {
+     "text": "4— 19 7",
+     "added": false
+    },
+    {
+     "text": "6— g be}",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A person deposited %500 for 3 years, 650 for 5 years, and 1,250 for 7 years. He received a total simple interest of 1,620. The rate of interest per annum is:",
+   "options": [
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "13%",
+     "added": false
+    },
+    {
+     "text": "10.8%",
+     "added": false
+    },
+    {
+     "text": "11%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Rakshit, Ajay, and Satish are sanitation workers in a Municipal Corporation. Rakshit alone takes 20 hours to clean a drain while Ajay takes 12 hours when working alone to do the same. All three together take only 5 hours to clean the drain. In how many hours, can Satish complete the work alone?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "AABC ~ ADEF and the perimeters of AABC and ADEF are 40 cm and 12 cm, respectively. If DE = 6 cm, then AB is:",
+   "options": [
+    {
+     "text": "12.6cm",
+     "added": false
+    },
+    {
+     "text": "24cm",
+     "added": false
+    },
+    {
+     "text": "20cm",
+     "added": false
+    },
+    {
+     "text": "10 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ona circular path of 693 m, Sujata and Anjali start walking from the same point but in the opposite directions at the speed of 2.85 km/h and 1.5 m/sec, respectively. When they will meet for the first time?",
+   "options": [
+    {
+     "text": "After 6.75 minutes",
+     "added": false
+    },
+    {
+     "text": "After 6.05 minutes",
+     "added": false
+    },
+    {
+     "text": "After 5.04 minutes",
+     "added": false
+    },
+    {
+     "text": "After 4.56 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Select the INCORRECT formula from the following options.",
+   "options": [
+    {
+     "text": "sec? 6—tan?6 =1",
+     "added": false
+    },
+    {
+     "text": "sin? @+cos?0 =1",
+     "added": false
+    },
+    {
+     "text": "cosec? @—cot?@ =1",
+     "added": false
+    },
+    {
+     "text": "sec? 6+cos76 =1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "15 men and 25 women can complete a piece of work in 9.6 days. If 16 women can complete the same work in 27 days, find the number of days in which 16 men can complete the same work.",
+   "options": [
+    {
+     "text": "22.50",
+     "added": false
+    },
+    {
+     "text": "20.25",
+     "added": false
+    },
+    {
+     "text": "19.20",
+     "added": false
+    },
+    {
+     "text": "21.60",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Industrial growth of different countries (in crores of 2): 80 6 {_—_________ 40 + = = . a | q o:4— 7 ‘ oe r L India Pakistan China England USA How many countries’ industrial growth is more than the average industrial growth?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If the area of a circle is 616 cm? and a chord XY = 10 cm, then find the perpendicular distance from the center of the circle to the chord XY.",
+   "options": [
+    {
+     "text": "\\171cm",
+     "added": false
+    },
+    {
+     "text": "161 cm",
+     "added": false
+    },
+    {
+     "text": "V117 cm",
+     "added": false
+    },
+    {
+     "text": "181 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "19 a . ‘ 219 Find the value of sin?25 + sin? 65.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Select the correct statement with respect to the below bar graph. Production of Rice (in lakh tonnes) by three states A, Band C 70 60 50 40 30 20 10 ° 2016 2017 2018 2019 2020 2021 mA wb aC",
+   "options": [
+    {
+     "text": "Rice production by Ain 2016 is less than the rice production by C in 2020.",
+     "added": false
+    },
+    {
+     "text": "B produced more rice than A and C in 2018.",
+     "added": false
+    },
+    {
+     "text": "The highest production of rice was in the year 2017.",
+     "added": false
+    },
+    {
+     "text": "Rice production by B in 2017 is equal to the rice production by Ain 2020.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "If x% of 280 = 15% of 240 + 20% of 310, then the value of x is:",
+   "options": [
+    {
+     "text": "38",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "1 1 If (x2 + =z) = 7, and 0 <x < 1, find the value of xe — =.",
+   "options": [
+    {
+     "text": "3¥5",
+     "added": false
+    },
+    {
+     "text": "4V3",
+     "added": false
+    },
+    {
+     "text": "—4V3",
+     "added": false
+    },
+    {
+     "text": "4 -3V5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "A shopkeeper offers the following discount schemes for buyers on an article: i. Two successive discounts of 15% each ii. A discount of 25% followed by a discount of 5% iii. Two successive discounts of 20% and 10% iv. A discount of 30% Under which scheme will the selling price be maximum?",
+   "options": [
+    {
+     "text": "Scheme iv",
+     "added": false
+    },
+    {
+     "text": "Scheme iii",
+     "added": false
+    },
+    {
+     "text": "Scheme ii",
+     "added": false
+    },
+    {
+     "text": "Scheme i",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The area of two triangles is in the ratio 5 : 3 and their heights are in the ratio 5 : 7. Find the ratio of their bases.",
+   "options": [
+    {
+     "text": "3:5",
+     "added": false
+    },
+    {
+     "text": "7:3",
+     "added": false
+    },
+    {
+     "text": "7:5",
+     "added": false
+    },
+    {
+     "text": "2:3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "If the LCM and the HCF of two numbers are 12 and 2 respectively, then find the mean proportional of these numbers.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 3,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

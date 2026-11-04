@@ -1,0 +1,499 @@
+{
+ "paper": "CHSL-Tier1-09-Jul-2019-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A ears 2100 per hour and works for $ hours per day. B earns 2120 per hour and works for 6 hours per day. The ratio of per day wages of B to that of A is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The distance between the centres of two circles of radius 6 cm each is 13 cm. The length (in cm) of a transverse common tangent is:",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "3 . ; 46+ a of 32-6 , The simplified value of ——=-———— is: 11+ of (34- 6)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "3 3 : If cosx = AB andjt<x< oa then the value of 4cot?x — 3cosec?x is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "95 If 7(cosec?57° — tan?33°) + 2sin90° — 4tan?52°ytan238° = : , then the value of y is:",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The given Bar Graph presents the sales of the number of books (in thousands) by six branches of a publishing company during two consecutive years 2000 and 2001. a 2 FE l| l j= js The ratio of total sales by all branches for the year 2001 to total sales by all branches for the year 2000 is:",
+   "options": [
+    {
+     "text": "48:55",
+     "added": false
+    },
+    {
+     "text": "25:23",
+     "added": false
+    },
+    {
+     "text": "55:48",
+     "added": false
+    },
+    {
+     "text": "23:25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The given Bar Graph presents the sales of the number of books (in thousands) by six branches of a publishing company during two consecutive years 2000 and 2001. oo = j= js The average of total sales (in thousands and Correct to two decimal places) by all branches for both the years is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The given Bar Graph presents the sales of the number of books (in thousands) by six branches of a publishing company during two consecutive years 2000 and 2001. ae es Ee iE | | ix The ratio of total sales by branches B1, B3 and BS for both the years to total sales by branches B2, B4, B6 for both the years is:",
+   "options": [
+    {
+     "text": "21:23",
+     "added": false
+    },
+    {
+     "text": "56:47",
+     "added": false
+    },
+    {
+     "text": "23:21",
+     "added": false
+    },
+    {
+     "text": "47: 56",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The sum of the salaries of A and B is 242,000. A spends 75% of his salary and B spends 90% of his salary. Now their savings are the same. What is A’s salary (in 2)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "ABCD isa cyclic quadrilateral such that AB is a diameter of the circle circumseribing it and angle ADC = 146°. ZBAC is equal to:",
+   "options": [
+    {
+     "text": "56°",
+     "added": false
+    },
+    {
+     "text": "24°",
+     "added": false
+    },
+    {
+     "text": "72°",
+     "added": false
+    },
+    {
+     "text": "18°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "cyclic-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A dealer buys an article marked at 25000 with two Successive discounts of 20% and 5%. He spends 2200 on repairs and sells it for 25000, what is his profit/loss percent?",
+   "options": [
+    {
+     "text": "25% profit",
+     "added": false
+    },
+    {
+     "text": "25% loss",
+     "added": false
+    },
+    {
+     "text": "20% profit",
+     "added": false
+    },
+    {
+     "text": "20% loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Ifthe length of a rectangle is decreased by 11% and the breadth is increased by 11%, its area will undergo:",
+   "options": [
+    {
+     "text": "13.13% increase",
+     "added": false
+    },
+    {
+     "text": "1.21% increase",
+     "added": false
+    },
+    {
+     "text": "1.21% decrease",
+     "added": false
+    },
+    {
+     "text": "13.13% decrease",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "eee | Q.13 a Acc Ifx— ==7 , thenx? —= is equal to 3 x’",
+   "options": [
+    {
+     "text": "480",
+     "added": false
+    },
+    {
+     "text": "364",
+     "added": false
+    },
+    {
+     "text": "376",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "In AABC, 2A = 72°. Its sides AB and AC are produced to the points D and E respectively. If the bisectors of the CBD and ZBCE meet at point O, then BOC is equal to:",
+   "options": [
+    {
+     "text": "16°",
+     "added": false
+    },
+    {
+     "text": "54°",
+     "added": false
+    },
+    {
+     "text": "32°",
+     "added": false
+    },
+    {
+     "text": "106°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "AandB can complete a piece of work in 15 days and 20 days respectively. They got a contract to complete the work for 277000. The share of A (in 2) in the contracted money will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Ter AaBc ~ AQPR and = 4. If AB = 12 cm, BC =8 em and AC = 10 cm, then QP is equal to:",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A man bought three articles for 26,000 each. He sold the articles respectively at 15% profit, 12% profit and 15% loss. The total percentage profit/loss he earned is:",
+   "options": [
+    {
+     "text": "4% profit",
+     "added": false
+    },
+    {
+     "text": "3% loss Addale4i7) ic",
+     "added": false
+    },
+    {
+     "text": "4% loss",
+     "added": false
+    },
+    {
+     "text": "No profit no loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The given Bar Graph presents the sales of the number of books (in thousands) by six branches of a publishing company during two consecutive years 2000 and 2001. The total sales (in thousands) by all branches for both the years is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "8 a 2A: If sec 6 = 8x and tan 9 =- (x + 0). then the value of 16 (x bs 1S: x =",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The compound interest on a certain sum of money at 21% for 2 years is 211,602.5. Its simple interest (in 2) at the same rate and for the same period is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The ratio between the speeds of two trains is 2 : 5. If the first train runs 250 km in 5 h, then the sum of the speeds (in knv/h) of both the trains is:",
+   "options": [
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "150",
+     "added": false
+    },
+    {
+     "text": "180",
+     "added": false
+    },
+    {
+     "text": "165",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": ".22 - 7 922 Tex4 4x74 = 1154, (x > 0), then the value of 2(x— 3)? is:",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "If the seven digit number 64x29y6 (x > y) is divisible by 72, what is the value of (2x — y)?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "19",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The average age of fifteen persons is 32 years. If two more persons are added then the average is increased by 3 years. The new persons have an age difference of 11 years between them. The age (in years) of the younger among the new persons is;",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "3 3 5 2 ; If a’ — b> = 899 and a— b = 29, then (a — b)~ + 3ab is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  }
+ ]
+}

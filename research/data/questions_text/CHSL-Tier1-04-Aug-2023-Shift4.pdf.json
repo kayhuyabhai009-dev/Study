@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-04-Aug-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Aboat takes 11 hours to travel a distance upstream and takes $ hours to travel the same distance downstream. If the speed of the boat in still water is 2= mvsee, then the speed of the stream (in km/h) is:",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": "b"
+  },
+  {
+   "n": 2,
+   "text": "ifsin(4a—B)= : ,and sin(A +B) = 1, where A and B are positive acute angles and A > B , then A and Bare respectively: 7",
+   "options": [
+    {
+     "text": "80°, 10",
+     "added": false
+    },
+    {
+     "text": "60°, 30°",
+     "added": false
+    },
+    {
+     "text": "70°, 20°",
+     "added": false
+    },
+    {
+     "text": "50°, 40°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 3,
+   "text": "93° Third proportion of 15 and 120 is:",
+   "options": [
+    {
+     "text": "880",
+     "added": false
+    },
+    {
+     "text": "960",
+     "added": false
+    },
+    {
+     "text": "900",
+     "added": false
+    },
+    {
+     "text": "860",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 4,
+   "text": "Www.prepp.in Prepp Acertain sum was invested at the rate of 10% for a period of 2 years at compound interest and compounded annually. The same sum was invested for the same period and same rate of interest at simple interest. If the difference of compound interest and simple interest was %200, find the sum.",
+   "options": [
+    {
+     "text": "330,000",
+     "added": false
+    },
+    {
+     "text": "25,000",
+     "added": false
+    },
+    {
+     "text": "22,000",
+     "added": false
+    },
+    {
+     "text": "v + 220,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Sukhen purchased some perishable items for sale but 15% of those items could not be sold and went bad. However, ‘Sukhen managed to sell the rest of the items at a price that helped him earn an overall profit of 19%. At what percentage above the cost price of each item did Sukhen sel! each of the items that did NOT go bad?",
+   "options": [
+    {
+     "text": "4 1. 40%",
+     "added": false
+    },
+    {
+     "text": "42%",
+     "added": false
+    },
+    {
+     "text": "34%",
+     "added": false
+    },
+    {
+     "text": "36%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "What is the least value of x for which the number 712x816 is divisible by 12?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "d"
+  },
+  {
+   "n": 7,
+   "text": "Wwww.prepp.in Prepp The following table gives the number of students who went abroad during 1994-1998, [VearState [1904 [1995 [1996 ] 1997 [1995 | |Maharashtra_| 723 | 840 | 900 | 920 | 925 | [Kerala | 1035 | 940 | 1200 | 1400 | 1500 | |Karmataka | 750 | 600 | 830 | 575 | 900 | [West Bengal | 500 | 550 | 450 | 600 | 525 | [Delhi 1500 | 1625 | 1700 | 1475 | 1800 | Andhra 800 | 840 | 875 | 925 | 785 Pradesh From which state/U.T. did the least number of students go abroad over the years among the given States/U.T.s?",
+   "options": [
+    {
+     "text": "Maharashtra",
+     "added": false
+    },
+    {
+     "text": "Karnataka",
+     "added": false
+    },
+    {
+     "text": "Kerala",
+     "added": false
+    },
+    {
+     "text": "West Bengal",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "a8 How many litres of water can a hemispherical tank of radius 2.1 m contain? (Take m= =)",
+   "options": [
+    {
+     "text": "18984",
+     "added": false
+    },
+    {
+     "text": "19324",
+     "added": false
+    },
+    {
+     "text": "18404",
+     "added": false
+    },
+    {
+     "text": "wv * 19404",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": "d"
+  },
+  {
+   "n": 9,
+   "text": "The marked price of a toy car is 2600. The shopkeeper gives a discount of 4% and still makes a profit of 28%. Find the cost price.",
+   "options": [
+    {
+     "text": "3460",
+     "added": false
+    },
+    {
+     "text": "3420",
+     "added": false
+    },
+    {
+     "text": "2480",
+     "added": false
+    },
+    {
+     "text": "2450",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Wwww.prepp.in Prepp aio Your Personal Exams|Guide “The pie chart shows the cost of construction of a house in degree . What is the average expenditure on timber, super vision and cement?",
+   "options": [
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "21%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "d"
+  },
+  {
+   "n": 11,
+   "text": "ai The sides of similar triangle A ABC and A DEF are in the ratio of 2 If the area of A ABC is 90 cm”, then the area of A DEF (in cm?) is::",
+   "options": [
+    {
+     "text": "150",
+     "added": false
+    },
+    {
+     "text": "152",
+     "added": false
+    },
+    {
+     "text": "154",
+     "added": false
+    },
+    {
+     "text": "156",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 12,
+   "text": "Wwww.prepp.in Prepp Acan doa piece of workin 24 days and B can do the same work in 30 days. If they work on it together for 8 days, then the fraction of the work that is left is:",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "Kal",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "What will be the perimeter (in cm) of the sector of a circle of radius 4.9 cm having central angle 144° (use z = =) ?",
+   "options": [
+    {
+     "text": "21.12",
+     "added": false
+    },
+    {
+     "text": "23.32",
+     "added": false
+    },
+    {
+     "text": "23.23",
+     "added": false
+    },
+    {
+     "text": "22.12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 14,
+   "text": "214 Tf 2Tan?A + 4Cos*A=3, then the possible value of A is:",
+   "options": [
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "0°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 15,
+   "text": "Wwww.prepp.in Prepp Simplify: (612+399)?+(612-398)? _, (612x612)+(388x388) *",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "ta = cotA + cosA and b = cotA — cosA, then find the value of a? — b? — 4,/ab.",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Simplify the following expression. (a2 + b? — 2)? — (a2 — b? + 2)? b2 —_ c2",
+   "options": [
+    {
+     "text": "3 a2",
+     "added": false
+    },
+    {
+     "text": "ha?",
+     "added": false
+    },
+    {
+     "text": "5a?",
+     "added": false
+    },
+    {
+     "text": "2a?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "d"
+  },
+  {
+   "n": 18,
+   "text": "Adealer gives 10%, 20% and 30% successive discounts on an item, What is the single equivalent discount on the item?",
+   "options": [
+    {
+     "text": "54.8%",
+     "added": false
+    },
+    {
+     "text": "52.8%",
+     "added": false
+    },
+    {
+     "text": "47.6%",
+     "added": false
+    },
+    {
+     "text": "49.6%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "d"
+  },
+  {
+   "n": 19,
+   "text": "www prepp.in prepp The average age of 30 students in a class is 12 years. The average age of a group of 5 of the students is 10 years and that of another group of 5 of them is 14 years. The average of the remaining students is:",
+   "options": [
+    {
+     "text": "14 years",
+     "added": false
+    },
+    {
+     "text": "12 years",
+     "added": false
+    },
+    {
+     "text": "11 years",
+     "added": false
+    },
+    {
+     "text": "13 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "b"
+  },
+  {
+   "n": 20,
+   "text": "Aman spent 30% of his monthly income on rent. He spent 15% of the remaining amount on food. 35% of the amount now left was used for all other expenses. If 11,62,435 was left with him, then his monthly income was:",
+   "options": [
+    {
+     "text": "80,000",
+     "added": false
+    },
+    {
+     "text": "20,000",
+     "added": false
+    },
+    {
+     "text": "60,000",
+     "added": false
+    },
+    {
+     "text": "40,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "b"
+  },
+  {
+   "n": 21,
+   "text": "The radius ofa circle is 21 cm. What will be the length (in cm) of an arc of the circle that subtends a 22.5° angle at the centre? [Use x= 2]",
+   "options": [
+    {
+     "text": "8.25",
+     "added": false
+    },
+    {
+     "text": "7.75",
+     "added": false
+    },
+    {
+     "text": "8.50",
+     "added": false
+    },
+    {
+     "text": "7.50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 22,
+   "text": ". The area of a triangle is half the area of a square. The perimeter of the square is 172 cm. What is the area of the triangle (in em?)?",
+   "options": [
+    {
+     "text": "924.5",
+     "added": false
+    },
+    {
+     "text": "1984",
+     "added": false
+    },
+    {
+     "text": "1849",
+     "added": false
+    },
+    {
+     "text": "992",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 23,
+   "text": "Wwww.prepp.in Prepp A man invested 225,400 on simple interest for 9 years to obtain a total amount of 267,790 on a certain annual rate of interest. What was the rate of interest (rounded off to 2 decimal places) to obtain the above amount?",
+   "options": [
+    {
+     "text": "14.58%",
+     "added": false
+    },
+    {
+     "text": "18.54%",
+     "added": false
+    },
+    {
+     "text": "18.45%",
+     "added": false
+    },
+    {
+     "text": "15.84%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "b"
+  },
+  {
+   "n": 24,
+   "text": "The number of snidents in three different streams in different colleges are given below. Arts Commerce College | a a a eB The difference between the average number of students per college in commerce and the average number of students per stream in college 2 (Correct to 2 decimal places) is:",
+   "options": [
+    {
+     "text": "558.33",
+     "added": false
+    },
+    {
+     "text": "819.67",
+     "added": false
+    },
+    {
+     "text": "891.67",
+     "added": false
+    },
+    {
+     "text": "981.67",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "a"
+  },
+  {
+   "n": 25,
+   "text": "If2x+ 3y = 4 and 4x? + 9y? = 64, then what is the value of 8x? + 27y?.",
+   "options": [
+    {
+     "text": "253",
+     "added": false
+    },
+    {
+     "text": "235",
+     "added": false
+    },
+    {
+     "text": "352",
+     "added": false
+    },
+    {
+     "text": "325",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "c"
+  }
+ ]
+}

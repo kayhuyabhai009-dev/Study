@@ -1,0 +1,601 @@
+{
+ "paper": "2022-Tier1-3-Dec-2022-Shift4.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qi i+cosA . The value of |——— is: 1-cosA",
+   "options": [
+    {
+     "text": "secA-tanA",
+     "added": false
+    },
+    {
+     "text": "cosecA+cotA",
+     "added": false
+    },
+    {
+     "text": "secA+tanA",
+     "added": false
+    },
+    {
+     "text": "cosec A - cotA",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "In a ΔABC, the median BE intersects AC at E. If BG=12 cm, where G is the centroid, then BE is equal to:",
+   "options": [
+    {
+     "text": "16 cm",
+     "added": false
+    },
+    {
+     "text": "18 cm",
+     "added": false
+    },
+    {
+     "text": "15 cm",
+     "added": false
+    },
+    {
+     "text": "13 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The table given below shows the number of players participating in two games in six different schools? What is the ratio of total number of players participating in game A to the total number of players participating in game B?",
+   "options": [
+    {
+     "text": "117 : 77",
+     "added": false
+    },
+    {
+     "text": "67 : 116",
+     "added": false
+    },
+    {
+     "text": "77 : 117",
+     "added": false
+    },
+    {
+     "text": "116 : 57",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "(mx + n) is a factor of:",
+   "options": [
+    {
+     "text": "m2 x2 + 2nx + n2",
+     "added": false
+    },
+    {
+     "text": "m2 x2 + 2mnx + n2",
+     "added": false
+    },
+    {
+     "text": "m2 x2 + 2mx + n2",
+     "added": false
+    },
+    {
+     "text": "m2 x2 + 2mn + n2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "5) ABC is aright-angle triangle at B. Iftan A — ©, then sin A + sin B+ sin C will be equal to:",
+   "options": [
+    {
+     "text": "1 = 13 +",
+     "added": false
+    },
+    {
+     "text": "2— 13 1",
+     "added": false
+    },
+    {
+     "text": "3— 13 1",
+     "added": false
+    },
+    {
+     "text": "2 is 13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "98 Study the given triangle and find the length of BC. B 10 x a. A Cc ¥",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "xX 2.6",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "With an average speed of 45 km/h, a train reaches its destination on time. If it goes with an average speed of 30 km/h, it is late by 15 minutes. The total journey is:",
+   "options": [
+    {
+     "text": "20.5 km",
+     "added": false
+    },
+    {
+     "text": "40.5 km",
+     "added": false
+    },
+    {
+     "text": "22.5 km",
+     "added": false
+    },
+    {
+     "text": "30.5 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs 4 . 1 The tax on the salary of C is Fi of the salary and savings are = of the salary. The ratio of the expenditures to the savings is :",
+   "options": [
+    {
+     "text": "4:5",
+     "added": false
+    },
+    {
+     "text": "4:3",
+     "added": false
+    },
+    {
+     "text": "524",
+     "added": false
+    },
+    {
+     "text": "3:4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "study the following table and answer the question that follows. A school has four sections A, B, C and D of Class EX students. The results of Science and Mathematics examinations are shown in the following table. RESULT [ee [ee [ewe [en A oC [Failedinboth 2 igo [Failed in Science but passed ia Mathematics [14 [12 [10 [1s__| | Passed in Science but failed ia Mathematics [7 [6 [80 [Passedinboth 6 SS ‘What is the ratio of number of students who failed in Science but passed in Mathematics of section B and section D together to the number of students of section A that passed in both subjects?",
+   "options": [
+    {
+     "text": "Oil?",
+     "added": false
+    },
+    {
+     "text": "3:39",
+     "added": false
+    },
+    {
+     "text": "4:9",
+     "added": false
+    },
+    {
+     "text": "5901",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "In a 1200 m race, bike A beats bike B by 100 m. Bike B beats bike C by 100 m in a 600 m race. If bike A beats bike C by 30 sec in a 720 m race, then what is the speed of bike C?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The following table gives information of panchayat elections held in six villages P, Q, R, S, T and U. Village | Total number of votes Votes polled Valid votes (in hundreds) (in %) (in %) jp {so soso CC Ca a a [Is fsa a Ca 6 CC ft oe ; . a _ _ Total votes polled Hint: 1) percentage of votes polled aaainiey aFiona 100 = Total valid votes 2) percentage of valid votes = woul awed. x 100 Find the ratio of invalid votes of village R to that of village U 7",
+   "options": [
+    {
+     "text": "455: 268",
+     "added": false
+    },
+    {
+     "text": "321: 107",
+     "added": false
+    },
+    {
+     "text": "455 : 288",
+     "added": false
+    },
+    {
+     "text": "423 : 755",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A dishonest trader says to customers that he sells his goods at a cost price, but he uses a false weight and gains 12.5% as profit. How many grams does he use to weigh 1 kg?",
+   "options": [
+    {
+     "text": "900 g",
+     "added": false
+    },
+    {
+     "text": "880.5 g",
+     "added": false
+    },
+    {
+     "text": "850 g",
+     "added": false
+    },
+    {
+     "text": "888.8 g",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Find the largest number of 3 digits divisible by 4 and 7.",
+   "options": [
+    {
+     "text": "960",
+     "added": false
+    },
+    {
+     "text": "980",
+     "added": false
+    },
+    {
+     "text": "990",
+     "added": false
+    },
+    {
+     "text": "970",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A and B working separately can complete a piece of work in 10 and 16 days, respectively. If they work for a day alternately, with A beginning the work, in how many day(s) will the work be completed?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "TFthe length of the diagonal of a cube is 7V3 cm, then the surface area of the cube is ”",
+   "options": [
+    {
+     "text": "216 cm?",
+     "added": false
+    },
+    {
+     "text": "256 cm?",
+     "added": false
+    },
+    {
+     "text": "284 cm?",
+     "added": false
+    },
+    {
+     "text": "294 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "1 . If ABPQ = AASR and 2A = zf4R= 48 then find 2Q. (All angles are in degrees).",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Two identical circles each of radius 30 cm intersect each other such that the circumference of each one passes through the centre of the other. What is the area of the intersecting region?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The marked price of a chair is ₹ 2,400, which is 20% above the cost price. If the chair is sold at a discount of 10% on marked price, what is the profit percentage?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A sum becomes Rs.15,500 in 7 years on simple interest at the rate of 30 percent per annum. What is the total interest for the 7 years?",
+   "options": [
+    {
+     "text": "Rs.12,200",
+     "added": false
+    },
+    {
+     "text": "Rs.1,47,000",
+     "added": false
+    },
+    {
+     "text": "Rs.10,500",
+     "added": false
+    },
+    {
+     "text": "Rs.11,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": ".20 a ¥ Qa Study the given table and answer the question that follows. The table shows the percentage of marks obtained by 7 students in different subjects. al epee Pee _ 58 [oo [98 |Ruchi_ fos [7s fos S70 fod 6 [Kanchan [89 [66 [76 [76 17286 [Prashant [ss [so {72 fos, 2 fos 72 [Mrinal [78 fos 76 74 fos 808 [Kunal [60 [so ss 74 fa 6S 8a [Diksha [74 fon 96 = os = 8G 88 9G How many students have scored the highest percentage of marks in more than one subject?",
+   "options": [
+    {
+     "text": "Four",
+     "added": false
+    },
+    {
+     "text": "Three",
+     "added": false
+    },
+    {
+     "text": "Two",
+     "added": false
+    },
+    {
+     "text": "One",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "If x + y + z = 0, then what is the value of ?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "What is the possible value of (a + b + c) – 3 , if a2 + b2 + c2 = 9 and ab + bc + ca = 8?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "If the 8-digit number 123456xy is divisible by 8, then the total possible pairs of (x,y) are:",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The area of a sector of a circle is 308cm2, with the central angle measuring 45°. The radius of the circle is:",
+   "options": [
+    {
+     "text": "14 cm",
+     "added": false
+    },
+    {
+     "text": "21 cm",
+     "added": false
+    },
+    {
+     "text": "7 cm",
+     "added": false
+    },
+    {
+     "text": "28 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The cost of apples is increased by 20% and then decreased by 20%. What is the net pecentage decrease?",
+   "options": [
+    {
+     "text": "4%",
+     "added": false
+    },
+    {
+     "text": "3%",
+     "added": false
+    },
+    {
+     "text": "5%",
+     "added": false
+    },
+    {
+     "text": "6%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  }
+ ]
+}

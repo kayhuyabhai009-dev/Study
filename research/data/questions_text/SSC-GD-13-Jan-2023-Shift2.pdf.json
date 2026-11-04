@@ -1,0 +1,559 @@
+{
+ "paper": "SSC-GD-13-Jan-2023-Shift2.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In March, a shopkeeper has launched a discount scheme for 20% discount on the purchase of jeans and 12% discount on a coat. Also, he is offering 5% discount on using SBI card only to pay. Anand bought jeans of marked price of Rs.1,200 and a coat of marked price of Rs.4,500. How much does he have to pay if he pays through an HDFC Bank card?",
+   "options": [
+    {
+     "text": "Rs. 4,920",
+     "added": false
+    },
+    {
+     "text": "Rs. 4,560",
+     "added": false
+    },
+    {
+     "text": "Rs.4,674",
+     "added": false
+    },
+    {
+     "text": "Rs. 5,016",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Akhil can complete a piece of work in 26 days. Sakshi and Akhil both can complete the same work in 20 days. They started together but Sakshi left after working for 6 days. Find the number of days in which Akhil will complete the remaining work.",
+   "options": [
+    {
+     "text": "55/4 days",
+     "added": false
+    },
+    {
+     "text": "89/5 days",
+     "added": false
+    },
+    {
+     "text": "12/5 days",
+     "added": false
+    },
+    {
+     "text": "91/5 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "If 24 women can complete a work in 16 days, in how many days 32 women will complete the same work?",
+   "options": [
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A dog takes 5 leaps for every 6 leaps of a hare, but 4 leaps of the dog are equal to 5 leaps of the hare. The ratio of the speed of dog and hare is?",
+   "options": [
+    {
+     "text": "16 ∶ 24",
+     "added": false
+    },
+    {
+     "text": "24 ∶ 16",
+     "added": false
+    },
+    {
+     "text": "25 ∶ 24",
+     "added": false
+    },
+    {
+     "text": "24 ∶ 25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "In what ratio must water be mixed with milk costing Rs.15 per liter to obtain a mixture worth Rs.10 per liter? (water is available free of cost)",
+   "options": [
+    {
+     "text": "1 ∶ 2",
+     "added": false
+    },
+    {
+     "text": "1 ∶ 3",
+     "added": false
+    },
+    {
+     "text": "2 ∶ 5",
+     "added": false
+    },
+    {
+     "text": "2 ∶ 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "If the radius of the base and the height of a cylinder are 17 cm and 49 cm respectively, then what is the curved surface area of the cylinder? (Use π = 22/7)",
+   "options": [
+    {
+     "text": "5244 cm2",
+     "added": false
+    },
+    {
+     "text": "5256 cm2",
+     "added": false
+    },
+    {
+     "text": "5288 cm2",
+     "added": false
+    },
+    {
+     "text": "5236 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "If a person weighing 40 kg joins, then the average weight of a group increases by 1 kg. If the weight of this person had been 28 kg, then the average weight of the group would have decreased by 1 kg. The actual average weight of the group is:",
+   "options": [
+    {
+     "text": "39 kg",
+     "added": false
+    },
+    {
+     "text": "24 kg",
+     "added": false
+    },
+    {
+     "text": "34 kg",
+     "added": false
+    },
+    {
+     "text": "29 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Cost of four chairs is equal to cost of two tables. Cost of four tables is equal to cost of two boards and cost of four boards is equal to cost of two fans. If a fan costs ₹850, then the cost of a chair is:",
+   "options": [
+    {
+     "text": "₹425",
+     "added": false
+    },
+    {
+     "text": "₹237.50",
+     "added": false
+    },
+    {
+     "text": "₹106.25",
+     "added": false
+    },
+    {
+     "text": "₹475",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A principal gives an amount of ₹26,450 in 2 years at the rate of 15% per annum on compound interest, interest is compounding annually. What is the principal?",
+   "options": [
+    {
+     "text": "₹23,000",
+     "added": false
+    },
+    {
+     "text": "₹20,000",
+     "added": false
+    },
+    {
+     "text": "₹21,000",
+     "added": false
+    },
+    {
+     "text": "₹22,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Find the value of y in the expression 2 37 × [(11 26 ÷ ( 25 18 + 2 56 − 36 7 ))] = y ÷ 72.5 × 204",
+   "options": [
+    {
+     "text": "21 5",
+     "added": false
+    },
+    {
+     "text": "19 3",
+     "added": false
+    },
+    {
+     "text": "17 7",
+     "added": false
+    },
+    {
+     "text": "15 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The distance 'd' a moving body travels, varies directly with time 't'. When a train travels 120 miles in 3 h, then how many miles would it travel in 8 h?",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "320",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "160",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "If the simple interest on a sum of money for two years at 5% per annum is Rs.50, then what is the compound interest when compounding annually at the same rate and for the same time?",
+   "options": [
+    {
+     "text": "Rs. 53.00",
+     "added": false
+    },
+    {
+     "text": "Rs. 50.50",
+     "added": false
+    },
+    {
+     "text": "Rs. 53.50",
+     "added": false
+    },
+    {
+     "text": "Rs. 51.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "si-ci-difference",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A toy car costs Rs. 1800. Its price is reduced to Rs. 1500 in the sale. By what percentage was the price reduced?",
+   "options": [
+    {
+     "text": "60/7 percent",
+     "added": false
+    },
+    {
+     "text": "80/9 percent",
+     "added": false
+    },
+    {
+     "text": "100/7 percent",
+     "added": false
+    },
+    {
+     "text": "50/3 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The LCM of the three numbers 120, 240 and 480 will be:",
+   "options": [
+    {
+     "text": "720",
+     "added": false
+    },
+    {
+     "text": "1080",
+     "added": false
+    },
+    {
+     "text": "960",
+     "added": false
+    },
+    {
+     "text": "480",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A thief is noticed by a policeman from a distance of 380 m. The thief starts running and the policeman chases him. The thief and policeman run at the speed of 25 ,m/sec and 30 m/ sec respectively. What is the time taken by the policeman to catch the thief?",
+   "options": [
+    {
+     "text": "82 sec",
+     "added": false
+    },
+    {
+     "text": "56 sec",
+     "added": false
+    },
+    {
+     "text": "92 sec",
+     "added": false
+    },
+    {
+     "text": "76 sec",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A shopkeeper decided the price of 2 sarees and 4 shirts to be ₹1,600 . With the same money, one can buy 1 saree and 6 shirts. If I want to buy 12 shirts how much shall I have to pay?",
+   "options": [
+    {
+     "text": "₹1,800",
+     "added": false
+    },
+    {
+     "text": "₹1,600",
+     "added": false
+    },
+    {
+     "text": "₹4,800",
+     "added": false
+    },
+    {
+     "text": "₹2,400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "In an examination, there are three subjects of 100 marks each. A student scores 75% in the first subject and 86% in the second subject. He scored 68% in aggregate. His percentage of marks in the third subject is:",
+   "options": [
+    {
+     "text": "65%",
+     "added": false
+    },
+    {
+     "text": "48%",
+     "added": false
+    },
+    {
+     "text": "56%",
+     "added": false
+    },
+    {
+     "text": "43%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Find the number of solid spheres, each of diameter 6 cm, that can be made by melting a solid metal cylinder of height 12 cm and diameter 6 cm.",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A and B are two typists. One afternoon, they were each given 80 pages for typing. They divided the work equally, but B finished 40 minutes before A, who took 4 hours for the same. The next afternoon, they were again given 121 pages to type. However, this time they decided to divide the work such that they finished typing simultaneously. How many pages did A have to type?",
+   "options": [
+    {
+     "text": "50 pages",
+     "added": false
+    },
+    {
+     "text": "77 pages",
+     "added": false
+    },
+    {
+     "text": "60 pages",
+     "added": false
+    },
+    {
+     "text": "55 pages",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Tina gets a discount of 15 percent on a grinder whose marked price is Rs. 8200. Since she pays cash, she gets an additional 3 percent discount too. How much does she pay?",
+   "options": [
+    {
+     "text": "Rs. 6850.80",
+     "added": false
+    },
+    {
+     "text": "Rs. 6760.90",
+     "added": false
+    },
+    {
+     "text": "Rs. 6970",
+     "added": false
+    },
+    {
+     "text": "Rs. 6560",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-slice": {
+   "n": 143,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 188,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

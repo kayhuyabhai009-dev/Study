@@ -1,0 +1,66 @@
+{
+ "paper": "RRB-ALP-CBT1-14-Aug-2018-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 22,
+ "questions": [
+  {
+   "n": 4,
+   "text": "i q Fe GE A GAT ALAM Fira ASAT FSR 20, 25, 35 TAT 40 S Pasfoter HLA AT NT HA: a ey 14, 19, 29 31 34 aaa eI Find the least number which when divided by 20, 25, 35 and 40 leaves remainder 14. 19, SpetuggNot/Agswered 29 and 34 respectively? Chosen Option : --",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": "1394"
+  },
+  {
+   "n": 10,
+   "text": "What is the pass percentage in at least one of the two exams for section A (approximately or rounded)? [Resuit SecA [SecB | Total number of students who | 28 23 failed in both exams Total number of students who | 14 12 failed in mid-term but passed in finals Total number of students who 17 passed in mid-term but failed in finals passed in both the exams",
+   "options": [
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "70",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "75"
+  },
+  {
+   "n": 16,
+   "text": "A Car can cover 350km in 4 hours. If its speed is decreased by 122 kmph. how much time does the car take to cover a distance of 450km x15 de 5 hours x27 ae 7 hours v5 ae 6 hours xa4 ae 4 hours 51 Yo a a ae ~~ een . “ H anl S 9% TE Te Le Shiv sold a shirt for €184 at a loss of 8%. To make a profit of 5% he should have sold the Sielus Mee Answered shirt for: Chosen Option : --",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "₹210"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 272,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}
