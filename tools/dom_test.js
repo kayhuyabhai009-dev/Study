@@ -89,6 +89,22 @@ function waitForResources() {
     ok(doc.getElementById('rs-frame') !== null, 'research iframe मौजूद (lazy-load)');
     ok(typeof w.openResearchPage === 'function', 'openResearchPage global (onclick-ready)');
 
+    // मास्टरी मार्ग (Learn का नया रूप) + चैलेंज exact-data
+    w.openSection('learn');
+    ok(w.eval('typeof MASTERY_DATA !== "undefined" && MASTERY_DATA.totals.concepts') === 295, 'MASTERY_DATA: 295 concepts (script scope)');
+    ok(doc.querySelectorAll('#mastery-topics .m-topic').length === 35, 'मास्टरी मार्ग: 35 topic cards');
+    w.eval("openMasteryTopic('number-system')");
+    ok(doc.querySelectorAll('#mastery-detail .m-concept').length >= 4, 'मास्टरी मार्ग: concept cards');
+    ok(doc.querySelectorAll('#mastery-detail .m-tag').length >= 10, 'मास्टरी मार्ग: concept-tag chips');
+    ok(doc.getElementById('mastery-hero').textContent.includes('295'), 'मास्टरी hero: 295 concepts');
+    const cid = w.eval('MASTERY_DATA.topics[0].sub_topics[0].concepts[0].id');
+    w.eval(`setConceptStage('${cid}', 3)`);
+    ok(w.eval(`conceptStage('${cid}')`) === 3, 'concept mastery tracker सेव');
+    w.eval('startChallenge()');
+    ok(doc.getElementById('ch-stage').textContent.includes('exact concept-count'), 'चैलेंज: exact concept-count panel');
+    ok(doc.querySelectorAll('.chm-chip').length >= 1, 'चैलेंज: topic chips (concepts + records)');
+    ok(doc.querySelectorAll('.chwm').length === 13, 'चैलेंज: 13 सप्ताह exact analysis');
+
     // कैलकुलेशन: scorecard + drills + workout
     w.openSection('calculation');
     ok(doc.getElementById('calc-scorecard').innerHTML.includes('calc-stat'), 'calc scorecard render');

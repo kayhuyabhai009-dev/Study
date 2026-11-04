@@ -1,4 +1,4 @@
-# गणित गुरु — 90-दिन गणित चैलेंज (v3.0)
+# गणित गुरु — 90-दिन गणित चैलेंज (v3.1 — मास्टरी मार्ग)
 
 SSC और Railway परीक्षाओं के लिए हिंदी-माध्यम गणित mastery website। यह एक static, offline-friendly app है; progress browser के `localStorage` में सुरक्षित रहती है।
 
@@ -11,6 +11,30 @@ SSC और Railway परीक्षाओं के लिए हिंदी-
 - **Learn + Challenge सेक्शन** में अब research bridge — हर टॉपिक के concept-वार प्रश्न-गणना और सीधे research pages के लिंक, ताकि "किस concept से किस topic से प्रश्न आता है" सीखते-सीखते ही साफ हो जाए।
 - Research platform iframe में चलती है और embedded mode में अपनी sidebar/topbar छिपा देती है — navigation मुख्य site के sub-tabs से; theme दोनों में sync रहता है। Platform standalone भी चलती है (`research/index.html`)।
 - सारा research डेटा repo के `research/` फोल्डर में (45 MB): `research/data/` (papers, questions_by_topic, questions_text, topics, hierarchy formulas…), `research/js/`, `research/css/`।
+
+## 🎓 v3.1 — मास्टरी मार्ग (Learn + Challenge पूरी तरह mastery-complete)
+
+Research platform की hierarchy को सिखाने-योग्य मास्टरी पाथ में बदला गया:
+
+- **📚 सीखें = मास्टरी मार्ग** — 35 topics → 154 sub-topics → **295 concepts**। हर concept में:
+  पहले यह जानिए (prerequisites) → definition → **आसान हिंदी समझ** → फॉर्मूले → exam-mapping →
+  इस sub-topic के concept-tags (**किस concept से कितने प्रश्न**, कठिनाई-बार के साथ) →
+  प्रश्न-प्रकार, PYQ shortcut labels, परीक्षा-वितरण → अभ्यास लिंक (आपके बैंक / रिसर्च / फास्ट ट्रिक्स / पैटर्न)।
+- **3-स्तरीय concept mastery tracker** — 👁️ समझा → ✍️ अभ्यास → 🏆 पक्का; progress आपके नाम से
+  सेव (`state.concepts`), dashboard पर "पक्के concepts x/295", hero में **अगला कौन-सा concept** करना है।
+- **⚡ शॉर्टकट** — हर topic के curated shortcut पैटर्न (signal → shortcut → ट्रैप) और हर sub-topic के
+  PYQ shortcut labels, साथ में फास्ट ट्रिक्स/पैटर्न इंजन के सीधे लिंक।
+- **🔥 90-दिन चैलेंज + exact data** — हर दिन के topics में अब exact concept-count और रिकॉर्ड-संख्या;
+  topic chip पर टैप → मास्टरी मार्ग में उस topic के सारे concepts; हर सप्ताह का exact विश्लेषण-लाइन।
+- **UI upgrade** (`css/mastery-v3.css`) — mastery ring + progress, topic cards (difficulty/exam/mastery),
+  concept accordion (numbered steps, formula chips, tag chips), stage tracker, साफ़ mobile layout।
+
+डेटा दोबारा बनाना (research data बदलने पर):
+
+```bash
+node tools/build_mastery_data.js    # → js/data-mastery-path.js
+node tools/build_pyq_analysis.js    # → js/data-pyq-analysis.js
+```
 
 ## PYQ एनालिसिस दोबारा बनाना
 
@@ -92,8 +116,9 @@ Report `data/pdf_deep_analysis.json` में बनती है। Scanned/im
 node tools/fulltest.js
 ```
 
-यह छह suites चलाता है — data integrity, merged datasets, PDF inventory, exam profiles, renderers, formula chapters और topic guides validate करने के साथ-साथ v2 checks भी: 90-दिन चैलेंज की संरचना (90 दिन, 13 सप्ताह, 6 चरण, well-planned balance), 16 drills × 3 कठिनाइयों के question generators, user-system persistence helpers, drill-history cap और `index.html` की सभी नई UI IDs की मौजूदगी। साथ ही:
+यह सात suites चलाता है — data integrity, merged datasets, PDF inventory, exam profiles, renderers, formula chapters और topic guides validate करने के साथ-साथ v2 checks भी: 90-दिन चैलेंज की संरचना (90 दिन, 13 सप्ताह, 6 चरण, well-planned balance), 16 drills × 3 कठिनाइयों के question generators, user-system persistence helpers, drill-history cap और `index.html` की सभी नई UI IDs की मौजूदगी। साथ ही:
 
+- `tools/mastery_test.js` — मास्टरी मार्ग की data-integrity: 295 concepts research hierarchy से exact मेल, हर concept में हिंदी समझ/definition/difficulty/exam-mapping, formulas, prerequisites, concept-tag counts, प्रश्न-प्रकार, shortcut labels, 90-दिन mapping, index.html/mastery.js/main.js integration (और यह कि पुराना `data-mastery.js` roadmap डेटा overwrite न हुआ हो)।
 - `tools/research_test.js` — merged research platform की data-integrity (1,687 papers, 42,634 records, 32 questions_by_topic files, per-paper + questions_text files), embedded-mode patches, PYQ analysis aggregates (10,124 ids असली डेटा से मेल खाते हैं) और index.html/research-hub/main.js integration।
 - `tools/dom_test.js` — jsdom में पूरा boot: नए सेक्शन (PYQ एनालिसिस, research sub-tabs, Learn/Challenge bridge) तक। (इसके लिए `npm i -D jsdom` और `http://localhost:8000` पर server चालू रखें।)
 

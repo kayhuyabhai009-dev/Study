@@ -50,6 +50,7 @@ const DEFAULT_STATE = {
     tricksRead: [],       // fast-making playbooks opened
     trickTrainerBest: 0,
     trickTrainerAttempts: 0,
+    concepts: {},         // मास्टरी मार्ग: { conceptId: 1|2|3 } (समझा/अभ्यास/पक्का)
     joinedAt: null,
     challenge: { start: null, done: {}, checks: {}, rewards: [] }  // 90-दिन चैलेंज
 };
@@ -68,7 +69,7 @@ function normalizeState(s) {
     ['notesRead', 'errorLog', 'chaptersRead', 'trapsRead', 'pyqsSeen', 'masteryAwarded', 'tricksRead'].forEach(k => {
         if (!Array.isArray(out[k])) out[k] = [];
     });
-    ['sets', 'bestDrill', 'masterySteps'].forEach(k => {
+    ['sets', 'bestDrill', 'masterySteps', 'concepts'].forEach(k => {
         if (!out[k] || typeof out[k] !== 'object' || Array.isArray(out[k])) out[k] = {};
     });
     out.drillHistory = Array.isArray(out.drillHistory) ? out.drillHistory.slice(0, 60) : [];
@@ -377,6 +378,11 @@ function updateDashboard() {
     document.getElementById('accuracy-value').textContent = getAccuracy() + '%';
     document.getElementById('speed-value').textContent = getBestDrill();
     document.getElementById('streak-value').textContent = getStreak();
+    const cmv = document.getElementById('concepts-mastered-value');
+    if (cmv && typeof masteryStats === 'function') {
+        const ms = masteryStats();
+        cmv.textContent = ms.mastered + '/' + ms.total;
+    }
 
     // हीरो — नाम, तारीख, चैलेंज स्थिति
     const u = currentUser();
@@ -420,38 +426,20 @@ function updateDashboard() {
     updateTopbarChips();
 }
 
-/* ================= सीखें (Learn) ================= */
+/* ================= सीखें (मास्टरी मार्ग — mastery.js देखें) ================= */
 function renderLearn(filter = '') {
-    const grid = document.getElementById('learn-cards');
-    const q = filter.trim().toLowerCase();
-    const topics = LEARN_TOPICS.filter(t => !q || (t.name + ' ' + t.desc + ' ' + t.tags.join(' ')).toLowerCase().includes(q));
-    const formulaCount = FORMULA_BOOK.reduce((n, ch) => n + ch.formulas.length, 0);
-    const completed = FORMULA_BOOK.filter(ch => chapterMastery(ch.id) === 100).length;
-    document.getElementById('learn-overview').innerHTML = `
-        <div><b>${FORMULA_BOOK.length}</b><span>पूर्ण अध्याय</span></div>
-        <div><b>${formulaCount}+</b><span>गहरे फॉर्मूले</span></div>
-        <div><b>${DAILY_BANK.length}+</b><span>Practice Questions</span></div>
-        <div><b>${completed}/${FORMULA_BOOK.length}</b><span>100% Mastered</span></div>`;
-    grid.innerHTML = topics.map(t => {
-        const ch = FORMULA_BOOK.find(c => c.id === t.chapter);
-        const g = (typeof TOPIC_GUIDES !== 'undefined' ? TOPIC_GUIDES : []).find(x => x.id === t.id);
-        const mastery = chapterMastery(t.chapter);
-        const fc = ch ? `<span class="learn-badge">📖 ${ch.formulas.length} फॉर्मूले</span>` : '<span class="learn-badge soon">⏳ जल्द आ रहा</span>';
-        const wt = g ? `<span class="learn-badge wt">⚖️ CGL-T1: ${g.exams.cgl1} • T2: ${g.exams.cgl2}</span>` : '';
-        return `
-        <div class="learn-card" onclick="openChapter('${t.chapter}')" role="button" tabindex="0">
-            <div class="lc-icon">${t.icon}</div>
-            <h4>${t.name}</h4>
-            <p>${t.desc}</p>
-            <div class="learn-badges">${fc}${wt}<span class="learn-badge mastery">🏆 ${mastery}% mastery</span></div>
-            <div class="mini-progress"><span style="width:${mastery}%"></span></div>
-            <div class="tags">${t.tags.map(x => `<span class="tag">${x}</span>`).join('')}</div>
-        </div>`;
-    }).join('') || '<div class="no-data">इस खोज से कोई टॉपिक नहीं मिला। दूसरा शब्द आज़माएँ।</div>';
+    // नया mastery-path renderer (js/mastery.js); filter सीधे mastery search में जाता है
+    if (typeof renderMasteryPath === 'function') { renderMasteryPath(filter); return; }
+    const grid = document.getElementById('mastery-topics');
+    if (grid) grid.innerHTML = '<div class="no-data">मास्टरी डेटा लोड नहीं हुआ — page refresh करें।</div>';
 }
 
 function initLearnSearch() {
-    document.getElementById('learn-search').addEventListener('input', e => renderLearn(e.target.value));
+    const input = document.getElementById('mastery-search');
+    if (!input) return;
+    input.addEventListener('input', e => {
+        if (typeof renderMasteryPath === 'function') renderMasteryPath(e.target.value);
+    });
 }
 
 const MASTERY_STAGES = [
@@ -487,7 +475,8 @@ function toggleMasteryStep(chapterId, step) {
     }
     saveState();
     openChapter(chapterId);
-    renderLearn(document.getElementById('learn-search').value);
+    const ms = document.getElementById('mastery-search');
+    renderLearn(ms ? ms.value : '');
     updateDashboard();
     updateProfile();
 }
@@ -2264,6 +2253,7 @@ function renderChallenge() {
             <div class="ch-day-badge">${isDone ? '✅ पूरा' : (isFuture ? '🔒 आगामी' : (isToday ? '🔥 आज' : '⏳ पेंडिंग'))}</div>
         </div>
         ${day.chap && FORMULA_BOOK.find(c => c.id === day.chap) ? `<div class="ch-chap-link">📚 आज का अध्याय: <b>${FORMULA_BOOK.find(c => c.id === day.chap).name}</b> <button class="drill-btn" onclick="openChapter('${day.chap}')">खोलें →</button></div>` : ''}
+        ${typeof chMasteryHtml === 'function' ? chMasteryHtml(day) : ''}
         <div class="ch-cols">
             <div class="ch-col"><h4>🎯 आज का पढ़ाई-कार्यक्रम</h4>${taskHtml(day.tasks, 0)}</div>
             <div class="ch-col"><h4>🔁 रिवीज़न (कल/पुराना)</h4>${taskHtml(day.rev, 1)}
@@ -2289,6 +2279,7 @@ function renderChallenge() {
         const open = weekDays.some(dz => dz.d === viewDay);
         table += `<details class="ch-week" ${open ? 'open' : ''}>
             <summary>सप्ताह ${wNo} <b>${wDone}/${weekDays.length}</b> — दिन ${weekDays[0].d}–${weekDays[weekDays.length - 1].d} (${esc(weekDays[0].sub.split('•').pop().trim())})</summary>
+            ${typeof chWeekMasteryHtml === 'function' ? chWeekMasteryHtml(wNo) : ''}
             <div class="ch-week-days">` + weekDays.map(dz => `
                 <button class="ch-week-row t-${dz.type} ${state.challenge.done[dz.d] ? 'done' : ''} ${dz.d === viewDay ? 'view' : ''}" onclick="chSelectDay(${dz.d})">
                     <span class="cwr-d">${state.challenge.done[dz.d] ? '✅' : 'दिन ' + dz.d}</span>
@@ -2531,6 +2522,7 @@ function refreshAllViews() {
     updateDashboard();
     updateProfile();
     renderLearn();
+    if (typeof renderMasteryPath === 'function') renderMasteryPath('');
     renderFormulaChapters();
     renderPatterns();
     renderTraps();
@@ -2567,6 +2559,7 @@ function bootApp() {
     initPatternTrapSearch();
     initResearchHub();
     initPyqAnalysis();
+    if (typeof initMastery === 'function') initMastery();
     drillConfigInit();
 
     // वर्कआउट बटन/इनपुट

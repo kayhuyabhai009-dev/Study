@@ -13,7 +13,8 @@ const suites = [
     'tools/learn_test.js',
     'tools/learn_test2.js',
     'tools/v2_test.js',
-    'tools/research_test.js'
+    'tools/research_test.js',
+    'tools/mastery_test.js'
 ];
 
 try {
