@@ -1,0 +1,559 @@
+{
+ "paper": "SSC-GD-13-Jan-2023-Shift1.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A boat's speed in still water is 9 km/h, while the stream’s speed is 1.5 km/h. A man rows to a location 105 km away and then returns to his starting position. The total time taken by him is:",
+   "options": [
+    {
+     "text": "20.5 hours",
+     "added": false
+    },
+    {
+     "text": "24 hours",
+     "added": false
+    },
+    {
+     "text": "19 hours",
+     "added": false
+    },
+    {
+     "text": "22 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "round-trip",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A retailer purchased some goods for ₹1,280 and he sold one-third at a loss of 15%.At what gain percentage should the remaining be sold, so as to gain 15% on the whole transaction?",
+   "options": [
+    {
+     "text": "32 Percent",
+     "added": false
+    },
+    {
+     "text": "30 Percent",
+     "added": false
+    },
+    {
+     "text": "28 Percent",
+     "added": false
+    },
+    {
+     "text": "31 Percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A sofa-set is offered for sale at three successive discounts of 10%, 5%, and 2%. Find the net selling price of the sofa-set, if its marked price is ₹18,000.",
+   "options": [
+    {
+     "text": "₹16,920.28",
+     "added": false
+    },
+    {
+     "text": "₹16,084.00",
+     "added": false
+    },
+    {
+     "text": "₹15,082.20",
+     "added": false
+    },
+    {
+     "text": "₹17,230.00",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Ratio of Copper and Gold in first and second alloy are 3 ∶ 4 and 2 ∶ 5 respectively. 14 kg of the first alloy is mixed with 21 kg of the second alloy. Find the ratio of Copper and Gold, respectively, in the new mixture.",
+   "options": [
+    {
+     "text": "23 ∶ 12",
+     "added": false
+    },
+    {
+     "text": "17 ∶ 13",
+     "added": false
+    },
+    {
+     "text": "5 ∶ 9",
+     "added": false
+    },
+    {
+     "text": "12 ∶ 23",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "P can do a piece of work in 200 days. Q and R can do the same work in 100 days. P, Q and R started the work together and they worked together for 40 days and then Q left the work and P and R together finished the remaining work in 40 days. Find the number of days in which Q alone can do the total work.",
+   "options": [
+    {
+     "text": "160 days",
+     "added": false
+    },
+    {
+     "text": "180 days",
+     "added": false
+    },
+    {
+     "text": "210 days",
+     "added": false
+    },
+    {
+     "text": "200 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "If a shopkeeper offers a 10% discount, he makes a 10% profit. Under the same conditions, if he offers a 25% discount, then how much percentage of profit or loss will he get?",
+   "options": [
+    {
+     "text": "25% loss",
+     "added": false
+    },
+    {
+     "text": "20% profit",
+     "added": false
+    },
+    {
+     "text": "25% profit",
+     "added": false
+    },
+    {
+     "text": "8.33% loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Find the greatest possible length which can be used to measure exactly the lengths 8 m 75 cm, 1.75 m and 12 m 20 cm.",
+   "options": [
+    {
+     "text": "5 cm",
+     "added": false
+    },
+    {
+     "text": "20 cm",
+     "added": false
+    },
+    {
+     "text": "15 cm",
+     "added": false
+    },
+    {
+     "text": "10 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Sohan borrowed money at the rate of 20% per annum on compound interest, interest was compounding annually and he paid it in three equal instalments, each instalment was to be paid at the end of every year. If each instalment was for ₹1,250, then the money borrowed by Sohan was (nearest integral value):",
+   "options": [
+    {
+     "text": "₹2,633",
+     "added": false
+    },
+    {
+     "text": "₹2,466",
+     "added": false
+    },
+    {
+     "text": "₹4,660",
+     "added": false
+    },
+    {
+     "text": "₹4,860",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Rs. 80. The sum (in Rs.) is:",
+   "options": [
+    {
+     "text": "70,000",
+     "added": false
+    },
+    {
+     "text": "50,000",
+     "added": false
+    },
+    {
+     "text": "60,000",
+     "added": false
+    },
+    {
+     "text": "45,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "si-ci-difference",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The marked price of an article is 25% above its cost price. If it is sold for ₹450 with a profit of 6.4%, then the discount percent is closest to:",
+   "options": [
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "13%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "16%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "In an election between A and B, B secured 16,200 votes and defeated A by 8% of the total votes. If there are no invalid votes, what is the difference in votes between A and B?",
+   "options": [
+    {
+     "text": "2300",
+     "added": false
+    },
+    {
+     "text": "2500",
+     "added": false
+    },
+    {
+     "text": "2200",
+     "added": false
+    },
+    {
+     "text": "2400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The average of 7 natural numbers is 70. Among them six numbers are 32, 69, 72, 65, 79, 48. What is the seventh number?",
+   "options": [
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "135",
+     "added": false
+    },
+    {
+     "text": "125",
+     "added": false
+    },
+    {
+     "text": "130",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The area of a right-angled triangle is 42 cm2. If its perpendicular is equal to 10 cm, find the length of its base.",
+   "options": [
+    {
+     "text": "4.8 cm",
+     "added": false
+    },
+    {
+     "text": "4.2 cm",
+     "added": false
+    },
+    {
+     "text": "8.4 cm",
+     "added": false
+    },
+    {
+     "text": "8.0 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The fourth proportional to 3, 5, 9 is:",
+   "options": [
+    {
+     "text": "135",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A solid sphere is cut into two equal halves. What is the ratio of the total surface area of each hemisphere to that of the solid sphere?",
+   "options": [
+    {
+     "text": "2 ∶ 3",
+     "added": false
+    },
+    {
+     "text": "1 ∶ 2",
+     "added": false
+    },
+    {
+     "text": "3 ∶ 5",
+     "added": false
+    },
+    {
+     "text": "3 ∶ 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Find the mean proportional between 256 and 484.",
+   "options": [
+    {
+     "text": "360",
+     "added": false
+    },
+    {
+     "text": "323",
+     "added": false
+    },
+    {
+     "text": "352",
+     "added": false
+    },
+    {
+     "text": "552",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A car driver is driving car at a speed of 70 km/h and a bus is moving 35 metres ahead of him. After 15 seconds, the bus is 40 metres behind of him. Find the speed of the bus.",
+   "options": [
+    {
+     "text": "78 km/h",
+     "added": false
+    },
+    {
+     "text": "52 km/h",
+     "added": false
+    },
+    {
+     "text": "64 km/h",
+     "added": false
+    },
+    {
+     "text": "65 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A and B can complete a piece of work in 18 days and 12 days, respectively. They work on alternate days till the work gets completed. How long (in days) would it take A and B to complete the work, starting with A on the first day?",
+   "options": [
+    {
+     "text": "14.5 days",
+     "added": false
+    },
+    {
+     "text": "14 days",
+     "added": false
+    },
+    {
+     "text": "15 days",
+     "added": false
+    },
+    {
+     "text": "16 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "In an election contested by two parties, party A secured 16 percent of the total votes more than party B. If party B got 25200 votes and there are no invalid votes, by how many votes did party B lose the election?",
+   "options": [
+    {
+     "text": "9600",
+     "added": false
+    },
+    {
+     "text": "1800",
+     "added": false
+    },
+    {
+     "text": "5400",
+     "added": false
+    },
+    {
+     "text": "3600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Express 0.45 235 as a function.",
+   "options": [
+    {
+     "text": "1419 99900",
+     "added": false
+    },
+    {
+     "text": "14190 9990",
+     "added": false
+    },
+    {
+     "text": "1491 9990",
+     "added": false
+    },
+    {
+     "text": "4519 9990",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "fractions-decimals",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-slice": {
+   "n": 129,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 174,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

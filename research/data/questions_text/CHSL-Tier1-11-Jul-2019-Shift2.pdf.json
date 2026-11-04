@@ -1,0 +1,397 @@
+{
+ "paper": "CHSL-Tier1-11-Jul-2019-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The perimeter of A ABC is 24 cm and its side, BC = 9 cm. AD is the bisector of ZBAC, while Tis the incentre. AI : ID is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Aman loses 20% by selling an article for 96. For what amount should he have sold the article to gain 15%?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The given Bar Graph presents the sale of a particular brand of car by three showrooms, A, B and C (in multiples of 100) during the months Jan, Feb, Mar and Apr, 2016. : 6 6 3 5 55 ¥s 4s z 4 4 24 3 £ = 2 \" 33 = — « 3, ac 3 1 ° Janis Fes Mar-16 Apr-16 Months Tf the cars sold by A and B are all found to be in perfect order, but the cars sold by C were found to be defective to the extent of 15%, 10%, 8% and 6%, respectively in Jan, Feb, Mar and Apr 2016. What is the percentage of defective cars sold by all showrooms during Apr, 2016?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The difference between the compound interest and the simple interest on a sum at 10% p.a. for three years is 155. The sum (in 2) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-vs-si",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Aninlet pipe can fill a tank in 10 hours and an outlet pipe can empty the completely filled tank in 20 hours. Both the pipes are opened at 6.30 a.m. When will the tank get filled?",
+   "options": [
+    {
+     "text": "2.30 a.m. next day",
+     "added": false
+    },
+    {
+     "text": "2 a.m. next day",
+     "added": false
+    },
+    {
+     "text": "Lam. next day",
+     "added": false
+    },
+    {
+     "text": "12.00 midnight",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "two-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Addale4i7) ic Two chords, AB and CD of circle meet at a point O, outside the circle. It is given that AB = 7 cm, CD=4 cm, OB=5 cm. What is the length of OD?",
+   "options": [
+    {
+     "text": "Sem",
+     "added": false
+    },
+    {
+     "text": "6cm",
+     "added": false
+    },
+    {
+     "text": "7.5cem",
+     "added": false
+    },
+    {
+     "text": "10cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Forall x; s,(i = 1,2,3,...,20) lying between 0° and 90°, it is given that, COS K+ COS K+ COS Ky + +--+ COS X49= 20. What is the value of (cc, +06, +0634 +++... +059)?",
+   "options": [
+    {
+     "text": "900°",
+     "added": false
+    },
+    {
+     "text": "1800°",
+     "added": false
+    },
+    {
+     "text": "0°",
+     "added": false
+    },
+    {
+     "text": "20°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "A-square has been inscribed in a circle. What is the ratio of the length of a side of the square to the radius of the circle?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "polygons",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "9 = : 99 3f(1.25)(1 — 6.4.x 1075) = 1.2496 + a, then a is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The given Bar Graph presents the sale of a particular brand of car by three showrooms. A. B and C (in multiples of 100) during the months Jan, Feb, Mar and Apr, 2016. z 5 55 Bs 45 z 4 4 24 x é 3 3 “s g3 as on m4 2 wy =c ° Joris Feb-i6 Maris Apes Months What is the ratio of number of cars sold by A in Jan-Feb, 2016 to that of cars sold by B during Mar-Apr, 2016?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The volume of a right circular cone is equal to that of a sphere, whose radius is half the radius of the base of the cone. What is the ratio of the radius of the base to the height of the cone?",
+   "options": [
+    {
+     "text": "1:4",
+     "added": false
+    },
+    {
+     "text": "1:2",
+     "added": false
+    },
+    {
+     "text": "4:1",
+     "added": false
+    },
+    {
+     "text": "2:1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "tea +b + 4)fab +4(a + b)}—4ab = 0, anda + —4,b + —4, then, {45 - 22234 is equal to: , , - b Gabeayi Equa! to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The simplified value of 2 3 14 2 1 i : 2+ Pop x 12-(32-22)} is: 3 ‘ 5 3 2 6",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The given Bar Graph presents the sale of a particular brand of car by three showrooms. A, B and C (in multiples of 100) during the months Jan, Feb, Mar and Apr, 2016. 3 5 55 Bs 4s hi, 4 4 = s 3 3 A gs — jn . \" } | i : . 1 Jers Feb-16 Mar-16 Aprils Months ‘What was the average number of cars sold by A during Feb-Apr, 2016?",
+   "options": [
+    {
+     "text": "375",
+     "added": false
+    },
+    {
+     "text": "350",
+     "added": false
+    },
+    {
+     "text": "250",
+     "added": false
+    },
+    {
+     "text": "300",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "15 For 0° <6 <90°, tan@ +coté = 2.6 is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The given Bar Graph presents the sale of a particular brand of car by three showrooms, A, B and C (in multiples of 100) during the months Jan, Feb, Mar and Apr, 2016. 4 6 6 q. 5 55 ! | | | 24 | 3 s 3 3 mA 33 a ¢ 2 S2 =c ; | 1 ° Janis Febt6 Mar-16 doris Months If the cars sold by A and B are all found to be in perfect order, but the cars sold by C were found to be defective to the extent of 15%, 10%, 8% and 6%, respectively in Jan, Feb, Mar and Apr 2016, then what is the ratio of non-defective cars sold by C to that of all cars sold by A and B during Jan-Mar 2016?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "“ 1 ‘ Given, a += = 2, what is the value of a 1 118 2 (a* +5)",
+   "options": [
+    {
+     "text": "118",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "117",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Fora number, greater than one, the difference between itself and its reciprocal is 20% of the sum of itself and its reciprocal. By how much percentage (nearest to an integer) is the square of the number less than its cube?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "ABCD is a rhombus with each side being equal to 8 cm. If BD = 10 cm, AC = 2Vx cm, what is the value of ¥x + 10?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "What is the ratio between the fourth proportional of 3, 4, 9 and the mean proportional between 2 and 98?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The 10-digit number 79x00001y6 is exactly divisible by 88. What is the value of (x + y)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The average of a series of 21 numbers is equal to 43. The average of the first eleven of them is 33. The average of the last eleven numbers is 53. The eleventh number of the series is:",
+   "options": [
+    {
+     "text": "43",
+     "added": false
+    },
+    {
+     "text": "47",
+     "added": false
+    },
+    {
+     "text": "33",
+     "added": false
+    },
+    {
+     "text": "46",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "A shopkeeper decides to raise the marked price of an article by 10%. How much discount should he allow so as to be able to sell the article at the original marked price?",
+   "options": [
+    {
+     "text": "9—% o' 5- af",
+     "added": false
+    },
+    {
+     "text": "8=% 9 af",
+     "added": false
+    },
+    {
+     "text": "9=% 2",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "9.24 What is the simplified value of sin? 31°+sin?59° Ceecenastanla + tan29° cot 61° — cosec?61°) ? ec? 35°—cot?55°",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "A train goes from P to Q with a speed u knw/h, then from Q to R (QR = 2PQ) with a speed 3u knv/h, and returns from R to P with a speed = km/h. What is the average speed (in km/h) of the train for the entire journey starting from P and back to P?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  }
+ ]
+}

@@ -1,0 +1,648 @@
+{
+ "paper": "2023-Tier1-18-Jul-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qt diat+igbt+17c* Ifa? +b? +c? = ab + be + ac, then the value of ———_— is: 17 a*b? + 9b7c? + 15 c7a?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Dand E are points on the sides AB and AC. respectively, of AABC such that DE is parallel to BC and AD : DB=7: 9. If CD and BE intersect each other at F, then find the ratio of areas of ADEF and ACBF.",
+   "options": [
+    {
+     "text": "49: 144",
+     "added": false
+    },
+    {
+     "text": "49: 81",
+     "added": false
+    },
+    {
+     "text": "49: 256",
+     "added": false
+    },
+    {
+     "text": "256 : 49",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": ". Aand B are equally efficient, and each could individually complete a piece of work in 30 days, if none took any holiday. A and B started working together on this piece of work, but A took a day off after every four days of work, while B took a day off after every five days of work. If the duo had started work on 01 August 2022, on which date was the work completed?",
+   "options": [
+    {
+     "text": "19 August 2022",
+     "added": false
+    },
+    {
+     "text": "17 August 2022",
+     "added": false
+    },
+    {
+     "text": "16 August 2022",
+     "added": false
+    },
+    {
+     "text": "18 August 2022",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "prepp.in re 1D fed Q.4 Aconical tent with radius 6 units and height 8 units is to be made by canvas. How Your Personal Exams Buide much canvas is needed to make the tent? (Rounded off to two places of decimals)",
+   "options": [
+    {
+     "text": "188.57 units",
+     "added": false
+    },
+    {
+     "text": "155.87 units",
+     "added": false
+    },
+    {
+     "text": "166.57 units",
+     "added": false
+    },
+    {
+     "text": "177.55 units",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The smallest number added to 888 so that it is exactly divisible by 35 is:",
+   "options": [
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "23",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The square of the difference between two given natural numbers is 324, while the product of these two given numbers is 144. Find the positive difference between the squares of these two given numbers.",
+   "options": [
+    {
+     "text": "630",
+     "added": false
+    },
+    {
+     "text": "540",
+     "added": false
+    },
+    {
+     "text": "450",
+     "added": false
+    },
+    {
+     "text": "360",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Aalone can finish a work in 15 days. A works only for the first two days and last two days. The rest work is done by B and the work is completed in 20 days. In how many days A and B together can finish the work?",
+   "options": [
+    {
+     "text": "— 8 80",
+     "added": false
+    },
+    {
+     "text": "— 7 80",
+     "added": false
+    },
+    {
+     "text": "x 70",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "prepp.in re 1D fed Qs The value of Your Personal Exams ide 51 +{25+ (25 of 12+30) — (5* +5 of 125)} is:",
+   "options": [
+    {
+     "text": "cS 3 Ya 3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "es 3 3",
+     "added": false
+    },
+    {
+     "text": "—=— 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "ifsin(Sx — 25°) = cos(Sy + 25°), where 5x — 25° and 5y + 25° are acute angles,then the value of (x + y)is:",
+   "options": [
+    {
+     "text": "50°",
+     "added": false
+    },
+    {
+     "text": "40°",
+     "added": false
+    },
+    {
+     "text": "18°",
+     "added": false
+    },
+    {
+     "text": "16°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Aand B can finish a work in 10 days, B and C can finish it in 12 days and C and Acan finish in 6 days. In how many days A alone can finish the work?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "prepp.in re eje Q.11 4 toffee company prepares toffee of two different flavours X and Y. The Your Personall Exams Buide production of two flavours over a period of 4 years is expressed in the bar graph given below. Production of two different toffee flavours by a company over different years (in 4000 packs) What is the difference between the average production of flavour X in 2017 and 2018 and the average production of flavour Y in 2019 and 2020.",
+   "options": [
+    {
+     "text": "6000 packs",
+     "added": false
+    },
+    {
+     "text": "6400 packs",
+     "added": false
+    },
+    {
+     "text": "7500 packs",
+     "added": false
+    },
+    {
+     "text": "7000 packs",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "According to Raghav, his weight is more than 64 kg but less than 74 kg. His sister does not agree with Raghav and she thinks that his weight is more than 60 kg but less than 69 kg. His mother's view is that his weight cannot be more than 68 kg. His father's view is that his weight cannot be more than 67 kg. If all are them are correct in their estimation, then what is the average of different probable weights of Raghav measured (in kg)?",
+   "options": [
+    {
+     "text": "66",
+     "added": false
+    },
+    {
+     "text": "67",
+     "added": false
+    },
+    {
+     "text": "68",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The marked price of a ceiling fan is 4,200 and the shopkeeper allows a discount of 5% on it. If his profit is 14%, then the cost price of the fan is:",
+   "options": [
+    {
+     "text": "3,200",
+     "added": false
+    },
+    {
+     "text": "3,800",
+     "added": false
+    },
+    {
+     "text": "%3,000",
+     "added": false
+    },
+    {
+     "text": "3,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "prepp.in re 1D fed Q.14 Which of the following is a FALSE statement? Your Personal Exams Buide",
+   "options": [
+    {
+     "text": "-sec*A",
+     "added": false
+    },
+    {
+     "text": "sinA=tanAxcosA",
+     "added": false
+    },
+    {
+     "text": "cosec?A- 1 =cot2A",
+     "added": false
+    },
+    {
+     "text": "cosAx secA=1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If in AXYZ, XY = 4 and XZ = 5 cm, and Q is a point on YZ such that XQ bisects 2X, then YQ: QZ is:",
+   "options": [
+    {
+     "text": "2:3",
+     "added": false
+    },
+    {
+     "text": "3:2",
+     "added": false
+    },
+    {
+     "text": "5:4",
+     "added": false
+    },
+    {
+     "text": "4:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A train traveling at 70 km/h crosses another train traveling in the same direction at 34 km/h in 25 seconds. What is the combined length of both the trains (in metres)?",
+   "options": [
+    {
+     "text": "225",
+     "added": false
+    },
+    {
+     "text": "250",
+     "added": false
+    },
+    {
+     "text": "325",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "trains",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Ina constituency, 85% of the total number of people on the electoral roll cast their votes during an election. 10% of the votes cast were declared invalid. If there were 3,00,000 people on the electoral roll, and Dharam secured 1,37,700 valid votes, what percentage of the total number of valid votes did Dharam secure?",
+   "options": [
+    {
+     "text": "50.5%",
+     "added": false
+    },
+    {
+     "text": "70.2%",
+     "added": false
+    },
+    {
+     "text": "45.9%",
+     "added": false
+    },
+    {
+     "text": "60.0%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "prepp.in re 1D fed Q.18 Find the value of the following expression. Your Personal Exams Buide 12 (sin* 6+cos* 6)+18 (sin® 6+cos® @)+ 78sin? 6 cos? @",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "APQR is an equilateral triangle inscribed in a circle. S is any point on the arc QR. Find the measure of ZPSQ.",
+   "options": [
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "90°",
+     "added": false
+    },
+    {
+     "text": "45°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The given table shows the percentage of marks obtained by five students in five different subjects in a school. English Science Mathematics Hindi Computer (100) (150) (100) (100) (100) pains for fro ess a ao je (2 APS NOs [TX a a What is Hitansh’s overall percentage (rounded up to 2 decimal places) in the examination?",
+   "options": [
+    {
+     "text": "66.55%",
+     "added": false
+    },
+    {
+     "text": "64.89%",
+     "added": false
+    },
+    {
+     "text": "65.31%",
+     "added": false
+    },
+    {
+     "text": "75.11%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "prepp.in re 1D fed Q.21 Ina 1500 m race, X beats Y by 100 m and X beats Z by 240 m. By what distance does Y Your Personal Exams Buide beat Z in the same race?",
+   "options": [
+    {
+     "text": "160m",
+     "added": false
+    },
+    {
+     "text": "140m",
+     "added": false
+    },
+    {
+     "text": "150 m",
+     "added": false
+    },
+    {
+     "text": "200m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "races",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "If the cost of 120m of cloth is 9,600, then what will be the cost of 147 m of that cloth?",
+   "options": [
+    {
+     "text": "216,170",
+     "added": false
+    },
+    {
+     "text": "%11,670",
+     "added": false
+    },
+    {
+     "text": "%11,760",
+     "added": false
+    },
+    {
+     "text": "%17,160",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "1 : 1 If (x+ 2) = 5, and x > 1, what is the value of (x8 — 3)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "In how many years will a sum of 79,500 amount to 711,780 at the rate of 8% per annum at simple interest?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "prepp.in re e)]e Q.25 By selling a watch for 2,000, a shopkeeper loses 20%. How much would he gain or Your Personal Exams Buide lose by selling it for 3,000?",
+   "options": [
+    {
+     "text": "20% gain",
+     "added": false
+    },
+    {
+     "text": "25% gain",
+     "added": false
+    },
+    {
+     "text": "15% loss",
+     "added": false
+    },
+    {
+     "text": "25% loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  }
+ ]
+}

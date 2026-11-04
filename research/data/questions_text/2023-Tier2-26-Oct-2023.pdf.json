@@ -1,0 +1,795 @@
+{
+ "paper": "2023-Tier2-26-Oct-2023.pdf",
+ "status": "ok",
+ "tagged_count": 30,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The average of 25, 46 and ‘y’ is 11. What is the value of ‘y’?",
+   "options": [
+    {
+     "text": "-38",
+     "added": false
+    },
+    {
+     "text": "-34",
+     "added": false
+    },
+    {
+     "text": "-36",
+     "added": false
+    },
+    {
+     "text": "-37",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Option 1 ID : 264330671036 Option 2 ID : 264330671038 Option 3 ID : 264330671037 Option 4 ID : 264330671035 Q.2 From the top ofa tower, the angle of depression of the top of a 10 m high building is 60°. If the distance between the tower and the building is 503 m, find the height of the tower.",
+   "options": [
+    {
+     "text": "150m",
+     "added": false
+    },
+    {
+     "text": "100m",
+     "added": false
+    },
+    {
+     "text": "160m",
+     "added": false
+    },
+    {
+     "text": "140m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Option 1 ID : 264330676981 Option 2 ID : 264330676979 Option 3 ID : 264330676982 Option 4 ID : 264330676980 Q.3 A merchant fixes the sale price of his goods at 42% above the cost price. He sells his goods at a 15% discount marked price. His percentage of profit (rounded off to the nearest integer) is:",
+   "options": [
+    {
+     "text": "21%",
+     "added": false
+    },
+    {
+     "text": "42%",
+     "added": false
+    },
+    {
+     "text": "35%",
+     "added": false
+    },
+    {
+     "text": "27%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Option 1 ID : 264330651304 Option 2 ID : 264330651303 Option 3 ID : 264330651306 Option 4 ID : 264330651305 Q.4 Aset of data presented in the form of a frequency distribution table with class intervals and their respective frequencies had a mode of 48.5. The lower boundary of the modal class was 46.5; the frequency of the modal class was 34; the frequency of the class interval just preceding the modal class was 32 and the frequency of the class interval just succeeding the modal class was 25. What was the width of the modal class?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "10.5",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Option 1 ID : 264330671182 Option 2 ID : 264330671180 Option 3 ID : 264330671181 Option 4 ID : 264330671179 Q.5 An equilateral triangle ABC surmounts a square BCDE. The value of ZEAB + 32AEB is:",
+   "options": [
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    },
+    {
+     "text": "280°",
+     "added": false
+    },
+    {
+     "text": "240°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Option 1 ID : 264330681358 Option 2 ID : 264330681357 Option 3 ID : 264330681355 Option 4 ID : 264330681356 Q.6 The marks obtained by 15 students out of a maximum of 25 in a test are given as 13, 11, 16, 15, 18, 12, 13, 14, 10, 22, 15, 21, 20, 17 and 24. Find the product of the modes of this set of data.",
+   "options": [
+    {
+     "text": "192",
+     "added": false
+    },
+    {
+     "text": "210",
+     "added": false
+    },
+    {
+     "text": "182",
+     "added": false
+    },
+    {
+     "text": "195",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Option 1 ID : 264330671171 Option 2 ID : 264330671174 Option 3 ID : 264330671172 Option 4 ID : 264330671173 Q.7 Two friends A and B started a business by investing %1,50,000 and €2,50,000, respectively. They agreed to distribute their earnings in the same ratio of their investments. After an year, the profit earned was %6,00,000. Each of them added %50,000 to their respective profits and invested in a different project. If this project gave an yield of %4,20,000, then A’s share in the profit is:",
+   "options": [
+    {
+     "text": "%2,35,000",
+     "added": false
+    },
+    {
+     "text": "2%1,65,000",
+     "added": false
+    },
+    {
+     "text": "%1,97,000",
+     "added": false
+    },
+    {
+     "text": "%1,84,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Option 1 ID : 264330673475 Option 2 ID : 264330673478 Option 3 ID : 264330673476 Option 4 ID : 264330673477 Q.8 The ratio of the length, width and height of a closed cuboid is given as 6 : 3: 2. The total surface area of this cuboid is given as 1800 cm?. Find the volume (in cm’) of this cuboid.",
+   "options": [
+    {
+     "text": "4650",
+     "added": false
+    },
+    {
+     "text": "4800",
+     "added": false
+    },
+    {
+     "text": "4500",
+     "added": false
+    },
+    {
+     "text": "4200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Option 1 ID : 264330671221 Option 2 ID : 264330671222 Option 3 ID : 264330671220 Option 4 ID : 264330671219 Q.9 B purchased 15 kg apples at the rate of 180 per kg from a wholesaler who uses a weight of 950 grams for the kg weight. B sold all these apples at 7180 per kg but used a weight of 750 grams for the kg weight. Find the percentage profit earned by B in the transaction (correct to 2 places of decimal).",
+   "options": [
+    {
+     "text": "22.55%",
+     "added": false
+    },
+    {
+     "text": "25.75%",
+     "added": false
+    },
+    {
+     "text": "33.33%",
+     "added": false
+    },
+    {
+     "text": "26.67%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Option 1 ID : 264330674058 Option 2 ID : 264330674057 Option 3 ID : 264330674055 Option 4 ID : 264330674056 Q.10 5 71.5) 23 a1 . If P(AUB)= . P(AUB)= po P(A) = i? then the odds against the event B are:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Option 1 ID : 264330675959 Option 2 ID : 264330675961 Option 3 ID : 264330675962 Option 4 ID : 264330675960 Q.11 The average weight of the first thirteen persons among fourteen persons is 78 kg. The weight of the 14th person is 39 kg more than the average weight of all the fourteen persons. Find the weight of the 14th person.",
+   "options": [
+    {
+     "text": "118kg",
+     "added": false
+    },
+    {
+     "text": "98kg",
+     "added": false
+    },
+    {
+     "text": "110kg",
+     "added": false
+    },
+    {
+     "text": "120 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Option 1 ID : 264330643589 Option 2 ID : 264330643587 Option 3 ID : 264330643588 Option 4 ID : 264330643590 Q.12 What is the single discount equivalent to the successive discounts of 20%, 35%, and 10%?",
+   "options": [
+    {
+     "text": "53.2%",
+     "added": false
+    },
+    {
+     "text": "65.4%",
+     "added": false
+    },
+    {
+     "text": "48.7%",
+     "added": false
+    },
+    {
+     "text": "42.3%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Option 1 ID : 264330643457 Option 2 ID : 264330643455 Option 3 ID : 264330643456 Option 4 ID : 264330643458 Q.13 Three cards are drawn one after another with replacement from a pack of cards. What is the probability of getting first card a Jack, second card a black card, and third card an even numbered card?",
+   "options": [
+    {
+     "text": "=—= v 338",
+     "added": false
+    },
+    {
+     "text": "0 XK 2. ——",
+     "added": false
+    },
+    {
+     "text": "38 x32 26 5",
+     "added": false
+    },
+    {
+     "text": "— x 169",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Probability",
+   "sub": "combined-events",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Option 1 ID : 264330675787 Option 2 ID : 264330675790 Option 3 ID : 264330675789 Option 4 ID : 264330675788 Q.14 Ata certain time in a park, the number of heads and the number of legs of monkeys and human visitors were counted, and it was found that there were 54 heads and 148 legs. Find the number of monkeys in the park.",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Option 1 ID : 264330643666 Option 2 ID : 264330643664 Option 3 ID : 264330643665 Option 4 ID : 264330643663 Q.15 Vipin travels one-third of the distance of a journey at a speed of 30 km/h and the remaining distance at a speed of 40 km/h. If he took a total of 12 hours to complete the journey, what was the total distance (in km) of the journey?",
+   "options": [
+    {
+     "text": "432",
+     "added": false
+    },
+    {
+     "text": "450",
+     "added": false
+    },
+    {
+     "text": "445",
+     "added": false
+    },
+    {
+     "text": "412",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Option 1 ID : 264330674069 Option 2 ID : 264330674067 Option 3 ID : 264330674068 Option 4 ID : 264330674070 Q.16 80 litres of a mixture of spirit and water in the ratio 7 : 9 is present in a container A. 20 litres of the mixture is transferred to another container B. Then the container A is filled with 20 litres of water. Then 32 litres of the mixture is again transferred to container B. The ratio of water to spirit of the mixture in container B is equal to:",
+   "options": [
+    {
+     "text": "41:87",
+     "added": false
+    },
+    {
+     "text": "87:41",
+     "added": false
+    },
+    {
+     "text": "131:77",
+     "added": false
+    },
+    {
+     "text": "77: 131",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Option 1 ID : 264330675924 Option 2 ID : 264330675923 Option 3 ID : 264330675926 Option 4 ID : 264330675925 Q.17 Asolid cube, whose each edge is of length 48 cm, is melted. Identical solid cubes, each of volume 64 cm’, are made out of this molten cube, without any wastage. How many such small cubes are obtained?",
+   "options": [
+    {
+     "text": "1728",
+     "added": false
+    },
+    {
+     "text": "1718",
+     "added": false
+    },
+    {
+     "text": "1748",
+     "added": false
+    },
+    {
+     "text": "1738",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Option 1 ID : 264330671210 Option 2 ID : 264330671207 Option 3 ID : 264330671208 Option 4 ID : 264330671209 Q.18 : 1 1 36, 24 12. 14 , 24 27 What is the value of [+ ( x @+=)-(€ x hae) a Hl ? oe 8 45 25 1 15) «45 36",
+   "options": [
+    {
+     "text": "i x 36 1",
+     "added": false
+    },
+    {
+     "text": "— v 72 1",
+     "added": false
+    },
+    {
+     "text": "— x 108 1",
+     "added": false
+    },
+    {
+     "text": "— x 27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Option 1 ID : 264330676992 Option 2 ID : 264330676991 Option 3 ID : 264330676994 Option 4 ID : 264330676993 Q.19 Two pillars of equal height stand on either side of a roadway which is 150 m wide. At a point in the road between pillars, the elevations of the pillars are x° and y® so that tanx’ = z, tany’ = : , then the height of each pillar is:",
+   "options": [
+    {
+     "text": "39m",
+     "added": false
+    },
+    {
+     "text": "36m",
+     "added": false
+    },
+    {
+     "text": "42m",
+     "added": false
+    },
+    {
+     "text": "33m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Option 1 ID : 264330673521 Option 2 ID : 264330673519 Option 3 ID : 264330673522 Option 4 ID : 264330673520 Q.20 The cost of 2 pencils and 3 pens is %55 and the cost of 7 pencils and 2 pens is %65. What is the total price (in %) of one pen and one pencil?",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Option 1 ID : 264330642869 Option 2 ID : 264330642868 Option 3 ID : 264330642870 Option 4 ID : 264330642867 Q.21 IfP:Q=3:4andQ:R=4:7, then find the value of (P + Q) : (Q+R):(R+P).",
+   "options": [
+    {
+     "text": "11:4:7",
+     "added": false
+    },
+    {
+     "text": "10:3:11",
+     "added": false
+    },
+    {
+     "text": "3:4:7",
+     "added": false
+    },
+    {
+     "text": "7:11:10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Option 1 ID : 264330643609 Option 2 ID : 264330643610 Option 3 ID : 264330643607 Option 4 ID : 264330643608 Q.22 Asix-digit number 11p9q4 is divisible by 24. Then the greatest possible value for pq is:",
+   "options": [
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "68",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Option 1 ID : 264330675916 Option 2 ID : 264330675918 Option 3 ID : 264330675917 Option 4 ID : 264330675915 Q.23 The compound interest on %10,000 at 20% per annum is %4,641. If the compounding is done half-yearly, then for how many years was the sum invested?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Option 1 ID : 264330642840 Option 2 ID : 264330642842 Option 3 ID : 264330642841 Option 4 ID : 264330642839 Q.24 Hari, Kamal and Lalit contested an election in which 6050 votes were polled and none of the votes were invalid. Kamal got 42% more votes than the total votes obtained by Hari and Lalit together. If Lalit obtained only 8% of the total polled votes, find the number of votes obtained by Hari.",
+   "options": [
+    {
+     "text": "2016",
+     "added": false
+    },
+    {
+     "text": "1668",
+     "added": false
+    },
+    {
+     "text": "1912",
+     "added": false
+    },
+    {
+     "text": "1556",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Option 1 ID : 264330674050 Option 2 ID : 264330674048 Option 3 ID : 264330674049 Option 4 ID : 264330674047 Q.25 Aand B can complete a job together in 12.5 days; B and C can complete the same job together in 18.75 days, while C and A can complete the same job together in 15 days. In how many days will A, B and C together be able to complete the same job alongside D, who is only 40% as efficient as C?",
+   "options": [
+    {
+     "text": "x1. 9- 3",
+     "added": false
+    },
+    {
+     "text": "2. 9=",
+     "added": false
+    },
+    {
+     "text": "7 3. 9— v 27 17",
+     "added": false
+    },
+    {
+     "text": "9— 27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 26,
+   "text": "Option 1 ID : 264330671154 Option 2 ID : 264330671151 Option 3 ID : 264330671153 Option 4 ID : 264330671152 Q.26 The average age of A, B and C is 20 years. Two years ago the sum of the ages of A and B was 6 more than that of C. Find the present age of C.",
+   "options": [
+    {
+     "text": "25 years",
+     "added": false
+    },
+    {
+     "text": "29 years",
+     "added": false
+    },
+    {
+     "text": "28 years",
+     "added": false
+    },
+    {
+     "text": "26 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 27,
+   "text": "Option 1 ID : 264330674087 Option 2 ID : 264330674090 Option 3 ID : 264330674089 Option 4 ID : 264330674088 Q.27 Find the value of v1.24 x v2.79 v2.64 x V5.94",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 28,
+   "text": "Option 1 ID : 264330678401 Option 2 ID : 264330678400 Option 3 ID : 264330678402 Option 4 ID : 264330678399 0.28 587-257 267-15? 1 20. 1fA = —.—,, B = = — then the value of = — = is: 46°-37 56°-15 B A",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "-1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 29,
+   "text": "Option 1 ID : 264330674362 Option 2 ID : 264330674361 Option 3 ID : 264330674359 Option 4 ID : 264330674360 Q.29 The simple interest earned on 22,800 at a rate of 10% per annum for 3 years is x and %1,736 is the simple interest earned on %6,200 at a rate of 14% for y years, then the value of x/y is:",
+   "options": [
+    {
+     "text": "140",
+     "added": false
+    },
+    {
+     "text": "380",
+     "added": false
+    },
+    {
+     "text": "550",
+     "added": false
+    },
+    {
+     "text": "420",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 30,
+   "text": "Option 1 ID : 264330673480 Option 2 ID : 264330673482 Option 3 ID : 264330673479 Option 4 ID : 264330673481 Q.30 One chord of a circle is given as 20.5 cm. Then the radius (r) of the circle must be:",
+   "options": [
+    {
+     "text": "r=10cm",
+     "added": false
+    },
+    {
+     "text": "1< 10.25",
+     "added": false
+    },
+    {
+     "text": "1> 10.25",
+     "added": false
+    },
+    {
+     "text": "62 10.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 150,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 465,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

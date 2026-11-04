@@ -1,0 +1,203 @@
+{
+ "paper": "RRB-ALP-CBT2-PartA-23-Jan-2019-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 30,
+ "questions": [
+  {
+   "n": 2,
+   "text": "The given bar graph shows the number of employees in each department for the years 2015 and 2018. The company added 80 new employees and fired some employees between the years 2015 and 2018. All the employees who were fired were from department C. If the employees of department C had NOT been fired, then the employee strength of department C in 2018 would have been greater by P are se | i F | | | | 1 il 1",
+   "options": [
+    {
+     "text": "12.5%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "17.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "12.5%"
+  },
+  {
+   "n": 3,
+   "text": "Two numbers are 10% and 20% less than a third number. By what percentage should the second number be increased to 3 make it equal to the first number?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": "12.5%"
+  },
+  {
+   "n": 8,
+   "text": "The ratio of the present ages of Leela and her mother is 3:8. The mother was 25 years old when Leela was born. Find 5 the mother’s present age (in years).",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": "40"
+  },
+  {
+   "n": 9,
+   "text": "a2 If a vendor sells a coconut at %32, he incurs a 20% loss. What is the cost price of the coconut?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "₹40"
+  },
+  {
+   "n": 10,
+   "text": "A alone can paint a wall in 50 days and B alone can do it in 10 days. If A, B and C together can paint the wall in 6.25 0 days, then in how many days can C alone paint the wall?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "25"
+  },
+  {
+   "n": 12,
+   "text": "Lis thrice as good a workman as M, and together, they finish a task in 12 days. In how many days will L alone finish 5 the same task?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": "16"
+  },
+  {
+   "n": 13,
+   "text": "Pie chart 1 shows the share of the four partners (A, B. C and D) in Company XYZ in the year 2017. In 2018, a fifth 6 _ partner, E, was added by issuing 5000 shares to E (pie chart 2). The company has issued shares more in 2018 than those in 2017.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "25%"
+  },
+  {
+   "n": 15,
+   "text": "aa Find the slope of the line joining the points (3.—4) and (5,2).",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "slope-and-line",
+   "key_answer": "3"
+  },
+  {
+   "n": 17,
+   "text": "4 Find the least common multiple of 56 and 50.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "1400"
+  },
+  {
+   "n": 18,
+   "text": "5 Find the third proportional to 24 and 60.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": "150"
+  },
+  {
+   "n": 22,
+   "text": "as The total surface area of a cuboid is 236 cm”. Its length is 8 cm and height is 6 cm. Find its breadth (in cm). X24 X37",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "5"
+  },
+  {
+   "n": 23,
+   "text": "Two cabs A and B start from town C for town D. If the distance between the two towns is 540 km and the slower taxi 0 travelling at an average speed of 90 kin/hr takes an hour more than the faster taxi, then find the speed (in km/hr) of the faster taxi.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "108"
+  },
+  {
+   "n": 26,
+   "text": "A vendor buys a certain number of bananas at 8 pieces for “5 and sells them at 5 pieces for '8. What will be his 7 percentage profit?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": "156%"
+  },
+  {
+   "n": 27,
+   "text": "3 Find the missing number in the given series. 2:7, 2A, “ES, 09, 0.3;",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Sequences and Series",
+   "sub": "missing-term",
+   "key_answer": "0.3"
+  },
+  {
+   "n": 29,
+   "text": "A train running at a speed of 64 km/h takes 50 min to travel a certain distance. By how much should it increase its speed 6 (in km/h) to travel the same distance in 40 min?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "16"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 175,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 536,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

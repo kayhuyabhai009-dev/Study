@@ -1,0 +1,448 @@
+{
+ "paper": "CHSL-Tier1-20-Oct-2020-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The given pie-chart represents the percentage of students enrolled in five different sports. The total number of students is 2800. 12% | 26% If 24 students playing cricket are shifted to Kabaddi, then find the new ratio of the number of students in Cricket to those in Kabaddi.",
+   "options": [
+    {
+     "text": "31:18",
+     "added": false
+    },
+    {
+     "text": "30:17",
+     "added": false
+    },
+    {
+     "text": "31:16",
+     "added": false
+    },
+    {
+     "text": "30:13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Malti bought a TV for 78,800 including GST at 10%. What is the original cost of the TV?",
+   "options": [
+    {
+     "text": "8,800",
+     "added": false
+    },
+    {
+     "text": "38,000",
+     "added": false
+    },
+    {
+     "text": "27,920",
+     "added": false
+    },
+    {
+     "text": "29,600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "3 . 93 Tex? +y3 =16 and x+y =4, then the value of x* + y* is:",
+   "options": [
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "4f 5,1 2 ye ee If-(x? +—)= 110-, find-(x? ——)}, where x > 0. 3 xe 3 9 foe",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Aisa point at a distance 26 cm from the centre O of a circle of radius 10 cm. AP and AQ are the tangents to the circle at the point of contacts P and Q. If a tangent BC is drawn at a point R lying on the minor are PQ to intersect AP at B and AQat C, then the perimeter of AABC is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Evaluate: [7+ 7x (7+7+7)]+7+7.",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "63",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "ABC and BDE are two equilateral triangles such that D is the mid-point of BC. If the area of triangle ABC is 136 cm?, then the area of triangle BDE is equal to: “5 XK 1. 36 cm? X% 2 38 cm? % 2 24cm? V4 34cm?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "28 Tf Cos 36 = Sin (6 -34°), then the value of 6 as an acute angle is:",
+   "options": [
+    {
+     "text": "56°",
+     "added": false
+    },
+    {
+     "text": "17°",
+     "added": false
+    },
+    {
+     "text": "1°",
+     "added": false
+    },
+    {
+     "text": "34°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Rahul and Mithun travel a distance of 30 km. The sum of their speeds is 70 kuv/h and the total time taken by both to travel the distance is 2 hours 6 minutes. The difference between their speeds is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Study the given bar chart and answer the question that follows. Production of Fertilizers by a Company (in 10,000 tonnes) Over the Years 90 ~ 80 3 80 75 £70 | 77 65 g 60 8 1) Ss 50 45 e 40 = 40 5 304 25 H 20 = 10 0 1995 1996 1997 1998 1999 2000 2001 2002 Years What was the approximate percentage increase in the production of fertilizers from 1998 to 1999?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Qt e 4sin?@-Scos@ . If V3 cos@ = sin@, then the value of ————— is: 3cos@+1",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Inan isosceles triangle ABC with AB = AC and AD is perpendicular to BC, if AD = 6 cm and the perimeter of AABC is 36 cm, then the area of AABC is:",
+   "options": [
+    {
+     "text": "54cm?",
+     "added": false
+    },
+    {
+     "text": "64 cm?",
+     "added": false
+    },
+    {
+     "text": "45 cm?",
+     "added": false
+    },
+    {
+     "text": "8cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "An article was sold at a loss of 12%. If it was sold for $630 more, then there would have been a gain of 6%. Find the cost price of the article.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The given pie-chart represents the percentage of students enrolled in five different sports. The total number of students is 2800. 25% 12% 26% ‘What is the average number of students enrolled in Hockey and Tennis together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Ifthe difference between the compound interest and simple interest on a certain sum of money for three years at 10% p.a. is €558, then the sum is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "si-ci-difference",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The salaries of Vipin and Dinesh are in the ratio 5 : 8. If the salary of each is increased by 4,800, then new ratio becomes 7 : 10. What is Vipin’s salary?",
+   "options": [
+    {
+     "text": "713,000",
+     "added": false
+    },
+    {
+     "text": "712,000",
+     "added": false
+    },
+    {
+     "text": "%12,500",
+     "added": false
+    },
+    {
+     "text": "710,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "1 15 1 If p+—=112 find (p — 112) age p p",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If 4M37094267N is divisible by both 8 and 11, where M and N are single digit integers, then the values of M and N are:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The average of nine 2 digit numbers is decreased by 6 when the digits of one of the 2 digit numbers is interchanged. Find the difference between the digits of that number.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Study the given and answer the question that follows. Production of Fertilizers by a Company (in 10,000 tonnes) Over the Years 90 a 80 Z 80 75 5 70 65 2 60 ~ 8 50 gs 50 45 - 40 = 40 3 301-25 2 2 e = 10 t) 1995 1996 1997 1998 1999 2000 2001 2002 Years The average production in 2000 and 2001 was less than the average production of which of the following pairs of years ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The difference of two positive numbers is 1020. If 7.6% of the greater number is 12.4% of the smaller number, then the sum of the two numbers is equal to:",
+   "options": [
+    {
+     "text": "3250",
+     "added": false
+    },
+    {
+     "text": "4520",
+     "added": false
+    },
+    {
+     "text": "3520",
+     "added": false
+    },
+    {
+     "text": "250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "ABC is a right angled triangle, right angled at A. A circle is inscribed in it. The lengths of two sides containing the right angle are 48 cm and 14 cm. The radius of the inscribed circle is:",
+   "options": [
+    {
+     "text": "4cem",
+     "added": false
+    },
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "6cm",
+     "added": false
+    },
+    {
+     "text": "5cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "If3.96 cubic dm of lead is to be drawn in to a cylindrical wire of diameter 0.6 cm, then the length of the wire (in metres), is:",
+   "options": [
+    {
+     "text": "40m",
+     "added": false
+    },
+    {
+     "text": "120m",
+     "added": false
+    },
+    {
+     "text": "130m",
+     "added": false
+    },
+    {
+     "text": "125m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "If xsin?@ + ycos?@ = sin@ cos@ and x sin@ = ycos@, then the value of x? + y? is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "AandB together can complete a piece of work in 15 days. B and C together can do it in 24 days. IFA is twice as good a workman as C, then in how many days can B alone complete the work?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  }
+ ]
+}

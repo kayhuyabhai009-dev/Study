@@ -1,0 +1,153 @@
+{
+ "paper": "RRB-ALP-CBT2-PartA-23-Jan-2019-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 24,
+ "questions": [
+  {
+   "n": 7,
+   "text": "as What is the curved surface area of a hemisphere whose radius is 7 cm? (take a = 22/7)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": "308 cm²"
+  },
+  {
+   "n": 9,
+   "text": "a3 4 i Bae 5 5 What is the unit’s digit in 3 x 64! x 753",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "unit-digit",
+   "key_answer": "8"
+  },
+  {
+   "n": 10,
+   "text": "Tap M and N can together fill a cistern in 48/13 minutes. N alone can fill it in 6 minutes. How much time will M alone take 1 to fill the cistern?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": "9.6 minutes"
+  },
+  {
+   "n": 12,
+   "text": "A and B can do a work in 15 days, B and C can do the work in 20 days and A and C can do the work in 10 days. In how Q many days will they together complete the work?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "9.23 days"
+  },
+  {
+   "n": 16,
+   "text": "ar What is the least number which when doubled is perfectly divisible by 7, 12 and 15?",
+   "options": [
+    {
+     "text": "214",
+     "added": false
+    },
+    {
+     "text": "215",
+     "added": false
+    },
+    {
+     "text": "220",
+     "added": false
+    },
+    {
+     "text": "210",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "210"
+  },
+  {
+   "n": 17,
+   "text": "aa Generation of light in LED is based on which principle?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "1"
+  },
+  {
+   "n": 18,
+   "text": "Find the time (in seconds) taken by the motorcycle to cover this distance. 5",
+   "options": [
+    {
+     "text": "400",
+     "added": false
+    },
+    {
+     "text": "300",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "100"
+  },
+  {
+   "n": 20,
+   "text": "98 What is the median of 8, 5. 7,9, 11, 6, 10?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "8"
+  },
+  {
+   "n": 22,
+   "text": "Ifa machine overcomes a load 'L' and the distance travelled by the load is ‘La’, the work done by the load will be : 7 xi.# L",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "72"
+  },
+  {
+   "n": 23,
+   "text": "An airplane flies at the speed of 50 m/s. How much distance (in km) will it cover in a flight of 5 hours? 8",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "900"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 175,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 544,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

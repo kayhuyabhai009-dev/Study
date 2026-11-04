@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-01-Feb-2023-Shift4.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The LCM of 192 and 480 is 60 more than the 100 times of X. What is the value of X?",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Divide Rs.500 among A, B, C and D so that A and B together get thrice as much as C and D together, B gets 4 times what C gets and C gets 1.5 times as much as D. The value of B’s share is:",
+   "options": [
+    {
+     "text": "Rs.250",
+     "added": false
+    },
+    {
+     "text": "Rs.300",
+     "added": false
+    },
+    {
+     "text": "Rs.125",
+     "added": false
+    },
+    {
+     "text": "Rs.75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A’s speed is 30% more than that of B. If A and B run a race on a 117 m length race, what part of the length of the race should A give B as a head start, so that the race ends in a dead heat?",
+   "options": [
+    {
+     "text": "90 m",
+     "added": false
+    },
+    {
+     "text": "117 m",
+     "added": false
+    },
+    {
+     "text": "27 m",
+     "added": false
+    },
+    {
+     "text": "36 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A single discount equivalent to two successive discounts 15% and 25% is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A certain sum of money fetches simple interest of Rs.4,016.25 at the rate of 7% per annum in 5 years. What is the sum?",
+   "options": [
+    {
+     "text": "Rs.10,475",
+     "added": false
+    },
+    {
+     "text": "Rs.9,475",
+     "added": false
+    },
+    {
+     "text": "Rs.11,400",
+     "added": false
+    },
+    {
+     "text": "Rs.11,475",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A person drives for 320 kms in 8 hours, cycles for 40 kms in 5 hours and then walks for 40 kms in 7 hours. Find the average speed of the driver.",
+   "options": [
+    {
+     "text": "20 kmph",
+     "added": false
+    },
+    {
+     "text": "18 kmph",
+     "added": false
+    },
+    {
+     "text": "22 kmph",
+     "added": false
+    },
+    {
+     "text": "22.22 kmph",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Two years ago, the population of a town was 66000. The population increased by 5% in the first year and decreased by 5% in the second year. Find the present population of the town.",
+   "options": [
+    {
+     "text": "68553",
+     "added": false
+    },
+    {
+     "text": "63855",
+     "added": false
+    },
+    {
+     "text": "65835",
+     "added": false
+    },
+    {
+     "text": "65583",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The radius of the base of a conical vessel is 5 cm and its height is 24 cm. The vessel is full of water. This water is poured into a cylindrical vessel having the base radius 10 cm. The depth of the water in the cylindrical vessel is:",
+   "options": [
+    {
+     "text": "1 cm",
+     "added": false
+    },
+    {
+     "text": "4 cm",
+     "added": false
+    },
+    {
+     "text": "2 cm",
+     "added": false
+    },
+    {
+     "text": "3 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Three partners A, B and C started a business and decided to share the profit in the ratio 2 : 3 : 5, respectively. If the share of B is Rs.7,50,000, then calculate the total profit.",
+   "options": [
+    {
+     "text": "Rs.24,00,000",
+     "added": false
+    },
+    {
+     "text": "Rs.20,00,000",
+     "added": false
+    },
+    {
+     "text": "Rs.25,00,000",
+     "added": false
+    },
+    {
+     "text": "Rs.27,00,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "P can do as much work as Q and R together can do. P and Q can together do a piece of work in 8 hours and 24 minutes and R can do it in 42 hours. Find the time (in hours) that Q needs to do the work alone.",
+   "options": [
+    {
+     "text": "22 hours",
+     "added": false
+    },
+    {
+     "text": "24 hours",
+     "added": false
+    },
+    {
+     "text": "21 hours",
+     "added": false
+    },
+    {
+     "text": "20 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Salary of a person is first decreased by 40 percent and then increased by 40 percent. What will be the percentage decrease in the salary ?",
+   "options": [
+    {
+     "text": "18 percent",
+     "added": false
+    },
+    {
+     "text": "12 percent",
+     "added": false
+    },
+    {
+     "text": "16 percent",
+     "added": false
+    },
+    {
+     "text": "15 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Find the total surface area of a cylinder whose height is 8.5 mm and the base diameter is 10 mm.",
+   "options": [
+    {
+     "text": "135π mm2",
+     "added": false
+    },
+    {
+     "text": "85.5π mm2",
+     "added": false
+    },
+    {
+     "text": "67.5π mm2",
+     "added": false
+    },
+    {
+     "text": "120π mm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Excluding the stoppages, the speed of a truck is 90 km/h and including the stoppages, the speed of the truck is 36 km/h in a journey. For how many minutes does the truck stop per hour?",
+   "options": [
+    {
+     "text": "54 minutes",
+     "added": false
+    },
+    {
+     "text": "36 minutes",
+     "added": false
+    },
+    {
+     "text": "40 minutes",
+     "added": false
+    },
+    {
+     "text": "42 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A dealer offers 20% discount on all dolls. He offers a further discount of 5% on the reduced price to those customers who pay in cash. How much will a customer pay in cash for a doll worth Rs.1,800?",
+   "options": [
+    {
+     "text": "Rs.800",
+     "added": false
+    },
+    {
+     "text": "Rs.1,368",
+     "added": false
+    },
+    {
+     "text": "Rs.1,225",
+     "added": false
+    },
+    {
+     "text": "Rs.1,532",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In a storm 243 trees were left standing out of 300 trees in a garden. What is the percentage decrease in number of trees?",
+   "options": [
+    {
+     "text": "19 percent",
+     "added": false
+    },
+    {
+     "text": "22 percent",
+     "added": false
+    },
+    {
+     "text": "24 percent",
+     "added": false
+    },
+    {
+     "text": "21 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A shopkeeper sells his goods at 10 percent loss on cost price but uses 30 percent less weight. What is his profit?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If 6 men or 8 women can reap a field in 21.5 days. How long will 14 men and 10 women take to reap it?",
+   "options": [
+    {
+     "text": "9 days",
+     "added": false
+    },
+    {
+     "text": "8 days",
+     "added": false
+    },
+    {
+     "text": "6 days",
+     "added": false
+    },
+    {
+     "text": "12 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The average of the cube of the first 4 natural numbers is:",
+   "options": [
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Rita buys a toy car for Rs.12,000 and sells it for Rs.14,500. What is her gain percent? (rounded off to two digits after decimal)",
+   "options": [
+    {
+     "text": "20.83%",
+     "added": false
+    },
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "22%",
+     "added": false
+    },
+    {
+     "text": "14.50%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 307,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

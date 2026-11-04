@@ -1,0 +1,363 @@
+{
+ "paper": "2019-Tier1-Guidely-Row3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The area of A ABC is 44 cm?. If D is the midpoint of BC and E is the midpoint of AB, then the area (in cm?) of ABDE is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Ifthe base radius of 2 cylinders are in the ratio 3 : 4 and their heights are in the ratio 4 : 9, then the ratio of their volumes is:",
+   "options": [
+    {
+     "text": "1:2",
+     "added": false
+    },
+    {
+     "text": "2:1",
+     "added": false
+    },
+    {
+     "text": "1:4",
+     "added": false
+    },
+    {
+     "text": "4:1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "2 Q4 If x, y, Zare three integers such that x + y = 8, y+ z= 13 andz+x=17, then the value of fe is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The given table shows the number (in thousands) of cars of five different models A, B, C, D and E produced during ‘Years 2012-2017. Study the table and answer the question that follow. PP EP EE fase [ ol eo ms [|= 6 | | me [oe | | | pa | The percentage decrease in the production of which type of car in 2017. with reference to 2016. was the maximum?",
+   "options": [
+    {
+     "text": "D",
+     "added": false
+    },
+    {
+     "text": "A",
+     "added": false
+    },
+    {
+     "text": "C",
+     "added": false
+    },
+    {
+     "text": "E",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "tfx =4cosA+ 5sinA and y = 4sinA — 5cosA, then the value of x? + y? is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "out of 6 numbers, the sum of the first 5 numbers is 7 times the 6 number. If their average is 136, then the 6\" number is:",
+   "options": [
+    {
+     "text": "02",
+     "added": false
+    },
+    {
+     "text": "96",
+     "added": false
+    },
+    {
+     "text": "84",
+     "added": false
+    },
+    {
+     "text": "116",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "ab+bc+ca . If x2¢= y26 = 27¢ + 0 and x? = yz, then the value of eae ft",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "a = =Ah 3 Bose. If x —y =4 and xy = 45, then the value of x° — y* is:",
+   "options": [
+    {
+     "text": "82",
+     "added": false
+    },
+    {
+     "text": "604",
+     "added": false
+    },
+    {
+     "text": "151",
+     "added": false
+    },
+    {
+     "text": "822",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "%4,300 becomes %4,644 in 2 years at simple interest. Find the principle amount that will become £10,104 in 5 years at the same rate of interest.",
+   "options": [
+    {
+     "text": "37,200",
+     "added": false
+    },
+    {
+     "text": "29,260",
+     "added": false
+    },
+    {
+     "text": "8,420",
+     "added": false
+    },
+    {
+     "text": "5,710",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "If++ means ‘-’, -” means ‘+’, ‘x° means ‘+” and ‘+’ means ‘x’, then the value of 42712%3+8+2+15 jg: 8x2-44943",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "4 person sells an article at 10% below its cost price. Had he sold it for 332 more. he would have made a profit of 20%. What is the original selling price (in 2) of the article?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A train crosses a pole in 12 sec, and a bridge of length 170 m in 36 sec. Then the speed of the train is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-platform",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The ratio of the number of boys to the number of girls in a school of 640 students. is 5 : 3. If 30 more girls are admitted in the school, then how many more boys should be admitted so that the ratio of boys to that of the girls. becomes 14:9.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "In A ABC. MNII BC, the area of quadrilateral MBCN=130 sqem. If AN : NC=4 : 5, then the area of A MAN is: A A B c",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Ifthe length of a rectangle is increased by 40%, and the breadth is decreased by 20%, then the area of the rectangle increases by x%. Then the value of x is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "A shopkeeper marks the price of the article in such a way that after allowing 28% discount, he wants a gain of 12%. If the marked price is 2224. then the cost price of the article is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The radius of a circular garden is 42 m. The distance (in m) covered by running 8 rounds around it. is: (Take n =)",
+   "options": [
+    {
+     "text": "3248",
+     "added": false
+    },
+    {
+     "text": "4262",
+     "added": false
+    },
+    {
+     "text": "1124",
+     "added": false
+    },
+    {
+     "text": "2112",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "A.Band C can individually complete a piece of work in 24 days, 15 days and 12 days, respectively. B and C started the work and worked for 3 days and left. The number of days required by A alone to complete the remaining work, is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  }
+ ]
+}

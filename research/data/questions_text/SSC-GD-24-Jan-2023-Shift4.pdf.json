@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-24-Jan-2023-Shift4.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In an election between two candidates, the one who gets 75% of the votes is elected by a majority of 520 votes. What is the total number of votes polled?",
+   "options": [
+    {
+     "text": "1040",
+     "added": false
+    },
+    {
+     "text": "1604",
+     "added": false
+    },
+    {
+     "text": "1314",
+     "added": false
+    },
+    {
+     "text": "1212",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Kiran lent Rs.5,00,000 to Kishore, which gets compounded annually at the rate of 12% per annum. Kishore lent the amount to Kavya on simple interest at the rate of 15% per annum. What is the difference in the interest earned by Kiran and Kishore after 3 years?",
+   "options": [
+    {
+     "text": "Rs.22,536",
+     "added": false
+    },
+    {
+     "text": "Rs.24,536",
+     "added": false
+    },
+    {
+     "text": "Rs.25,536",
+     "added": false
+    },
+    {
+     "text": "Rs.26,536",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "si-ci-difference",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "If Akash can do a piece of work in 63 days and Disha can do the same work in 84 days. They worked together for 12 days and after this Disha left the work and Akash completed the remaining work, then find the total number of days required to finish the work.",
+   "options": [
+    {
+     "text": "40 days",
+     "added": false
+    },
+    {
+     "text": "74 days",
+     "added": false
+    },
+    {
+     "text": "54 days",
+     "added": false
+    },
+    {
+     "text": "66 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "X bought a dozen pencils for a total of Rs 60 and 20 pens for Rs 200. Find the total average cost of the stationery X bought.",
+   "options": [
+    {
+     "text": "Rs 8.000",
+     "added": false
+    },
+    {
+     "text": "Rs 8.125",
+     "added": false
+    },
+    {
+     "text": "Rs 8.250",
+     "added": false
+    },
+    {
+     "text": "Rs 8.375",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The marks obtained by seven students are 70, 85, 95, 86, 74, 83 and 67. What is the average marks obtained by them?",
+   "options": [
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "70",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A shopkeeper gives a discount of 12% on the marked price of an item. If the selling price of item is Rs.13,200, then what is the marked price of the item?",
+   "options": [
+    {
+     "text": "Rs.15,000",
+     "added": false
+    },
+    {
+     "text": "Rs.20,000",
+     "added": false
+    },
+    {
+     "text": "Rs.16,000",
+     "added": false
+    },
+    {
+     "text": "Rs.12,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "A shopkeeper marks his goods at 20% above the cost price, but to trick his customers, he offers a 10% discount on the marked price and also uses a faulty weight that weighs 800 g for 1 kg. Find his overall profit percentage.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Calculate the area of a rhombus with diagonals of 7 cm and 6 cm.",
+   "options": [
+    {
+     "text": "18 cm2",
+     "added": false
+    },
+    {
+     "text": "28 cm2",
+     "added": false
+    },
+    {
+     "text": "21 cm2",
+     "added": false
+    },
+    {
+     "text": "24 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Reeta goes to office from home at a speed of 40 km/h. If she return to home from office at a speed of 60 km/h, then what is her average speed?",
+   "options": [
+    {
+     "text": "44 km/h",
+     "added": false
+    },
+    {
+     "text": "52 km/h",
+     "added": false
+    },
+    {
+     "text": "48 km/h",
+     "added": false
+    },
+    {
+     "text": "50 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The marked price of an A.C. is ₹48,000. The shopkeeper allows a discount of 12% and gains 10%. If no discount is allowed, find his gain percentage.",
+   "options": [
+    {
+     "text": "20 Percent",
+     "added": false
+    },
+    {
+     "text": "26 Percent",
+     "added": false
+    },
+    {
+     "text": "24 Percent",
+     "added": false
+    },
+    {
+     "text": "25 Percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The speed of a boat in still water is 50 percent more than it's speed in upstream. If the boat takes 20 minutes to reach point Q from point P in downstream, then how much time will it take to reach point P from point Q in upstream?",
+   "options": [
+    {
+     "text": "40 min",
+     "added": false
+    },
+    {
+     "text": "45 min",
+     "added": false
+    },
+    {
+     "text": "35 min",
+     "added": false
+    },
+    {
+     "text": "30 min",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Amrit is thrice as good a workman as Bhagat. Therefore Amrit is able to finish a piece of work in 50 days less than Bhagat. The time (in days) in which they can finish it working together is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If a natural number when divided by 4,5 and 6 leaves a remainder 3 in each case, then what is the smallest possible three digit natural number?",
+   "options": [
+    {
+     "text": "129",
+     "added": false
+    },
+    {
+     "text": "123",
+     "added": false
+    },
+    {
+     "text": "117",
+     "added": false
+    },
+    {
+     "text": "113",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A vendor sells 40 percent of oranges he had and throws away 10 percent of the remainder. Next day he sells 50 percent of the remaining and throws away the rest. What percent of his oranges does the vendor throw?",
+   "options": [
+    {
+     "text": "45 percent",
+     "added": false
+    },
+    {
+     "text": "60 percent",
+     "added": false
+    },
+    {
+     "text": "33 percent",
+     "added": false
+    },
+    {
+     "text": "27 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Raju buys an old mobile for Rs.3,200 and spends Rs.800 on its repairs. If he sells the mobile for Rs.4,800, his gain per cent is:",
+   "options": [
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "₹1,900 is divided among 4 boys, 5 girls and 6 women, such that the shares of a boy, a girl and a woman are in the ratio 9 : 8 : 4. What is the share of a girl?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "If l∶m=2∶7,m∶n=3∶4 and n∶k=14∶5, then l∶m∶n∶k is:",
+   "options": [
+    {
+     "text": "6∶21∶28∶10",
+     "added": false
+    },
+    {
+     "text": "6∶21∶7∶10",
+     "added": false
+    },
+    {
+     "text": "6∶7∶14∶10",
+     "added": false
+    },
+    {
+     "text": "6∶21∶14∶ 10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A Bluetooth speaker is sold for ₹3,500 cash, or ₹1,000 cash down payment and the balance in 3 equal annual instalments. If rate of interest is 12.5% per annum and interest is compounding annually, then find the amount of instalment. (correct to 2 decimal places)",
+   "options": [
+    {
+     "text": "₹1,019.83",
+     "added": false
+    },
+    {
+     "text": "₹1,249.83",
+     "added": false
+    },
+    {
+     "text": "₹1,049.83",
+     "added": false
+    },
+    {
+     "text": "₹1,149.83",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 306,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

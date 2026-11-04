@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-31-Jan-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The cost price of 20 balls is the same as the selling price of 18 balls. Find the profit percentage.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Anand with his family travelled from Guntur to Rajahmundry by car at a speed of 50 km/h and returned to Guntur at a speed of 60 km/h. The average speed for the whole journey is: (Consider up to two decimal places)",
+   "options": [
+    {
+     "text": "54.54 km/h",
+     "added": false
+    },
+    {
+     "text": "64.64 km/h",
+     "added": false
+    },
+    {
+     "text": "34.54 km/h",
+     "added": false
+    },
+    {
+     "text": "44.34 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A dealer fixed the price of an article 40% above the cost of production. While selling it he allows a discount of 20% and makes a profit of Rs.72. Find the cost of production (in Rs.) of the article.",
+   "options": [
+    {
+     "text": "Rs.540",
+     "added": false
+    },
+    {
+     "text": "Rs.600",
+     "added": false
+    },
+    {
+     "text": "Rs.750",
+     "added": false
+    },
+    {
+     "text": "Rs.590",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A rectangular ground 90m long and 42 m wide has two cross roads in its centre. The road parallel to the length is 7 m wide and the other road is 3 m wide, both roads are perpendicular to each other. The cost of laying the bricks at the rate of Rs.25 per m2, on the roads, will be:",
+   "options": [
+    {
+     "text": "Rs.18,308",
+     "added": false
+    },
+    {
+     "text": "Rs.18,575",
+     "added": false
+    },
+    {
+     "text": "Rs.18,375",
+     "added": false
+    },
+    {
+     "text": "Rs.16,375",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "paths-and-borders",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "In what time will ₹6,750 amount to ₹8,984.25 at the interest rate of 20% per annum, compounded half yearly?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Which type of numbers are NOT co-prime?",
+   "options": [
+    {
+     "text": "Any two prime numbers",
+     "added": false
+    },
+    {
+     "text": "Any two consecutive odd numbers",
+     "added": false
+    },
+    {
+     "text": "Any two consecutive numbers",
+     "added": false
+    },
+    {
+     "text": "Any two consecutive even numbers",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Ramesh and Suresh can complete a piece of work in 10 days and 12 days, respectively. If they are working on alternate days, starting with Ramesh, in how many days will the entire work be finished?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The ratio of alcohol to water in three types of drugs of equal quantity is 2 : 5, 5 : 9 and 8 : 13 respectively. Equal quantity of all the three drugs is mixed. Find the ratio of alcohol to water after mixing .",
+   "options": [
+    {
+     "text": "34 : 38",
+     "added": false
+    },
+    {
+     "text": "12 : 19",
+     "added": false
+    },
+    {
+     "text": "43 : 83",
+     "added": false
+    },
+    {
+     "text": "57 : 61",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Johnson borrows ₹30,000 at 5% compound interest per annum. He wants to pay this amount back by the end of 2 years in two equal yearly installments. How much does he have to pay approximately at the end of each year?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Find three numbers in the ratio of 6 : 4 : 10 such that the sum of their squares is equal to 3800.",
+   "options": [
+    {
+     "text": "30, 20 and 40",
+     "added": false
+    },
+    {
+     "text": "30, 30 and 50",
+     "added": false
+    },
+    {
+     "text": "40, 20 and 50",
+     "added": false
+    },
+    {
+     "text": "30, 20 and 50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "In a panchayat election an independent candidate got 28% of the total votes polled and was declared the winner. The rest of the votes were equally divided among the candidates of three national parties. If the total votes polled were 1200, how many votes did the each candidate of national party get?",
+   "options": [
+    {
+     "text": "312",
+     "added": false
+    },
+    {
+     "text": "272",
+     "added": false
+    },
+    {
+     "text": "292",
+     "added": false
+    },
+    {
+     "text": "288",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The salary of an employee in the month of March is ₹7,500 and the company increases his salary every month by 2%. His salary in the month of May of the same year is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A car covers the first 35 km in 15 minutes and the next 45 km in 25 minutes. What is the average speed of the car?",
+   "options": [
+    {
+     "text": "120 km/h",
+     "added": false
+    },
+    {
+     "text": "130 km/h",
+     "added": false
+    },
+    {
+     "text": "124 km/h",
+     "added": false
+    },
+    {
+     "text": "135 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A can complete 3/4th of the work in 9 days and B can complete 2/5th of the work in 12 days. With the help of C, all three together complete the whole work in 60/11 days and earn Rs. 330. If money is shared in the ratio of work done, then find the difference in the share of C and the share of A.",
+   "options": [
+    {
+     "text": "Rs.40",
+     "added": false
+    },
+    {
+     "text": "Rs.30",
+     "added": false
+    },
+    {
+     "text": "Rs.70",
+     "added": false
+    },
+    {
+     "text": "Rs.60",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The price of 2 tables is equal to the price of 5 chairs. If price of a chair is Rs. 500, then what is the average price of 6 tables and 9 chairs?",
+   "options": [
+    {
+     "text": "Rs 750",
+     "added": false
+    },
+    {
+     "text": "Rs 800",
+     "added": false
+    },
+    {
+     "text": "Rs 900",
+     "added": false
+    },
+    {
+     "text": "Rs 850",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "If Ram bought 15 shirts of ₹520 each, 20 pants of ₹600 each and 15 kurtas at ₹650 each, then the average value of each article is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The single discount equivalent to the successive discounts of 30 percent, 15 percent and 5 percent is:",
+   "options": [
+    {
+     "text": "43.475 percent",
+     "added": false
+    },
+    {
+     "text": "48.80 percent",
+     "added": false
+    },
+    {
+     "text": "56.525 percent",
+     "added": false
+    },
+    {
+     "text": "59.50 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "If a number 'a' is divisible by 6 and 21, then 5a is divisible by :",
+   "options": [
+    {
+     "text": "180",
+     "added": false
+    },
+    {
+     "text": "610",
+     "added": false
+    },
+    {
+     "text": "440",
+     "added": false
+    },
+    {
+     "text": "210",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The total cost price of a book and pen is Rs.371. If the book cost price is 12% more than the pen, find the cost price of the pen.",
+   "options": [
+    {
+     "text": "Rs.200",
+     "added": false
+    },
+    {
+     "text": "Rs.150",
+     "added": false
+    },
+    {
+     "text": "Rs.125",
+     "added": false
+    },
+    {
+     "text": "Rs.175",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 325,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

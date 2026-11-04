@@ -1,0 +1,550 @@
+{
+ "paper": "CHSL-Tier1-09-Mar-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "a tan A-sinA What is the value of —————? tan AtsinA",
+   "options": [
+    {
+     "text": "1 secA-1",
+     "added": false
+    },
+    {
+     "text": "——— secAt+1",
+     "added": false
+    },
+    {
+     "text": "secA secAt+1",
+     "added": false
+    },
+    {
+     "text": "—— secA-1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "What is the value of the expression | -2+3-—4+5-6..... to 100 terms?",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "-60",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "-55",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Acar covers a distance of 40 km in 24 minutes. If its speed is decreased by 40 km/hr, then what will be the time taken by it to cover the same distance?",
+   "options": [
+    {
+     "text": "45 minutes",
+     "added": false
+    },
+    {
+     "text": "48 minutes",
+     "added": false
+    },
+    {
+     "text": "40 minutes",
+     "added": false
+    },
+    {
+     "text": "36 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "If angle subtended by a chord on the major are of a circle is 55 degree, then what will be the angle subtended by the same chord on the centre of the circle?",
+   "options": [
+    {
+     "text": "140 degree",
+     "added": false
+    },
+    {
+     "text": "135 degree",
+     "added": false
+    },
+    {
+     "text": "125 degree",
+     "added": false
+    },
+    {
+     "text": "110 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Qs 5 , If cos B = 53 then what is the value of cosec B?",
+   "options": [
+    {
+     "text": "—",
+     "added": false
+    },
+    {
+     "text": "v14 4 x 2.— v14 9",
+     "added": false
+    },
+    {
+     "text": "— v14 5",
+     "added": false
+    },
+    {
+     "text": "—= v14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Average weight of 20 persons is 60 kg. A new person joins the group and average weight of 21 persons becomes 59 kg. What will be the weight of new person?",
+   "options": [
+    {
+     "text": "40 kg",
+     "added": false
+    },
+    {
+     "text": "41 kg",
+     "added": false
+    },
+    {
+     "text": "39kg",
+     "added": false
+    },
+    {
+     "text": "29 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "1 q 1 If Kt 2 =0 and K = 0, then what is the value of le ms",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Circumference of a circle is 88 cm. Chord XY makes an angle of 90 degree at the circumference of this circle. What is the length of XY?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "20 percent of A’s income is equal to 10 percent of B’s income. If A’s income is Rs. 2550, then what is B’s income?",
+   "options": [
+    {
+     "text": "Rs. 5100",
+     "added": false
+    },
+    {
+     "text": "Rs. 5000",
+     "added": false
+    },
+    {
+     "text": "Rs. 7650",
+     "added": false
+    },
+    {
+     "text": "Rs. 4900",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Asum of money at simple interest amounts to Rs.403 in 3 years at the rate of 10% per annum. What is the value of the sum?",
+   "options": [
+    {
+     "text": "Rs.345",
+     "added": false
+    },
+    {
+     "text": "Rs.310",
+     "added": false
+    },
+    {
+     "text": "Rs.400",
+     "added": false
+    },
+    {
+     "text": "Rs.380",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The circumference of base of a right circular cone is 88 cm. If the height of the cone is 28 em, then what is the curved surface area of the cone?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "1 . 1 If x* + a 47, then what is the value of x3 +—? 7%",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": ". The average age of 120 members of a society is 62.5 years. By addition of 30 new members, the average age becomes 58.2 years. What is the average age of newly joined members?",
+   "options": [
+    {
+     "text": "42 years",
+     "added": false
+    },
+    {
+     "text": "40 years",
+     "added": false
+    },
+    {
+     "text": "39 years",
+     "added": false
+    },
+    {
+     "text": "Al years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The table given below shows production of car by two companies J and K in 5 years. [|__| Companies | | Years] J | K | | D_| 30 | 100 | L1 = The total production of car by J in all years. L2 = The total production of car by K in all years. What is the value of (L2 —-L1)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Pand Q together can complete a work in 20 days. If Q alone can complete the work in 25 days, then in how many days P alone can complete the same work?",
+   "options": [
+    {
+     "text": "25 days",
+     "added": false
+    },
+    {
+     "text": "20 days",
+     "added": false
+    },
+    {
+     "text": "50 days",
+     "added": false
+    },
+    {
+     "text": "100 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In ASTU, Xand ¥ are the points on sides ST and SU respectively. XY is parallel to TU. IfSX : XT =2: 5 and UY =20 cm, then what is the value of SU?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The following pie chart reflects the total percentage of marks of 5 boys in an exam. The total marks for these boys in this the exam is 800. The marks of Rohit is how much percentage less than that of Raju ?",
+   "options": [
+    {
+     "text": "33.33%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A person bought 80 pens at the rate of Rs. 80 per pen. He sells 40 pens at a loss of 20 percent. If profit of 20 percent is earned on the all pens together, then what will be the profit percentage on the remaining 40 pens?",
+   "options": [
+    {
+     "text": "80 percent",
+     "added": false
+    },
+    {
+     "text": "60 percent",
+     "added": false
+    },
+    {
+     "text": "90 percent",
+     "added": false
+    },
+    {
+     "text": "70 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The line chart given below shows the sales of bikes and cars of five companies L, M,N, P and Q. 1000 900 750 800 00 550 a 500 50: 450 L M N P a —eBike | —e Car Which of the following statement is correct? I. The sales of bikes of company L and M together is 45.88 percent of the sales of cars of company P and Q together. IL. The total sales of bikes is 77.5 percent of the total sales of cars.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Two circles of radius of 6 cm each. They intersect each other such that each passes through the centre of the other. What is the length of the common chord?",
+   "options": [
+    {
+     "text": "9V3 cm",
+     "added": false
+    },
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "4 6V¥3 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "es - aN) . What is V(1 —sinA)/V(1 + sinA)?",
+   "options": [
+    {
+     "text": "sec?",
+     "added": false
+    },
+    {
+     "text": "taw@A",
+     "added": false
+    },
+    {
+     "text": "secA -tanA",
+     "added": false
+    },
+    {
+     "text": "secA+ tanA",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The following line graph shows the favourite colour of a group of people. What percent of the total number of people like black colour? 14 12 12 10 ‘7 10 a C v o 8 a 6 6 6 . 24 3 2 3 = 2 1 ° Red Green Orange Pink Black Blue White Yellow Colours",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "33.3%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "line-graph",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "111 oe : 4°2*%2t2*2\"2 What is the value of Pgh A, ea te ‘2 a4 2B 4°2 My 2*2",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Rahul spends some part of his income and saves the remaining part. The ratio of his expenditure and saving is 5 : 4. If Rabul’s income is Rs. 36000, then what will be his expenditure?",
+   "options": [
+    {
+     "text": "Rs. 15000",
+     "added": false
+    },
+    {
+     "text": "Rs. 25000",
+     "added": false
+    },
+    {
+     "text": "Rs. 20000",
+     "added": false
+    },
+    {
+     "text": "Rs. 16000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Rohit buys a ball for Rs. 700. Rohit gives two successive discount of 20 percent and 40 percent to the customer on this ball. What will be the selling price of the ball?",
+   "options": [
+    {
+     "text": "Rs. 442",
+     "added": false
+    },
+    {
+     "text": "Rs. 372",
+     "added": false
+    },
+    {
+     "text": "Rs. 325",
+     "added": false
+    },
+    {
+     "text": "Rs. 336",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  }
+ ]
+}

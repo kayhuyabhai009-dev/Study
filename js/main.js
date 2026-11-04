@@ -162,16 +162,20 @@ function setTheme(t) {
     document.getElementById('moon-icon').style.display = t === 'dark' ? 'block' : 'none';
     document.getElementById('sun-icon').style.display = t === 'dark' ? 'none' : 'block';
     localStorage.setItem('ganit-guru-theme', t);
+    // merged research platform (iframe) को भी नया theme भेजें
+    if (typeof syncResearchTheme === 'function') syncResearchTheme(t);
 }
 
 /* ================= नेविगेशन (साइडबार + टॉपबार) ================= */
 const SECTION_LABELS = {
     dashboard: '📊 डैशबोर्ड', challenge: '🔥 90-दिन चैलेंज', learn: '📚 सीखें',
     formulas: '📖 फॉर्मूला बुक', calculation: '🧮 कैलकुलेशन बूस्टर', 'fast-tricks': '⚡ फास्ट ट्रिक्स',
-    daily: '📅 डेली प्रैक्टिस', quiz: '🎮 क्विज़', pyq: '🗂️ PYQ बैंक', flashcards: '🃏 फ्लैशकार्ड',
+    daily: '📅 डेली प्रैक्टिस', quiz: '🎮 क्विज़', pyq: '🗂️ PYQ बैंक', 'pyq-analysis': '📊 PYQ एनालिसिस',
+    flashcards: '🃏 फ्लैशकार्ड',
     notes: '📓 नोट्स', patterns: '🧠 पैटर्न इंजन', traps: '🛡️ ट्रैप बुक', mastery: '🏆 मास्टरी',
     'error-log': '❌ एरर लॉग', revision: '🔄 रिवीजन', timer: '⏱️ टाइमर',
-    'pdf-research': '🔬 PDF रिसर्च', exams: '🏛️ एग्जाम इंफो', plan: '🗓️ रणनीति प्लान', profile: '👤 प्रोफाइल'
+    'pdf-research': '🔬 PDF रिसर्च', research: '🔬 सरकारी एक्ज़ाम रिसर्च',
+    exams: '🏛️ एग्जाम इंफो', plan: '🗓️ रणनीति प्लान', profile: '👤 प्रोफाइल'
 };
 
 function initNav() {
@@ -225,6 +229,7 @@ function openSection(name, updateUrl = true) {
     const tb = document.getElementById('topbar-title');
     if (tb) tb.textContent = SECTION_LABELS[name] || 'गणित गुरु';
     if (name === 'challenge') renderChallenge();
+    if (name === 'research' && typeof ensureResearchFrame === 'function') ensureResearchFrame();
     if (updateUrl && window.location && window.location.hash !== '#' + name) {
         try { window.history.pushState(null, '', '#' + name); }
         catch (e) { window.location.hash = name; }
@@ -2560,6 +2565,8 @@ function bootApp() {
     initPdfResearch();
     initPlan();
     initPatternTrapSearch();
+    initResearchHub();
+    initPyqAnalysis();
     drillConfigInit();
 
     // वर्कआउट बटन/इनपुट

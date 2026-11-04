@@ -1,0 +1,465 @@
+{
+ "paper": "CHSL-Tier1-14-Oct-2020-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "24 5 5 If cos x = ai 0 < x < 90°, then the value of cotx + cosecx is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The given bar graph represents the number of students admitted in four schools (S1, $2, S3, $4) during two consecutive years 2017 and 2018. Os 360 350; 320 iia z mt F $0 ed x0 zw : 100 | 504 ot = = — — st 32 3 4 | s207 8208 | ‘What percentage is the average admission of schools S3 and S4 in 2018 of the average admission of schools S1 and S2 in 2017?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Two tangents AP and AQ are drawn to a circle with centre O from an external point A, where P and Q are points on the circle. If AP = 12 cm and ZPAQ = 60°, then the length of chord PQ is:",
+   "options": [
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "10cm",
+     "added": false
+    },
+    {
+     "text": "24cm",
+     "added": false
+    },
+    {
+     "text": "16cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "(a + 2b)? — (a — 2b)? is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The length and breadth of a cuboid are increased by 10% and 20%, respectively, and its height is decreased by 20%. The percentage increase in the volume of the cuboid is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Two tangents AP and AQ are drawn to a circle with centre O from an external point A, where P and Q are points on the circle. If the 2PAQ = 70°, then the ZAOP is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The given bar graph represents the number of students admitted in four schools (S1, S2, S3, S4) during two consecutive years 2017 and 2018. = 360 3505 320 00 P| 2 50 | | 200 8 bial | sO % 1804 100 | 04 ot ‘ “ ‘ a 2 3 “ L si 9208 a The ratio between total number of students admitted in the four schools in 2017 to the total number of students admitted in the four schools in 2018 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "if 2x? +ax? + bx —2 leaves the remainders 7 and 0 when divided by (2x —3) and (x + 2), respectively, then the values of a and b are respectively:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The compound interest on 74,000 at the rate of 5% p.a. is $630.50, then the time period is:",
+   "options": [
+    {
+     "text": "2 years 1",
+     "added": false
+    },
+    {
+     "text": "3= years 2",
+     "added": false
+    },
+    {
+     "text": "3 years 1",
+     "added": false
+    },
+    {
+     "text": "1= years 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "910 Which are the two nearest numbers to 19,596, divisible by 9?",
+   "options": [
+    {
+     "text": "19,564; 19,620",
+     "added": false
+    },
+    {
+     "text": "19,611; 19,575",
+     "added": false
+    },
+    {
+     "text": "19,509; 19,611",
+     "added": false
+    },
+    {
+     "text": "19,593; 19,602",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The cost price of 12 pens is equal to the selling price of 8 pens. The profit percentage is:",
+   "options": [
+    {
+     "text": "45%",
+     "added": false
+    },
+    {
+     "text": "55%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "IfsecO and sind (0 < @ < 90) are the roots of the equation ¥6x? — kx + V6 = 0. then the value of k is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "213 The value of 4 + [3{35+ (42+ 10+2x3-—40)}+7] is:",
+   "options": [
+    {
+     "text": "157",
+     "added": false
+    },
+    {
+     "text": "167",
+     "added": false
+    },
+    {
+     "text": "185",
+     "added": false
+    },
+    {
+     "text": "163",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "If the cost price of a book after 10% discount is 486, then the marked price of the book is:",
+   "options": [
+    {
+     "text": "580",
+     "added": false
+    },
+    {
+     "text": "%540",
+     "added": false
+    },
+    {
+     "text": "7560",
+     "added": false
+    },
+    {
+     "text": "%600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A boat covered a distance of 15 km upstream in 5 hours and a distance of 42 km downstream in 6 hours. The speed of the stream in kny/h is:",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "2.5",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "boat-stream",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "216 Tn an equilateral triangle, the value of each exterior angle is:",
+   "options": [
+    {
+     "text": "140°",
+     "added": false
+    },
+    {
+     "text": "100°",
+     "added": false
+    },
+    {
+     "text": "130°",
+     "added": false
+    },
+    {
+     "text": "120°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The radius of a circular cylinder is 5 cm and its height is 14 cm. Then the volume of cylinder in em? is: (Taken = 2 )",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Six years ago, the average of the ages of Ravi, Mohan and Govind was 32 years. If Shyam joins them now, the average of the ages of all four of them is 36 years. The present age of Shyam is:",
+   "options": [
+    {
+     "text": "35 years",
+     "added": false
+    },
+    {
+     "text": "32 years",
+     "added": false
+    },
+    {
+     "text": "40 years",
+     "added": false
+    },
+    {
+     "text": "30 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "3 3sinx+2cosx . If tanx = —, then the value of ————— is: 2 3sinx—2cosx",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": ".- y - Find the values of x for the given equation 3x* + 5x —2=0",
+   "options": [
+    {
+     "text": "-3 and-2 ci",
+     "added": false
+    },
+    {
+     "text": "3 and—- 4",
+     "added": false
+    },
+    {
+     "text": "2and-3 ¥",
+     "added": false
+    },
+    {
+     "text": "—2and= 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "quadratic-equations",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The areas of two similar triangles are 324 cm* and 225 cm?. If the altitude of the smaller triangle is 10 cm, then the altitude of the bigger triangle in centimetres, is:",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "9.22 Try !y=3:2andx +y=90. Then the value 7(x — y)? (« + y) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The given bar graph represents the number of students admitted in four schools (S1, S2, S3, S4) during two consecutive years 2017 and 2018. 00 360 350) 320 300 neal ie 2 50 g =) 200 8 200 5 50 B 150- 100 + 04 ° st 2 3 s 22017 ©2018 The total number of students admitted in school $3 for both years is approximately what percent of total student admitted in school S2 for both years?",
+   "options": [
+    {
+     "text": "52.33%",
+     "added": false
+    },
+    {
+     "text": "48.33%",
+     "added": false
+    },
+    {
+     "text": "54.33%",
+     "added": false
+    },
+    {
+     "text": "58.33%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The given bar graph represents the number of students admitted in four schools (S1, S2, $3, S4) during two consecutive years 2017 and 2018. —. . 350 5 320 300 - eal 2 50 a w B | ad 100 4 so a 32 - 3 i ss , \"2017 #208 | What is the average number of students admitted to all schools in 2018?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Tap Acan fill a tank in 20 hours and tap B can fill the same tank in 30 hours. If both taps are opened together, then how much time will be taken to fill the tank?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "two-pipes",
+   "key_answer": null
+  }
+ ]
+}

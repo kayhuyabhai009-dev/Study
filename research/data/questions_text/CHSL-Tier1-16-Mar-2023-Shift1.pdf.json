@@ -1,0 +1,482 @@
+{
+ "paper": "CHSL-Tier1-16-Mar-2023-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Angle subtended by a chord OP on the circumference of a circle is 90 degree. If diameter of the circle is 44 em, then what will be the length of chord OP?",
+   "options": [
+    {
+     "text": "44cm",
+     "added": false
+    },
+    {
+     "text": "88cm",
+     "added": false
+    },
+    {
+     "text": "66cm",
+     "added": false
+    },
+    {
+     "text": "22cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "ss ee | P 9 If cos© + sin = \\2, then what is the value of secO cosecO?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The marked price of a trouser and a jacket is in the ratio of | ; 3, The shopkeeper gives 20 percent discount on the trouser, If the total discount offered on both of them together is 30 percent, then what is the discount percentage offered on the jacket?",
+   "options": [
+    {
+     "text": "28.56 percent",
+     "added": false
+    },
+    {
+     "text": "41.25 percent",
+     "added": false
+    },
+    {
+     "text": "33.33 percent",
+     "added": false
+    },
+    {
+     "text": "16.66 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The line chait given below shows the GDP of two countries L and M in five different years. 330 315 205 Ea 10 7 135 ae 11s 125 105 ~~\" 80 v1 2 ¥3 4 Ys eb eM J1 =The value of average GDP of countries L and M in year Y1. J2 =The value of average GDP of countries L and M in year Y4. What is the value of (J1/J2)?",
+   "options": [
+    {
+     "text": "4.42",
+     "added": false
+    },
+    {
+     "text": "2.36",
+     "added": false
+    },
+    {
+     "text": "3.48",
+     "added": false
+    },
+    {
+     "text": "1.56",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The radii of two concentric circles are 34 cm and 50 cm. A and D are the points on larger circle and B and C are points on smaller circle, If ABCD is a straight line and BC = 32 cm, then what is the length of AD?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Ifp:q=3:5andp:r=2:; 3, then what is the value of 3p : 4q: 3r?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "x,y and zare 3 values, such that x+y = 12, y+z=17 and z+x= 19. What is the average of x. y and z?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "What amount a man would have received on a principal of Rs.7,500 after two years at simple interest at the rate of 7 per cent per annum ?",
+   "options": [
+    {
+     "text": "Rs.8,400",
+     "added": false
+    },
+    {
+     "text": "Rs.8,550",
+     "added": false
+    },
+    {
+     "text": "Rs.7,600",
+     "added": false
+    },
+    {
+     "text": "Rs.7,400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "In A XYZ, points P, Q and R are points on the sides XY, YZ and XZ respectively ZYXZ = 50 degree, XR = PR, ZR= QR and /RQZ = 80 degree. What is the value of 2PRQ?",
+   "options": [
+    {
+     "text": "80 degree",
+     "added": false
+    },
+    {
+     "text": "90 degree",
+     "added": false
+    },
+    {
+     "text": "75 degree",
+     "added": false
+    },
+    {
+     "text": "60 degree",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Distance of a chord JK from the centre is 7 cm. If diameter of this cirele is 50 cm, then what will be length of this chord?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "att F 8x5+25 14+7-5 What is the value of ——_— — ——___? 7+14x2 7+14-25",
+   "options": [
+    {
+     "text": "—",
+     "added": false
+    },
+    {
+     "text": "45 x2 115 245",
+     "added": false
+    },
+    {
+     "text": "06 x 3. — 245 106",
+     "added": false
+    },
+    {
+     "text": "— 245",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "How many numbers are there between 501 and 701 which are divisible by 10 but are not divisible by 3?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": ") The table shows the umber of hours, a teacher invests on his daily activities. ‘What is the ratio between sum of time invested by the teacher on ‘teaching and reading’ & 'sleep and play’? Taaine | ts] [sera [Te rin [te",
+   "options": [
+    {
+     "text": "4:7",
+     "added": false
+    },
+    {
+     "text": "5:7",
+     "added": false
+    },
+    {
+     "text": "-7:4",
+     "added": false
+    },
+    {
+     "text": "7:5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The line chart given below shows the saving and expenditure of 5 companies. 1000 soc / / fs —_ / / / / 300 ~~ 300 400 7400 ie 100 a 200 ———) =_— =. = = a A 8 (e D) E —e-Saving —m@-Expenditure Income = Saving + Expenditure Which of the following sequence is correct about the income of company A, B, C. D and E?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Sequences and Series",
+   "sub": "missing-term",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If the diagonals of a rhombus are 10 em and 24 cm, then what is the perimeter of the rhombus?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Manoj bought two T.V. for Rs.2.280. He sold one at a loss of 20 percent and other at a profit of 10 percent. If each T.V was sold for the same price, then what is the cost price of the T.V which was sold at loss?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "2 2 2 = cae i 9 Ifa“ + b> + c* = 62 and a+ b~+c = 12, then what is the value of 4ab + 4be + 4ca?",
+   "options": [
+    {
+     "text": "164",
+     "added": false
+    },
+    {
+     "text": "148",
+     "added": false
+    },
+    {
+     "text": "152",
+     "added": false
+    },
+    {
+     "text": "160",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Average of 15 numbers is 53. A number is removed and the average of L4 numbers now becomes 55. Which number was removed?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "19 a 1 «kK . x®41 Ifx + — =—, then what is the value of —,—? x 2 x",
+   "options": [
+    {
+     "text": "6K? +32 16 4 a",
+     "added": false
+    },
+    {
+     "text": "K* — 8K* — 36",
+     "added": false
+    },
+    {
+     "text": "2.",
+     "added": false
+    },
+    {
+     "text": "_ : x3, K*=8K?—32 16 4_ 2 x4 K* — 8K* + 32 16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "4 men and 7 women can do a work in § days. 7 men and 4 women can do the same work in 5 days. Find the number of days in which 8 women can finish the work.",
+   "options": [
+    {
+     "text": "60 Days",
+     "added": false
+    },
+    {
+     "text": "55 Days",
+     "added": false
+    },
+    {
+     "text": "40 Days",
+     "added": false
+    },
+    {
+     "text": "45 Days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The bar graph shows the production of tablets and mobiles in four consecutive years, Calculate the ratio of mobiles in 2015 to tablets in 2018, ‘BTablets (in lakhs) — & Mobiles {in lakhs) eo oe n 2 = » fs| ae Ee} 2 g 2 is gs a ’ ° mis 216 2017 rou Year",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": ". 9 ‘ If sinC = sae then what is the value of cos? C?",
+   "options": [
+    {
+     "text": "9 91. 100 81",
+     "added": false
+    },
+    {
+     "text": "— v19 19",
+     "added": false
+    },
+    {
+     "text": "25. 10",
+     "added": false
+    },
+    {
+     "text": "via 100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "One third part of a certain journey is covered at the speed of 10 knv/hr, one fourth part at the speed of 15 knv/br and the test part at the speed of 20 km/hr. What will be the average speed for the whole journey?",
+   "options": [
+    {
+     "text": "15 knv/hr",
+     "added": false
+    },
+    {
+     "text": "200/17 km/hr",
+     "added": false
+    },
+    {
+     "text": "240/17 km/hr",
+     "added": false
+    },
+    {
+     "text": "280/17 km/hr",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Price of 15 chairs is 20 percent move than the price of $ tables. If price of 2 tables is Rs. 2400, then what is the price of 15 chairs?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "i ittanA _ 1tcotA What is the value of ——— + ——— ? cosecA secA",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  }
+ ]
+}

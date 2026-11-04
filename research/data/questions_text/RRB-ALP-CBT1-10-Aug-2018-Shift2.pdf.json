@@ -1,0 +1,93 @@
+{
+ "paper": "RRB-ALP-CBT1-10-Aug-2018-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 23,
+ "questions": [
+  {
+   "n": 15,
+   "text": "Sales of Bikes in India as per the Colour in 30% 25% as cm 20% a | . 10% | * - ™ \" * i. I [ a | l Blue Green Golden Brown Black siner White Red Yellow ufe 2009 4 aterarefat Fr Gr & sepa Ht 7s For FHT 10000 hy, at at wr A Goren A et Tr Hr Heche fae afte seh 1S at? Study the following graph and answer the question that follows. Sales of Bikes in India as per the Colour in 2009 30% _ 2% 20% 20% 15% 426 7 77 10% | * -~™ ‘ * = | | sil I Bive Green Golden Brown Black siner White Red Yellow If the total number of bikes sold in 2009 was 10000 how many more yellow bikes were sold than green ones?",
+   "options": [
+    {
+     "text": "W/'. 200",
+     "added": false
+    },
+    {
+     "text": "2000",
+     "added": false
+    },
+    {
+     "text": "1000",
+     "added": false
+    },
+    {
+     "text": "800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "200"
+  },
+  {
+   "n": 16,
+   "text": "Chosen Option : -- Surya works 3 times as fast as Ramya and is able to complete a work in 40 days less than the number of days taken by Ramya. Find the time in which they can complete the work together.",
+   "options": [
+    {
+     "text": "20 feat 20 days x 230 feet 30 days «325 feet 25 days vil feet 15 days O51 Gao acd FAT ell S? What are transition elements? SEU 2 UST",
+     "added": false
+    },
+    {
+     "text": "ae cca, forert engait atk Aq enaait, aleit & apr g Elements which possess properties of both, metals and non-metals x: sat Wad set ter A 310 scacrat ea F They have eight electrons in the outermost shell",
+     "added": false
+    },
+    {
+     "text": "ag dca, fete cet wad atett eter arey ela Elements whose three outermost shells are incomplete",
+     "added": false
+    },
+    {
+     "text": "ag aca, fete al wad arett ver sre ela é Elements whose two outermost shells are incomplete 52 O°? wep PHAT OMe PeRMAT Var SETELTT &: . An alloy is an example of: A . x: faferer feraroT Heterogeneous mixture g x 2, Paase faerat Colloidal solution Ws. Ont Froese Solid solution x4 Emulsion",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": "15 days"
+  },
+  {
+   "n": 18,
+   "text": "Ages of Lalu and Balu are in the ratio of 1 : 2. After 7 years their ages ratio changes to 3 : . 5. The elder person age is: Chosen Option : --",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "present-age",
+   "key_answer": "28"
+  },
+  {
+   "n": 21,
+   "text": "Chosen Option : -- Aand B can complete a task in 12 days. However, A had to leave a few days before the task was completed and hence it took 16 days in all to complete the task. If A alone could complete the work in 21 days, how many days before the work getting over did A leave?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "7"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 269,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,618 @@
+{
+ "paper": "2022-Tier1-01-Dec-2022-Shift4.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qi T wT 16 cos? =— 12cos- = ‘ 6 6",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "-1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Two equal circles of radius 8 cm intersect each other in such a way that each passes through the centre of the other. The length of the common chord is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The table given below shows the number of bicycle sold by six companies. What are the ratio of number of bicycle sold by B to the number of bicycle sold by D?",
+   "options": [
+    {
+     "text": "11 : 5",
+     "added": false
+    },
+    {
+     "text": "11 : 6",
+     "added": false
+    },
+    {
+     "text": "5 : 13",
+     "added": false
+    },
+    {
+     "text": "6 : 11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A chord of length 42 cm is drawn in a circle having diameter 58 cm. What is the minimum distance of other parallel chord of length 40 cm in the same circle from 42 cm long chord?",
+   "options": [
+    {
+     "text": "4 cm",
+     "added": false
+    },
+    {
+     "text": "1 cm",
+     "added": false
+    },
+    {
+     "text": "3 cm",
+     "added": false
+    },
+    {
+     "text": "2 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "6 men and 8 women can do a piece of work in 10 days, whereas 26 men and 48 women can do the same work in 2 days. What will be the time taken by 15 men and 20 women to do the same work?",
+   "options": [
+    {
+     "text": "6 days",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    },
+    {
+     "text": "4 days",
+     "added": false
+    },
+    {
+     "text": "8 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The following table gives the subscription of different schemes of a Mutual Fund Company over the months. (Rupees in crores) Schemes Months v7 Total | +1 September 00 70 po 90 10 600 October 28 1130 (70 150 290 760 November +s 35 2s “125 160 B 90 December 160 110 40 115 130 555 January 80 90 (70 100 140 480 February [80 1150 ina 390 740 What is the difference in the subscription of scheme X between December and February?",
+   "options": [
+    {
+     "text": "10crores",
+     "added": false
+    },
+    {
+     "text": "18 crores",
+     "added": false
+    },
+    {
+     "text": "8 crores",
+     "added": false
+    },
+    {
+     "text": "25 crores",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "428X428X4284+348x348x348 « The value of $28%428*428+348x348%348 js: 428X428—428x3484+348x348",
+   "options": [
+    {
+     "text": "776",
+     "added": false
+    },
+    {
+     "text": "62080",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "If the 5-digit number 750PQ is divisible by 3, 7 and 11, then what is the value of P + 2Q?",
+   "options": [
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Raju, Ravi and Ashok contested an election. 5% votes polled were invalid. Raju got 30% of the total votes. Ravi got 32% of the total votes. The winner got 5136 more votes than the person who received the least number of votes. Find the total number of votes polled.",
+   "options": [
+    {
+     "text": "171200",
+     "added": false
+    },
+    {
+     "text": "64200",
+     "added": false
+    },
+    {
+     "text": "171220",
+     "added": false
+    },
+    {
+     "text": "172100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A horse was sold for Rs.60,000 at a profit of 20%. For what price should he have sold to gain a 30% profit?",
+   "options": [
+    {
+     "text": "Rs.64,000",
+     "added": false
+    },
+    {
+     "text": "Rs.65,000",
+     "added": false
+    },
+    {
+     "text": "Rs.50,000",
+     "added": false
+    },
+    {
+     "text": "Rs.55,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "| a?+b?+c7—-1024 i as = —2anda+b=5c,wherec > 0, then the value of c is",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The pie chart given below shows the production of 6 different factories. The total production of all these 6 factories are 22000. The production of a particular factory is shown as a percent of total production of all these 6 factories. P1 = The value of average production of A, C, D and F. P2 = The difference between the production of B and E. What is the value of (P1 + P2)?",
+   "options": [
+    {
+     "text": "2525",
+     "added": false
+    },
+    {
+     "text": "6545",
+     "added": false
+    },
+    {
+     "text": "3525",
+     "added": false
+    },
+    {
+     "text": "4565",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "If p + q = 6 and pq = 4, then what is the value of p3 + q3?",
+   "options": [
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "144",
+     "added": false
+    },
+    {
+     "text": "256",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The ratio of two numbers is 5 : 4 and their HCF is 4. What is their LCM?",
+   "options": [
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "9 If Cos A= —., find cotA. 41",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A truck runs 492 km on 36 Litter of diesel. How many kilometres can it run on 33 Litter of diesel?",
+   "options": [
+    {
+     "text": "454 km",
+     "added": false
+    },
+    {
+     "text": "453 km",
+     "added": false
+    },
+    {
+     "text": "451 km",
+     "added": false
+    },
+    {
+     "text": "452 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "direct-inverse-variation",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "2-17 ty the given triangle, CD is the bisector of ZBCA. CD = DA. If ZBDC = 76°, what is the degree measure of 2CBD? ¢ B D A",
+   "options": [
+    {
+     "text": "32°",
+     "added": false
+    },
+    {
+     "text": "76",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    },
+    {
+     "text": "66°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A dealer buys an old cooler listed at ₹650 and gets successive discounts of 20% and 10%. He spends ₹38 on its repairs and sells it at a profit of 20%. Find the selling price of the cooler.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The pie chart given below shows the sales of 7 different companies. The total sales of all these 7 companies are 2880. The sale of a particular company is shown in terms of degree with respect to the total sales of all these 7 companies. The average sales of G and H is how much percent more than the average sales of D and I?",
+   "options": [
+    {
+     "text": "18.86 percent",
+     "added": false
+    },
+    {
+     "text": "24.25 percent",
+     "added": false
+    },
+    {
+     "text": "56.21 percent",
+     "added": false
+    },
+    {
+     "text": "22.86 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "What is the edge of a cube whose volume is equal to the sum of the volumes of the cubes of edge 6 cm, 8 cm and 10 cm?",
+   "options": [
+    {
+     "text": "5 cm",
+     "added": false
+    },
+    {
+     "text": "3 cm",
+     "added": false
+    },
+    {
+     "text": "6 cm",
+     "added": false
+    },
+    {
+     "text": "12 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "If Ram covers a certain journey at 60% of his usual speed, he reaches the destination late by 36 min. His usual time (in min) to reach the destination is:",
+   "options": [
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "early-late",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "> 2 5 . If tan? 6 = 1 — a’, then the value of sec 8 + tan? 6 cosec® is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Two-thirds of a certain distance was covered at the speed of 45 km/h, one-fourth at the speed of 60 km/h and the rest at the speed of 75 km/h. Find the average speed per hour for the whole journey. (correct to 2 decimal places)",
+   "options": [
+    {
+     "text": "51.25 km/h",
+     "added": false
+    },
+    {
+     "text": "45.75 km/h",
+     "added": false
+    },
+    {
+     "text": "58.25 km/h",
+     "added": false
+    },
+    {
+     "text": "49.77 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The area of a triangle is 480 cm2 and the ratio of its sides is 10 : 24 : 26. What is the perimeter of the triangle?",
+   "options": [
+    {
+     "text": "120 cm",
+     "added": false
+    },
+    {
+     "text": "30 cm",
+     "added": false
+    },
+    {
+     "text": "150 cm",
+     "added": false
+    },
+    {
+     "text": "60 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Damani purchased an item costing ₹7,500 and paid ₹3,500 as a down payment for the same. If the simple interest charged for the remaining amount is 9% per annum and Damani cleared all dues after 4 months of the purchase, how much did Damani pay after 4 months as interest?",
+   "options": [
+    {
+     "text": "₹120",
+     "added": false
+    },
+    {
+     "text": "₹100",
+     "added": false
+    },
+    {
+     "text": "₹132",
+     "added": false
+    },
+    {
+     "text": "₹125",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  }
+ ]
+}

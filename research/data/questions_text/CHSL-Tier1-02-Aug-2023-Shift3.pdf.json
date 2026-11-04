@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-02-Aug-2023-Shift3.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Aand B can doa piece of workin 10 days and 15 days, respectively. They worked together, but 5 days before the completion of the work, A left. In how many days was the work completed?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "d"
+  },
+  {
+   "n": 2,
+   "text": "3 7 x y Zz lfx:y:z=3:4:5, then what will be the ratio of (*) : () : €)? Yy. Zz",
+   "options": [
+    {
+     "text": "49:37:100",
+     "added": false
+    },
+    {
+     "text": "45:48:100",
+     "added": false
+    },
+    {
+     "text": "41:37:100",
+     "added": false
+    },
+    {
+     "text": "37:47:100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "3 39 j If cos + sec@ = V3, then the value of cos?6 + sec?6 is:",
+   "options": [
+    {
+     "text": "0 1",
+     "added": false
+    },
+    {
+     "text": "—= ae",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2v3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Www.prepp.in R [: [: The following table gives the percentage of marks obtained by seven students in six different subjects in an examination. The number in the brackets gives the maximum marks in each subject. ee ame ee ee Students a= = [et eT jae [| of e pepe pee oe ee ee per foe fs pepe fey e | i pee steps fete = se _2 a) = Ifa student secures 80% or more in a subject, the student is considered to have received a distinction in the subject. Who among the students below received a distinction in exactly one of the six subjects?",
+   "options": [
+    {
+     "text": "Rohit",
+     "added": false
+    },
+    {
+     "text": "Sajal",
+     "added": false
+    },
+    {
+     "text": "Tanvi",
+     "added": false
+    },
+    {
+     "text": "Tarun",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Which of the following is the nearest number to 13051 and is divisible by 9?",
+   "options": [
+    {
+     "text": "13057",
+     "added": false
+    },
+    {
+     "text": "13056",
+     "added": false
+    },
+    {
+     "text": "13059",
+     "added": false
+    },
+    {
+     "text": "13058",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "c"
+  },
+  {
+   "n": 6,
+   "text": "trihe height and slant height of a cone are 21 cm and 29 cm, respectively. Find its volume. (Use 1 = 2 )",
+   "options": [
+    {
+     "text": "8800 cm?",
+     "added": false
+    },
+    {
+     "text": "8708 cm?",
+     "added": false
+    },
+    {
+     "text": "8440 cm?",
+     "added": false
+    },
+    {
+     "text": "8080 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Www.prepp.in [ [2 [2 Ashima borrowed 275,000 from a nationalised bank on 26th March 2022 at the rate of 9% per annum simple interest. If she cleared the account on 7th June of the same year, then what amount did she pay?",
+   "options": [
+    {
+     "text": "275,000",
+     "added": false
+    },
+    {
+     "text": "276,350",
+     "added": false
+    },
+    {
+     "text": "31,350",
+     "added": false
+    },
+    {
+     "text": "375,350",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The pie chart given here shows the spending by a family on various items during the year 1999, Smdy the graph and answer these questions, percentage of money spent by a family on various items during 1999 msavinge iss Brood-20% se clothing 20% showing 19% sm éacation 12% sm Trontoon- 5% morhereaos Tf the total amount spent during the year 1999 was 746.000, the amount spent on food was:",
+   "options": [
+    {
+     "text": "210,580",
+     "added": false
+    },
+    {
+     "text": "223.450",
+     "added": false
+    },
+    {
+     "text": "223,000",
+     "added": false
+    },
+    {
+     "text": "22,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "3 If cos(3a) = sin(a— 22°), where 3a < 90°, then what is the value of a ?",
+   "options": [
+    {
+     "text": "29°",
+     "added": false
+    },
+    {
+     "text": "26°",
+     "added": false
+    },
+    {
+     "text": "27°",
+     "added": false
+    },
+    {
+     "text": "28°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Www.prepp.in [ [2 [2 9.10 If sec8 — tan@ = m, then 2 tanO = ?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "me.",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The average weight of the group of 12 players increases by 1.5 kg when a player who weighs 63 kg is replaced by anew player. What is the weight of the new player?",
+   "options": [
+    {
+     "text": "84kg",
+     "added": false
+    },
+    {
+     "text": "81kg",
+     "added": false
+    },
+    {
+     "text": "83 kg",
+     "added": false
+    },
+    {
+     "text": "79 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "b"
+  },
+  {
+   "n": 12,
+   "text": "Ina5 km race, $ gave a 500 m head start to T. If they finished the race at the same time and the speed of Tis 13.5 km/h, the speed of S is:",
+   "options": [
+    {
+     "text": "15 km/h",
+     "added": false
+    },
+    {
+     "text": "20 km/h",
+     "added": false
+    },
+    {
+     "text": "17.5 km/h",
+     "added": false
+    },
+    {
+     "text": "16.5 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "a"
+  },
+  {
+   "n": 13,
+   "text": "Www.prepp.in [ [2 [2 Acircle with centre 0 has a chord AB that is 20 cm in length. If the radius of the circle is 12 cm, then the area of triangle AOB is:",
+   "options": [
+    {
+     "text": "20V15 cm?",
+     "added": false
+    },
+    {
+     "text": "22V11 cm?",
+     "added": false
+    },
+    {
+     "text": "20V11 cm?",
+     "added": false
+    },
+    {
+     "text": "22V15 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "8 2 If tan8 = ss? find the value of sec“.",
+   "options": [
+    {
+     "text": "361",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "A741 —",
+     "added": false
+    },
+    {
+     "text": "361",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The cost of 3 breads and 1 packet of juice at a certain store is 2323.50. At the same store. the cost of 5 breads and 1 packet of juice is 7433.50. What will be the cost of 2 breads and 2 packets of juice at this store?",
+   "options": [
+    {
+     "text": "2427",
+     "added": false
+    },
+    {
+     "text": "3350",
+     "added": false
+    },
+    {
+     "text": "3433",
+     "added": false
+    },
+    {
+     "text": "2403",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In how many years will ¥ 40000 amounts to ¥ 46656 at the rate of 8% compound interest per annum?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "b"
+  },
+  {
+   "n": 17,
+   "text": "Www.prepp.in P [2 [2 Two triangles MNO and XYZ are given similar with the ratio of their side as 9 : 4. If the area of the larger triangle is 243 sq.cm, then the area of smaller triangle will be:",
+   "options": [
+    {
+     "text": "162 sq.cm",
+     "added": false
+    },
+    {
+     "text": "28 sq.cm",
+     "added": false
+    },
+    {
+     "text": "48sq.cm",
+     "added": false
+    },
+    {
+     "text": "16 sq.cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 18,
+   "text": "1 > Vas Ifa = ——= (a > 0), then the value of (a + *) is: a-Vv6 a",
+   "options": [
+    {
+     "text": "V6",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "J15",
+     "added": false
+    },
+    {
+     "text": "V7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "b"
+  },
+  {
+   "n": 19,
+   "text": "Manoj marked his goods 30% above the Cost Price and gives a 12% discount to the customers. The profit or loss percentage is:",
+   "options": [
+    {
+     "text": "14.8% loss",
+     "added": false
+    },
+    {
+     "text": "15.4% profit",
+     "added": false
+    },
+    {
+     "text": "14.4% profit",
+     "added": false
+    },
+    {
+     "text": "15% loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "c"
+  },
+  {
+   "n": 20,
+   "text": "1 1, Ifx= —& > 0), then the value of x += is: x— x",
+   "options": [
+    {
+     "text": "V4i",
+     "added": false
+    },
+    {
+     "text": "29",
+     "added": false
+    },
+    {
+     "text": "¥23",
+     "added": false
+    },
+    {
+     "text": "43",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Www.prepp.in [ [2 [2 Ashopkeeper marked a product, 40% above the cost price and sold the product for %3,780 by giving a discount of 10%. The profit percentage of the shopkeeper is:",
+   "options": [
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "26%",
+     "added": false
+    },
+    {
+     "text": "42%",
+     "added": false
+    },
+    {
+     "text": "14%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 22,
+   "text": "The following table represents the number of five different types of cars A,B, C, D, and E manufactured by a company over five years. Read the table carefully and answer the question given below. fn a | | | a a aa eee [ae ae | | ae | all a al Ean Renal nl ‘What is the percentage increment in the production of D-type of cars in the year 202 in comparison to the previous year? (correct up to two decimal places)",
+   "options": [
+    {
+     "text": "6.95%",
+     "added": false
+    },
+    {
+     "text": "5.95%",
+     "added": false
+    },
+    {
+     "text": "6.13%",
+     "added": false
+    },
+    {
+     "text": "7+ 6.33%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Inacircle of radius 14 cm, an arc subtends an angle of 90° at the centre. The length of arc (in cm) is equal to: Take a = =",
+   "options": [
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 24,
+   "text": "Www.prepp.in [ [2 [2 Amisha announced a festival discount of 30% on all items in her gift shop. Gurmeet bought a gift for himself. He gota discount of 21.110. What was the marked price of the gift?",
+   "options": [
+    {
+     "text": "33,650",
+     "added": false
+    },
+    {
+     "text": "750",
+     "added": false
+    },
+    {
+     "text": "23,850",
+     "added": false
+    },
+    {
+     "text": "33,700",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "S sells an item costing 237,800 to P with 8% profit. P sells it to Q with a 4% loss. At what price (in Z) does P sell the item? (Correct fo a nearest mpee)",
+   "options": [
+    {
+     "text": "39,919",
+     "added": false
+    },
+    {
+     "text": "39,119",
+     "added": false
+    },
+    {
+     "text": "39,191",
+     "added": false
+    },
+    {
+     "text": "39,911",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "c"
+  }
+ ]
+}

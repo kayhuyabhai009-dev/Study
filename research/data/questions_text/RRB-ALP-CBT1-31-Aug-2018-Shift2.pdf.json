@@ -1,0 +1,49 @@
+{
+ "paper": "RRB-ALP-CBT1-31-Aug-2018-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 22,
+ "questions": [
+  {
+   "n": 4,
+   "text": "Two pipes X and Y can individually fill a tank in 48 and 72 minutes, respectively. If they are opened simultaneously, how long will it take for the tank to fill? 24 fRae 41, 24 minutes 60 fae x 2, 60 minutes 28.8 fAae",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": "28.8 minutes"
+  },
+  {
+   "n": 10,
+   "text": "What percentage of 1 day is 18 minutes?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "1.25%"
+  },
+  {
+   "n": 18,
+   "text": "What is the difference between the place value and face value of 3 in 273965?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "digit-sum-and-place-value",
+   "key_answer": "2997"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.14,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 267,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

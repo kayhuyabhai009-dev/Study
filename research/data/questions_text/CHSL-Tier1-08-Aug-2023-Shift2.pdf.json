@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-08-Aug-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "What is the approximate present value (in 7 lakh) of an income of 22.1 lah to be received after 2 years if the rate of interest is 5%?",
+   "options": [
+    {
+     "text": "815",
+     "added": false
+    },
+    {
+     "text": "1.975",
+     "added": false
+    },
+    {
+     "text": "1.725",
+     "added": false
+    },
+    {
+     "text": "1.905",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "d"
+  },
+  {
+   "n": 2,
+   "text": "2 . 3 1 If x2- 5¥5x+1=0, andx > 0, what is the value of (x? — =)? x",
+   "options": [
+    {
+     "text": "1331",
+     "added": false
+    },
+    {
+     "text": "ov % 1364",
+     "added": false
+    },
+    {
+     "text": "1296",
+     "added": false
+    },
+    {
+     "text": "1244",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "b"
+  },
+  {
+   "n": 3,
+   "text": "Ashopkeeper sells a table at 25% discount on the marked price and earns a profit of 70%. If he sells the same table at 50% discount, then his new profit percentage will be:",
+   "options": [
+    {
+     "text": "11-% 3 1",
+     "added": false
+    },
+    {
+     "text": "12=% 2 1",
+     "added": false
+    },
+    {
+     "text": "13=% 3 1",
+     "added": false
+    },
+    {
+     "text": "13-%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Wwww.prepp.in Prepp The shares of students studying in different streams of a college in the years 2021 and 2022 are reflected in the two pie charts given below. CENTRAL ANGLES REPRESENTING THE SHARES OF STUDENTS IN DIFFERENT STREAMS IN A COLLEGE IN 2021 Pertorming Arts, 21.6 authentic tiioes wall Sconces, 65-4 ‘Siemews, 328 = s txperimentat ‘scence 34 Humanities, 8-4 CENTRAL ANGLES REPRESENTING THE SHARES OF STUDENTS IN DIFFERENT STREAMS IN A COLLEGE IN 2022 Performing Arts, 24.6 ‘Seti Gis Pharmaceutical Stiencen, OL? ‘Sclencen 35.2 = ss expesimentat selemees 3206 ose The total number of students in the college was 60000 in 2021, which rose to 75000 in 2022. What was the percentage change in the number of students opting for the mathematical sciences from 2021 to 2022? [Give your answer correct to the nearest integer value]",
+   "options": [
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "11%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "13%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "a"
+  },
+  {
+   "n": 5,
+   "text": "Q5_ Ifthe volume of a cube is 729 cm?, then find the total surface area of the cube.",
+   "options": [
+    {
+     "text": "484 cm?",
+     "added": false
+    },
+    {
+     "text": "482 cm",
+     "added": false
+    },
+    {
+     "text": "488 cm? 2",
+     "added": false
+    },
+    {
+     "text": "86 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Wwww.prepp.in Prepp The following table gives the sales of shirts manufactured by companies C1, C2, C3 and C4 over five weeks. Study the table and answer the question that follows. =e, eee ed cll ol acl cd Which company sold the most shirts in these five weeks?",
+   "options": [
+    {
+     "text": "C1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "C2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "d"
+  },
+  {
+   "n": 7,
+   "text": "= Aand B together can complete a piece of work in 15 days and B alone can complete it in 21 days. In how many days can A complete it alone?",
+   "options": [
+    {
+     "text": "41= days",
+     "added": false
+    },
+    {
+     "text": "1 ~¥ 2. 52-days 2 1",
+     "added": false
+    },
+    {
+     "text": "31—days 2 1",
+     "added": false
+    },
+    {
+     "text": "57—days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs ‘ r ‘ “ z 22 The circumference of a circle is 132 cm. The area of circle is: Take 1 = 7",
+   "options": [
+    {
+     "text": "380 cm?",
+     "added": false
+    },
+    {
+     "text": "1322 cm?",
+     "added": false
+    },
+    {
+     "text": "1086 cm?",
+     "added": false
+    },
+    {
+     "text": "* 1386 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": "d"
+  },
+  {
+   "n": 9,
+   "text": "www prepp.in prepp Abus tavels for three hours at 60 km/h, four hours at 50 km/h and the next five hours at 50 kn/h. Find its average speed.",
+   "options": [
+    {
+     "text": "52.5 km/h",
+     "added": false
+    },
+    {
+     "text": "52 knv/h",
+     "added": false
+    },
+    {
+     "text": "46 km/h",
+     "added": false
+    },
+    {
+     "text": "50 knvh",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "a"
+  },
+  {
+   "n": 10,
+   "text": "Inacamp of 70 boys. there are food provisions for 36 days. If 50 more boys join the camp. then how many days will the provisions last?",
+   "options": [
+    {
+     "text": "25 days",
+     "added": false
+    },
+    {
+     "text": "24 days",
+     "added": false
+    },
+    {
+     "text": "21 days",
+     "added": false
+    },
+    {
+     "text": "18 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "r | ee What is the remainder when 3° is divided by 7?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 12,
+   "text": "the area of a sector of a circle is 616 cm? with a central angle of 10°. The radius of the circle is (use = = )",
+   "options": [
+    {
+     "text": "84cm",
+     "added": false
+    },
+    {
+     "text": "21cm",
+     "added": false
+    },
+    {
+     "text": "48cm",
+     "added": false
+    },
+    {
+     "text": "28cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 13,
+   "text": "Wwww.prepp.in Prepp a3 Your Personal Exams|Guide . aq. If Va = 3b, then © is equal to: Al ns x1. 1 6 X26 x32 9 749",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "2 9",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "d"
+  },
+  {
+   "n": 14,
+   "text": "14 1f2:9::4:x, then the value of xis:",
+   "options": [
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Simplify the given equation. Cot? A-1_ 4 cotA-1 .",
+   "options": [
+    {
+     "text": "ns % 1. cosec?A — cotA",
+     "added": false
+    },
+    {
+     "text": "cosec?A + cotA",
+     "added": false
+    },
+    {
+     "text": "cot? A+ cosecA",
+     "added": false
+    },
+    {
+     "text": "cot? A—cosecA",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Wwww.prepp.in Prepp ais Your Personal Exams|Guide \"Simplify the given expression. (0.25)* + 2 x (0.25)? + 1 — (0.25)? (0.25)? + 0.25 +1",
+   "options": [
+    {
+     "text": "0.6755",
+     "added": false
+    },
+    {
+     "text": "0.9025",
+     "added": false
+    },
+    {
+     "text": "0.8125",
+     "added": false
+    },
+    {
+     "text": "0.7835",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "c"
+  },
+  {
+   "n": 17,
+   "text": "A trader sells two LED sets at the same price. There is a gain of 20% on one LED and 20% loss on the second LED. Which of the following statements is true?",
+   "options": [
+    {
+     "text": "The trader makes a profit of 4%",
+     "added": false
+    },
+    {
+     "text": "The trader makes a profit of 2%",
+     "added": false
+    },
+    {
+     "text": "The trader makes no profit or no loss",
+     "added": false
+    },
+    {
+     "text": "%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "a"
+  },
+  {
+   "n": 18,
+   "text": "[fTan 6 + Sec 6 = a, then what is Sec 6 equal to:",
+   "options": [
+    {
+     "text": "2a",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "w4 at+1",
+     "added": false
+    },
+    {
+     "text": "2a",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "www prepp.in prepp in what ratio does a grocer mix tea at 226 per kg and 232 per kg so that by selling the mixture at 230 per ka they may gain 10%?",
+   "options": [
+    {
+     "text": "7: 26",
+     "added": false
+    },
+    {
+     "text": "16:7",
+     "added": false
+    },
+    {
+     "text": "26:7",
+     "added": false
+    },
+    {
+     "text": "7:16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": "c"
+  },
+  {
+   "n": 20,
+   "text": "The speed of a car is 63 km/h. What is the distance travelled by it in 10 seconds?",
+   "options": [
+    {
+     "text": "175m",
+     "added": false
+    },
+    {
+     "text": "1.75 km",
+     "added": false
+    },
+    {
+     "text": "185m",
+     "added": false
+    },
+    {
+     "text": "17.5m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "a"
+  },
+  {
+   "n": 21,
+   "text": "Shyam purchased a packet of 16 pens and got 4 pens free with it. He marked the price 20% more than the CP. If he did not allow any discount and sold all the 20 pens at this price, then what was his profit percentage?",
+   "options": [
+    {
+     "text": "37 4%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "36%",
+     "added": false
+    },
+    {
+     "text": "48%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 22,
+   "text": "és 11 Fi If @ is an acute angle and cos@ = = what is the value of tan8?",
+   "options": [
+    {
+     "text": "20 11",
+     "added": false
+    },
+    {
+     "text": "22 11",
+     "added": false
+    },
+    {
+     "text": "242 11",
+     "added": false
+    },
+    {
+     "text": "242",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Wwww.prepp.in Prepp The table gives the number of students in each class and the percentage of students in the class who like Hockey, Tennis, Chess and Golf. [Class | Number of Students [Hockey [Tennis] Chess Golf [ poof so 9088 sme 85% Tam a How many students in all the given classes like Hockey?",
+   "options": [
+    {
+     "text": "596",
+     "added": false
+    },
+    {
+     "text": "608",
+     "added": false
+    },
+    {
+     "text": "740",
+     "added": false
+    },
+    {
+     "text": "614",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "b"
+  },
+  {
+   "n": 24,
+   "text": "AABC is similar to APQR. If the ratio of the perimeter of A ABC and perimeter of APQR is 24 : 16 and PQ =4.8 cm. then the length (in cm) of AB is:",
+   "options": [
+    {
+     "text": "8.6",
+     "added": false
+    },
+    {
+     "text": "7.2",
+     "added": false
+    },
+    {
+     "text": "4.6",
+     "added": false
+    },
+    {
+     "text": "2.8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": "b"
+  },
+  {
+   "n": 25,
+   "text": "two triangles XYZ and UVW are congruent. If the area of AXYZ is 58 em?, then the area of AUVW will be:",
+   "options": [
+    {
+     "text": "58cm?",
+     "added": false
+    },
+    {
+     "text": "116 cm?",
+     "added": false
+    },
+    {
+     "text": "29 cm?",
+     "added": false
+    },
+    {
+     "text": "15 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  }
+ ]
+}

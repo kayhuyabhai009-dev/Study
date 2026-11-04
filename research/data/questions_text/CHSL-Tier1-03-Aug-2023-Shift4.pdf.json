@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-03-Aug-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Q.1_ Minor arc BC subtends angles BAC and BDC at points A and D, respectively, on the circumference in the major sector of the circle with centre 0. What is the value [in degrees] of (CABC + 2 ACB), if 2BDC = 73°?",
+   "options": [
+    {
+     "text": "117°",
+     "added": false
+    },
+    {
+     "text": "107°",
+     "added": false
+    },
+    {
+     "text": "103°",
+     "added": false
+    },
+    {
+     "text": "113°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 2,
+   "text": "Wwww.prepp.in Prepp What is the least value of x+y, if 10 digit number 780x533y24 is divisible by 88?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "d"
+  },
+  {
+   "n": 3,
+   "text": "The compound ratio of 3 : 4 and 6: 7 is 36: x. Find x.",
+   "options": [
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "c"
+  },
+  {
+   "n": 4,
+   "text": "In AABC, the interna! bisectors of ZABC and ZACB meet at X and ZBAC = 30°. The measure of ZBXC is;",
+   "options": [
+    {
+     "text": "120°",
+     "added": false
+    },
+    {
+     "text": "115°",
+     "added": false
+    },
+    {
+     "text": "105°",
+     "added": false
+    },
+    {
+     "text": "150°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  },
+  {
+   "n": 5,
+   "text": "The difference between the total surface area and the lateral surface area of a cube of side 12 cmis:",
+   "options": [
+    {
+     "text": "Ane X 1. 292 cm?",
+     "added": false
+    },
+    {
+     "text": "290 cm?",
+     "added": false
+    },
+    {
+     "text": "288 cm?",
+     "added": false
+    },
+    {
+     "text": "286 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "www prepp.in prepp A bagis listed at 31,500 and a discount of 20% is offered. If the customer wanted to get the bag at a net price of 21,104, what additional discount must be offered to the customer?",
+   "options": [
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "4%",
+     "added": false
+    },
+    {
+     "text": "5%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": "a"
+  },
+  {
+   "n": 7,
+   "text": "Disha takes 12 hours to copy a 75-page manuscript, while Mohit can copy the same manuscript in 10 hours. How many hours will it take for them to copy a 150-page manuscript if they work together?",
+   "options": [
+    {
+     "text": "0 ~¥ '. 10— hours 11 9",
+     "added": false
+    },
+    {
+     "text": "9 — hours 11 9",
+     "added": false
+    },
+    {
+     "text": "8 — hours 11 8",
+     "added": false
+    },
+    {
+     "text": "11— hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Shobha purchased a saree for 25,130 after availing two successive discounts of 10% and $%. What is the marked price of the saree?",
+   "options": [
+    {
+     "text": "26,000",
+     "added": false
+    },
+    {
+     "text": "25,400",
+     "added": false
+    },
+    {
+     "text": "25,000",
+     "added": false
+    },
+    {
+     "text": "25,200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A financial institution claims that it returns three times the principal in 25 years on a certain rate of simple interest per annum. What is the rate of simple interest?",
+   "options": [
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "6%",
+     "added": false
+    },
+    {
+     "text": "4%",
+     "added": false
+    },
+    {
+     "text": "5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "a"
+  },
+  {
+   "n": 10,
+   "text": "www prepp.in prepp The distance between the centres of two circles having radii of 24 cm and 18 cm, respectively, is 48 cm. Find the length (in em) of a direct common tangent fo the two circles.",
+   "options": [
+    {
+     "text": "20V6",
+     "added": false
+    },
+    {
+     "text": "18V7",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "22V5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "b"
+  },
+  {
+   "n": 11,
+   "text": "| The radius ofa circle is 3 cm and *O’ is its centre. The length of the tangent (in cm) to the circle drawn from a point P, which is at a distance of 5 cm from *O” is:",
+   "options": [
+    {
+     "text": "7i.4",
+     "added": false
+    },
+    {
+     "text": "X26",
+     "added": false
+    },
+    {
+     "text": "x35",
+     "added": false
+    },
+    {
+     "text": "x43",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The given table shows the number of berths reserved in trains A. B and C on a particular day under different classes. Study the given table and answer the question that follows. Trains | 4c-j%class | AC-sleeper AC-chair car | First class 274 class capacity-200 | capacity-200 | capacity-400 | capacity-300 | capacity-500 [Bo [ipo fags as fans fare aS: =) How many berths in all the classes together are vacant in Trains B and C?",
+   "options": [
+    {
+     "text": "534",
+     "added": false
+    },
+    {
+     "text": "612",
+     "added": false
+    },
+    {
+     "text": "322",
+     "added": false
+    },
+    {
+     "text": "278",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "c"
+  },
+  {
+   "n": 13,
+   "text": "a 2 3: 3 If (a+b+c) = 0, then (a +b +c) (a + b* + c~ —ab— be — ca) is equal to:",
+   "options": [
+    {
+     "text": "a3 +b3—¢3 — 3abe",
+     "added": false
+    },
+    {
+     "text": "93 —b3 +c} — 3abe",
+     "added": false
+    },
+    {
+     "text": "—3abe",
+     "added": false
+    },
+    {
+     "text": "B+bi+c3+3abe",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "www prepp.in prepp Aboat goes 10 km upstream in 50 minutes, and the speed of the stream is 3 kmph. Find the speed of the boat in still water (in kmph).",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": "a"
+  },
+  {
+   "n": 15,
+   "text": "Avendor earns 10% on an investment but loses 10% on another investment. What will be the combined Joss or gain if the two investments are in the ratio 1: 3?",
+   "options": [
+    {
+     "text": "4% loss",
+     "added": false
+    },
+    {
+     "text": "S%gain",
+     "added": false
+    },
+    {
+     "text": "4% gain",
+     "added": false
+    },
+    {
+     "text": "+ 5% loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A v2 If sin (p + q) = 1 and cos (p — q) = > > find p.",
+   "options": [
+    {
+     "text": "90°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "120°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  },
+  {
+   "n": 17,
+   "text": "The ratio of the number of men to the number of women in an office is 2 : 3. If the average weights of the men and the women in the office are 56 kg and 51 kg, respectively, find the average weight of the employees in the office (in kg).",
+   "options": [
+    {
+     "text": "53.5",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "53",
+     "added": false
+    },
+    {
+     "text": "54.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "c"
+  },
+  {
+   "n": 18,
+   "text": "www prepp.in prepp The following pie-chart shows the percentage distribution of different fruits in a market. Fruits 5% 10% Mango x Watermeloe = Orange «Apple = Mustmeion a Others There are 15,000 kg of oranges in the market. Find the quantity of muskmelon and watermelon together.",
+   "options": [
+    {
+     "text": "25,000 kg",
+     "added": false
+    },
+    {
+     "text": "5,000 kg",
+     "added": false
+    },
+    {
+     "text": "20,000 kg",
+     "added": false
+    },
+    {
+     "text": "10,000 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The following table represents the number of candidates who appeared (A) and passed (P) in a screening test over four years from four different states. Read the table carefully and answer the question given below: States! Assam Dtar . Pradesh Years pa{ P| a{r | alr | ale | | | [|| || | er ‘What is the average number of appearing candidates in the screening test from all the four states in the year 20217",
+   "options": [
+    {
+     "text": "4000",
+     "added": false
+    },
+    {
+     "text": "3900",
+     "added": false
+    },
+    {
+     "text": "3850",
+     "added": false
+    },
+    {
+     "text": "3950",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "d"
+  },
+  {
+   "n": 20,
+   "text": "A person, who spends 68% of his monthly income, is able to save 314,720 per month. Find his total expenses.",
+   "options": [
+    {
+     "text": "346,000",
+     "added": false
+    },
+    {
+     "text": "%38,210",
+     "added": false
+    },
+    {
+     "text": "31,280",
+     "added": false
+    },
+    {
+     "text": "242,400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": "c"
+  },
+  {
+   "n": 21,
+   "text": "Wwww.prepp.in Prepp 7 If cosec@ = 1 a5 find the value of cot?6.",
+   "options": [
+    {
+     "text": "2 484 357",
+     "added": false
+    },
+    {
+     "text": "—_ 484 225",
+     "added": false
+    },
+    {
+     "text": "228",
+     "added": false
+    },
+    {
+     "text": "84",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Ifx? = 270 + y* andx = (6 +y), then what is the value of (x + y)? (given thatx > 0 andy > 0)",
+   "options": [
+    {
+     "text": "2 V3",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4y3",
+     "added": false
+    },
+    {
+     "text": "4Vv2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "23 If 2a+ 3b = 14 and 2a—3 b= 10, then find the value of ‘ab’.",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "What is the present value of the sum if the interest compounded at the rate of 18% per annum for two years is 7981?",
+   "options": [
+    {
+     "text": "22,800",
+     "added": false
+    },
+    {
+     "text": "22,500",
+     "added": false
+    },
+    {
+     "text": "23,600",
+     "added": false
+    },
+    {
+     "text": "22,400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Wwww.prepp.in Prepp If cot A+ cos A= p and cot A—cos A = q, then which of the following relation is correct?",
+   "options": [
+    {
+     "text": "XK 2. = p?+q?",
+     "added": false
+    },
+    {
+     "text": "apa porq",
+     "added": false
+    },
+    {
+     "text": "v ® /16pq = p? — q?",
+     "added": false
+    },
+    {
+     "text": "4pq= p?+q?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  }
+ ]
+}

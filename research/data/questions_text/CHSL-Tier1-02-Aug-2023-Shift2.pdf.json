@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-02-Aug-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Acomputer is available for 39,000 on cash payment or 819,000 as cash payment followed by five monthly instalments of 84,200 each. What is the rate of interest per annum under the instalment plan?",
+   "options": [
+    {
+     "text": "9 % 1. 20—%",
+     "added": false
+    },
+    {
+     "text": "9 17 % 2. 20—% 29 20",
+     "added": false
+    },
+    {
+     "text": "20—% v 29 13",
+     "added": false
+    },
+    {
+     "text": "20—%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "ifthe distance between the centres of two circles is 12 cm and the radii are 5 cm and 4 cm, then the length (in cm) of the transverse common tangent is:",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "143",
+     "added": false
+    },
+    {
+     "text": "V63",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "c"
+  },
+  {
+   "n": 3,
+   "text": "Wwww.prepp.in Prepp Ramagya sold his computer at three successive discounts of 18%, 12%, and 5%, If the marked price of the computer is 336,000. then find the net selling price of the computer. (Correct to two places of decimals.)",
+   "options": [
+    {
+     "text": "224,786.72",
+     "added": false
+    },
+    {
+     "text": "224,678.72",
+     "added": false
+    },
+    {
+     "text": "224,687.72",
+     "added": false
+    },
+    {
+     "text": "224,876.72",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The number of stations in four different cities A. B, C and D are given below. Stations 1200 900 *AeD cad The angles made by the cities C and D on pie chart are degrees and degrees, respectively.",
+   "options": [
+    {
+     "text": "150, 70",
+     "added": false
+    },
+    {
+     "text": "70, 150",
+     "added": false
+    },
+    {
+     "text": "90, 120",
+     "added": false
+    },
+    {
+     "text": "120,90",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "d"
+  },
+  {
+   "n": 5,
+   "text": "Q.5_ Adirect common tangent is drawn to two circles of radius 25 cm and 20 cm. The centres of the two circles are 35 cm apart. What is the length (in cm) of the tangent? Al \"Kt 25V2 2 25V3 ¥* 20V3 * 4 20V2",
+   "options": [
+    {
+     "text": "Kt 25V2",
+     "added": false
+    },
+    {
+     "text": "25V3",
+     "added": false
+    },
+    {
+     "text": "20V3",
+     "added": false
+    },
+    {
+     "text": "20V2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": "c"
+  },
+  {
+   "n": 6,
+   "text": "Wwww.prepp.in Prepp a6 Your Personal Exams|Guide ~ Tf(a—b)=9, and (a? b?) = 4401, find the value of ab.",
+   "options": [
+    {
+     "text": "190",
+     "added": false
+    },
+    {
+     "text": "112",
+     "added": false
+    },
+    {
+     "text": "162",
+     "added": false
+    },
+    {
+     "text": "136",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "d"
+  },
+  {
+   "n": 7,
+   "text": "The average weight of group A and group B is 12 kg and 24 kg, respectively. The ratio of the members in group A to group B is 1 : 2. Find the combined average of both the groups.",
+   "options": [
+    {
+     "text": "16 kg",
+     "added": false
+    },
+    {
+     "text": "22kg",
+     "added": false
+    },
+    {
+     "text": "20kg",
+     "added": false
+    },
+    {
+     "text": "18 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "c"
+  },
+  {
+   "n": 8,
+   "text": "8 Tf A = 60°, B = 30°, then find the value of sin A cos B+ cos Asin B.",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Qs 1 . 3fo, 1 Iffat+-)= 6 , then what is the value of = a’+-)? a a",
+   "options": [
+    {
+     "text": "22.5",
+     "added": false
+    },
+    {
+     "text": "34",
+     "added": false
+    },
+    {
+     "text": "7%. 25.5",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Wwww.prepp.in Prepp Aisa working partner and B is a sleeping parmer in a business. A invested 230,000 and B invested 250,000, A receives 20% of the profit for managing the business and the rest is divided in proportion to their capital. What does B get out of the profit of 10,000?",
+   "options": [
+    {
+     "text": "25,500",
+     "added": false
+    },
+    {
+     "text": "25,000",
+     "added": false
+    },
+    {
+     "text": "24,500",
+     "added": false
+    },
+    {
+     "text": "24,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Q.11_ The below data gives the number of boys and girls in class V, Class VI, Class VII and Class VIII. 66 65 64 62 62 61 60 60 59 59 58 58 57 56 54 52 Class V Clas VI Class Vil Class vill Boys mGirls Which class has maximum number of students?",
+   "options": [
+    {
+     "text": "VIII",
+     "added": false
+    },
+    {
+     "text": "Y2V",
+     "added": false
+    },
+    {
+     "text": "Ks. VI",
+     "added": false
+    },
+    {
+     "text": "VII",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": ". Ina solution of water and milk the quantity of milk is double the quantity of water. To pass the quality standards, the solution anst contain 90% milk in it. If the volume of the solution is v, then how much pure milk in litres is to be added to the solution to pass the quality standard?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "v4 7",
+     "added": false
+    },
+    {
+     "text": "sv",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Wwww.prepp.in Prepp Which of the following numbers is NOT divisible by 6. (i) 1,97,232 (ii) 9,72,132 (iii) 8,00,552 (iv) 17,90,184",
+   "options": [
+    {
+     "text": "(i)",
+     "added": false
+    },
+    {
+     "text": "(iii)",
+     "added": false
+    },
+    {
+     "text": "(iv)",
+     "added": false
+    },
+    {
+     "text": "(ii)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Aman buys a toy car for 225 and sells it for %210. Find his loss percentage {round up to two decimal places).",
+   "options": [
+    {
+     "text": "4.44%",
+     "added": false
+    },
+    {
+     "text": "93.33%",
+     "added": false
+    },
+    {
+     "text": "3.33%",
+     "added": false
+    },
+    {
+     "text": "7* 6.67%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "In AABC, the straight line parallel to the side BC meets AB and AC at the points P and Q, respectively. If AP = QC, the length of AB is 16 cm and the length of AQ is 4 em, then the length (in em) CQ is:",
+   "options": [
+    {
+     "text": "(2V21 + 2)",
+     "added": false
+    },
+    {
+     "text": "(2V18 — 2)",
+     "added": false
+    },
+    {
+     "text": "v°> (2V17 - 2)",
+     "added": false
+    },
+    {
+     "text": "(2V19 + 2)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Wwww.prepp.in Prepp Aman wants to get his spherical overhead water tank having a diameter of 7 m, painted. If the cost of painting is 213 per square metre, find the cost of painting Aman’s spherical overhead water tank. (Use x= =)",
+   "options": [
+    {
+     "text": "21,872",
+     "added": false
+    },
+    {
+     "text": "21,984",
+     "added": false
+    },
+    {
+     "text": "22,002",
+     "added": false
+    },
+    {
+     "text": "21,926",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": ". . . Tw . If (sin@ — cos @) = 0, then the value of sin(n — 6) + sin G - 8) is:",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "rthe price of a movie ticket increased by 12=% and the sale of tickets also increased by 8 2%, then find % change in income.",
+   "options": [
+    {
+     "text": "21.875%",
+     "added": false
+    },
+    {
+     "text": "22.6750%",
+     "added": false
+    },
+    {
+     "text": "20.675%",
+     "added": false
+    },
+    {
+     "text": "22.0625%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": "d"
+  },
+  {
+   "n": 19,
+   "text": "Wwww.prepp.in Prepp Study the table given below and answer the question that follows. The table below shows the total number of students studying different subjects in a college and the percentage of boys and girls. [inc [esis [7 —=~d| SiS” [Puss [so (| —S«dYSS id a [Matinee [80 (| Sid Sir [compres [90 —~4| Sw dSCO” ‘What is the respective ratio of the number of girls studying English to that of girls studying computers?",
+   "options": [
+    {
+     "text": "22:23",
+     "added": false
+    },
+    {
+     "text": "33:35",
+     "added": false
+    },
+    {
+     "text": "36:23",
+     "added": false
+    },
+    {
+     "text": "35:36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "d"
+  },
+  {
+   "n": 20,
+   "text": "220 The value of cot 13° cot 27 °cot 60° cot 63° cot 77? is:",
+   "options": [
+    {
+     "text": "“\"S",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "73",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Apublisher supplies books to a book-seller at a 20% discount on the list price of 11,574.80. If the book-seller sells books at the list price and if his expenses for freight etc. are %45.40, determine his profit. Al ns X% 1. 3285.34 oY 2 2269.56 % 3. 2273.50 % 4. 3282.22",
+   "options": [
+    {
+     "text": "3285.34",
+     "added": false
+    },
+    {
+     "text": "2269.56",
+     "added": false
+    },
+    {
+     "text": "2273.50",
+     "added": false
+    },
+    {
+     "text": "3282.22",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Wwww.prepp.in Prepp a22 Your Personal Exams|Guide 5 sf * 1 If (x +=) = 572, and x > 1, what is the value of (x6 -= )? x x",
+   "options": [
+    {
+     "text": "22970V23",
+     "added": false
+    },
+    {
+     "text": "303023",
+     "added": false
+    },
+    {
+     "text": "23060V23",
+     "added": false
+    },
+    {
+     "text": "22960V23",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "9.23 Which of the following set of angles forms a triangle?",
+   "options": [
+    {
+     "text": "60°, 70°,80°",
+     "added": false
+    },
+    {
+     "text": "60°, 70°,30°",
+     "added": false
+    },
+    {
+     "text": "60°, 40°,80°",
+     "added": false
+    },
+    {
+     "text": "60°, 50°,80°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  },
+  {
+   "n": 24,
+   "text": "Alaptop is marked at a price 20% above its cost price. At what discount percentage should it be sold to make a 5% profit?",
+   "options": [
+    {
+     "text": "11.5%",
+     "added": false
+    },
+    {
+     "text": "12.5%",
+     "added": false
+    },
+    {
+     "text": "13.5%",
+     "added": false
+    },
+    {
+     "text": "10.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 25,
+   "text": "Q.25_ Find the compound interest on %50,000 for one year at 8% per annum when compounded half yearly.",
+   "options": [
+    {
+     "text": "33,900",
+     "added": false
+    },
+    {
+     "text": "880",
+     "added": false
+    },
+    {
+     "text": "34,080",
+     "added": false
+    },
+    {
+     "text": "3,950",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  }
+ ]
+}

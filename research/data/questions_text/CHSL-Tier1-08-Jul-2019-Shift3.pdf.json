@@ -1,0 +1,516 @@
+{
+ "paper": "CHSL-Tier1-08-Jul-2019-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The given Bar Graph presents the number of students of two schools for six years. ‘What is the average (Correct to two decimal places) of total students in schools A and B taken together during the six year period?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The distance between the centres of two circles of radius 3 cm and 2 cm is 13 cm. The length (in cm) of a transverse common tangent is:",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Addale4i7) ic The given Bar Graph presents the number of students of two schools for six years. - . sion wanes What is the ratio of the number of students taken together for the years 2008, 2012 and 2013 in School A to the number of students taken together for the years 2008, 2012 and 2013 in school B?",
+   "options": [
+    {
+     "text": "229: 153",
+     "added": false
+    },
+    {
+     "text": "101: 117",
+     "added": false
+    },
+    {
+     "text": "153 : 229",
+     "added": false
+    },
+    {
+     "text": "117: 101",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Ifthe seven digit number 54x29y6 (x > y) is divisible by 72, what is the value of (2x + 3y)?",
+   "options": [
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "38",
+     "added": false
+    },
+    {
+     "text": "23",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "In AABC, the bisectors of 4B and ZC meet at O, inside the triangle. If BOC = 106°, then the measure of 2 A iis:",
+   "options": [
+    {
+     "text": "16°",
+     "added": false
+    },
+    {
+     "text": "106°",
+     "added": false
+    },
+    {
+     "text": "32°",
+     "added": false
+    },
+    {
+     "text": "84°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Qé 5 Ifa? + b? = 1344 and a+b =28, then (a+b) — 3ab is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "z A dealer buys an article marked at 20000 with two successive discounts of 20% and 5%. He spends 21800 on repairs and sells it for 220000, what is his profit/loss percent (correct to one decimal place)?",
+   "options": [
+    {
+     "text": "23.46% profit",
+     "added": false
+    },
+    {
+     "text": "17.65% profit",
+     "added": false
+    },
+    {
+     "text": "17.65% loss",
+     "added": false
+    },
+    {
+     "text": "23.64% loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "AandB can complete a piece of work in 15 days and 10 days respectively. They got a contract to complete the work for 275000. The share of B (in 2) in the contracted money will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The given Bar Graph presents the number of students of two'schools for six years. *SchoolA = School B on oe 800 ee ie 759 700 - 640 600 ea oy $00 500 Maso 400 300 200 100 4 7 e 2008 2009 2010 2011 2012 2013 In which year the sum of the students in two schools is the highest?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "PA and PB are the tangents to a circle with centre O, from a point P outside the circle. A and B are the points on the circle. If APB = 72°, then ZOAB is equal to:",
+   "options": [
+    {
+     "text": "72°",
+     "added": false
+    },
+    {
+     "text": "24°",
+     "added": false
+    },
+    {
+     "text": "18° VW + 36° a |",
+     "added": false
+    },
+    {
+     "text": "i7) Sie al",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "V3 = : If cosx = = andt<x< re then the value of 2cot?x — 3sec?x is:",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "3 ar Lene Ifx = 2+-¥5 then the value of (x* — x~*) is:",
+   "options": [
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "76",
+     "added": false
+    },
+    {
+     "text": "-76",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Tet AABC ~ AQPR and =. If AB = 12 em, BC =8 em and AC = 9 cm, then PR is equal to:",
+   "options": [
+    {
+     "text": "17.5",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "5 2 i ee If cot 6 = 5x and cosec 8 = z (x + 0), then the value of 5 (x - 9) is: x",
+   "options": [
+    {
+     "text": "= 5 aE",
+     "added": false
+    },
+    {
+     "text": "= 2 aC",
+     "added": false
+    },
+    {
+     "text": "-= 5",
+     "added": false
+    },
+    {
+     "text": "} 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "ee | Q15 Tf 4(cosec?65° — tan?25°) — sin90°— tan?63°y tan?27° = = then the value of y is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Tf each side of a rectangle is decreased by 13%, then its area will decrease by:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A earns 2640 per day and works for 8 hours. B earns 2360 per day and works for 6 hours. The ratio of per day wages of Ato that of B is:",
+   "options": [
+    {
+     "text": "5:4",
+     "added": false
+    },
+    {
+     "text": "9: 16",
+     "added": false
+    },
+    {
+     "text": "16:9",
+     "added": false
+    },
+    {
+     "text": "425",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "wages",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The average age of fifteen persons is 32 years. If two more persons are added then the average is increased by 3 years. The new persons have an age difference of 9 years between them. The age (in years) of the elder among the new persons is:",
+   "options": [
+    {
+     "text": "62",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "53",
+     "added": false
+    },
+    {
+     "text": "58",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "i Ifx*+x~* = 47, (x > 0), then the value of (2x— 3)? is:",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The sum of the salaries of A and B together is 245000. A spends 85% of his salary and B, 70% of his salary. If now their savings are the same, what is B’s salary (in 2)?",
+   "options": [
+    {
+     "text": "30,000",
+     "added": false
+    },
+    {
+     "text": "18,000",
+     "added": false
+    },
+    {
+     "text": "12,600",
+     "added": false
+    },
+    {
+     "text": "15,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The compound interest on a certain sum of money at 21% for 2 years is 29,282. Its simple interest (in 2) at the same rate and for the same period is:",
+   "options": [
+    {
+     "text": "8.750",
+     "added": false
+    },
+    {
+     "text": "8,400",
+     "added": false
+    },
+    {
+     "text": "8,000",
+     "added": false
+    },
+    {
+     "text": "8,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "022 46-2 of 32-6 . . - 7 . The simplified value of —4__\"\"__ is: LW of (34-6)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The ratio between the speeds of two trains is 2 : 5. If the first train runs 350 km in 5 h, then the difference between the speeds (in km/h) of both the trains is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The given Bar Graph presents the number of students of two schools for six years. In which year the percentage increase in the number of total students in schools A and B taken together is the highest in comparison to its previous year?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "A man bought three articles for 23,000 each. He sold the articles respectively at 10% profit, 5% profit and 15% loss. The total percentage profit/loss he earned is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  }
+ ]
+}

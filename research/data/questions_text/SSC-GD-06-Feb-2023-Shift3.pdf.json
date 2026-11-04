@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-06-Feb-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 2,
+   "text": "If 17% of 630 = 35% of x, then what is the value of x?",
+   "options": [
+    {
+     "text": "356",
+     "added": false
+    },
+    {
+     "text": "310",
+     "added": false
+    },
+    {
+     "text": "306",
+     "added": false
+    },
+    {
+     "text": "308",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A bought a number of mangoes at 2 for ₹5 and an equal number at 3 for ₹5. To make a profit of 20% she should sell a dozen for:",
+   "options": [
+    {
+     "text": "₹30",
+     "added": false
+    },
+    {
+     "text": "₹25",
+     "added": false
+    },
+    {
+     "text": "₹16",
+     "added": false
+    },
+    {
+     "text": "₹12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The compound interest on a principal in 3 years is 33.1% of the principal if the interest is compounded annually. Find the rate of interest per annum :",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The ratio of the third proportional of P and Q and the fourth proportional of P, Q and R is 5 : 6, then Q : R is:",
+   "options": [
+    {
+     "text": "6 : 5",
+     "added": false
+    },
+    {
+     "text": "2 : 3",
+     "added": false
+    },
+    {
+     "text": "5 : 6",
+     "added": false
+    },
+    {
+     "text": "3 : 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "By selling a refrigerator for Rs.28,448, a shopkeeper makes a profit of 12%. If the profit is reduced to 8%, what is the new selling price of the refrigerator?",
+   "options": [
+    {
+     "text": "Rs.24,500",
+     "added": false
+    },
+    {
+     "text": "Rs.26,342",
+     "added": false
+    },
+    {
+     "text": "Rs.25,400",
+     "added": false
+    },
+    {
+     "text": "Rs.27,432",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Height of a plant increases at the rate of 2% per annum. If its present height is 1.2 m, then what wil be the height of plant after three years ?",
+   "options": [
+    {
+     "text": "1.254 m",
+     "added": false
+    },
+    {
+     "text": "1.253 m",
+     "added": false
+    },
+    {
+     "text": "1.263 m",
+     "added": false
+    },
+    {
+     "text": "1.273 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Two trains start at the same time from Mumbai and Delhi, and proceed towards each other at the speeds of 15 km/h and 26 km/h respectively. When they meet, it is found that one train has travelled 99 km more than the other. The distance between the two stations is:",
+   "options": [
+    {
+     "text": "570 km",
+     "added": false
+    },
+    {
+     "text": "632 km",
+     "added": false
+    },
+    {
+     "text": "414 km",
+     "added": false
+    },
+    {
+     "text": "369 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Find the square of Z. Z is the remainder when the smallest 4-digit number exactly divisible by 24 and 36 is divided by 40.",
+   "options": [
+    {
+     "text": "144",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A can complete a work in 15 days. A started the work alone and work for 4 days. B alone complete the remaining work in 18 days. In how many days will A and B together finish the work?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Two numbers P and Q are such that the sum of 10% of P and 5% of Q is one-fourth of the sum of 15% of P and 25% of Q. Find the ratio of P to Q.",
+   "options": [
+    {
+     "text": "5 : 2",
+     "added": false
+    },
+    {
+     "text": "1 : 5",
+     "added": false
+    },
+    {
+     "text": "5 : 1",
+     "added": false
+    },
+    {
+     "text": "2 : 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Find the third proportional of 5 and 11.",
+   "options": [
+    {
+     "text": "22.0",
+     "added": false
+    },
+    {
+     "text": "22.4",
+     "added": false
+    },
+    {
+     "text": "24.2",
+     "added": false
+    },
+    {
+     "text": "24.0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A can do a piece of work in 40 days and B can do the same work in 80 days. They work together for 20 days, how much of the work is left to complete?",
+   "options": [
+    {
+     "text": "1/2",
+     "added": false
+    },
+    {
+     "text": "1/4",
+     "added": false
+    },
+    {
+     "text": "4/5",
+     "added": false
+    },
+    {
+     "text": "3/2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "How many prime numbers exist between 50 and 80?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In a circular race of 500 m length, A and B start with speeds of 4 m/sec and 5 m/sec, respectively, at the same time from the same point. After how much time will they meet for the first time at the starting point while running in the same direction?",
+   "options": [
+    {
+     "text": "450 sec",
+     "added": false
+    },
+    {
+     "text": "500 sec",
+     "added": false
+    },
+    {
+     "text": "400 sec",
+     "added": false
+    },
+    {
+     "text": "550 sec",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Find the difference between the average of the cube of first 5 natural numbers and the average of the square of first 5 natural numbers.",
+   "options": [
+    {
+     "text": "34",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Pawan bought a pair of jeans from the store when they were giving a 20 percent discount. If the regular price of the pair of jeans was Rs. 1800, then how much did Pawan pay with the discount?",
+   "options": [
+    {
+     "text": "Rs. 1360",
+     "added": false
+    },
+    {
+     "text": "Rs. 1590",
+     "added": false
+    },
+    {
+     "text": "Rs. 1440",
+     "added": false
+    },
+    {
+     "text": "Rs. 1680",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Marked price of a table is listed at Rs.1,880. If it’s sold at a discount 15%, then what is the selling price of the table?",
+   "options": [
+    {
+     "text": "Rs.1,798",
+     "added": false
+    },
+    {
+     "text": "Rs.1,498",
+     "added": false
+    },
+    {
+     "text": "Rs.1,698",
+     "added": false
+    },
+    {
+     "text": "Rs.1,598",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A bike rider covers a fixed distance at a speed of 60 km/h and returns back at a speed of 80 km/h. What is his average speed?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 335,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

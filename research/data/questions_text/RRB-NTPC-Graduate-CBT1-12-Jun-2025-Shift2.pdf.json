@@ -1,0 +1,765 @@
+{
+ "paper": "RRB-NTPC-Graduate-CBT1-12-Jun-2025-Shift2.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "source_pdf": "RRB_NTPC_G_Answer_Key_Compilation_English-12-6-2025-Shift-II.pdf",
+ "tagged_count": 28,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A shopkeeper marks the price of an article at ₹5,180. Find the cost price if after allowing a discount of 31% he still gains 5% on the cost price.",
+   "options": [
+    {
+     "text": "₹3,387",
+     "added": false
+    },
+    {
+     "text": "₹3,470",
+     "added": false
+    },
+    {
+     "text": "₹3,404",
+     "added": false
+    },
+    {
+     "text": "₹3,376",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "₹3,404"
+  },
+  {
+   "n": 2,
+   "text": "A cistern has a hole in the bottom through which the water is leaking. A tap can fill the cistern in 6 hours and the hole in the bottom can empty the fully filled cistern in 15 hours. If both the tap and the hole are open, then what will be the time taken to completely fill the empty cistern?",
+   "options": [
+    {
+     "text": "14 hours",
+     "added": false
+    },
+    {
+     "text": "22 hours",
+     "added": false
+    },
+    {
+     "text": "10 hours",
+     "added": false
+    },
+    {
+     "text": "26.1 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": "10 hours"
+  },
+  {
+   "n": 3,
+   "text": "A swimmer can swim downstream at 37 km/hr and upstream at 27 km/hr. What is the speed of the swimmer in still water?",
+   "options": [
+    {
+     "text": "26 km/hr",
+     "added": false
+    },
+    {
+     "text": "33 km/hr",
+     "added": false
+    },
+    {
+     "text": "32 km/hr",
+     "added": false
+    },
+    {
+     "text": "31 km/hr",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": "32 km/hr"
+  },
+  {
+   "n": 4,
+   "text": "The product of two consecutive positive integers is 247. If the smaller of these two integers is represented by x, which of the following will correspond to the equation for finding out the value of x?",
+   "options": [
+    {
+     "text": "x2 − x + 247 = 0",
+     "added": false
+    },
+    {
+     "text": "x2 + x + 247 = 0",
+     "added": false
+    },
+    {
+     "text": "x2 + x − 247 = 0",
+     "added": false
+    },
+    {
+     "text": "x2 − x − 247 = 0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "x2 + x − 247 = 0"
+  },
+  {
+   "n": 5,
+   "text": "A vendor buys 42 laptop bags for ₹41,622 and sells them at 35 for ₹37,345. How many laptop bags should be bought and sold to earn a profit of ₹3,952?",
+   "options": [
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "34",
+     "added": false
+    },
+    {
+     "text": "76",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "52"
+  },
+  {
+   "n": 6,
+   "text": "A person who spends 50% of his monthly income is able to save ₹7,056 per month. His monthly expenses (in ₹) are:",
+   "options": [
+    {
+     "text": "7,056",
+     "added": false
+    },
+    {
+     "text": "6,987",
+     "added": false
+    },
+    {
+     "text": "7,024",
+     "added": false
+    },
+    {
+     "text": "7,039",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": "7,056"
+  },
+  {
+   "n": 7,
+   "text": "RR 14 is related to UN 3 in a certain way. In the same way, BV 10 is related to ER −1. To which of the given options is PE 1 related, following the same logic?",
+   "options": [
+    {
+     "text": "RI 8",
+     "added": false
+    },
+    {
+     "text": "SA −10",
+     "added": false
+    },
+    {
+     "text": "VS −9",
+     "added": false
+    },
+    {
+     "text": "PV 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "distance-and-section",
+   "key_answer": "11"
+  },
+  {
+   "n": 8,
+   "text": "According to the Economic Survey 2023-24, what percentage of India's population is expected to reside in urban areas by 2030?",
+   "options": [
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "35%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "45%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "40%"
+  },
+  {
+   "n": 9,
+   "text": "The cost of 15 pens and 6 pencils is ₹291. If the cost of a pen decreases by ₹9 and the cost of a pencil increases by ₹2, then the cost of 9 pens and 3 pencils is ₹75. What is the original cost of 12 pens and 3 pencils?",
+   "options": [
+    {
+     "text": "₹158",
+     "added": false
+    },
+    {
+     "text": "₹157",
+     "added": false
+    },
+    {
+     "text": "₹161",
+     "added": false
+    },
+    {
+     "text": "₹159",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "₹159"
+  },
+  {
+   "n": 10,
+   "text": "A tap fills a cistern in 9 hours. Another tap empties the full tank in 90 hours. How long (in hours) will it take to fill twice the volume of the tank, if the tank is empty initially and both the taps are open together?",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": "20"
+  },
+  {
+   "n": 11,
+   "text": "M, N, O, P, Y and Z live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. Only three people live between Y and Z, where Y lives below Z. P lives on an odd numbered floor and immediately above Y. O lives on one of the floors below M and on one of the floors above N. Who lives on floor numbered 4?",
+   "options": [
+    {
+     "text": "M",
+     "added": false
+    },
+    {
+     "text": "Z",
+     "added": false
+    },
+    {
+     "text": "P",
+     "added": false
+    },
+    {
+     "text": "O",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "quadrilaterals",
+   "key_answer": "25°"
+  },
+  {
+   "n": 12,
+   "text": "Two positive numbers differ by 2134. When the greater number is divided by the smaller number, the quotient is 2 and the remainder is 147. What is the HCF of the greater of the two given numbers and 4225?",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": "13"
+  },
+  {
+   "n": 13,
+   "text": "According to NITI Aayog, what was the reduction in the Poverty Headcount Ratio in India from 2013-14 to 2022-23?",
+   "options": [
+    {
+     "text": "From 25% to 10%",
+     "added": false
+    },
+    {
+     "text": "From 28% to 15%",
+     "added": false
+    },
+    {
+     "text": "From 29.17% to 11.28%",
+     "added": false
+    },
+    {
+     "text": "From 30% to 12.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "From 29.17% to 11.28%"
+  },
+  {
+   "n": 14,
+   "text": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+   "options": [
+    {
+     "text": "KC – PT",
+     "added": false
+    },
+    {
+     "text": "IA – NR",
+     "added": false
+    },
+    {
+     "text": "BT – GK",
+     "added": false
+    },
+    {
+     "text": "DV – IN",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If 20% of k is 10 less than 1200% of 10, then k is:",
+   "options": [
+    {
+     "text": "590",
+     "added": false
+    },
+    {
+     "text": "550",
+     "added": false
+    },
+    {
+     "text": "510",
+     "added": false
+    },
+    {
+     "text": "530",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "550"
+  },
+  {
+   "n": 16,
+   "text": "The arithmetic mean of the observations 83, 17, 62, 87, 62, 96, 86, 92 and 90 is:",
+   "options": [
+    {
+     "text": "79",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "74",
+     "added": false
+    },
+    {
+     "text": "85",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "75"
+  },
+  {
+   "n": 17,
+   "text": "Samudrayaan, scheduled for 2026, involves which of the following?",
+   "options": [
+    {
+     "text": "Launching underwater satellites",
+     "added": false
+    },
+    {
+     "text": "Sending scientists 6,000 meters underwater",
+     "added": false
+    },
+    {
+     "text": "Testing ocean-based launch platforms",
+     "added": false
+    },
+    {
+     "text": "Deep-sea mining using robots",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "34 : 51"
+  },
+  {
+   "n": 18,
+   "text": "What happens when you press Ctrl + S while working on a document in computer system?",
+   "options": [
+    {
+     "text": "Sends the document",
+     "added": false
+    },
+    {
+     "text": "Starts a slide show",
+     "added": false
+    },
+    {
+     "text": "Searches the document",
+     "added": false
+    },
+    {
+     "text": "Saves the current document",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "Saves the current document"
+  },
+  {
+   "n": 19,
+   "text": "Where was the central celebration of Parakram Diwas, held in January 2025, to mark Subhas Chandra Bose's 128th birth anniversary?",
+   "options": [
+    {
+     "text": "Victoria Memorial, Kolkata, West Bengal",
+     "added": false
+    },
+    {
+     "text": "Red Fort, New Delhi, Delhi",
+     "added": false
+    },
+    {
+     "text": "Barabati Fort, Cuttack, Odisha",
+     "added": false
+    },
+    {
+     "text": "Netaji Bhawan, Kolkata, West Bengal",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Permutation and Combination",
+   "sub": "combinations",
+   "key_answer": "6.0 per cent"
+  },
+  {
+   "n": 20,
+   "text": "What should come in place of the question mark (?) in the given series? 962 960 956 950 942 ?",
+   "options": [
+    {
+     "text": "936",
+     "added": false
+    },
+    {
+     "text": "930",
+     "added": false
+    },
+    {
+     "text": "932",
+     "added": false
+    },
+    {
+     "text": "934",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": "8"
+  },
+  {
+   "n": 21,
+   "text": "How much will a sum of ₹72,000 become after one year if the interest is compounded half-yearly at 10% per annum compound interest?",
+   "options": [
+    {
+     "text": "₹79,510",
+     "added": false
+    },
+    {
+     "text": "₹78,632",
+     "added": false
+    },
+    {
+     "text": "₹80,378",
+     "added": false
+    },
+    {
+     "text": "₹79,380",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": "₹79,380"
+  },
+  {
+   "n": 22,
+   "text": "On selling a stool for ₹8,378, the value of gain is 20% more than the value of loss incurred on selling it for ₹1,756. In order to gain 50%, find the selling price (in ₹).",
+   "options": [
+    {
+     "text": "7,150",
+     "added": false
+    },
+    {
+     "text": "7,148",
+     "added": false
+    },
+    {
+     "text": "7,151",
+     "added": false
+    },
+    {
+     "text": "7,149",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "7,149"
+  },
+  {
+   "n": 23,
+   "text": "Mohan invested ₹1,320 at 6% per annum simple interest in a bank. What amount (in ₹) will he get after 6 years?",
+   "options": [
+    {
+     "text": "1,695.2",
+     "added": false
+    },
+    {
+     "text": "1,795.2",
+     "added": false
+    },
+    {
+     "text": "575.2",
+     "added": false
+    },
+    {
+     "text": "475.2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "1,795.2"
+  },
+  {
+   "n": 24,
+   "text": "Gopal bought 51 books at ₹1,120 per book from one shop and 45 books at ₹920 per book from another. What is the average price (in ₹) he paid per book?",
+   "options": [
+    {
+     "text": "1,026.25",
+     "added": false
+    },
+    {
+     "text": "1,041.25",
+     "added": false
+    },
+    {
+     "text": "1,036.25",
+     "added": false
+    },
+    {
+     "text": "1,016.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "1,026.25"
+  },
+  {
+   "n": 25,
+   "text": "A cylinder is made by rolling a rectangular paper along its breadth. Find the curved surface area of the cylinder, if the length and breadth of the rectangle are 12 m and 7.48 m, respectively. (Use π = )",
+   "options": [
+    {
+     "text": "98.66 m2",
+     "added": false
+    },
+    {
+     "text": "44.88 m2",
+     "added": false
+    },
+    {
+     "text": "100.24 m2",
+     "added": false
+    },
+    {
+     "text": "89.76 m2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": "89.76 m2"
+  },
+  {
+   "n": 26,
+   "text": "In Windows OS, which of the following actions will permanently delete a file without sending it to the Recycle Bin?",
+   "options": [
+    {
+     "text": "Press the Delete key",
+     "added": false
+    },
+    {
+     "text": "Press Shift + Delete",
+     "added": false
+    },
+    {
+     "text": "Right-click and select Open",
+     "added": false
+    },
+    {
+     "text": "Rename the file",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "79"
+  },
+  {
+   "n": 27,
+   "text": "The Palk Strait separates India from which of the following countries?",
+   "options": [
+    {
+     "text": "Maldives",
+     "added": false
+    },
+    {
+     "text": "Sri Lanka",
+     "added": false
+    },
+    {
+     "text": "Bangladesh",
+     "added": false
+    },
+    {
+     "text": "Myanmar",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "digit-sum-and-place-value",
+   "key_answer": "2"
+  },
+  {
+   "n": 28,
+   "text": "The average weight of 7 boys of a group is 54 kg. When a new boy joined the group, the average weight increased by 2 kg. Find the weight of the new boy.",
+   "options": [
+    {
+     "text": "70 kg",
+     "added": false
+    },
+    {
+     "text": "74 kg",
+     "added": false
+    },
+    {
+     "text": "72 kg",
+     "added": false
+    },
+    {
+     "text": "77 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "70 kg"
+  }
+ ]
+}

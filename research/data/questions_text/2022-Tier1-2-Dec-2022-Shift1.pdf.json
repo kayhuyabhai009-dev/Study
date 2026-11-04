@@ -1,0 +1,635 @@
+{
+ "paper": "2022-Tier1-2-Dec-2022-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qi In the given figure, a circle is inscribed in APQR, such that it touches the sides PQ, QR and RP at points D, E, F, respectively. If the lengths of the sides PQ=15 cm, QR=11 cm and RP=13 cm, then find the length of PD. R we E p 5 a",
+   "options": [
+    {
+     "text": "9cm",
+     "added": false
+    },
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "7.5cm",
+     "added": false
+    },
+    {
+     "text": "8.5cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "If cot x – tan x = 3/2, then what will be the value of cot x + tan x?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "5/2",
+     "added": false
+    },
+    {
+     "text": "7/2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The table given below shows the production of beauty products by five different companies. The production of beauty product by T is what percent of the production of beauty product by S?",
+   "options": [
+    {
+     "text": "40 percent",
+     "added": false
+    },
+    {
+     "text": "140 percent",
+     "added": false
+    },
+    {
+     "text": "240 percent",
+     "added": false
+    },
+    {
+     "text": "120 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Observe the given graph and answer the following question. T 10 7 18 “4 eos Oo = 7 B 6 a ~ 15 . ? 2 14 A 4 13 3 12 2 10 11 1 ( 125 130 135 140 145 150 160 Marks Obtained a How many students obtained more than 135 marks?",
+   "options": [
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "55",
+     "added": false
+    },
+    {
+     "text": "57",
+     "added": false
+    },
+    {
+     "text": "58",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A sum of Rs.6,000 is to be paid back in two equal annual instalments; each instalment is to be paid at the end of every year. How much is each instalment if the interest is compounded annually at 2% p.a.? (Rounded off up to two decimal places)",
+   "options": [
+    {
+     "text": "Rs.2,092.29",
+     "added": false
+    },
+    {
+     "text": "Rs.3,090.30",
+     "added": false
+    },
+    {
+     "text": "Rs.2,291.29",
+     "added": false
+    },
+    {
+     "text": "Rs.3,589.30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A pen was sold for Rs.166.44 with a profit of 14%. If it were sold for Rs.154.76, then what would have been the percentage of profit or loss?",
+   "options": [
+    {
+     "text": "5% loss",
+     "added": false
+    },
+    {
+     "text": "6% profit",
+     "added": false
+    },
+    {
+     "text": "5% profit",
+     "added": false
+    },
+    {
+     "text": "6% loss",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Qz7 v5—2 a ayes If x =——Y then the value of x* + x~“ is: v5+2",
+   "options": [
+    {
+     "text": "350",
+     "added": false
+    },
+    {
+     "text": "345",
+     "added": false
+    },
+    {
+     "text": "284",
+     "added": false
+    },
+    {
+     "text": "322",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The table given below shows the number of pencils sold by 7 shops. What is the ratio of number of pencils sold by S3 to the number of pencils sold by S6?",
+   "options": [
+    {
+     "text": "8 : 15",
+     "added": false
+    },
+    {
+     "text": "13 : 7",
+     "added": false
+    },
+    {
+     "text": "15 : 7",
+     "added": false
+    },
+    {
+     "text": "7 : 13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Qg A, . 1 If x > 0, and x* + > = 2207, what is the value of x?+ at x x",
+   "options": [
+    {
+     "text": "710649",
+     "added": false
+    },
+    {
+     "text": "710647",
+     "added": false
+    },
+    {
+     "text": "710654",
+     "added": false
+    },
+    {
+     "text": "710661",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Which of the following two will provide more volume? I) A cuboid of edges 6 cm, 7 cm and 8 cm II) A cube of edge 7 cm",
+   "options": [
+    {
+     "text": "Cube will have more volume",
+     "added": false
+    },
+    {
+     "text": "Both will have equal volume",
+     "added": false
+    },
+    {
+     "text": "Cuboid will have more volume",
+     "added": false
+    },
+    {
+     "text": "Cannot be determined",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "What is the single percentage discount equivalent to two successive discounts of 15% and 5%?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Qi2_. E Simplify x + 3(y +x —2 )-—(x+y).",
+   "options": [
+    {
+     "text": "x+2y-6",
+     "added": false
+    },
+    {
+     "text": "2x+y-6",
+     "added": false
+    },
+    {
+     "text": "2x+3y-6",
+     "added": false
+    },
+    {
+     "text": "3x+2y-6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A thief is noticed by a policeman from a distance of 97 m. The thief starts running and the policeman chases him. The thief and the policeman run at a speed of 21 m/sec and 23 m/sec respectively. What is the time taken by the policeman to catch the thief?",
+   "options": [
+    {
+     "text": "40 sec",
+     "added": false
+    },
+    {
+     "text": "45 sec",
+     "added": false
+    },
+    {
+     "text": "62.5 sec",
+     "added": false
+    },
+    {
+     "text": "48.5 sec",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "2 2 4 4 ey) If sec*A+ tan?A = 7 then sec*A — tan*A is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If sin (A + B) = cos (A + B), what is the value of tan A?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "If the diameter of a sphere is 63 cm, then what is the total surface area of the sphere?",
+   "options": [
+    {
+     "text": "11824 cm2",
+     "added": false
+    },
+    {
+     "text": "12836 cm2",
+     "added": false
+    },
+    {
+     "text": "12474 cm2",
+     "added": false
+    },
+    {
+     "text": "11248 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A circular clock has the hour hand of length 6 inch. Find the length of the distance it covers by it's tip from 9 p.m. to 3 a.m.",
+   "options": [
+    {
+     "text": "4π inch",
+     "added": false
+    },
+    {
+     "text": "2π inch",
+     "added": false
+    },
+    {
+     "text": "6π inch",
+     "added": false
+    },
+    {
+     "text": "8π inch",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "In the election, 8% of the voters did not cast their votes. Two candidates contested the election in which the winning cadidate got 48% of the total votes and won election by 1100 votes. Find the total number of voters in the election, given that all the votes cast were valid?",
+   "options": [
+    {
+     "text": "25500",
+     "added": false
+    },
+    {
+     "text": "26500",
+     "added": false
+    },
+    {
+     "text": "27500",
+     "added": false
+    },
+    {
+     "text": "28500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A mixture of milk and water measures 60 litres. It contains 10% water. How much water should be added to it, so that the water may be 25%?",
+   "options": [
+    {
+     "text": "18 litres",
+     "added": false
+    },
+    {
+     "text": "14 litres",
+     "added": false
+    },
+    {
+     "text": "16 litres",
+     "added": false
+    },
+    {
+     "text": "12 litres",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "If 6 women can complete a work in 3 days, and 9 girls can complete the same work in 2 days, then find the time taken to complete the same work by 8 women and 6 girls?",
+   "options": [
+    {
+     "text": "3 days",
+     "added": false
+    },
+    {
+     "text": "4 days",
+     "added": false
+    },
+    {
+     "text": "6 days",
+     "added": false
+    },
+    {
+     "text": "9/7 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "A hemispherical bow! made of iron has inner diameter 84 cm. Find the cost of tin plating it on the inside at the rate of 221 per 100 nr? (take mr = *) correct to two places of decimal.",
+   "options": [
+    {
+     "text": "22,328.48",
+     "added": false
+    },
+    {
+     "text": "32,425.48",
+     "added": false
+    },
+    {
+     "text": "%2,425.60",
+     "added": false
+    },
+    {
+     "text": "32,355.48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "By mistake, instead of dividing 2702 among Ram, Ramesh, and Naresh in the ratio + si : ‘ > . it was divided in the ratio of 3:4: 6. Who gained the most and by how much?",
+   "options": [
+    {
+     "text": "Ram %158",
+     "added": false
+    },
+    {
+     "text": "Ramesh 158",
+     "added": false
+    },
+    {
+     "text": "Naresh 7168",
+     "added": false
+    },
+    {
+     "text": "Ram 3168",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The pie chart given below shows the population of 8 cities in a year. Total population of all the 8 cities is 30,000. Population in a particular city is shown as a percent of total population in all these 8 cities. What is the average population (approximately) of cities C3, C5 and C7?",
+   "options": [
+    {
+     "text": "1200",
+     "added": false
+    },
+    {
+     "text": "1800",
+     "added": false
+    },
+    {
+     "text": "1600",
+     "added": false
+    },
+    {
+     "text": "2000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "What is the largest common divisor of the numbers 1026, 2268 and 2430?",
+   "options": [
+    {
+     "text": "108",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "If the 4-digit number x67y is exactly divisible by 9, then the least value of (x + y) is .",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  }
+ ]
+}

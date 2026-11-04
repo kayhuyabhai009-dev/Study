@@ -1,0 +1,414 @@
+{
+ "paper": "CHSL-Tier1-20-Oct-2020-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The average age of a man and his son is 60 years. The ratio of their ages is 13 : 7, respectively. What is the son's age?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Study the following bar graph and answer the question that follows. Export of Diamonds (in % crore) 12.4 11.8 109 115 98 z 8.5 72 g ~~ é | 2008 2009 2010 2011 2012 2013 2014 years In which of the following pairs of years, the average export of diamonds was closest to £12 crores?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Two circles with centres P and Q of radii 7 cm and 3 cm, respectively, touch each other externally at a point A. BC is a direct common tangent to these two circles where B and C are the points on the circles respectively. The length of BC is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "ifthe breadth and perimeter of a rectangle are in the ratio 1 : 8 and the area of rectangle is 363 cm?, then the breadth of the rectangle is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "5 if(a + 3b): (2a + 4b) = 3: 5, then(a-b): (a + D) is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "6 What is the value of —77 + 800 + [83 — {8 x 9 + (18-3 x 5)}]?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Aperson bought 60 books for 760 each. He sold 50 of them at a loss of 4%. At what per cent profit should he sell the remaining books so that he gains 5% in the entire transaction?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "tf64x2+y? = 40 andxy = 6,(x > 0,y > 0) then the value of 2x+y is",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "9 Ifx3 + 27 y3 + 6423 = 36xyz, then the relationship between x, y and z is",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Atsimple interest Gaurav borrows 71,500 from Sandeep at the rate of 14% per annum. What amount of money should Gaurav pay to Sandeep after | year to clear the debt?",
+   "options": [
+    {
+     "text": "TL, 715",
+     "added": false
+    },
+    {
+     "text": "71,705",
+     "added": false
+    },
+    {
+     "text": "21,700",
+     "added": false
+    },
+    {
+     "text": "1,710",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "How many minutes does Shyam take to cover a distance of 500 m if he runs at a speed of 30 knv/h?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "X22",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "12 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A single discount equivalent to a discount series of 5%, 10%, 15% and 20%, is:",
+   "options": [
+    {
+     "text": "43.86%",
+     "added": false
+    },
+    {
+     "text": "40.86%",
+     "added": false
+    },
+    {
+     "text": "42.86%",
+     "added": false
+    },
+    {
+     "text": "41.86%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The centroid of an equilateral triangle A PQR is L. If PQ = 18 cm, then the length of PL is: A",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Antony and Vikash together can complete a piece of work in 20 days and Vikash alone can complete it in 25 days. In how many days can Antony alone complete the same work?",
+   "options": [
+    {
+     "text": "80 days",
+     "added": false
+    },
+    {
+     "text": "100 days",
+     "added": false
+    },
+    {
+     "text": "110 days",
+     "added": false
+    },
+    {
+     "text": "90 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "the side ST of ARST is produced to P. If ZRTP = 115° and 25 = 22R, then the measure of ZR is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Ifthe value of sec B + tanB = r, then the value of sec B — tan B is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "O17 925 4 226 4 227is divisible by:",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "218 Tfcot A = tan(2A — 45°), Ais an acute angle then tanA is equal to:",
+   "options": [
+    {
+     "text": "0 tl",
+     "added": false
+    },
+    {
+     "text": "2 2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "41",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Study the bar graph and answer the question that follows. Production of organic fertilisers by a company over the years: 0 1 a: » ic 2 = is “ : * 3s “ j. Fm ” i Sak ie A ads GD ek Yon The ratio of the total production of organic fertilisers by the company in the years 2005, 2006 and 2008 to the total production in the years 2001, 2002, 2003 and 2004, is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": ".20 . ‘, 920 The value of sin?38° — cos?52°is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The tangent ata point A of a circle with centre O intersects the diameter PQ of the circle (when extended) at the point B. If 2BAP = 125°, then ZAQP is equal to:",
+   "options": [
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "50°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "55°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "22 . 922 Ifa + 2b = 10 and2ab = 9, then |a — 2b] is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Study the graph and answer the question that follows. The chart represents the demand and production of a certain item (in metric tonnes) for five companies U, V, X, Y and Zz. om 6500 6000 baad rr ze , 4500 j «00 ‘3800 Demand mw | a H F 2x00 ° u v x Y Zz ‘Companies If p% of the demand of the item for company U is equal to the production for company Z, then p is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Study the following bar graph and answer the question that follows. Export of Diamonds (in & crore) 118 pee 109 TS} 98 z 8.5 $ 72 c Ld é °| 2008 2009 2010 2011 2012 2013 2014 years In which year was the maximum percentage increase in diamond exports compared to the previous year?",
+   "options": [
+    {
+     "text": "2009",
+     "added": false
+    },
+    {
+     "text": "2012",
+     "added": false
+    },
+    {
+     "text": "2014",
+     "added": false
+    },
+    {
+     "text": "2010",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Richa invests in mutual funds a sum of €5,59,968, which is 19% of her annual income. What is her monthly income?",
+   "options": [
+    {
+     "text": "71,45,600",
+     "added": false
+    },
+    {
+     "text": "%3,45,600",
+     "added": false
+    },
+    {
+     "text": "%2,45,600",
+     "added": false
+    },
+    {
+     "text": "%4,45,600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  }
+ ]
+}

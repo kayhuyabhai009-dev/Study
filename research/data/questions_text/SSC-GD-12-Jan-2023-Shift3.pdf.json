@@ -1,0 +1,559 @@
+{
+ "paper": "SSC-GD-12-Jan-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The ratio of the third proportion of 5 and 12 with the fourth proportion of 5, 8 and 9 is:",
+   "options": [
+    {
+     "text": "2 ∶ 1",
+     "added": false
+    },
+    {
+     "text": "2 ∶ 3",
+     "added": false
+    },
+    {
+     "text": "1 ∶ 2",
+     "added": false
+    },
+    {
+     "text": "3 ∶ 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Anil started his journey in the morning. Till 10 a.m., he covered 12 of his journey, and on the same day till 1 a.m., he covered 45 of his journey. At what time did he start his journey?",
+   "options": [
+    {
+     "text": "2.00 a.m.",
+     "added": false
+    },
+    {
+     "text": "4.00 a.m.",
+     "added": false
+    },
+    {
+     "text": "5.00 a.m.",
+     "added": false
+    },
+    {
+     "text": "3.30 a.m.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A cone of height 8 cm and base radius 4 cm is carved from a rectangular block of wood 8 cm × 6 cm × 4 cm. The percentage of wood wasted is approximately:",
+   "options": [
+    {
+     "text": "56%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "58%",
+     "added": false
+    },
+    {
+     "text": "48%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The Difference between compound interest, compounding annually and simple interest on an amount of ₹500 for 2 years is ₹1.25. What is the rate of interest per annum?",
+   "options": [
+    {
+     "text": "2%",
+     "added": false
+    },
+    {
+     "text": "5%",
+     "added": false
+    },
+    {
+     "text": "4%",
+     "added": false
+    },
+    {
+     "text": "3%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "si-ci-difference",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "An article is listed at ₹1,200. A customer pays ₹972 for it after getting two successive discounts. If the rate of the first discount is 10%, then the rate of the second discount is:",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "14%",
+     "added": false
+    },
+    {
+     "text": "16%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The fourth proportional to 3, 12, 14 is:",
+   "options": [
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "An iron ball of radius 21 cm is melted and recast into spherical balls of radius 7 cm. Find the number of spherical balls.",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Find the sum of the digits of the smallest 6-digit number divisible by 18, 24 and 25.",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The value of 1 ÷ 2 + 3 - 5 × 13 of 15 - {75 ÷ (28 - 3)} is:",
+   "options": [
+    {
+     "text": "-25",
+     "added": false
+    },
+    {
+     "text": "−49 2",
+     "added": false
+    },
+    {
+     "text": "49 2",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A vegetable vendor does his sales using a weight which is 12% less than the actual weight and earns a profit of 32% on the cost price. Find the total profit percentage?",
+   "options": [
+    {
+     "text": "44%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "45%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A and B can complete a work in 18 days and 36 days respectively. They work together for 8 days and then A leaves. How many days will B take to complete the rest of the work?",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "What is the average of the first 10 multiples of 3?",
+   "options": [
+    {
+     "text": "16.5",
+     "added": false
+    },
+    {
+     "text": "14.5",
+     "added": false
+    },
+    {
+     "text": "15.5",
+     "added": false
+    },
+    {
+     "text": "11.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "If the price of potatoes increases by 10 percent, then by how much percent a user has to cut down on his consumption of potatoes, so that the expenditure on potatoes remains unchanged?",
+   "options": [
+    {
+     "text": "16.4 percent",
+     "added": false
+    },
+    {
+     "text": "15.8 percent",
+     "added": false
+    },
+    {
+     "text": "12.5 percent",
+     "added": false
+    },
+    {
+     "text": "9.1 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The current value of a car is ₹8,50,000 and its value is depreciating at the rate of 10% per annum. What will be its value (in ₹) after 4 years?",
+   "options": [
+    {
+     "text": "5,47,685",
+     "added": false
+    },
+    {
+     "text": "5,57,685",
+     "added": false
+    },
+    {
+     "text": "5,67,685",
+     "added": false
+    },
+    {
+     "text": "5,57,865",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "growth-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "What is the faulty weight used by a dishonest shopkeeper instead of the original weight of 1 kg to get a profit of 25%?",
+   "options": [
+    {
+     "text": "250 grams",
+     "added": false
+    },
+    {
+     "text": "800 grams",
+     "added": false
+    },
+    {
+     "text": "640 grams",
+     "added": false
+    },
+    {
+     "text": "980 grams",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A, B, and C can complete a work in 30, 60, and 120 days respectively. A left the work 10 days before the work was completed and B left 5 days before the completion of the work. Find the number of days required to complete the whole work.",
+   "options": [
+    {
+     "text": "170/7 days",
+     "added": false
+    },
+    {
+     "text": "144/7 days",
+     "added": false
+    },
+    {
+     "text": "89/7 days",
+     "added": false
+    },
+    {
+     "text": "190/7 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Mr. Sharma spends 15% of his total income on rent and 75% of the remaining part on other expenses and still saves Rs. 1,700 monthly. What is his monthly income?",
+   "options": [
+    {
+     "text": "Rs. 8,000",
+     "added": false
+    },
+    {
+     "text": "Rs. 7,000",
+     "added": false
+    },
+    {
+     "text": "Rs. 7,500",
+     "added": false
+    },
+    {
+     "text": "Rs. 8,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Aravind runs 54 times as fast as Bhanu. In a race, if Aravind gives a lead of 60 m to Bhanu, find the distance from the starting point where both of them will meet.",
+   "options": [
+    {
+     "text": "320 m",
+     "added": false
+    },
+    {
+     "text": "340 m",
+     "added": false
+    },
+    {
+     "text": "360 m",
+     "added": false
+    },
+    {
+     "text": "300 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The marked price of a double bed is ₹42,000. The customer gets a cash discount of ₹1,000 and gets a scratch card promising a discount of 5% to 10%. Determine the difference between the least and the maximum selling price of the bed.",
+   "options": [
+    {
+     "text": "₹1,880",
+     "added": false
+    },
+    {
+     "text": "₹2,050",
+     "added": false
+    },
+    {
+     "text": "₹1,910",
+     "added": false
+    },
+    {
+     "text": "₹1,940",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Arjun rides his bike 10 km at an average speed of 30 km/h, and again travels 14 km at an average speed of 25 km/h. What is his average speed (approx.) for the entire trip?",
+   "options": [
+    {
+     "text": "27.68 km/h",
+     "added": false
+    },
+    {
+     "text": "26.87 km/h",
+     "added": false
+    },
+    {
+     "text": "29.81 km/h",
+     "added": false
+    },
+    {
+     "text": "28.76 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-slice": {
+   "n": 127,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 170,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mastery Tracker — Gov Exam Maths</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css"><link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('gems-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){}</script>
+</head>
+<body><div class="shell"><aside class="sidebar"></aside><div class="main"><div class="topbar"></div>
+<main class="content">
+<div class="page-hero"><p class="eyebrow">Mastery &amp; Personal Preparation System</p><h1>Mastery tracker — 26 rows, 5 levels</h1>
+<p>Levels: L1 Recall (state the formula, recognise the model) · L2 Single-step (top models, untimed) · L3 Multi-step (mixed models, medium items) · L4 Mixed/timed (exam pace, negative-marking discipline) · L5 Error-proof (teach it, predict its traps, hold accuracy timed). <strong>Level up only on exit evidence, never on reading.</strong> Revisit HIGH-sensitivity topics at L4 every cycle. Progress saves in this browser only.</p>
+<p><button class="chip" data-export-progress>⬇ Export progress (JSON)</button>
+<label class="chip" style="cursor:pointer">⬆ Import progress <input type="file" data-import-progress accept=".json" style="display:none"></label></p></div>
+<div id="trackerSummary"></div>
+<div class="card" style="margin-top:20px"><div class="table-wrap" id="trackerTable"></div></div>
+<div class="callout" style="margin-top:20px">Order follows the dependency sequence (foundations together → Simplification → Percentage → Ratio-Proportion → Algebra → branches → DI capstone → rare tail), with CIS breaking ties inside each branch. The full drill guide is on <a href="mistakes.html">Mistake Analytics</a>.</div>
+</main>
+<footer class="site-footer" style="max-width:1180px;margin:0 auto;padding:0 32px 32px"></footer></div></div>
+<div class="palette" id="palette"><div class="palette-box"><input type="text" placeholder="Jump to a page, topic, exam… (Esc to close)"><div class="palette-results" id="paletteResults"></div></div></div>
+<script src="js/chrome.js"></script><script src="js/data.js"></script><script src="js/ui.js"></script><script src="js/tracker.js"></script>
+</body></html>

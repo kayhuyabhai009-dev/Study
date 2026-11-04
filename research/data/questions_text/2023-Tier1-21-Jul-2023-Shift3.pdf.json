@@ -1,0 +1,597 @@
+{
+ "paper": "2023-Tier1-21-Jul-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Simplify the following expression. 2 4 3 16 [+ p)(1 + p*)(1 + p*)(1 + p*) (1 + p**)(1 — p) — 1)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "S, and S, are two stations which are 195 km apart. A train starts from S, at 4:00 pm and moves towards S, at the speed of 65 km/h. Another train starts from S, at 5:00 pm and moves towards S, at the speed of 35 km/h. At what time will the two trains meet?",
+   "options": [
+    {
+     "text": "6:06 p.m.",
+     "added": false
+    },
+    {
+     "text": "6:30 p.m.",
+     "added": false
+    },
+    {
+     "text": "6:15 p.m.",
+     "added": false
+    },
+    {
+     "text": "6:18 p.m.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Two chords AB and CD of a circle meet inside the circle at point P. If AP = 12 cm, AB = 20 cm and CP = 16 cm, then CD = ?",
+   "options": [
+    {
+     "text": "22cm",
+     "added": false
+    },
+    {
+     "text": "15cm",
+     "added": false
+    },
+    {
+     "text": "21cm",
+     "added": false
+    },
+    {
+     "text": "24cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "There are 15 students in a class. Their average weight is 40 kg. When one student leaves the class, the average weight is 39.5 kg. What is the weight of the student who left the class (where kg means kilogram)?",
+   "options": [
+    {
+     "text": "47kg",
+     "added": false
+    },
+    {
+     "text": "42 kg",
+     "added": false
+    },
+    {
+     "text": "52kg",
+     "added": false
+    },
+    {
+     "text": "48 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "5 In AXYZ, right angled at Y, if sin X= 5 ; find the value of cos X cos Z + sin X sin Z.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Rekha alone can complete a work in 16 days, and Bina alone can complete the same work in 12 days. Starting with Rekha , they work on alternate days. The total work will be completed in:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Acertain amount is lent at x% p.a. simple interest for 3 years. Instead, if the amount was lent at 3x% p.a. simple interest for ‘y’ more years, then the simple interest would have been seven times the earlier interest. What is the value of y?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-difference-problems",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The value of (16 + 14) + 2-12 + 16 x 4 — 28 + 13 (-16 + 13) is:",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "-3",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Study the given table and answer the question that follows. The table gives the number of graduate students enrolled in 4 different colleges A, B, C, and D ina city over the years 2010 to 2014 and also the number of students who passed in the final examination during these years. ll SM eel el alae fa fase ent Yaro[5 afore [5000 lo ae lar lee fer fo fee [aa [sso feo [maf > __ |e [oor Yreo [room [van fevers fro Find the ratio of the average of students enrolled from college D to the average of students who passed from college D over all the years.",
+   "options": [
+    {
+     "text": "19:17",
+     "added": false
+    },
+    {
+     "text": "18:17",
+     "added": false
+    },
+    {
+     "text": "21:17",
+     "added": false
+    },
+    {
+     "text": "20:17",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "If x and y are positive numbers such that x - y = 5 and xy = 150, then the value of (x + y) is:",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Qi a7. 1 1 1 1 The value of —-+ =X [(G- *) +4] =? Zi 2, 2 3 42.",
+   "options": [
+    {
+     "text": "*1. 725 3",
+     "added": false
+    },
+    {
+     "text": "73 : 2. = 2",
+     "added": false
+    },
+    {
+     "text": "72 = 2 2",
+     "added": false
+    },
+    {
+     "text": "715 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Ina circular race of 1600 m, A and B start from the same point and at the same time with speeds of 27 km/h and 45 km/h, respectively. After how long will they meet again for the first time on the track when they are running in the same direction?",
+   "options": [
+    {
+     "text": "90 seconds",
+     "added": false
+    },
+    {
+     "text": "320 seconds",
+     "added": false
+    },
+    {
+     "text": "240 seconds",
+     "added": false
+    },
+    {
+     "text": "180 seconds",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "4 # é A can do 20% of a work in 4 days, and B can do 333% of the same work in 10 days. They worked together for 9 days and then C completed the remaining work in 6 days. B and C together will complete 75% of the same work in:",
+   "options": [
+    {
+     "text": "12 days",
+     "added": false
+    },
+    {
+     "text": "9 days",
+     "added": false
+    },
+    {
+     "text": "11 days",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "What is the equivalent discount percentage corresponding to two successive discounts of 9% and 17%?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "cosa cosa P If —— = 10 and —— = 11, then the value of cos” is: sin B cosB",
+   "options": [
+    {
+     "text": "21 x 1. — 132 100 32. —",
+     "added": false
+    },
+    {
+     "text": "21 88",
+     "added": false
+    },
+    {
+     "text": "—— 108 221",
+     "added": false
+    },
+    {
+     "text": "— 121",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Three solid metallic spheres of radii 1 cm, 6 cm and 8 cm, respectively, are melted and recast into a single solid sphere. The radius of the new sphere so formed is:",
+   "options": [
+    {
+     "text": "9.0cm",
+     "added": false
+    },
+    {
+     "text": "5.9cm",
+     "added": false
+    },
+    {
+     "text": "7.7cm",
+     "added": false
+    },
+    {
+     "text": "8.5cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "9.17 Simplify the following expression. sin6 — 2sin?6 2cos?6 — cos@",
+   "options": [
+    {
+     "text": "tand",
+     "added": false
+    },
+    {
+     "text": "sind",
+     "added": false
+    },
+    {
+     "text": "sec",
+     "added": false
+    },
+    {
+     "text": "cos",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Richa, Rita and Reena can independently complete a work in 8 hours, 12 hours and 24 hours, respectively. If they work together, how much time will they take to complete that work?",
+   "options": [
+    {
+     "text": "4 hours",
+     "added": false
+    },
+    {
+     "text": "5 hours",
+     "added": false
+    },
+    {
+     "text": "2 hours",
+     "added": false
+    },
+    {
+     "text": "3 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Study the given data and answer the question that follows. Data regarding population of different states in the year 2015 is shown in the pie-chart and table. States Sex and Literacy-wise Population Ratio Pp sex | Literacy | Illiterate | Debi | 2) | 8 | Goa fs [| TN [/03 [4 J 9 fom | | If the total population of the given states is 31,5000, then what was the total number of illiterate people in Goa and M.P.?",
+   "options": [
+    {
+     "text": "65,520",
+     "added": false
+    },
+    {
+     "text": "81,900",
+     "added": false
+    },
+    {
+     "text": "1,20,500",
+     "added": false
+    },
+    {
+     "text": "90,870",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "mixed-graphs",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The area of the sector of a circle of radius 28 cm is 112 cm2. Find the length of the corresponding arc of the sector.",
+   "options": [
+    {
+     "text": "4cm",
+     "added": false
+    },
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "6cm",
+     "added": false
+    },
+    {
+     "text": "5m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "John got 20% marks in an examination and failed by 10 marks. In the same examination, Jack got 35% marks which were 20 more than the minimum passing marks, Find the percentage of minimum marks required to pass.",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The fourth proportional of the numbers 8, 12 and 14 is:",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "A shopkeeper marks his goods in such a way that after allowing a discount of 22% he gains 20%. If the cost price of the article is 650, then its marked price is:",
+   "options": [
+    {
+     "text": "%900",
+     "added": false
+    },
+    {
+     "text": "%1,000",
+     "added": false
+    },
+    {
+     "text": "850",
+     "added": false
+    },
+    {
+     "text": "%950",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "1 s 1 If (x?-— =) = 4V6, and x > 1, what is the value of (x? — ae",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "If the volume of one brick is 0.0014 m?, then how many bricks will be required to construct a wall of length 14 m, breadth 0.125 m and height 5 m?",
+   "options": [
+    {
+     "text": "5250",
+     "added": false
+    },
+    {
+     "text": "3250",
+     "added": false
+    },
+    {
+     "text": "6250",
+     "added": false
+    },
+    {
+     "text": "4250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  }
+ ]
+}

@@ -1,8 +1,28 @@
-# गणित गुरु — 90-दिन गणित चैलेंज (v2.0)
+# गणित गुरु — 90-दिन गणित चैलेंज (v3.0)
 
 SSC और Railway परीक्षाओं के लिए हिंदी-माध्यम गणित mastery website। यह एक static, offline-friendly app है; progress browser के `localStorage` में सुरक्षित रहती है।
 
-## v2 में क्या नया है
+## 🔬 v3 में सबसे बड़ा अपडेट — सरकारी एक्ज़ाम रिसर्च प्लेटफ़ॉर्म merge
+
+उसी डेटा-विश्लेषण वाली research platform (`gov-exam-maths-website`) को अब यही website के अंदर मिला दिया गया है — **एक ही website, एक ही navigation**:
+
+- **🔬 सरकारी एक्ज़ाम रिसर्च** (sidebar में नया group) — 1,687 पेपर · 42,634 टैग्ड रिकॉर्ड · 35,704 certain · 35 topics → 154 sub-topics → 295 concepts · 343 dependency edges। सभी 15 pages sub-tabs से: डैशबोर्ड, परीक्षाएँ, PYQ लाइब्रेरी, इंपॉर्टेंट, हायरार्की, पैटर्न, फॉर्मूला, तुलना, लर्न, कैलकुलेशन स्किल्स, मिस्टेक्स, CIS एक्सप्लोरर, मास्टरी ट्रैकर, 90-दिन कैलेंडर, मेथडोलॉजी।
+- **📊 PYQ एनालिसिस** (नया सेक्शन) — इस website के 10,124 प्रश्नों का topic → concept(पैटर्न) विश्लेषण: किस concept से कितने प्रश्न, कौन-सी परीक्षा, कौन-सा वर्ष, किस कठिनाई में — precomputed aggregates से तुरंत filter/render।
+- **Learn + Challenge सेक्शन** में अब research bridge — हर टॉपिक के concept-वार प्रश्न-गणना और सीधे research pages के लिंक, ताकि "किस concept से किस topic से प्रश्न आता है" सीखते-सीखते ही साफ हो जाए।
+- Research platform iframe में चलती है और embedded mode में अपनी sidebar/topbar छिपा देती है — navigation मुख्य site के sub-tabs से; theme दोनों में sync रहता है। Platform standalone भी चलती है (`research/index.html`)।
+- सारा research डेटा repo के `research/` फोल्डर में (45 MB): `research/data/` (papers, questions_by_topic, questions_text, topics, hierarchy formulas…), `research/js/`, `research/css/`।
+
+## PYQ एनालिसिस दोबारा बनाना
+
+PYQ डेटा बदलने के बाद aggregates दोबारा बनाएँ:
+
+```bash
+node tools/build_pyq_analysis.js
+```
+
+यह `js/data-pyq-analysis.js` बनाता है (10,124 प्रश्न · 22 टॉपिक · 190 कॉन्सेप्ट-पैटर्न · research tagged records के साथ cross-join)।
+
+## v2 में क्या नया था
 
 - **🔥 90-दिन गणित चैलेंज** — पूरा SSC/Railway syllabus 13 सप्ताह / 6 चरणों में बँटा दिन-वाइज़ टाइमटेबल। हर दिन तय: *क्या पढ़ना है — कितना पढ़ना है — क्या रिवाइज़ करना है — क्या प्रैक्टिस करना है*। 90-सेकेंड वाली honeycomb progress-map, दिन-टिक, task checkboxes, milestone badges (🚀 दिन 1 → 🏆 दिन 90), अतिरिक्त XP (+30/दिन) और सप्ताह-वाइज़ detail view।
 - **👤 नाम-आधारित personal login** — website खोलते ही नाम-popup; नाम लॉगआउट तक याद रहता है और हर उपयोगकर्ता की progress अलग key (`gg-state-<नाम>`) में सेव होती है। पुराना shared डेटा पहली login पर अपने-आप migrate होता है। Quick-switch chips से दूसरी प्रोफ़ाइल में एक टैप में जाएँ।
@@ -72,6 +92,11 @@ Report `data/pdf_deep_analysis.json` में बनती है। Scanned/im
 node tools/fulltest.js
 ```
 
-यह चार suites चलाता है — data integrity, merged datasets, PDF inventory, exam profiles, renderers, formula chapters और topic guides validate करने के साथ-साथ v2 checks भी: 90-दिन चैलेंज की संरचना (90 दिन, 13 सप्ताह, 6 चरण, well-planned balance), 16 drills × 3 कठिनाइयों के question generators, user-system persistence helpers, drill-history cap और `index.html` की सभी नई UI IDs की मौजूदगी।
+यह छह suites चलाता है — data integrity, merged datasets, PDF inventory, exam profiles, renderers, formula chapters और topic guides validate करने के साथ-साथ v2 checks भी: 90-दिन चैलेंज की संरचना (90 दिन, 13 सप्ताह, 6 चरण, well-planned balance), 16 drills × 3 कठिनाइयों के question generators, user-system persistence helpers, drill-history cap और `index.html` की सभी नई UI IDs की मौजूदगी। साथ ही:
+
+- `tools/research_test.js` — merged research platform की data-integrity (1,687 papers, 42,634 records, 32 questions_by_topic files, per-paper + questions_text files), embedded-mode patches, PYQ analysis aggregates (10,124 ids असली डेटा से मेल खाते हैं) और index.html/research-hub/main.js integration।
+- `tools/dom_test.js` — jsdom में पूरा boot: नए सेक्शन (PYQ एनालिसिस, research sub-tabs, Learn/Challenge bridge) तक। (इसके लिए `npm i -D jsdom` और `http://localhost:8000` पर server चालू रखें।)
+
+> परीक्षा तिथियों और नियमों के लिए आवेदन से पहले संबंधित SSC/RRB की आधिकारिक notification अवश्य जाँचें।
 
 > परीक्षा तिथियों और नियमों के लिए आवेदन से पहले संबंधित SSC/RRB की आधिकारिक notification अवश्य जाँचें।

@@ -1,0 +1,655 @@
+{
+ "paper": "2023-Tier1-21-Jul-2023-Shift4.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "If 8 cot A=7, find sin A.",
+   "options": [
+    {
+     "text": "0— 15 8",
+     "added": false
+    },
+    {
+     "text": "“ v¥113 7",
+     "added": false
+    },
+    {
+     "text": "- 8 8",
+     "added": false
+    },
+    {
+     "text": "= 7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "If 28 : 98 :: 98: y, find the value of y.",
+   "options": [
+    {
+     "text": "333",
+     "added": false
+    },
+    {
+     "text": "338",
+     "added": false
+    },
+    {
+     "text": "348",
+     "added": false
+    },
+    {
+     "text": "343",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Ais 40% more efficient than B. How much time will they take to work together to complete a job, which A alone could have done in 31 days?",
+   "options": [
+    {
+     "text": "2 515",
+     "added": false
+    },
+    {
+     "text": "—days",
+     "added": false
+    },
+    {
+     "text": "2 215 X 3. —days 12 517",
+     "added": false
+    },
+    {
+     "text": "— days 32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Find the value of a to make 6234a6 divisible by 9.",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "If (a - b) = 1, then what is the value of (a3 - b°)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Acan doa piece of work in 8 days, while B can do it in 18 days. In how many days will the work be completed if they both work on alternate days starting with B?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "s , 1+sint 1-sint Simplify Pa PO 4-4sint 4+4sint",
+   "options": [
+    {
+     "text": "4tant.sint",
+     "added": false
+    },
+    {
+     "text": "tant.sect",
+     "added": false
+    },
+    {
+     "text": "tant-sint",
+     "added": false
+    },
+    {
+     "text": "tant+sint",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The given pie-chart shows the marks scored by a student in different skills in an examination: mathematical ability, verbal ability, reasoning, coding and puzzle solving. The values are given in degrees. Answer the following question. If total marks were 3000, then what would be the marks in reasoning? (e ba 100\" 7s",
+   "options": [
+    {
+     "text": "375",
+     "added": false
+    },
+    {
+     "text": "833",
+     "added": false
+    },
+    {
+     "text": "625",
+     "added": false
+    },
+    {
+     "text": "541",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Ramlal marks up his goods by 40% and gives a discount of 10%. What is his net profit percentage?",
+   "options": [
+    {
+     "text": ", 24%",
+     "added": false
+    },
+    {
+     "text": "26%",
+     "added": false
+    },
+    {
+     "text": "28%",
+     "added": false
+    },
+    {
+     "text": "32%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "In the given figure, PQ is a chord passing through the centre ‘O’ of the circle. Calculate 2PQS. woe TAN —, | P",
+   "options": [
+    {
+     "text": "40°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "20°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "cyclic-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Study the given graph carefully and answer the question that follows. Wheat imports (in thousand tonnes) 6000 5500 5000 4500 4000 3500 3000 = [ 2000 1500 1000 0 1970 1971 1972 1973 1974 1975 1976 1977 The decrease in imports in 1971 was what percentage of the imports in 1970 (rounded off to the nearest integer)?",
+   "options": [
+    {
+     "text": "54%",
+     "added": false
+    },
+    {
+     "text": "56%",
+     "added": false
+    },
+    {
+     "text": "52%",
+     "added": false
+    },
+    {
+     "text": "53%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "What is the smallest number which can be added to 9454351626 so that it becomes divisible by 11?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Ajeet works 4 times as fast as Sohan. If Sohan can complete a work in 20 days independently, the number of days in which Ajeet and Sohan can together finish the work is:",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Anil and Tirath drove between two points A and B 192 km apart. Anil started the journey from point A at 8:20 a.m.; drove at a speed of 64 km/h; reached point B and immediately returned to A at the same speed. Tirath started the journey from point A at 9:50 a.m.; drove at a speed of 96 km/h; reached point B and immediately returned to A at the same speed. At what time did Anil and Tirath first meet each other?",
+   "options": [
+    {
+     "text": "11:38 a.m.",
+     "added": false
+    },
+    {
+     "text": "11:28 a.m.",
+     "added": false
+    },
+    {
+     "text": "11:43 a.m.",
+     "added": false
+    },
+    {
+     "text": "11:33 a.m.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Anarc ona circle, whose length is 19.25 cm, subtends an 18° angle at the centre. x é 22 What is the area of the circle? [Use 1 = al",
+   "options": [
+    {
+     "text": "11796.625 cm?",
+     "added": false
+    },
+    {
+     "text": "11786.625 cm?",
+     "added": false
+    },
+    {
+     "text": "11780.625 cm?",
+     "added": false
+    },
+    {
+     "text": "11790.625 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Which of the following statements is FALSE?",
+   "options": [
+    {
+     "text": "Two triangles are congruent if the size and shape of the triangles may or may not be equal.",
+     "added": false
+    },
+    {
+     "text": "SAS an SSS are both conditions of congruency of triangles.",
+     "added": false
+    },
+    {
+     "text": "If two angles and the included side of one triangle is equal to two angles and the included side of other triangle, then the triangles are congruent.",
+     "added": false
+    },
+    {
+     "text": "If two triangles are congruent, then one of them can be superimposed on the other triangle.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "ifthe inner radius of a hemispherical bowl is 5 cm and its thickness is 0.25 cm, then find the volume of the material required in making the bowl. (use 1 = oa (Rounded up to two places of decimals).",
+   "options": [
+    {
+     "text": "34 cm?",
+     "added": false
+    },
+    {
+     "text": "44 cm?",
+     "added": false
+    },
+    {
+     "text": "45.34 cm?",
+     "added": false
+    },
+    {
+     "text": "41.28 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "PQR is a triangle right angled at Q and PQ : QR = 3: 4. What is the value of sin P + sin Q+sin R?",
+   "options": [
+    {
+     "text": "= 5 3",
+     "added": false
+    },
+    {
+     "text": "05 5 12",
+     "added": false
+    },
+    {
+     "text": "— 5 2",
+     "added": false
+    },
+    {
+     "text": "= 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "What is the value of 64x3 + 36x2y + 24xy? + 2y3, when x =3 and y=— 4?",
+   "options": [
+    {
+     "text": "304",
+     "added": false
+    },
+    {
+     "text": "1456",
+     "added": false
+    },
+    {
+     "text": "1584",
+     "added": false
+    },
+    {
+     "text": "432",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "R wants to deposit 80,000 in the bank for a year. In his account, the bank gives 12% simple annual interest but charges %3,000 as a processing fee for the account. What would be his percentage earnings in the account?",
+   "options": [
+    {
+     "text": "8.75%",
+     "added": false
+    },
+    {
+     "text": "9%",
+     "added": false
+    },
+    {
+     "text": "8.5%",
+     "added": false
+    },
+    {
+     "text": "8.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Ashop provides flat 50% discount on one shirt, while another shop provides two successive discounts of 30% and 30%. If the difference in the bill is 743, then find the cost of the shirt.",
+   "options": [
+    {
+     "text": "23,580",
+     "added": false
+    },
+    {
+     "text": "$3,850",
+     "added": false
+    },
+    {
+     "text": "33,260",
+     "added": false
+    },
+    {
+     "text": "24,300",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "A shopkeeper bought 20 chairs for 18,000. On selling them he had a gain equal to the selling price of four chairs. What is the selling price of each chair?",
+   "options": [
+    {
+     "text": "21,125",
+     "added": false
+    },
+    {
+     "text": "21,200",
+     "added": false
+    },
+    {
+     "text": "21,250",
+     "added": false
+    },
+    {
+     "text": "%1,175",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "College P has 180 students scoring average marks of 88 and college Q has 320 students scoring average marks of 72. Find the average marks of both the colleges together.",
+   "options": [
+    {
+     "text": "82.00",
+     "added": false
+    },
+    {
+     "text": "75.25",
+     "added": false
+    },
+    {
+     "text": "77.76",
+     "added": false
+    },
+    {
+     "text": "80.00",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "4 1 g 1 If (x* + =) = 18, and x > 0, what is the value of (x° + ==)?",
+   "options": [
+    {
+     "text": "36V5",
+     "added": false
+    },
+    {
+     "text": "405",
+     "added": false
+    },
+    {
+     "text": "46V5",
+     "added": false
+    },
+    {
+     "text": "34V5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Acar travels the first 160 km at a speed of 64 km/h and the next 160 km at a speed of 80 km/hr What is the average speed for the first 320 km of the tour?",
+   "options": [
+    {
+     "text": "70 km/h",
+     "added": false
+    },
+    {
+     "text": "71.11 km/h",
+     "added": false
+    },
+    {
+     "text": "66 km/h",
+     "added": false
+    },
+    {
+     "text": "75.32 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 3,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

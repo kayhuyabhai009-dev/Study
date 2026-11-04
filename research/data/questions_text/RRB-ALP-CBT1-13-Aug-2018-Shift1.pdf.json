@@ -1,0 +1,56 @@
+{
+ "paper": "RRB-ALP-CBT1-13-Aug-2018-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 23,
+ "questions": [
+  {
+   "n": 2,
+   "text": "If— means +, + means +, x means — and + means *, then determine the value of 35 —7 . 14+ 28.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "24 cm"
+  },
+  {
+   "n": 14,
+   "text": "A and B together can complete a task in 12 days. However, if A works alone. completes half the job and leaves and then B works alone and completes the rest of the work, it takes 25 days in all to complete the work. If B is more efficient than A, how many days would it have taken B to do the work by herself?",
+   "options": [
+    {
+     "text": "nx 1.22",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "20"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 268,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,499 @@
+{
+ "paper": "CHSL-Tier1-10-Jul-2019-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "1 The simplified value of 1 3 4 13 5 6 . [12o0f C- (14-3) x] + (+5) is: i] Z 15. 15 7. ie",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The point A ofa triangle ABC moves parallel to the straight line BC. Which one among the following also moves along a straight line parallel to BC? (a) The circumcentre (b) the centroid (c) the incentre (d) the orthocentre.",
+   "options": [
+    {
+     "text": "(d)",
+     "added": false
+    },
+    {
+     "text": "(b)",
+     "added": false
+    },
+    {
+     "text": "(c)",
+     "added": false
+    },
+    {
+     "text": "(a)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "cosx cos, x cos . t+ = = = oR then ‘x’ is equal to: sinx+cosB sinB-cosx sinx-cosB sinB+cosx",
+   "options": [
+    {
+     "text": "cos B",
+     "added": false
+    },
+    {
+     "text": "cos «",
+     "added": false
+    },
+    {
+     "text": "sing",
+     "added": false
+    },
+    {
+     "text": "sin«",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Three successive discounts on the marked price of an article turns out to be equivalent to a single discount of 19%. If the rates of the first and second discount are 10% and 4% respectively, what is the rate of the third discount?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The given Bar Graph presents the runs scored (A) and strike rate (B) of a batsman in five matches. Strike Rate is the number of runs scored per 100 balls faced. The strike rate (B) is taken on record only when the batsman scores at least 30 runs in a match. 120 sae 100 so 100100 i — 2 . “6 ma } : 30) pt = ° 1 2 3 ‘ 5 Match ‘What is the average strike rate of the batsman?",
+   "options": [
+    {
+     "text": "89",
+     "added": false
+    },
+    {
+     "text": "91.25",
+     "added": false
+    },
+    {
+     "text": "90.75",
+     "added": false
+    },
+    {
+     "text": "95.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "InaAABC, AD is perpendicular to BC from A. if ZBAC = 90°, then AB? : AC? is equal to:",
+   "options": [
+    {
+     "text": "BD?: CD?",
+     "added": false
+    },
+    {
+     "text": "CD:BD",
+     "added": false
+    },
+    {
+     "text": "CD? : BD?",
+     "added": false
+    },
+    {
+     "text": "BD:cD",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The total cost price of two articles is ¥2,000. One of them is sold at a profit of 12% and the other at a loss of 12%. The overall gain in the transaction is 1.2%. The cost price of the article for which there was a profit was:",
+   "options": [
+    {
+     "text": "71,050",
+     "added": false
+    },
+    {
+     "text": "71,100",
+     "added": false
+    },
+    {
+     "text": "71,120",
+     "added": false
+    },
+    {
+     "text": "Z1,080",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "8 . : 98 For @ being an acute angle, 4(2sin26 + 7 cos?@) = 13. What is the value of 6?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A boy standing by the side of a railway tack finds that an Up train crosses him ii 8 seconds and a Down train of twice the length of that of the Up train crosses him in 20 seconds. How long (in seconds) will the two trains take to cross each other?",
+   "options": [
+    {
+     "text": "v1. 13- 3",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "20 1",
+     "added": false
+    },
+    {
+     "text": "12+ 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "a,b, c are three positive numbers, such that, (a + b + c) = 20, a? + b? +c? = 152. The value of (ab + be + ca) is equal to:",
+   "options": [
+    {
+     "text": "124",
+     "added": false
+    },
+    {
+     "text": "110",
+     "added": false
+    },
+    {
+     "text": "112",
+     "added": false
+    },
+    {
+     "text": "102",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "If 16 men working 12 hours a day can complete a work in 27 days, then working for how many hours a day can 18 men complete the work in 24 days?",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Ifsin@ + cosecO = 2, then what is the value of (sin5?@ + cosec?53@)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "2 = fas If (x+y)2+(y+z)2 = —(z +x), then (x? + y? + z?) can be expressed as:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "914 The average of the first 1234 numbers is equal to 1234. Fill in the blank.",
+   "options": [
+    {
+     "text": "odd",
+     "added": false
+    },
+    {
+     "text": "even",
+     "added": false
+    },
+    {
+     "text": "prime",
+     "added": false
+    },
+    {
+     "text": "natural",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A borrows a sum of €1,000 from his friend B on 31 December 2015 on the condition that he will return the same after one year with simple interest at 12%. However, A gets into a position of returning the money on | May 2016. How much amount he has to return to B?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The given Bar Graph presents the runs scored (A) and strike rate (B) of a batsman in five matches. Strike Rate is the number of runs scored per 100 balls faced. The strike rate (B) is taken on record only when the batsman scores at least 30 nuns in a match. 120 F egy 100 so 100100 3 = “ =A § « 2% = H 20 g » ° A 2 3 ‘ s Match How many balls did the batsman face in the third match?",
+   "options": [
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "9.17 Which among the following numbers is exactly divisible by 7, 11 and 13?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Twelve sticks, each of length one unit, are used to form an equilateral triangle. The area of the triangle is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "28,000 is distributed among A, B and C such that they receive notes of 7500, 7200 and 2100 respectively. The amounts received by them are in the ratio 15 : 2 : 3. What was the ratio of the number of notes of 500, 200 and 7100?",
+   "options": [
+    {
+     "text": "3:1:3",
+     "added": false
+    },
+    {
+     "text": "32332 1",
+     "added": false
+    },
+    {
+     "text": "4:1:2",
+     "added": false
+    },
+    {
+     "text": "3:2:2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A regular hexagon is inscribed in a circle. What is the ratio of the area of the circle to that of its portion not covered by the hexagon?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "polygons",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "1 : 4 If a +— = 2, what is the value of (a* -+); a a",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "- 4",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Two circles of diameters 4.8 cm and 8 cm are such that the distance between their centres is 6.5 cm. What is the length of a common tangent to the circles that does not intersect the line joining the centres?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The given Bar Graph presents the runs scored (A) and strike rate (B) of a batsman in five matches. Strike Rate is the number of runs scored per 100 balls faced. The strike rate (B) is taken on record only when the batsman scores at least 30 runs in a match. => = i bs % . * 3 a } - Fi i 7 %0 = = ° 1 2 3 ‘ s Match How many mns the batsman should have scored in the fifth match in as many balls he had faced in that match so that the average strike rate of the second and the fifth match becomes 120?",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "240",
+     "added": false
+    },
+    {
+     "text": "160",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Price of tea has increased by 20% but I have decided to increase my expenditure towards tea by 15% only. By What percentage should I reduce my consumption (correct to one place of decimal) in order to be able to maintain the same level of expenses towards tea?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The given Bar Graph presents the nuns scored (A) and strike rate (B) of a batsman in five matches. Strike Rate is the number of runs scored per 100 balls faced. The strike rate (B) is taken on record only when the batsman scores at least 30 runs in a match. 120 so 2 so 100 100 is as 2 3 la: 4s ma i . %0 = = : : 2 3 2 s Match ‘What is the average run scored by the batsman in the five matches?",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "56.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  }
+ ]
+}

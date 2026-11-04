@@ -1,0 +1,391 @@
+{
+ "certain": 25,
+ "cycle_note": "CHSL 2023 Tier-1, 07-Aug-2023 Shift 2. PDF recovered 2026-11-03 via Prepp page-source link extraction; full stem+option text verified from the file's own content (paper-wide numbering 51-75 = Quant Q1-25). Answer key NOT present in the PDF (0 answer markers); keys to be filled from the Singh Sir video track when it lands, never from the response-sheet Chosen Option field.",
+ "date": "2023-08-07",
+ "exam": "CHSL",
+ "exam_display": "CHSL",
+ "id": "CHSL-Tier1-07-Aug-2023-Shift2.pdf",
+ "maths_section": "Quantitative Aptitude",
+ "questions": [
+  {
+   "ans": "c",
+   "diff": "medium",
+   "key": "present",
+   "model": "find ratio from pie-chart percentages",
+   "n": 1,
+   "secondary": null,
+   "sub": "pie-chart",
+   "tags": [
+    "reading tables/bars/lines/pies"
+   ],
+   "topic": "Data Interpretation",
+   "trick": null,
+   "type": "data-based"
+  },
+  {
+   "ans": "a",
+   "diff": "easy",
+   "key": "present",
+   "model": "find largest chord (diameter) of a circle",
+   "n": 2,
+   "secondary": null,
+   "sub": "circle-theorems",
+   "tags": [
+    "diameter and chord"
+   ],
+   "topic": "Circles-Polygons",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "b",
+   "diff": "medium",
+   "key": "present",
+   "model": "evaluate trigonometric expression from standard values",
+   "n": 3,
+   "secondary": null,
+   "sub": "standard-values",
+   "tags": [
+    "trigonometric ratios"
+   ],
+   "topic": "Trigonometry",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "b",
+   "diff": "medium",
+   "key": "present",
+   "model": "find initial income from income/expenditure/savings change",
+   "n": 4,
+   "secondary": null,
+   "sub": "income-expenditure",
+   "tags": [
+    "percent increase/decrease"
+   ],
+   "topic": "Percentage",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "d",
+   "diff": "medium",
+   "key": "present",
+   "model": "solve trigonometric equation for angle",
+   "n": 5,
+   "secondary": null,
+   "sub": "identities",
+   "tags": [
+    "trigonometric ratios"
+   ],
+   "topic": "Trigonometry",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "c",
+   "diff": "medium",
+   "key": "present",
+   "model": "find principal from compound-interest amount",
+   "n": 6,
+   "secondary": null,
+   "sub": "ci-formula",
+   "tags": [
+    "compound interest formula"
+   ],
+   "topic": "Compound Interest",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "b",
+   "diff": "medium",
+   "key": "present",
+   "model": "find mixture ratio by alligation",
+   "n": 7,
+   "secondary": null,
+   "sub": "milk-water-and-alloys",
+   "tags": [
+    "alligation"
+   ],
+   "topic": "Mixture-Alligation",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "c",
+   "diff": "medium",
+   "key": "present",
+   "model": "find area of a circle sector",
+   "n": 8,
+   "secondary": null,
+   "sub": "circle-sector-ring",
+   "tags": [
+    "area of sector"
+   ],
+   "topic": "Mensuration 2D",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "c",
+   "diff": "medium",
+   "key": "present",
+   "model": "find unknown from equal-roots discriminant condition",
+   "n": 9,
+   "secondary": null,
+   "sub": "quadratic-equations",
+   "tags": [
+    "discriminant"
+   ],
+   "topic": "Algebra",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "c",
+   "diff": "medium",
+   "key": "present",
+   "model": "find profit/loss percent from SP-CP article equality",
+   "n": 10,
+   "secondary": null,
+   "sub": "basic-cp-sp",
+   "tags": [
+    "profit percent"
+   ],
+   "topic": "Profit-Loss",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "d",
+   "diff": "easy",
+   "key": "present",
+   "model": "factorise algebraic expression",
+   "n": 11,
+   "secondary": null,
+   "sub": "identities",
+   "tags": [
+    "factorisation"
+   ],
+   "topic": "Algebra",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "b",
+   "diff": "hard",
+   "key": "present",
+   "model": "find angle in square with equilateral triangle",
+   "n": 12,
+   "secondary": null,
+   "sub": "triangles",
+   "tags": [
+    "angle chasing"
+   ],
+   "topic": "Geometry",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "d",
+   "diff": "medium",
+   "key": "present",
+   "model": "find x^2 + 1/x^2 from x - 1/x",
+   "n": 13,
+   "secondary": null,
+   "sub": "identities",
+   "tags": [
+    "algebraic identities"
+   ],
+   "topic": "Algebra",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "b",
+   "diff": "medium",
+   "key": "present",
+   "model": "find chord length from radius and centre distance",
+   "n": 14,
+   "secondary": null,
+   "sub": "tangents-and-chords",
+   "tags": [
+    "chord length"
+   ],
+   "topic": "Circles-Polygons",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "a",
+   "diff": "medium",
+   "key": "present",
+   "model": "find total time with staggered start",
+   "n": 15,
+   "secondary": null,
+   "sub": "together-apart",
+   "tags": [
+    "work sharing"
+   ],
+   "topic": "Time-Work",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "a",
+   "diff": "medium",
+   "key": "present",
+   "model": "find present age from future ratio",
+   "n": 16,
+   "secondary": null,
+   "sub": "present-age",
+   "tags": [
+    "age ratio"
+   ],
+   "topic": "Ages",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "d",
+   "diff": "medium",
+   "key": "present",
+   "model": "find x^5 + 1/x^5 from x + 1/x",
+   "n": 17,
+   "secondary": null,
+   "sub": "identities",
+   "tags": [
+    "algebraic identities"
+   ],
+   "topic": "Algebra",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "d",
+   "diff": "medium",
+   "key": "present",
+   "model": "find least addition for exact divisibility",
+   "n": 18,
+   "secondary": null,
+   "sub": "remainder",
+   "tags": [
+    "divisibility"
+   ],
+   "topic": "Number System",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "d",
+   "diff": "medium",
+   "key": "present",
+   "model": "compare discount schemes for maximum discount",
+   "n": 19,
+   "secondary": null,
+   "sub": "discount-schemes",
+   "tags": [
+    "successive discount",
+    "buy-get-free"
+   ],
+   "topic": "Discount",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "c",
+   "diff": "medium",
+   "key": "present",
+   "model": "find sphere radius after melting a block",
+   "n": 20,
+   "secondary": null,
+   "sub": "conversion-and-melting",
+   "tags": [
+    "volume conservation"
+   ],
+   "topic": "Mensuration 3D",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "d",
+   "diff": "medium",
+   "key": "present",
+   "model": "find marked price from cost, discount and profit",
+   "n": 21,
+   "secondary": null,
+   "sub": "mp-sp-relation",
+   "tags": [
+    "marked price"
+   ],
+   "topic": "Discount",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "b",
+   "diff": "medium",
+   "key": "present",
+   "model": "count from table with condition",
+   "n": 22,
+   "secondary": null,
+   "sub": "table",
+   "tags": [
+    "reading tables/bars/lines/pies"
+   ],
+   "topic": "Data Interpretation",
+   "trick": null,
+   "type": "data-based"
+  },
+  {
+   "ans": "d",
+   "diff": "medium",
+   "key": "present",
+   "model": "find year-wise difference from table totals",
+   "n": 23,
+   "secondary": null,
+   "sub": "table",
+   "tags": [
+    "reading tables/bars/lines/pies"
+   ],
+   "topic": "Data Interpretation",
+   "trick": null,
+   "type": "data-based"
+  },
+  {
+   "ans": "b",
+   "diff": "medium",
+   "key": "present",
+   "model": "find platform length from train passing times",
+   "n": 24,
+   "secondary": null,
+   "sub": "train-vs-platform",
+   "tags": [
+    "relative speed"
+   ],
+   "topic": "Trains",
+   "trick": null,
+   "type": "computation"
+  },
+  {
+   "ans": "c",
+   "diff": "medium",
+   "key": "present",
+   "model": "find sin + cos from right-triangle sides",
+   "n": 25,
+   "secondary": null,
+   "sub": "identities",
+   "tags": [
+    "trigonometric ratios"
+   ],
+   "topic": "Trigonometry",
+   "trick": null,
+   "type": "computation"
+  }
+ ],
+ "shift": "S2",
+ "stage": "Tier-1",
+ "total": 25,
+ "type": "official"
+}

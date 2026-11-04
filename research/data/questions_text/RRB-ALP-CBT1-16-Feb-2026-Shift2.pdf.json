@@ -1,0 +1,669 @@
+{
+ "paper": "RRB-ALP-CBT1-16-Feb-2026-Shift2.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "splitter": "qdot",
+ "section_slice": false,
+ "extracted_count": 75,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. (Left) X H O Z N M W I C G I U S O R Y I Y V I H W (Right) How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by a consonant?",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "6"
+  },
+  {
+   "n": 2,
+   "text": "The price of a product increases by 38% in the first year and then decreases by 20% in the second year. If the initial price of the product is ₹5,100, calculate the final price at the end of the second year.",
+   "options": [
+    {
+     "text": "₹5,720.80",
+     "added": false
+    },
+    {
+     "text": "₹5,630.40",
+     "added": false
+    },
+    {
+     "text": "₹5,490.60",
+     "added": false
+    },
+    {
+     "text": "₹5,570.20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": "5630.40"
+  },
+  {
+   "n": 3,
+   "text": "Two taps, A and B, can fill a cistern in 6 hours and 7.5 hours, respectively. Both the taps are opened for 2 hours and then B is turned off. How much time will A take to fill the remaining cistern?1522",
+   "options": [
+    {
+     "text": "3.2 hours",
+     "added": false
+    },
+    {
+     "text": "2 hours",
+     "added": false
+    },
+    {
+     "text": "hours",
+     "added": false
+    },
+    {
+     "text": "2.4 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": "2.4 hours"
+  },
+  {
+   "n": 4,
+   "text": "A 628 m long train crosses a man walking at a speed of 10.1 km/h in the opposite direction in 12 seconds. What is the speed (in km/h) of the train?852",
+   "options": [
+    {
+     "text": "180.2",
+     "added": false
+    },
+    {
+     "text": "180.6",
+     "added": false
+    },
+    {
+     "text": "179.3",
+     "added": false
+    },
+    {
+     "text": "178.3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": "178.3"
+  },
+  {
+   "n": 5,
+   "text": "A rectangular piece of paper is 44 cm long and 89 cm wide. A cylinder is formed by rolling the paper along its length. Find the curved surface area of the cylinder.178",
+   "options": [
+    {
+     "text": "3902 cm2",
+     "added": false
+    },
+    {
+     "text": "3961 cm2",
+     "added": false
+    },
+    {
+     "text": "3931 cm2",
+     "added": false
+    },
+    {
+     "text": "3916 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": "3916 cm2"
+  },
+  {
+   "n": 6,
+   "text": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets? (NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.) 6 – 36 – 72 – 144 ; 7 – 49 – 98 – 196",
+   "options": [
+    {
+     "text": "12 – 144 – 288 – 576",
+     "added": false
+    },
+    {
+     "text": "5 – 25 – 50 – 110",
+     "added": false
+    },
+    {
+     "text": "15 – 225 – 625 – 676",
+     "added": false
+    },
+    {
+     "text": "8 – 64 – 128 – 226",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": "34 2/7 days"
+  },
+  {
+   "n": 7,
+   "text": "In a certain code language, 'A + B' means 'A is the son of B', 'A – B' means 'A is the brother of B', 'A × B' means 'A is the wife of B' and 'A ÷ B' means 'A is the father of B'. Based on the above, how is T related to M if 'T × R – Y + G ÷ M'?",
+   "options": [
+    {
+     "text": "Brother's wife",
+     "added": false
+    },
+    {
+     "text": "Mother",
+     "added": false
+    },
+    {
+     "text": "Sister",
+     "added": false
+    },
+    {
+     "text": "Brother's daughter",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": "4√7 cm"
+  },
+  {
+   "n": 8,
+   "text": "What will come in the place of ‘?’ in the following equation, if ‘+’ and ‘-‘ are interchanged and ‘×’ and ‘÷’ are interchanged? 33 + 31 × 31 ÷ 2 - 49 = ?",
+   "options": [
+    {
+     "text": "82",
+     "added": false
+    },
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "78",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "4374√3"
+  },
+  {
+   "n": 9,
+   "text": "Train A is 260 m long and crosses a platform of length 160 m in 28 seconds. Train B is 340 m long and passes a stationary man in 20 seconds. Both trains travel at constant speeds on parallel straight tracks. Find the time (in seconds) taken when the faster train completely overtakes the slower train while moving in the same direction?",
+   "options": [
+    {
+     "text": "250",
+     "added": false
+    },
+    {
+     "text": "300",
+     "added": false
+    },
+    {
+     "text": "360",
+     "added": false
+    },
+    {
+     "text": "320 \"",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "heights-and-distances",
+   "key_answer": "300√3"
+  },
+  {
+   "n": 10,
+   "text": "The price of an article was ₹1600. It increased by 10% in the first year and by 30% in the second year. What is the price (in ₹) of the article after two years?57",
+   "options": [
+    {
+     "text": "2288",
+     "added": false
+    },
+    {
+     "text": "2080",
+     "added": false
+    },
+    {
+     "text": "2248",
+     "added": false
+    },
+    {
+     "text": "1760",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": "2288"
+  },
+  {
+   "n": 11,
+   "text": "A and B start a business by investing ₹40,000 and ₹60,000, respectively. At the end of the year, they earn a profit of ₹20,000. How much profit will A receive?",
+   "options": [
+    {
+     "text": "₹8,000",
+     "added": false
+    },
+    {
+     "text": "₹7,500",
+     "added": false
+    },
+    {
+     "text": "₹9,000",
+     "added": false
+    },
+    {
+     "text": "₹8,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "8000"
+  },
+  {
+   "n": 12,
+   "text": "What sum (in ₹) will earn an interest of ₹480 in 2 years at 5% simple interest per year? 1838",
+   "options": [
+    {
+     "text": "4600",
+     "added": false
+    },
+    {
+     "text": "5000",
+     "added": false
+    },
+    {
+     "text": "4950",
+     "added": false
+    },
+    {
+     "text": "4800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "4800"
+  },
+  {
+   "n": 13,
+   "text": "If the mean of 15 numbers is 25 and one number 36.2 is removed from the numbers, then the mean of the remaining numbers is:",
+   "options": [
+    {
+     "text": "20.8",
+     "added": false
+    },
+    {
+     "text": "21.9",
+     "added": false
+    },
+    {
+     "text": "24.2",
+     "added": false
+    },
+    {
+     "text": "20.1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "24.2"
+  },
+  {
+   "n": 14,
+   "text": "If 2x + 3y = 11 and xy = 2, find the value of 4x2 + 9y2.",
+   "options": [
+    {
+     "text": "101",
+     "added": false
+    },
+    {
+     "text": "97",
+     "added": false
+    },
+    {
+     "text": "109",
+     "added": false
+    },
+    {
+     "text": "117",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "97"
+  },
+  {
+   "n": 15,
+   "text": "Vineet buys a juicer for ₹5,400. He wishes to gain a profit of 20% after offering a discount of 10% on the marked price to his customer. What should be the marked price (in ₹) for this purpose?1610",
+   "options": [
+    {
+     "text": "7,150",
+     "added": false
+    },
+    {
+     "text": "7,050",
+     "added": false
+    },
+    {
+     "text": "7,100",
+     "added": false
+    },
+    {
+     "text": "7,200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": "7200"
+  },
+  {
+   "n": 16,
+   "text": "On a certain sum, at the same rate of interest, the simple interest is ₹66 and compound interest is ₹69 for 2 years. What is the sum (in ₹)?",
+   "options": [
+    {
+     "text": "358",
+     "added": false
+    },
+    {
+     "text": "363",
+     "added": false
+    },
+    {
+     "text": "356",
+     "added": false
+    },
+    {
+     "text": "367",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "si-ci-difference",
+   "key_answer": "363"
+  },
+  {
+   "n": 17,
+   "text": "WURT is related to RPMZ in a certain way based on the English alphabetical order. In the same way, QNLG is related to LIGM. To which of the following is SPMH related, following the same logic?",
+   "options": [
+    {
+     "text": "NKHN",
+     "added": false
+    },
+    {
+     "text": "NLIM",
+     "added": false
+    },
+    {
+     "text": "MLHM",
+     "added": false
+    },
+    {
+     "text": "MKIN",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": "8% profit"
+  },
+  {
+   "n": 18,
+   "text": "During a sale, 55% of the goods are sold at a 41% profit, 20% of the remaining goods are sold at a 19% profit and the rest are sold at a 21% loss. If there is an overall profit of x%, then what is the value of x?",
+   "options": [
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "10.5%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "16.7%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": "16.7%"
+  },
+  {
+   "n": 19,
+   "text": "A and B invested in a business in the ratio 4 : 5. They earned a profit of ₹54,000. They shared one-half of the profit equally and the other half in proportion to their investment. Find the profit share of B.",
+   "options": [
+    {
+     "text": "₹28,500",
+     "added": false
+    },
+    {
+     "text": "₹25,750",
+     "added": false
+    },
+    {
+     "text": "₹27,550",
+     "added": false
+    },
+    {
+     "text": "₹26,650",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "28500"
+  },
+  {
+   "n": 20,
+   "text": "6561",
+   "options": [
+    {
+     "text": "23",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": "27"
+  },
+  {
+   "n": 21,
+   "text": "A shopkeeper marks a mobile phone 40% above its cost price. He then offers two successive discounts of 10% and 5% on the marked price. Find the profit percentage he makes on the cost price.",
+   "options": [
+    {
+     "text": "23%",
+     "added": false
+    },
+    {
+     "text": "19.7%",
+     "added": false
+    },
+    {
+     "text": "22.3%",
+     "added": false
+    },
+    {
+     "text": "21%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "19.7%"
+  },
+  {
+   "n": 22,
+   "text": "What is the mode of the following data? 86, 84, 71, 82, 82, 63, 84, 71, 70, 86, 88, 65, 71, 81, 87, 60, 60, 74, 78, 62, 75, 66, 68, 85, 72",
+   "options": [
+    {
+     "text": "71",
+     "added": false
+    },
+    {
+     "text": "82",
+     "added": false
+    },
+    {
+     "text": "84",
+     "added": false
+    },
+    {
+     "text": "86",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "71"
+  },
+  {
+   "n": 23,
+   "text": "A and B start a business by investing ₹29,000 and ₹95,000, respectively. B withdraws his investment after 6 months, and then C joins the business with an investment of ₹67,000 for the remaining period of the year. If 15% of the total profit is ₹6,600, what is B’s share of the profit?",
+   "options": [
+    {
+     "text": "₹19,000",
+     "added": false
+    },
+    {
+     "text": "₹20,000",
+     "added": false
+    },
+    {
+     "text": "₹20,500",
+     "added": false
+    },
+    {
+     "text": "₹19,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "19000"
+  },
+  {
+   "n": 24,
+   "text": "2 V102 The value of 87+ V¥102— 1V¥16— 5 = 1. A.62",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "roots",
+   "key_answer": "65"
+  },
+  {
+   "n": 25,
+   "text": "Train A is 260 m long and crosses a platform of length 160 m in 28 seconds. Train B is 340 m long and passes a stationary man in 20 seconds. Both trains travel at constant speeds on parallel straight tracks. Find the time (in seconds) taken when the faster train completely overtakes the slower train while moving in the same direction?",
+   "options": [
+    {
+     "text": "250",
+     "added": false
+    },
+    {
+     "text": "300",
+     "added": false
+    },
+    {
+     "text": "360",
+     "added": false
+    },
+    {
+     "text": "320 \"",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": "300"
+  }
+ ]
+}

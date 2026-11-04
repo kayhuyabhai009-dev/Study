@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-01-Feb-2023-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Find the absolute difference between the greatest 3-digit number and the smallest 4- digit number divisible by 12, 25 and 18.",
+   "options": [
+    {
+     "text": "900",
+     "added": false
+    },
+    {
+     "text": "300",
+     "added": false
+    },
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "1200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A shopkeeper announces the following three discount schemes on the purchase of an article. Which of these schemes is the best scheme for a customer? A. Two successive discounts of 15% and 18% B. Buy 6 articles and get 2 free C. A flat discount of 30%",
+   "options": [
+    {
+     "text": "Both schemes A and C give the same discount",
+     "added": false
+    },
+    {
+     "text": "Scheme A",
+     "added": false
+    },
+    {
+     "text": "Scheme B",
+     "added": false
+    },
+    {
+     "text": "Scheme C",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "If 12 men or 9 women can do a piece of work in 36 days, then how many days will 16 men and 18 women take to finish the same work?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The current birth rate per ten thousand is 450, whereas the corresponding death rate is 120 per ten thousand. Find the net growth rate in terms of the population increase in percentage.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "On mixing two classes A and B of students having average marks 50 and 80, respectively, the average marks obtained is 60. Find the respective ratio of the students in the classes A and B.",
+   "options": [
+    {
+     "text": "3 : 2",
+     "added": false
+    },
+    {
+     "text": "2 : 3",
+     "added": false
+    },
+    {
+     "text": "2 : 1",
+     "added": false
+    },
+    {
+     "text": "1 : 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A can paint 5 chairs in an hour and B can paint 3 chairs in an hour. Determine how much time they will require to paint 40 chairs when they work together.",
+   "options": [
+    {
+     "text": "12 hours",
+     "added": false
+    },
+    {
+     "text": "10 hours",
+     "added": false
+    },
+    {
+     "text": "8 hours",
+     "added": false
+    },
+    {
+     "text": "5 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The weights of two persons A and B are in ratio of 5 : 3 respectively. If the weight of A increases by 5% and the total weight of A and B becomes 92 kg with an increase of 15%, then find the percentage increase in the weight of B. (Correct to 2 decimal places)",
+   "options": [
+    {
+     "text": "31.67 Percent",
+     "added": false
+    },
+    {
+     "text": "30.66 Percent",
+     "added": false
+    },
+    {
+     "text": "32.66 Percent",
+     "added": false
+    },
+    {
+     "text": "36.66 Percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "If a right circular cone of height 24 cm has a volume of 392 π cm3, then the curved surface area is:",
+   "options": [
+    {
+     "text": "163 π cm2",
+     "added": false
+    },
+    {
+     "text": "191 π cm2",
+     "added": false
+    },
+    {
+     "text": "175 π cm2",
+     "added": false
+    },
+    {
+     "text": "185 π cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "If you are buying one jacket at ₹2,500 and buying two similar jackets at ₹4,500, then find the discount percentage. (Marked price of one jacket is ₹2500)",
+   "options": [
+    {
+     "text": "12 Percent",
+     "added": false
+    },
+    {
+     "text": "15 Percent",
+     "added": false
+    },
+    {
+     "text": "10 Percent",
+     "added": false
+    },
+    {
+     "text": "18 Percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A police officer follows a thief who is at a distance of 800 m from him. If they run at a speed of 8 km/h and 7 km/h, respectively, how long does the police officer have to run to catch up with the thief?",
+   "options": [
+    {
+     "text": "4000 m",
+     "added": false
+    },
+    {
+     "text": "4800 m",
+     "added": false
+    },
+    {
+     "text": "5600 m",
+     "added": false
+    },
+    {
+     "text": "6400 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "In a college, there are two courses. In M.Com. 450 students passed out of 500, while in M.A. 1500 students passed the exam out of 2000 students. What is the combined pass percentage of the college?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A sum of money amounts to ₹14,112 at the rate of 20% per annum compounded annually for 3 years. Find the sum of money.",
+   "options": [
+    {
+     "text": "₹8,099.60",
+     "added": false
+    },
+    {
+     "text": "₹7,167.70",
+     "added": false
+    },
+    {
+     "text": "₹9,166.87",
+     "added": false
+    },
+    {
+     "text": "₹8,166.67",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A thief started running at a speed of 15 m/s, after running for 12 sec a policeman started running to catch the thief in the same direction at a speed of 20 m/s. How many metre will the policeman run to catch the thief?",
+   "options": [
+    {
+     "text": "740 m",
+     "added": false
+    },
+    {
+     "text": "754 m",
+     "added": false
+    },
+    {
+     "text": "720 m",
+     "added": false
+    },
+    {
+     "text": "744 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "If the radius of a sphere is increased by 5%, what percentage increase takes place in the surface area of the sphere?",
+   "options": [
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "10.25%",
+     "added": false
+    },
+    {
+     "text": "15.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The price of a mobile first successively decreases by 5%, 2% and after that the price is increased successively by 10%, 20%, respectively. What is the final change in the price of the mobile?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A house worth Rs.1,00,000 is sold by A to B at a profit of 6%. B sells house back to A at 3% loss. What is the gain/loss of A in the entire transaction?",
+   "options": [
+    {
+     "text": "Loss of Rs.3,280",
+     "added": false
+    },
+    {
+     "text": "Gain of Rs.2,802",
+     "added": false
+    },
+    {
+     "text": "Loss of Rs.2,280",
+     "added": false
+    },
+    {
+     "text": "Gain of Rs.2,820",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Soni sold a mobile phone to Raju at a profit of 10%, Raju sold it to Alok at a loss of 5% and Alok sold it to Sohan at a profit of 20%. If Sohan bought it for ₹ 6,270, what is the cost price (in ₹ ) of the mobile for Soni?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Price of 3 CTs is ₹3,300.What would be the price (in ₹) of 10 CTs?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "direct-inverse-variation",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 321,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

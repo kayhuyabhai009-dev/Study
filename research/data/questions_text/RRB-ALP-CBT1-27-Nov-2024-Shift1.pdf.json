@@ -1,0 +1,150 @@
+{
+ "paper": "RRB-ALP-CBT1-27-Nov-2024-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 3,
+   "text": "oF : Triangle ABC is similar to triangle DEF with BC =1 Find Area (triangle DEF) . EF 4 Area (triangle ABC)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": "16"
+  },
+  {
+   "n": 4,
+   "text": "— 48 men can doa work in 5 days while 40 women can do the same work in 9 days. In how many days can 4 men and 6 women together do the same work?",
+   "options": [
+    {
+     "text": "24 days",
+     "added": false
+    },
+    {
+     "text": "30 days",
+     "added": false
+    },
+    {
+     "text": "48 days",
+     "added": false
+    },
+    {
+     "text": "42 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "30 days"
+  },
+  {
+   "n": 5,
+   "text": "A person saves 30% of his monthly income. If his monthly income increases by 20%, then he saves 20% more than the previous savings. The percentage increase in his expenditure is :",
+   "options": [
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "16%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": "20%"
+  },
+  {
+   "n": 9,
+   "text": "Which two numbers should be interchanged to make the given equation correct? 63 —45+ 14+(81+9)x4+18*3=114 (Note: Interchange should be done of the entire number and not individual digits of a given number.)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "2"
+  },
+  {
+   "n": 13,
+   "text": "The distance between the centre of curvature and pole of a convex mirror of | m focal length is :",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": "2 hours"
+  },
+  {
+   "n": 17,
+   "text": "Study the following graph and answer the given question. The graph shows the number of articles sold in a week by different shops. 2000 1750 1750 1500 1500 1500 1250 = 1250 8 1000 & 1000 2 @ 750 500 250 0 A B Cc D E Shops What percentage of articles did shop C sell more than shop B?",
+   "options": [
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "20%"
+  },
+  {
+   "n": 18,
+   "text": "Given that one cubic cm of marble weighs 25 gms, the weight of a cuboidal marble block 28 cm in width and 5 cm thick is 112 kg. The length of the block is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "32 cm"
+  },
+  {
+   "n": 20,
+   "text": "Two people drive towards each other from two places which are 56 km apart. The speed of the first person is 12 km/h and the speed of the other is 14 kni/h. After how long will they be 4 km apart if they start driving at the same time?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": "10%"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.14,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 232,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

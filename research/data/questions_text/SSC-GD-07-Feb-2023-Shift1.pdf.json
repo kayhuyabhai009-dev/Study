@@ -1,0 +1,478 @@
+{
+ "paper": "SSC-GD-07-Feb-2023-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 2,
+   "text": "A dishonest shopkeeper sells rice at the cost price but he uses a faulty weight of 925g for 1000g. Find his gain percentage.",
+   "options": [
+    {
+     "text": "6.01 Percent",
+     "added": false
+    },
+    {
+     "text": "7.0 Percent",
+     "added": false
+    },
+    {
+     "text": "5.3 Percent",
+     "added": false
+    },
+    {
+     "text": "8.11 Percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "What is the smallest positive number that should be subtracted from each of 12 and 21 so that 36 is the third proportion to them?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The value of a painting rises from Rs 140000 to Rs 182000. The percent increase in the value of the painting is:",
+   "options": [
+    {
+     "text": "50 percent",
+     "added": false
+    },
+    {
+     "text": "10 percent",
+     "added": false
+    },
+    {
+     "text": "30 percent",
+     "added": false
+    },
+    {
+     "text": "40 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Find the HCF of the cube of 16 and the square of 48.",
+   "options": [
+    {
+     "text": "256",
+     "added": false
+    },
+    {
+     "text": "768",
+     "added": false
+    },
+    {
+     "text": "512",
+     "added": false
+    },
+    {
+     "text": "128",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "24 men complete a work in 9 days. 3 days after they started working, 8 more men joined them. How many days will all of them take to complete the remaining work?",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5.5",
+     "added": false
+    },
+    {
+     "text": "4.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "If the price of tea is increased by 20%, by what percentage must the consumption of tea be diminished so as NOT to increase the expenditure on tea?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A solid right-circular cylinder whose radius of the base is 22.5 cm and whose height is 24 cm is melted and moulded in the shape of a right circular cone whose radius of the base is 36 cm. What will be the height of this cone?",
+   "options": [
+    {
+     "text": "26.225 cm",
+     "added": false
+    },
+    {
+     "text": "28.125 cm",
+     "added": false
+    },
+    {
+     "text": "29.105 cm",
+     "added": false
+    },
+    {
+     "text": "30.25 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The present value of a house is ₹46,40,000. If its value depreciates at the rate of 5% per annum, then the value of the house after 3 years will be:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "growth-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A person travels three equal distances at the speeds of 2 km/h, 3 km/h and 4 km/h and takes a total time of 52 minutes. The total distance is:",
+   "options": [
+    {
+     "text": "2.8 km",
+     "added": false
+    },
+    {
+     "text": "2.7 km",
+     "added": false
+    },
+    {
+     "text": "2.4 km",
+     "added": false
+    },
+    {
+     "text": "2.5 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "An object moves 15 m in 2.6 min and the next 26 km at a speed of 30 km/h. Find its average speed (in m/sec) for the whole movement.",
+   "options": [
+    {
+     "text": "8.59",
+     "added": false
+    },
+    {
+     "text": "3.76",
+     "added": false
+    },
+    {
+     "text": "7.94",
+     "added": false
+    },
+    {
+     "text": "2.92",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Simplify the following. 30% of [ { (820% of 40 ) – 28} ] % of 600",
+   "options": [
+    {
+     "text": "540",
+     "added": false
+    },
+    {
+     "text": "200",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    },
+    {
+     "text": "250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "At what rate of compound interest does a sum of money become 3.375-fold in 3 years, compounding annually?",
+   "options": [
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "200%",
+     "added": false
+    },
+    {
+     "text": "100%",
+     "added": false
+    },
+    {
+     "text": "150%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A wholesaler has 1000 kg sugar, part of which he sells at 6% profit and the rest at 12% profit. His gain is 10% on the whole. The quantity sold at 6% profit is: (consider up to two decimals)",
+   "options": [
+    {
+     "text": "666.66 kg",
+     "added": false
+    },
+    {
+     "text": "336.33 kg",
+     "added": false
+    },
+    {
+     "text": "663.66 kg",
+     "added": false
+    },
+    {
+     "text": "333.33 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Balvendra offers two successive discounts of 9% and 4% first and then he also provides a cash discount of Rs.268 on the sale of a CCTV camera. If the marked price of the CCTV camera is Rs.5,000, what is the final price of the CCTV camera for a customer?",
+   "options": [
+    {
+     "text": "Rs.4,000",
+     "added": false
+    },
+    {
+     "text": "Rs.4,368",
+     "added": false
+    },
+    {
+     "text": "Rs.4,100",
+     "added": false
+    },
+    {
+     "text": "Rs.4,636",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Ram and Ramesh run two kilometres and Ram wins by 40 seconds. Ram and Naresh run two kilometres and Ram wins by 650 metres. When Ramesh and Naresh run the same distance, Ramesh wins by 25 seconds. Find the time taken by Ram to run two kilometres.",
+   "options": [
+    {
+     "text": "3 minutes, 15 seconds",
+     "added": false
+    },
+    {
+     "text": "2 minutes, 15 seconds",
+     "added": false
+    },
+    {
+     "text": "3 minutes, 35 seconds",
+     "added": false
+    },
+    {
+     "text": "2 minutes, 35 seconds",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If the volume of a solid right circular cone is v cm3 and its height is h cm, then the radius of the cone is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Aman can do a piece of work in 78 days. Ram can do this work in 39 days. Aman started the work alone. After how many days should Ram join him, so that the work is finished in 39 days?",
+   "options": [
+    {
+     "text": "39/2 days",
+     "added": false
+    },
+    {
+     "text": "77/2 days",
+     "added": false
+    },
+    {
+     "text": "27/2 days",
+     "added": false
+    },
+    {
+     "text": "17/2 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 318,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

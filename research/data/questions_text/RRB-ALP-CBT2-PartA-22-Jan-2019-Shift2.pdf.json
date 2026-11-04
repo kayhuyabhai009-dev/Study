@@ -1,0 +1,49 @@
+{
+ "paper": "RRB-ALP-CBT2-PartA-22-Jan-2019-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 27,
+ "questions": [
+  {
+   "n": 3,
+   "text": "24 The geometric mean of 9 and 81 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Sequences and Series",
+   "sub": "geometric-progression",
+   "key_answer": "27"
+  },
+  {
+   "n": 5,
+   "text": "Band C can doa certain work in 35 days, while A, B & C can do the same wotk in 17.5 days. In how many days cam A ithe ant ick nine",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "35 days"
+  },
+  {
+   "n": 11,
+   "text": "a3 2 =..e 7 . ; 3 When 32684 js divided by 5, the remainder is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": "1"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 175,
+   "anchor_cov": 0.07,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 560,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

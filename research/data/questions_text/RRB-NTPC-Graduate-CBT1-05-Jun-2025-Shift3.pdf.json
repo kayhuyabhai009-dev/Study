@@ -1,0 +1,873 @@
+{
+ "paper": "RRB-NTPC-Graduate-CBT1-05-Jun-2025-Shift3.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "source_pdf": "RRB_NTPC_G_Answer_Key_Compilation_English-5-6-2025-Shift-III.pdf",
+ "tagged_count": 32,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Who among the following was recognised in the 2025 TIME Earth Awards for environmental justice advocacy for marginalised communities?",
+   "options": [
+    {
+     "text": "Catherine Coleman Flowers",
+     "added": false
+    },
+    {
+     "text": "Jay Inslee",
+     "added": false
+    },
+    {
+     "text": "Michael Bloomberg",
+     "added": false
+    },
+    {
+     "text": "Selassie Atadika",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "From a taxi stand, two cabs start at a speed of 54 km/hr at an interval of 29 minutes, both cabs travelling in the same direction. A man coming in the opposite direction towards the taxi stand meets the cabs at an interval of 12 minutes. Find the speed (in km/hr) of the man.",
+   "options": [
+    {
+     "text": "74.8",
+     "added": false
+    },
+    {
+     "text": "82.1",
+     "added": false
+    },
+    {
+     "text": "76.5",
+     "added": false
+    },
+    {
+     "text": "80.4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": "76.5"
+  },
+  {
+   "n": 3,
+   "text": "If the selling price of a bed is 2-times of initial, then the profit is 10-times of initial. Find the initial profit percentage (in %).",
+   "options": [
+    {
+     "text": "400",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "12.5",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "12.5"
+  },
+  {
+   "n": 4,
+   "text": "A, B, C, D, E and F live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. The product of floors on which F and E live is 15. C lives immediately above B. The sum of floors on which D and E live is 7. How many people live between B and D?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Seven people, I, J, K, L, O, P and Q are sitting in a row, facing north. Only five people sit between L and Q. P sits to the immediate left of Q. Only one person sits between P and I. O sits at some place to the left of K but at some place to the right of J. Who sits third from the left end of the line?",
+   "options": [
+    {
+     "text": "P",
+     "added": false
+    },
+    {
+     "text": "Q",
+     "added": false
+    },
+    {
+     "text": "O",
+     "added": false
+    },
+    {
+     "text": "J",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "50 : 59"
+  },
+  {
+   "n": 6,
+   "text": "AB is parallel to CD. A transversal PQ intersects AB and CD at E and F, respectively, and ∠ PEB = 59°. G is a point between AB and CD such that ∠ BEG = 50° and ∠ GFE = 33°. What is the measure of ∠ EGF?",
+   "options": [
+    {
+     "text": "76°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    },
+    {
+     "text": "74°",
+     "added": false
+    },
+    {
+     "text": "88°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": "76°"
+  },
+  {
+   "n": 7,
+   "text": "Which of the following numbers is divisible by 7?",
+   "options": [
+    {
+     "text": "894",
+     "added": false
+    },
+    {
+     "text": "87",
+     "added": false
+    },
+    {
+     "text": "875",
+     "added": false
+    },
+    {
+     "text": "687",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": "875"
+  },
+  {
+   "n": 8,
+   "text": "A boat takes 51 minutes to go 10.2 km upstream. The ratio of the speed of the boat in still water to that of the stream is 7 : 6. How much total time (in hours) will the boat take to go 17.7 km upstream and 66.3 km downstream?",
+   "options": [
+    {
+     "text": "3.4",
+     "added": false
+    },
+    {
+     "text": "2.1",
+     "added": false
+    },
+    {
+     "text": "1.9",
+     "added": false
+    },
+    {
+     "text": "0.3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "still-water-and-stream-speed",
+   "key_answer": "1.9"
+  },
+  {
+   "n": 9,
+   "text": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’, and ‘D’ stands for ‘−’, what will come in place of the question mark (?) in the following equation? 45 B 14 A 21 D 17 C 25 = ?",
+   "options": [
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "38",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "38"
+  },
+  {
+   "n": 10,
+   "text": "At what rate of interest (in percentage) per year will a sum of money double itself in 5 years on simple interest?",
+   "options": [
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "22%",
+     "added": false
+    },
+    {
+     "text": "18%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": "8%"
+  },
+  {
+   "n": 11,
+   "text": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? SKC WOG ASK EWO ?",
+   "options": [
+    {
+     "text": "IAS",
+     "added": false
+    },
+    {
+     "text": "AIS",
+     "added": false
+    },
+    {
+     "text": "ASI",
+     "added": false
+    },
+    {
+     "text": "ISA",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "20%"
+  },
+  {
+   "n": 12,
+   "text": "In India, irrigation projects with a Cultivable Command Area (CCA) of more than 10,000 hectares are classified as:",
+   "options": [
+    {
+     "text": "Micro Projects",
+     "added": false
+    },
+    {
+     "text": "Minor Projects",
+     "added": false
+    },
+    {
+     "text": "Local Projects",
+     "added": false
+    },
+    {
+     "text": "Major Projects",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "Major Projects"
+  },
+  {
+   "n": 13,
+   "text": "A cook earns ₹8,400 per month. If she spends 60% of it each month, how much will she save (in ₹) by one-fourth of a year?",
+   "options": [
+    {
+     "text": "10,080",
+     "added": false
+    },
+    {
+     "text": "7,200",
+     "added": false
+    },
+    {
+     "text": "12000",
+     "added": false
+    },
+    {
+     "text": "5,040",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "10,080"
+  },
+  {
+   "n": 14,
+   "text": "Akshat invested ₹90,625 at 8% p.a. for 1 year at compound interest, compounded half- yearly. The amount received by him is:",
+   "options": [
+    {
+     "text": "₹98,020",
+     "added": false
+    },
+    {
+     "text": "₹98,802",
+     "added": false
+    },
+    {
+     "text": "₹98,837",
+     "added": false
+    },
+    {
+     "text": "₹98,984",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "₹98,020"
+  },
+  {
+   "n": 15,
+   "text": "In March 2025, the Indian government sought parliamentary approval for additional spending. Which sector was allocated funds for upgrading networks in underserved areas?​",
+   "options": [
+    {
+     "text": "Telecommunications",
+     "added": false
+    },
+    {
+     "text": "Transportation​",
+     "added": false
+    },
+    {
+     "text": "Healthcare",
+     "added": false
+    },
+    {
+     "text": "Education",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "Telecommunications"
+  },
+  {
+   "n": 16,
+   "text": "Which writer authored 'Baluta', recognised as the pioneering Dalit autobiographical work in the Marathi language?",
+   "options": [
+    {
+     "text": "Namdeo Dhasal",
+     "added": false
+    },
+    {
+     "text": "Sharankumar Limbale",
+     "added": false
+    },
+    {
+     "text": "Daya Pawar",
+     "added": false
+    },
+    {
+     "text": "Omprakash Valmiki",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "Daya Pawar"
+  },
+  {
+   "n": 17,
+   "text": "According to the State Bank of India (SBI) report on India’s poverty rate for 2024, what is the estimated national poverty rate?",
+   "options": [
+    {
+     "text": "5.5% to 6.0%",
+     "added": false
+    },
+    {
+     "text": "4.0% to 4.5%",
+     "added": false
+    },
+    {
+     "text": "3.5% to 4.0%",
+     "added": false
+    },
+    {
+     "text": "4.5% to 5.0%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": "7"
+  },
+  {
+   "n": 18,
+   "text": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? JGM KHN LIO MJP ?",
+   "options": [
+    {
+     "text": "NKR",
+     "added": false
+    },
+    {
+     "text": "NLR",
+     "added": false
+    },
+    {
+     "text": "NLQ",
+     "added": false
+    },
+    {
+     "text": "NKQ",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "49"
+  },
+  {
+   "n": 19,
+   "text": "Under the Fifth Schedule, the Governor's regulations in Scheduled Areas can prohibit or restrict which of the following?",
+   "options": [
+    {
+     "text": "Tax collection",
+     "added": false
+    },
+    {
+     "text": "Land transfers",
+     "added": false
+    },
+    {
+     "text": "Water usage",
+     "added": false
+    },
+    {
+     "text": "Freedom of speech",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "Land transfers"
+  },
+  {
+   "n": 20,
+   "text": "In a bag containing red, green, and pink tokens, the ratio of red to green tokens was 7 : 20, while the ratio of pink to red tokens was 15 : 12. What was the ratio of green to pink tokens?",
+   "options": [
+    {
+     "text": "19 : 12",
+     "added": false
+    },
+    {
+     "text": "11 : 5",
+     "added": false
+    },
+    {
+     "text": "16 : 7",
+     "added": false
+    },
+    {
+     "text": "25 : 7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "16 : 7"
+  },
+  {
+   "n": 21,
+   "text": "Alok, Gita, and Suresh invest ₹56,000, ₹52,000, and ₹69,000 respectively to start a business. At the end of the year, the total profit earned is ₹76,700. 31% of the total profit earned is given to charity and the rest is divided among them in the ratio of their investment. What will be the share of Suresh (in ₹)?",
+   "options": [
+    {
+     "text": "20,631",
+     "added": false
+    },
+    {
+     "text": "20,693",
+     "added": false
+    },
+    {
+     "text": "20,551",
+     "added": false
+    },
+    {
+     "text": "20,727",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "20,631"
+  },
+  {
+   "n": 22,
+   "text": "What popular title is used to refer to the Bengali poet Jibanananda Das?",
+   "options": [
+    {
+     "text": "Jibon Kobi",
+     "added": false
+    },
+    {
+     "text": "Rupashi Banglar Kabi",
+     "added": false
+    },
+    {
+     "text": "Kobiraj of Kolkata",
+     "added": false
+    },
+    {
+     "text": "Bhasha Shaheed Kabi",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": "35"
+  },
+  {
+   "n": 23,
+   "text": "An article was bought for ₹1,300. Its price was marked up by 35%. Thereafter it was sold at a discount of 20% on the marked price. What was the percentage profit on the transaction?",
+   "options": [
+    {
+     "text": "7%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "6%",
+     "added": false
+    },
+    {
+     "text": "8%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": "False",
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "8"
+  },
+  {
+   "n": 24,
+   "text": "Which period in India's demographic history is marked by a sharp decline in mortality and persistently high fertility rates?",
+   "options": [
+    {
+     "text": "Phase II (1921–1951)",
+     "added": false
+    },
+    {
+     "text": "Phase I (1901–1921)",
+     "added": false
+    },
+    {
+     "text": "Phase III (1951–1981)",
+     "added": false
+    },
+    {
+     "text": "Phase IV (1981–2001)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "digit-sum-and-place-value",
+   "key_answer": "6"
+  },
+  {
+   "n": 25,
+   "text": "A vendor sold 4 chocolates for ₹1, thereby gaining 100%. How many chocolates did he buy for ₹1?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": "20 years"
+  },
+  {
+   "n": 26,
+   "text": "If 2 is added to each even digit and 1 is subtracted from each odd digit in the number 6435127, what will be the sum of the second digit from the left and the third digit from the right in the new number thus formed?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Set Theory",
+   "sub": "venn-diagrams",
+   "key_answer": "9"
+  },
+  {
+   "n": 27,
+   "text": "Study the given Venn diagram carefully and answer the questions. The numbers in different sections indicate the number of persons. How many electricians are there who are also architects but not dentists?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "34"
+  },
+  {
+   "n": 28,
+   "text": "In an election, there were two candidates. One of the candidates secured 48% of the votes and was defeated by the other candidate by 756 votes. Find the total number of votes polled.",
+   "options": [
+    {
+     "text": "17,800",
+     "added": false
+    },
+    {
+     "text": "19,500",
+     "added": false
+    },
+    {
+     "text": "15,600",
+     "added": false
+    },
+    {
+     "text": "18900",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "18900"
+  },
+  {
+   "n": 29,
+   "text": "In a circle, the length of a chord is 12 cm and the perpendicular distance from the centre of the circle to the chord is 5 cm. What is the radius of the circle? (Rounded up to two decimal places.)",
+   "options": [
+    {
+     "text": "7.81 cm",
+     "added": false
+    },
+    {
+     "text": "6.97 cm",
+     "added": false
+    },
+    {
+     "text": "9.87 cm",
+     "added": false
+    },
+    {
+     "text": "10.25 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": "7.81 cm"
+  },
+  {
+   "n": 30,
+   "text": "Which criticism highlights the parliamentary system’s departure from the principle of separation of powers?",
+   "options": [
+    {
+     "text": "Ministers are appointed based on expertise rather than political affiliation.",
+     "added": false
+    },
+    {
+     "text": "The executive and legislature operate independently.",
+     "added": false
+    },
+    {
+     "text": "The cabinet simultaneously leads the executive and legislature, creating fusion of powers.",
+     "added": false
+    },
+    {
+     "text": "The President has absolute control over the Prime Minister.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": "25 : 6"
+  },
+  {
+   "n": 31,
+   "text": "What is the target number of houses to be built under the Pradhan Mantri Awas Yojana (Urban) by 2023-2024?",
+   "options": [
+    {
+     "text": "2.67 crore",
+     "added": false
+    },
+    {
+     "text": "3.32 crore",
+     "added": false
+    },
+    {
+     "text": "4.41 crore",
+     "added": false
+    },
+    {
+     "text": "1.89 crore",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "1.89 crore"
+  },
+  {
+   "n": 32,
+   "text": "A body of mass 10 kg is moving with a uniform velocity of 5 m/s. What is the net force acting on it?",
+   "options": [
+    {
+     "text": "10 N",
+     "added": false
+    },
+    {
+     "text": "2 N",
+     "added": false
+    },
+    {
+     "text": "0 N",
+     "added": false
+    },
+    {
+     "text": "50 N",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "0 N"
+  }
+ ]
+}

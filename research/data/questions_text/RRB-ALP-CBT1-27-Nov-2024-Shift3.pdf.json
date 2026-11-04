@@ -1,0 +1,96 @@
+{
+ "paper": "RRB-ALP-CBT1-27-Nov-2024-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 5,
+   "text": "— A’s salary is 20% less than B’s salary. By what percentage is B’s salary more than A’s salary?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": "25%"
+  },
+  {
+   "n": 6,
+   "text": "Ifsec4A = cosec (3A- 50°), where 4A and 3A are acute angles, find the value of cosec (A + 25°). 1",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": "4"
+  },
+  {
+   "n": 12,
+   "text": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same work in 2 days, then the time taken by 20 men for doing the same piece of work will be:",
+   "options": [
+    {
+     "text": "24. 4 days",
+     "added": false
+    },
+    {
+     "text": "5 days",
+     "added": false
+    },
+    {
+     "text": "2 days",
+     "added": false
+    },
+    {
+     "text": "3 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": "5 days"
+  },
+  {
+   "n": 13,
+   "text": "A 3-digit number is such that the units’ digit, the tens’ digit and the hundreds’ digit are in the ratio 1 : 2 : 3. The sum of this number and the number obtained by writing its digits in reverse order is 1332. Find the number.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "digit-sum-and-place-value",
+   "key_answer": "963"
+  },
+  {
+   "n": 19,
+   "text": "The monthly income of a person is 213,500, and his monthly expenditure is 29,000. Approximately what percentage of his monthly income does he save monthly?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": "33.33%"
+  },
+  {
+   "n": 20,
+   "text": "Study the following graph and answer the given question. The following bar graph shows annual exports (in crore) of a company during the period 2015 to 2019. 55 50 _ 45 40 g 40 35 35 es 9 30 2s t F 20 § 20 ais 10 5 t) 2015 2016 2017 2018 2019 Years What is the average export (in crore) of the year 2016 and 2018?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "30"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 228,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

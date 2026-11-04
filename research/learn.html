@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Learn — Gov Exam Maths</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css"><link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('gems-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){}</script>
+</head>
+<body><div class="shell"><aside class="sidebar"></aside><div class="main"><div class="topbar"></div>
+<main class="content"><div id="learnWrap">
+<div class="page-hero"><p class="eyebrow">Learn — Chapter → Topic → Concept</p><h1>Chapter se concept tak, explanation ke saath</h1>
+<p>Ek chapter (topic) chuno → uske topics (sub-topics) dikhenge → kisi topic par tap karo to uske concepts ki poori explanation milegi: steps (prerequisites → definition → Hindi samajh → formulas), PYQ shortcut labels se fast method, aur us topic ke concept-tags se aaye saare questions. Do concept systems alag-alag labelled hain: hierarchy concepts samajhate hain, record concept-tags questions laate hain — dono ko milaya nahi gaya hai.</p>
+<div class="chip-row" id="learnConf"><span class="small muted" style="padding:7px 4px">Questions:</span>
+<button class="chip on" data-conf="all">All</button>
+<button class="chip" data-conf="certain">Certain only</button>
+<button class="chip" data-conf="uncertain">Uncertain only</button></div></div>
+<div class="grid" style="grid-template-columns:280px 1fr;gap:20px">
+<div><h3>Chapters</h3><div id="learnChapters"></div></div>
+<div><div id="learnTopics"></div><div id="learnDetail" style="margin-top:16px"></div>
+<div id="learnQCount" style="margin-top:20px"></div><div id="learnQuestions" style="margin-top:12px"></div>
+<div class="pager" id="learnPager"></div></div>
+</div>
+</div></main>
+<footer class="site-footer" style="max-width:1180px;margin:0 auto;padding:0 32px 32px"></footer></div></div>
+<div class="palette" id="palette"><div class="palette-box"><input type="text" placeholder="Jump to a page, topic, exam… (Esc to close)"><div class="palette-results" id="paletteResults"></div></div></div>
+<script src="js/chrome.js"></script><script src="js/data.js"></script><script src="js/ui.js"></script><script src="js/learn.js"></script>
+</body></html>

@@ -1,0 +1,638 @@
+{
+ "paper": "2023-Tier1-19-Jul-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The sum of the two numbers is 98. The difference between the two numbers is 28. Find one of the two numbers.",
+   "options": [
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "62",
+     "added": false
+    },
+    {
+     "text": "58",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The speed of boat a down the stream is 125% of the speed in still water. If the boat takes 30 minutes to cover 20 km in still water, then how much time (in hours) will it take to cover 15 km upstream?",
+   "options": [
+    {
+     "text": "- 4",
+     "added": false
+    },
+    {
+     "text": "S 2 1",
+     "added": false
+    },
+    {
+     "text": "—",
+     "added": false
+    },
+    {
+     "text": "x41",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "3 3 3 Archana took a loan of 278,000 from a bank on 24 January 2012 at 87% per annum simple interest and paid it back on 18June 2012. Find the total amount paid by Archana. (Approximated to nearest integer)",
+   "options": [
+    {
+     "text": "%80,723",
+     "added": false
+    },
+    {
+     "text": "%90,730",
+     "added": false
+    },
+    {
+     "text": "%85,733",
+     "added": false
+    },
+    {
+     "text": "%88,730",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Mother told her daughter, “Seven years ago, I was seven times as old as you were then. Also, three years from now, I shall be three times as old as you will be”. Find the present ages of the mother and the daughter, respectively.",
+   "options": [
+    {
+     "text": "45; 15",
+     "added": false
+    },
+    {
+     "text": "40; 10",
+     "added": false
+    },
+    {
+     "text": "42;12",
+     "added": false
+    },
+    {
+     "text": "50; 20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The following pie chart shows the annual expenditure on different items. What is the minimum angle in the given pie chart? @ Meal ® Medicines ® Entertainment ® Clothes @ Children’s education ® Housing Maintenace",
+   "options": [
+    {
+     "text": "36°",
+     "added": false
+    },
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "32°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "What is the number of common tangents that can be drawn to two circles that touch each other externally?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Which of the numbers 9592450, 9592330, 9592885 and 9592741 is divisible by 11?",
+   "options": [
+    {
+     "text": "9592885",
+     "added": false
+    },
+    {
+     "text": "9592741",
+     "added": false
+    },
+    {
+     "text": "9592450",
+     "added": false
+    },
+    {
+     "text": "9592330",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "QB The number of mobile sim-cards in 4 states/UT are given in the bar diagram. Study the diagram and answer the question. ania | g & £35 t i 20 + | 3 15 Bio BSNL j ae ® Airtel Est % Zo ainar uP bei Punjab States of Indie | } In Delhi, the ratio of BSNL Sim-cards and Airtel Sim-cards sold is:",
+   "options": [
+    {
+     "text": "1:2",
+     "added": false
+    },
+    {
+     "text": "2:1",
+     "added": false
+    },
+    {
+     "text": "3:2",
+     "added": false
+    },
+    {
+     "text": "2:3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "For any acute angle 6, sin 6 + sin? @ = 1, then the value of cos* @ + cos‘ @ = :",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "-1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Two persons started running on a circular track at a speed of 20 m/s and 30 mis in opposite directions. If the circumference of the circular track is 100 m, find at how many distinct points they will cross each other?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Susan can type 12 pages in 6 minutes. Mary can type 6 pages in 12 minutes. Working together, how many pages can they type in 32 minutes?",
+   "options": [
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "70",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "R lends some money to S on which S pays %17,000 more to R. S lends the same money to T, on which T pays 8.5% more to S. What should be the minimum amount (in %) that S must borrow so that he does not incur any loss in the process?",
+   "options": [
+    {
+     "text": "2,00,000",
+     "added": false
+    },
+    {
+     "text": "2,25,000",
+     "added": false
+    },
+    {
+     "text": "1,80,000",
+     "added": false
+    },
+    {
+     "text": "1,70,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Work done by 8 men is completed in 10 days. The same work can be completed in 12 days when done by 10 women. How many days will it take to complete when 4 men and 4 women are employed to perform the same job?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "7 1 Ifx?—7x+1=0, and 0 <x < 1, what is the value of x=?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The marked price of a geyser is 79,400 and the shopkeeper allows a discount 4% on it. Find the selling price of the geyser.",
+   "options": [
+    {
+     "text": "%9,024",
+     "added": false
+    },
+    {
+     "text": "9,124",
+     "added": false
+    },
+    {
+     "text": "%9,324",
+     "added": false
+    },
+    {
+     "text": "%9,224",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In 150, B buys 10 pens for %8 each, 10 erasers for 5 each and some sharpeners for %4 each. What is the average price per item in %?",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "10 women can do a work in 6 days and 6 men can do the same work in 5 days. If all these men and women work together, then how many days will they take to finish this work?",
+   "options": [
+    {
+     "text": "1 6",
+     "added": false
+    },
+    {
+     "text": "4— 11 2",
+     "added": false
+    },
+    {
+     "text": "p= 11",
+     "added": false
+    },
+    {
+     "text": "3 é 4.3— 11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "If AABC ~ APQR, AB = 4.cm, PQ = 6 cm, QR = 9 cm and RP = 12 cm, then find the perimeter of AABC.",
+   "options": [
+    {
+     "text": "18cm",
+     "added": false
+    },
+    {
+     "text": "16 cm",
+     "added": false
+    },
+    {
+     "text": "20cm",
+     "added": false
+    },
+    {
+     "text": "22cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The third proportional between 25 and 35 is:",
+   "options": [
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The salaries of a father, mother and daughter are in the ratio 2 : 3 : 5. What will be the ratio of their salaries if there was an increase of 15%, 10% and 20%, respectively?",
+   "options": [
+    {
+     "text": "19:13:15",
+     "added": false
+    },
+    {
+     "text": "23:33:60",
+     "added": false
+    },
+    {
+     "text": "17:37:50",
+     "added": false
+    },
+    {
+     "text": "17:18: 25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "To have a surface area of 911 square units of a ball, what should be the diameter (in units) of the ball?",
+   "options": [
+    {
+     "text": "2.5",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The area of the sector of a circle (in em?) of radius 7 cm and central angle 60° is: 22 (Take 1 = 7 )",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "If 65% of 350 — ?% of 250 + 40% of 120 = 158, then find the value of ?",
+   "options": [
+    {
+     "text": "57",
+     "added": false
+    },
+    {
+     "text": "63",
+     "added": false
+    },
+    {
+     "text": "47",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": ". 2 Cosx—Sinx If 2 Cot x = 5, then what is ————— equal to? 2 Cos x+Sinx",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "AB BC F i If in AABC and ADEF, DE ED’ then they will be similar when:",
+   "options": [
+    {
+     "text": "2B=2D",
+     "added": false
+    },
+    {
+     "text": "ZA=2D",
+     "added": false
+    },
+    {
+     "text": "2ZA=2F",
+     "added": false
+    },
+    {
+     "text": "2B=2ZE",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 3,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

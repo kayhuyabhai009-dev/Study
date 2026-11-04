@@ -1,0 +1,567 @@
+{
+ "paper": "2021cycle-Tier1-18-Apr-2022-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The expression (cos®@ + sin®°@—1)(tan?6 + cot?@ +2) +1 is equal to:",
+   "options": [
+    {
+     "text": "l",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "-1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Arailway engine passes two bridges of lengths 400 m and 235 m in 100 seconds and 60 seconds, respectively. Twice the length of the railway engine (in m) is:",
+   "options": [
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "12.5",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Prepp Q.3 The sides AB and AC of A ABC are produced to points D and E, respectively. The bisectors of 2 CBD and 2 BCE meet at P. If ZA= 88° , then the measure of 2 P is:",
+   "options": [
+    {
+     "text": "46°",
+     "added": false
+    },
+    {
+     "text": "56°",
+     "added": false
+    },
+    {
+     "text": "51°",
+     "added": false
+    },
+    {
+     "text": "61°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The given bar graph shows exports of cars of type A and B (in 2 millions) from 2014 to 2018. Study the graph and answer the question that follows. Exports of Cars of Type A and B (in 2millions) during 2014 to 2018. wane 330 225 309 Pd ps 2s a 250 | 250 2s E 200) 200 15 La 150} cI 150 g RB so a ° 7 2014 201s 2016 2017 2018 Years In which year are the exports of cars of type A 220 million less more than the average exports (per year) of cars of type B?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Ifa? +b? +49c? +18 = 2(b— 28c — a), then the value of (a — b — 7c) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "prepp P repp Q.6 Joseph deposited a total of 252,500 in a bank in the names of his two daughters aged 15 years and 16 years in such a way that they would get equal amounts when they become 18 years old. If the bank gives 10% compound interest compounded annually, then what is the amount (in 2) that Joseph had deposited in the name of his younger daughter?",
+   "options": [
+    {
+     "text": "25,500",
+     "added": false
+    },
+    {
+     "text": "24,500",
+     "added": false
+    },
+    {
+     "text": "25,000",
+     "added": false
+    },
+    {
+     "text": "26,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The circumference of the base of a right circular cylinder is 62.8 cm and its volume is 8792 cm? . What is the curved surface area (in cm? ) of the cylinder? (Take x = 3.14)",
+   "options": [
+    {
+     "text": "1695.6",
+     "added": false
+    },
+    {
+     "text": "1758.4",
+     "added": false
+    },
+    {
+     "text": "1632.8",
+     "added": false
+    },
+    {
+     "text": "1570.2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The average of eight consecutive odd numbers is 28. The sum of the smallest and the largest number is:",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "52",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "MmAABC.AB=7 cm. BC = 10 cm, and AC = 8 cm. If AD is the angle bisector of 2BAC . where D is a point on BC, then *€ (in em) is equal to:",
+   "options": [
+    {
+     "text": "4 K 128 3 4",
+     "added": false
+    },
+    {
+     "text": "—",
+     "added": false
+    },
+    {
+     "text": "at XK 3. — 3 vf",
+     "added": false
+    },
+    {
+     "text": "= 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Prepp Q.10 The number of cars passing the road near a colony from 6 am to 12 noon has been shown in the following histogram. During which hour(s) is the number of cars passed more than the average number of cars passed from 6 am to 11 am? SS 225 ES SS SES ES 3 fe = = SS = = BS SSSS = = = = — 6 78 8 10 wD ‘Time of the day",
+   "options": [
+    {
+     "text": "8-9 am, 9-10 am",
+     "added": false
+    },
+    {
+     "text": "89am",
+     "added": false
+    },
+    {
+     "text": "7-8 am, 8-9 am, 9-10 am, 10-11 am",
+     "added": false
+    },
+    {
+     "text": "7-8 am, 8-9 am, 9-10 am",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "What is the greatest four-digit number which on being divided by 6, 7 and 8 leaves 4, 5 and 6 as remainders, respectively?",
+   "options": [
+    {
+     "text": "9910",
+     "added": false
+    },
+    {
+     "text": "9920",
+     "added": false
+    },
+    {
+     "text": "9921",
+     "added": false
+    },
+    {
+     "text": "9912",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A poster is on top of a building. A person is standing on the ground at a distance of 50 m from the building. The angles of elevation to the top of the poster and bottom of the poster are 45° and 30°, respectively. What is 200% of the height (in m) of the poster?",
+   "options": [
+    {
+     "text": "(3-3) 3 75",
+     "added": false
+    },
+    {
+     "text": "(3-3)",
+     "added": false
+    },
+    {
+     "text": "50 x3 —(3-y3) 3 100",
+     "added": false
+    },
+    {
+     "text": "—— (3-3) 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "prepp prepp Q.13 The ratio of the profits of P and Q is 5 : 8. What is their investment ratio, if their investment time period ratio is 3 : 5?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ifa nine digit number 468x5138y is divisible by 72, then the value of 4x + 3y is:",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The given bar graph shows the sales of computers from six dealers A, B, C, D, E and F, during two consecutive years 2015 and 2016. Study the graph and answer the question that follows. Sales of computers from six dealers A, B, C, D, E and F, during 2015 and 2016 800 725 3 x0 os 680 Hed 0 pe os * 10 5 sp 220 =o =a 3 20 Pee ° A 8 c D t r Dealers 22015 2016 What is the ratio of the total sales from dealers A, B and C taken together for the year 2015 to the sales from dealers D, E and F taken together for the year 2016?",
+   "options": [
+    {
+     "text": "25:39",
+     "added": false
+    },
+    {
+     "text": "37:21",
+     "added": false
+    },
+    {
+     "text": "21:37",
+     "added": false
+    },
+    {
+     "text": "39:25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "prepp 216 The value of 15 + 6.3 + 7-3 x 1.3-2is:",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "-10",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Ariver 6 m deep and 35 m wide is flowing at the rate of 2.5 km/h, the amount of water that runs into the sea per minute is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Acan complete work in 25 days and B can complete the same work in 20 days. They started the work together but B left after 4 days and A continued to work. In how many days will the entire work be completed?",
+   "options": [
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "If 2V2x3 — 3VBy? = (V2x— V3y)(Ax? — Bxy + Cy?), then the value of (A? + B? + C2) is:",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "V11",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "V21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "prepp prepp Q.20 The cost prices of two articles A and B are in the ratio 4 : 5. While selling these articles, the shopkeeper gains 10% on article A and 20% profit on article B, and the difference in their selling prices is 2480. Find 30% of the total cost price (in 2) of both the articles.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "21 té+cosé cot@+cos! fs The value of 2—_{/———., when 0° < @ < 90° is equal to: cot@-cosé",
+   "options": [
+    {
+     "text": "2+ sec +tan@",
+     "added": false
+    },
+    {
+     "text": "2—sec@+tan@",
+     "added": false
+    },
+    {
+     "text": "2—sec@ —tan@",
+     "added": false
+    },
+    {
+     "text": "2+ sec —tan@",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Ifa positive number *k’ when multiplied by 30% of itself gives a number which is 170% more than the number *k’, then the number ‘k’ is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "ABisachord of a circle with centre O, while PAQ is the tangent at A. R is a point on the minor arc AB. If ZBAQ = 70° , then find the measure of ZARB.",
+   "options": [
+    {
+     "text": "110°",
+     "added": false
+    },
+    {
+     "text": "125°",
+     "added": false
+    },
+    {
+     "text": "70°",
+     "added": false
+    },
+    {
+     "text": "145°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "prepp Q.24 Ashopkeeper announces a discount of 48% and then by a further discount of 15%. What is the final sale price (in Rs, to the nearest rupee) of a sofa costing Rs 29600 and what is the discount (in Rs)?",
+   "options": [
+    {
+     "text": "13280, 16517",
+     "added": false
+    },
+    {
+     "text": "13083, 16517",
+     "added": false
+    },
+    {
+     "text": "16517, 13083",
+     "added": false
+    },
+    {
+     "text": "16517, 13280",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "the following pie chart shows the distribution of percentage of a certain corporate office employees in various age-groups. Total number of employees of the corporate office = 2500 Study the chart carefully and answer the question that follows. Pie-Chart presenting the information about the percentage distribution of a certain corporate office employees by their ages. Uf Yj Uy “(38+ 10.48 y yyy, What is the central angle (in degrees) corresponding to the age groups 38+ to 48 years and 58+ years and above, taken together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  }
+ ]
+}

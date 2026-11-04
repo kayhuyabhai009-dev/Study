@@ -1,0 +1,30 @@
+/* tokens.css — v3.0 gamified theme. Same variable names as v2 (no page breaks),
+   repointed: violet brand, green = correct, red = wrong, lavender-tinted paper.
+   Content is 100% the project's own; only the look is modelled on the gamified
+   90-day challenge pattern (fixed sidebar, pills, rounded cards, gradient hero). */
+:root{
+  --paper:#F5F3FF; --surface:#FFFFFF; --raised:#FBFAFF;
+  --ink:#221D3E; --muted:#6B6586; --border:#E4E0F5;
+  --brass:#7C3AED; --brass-soft:#EDE9FE; --teal:#059669; --teal-soft:#D1FAE5;
+  --brick:#DC2626; --brick-soft:#FEE2E2;
+  --brand:#7C3AED; --brand-2:#A855F7; --brand-grad:linear-gradient(135deg,#7C3AED,#A855F7);
+  --good:#059669; --good-soft:#D1FAE5; --bad:#DC2626; --bad-soft:#FEE2E2;
+  --gold:#F59E0B; --gold-soft:#FEF3C7;
+  --shadow:0 1px 2px rgba(34,29,62,.06),0 8px 24px rgba(34,29,62,.06);
+  --shadow-lift:0 2px 4px rgba(34,29,62,.08),0 14px 32px rgba(34,29,62,.10);
+  --font-display:"Baloo 2","Fraunces",Georgia,"Times New Roman",serif;
+  --font-body:"Inter","Noto Sans Devanagari",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,"SF Mono",monospace;
+  --r-card:16px; --r-input:10px; --r-chip:999px;
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px;
+  --space-5:24px; --space-6:32px; --space-7:48px; --space-8:64px;
+  --sidebar:260px; --content:1180px;
+  --chart-1:#7C3AED; --chart-2:#A855F7; --chart-3:#059669; --chart-4:#F59E0B; --chart-5:#DC2626;
+}
+[data-theme="dark"]{
+  --paper:#17122B; --surface:#221D3E; --raised:#2A2350;
+  --ink:#EDE9FE; --muted:#A79FC4; --border:#3B3363;
+  --brass-soft:#3B2F6B; --teal-soft:#123B2E; --brick-soft:#3D1A1A;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.3);
+  --shadow-lift:0 2px 4px rgba(0,0,0,.4),0 14px 32px rgba(0,0,0,.4);
+}

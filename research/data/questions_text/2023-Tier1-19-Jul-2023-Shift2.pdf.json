@@ -1,0 +1,631 @@
+{
+ "paper": "2023-Tier1-19-Jul-2023-Shift2.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Which number among 34623, 34716, 34782 and 34783 is NOT divisible by 3?",
+   "options": [
+    {
+     "text": "34716",
+     "added": false
+    },
+    {
+     "text": "34783",
+     "added": false
+    },
+    {
+     "text": "34623",
+     "added": false
+    },
+    {
+     "text": "34782",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Two circles touch each other externally at P. AB is a direct common tangent to the two circles. If A and B are points of contact and 2 PAB = 65°, then ZABP is .",
+   "options": [
+    {
+     "text": "35°",
+     "added": false
+    },
+    {
+     "text": "15°",
+     "added": false
+    },
+    {
+     "text": "5°",
+     "added": false
+    },
+    {
+     "text": "25°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Two persons started running on a circular track simultaneously with speeds of 20 m/s and 30 m/s in opposite directions. If the circumference of the circular track is 100 m, then find at how many distinct points they will cross each other?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "circular-track",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "a4 If (a+b +c) = 12, and (a? + b? + c?) = 50, find the value of (a3 + b? + c3 — 3abc).",
+   "options": [
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "vw prep i prepp Your Personal Exams Guide Q.5 Asaree bought for 500 is marked at 16% profit and later on sold at a sales discount of x% on the marked price. If the selling price of the saree is $493, find the value of x.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The following pie chart shows the different coloured dresses worn by 60 students ina college party. Study the pie chart and answer the question that follows. Dress colours = 40% 30% = 20% = 10% The degrees (central angle) for the blue coloured dress ( sector which represents 40%) is:",
+   "options": [
+    {
+     "text": "180°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "120°",
+     "added": false
+    },
+    {
+     "text": "144",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Ina group of 32 students, the average weight was 18.5 kg. When 4 students left the group, the average came down to 15.5 kg. What was the average weight (in kg) of those 4 students?",
+   "options": [
+    {
+     "text": "39.5",
+     "added": false
+    },
+    {
+     "text": "375",
+     "added": false
+    },
+    {
+     "text": "27.5",
+     "added": false
+    },
+    {
+     "text": "365",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Prepp Your Personal Exams Guide Q.8 4 If secO = — , what is the value of tan?0 + tan* 6?",
+   "options": [
+    {
+     "text": "I 2 i. — 81",
+     "added": false
+    },
+    {
+     "text": "56 Ke 2. — 81 64",
+     "added": false
+    },
+    {
+     "text": "— 27 x 16",
+     "added": false
+    },
+    {
+     "text": "— 81",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The wages (in %) earned by a labourer in twelve months of a year are shown in the following bar graph. 120) —— —— Fr OE 9500 9400 9600 9259 10000 9700 10000 —__ — > Pm 3009 8900 8600 -— 9950\" sooo -| |— ei - 7200___ fag — 6000 j= 4000 , 2000 _ “ 0 4 & Ro 2 ws 3 $ $ # os es So & x s & YF S vr < r rs Fs & What is the average wage (in %) received by the labourer in the first five months of the year?",
+   "options": [
+    {
+     "text": "9,300",
+     "added": false
+    },
+    {
+     "text": "9,000",
+     "added": false
+    },
+    {
+     "text": "9,100",
+     "added": false
+    },
+    {
+     "text": "9,200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Prepp Your Personal Exams Guide Q10 Simplify the following expression: 72 tex? (12+5-S8+72)+(#S\") cs44-a2)+(a3-a2%79 232",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Qa. . cotAcotB + 1 Using cot(A — B) = ——_——., find the value of cot15°. ing cot{ ) cotB — cotA”",
+   "options": [
+    {
+     "text": "2+ 3",
+     "added": false
+    },
+    {
+     "text": "2-13",
+     "added": false
+    },
+    {
+     "text": "13-1",
+     "added": false
+    },
+    {
+     "text": "13 +1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "If P cos a = 3 and 4 tan a = Q, then what is the relation between P and Q, which is independent of a?",
+   "options": [
+    {
+     "text": "ars + e = 9 16",
+     "added": false
+    },
+    {
+     "text": "pz = e = p22?",
+     "added": false
+    },
+    {
+     "text": "———=1 9 16 p2 2",
+     "added": false
+    },
+    {
+     "text": "—+ a =1 9 16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "vw prep i prepp Your Personal Exams Guide Q.13 In a AABC, the internal bisectors of 2B and 2C meet at O. if 2 BAC = 72°, then the value of 2BOC is:",
+   "options": [
+    {
+     "text": "110°",
+     "added": false
+    },
+    {
+     "text": "126°",
+     "added": false
+    },
+    {
+     "text": "136°",
+     "added": false
+    },
+    {
+     "text": "146°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The lateral area of a cylinder is 3168 cm? and its height is 48 cm. Find the volume.",
+   "options": [
+    {
+     "text": "5244 cm3",
+     "added": false
+    },
+    {
+     "text": "5544 cm?",
+     "added": false
+    },
+    {
+     "text": "5644 cm?",
+     "added": false
+    },
+    {
+     "text": "16632 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A shopkeeper allows a discount of 10% on the printed price of his goods and thus gains 20%, What is the ratio between the cost price and the printed price of the item?",
+   "options": [
+    {
+     "text": "3:4",
+     "added": false
+    },
+    {
+     "text": "2:3",
+     "added": false
+    },
+    {
+     "text": "4:5",
+     "added": false
+    },
+    {
+     "text": "132",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Acan doa work in 4 days and B in 12 days. If they work on it together for 2 days, then the fraction of the work that will be left is:",
+   "options": [
+    {
+     "text": "= 3",
+     "added": false
+    },
+    {
+     "text": "K2— 5 1",
+     "added": false
+    },
+    {
+     "text": "— 3 1",
+     "added": false
+    },
+    {
+     "text": "2 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "vw prep i prepp Your Personal Exams Guide Q.17 Inlet Pipes A and B can together fill an empty tank in 1.5 hours. Outlet Pipe C, when opened alone, can empty the completely filled tank, in 4.5 hours. When only Pipes A and C are opened together, the empty tank is filled in 6 hours. Find the time taken by Pipe B, when opened alone, to fill the empty tank.",
+   "options": [
+    {
+     "text": "3 hours 30 minutes",
+     "added": false
+    },
+    {
+     "text": "3 hours 36 minutes",
+     "added": false
+    },
+    {
+     "text": "3 hours 32 minutes",
+     "added": false
+    },
+    {
+     "text": "3 hours 40 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "3 1 If (3y —-)=5, find the value of (y? + —). y y?",
+   "options": [
+    {
+     "text": "— 9 x 49",
+     "added": false
+    },
+    {
+     "text": "— 9 41",
+     "added": false
+    },
+    {
+     "text": "— 9",
+     "added": false
+    },
+    {
+     "text": "3 9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A thief committed a crime and escaped from the spot at a speed of 12 m/h. A Security guard started chasing him 20 minutes after the thief started running and caught him in the next 20 minutes. What is the speed (in m/h) of the Security guard?",
+   "options": [
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "vw prep i prepp Your Personal Exams Guide Q.20 Aman took a loan of €32,400 at a certain rate of simple interest per annum. The rate of interest is one-fourth of the number of years for which the loan is taken. If he paid %11,664 as interest at the end of the loan period, the rate of interest was:",
+   "options": [
+    {
+     "text": "3%",
+     "added": false
+    },
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "5%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The seats for Mathematics, English and Chemistry in a school are in the ratio of 6: 4: 7. If these seats are increased by 20%, 40% and 60%, respectively, the ratio of the increased seats is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The wheel of a lorry has radius 182 cm. The number of revolutions (approximately) per minute the lorry wheel will make is (if the speed of the lorry is 66 km/h).",
+   "options": [
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "96",
+     "added": false
+    },
+    {
+     "text": "1144",
+     "added": false
+    },
+    {
+     "text": "66",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The monthly income of a person was Rs.80,000 and his monthly expenditure was Rs.45,000. Next year, his income increased by 16% and his expenditure increased by 8%. Find the percentage increase in his savings (correct to 2 decimal places).",
+   "options": [
+    {
+     "text": "26.29%",
+     "added": false
+    },
+    {
+     "text": "25.35%",
+     "added": false
+    },
+    {
+     "text": "44.36%",
+     "added": false
+    },
+    {
+     "text": "30.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Wwww.prepp.in Prepp Your Personal Exams Guide Q.24 Awoman is 28 years older than her son. In three years, her age will be twice the age of her son. The present age of the son is:",
+   "options": [
+    {
+     "text": "28 years",
+     "added": false
+    },
+    {
+     "text": "20 years",
+     "added": false
+    },
+    {
+     "text": "22 years",
+     "added": false
+    },
+    {
+     "text": "25 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Anil and Bipin together can complete a work in 15 days, while Bipin alone can finish it 20 days. In how many days can Anil alone finish the work?",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "paper": "RRB-ALP-CBT1-13-Aug-2018-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 19,
+ "questions": [
+  {
+   "n": 1,
+   "text": "° am are hens to the Potential and Kinetic energies of a body as it falls down from a StattSaiewdred",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "polynomials-and-factorisation",
+   "key_answer": "2"
+  },
+  {
+   "n": 14,
+   "text": "251 BE secO + tan@ = 4 a at secO- tan =? Ifsec@ + tan@ = 4,thensec@- tan@ =?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": "0.25"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 266,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

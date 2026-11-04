@@ -1,0 +1,66 @@
+{
+ "paper": "RRB-ALP-CBT1-13-Aug-2018-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 3,
+   "text": "A circle is inscribed in triangle ABC. Then the radius of the circle is: A . \"So , 2 Hetatez 2cm X 2 4 Helatret 4cm",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": "3 cm"
+  },
+  {
+   "n": 4,
+   "text": "If the edge of a cube is increased by 2 cm, the volume will increase by 488 cm*. What then will be the length of each edge of the cube?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "8 cm"
+  },
+  {
+   "n": 6,
+   "text": "In the following alphanumeric series, one term is missing as shown by the question mark (2). Select the missing term from the given options. SE, 7F, 11H, 17K,?",
+   "options": [
+    {
+     "text": "20Q",
+     "added": false
+    },
+    {
+     "text": "250",
+     "added": false
+    },
+    {
+     "text": "20N",
+     "added": false
+    },
+    {
+     "text": "25P",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "250"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 272,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

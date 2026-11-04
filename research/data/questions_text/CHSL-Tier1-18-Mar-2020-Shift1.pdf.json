@@ -1,0 +1,482 @@
+{
+ "paper": "CHSL-Tier1-18-Mar-2020-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Asecant is drawn from a point P to a circle so that it meets the circle first at A, then goes through the centre, and leaves the circle at B. If the length of the tangent from P to the circle is 12 cm, and the radius of the circle is 5 cm, then the distance from P to A is:",
+   "options": [
+    {
+     "text": "8cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "18cm",
+     "added": false
+    },
+    {
+     "text": "10cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "fone side ofa triangle is 7 with its perimeter equal to 18, and area equal to y 108, then the other two sides are:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "a3 2 cosec2a+2sec7a . If tana = ——, then the value of —_,—___ > is: vi3 cosec“a—3sec“a",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click ie Sole a4 If the value of je = Se is same as that of /x,/Y., then which of the following relations between X and y is correct?",
+   "options": [
+    {
+     "text": "9x-4y=36",
+     "added": false
+    },
+    {
+     "text": "9xt+4y=24",
+     "added": false
+    },
+    {
+     "text": "9xt+4y=36",
+     "added": false
+    },
+    {
+     "text": "9x-4y=24",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "slope-and-line",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "@5 Which of the following numbers is divisible by 2, 5 and 10?",
+   "options": [
+    {
+     "text": "7,20,345",
+     "added": false
+    },
+    {
+     "text": "1,25,372",
+     "added": false
+    },
+    {
+     "text": "19,400",
+     "added": false
+    },
+    {
+     "text": "149",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Ashopkeeper pays 12% of the cost price as tax while purchasing an item whose cost is ¥500. He wants to eam a profit of 20% after giving a discount of 16% on the marked price. So, the marked price should be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Ravi starts for his school from his house on his cycle at 8:20 a.m. If he nuns his cycle at a speed of 10 knv/h, he reaches his school $ minutes late, and if he drives the cycle at a speed of 16 km/h, he reaches his school 10 minutes early. The school starts at:",
+   "options": [
+    {
+     "text": "8:50 a.m.",
+     "added": false
+    },
+    {
+     "text": "8:40 a.m.",
+     "added": false
+    },
+    {
+     "text": "9:00 a.m.",
+     "added": false
+    },
+    {
+     "text": "9:40 a.m.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Q.8 The following graph shows the profit (in crore %) earned by a company in the years from 2012 to 2019. BYear @Profit inCrores = % increase 1 2 3 4 5 6 7 8 The percentage increase in the profit from the previous year, is greatest in the year:",
+   "options": [
+    {
+     "text": "2018",
+     "added": false
+    },
+    {
+     "text": "2013",
+     "added": false
+    },
+    {
+     "text": "2015",
+     "added": false
+    },
+    {
+     "text": "2017",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "line-graph",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Ina 56 lilters mixture of milk and water. the ratio of milk to water is 5 : 2. In order to make the ratio of milk to water 7 : 2, some quantity of milk is to be added to the mixture. The quantity of the milk present in the new mixture will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": ". (2 a) oo es 1 7 Xe Ifx is the square of the number when | = of rig } #15 is divided by uy , then the value of 81x is:",
+   "options": [
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Q.11 The given pie chart shows the percentage of students enrolled into the colleges A, B, C, D, E and F ina city, and the table shows the ratio of boys to girls in the college. STUDENTS ENROLLED mA mo mC wD mE mF lear | Mca ial nasal Eee] Based on this information, if the total number of students is 9800, then the number of girls in the college B is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "25 men can complete a task in 16 days. Four days after they started working, 5 more men, with equal workmanship, joined them. How many days will be needed by all to complete the remaining task?",
+   "options": [
+    {
+     "text": "12 days",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    },
+    {
+     "text": "15 days",
+     "added": false
+    },
+    {
+     "text": "18 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Ifthe length of a rectangle is increased by 12% and the breadth is decreased by 8%, the net effect on the area is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Q.14 Aman has 710,000. He lent a part of it at 15% simple interest and the remaining at 10% simple interest. The total interest he received after 5 years amounted to 6,500. The difference between the parts of the amounts he lent is:",
+   "options": [
+    {
+     "text": "22,000",
+     "added": false
+    },
+    {
+     "text": "2,500",
+     "added": false
+    },
+    {
+     "text": "T1,500",
+     "added": false
+    },
+    {
+     "text": "21,750",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "t= a+ bV¥2 + cv3 — dv6, where a, b, c, d are natural numbers, then the value ofa + b +c +d is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "ON : PA and PB are tangents to the circle and O is the centre of the circle. The radius is 5 cm and PO is 13 cm. If the area of the triangle PAB is M, then the value of f is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | Vacancies and updates on one click Q.17 Aperson purchased 40 items at some price. He sold some items at a profit of 30% by selling them at a price equal to the cost price of 26 items. The remaining items are sold at 18% profit. The total profit percentage is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "B O F Cc A D Accrcle is inscribed in the triangle ABC whose sides are given as AB = 10, BC = 8, CA= 12 units as shown in the figure. The value of AD x BF is:",
+   "options": [
+    {
+     "text": "18 units",
+     "added": false
+    },
+    {
+     "text": "21 units",
+     "added": false
+    },
+    {
+     "text": "16 units",
+     "added": false
+    },
+    {
+     "text": "15 units",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The following graph shows the data of five companies A. B, C, D, E with respect to the male and female ratio of employees above, or below the average salary. 4 2 s i ry 33 3 3 6 | a | I A 8 c . e€ If in the company D, the percentage of employees above the average salary is 16% which is equal to 80, then the number of employees below average salary are:",
+   "options": [
+    {
+     "text": "300",
+     "added": false
+    },
+    {
+     "text": "420",
+     "added": false
+    },
+    {
+     "text": "520",
+     "added": false
+    },
+    {
+     "text": "470",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | Vacancies and updates on one click 920 Tf a% of 240 is c and c% of a is 117.6, then the value ofa + c is:",
+   "options": [
+    {
+     "text": "238",
+     "added": false
+    },
+    {
+     "text": "144",
+     "added": false
+    },
+    {
+     "text": "260",
+     "added": false
+    },
+    {
+     "text": "196",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "percentage-basics",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The following graph shows the data of the number of candidates that appeared and qualified for a competitive exam from the colleges A, B, C. D, E. A B c D VE = Appeared ® Qualified Based on the information, the difference between the percentage of students that qualified, from the colleges B and D is:",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "6 32043) 7 7 etd If 2 al 2\\3 : 3 manly then the value of 2 — 42x is: ,",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click 923 Ifa sinA + b cosA =c, then a cosA — b sinA is equal to:",
+   "options": [
+    {
+     "text": "Ja? —b? —c?",
+     "added": false
+    },
+    {
+     "text": "Ja+b? —c?",
+     "added": false
+    },
+    {
+     "text": "Va? +b? +c?",
+     "added": false
+    },
+    {
+     "text": "Ja? —b? +c?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Several students have taken an exam. There was an error in the answer key which affected the marks of 48 students, and their average marks reduced from 78 to 66. The average of remaining students increased by 3.5 marks. This resulted the reduction of the average of all students by 4.5 marks. The number of students that attended the exam is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "1-tanA tan 3°tan 15° tan 30° tan 75° tan 87° . SS oo then the value of _cotA is: 1t+tanA tan 27° tan 39° tan 51° tan 60° tan 63°",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  }
+ ]
+}

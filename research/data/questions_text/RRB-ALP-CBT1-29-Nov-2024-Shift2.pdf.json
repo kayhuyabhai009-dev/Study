@@ -1,0 +1,113 @@
+{
+ "paper": "RRB-ALP-CBT1-29-Nov-2024-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 5,
+   "text": "Ifthe mean of a distribution is 8.73 and its median is 11, then the mode of the distribution is (using empirical relation).",
+   "options": [
+    {
+     "text": "15.54",
+     "added": false
+    },
+    {
+     "text": "19.73",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "17.46 Ad d a GET IT ON Google Play",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "15.54"
+  },
+  {
+   "n": 11,
+   "text": "A fruit seller had some apples. He sells 40% of those apples and still has 240 apples. How many apples did he originally have?",
+   "options": [
+    {
+     "text": "400",
+     "added": false
+    },
+    {
+     "text": "588",
+     "added": false
+    },
+    {
+     "text": "372",
+     "added": false
+    },
+    {
+     "text": "600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "400"
+  },
+  {
+   "n": 13,
+   "text": "The volume of a wall that is 5 times as high as it is broad and 8 times as long as it is high is 12.8 cubic meters. Find the breadth of the wall.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "40 cm"
+  },
+  {
+   "n": 14,
+   "text": "ifthe radius ofa sphere is increased by 2 cm, then its surface area increases by 704 cm2. Using x= = , find the radius of the sphere after the increase.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": "15 cm"
+  },
+  {
+   "n": 16,
+   "text": "Simplify the following expression: 9992 x 1",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "99,999,936"
+  },
+  {
+   "n": 19,
+   "text": "Find the mean marks of the following distribution. Marks obtained Ee ee ee",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "30"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.05,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 228,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

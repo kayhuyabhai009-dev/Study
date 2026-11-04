@@ -1,0 +1,482 @@
+{
+ "paper": "CHSL-Tier1-17-Mar-2020-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The average price of three items is £14,265. If their prices are in the ratio 7 : 9 : 11, then the price of the costliest item is:",
+   "options": [
+    {
+     "text": "217,435",
+     "added": false
+    },
+    {
+     "text": "F16,235",
+     "added": false
+    },
+    {
+     "text": "F19,875",
+     "added": false
+    },
+    {
+     "text": "F14,875",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "aff um Hem 1/4 (one-fourth) #1 1/5 (one-fifth) 35 %, at sa Wear FT 7/8 (seven-eighth) Fraar ern?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "percentage-basics",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The given data shows the number of mobiles (in thousands) manufactured by companies C-1, C-2, C-3 and C-4 in 2017, 2018 and 2019. a — — — © | 90 |e | x0 |20 10 ° ct ca os ce 2017 #2018 82019 Which company witnessed the highest increase in manufacturing from 2017 to 2018?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Q.4 If the cost price of 25 articles is equal to the selling price of 35 articles find the profit/loss percentage.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "There are five stations on a railway line. What is the number of different journey tickets that are required for railway authorities?",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Ifa number is divided by 3, the remainder will be 2. If the number is added by 5 and then divided by 3, then what will be the remainder?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainders",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The given data shows the number of mobiles (in thousands) manufactured by companies C-1, C-2, C-3 and C-4 in 2017, 2018 and 2019. fo) ae a me we | . | 0 = a a o o 82017 2018 = 2019 Which company manufactured the least number of mobiles across all the years?",
+   "options": [
+    {
+     "text": "C-4",
+     "added": false
+    },
+    {
+     "text": "03",
+     "added": false
+    },
+    {
+     "text": "Cl",
+     "added": false
+    },
+    {
+     "text": "C-2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "hosen Option - Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Q.8 The given data shows the number of mobiles (in thousands) manufactured by companies C-1, C-2, C-3 and C-4 in 2017, 2018 and 2019. = n i. \"| oe oe » oe Py © x0 2 ry ° 1 2 o ca 207 2018 2018 Which company manufactured the highest number of mobiles across all the years?",
+   "options": [
+    {
+     "text": "C2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "C-4",
+     "added": false
+    },
+    {
+     "text": "C1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The given data shows the number of mobiles (in thousands) manufactured by companies C-1, C-2, C-3 and C-4 in 2017, 2018 and 2019. [eo * iy 1 “ a oso @ a oe ee =\" s so 20 2» 0 ° o 2 3 ct 207 2018 2019 ‘What is the ratio of total products manufactured by C-1 to that of C-4?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Latha deposited an amount of %35,000 in a bank with simple interest 11% per annum. How much interest will she earn after one year?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, : : Vacancies and updates on one click Q.11 How much time will a horse take to run around a square field of side 175 m if it runs at the speed of 15 km/hr?",
+   "options": [
+    {
+     "text": "180 sec",
+     "added": false
+    },
+    {
+     "text": "175 sec",
+     "added": false
+    },
+    {
+     "text": "155 sec",
+     "added": false
+    },
+    {
+     "text": "168 sec",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "912 Find the circumference of a circle whose diameter is 12 inches.",
+   "options": [
+    {
+     "text": "87.4672 cm",
+     "added": false
+    },
+    {
+     "text": "95.7072 cm",
+     "added": false
+    },
+    {
+     "text": "88.1876 cm",
+     "added": false
+    },
+    {
+     "text": "90.2348 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "913 Find the value of Cos 225°",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ashopkeeper purchased pens in bulk for 28 each. He sold each for $40. What was his profit percentage?",
+   "options": [
+    {
+     "text": "42.85%",
+     "added": false
+    },
+    {
+     "text": "28.40%",
+     "added": false
+    },
+    {
+     "text": "38.75%",
+     "added": false
+    },
+    {
+     "text": "48.12%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | Vacancies and updates on one click 215 The equation of circle with centre (1-2) and radius 4 cm is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A chair was purchased for $785 and sold at a profit of 22%. What was the selling price?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Aman buys 2 apples and 3 kiwi fruits for €37. If he buys 4 apples and 5 kiwi fruits for 67, then what will be the total cost of | apple and | kiwi fruit?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Pand Q can finish a work in 10 days and 5 days, respectively. Q worked for 2 days and left the job. In how many days can P alone finish the remaining work?",
+   "options": [
+    {
+     "text": "4 days",
+     "added": false
+    },
+    {
+     "text": "10 days",
+     "added": false
+    },
+    {
+     "text": "6 days",
+     "added": false
+    },
+    {
+     "text": "8 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | Vacancies and updates on one click Q.19 Acar travels 105 km in 3 hours and a train travels 252 km in 4 hours. The ratio of speed of the car to that of the train is:",
+   "options": [
+    {
+     "text": "2:7",
+     "added": false
+    },
+    {
+     "text": "3:5",
+     "added": false
+    },
+    {
+     "text": "9:11",
+     "added": false
+    },
+    {
+     "text": "5:9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "20 . 7 920 (sin 8 + cos 6)? = 2, 0° < @< 90°, then the value of @ is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The length and breadth of a rectangle are in the ratio 5 : 3. If the length is 8 m more than the breadth, what is the area of the rectangle?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | Vacancies and updates on one click Q.22 ; If cosec A= = , then what is the value of Tan A?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "23 _. : — 923 Find the volume (in cm?) of a sphere whose radius is 7.5 cm.",
+   "options": [
+    {
+     "text": "767.85",
+     "added": false
+    },
+    {
+     "text": "1985.23",
+     "added": false
+    },
+    {
+     "text": "1683.25",
+     "added": false
+    },
+    {
+     "text": "1489.12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "9.24 A triangle is NOT said to be a right-angled triangle if its sides measure:",
+   "options": [
+    {
+     "text": "5cm, 12 cmand 13 cm",
+     "added": false
+    },
+    {
+     "text": "Scm,7cmand9 cm",
+     "added": false
+    },
+    {
+     "text": "6cm, 8 cmand 10 cm",
+     "added": false
+    },
+    {
+     "text": "3m, 4 cmand 5 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "925 Which of the following numbers is divisible by 4?",
+   "options": [
+    {
+     "text": "954782",
+     "added": false
+    },
+    {
+     "text": "674536",
+     "added": false
+    },
+    {
+     "text": "897654",
+     "added": false
+    },
+    {
+     "text": "267834",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  }
+ ]
+}

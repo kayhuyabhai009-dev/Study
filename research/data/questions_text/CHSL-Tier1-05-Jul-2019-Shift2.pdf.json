@@ -1,0 +1,516 @@
+{
+ "paper": "CHSL-Tier1-05-Jul-2019-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Two numbers are in the ratio 7 : 5. On diminishing each of them by 40, the ratio becomes 27 : 17. The difference between the numbers is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "1 3m 2 2% = If cosx = oi andjw<x< oma then the value of 4tan*?x + 3cosec*x is:",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A person purchased a vehicle for 25,90,828 and sold it for 26,52,920. What is the profit percent he earned on this vehicle (correct to two decimal places)?",
+   "options": [
+    {
+     "text": "10.51%",
+     "added": false
+    },
+    {
+     "text": "9.55%",
+     "added": false
+    },
+    {
+     "text": "9.51%",
+     "added": false
+    },
+    {
+     "text": "11.55%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The given Bar Graph presents the Imports and Exports of an item (in tonnes) manufactured by a company for the five financial years, 2013-2014 to 2017-2018. oe Tene) ase aes 1400 1256 s 1300 1014 ood 1000 ont £00 | 30 400 200 ° 201-2018 2OU-IS—agnsarg 200617 2007-18 In which financial year the percentage increase in total of Exports and Imports is the highest in comparison to its previous financial year?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A,BandC can complete a piece of work in 4, 20 and 60 days respectively. Working together, they can complete the same work in how many days?",
+   "options": [
+    {
+     "text": "5— 19 1",
+     "added": false
+    },
+    {
+     "text": "3= 19 1",
+     "added": false
+    },
+    {
+     "text": "5+ 19 3",
+     "added": false
+    },
+    {
+     "text": "3- 19",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Acircle is inscribed in a triangle ABC. It touches sides AB, BC and AC at the points P, Q and R respectively. If BP = 5 em, CQ = 7 cm and AR = 6 cm, then the perimeter (in cm) of the AABC is:",
+   "options": [
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "37.5",
+     "added": false
+    },
+    {
+     "text": "37.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Intriangle ABC, the length of BC is less than twice the length of AB by 2 cm. The length of AC exceeds the length of AB by 10 cm. The perimeter is 32 cm. The length (in cm) of the smallest side of the triangle is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "a8 If 6( sec? 59° — cot?31°) +2sin90°— 3tan256°y tan?34° =® , then the value of »’ is: : y tan’ = en the value Of y Is:",
+   "options": [
+    {
+     "text": "5 3",
+     "added": false
+    },
+    {
+     "text": "K2e2",
+     "added": false
+    },
+    {
+     "text": "732",
+     "added": false
+    },
+    {
+     "text": "-2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The ratio between the speeds of two trains is 5 : 7. If the first train covers 300 km in 3 hours, then the speed (in knv/h) of the second train is:",
+   "options": [
+    {
+     "text": "150",
+     "added": false
+    },
+    {
+     "text": "140",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Ina AABC, the bisectors of 4B and 2C meet at point O within the triangle. If A = 116°, then the measure of 4 BOC is:",
+   "options": [
+    {
+     "text": "74°",
+     "added": false
+    },
+    {
+     "text": "116°",
+     "added": false
+    },
+    {
+     "text": "85°",
+     "added": false
+    },
+    {
+     "text": "148°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "centres-and-medians",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The given Bar Graph presents the Imports and Exports of an item (in tonnes) manufactured by a company for the five financial years, 2013-2014 to 2017-2018. ao re | prod yg 137 ror 1000 o24 900 | 620 ‘oo 200 _ 2013-2014 OMI Gors.yg 201617 oomnrate What is the ratio of total Imports to total Exports during 2013-2014, 2015-2016 and 2017-2018?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "ae Ifx = V3 — V2, then the value of x? — x“? is:",
+   "options": [
+    {
+     "text": "223",
+     "added": false
+    },
+    {
+     "text": "-22V2",
+     "added": false
+    },
+    {
+     "text": "222",
+     "added": false
+    },
+    {
+     "text": "—22V3 Addale4/7) exalts)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "2 2 2 9 1f5* + 12* = 13**. then the value of x is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "4 2 £ Ya If sec 8=4% and tan @=~ , (x #0) then the value of 8 (x -3) is: A",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Aman bought 2 articles for 24158 each. He sold one article at 15% loss. Then at what percent profit the other article should be sold so that no profit/loss percentage is earned.",
+   "options": [
+    {
+     "text": "5%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "18%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "916 The simplified value of ( gh -2)-2 a pee ghee FTF ARS",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The given Bar Graph presents the Imports and Exports of an item (in tonnes) manufactured by a company for the five financial years, 2013-2014 to 2017-2018. pee ig oe | 1000 o24 £00 | 630 400 200 . 2013-2018 2016-18 apig.yg 201617 2007-18 What is the average of total Import and Export (in tonnes) during the five financial year?",
+   "options": [
+    {
+     "text": "2279.5",
+     "added": false
+    },
+    {
+     "text": "2508.8",
+     "added": false
+    },
+    {
+     "text": "2552.4",
+     "added": false
+    },
+    {
+     "text": "2325.9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A number is increased by 30%, then decreased by 30%, then further decreased by 30%, What is the net increase/decrease percent in the number (correct to the nearest integer)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The average age of four brothers is 15 years. If their father is included, the average is increased by 5 years. The age of the father (in years) is:",
+   "options": [
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "38",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "average-age",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "20 020 16(2x+ 7)? + (2x+8)?+ (2x+3)? = 3 (2x +7) (2x +8) (2x +3 ), then what is the value of x?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "-3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "There was 25% off on shirt. A lady bought that shirt and got an additional 20% discount for paying in cash and further 10% discount for being a loyal customer. She paid 2324. What was the price tag (in 2) on the shirt?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The chord of the contact of tangents drawn from a point on the circle x? +y? =a? to the circle x? + y? = b® touches the circle x? +y? =c? such that b™ = a\"cP where m,n,p € N and m, n, p are prime to each other, then the value of m +n +p—3 is:",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "-1",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Coordinate Geometry",
+   "sub": "slope-and-line",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The given Bar Graph presents the Imports and Exports of an item (in tonnes) manufactured by a company for the five financial years, 2013-2014 to 2017-2018. = ae 1400 12586 aa. 208) 1200 1014 1000 om 900 4 638 ‘0 200 ° 201-2014 2046-15 oys.yg 201617 2007-18 In which financial year the total of the Exports and Imports is the lowest?",
+   "options": [
+    {
+     "text": "2014-2015",
+     "added": false
+    },
+    {
+     "text": "2013-2014",
+     "added": false
+    },
+    {
+     "text": "2015-2016",
+     "added": false
+    },
+    {
+     "text": "2017-2018",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The ratio of the areas of two triangles ABC and PQR is 3 : 5 and the ratio of their heights is 5 : 3. The ratio of the bases of triangle ABC to that of triangle PQR is:",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "25:9",
+     "added": false
+    },
+    {
+     "text": "9:25",
+     "added": false
+    },
+    {
+     "text": "2:1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Ifa 10-digit number 7220x558y2 is divisible by 88, then the value of (5x +Sy) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  }
+ ]
+}

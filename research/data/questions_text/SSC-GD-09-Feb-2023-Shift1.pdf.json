@@ -1,0 +1,154 @@
+{
+ "paper": "SSC-GD-09-Feb-2023-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 19,
+ "questions": [
+  {
+   "n": 4,
+   "text": "Find the principal if the interest compounded at the rate of 12% per annum, compounding annually for 2 years is Rs.1,908.",
+   "options": [
+    {
+     "text": "Rs.6,500",
+     "added": false
+    },
+    {
+     "text": "Rs.5,400",
+     "added": false
+    },
+    {
+     "text": "Rs.7,500",
+     "added": false
+    },
+    {
+     "text": "Rs.4,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Sum of 2 natural numbers is 140 and their HCF and LCM are 28 and 168 respectively. Find the difference between the numbers.",
+   "options": [
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A milkman bought 90 litres of milk for Rs.1,630 and added 15 litres of water. If he sells it at Rs.19.00 per litre, his profit percentage will be:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If the average marks of two batches of 45 and 50 students, respectively, are 78 and 65, then the average marks of all the students are:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "If ‘a’ and ‘b’ are prime numbers, which of the following CANNOT be the sum of ‘a’ and ‘b’ ? (Where a and b are distinct prime numbers)",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 312,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,559 @@
+{
+ "paper": "SSC-GD-11-Jan-2023-Shift4.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Ankita bought some toys at 10 percent discount on the original price. The original price of each toy was Rs. 50. If she made a total savings of Rs. 450, then how many toys did she buy?",
+   "options": [
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "90",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A cyclist and a jogger cover a certain distance at a certain speed. If the jogger covers one-third of the distance covered by cyclist in double of the time as that taken by the cyclist, the ratio of the speed of the jogger to that of the cyclist is:",
+   "options": [
+    {
+     "text": "1 ∶ 9",
+     "added": false
+    },
+    {
+     "text": "9 ∶ 1",
+     "added": false
+    },
+    {
+     "text": "1 ∶ 6",
+     "added": false
+    },
+    {
+     "text": "6 ∶ 1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A woman buys an item for Rs.950 and sells it for Rs.1,150. What is her percentage profit (rounded off to the nearest integer)?",
+   "options": [
+    {
+     "text": "21%",
+     "added": false
+    },
+    {
+     "text": "23%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "22%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "On an item, a shopkeeper offers a discount of 7.5% on the marked price and a cashback of ₹10 per item. He still earns ₹5 per item. If ₹x is the marked price of each item, then, what is the cost price (in ₹) of each item?",
+   "options": [
+    {
+     "text": "0.915x − 5",
+     "added": false
+    },
+    {
+     "text": "0.925x − 5",
+     "added": false
+    },
+    {
+     "text": "0.925x − 15",
+     "added": false
+    },
+    {
+     "text": "0.915x − 15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "After deducting 15% from a certain sum and then 25% from the remainder, there is ₹4,335 left. Find the original sum.",
+   "options": [
+    {
+     "text": "₹6,800",
+     "added": false
+    },
+    {
+     "text": "₹6,700",
+     "added": false
+    },
+    {
+     "text": "₹6,500",
+     "added": false
+    },
+    {
+     "text": "₹7,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The expenditure of a man is 70% of his income. If his income will successively increase by 20% and 50%, then his new expenditures is how much percentage more/less than his previous expenditure, so that his new savings become 2.5 times of the previous savings?",
+   "options": [
+    {
+     "text": "More, 50%",
+     "added": false
+    },
+    {
+     "text": "Less, 50%",
+     "added": false
+    },
+    {
+     "text": "Less, 54%",
+     "added": false
+    },
+    {
+     "text": "More, 54%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A completes 80% of a work in 20 days. Then B joins A and they complete the remaining work in 3 days. How long will B alone take to complete the whole work?",
+   "options": [
+    {
+     "text": "37 12 days",
+     "added": false
+    },
+    {
+     "text": "40 days",
+     "added": false
+    },
+    {
+     "text": "39 days",
+     "added": false
+    },
+    {
+     "text": "35 12 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The maximum length of a rod (in m) that can be kept in a cuboidal room of length 10 m, breadth 6 m and height 8 m, is:",
+   "options": [
+    {
+     "text": "9√2",
+     "added": false
+    },
+    {
+     "text": "12√2",
+     "added": false
+    },
+    {
+     "text": "10√2",
+     "added": false
+    },
+    {
+     "text": "15√2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The ratio of cheese to sauce for a single pizza is 1 cup to 12 cup. If Rama used 15 cups of sauce to make a certain number of pizzas, then how many cups of cheese did she use on those pizzas?",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A bicyclist travels 20 miles in 2 h and 30 min and 10 miles in 1 h 15 min. Find the average speed in miles per hour.",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Sakshi and Komal together can complete a work in 10 days. Komal can complete the same work in 22 days. They started working together but Sakshi left the work after 3 days and Komal completed the remaining work alone. Find the total number of days in which the work is completed.",
+   "options": [
+    {
+     "text": "88/5 days",
+     "added": false
+    },
+    {
+     "text": "92/5 days",
+     "added": false
+    },
+    {
+     "text": "97/5 days",
+     "added": false
+    },
+    {
+     "text": "44/5 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A bank offers compound interest at the rate of 10% per annum when interest is compounded half-yearly. A customer deposits Rs.3,200 each on 1st January and 1st July of a year. At the end of the year, what will be the amount received by customer as interest?",
+   "options": [
+    {
+     "text": "Rs.488",
+     "added": false
+    },
+    {
+     "text": "Rs.656",
+     "added": false
+    },
+    {
+     "text": "Rs.720",
+     "added": false
+    },
+    {
+     "text": "Rs.528 16×9÷4 of 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The value of 3×(9−6)−2×3÷4 of 1 is: 2",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "What is the difference between compound interests on ₹5,000 compounded yearly and half-yearly for 1 year at 4% per annum?",
+   "options": [
+    {
+     "text": "₹2.04",
+     "added": false
+    },
+    {
+     "text": "₹2.00",
+     "added": false
+    },
+    {
+     "text": "₹19.04",
+     "added": false
+    },
+    {
+     "text": "₹3.20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The ratio of the money with Geeta and Radha is 7 ∶ 15 and that of the money with Radha and Savitha is 7 ∶ 16. If Geeta has ₹980, how much money does Savitha have?",
+   "options": [
+    {
+     "text": "₹2,400",
+     "added": false
+    },
+    {
+     "text": "₹2,100",
+     "added": false
+    },
+    {
+     "text": "₹9,800",
+     "added": false
+    },
+    {
+     "text": "₹4,800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A fast local train takes 30 minutes less than a slow local train for a journey of 60 km. If the speed of the slow local train is 20 km/h less than the speed of the fast local train, what is the speed of the slow local train?",
+   "options": [
+    {
+     "text": "60 km/h",
+     "added": false
+    },
+    {
+     "text": "30 km/h",
+     "added": false
+    },
+    {
+     "text": "40 km/h",
+     "added": false
+    },
+    {
+     "text": "50 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A person travels from one place to another at 180 km/h and returns to the starting point by the same route at 240 km/h. If the total time taken is 6 h, then find the distance between two places.",
+   "options": [
+    {
+     "text": "872.26 km",
+     "added": false
+    },
+    {
+     "text": "720.84 km",
+     "added": false
+    },
+    {
+     "text": "650.28 km",
+     "added": false
+    },
+    {
+     "text": "617.14 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The length, breadth and the height of a cuboid are 24 cm, 18 cm and 12 cm respectively. It is melted to make smaller cubes. If the length of the side of the cube is 6 cm, then what is the number of cubes formed?",
+   "options": [
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The numbers 73, 115 and 185 are divided a by number to leave the same remainder. Find the greater possible such number.",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "As shopkeeper using a faulty weight while professes to sell the article at cost price and gains a profit of 25%. Find the faulty weight he uses for 1000 g.",
+   "options": [
+    {
+     "text": "850 g",
+     "added": false
+    },
+    {
+     "text": "750 g",
+     "added": false
+    },
+    {
+     "text": "800 g",
+     "added": false
+    },
+    {
+     "text": "975 g",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-slice": {
+   "n": 125,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 171,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

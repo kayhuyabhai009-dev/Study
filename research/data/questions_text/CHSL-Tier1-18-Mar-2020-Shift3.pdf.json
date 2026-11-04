@@ -1,0 +1,482 @@
+{
+ "paper": "CHSL-Tier1-18-Mar-2020-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The value of l= 3 +5+74+...000...cceeeceee (20— 1) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Sequences and Series",
+   "sub": "arithmetic-progression",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Latest Sarkari Jobs, Gavt Exam Results, Vacancies and updates on one click 10480/1604054835382946/600620... 17/31 11/5/2020 Q2 A single discount equivalent to the discount series of 25%, 15% and 10% is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The following chart shows the sales (in thousands) of pens. pencils and books in month1, month? and month3. Answer the question based on the chart. 8 73 7 bt 62 63 « | 55 57, s. 43 46 4s 4 3 a a e Monthi Month? Month3: pens Penile Books Pens 36 as 46) ‘|S Monthl ®Month2 = Month3 Penciis 67. 73 62 Books 45576. Which month has the highest sales?",
+   "options": [
+    {
+     "text": "Month 1",
+     "added": false
+    },
+    {
+     "text": "Month 2",
+     "added": false
+    },
+    {
+     "text": "Month 3",
+     "added": false
+    },
+    {
+     "text": "Month 1 and Month 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The following chart shows the sales (in thousands) of pens. pencils and books in month1, month? and month3. Answer the question based on the chart. 8 73 7 haf 62 63 6 | 55 57 s 49 46 4s 4 3 2 1 o Monthl Month? Month3 Pent Pencis Books — ee: a ™Monthi ™®Month2 = Months Penciis a7. 78 62 0s 457. ‘What is the average number of pens sold in the 3 months?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Two circles with the same centre P have radii 7.5 cm and 4.4 cm. Through a point A of the larger circle, a tangent is drawn to the smaller circle touching it at B. Find AC (Approximate in cm).",
+   "options": [
+    {
+     "text": "14cm",
+     "added": false
+    },
+    {
+     "text": "12.14cm",
+     "added": false
+    },
+    {
+     "text": "14.27 cm",
+     "added": false
+    },
+    {
+     "text": "13cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The length of a rectangular plot is five times of its breadth. If the area of the rectangular plot is 2000 m2, then what is the breadth of the rectangular plot?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs . Ifx? + y? = 16 andx+y = 4,then find the value of x* + y*.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Latest Sarkari Jobs, Gavt Exam Results, Vacancies and updates on one click 10480/1604054835382946/600620... 19/31 11/5/2020 Q.9 The average salary of a person for the months of February, March, April and May is 712,000, and that for the months March, April, May and June is %3,000. If his salary for the month of June is $8,000, then what is his salary for the month of February?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A tradesman marks his products 35% above the cost price and allows his customers 15% reduction on their bills. What percentage of profit does he make?",
+   "options": [
+    {
+     "text": "14.25",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "14.75",
+     "added": false
+    },
+    {
+     "text": "14.10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "2(a2 + b2) = b)2 If 2(a2 +b?) = (a+b)? then,",
+   "options": [
+    {
+     "text": "b = 2a",
+     "added": false
+    },
+    {
+     "text": "a=—-b",
+     "added": false
+    },
+    {
+     "text": "a=b",
+     "added": false
+    },
+    {
+     "text": "a = 2b",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Two small circular grounds of diameters 42 m and 26 m are to be replaced by a bigger circular ground. What would be the radius of the new ground if the new ground has the same area as the two small grounds?",
+   "options": [
+    {
+     "text": "24.69m",
+     "added": false
+    },
+    {
+     "text": "23m",
+     "added": false
+    },
+    {
+     "text": "25m",
+     "added": false
+    },
+    {
+     "text": "25.01 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Latest Sarkari Jobs, Gavt Exam Results, Vacancies and updates on one click 20/31 11/5/2020 Q.13 4 person borrows 27,000 for 3 years at 5% p.a. simple interest. He immediately lends it to another person at 6 ; %pa for 3 years, Find his gain in the transaction per year.",
+   "options": [
+    {
+     "text": "790",
+     "added": false
+    },
+    {
+     "text": "%3.33",
+     "added": false
+    },
+    {
+     "text": "%2",
+     "added": false
+    },
+    {
+     "text": "395.33",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "214 Which of the following options is divisible by 3?",
+   "options": [
+    {
+     "text": "2362735",
+     "added": false
+    },
+    {
+     "text": "6342589",
+     "added": false
+    },
+    {
+     "text": "745932",
+     "added": false
+    },
+    {
+     "text": "4539763",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Two numbers are respectively 25% and 60% more than a third number. The ratio of the two numbers is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Inanelection, candidate X got 70% of the overall valid votes. If 20% of the overall votes were declared invalid and the total numbers of votes is 640000, then find the number of valid votes polled in favour of the candidate.",
+   "options": [
+    {
+     "text": "358400",
+     "added": false
+    },
+    {
+     "text": "450000",
+     "added": false
+    },
+    {
+     "text": "400000",
+     "added": false
+    },
+    {
+     "text": "358000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "percentage-basics",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Latest Sarkari Jobs, Gavt Exam Results, Vacancies and updates on one click 10480/1604054835382946/600620... 21/31 11/5/2020 17 Tf sin = 0.96, then find coté .",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "we fs ys . The shadow of a tree is qq times the length of the tree. Find the angle of elevation.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "heights-and-distances",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A train covers a distance in 30 min if it runs at a speed of 54 knv/h on an average. The speed at which the train must run to reduce the time of the journey to 20 min is:",
+   "options": [
+    {
+     "text": "none of these",
+     "added": false
+    },
+    {
+     "text": "8i kmh",
+     "added": false
+    },
+    {
+     "text": "60 km/h",
+     "added": false
+    },
+    {
+     "text": "75 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "one-train",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Latest Sarkari Jobs Ggvt Exam Results, Vacancies and updates on one click 10480/1604054835382946/600620... 22/31 11/5/2020 Q.20 The following chart shows the sales (in thousands) of pens, pencils and books in month1, month? and month3. Answer the question based on the chart. ‘ 73 ¢ 56 ms bass $7, bad S| pts 4s ‘ 3 2 a o Monthi Month? Month? pens Pence Books = Lee 4 ‘| Montht Month? & Months Poncits a7 73 a Boots 487 Which product has the highest percentage of sales, and in which month (among all months)?",
+   "options": [
+    {
+     "text": "Pencils; Month 3",
+     "added": false
+    },
+    {
+     "text": "Pens; Month |",
+     "added": false
+    },
+    {
+     "text": "Pencils; Month 2",
+     "added": false
+    },
+    {
+     "text": "Books; Month 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The perimeter of an isosceles triangle is 90 cm. If the base is 26 cm, then find the length of the equal sides.",
+   "options": [
+    {
+     "text": "30cm",
+     "added": false
+    },
+    {
+     "text": "40cm",
+     "added": false
+    },
+    {
+     "text": "42cm",
+     "added": false
+    },
+    {
+     "text": "32cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "In an isosceles right-angled triangle, the perimeter is 30 m. Find its area (Approximate )",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Latest Sarkari Jobs, Gavt Exam Results, Vacancies and updates on one click 10480/1604054835382946/600620... 23/31 11/5/2020 Q.23 The following chart shows the sales (in thousands) of pens. pencils and books in month!, month? and month3. Answer the question based on the chart. 8 73 7] 7 haf 62 63 6 | 55 37 s 49 46 4s 4 3 2 1 ° Monthl Month? Month’ Maia Pencts: Books Pens 56 as 46) ™Monthi ™®Month2 = Months Pencils a7. 73. 62 ft 0s 457. Which product has the highest sales in all 3 months?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Pcan do a work in 10 days and Q can do the same work in 15 days. If they work on it together for 3 days, then the fraction of the work that is left is:",
+   "options": [
+    {
+     "text": "x15 3",
+     "added": false
+    },
+    {
+     "text": "x22",
+     "added": false
+    },
+    {
+     "text": "1 G32 Z",
+     "added": false
+    },
+    {
+     "text": "x2 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Find the value of x , if 21. + 20%* = 29%,",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "powers-and-roots",
+   "key_answer": null
+  }
+ ]
+}

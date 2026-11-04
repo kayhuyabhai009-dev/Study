@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-07-Aug-2023-Shift3.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Wwww.prepp.in Prepp 68 sem Fvtell adneail Ue PQ al As BS Ws wals aps adur drs ARAL WA B wat Rs fl dons gilell, FAB ol tHicte B wel Pell 12 cmell add B.",
+   "options": [
+    {
+     "text": "6V3 cm",
+     "added": false
+    },
+    {
+     "text": "2v3cm",
+     "added": false
+    },
+    {
+     "text": "4/3 cm",
+     "added": false
+    },
+    {
+     "text": "8V¥3 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "d"
+  },
+  {
+   "n": 2,
+   "text": "+ . wide uid] Ye Qj? 2secA sec?A-1",
+   "options": [
+    {
+     "text": "2cosAcotA",
+     "added": false
+    },
+    {
+     "text": "cosecAcotA",
+     "added": false
+    },
+    {
+     "text": "2cosA sinA",
+     "added": false
+    },
+    {
+     "text": "2cosecAtanA",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Rez yell eile 354.9 km/h B. Walsall 554 1.5 km/h B. AS AlSet ul Als outed eile wor yell 105 ke} Az SUL GH ed Viet Lctefl UB UL] ALG G. dl det glee Aa alae $4 YY See el?",
+   "options": [
+    {
+     "text": "41. 24 SAIS",
+     "added": false
+    },
+    {
+     "text": "23 SAIS",
+     "added": false
+    },
+    {
+     "text": "21 SAIS",
+     "added": false
+    },
+    {
+     "text": "22 SAIS",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Wwww.prepp.in Prepp 24 AMIN ada War AAseuai URASLui eeu AgteDe!l (4awatett Heeui esiaizl wud (erst cela 8. Uelet (gteiefl $4 AL2AL 80008. adn waved sinmyds Wei sl wa fla BIOUGL Uell WAleL ALUL. Nuclear Physics P eel: Nuclear Physics - oy (Sqr Allis(astlet , Meteorology — MAH (Astlet , Solid-state Physics - lA Al(as{4stlet , Astrophysics - wa-alcsl, Quantum Physics - Sdle2H al(as(asitet, Nanotechnoloy— elles Ae Munlasieta auefl ANAL ATMS yraddl UM Ggleefl Uva wiz (A ciate Yel) W, volo-ellcisleil Adl Hiacl Ueldet (glellefl uvettett Seat 251 B?",
+   "options": [
+    {
+     "text": "70.41%",
+     "added": false
+    },
+    {
+     "text": "72.41%",
+     "added": false
+    },
+    {
+     "text": "73.91%",
+     "added": false
+    },
+    {
+     "text": "71.91%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "c"
+  },
+  {
+   "n": 5,
+   "text": "Qs 1 1 + —_— — 4 Bl x += = —1 ley lx? + =, dyer Sed eat",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Wwww.prepp.in Prepp Qé Seueeh ole? 1:2 8, BL GAML7 GAqL Wa, dl Aull YBileia 3:6 HE rear , Wal M’?L Ava ss ee:",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "ate as ugudla suciyi Saal oa ails 514 52 8. Sue det Gliadl dls z90 nig 261 B, Ut 15 SSiwetL (eae waiads Ua Sari, dell feautell aeetel sutell B40 B. wl We 7 leeteil defl azzLeL ae uld (644 2519 8 wel Seal 7 (Eauetl wlcleet 2546 B, dl Uoat(Satett BUL Eq8 duel suiwil bedfl el?",
+   "options": [
+    {
+     "text": "3681",
+     "added": false
+    },
+    {
+     "text": "3661",
+     "added": false
+    },
+    {
+     "text": "3571",
+     "added": false
+    },
+    {
+     "text": "+ %645",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs 2A wide ueia(4 ce 4 2 (1+sinA)",
+   "options": [
+    {
+     "text": "CosA",
+     "added": false
+    },
+    {
+     "text": "1-sinA",
+     "added": false
+    },
+    {
+     "text": "1+cosA",
+     "added": false
+    },
+    {
+     "text": "SinA",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 9,
+   "text": "QI As adorei Ws ay gi2i Socal wie act YVite| HY 128.5° B. dl aMtet ary gat aderett URE U2 wid Ret uel ae.",
+   "options": [
+    {
+     "text": "65.25°",
+     "added": false
+    },
+    {
+     "text": "64.25°",
+     "added": false
+    },
+    {
+     "text": "65.5°",
+     "added": false
+    },
+    {
+     "text": "64.5°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 10,
+   "text": "Wwww.prepp.in Prepp aio Your Personal Exams|Guide 7 (=m)? +(m-n)? +(n-D? [gzoY wy); Soe een ee =? ua & 120-—m)(m—n)(n-1)",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "G4Aa",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "O11 Ds pouty 25 (Geutellafett qolul Gurel wu 14 aN B.WUl 14.6 ave!l APU Guz waddl UA stat (atten Gla &. dl Gli 30 GeteiTlell ureter Guz bed) eal?",
+   "options": [
+    {
+     "text": "143.1qN",
+     "added": false
+    },
+    {
+     "text": "216.14N",
+     "added": false
+    },
+    {
+     "text": "15.1 4N",
+     "added": false
+    },
+    {
+     "text": "v*1414aN",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "AL aidell ia Buc zs60 B. g5let612 (Srotl 16% Adz WIA 12% 1sl ANA H.-W SS ane of BUA BNA cl (Srette Seal $l wale",
+   "options": [
+    {
+     "text": "31-% 9 1",
+     "added": false
+    },
+    {
+     "text": "11-% 9 1",
+     "added": false
+    },
+    {
+     "text": "33-% 3 2",
+     "added": false
+    },
+    {
+     "text": "16-%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "13 Your Personal Exams|Guide O13 x2 +y?2 +2? = 628 Wel xy t+yz+2x= 24, dl (x+y4z) qyeiaiel.",
+   "options": [
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "a"
+  },
+  {
+   "n": 14,
+   "text": "O14 sexta 12,0004 Asia A a uie sof sd Bui went aM soett €2 WA afl a rooseil &2 uy Aallact eed Ed. fl Net! aid asq lee, zw Rui Seq aa?",
+   "options": [
+    {
+     "text": "920",
+     "added": false
+    },
+    {
+     "text": "1,860",
+     "added": false
+    },
+    {
+     "text": "1,880",
+     "added": false
+    },
+    {
+     "text": "1,900",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "b"
+  },
+  {
+   "n": 15,
+   "text": "3 cn Fee Wel 2 cn GRU URI HOUSIZ MLeLL AGL LE 18 cm ofl QURIAIAL Mere lounal Wa B. dd Ueid| AALSLfl $4 HAL Bed] 6A:",
+   "options": [
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "b"
+  },
+  {
+   "n": 16,
+   "text": "aro wel Hot WA RUSH B dell HAIL 323 B wed ell 2sHoll Slade 87 B. Yrdeil Wal wet UIA Berl 254 B deil yeild Seal UA WU",
+   "options": [
+    {
+     "text": "7 15",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "6:3",
+     "added": false
+    },
+    {
+     "text": "15:8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "d"
+  },
+  {
+   "n": 17,
+   "text": "Wwww.prepp.in Prepp QA17 oF) ofl wial wrflszenii UlRilcis Usual +A Oe 2, AL LEA ne, “2 AL Ole Hal x\" A Ode + SA BLA cll AL Wlls2vle| Wer Bed ae 87 x 256 + 16 - 77 = 1359",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "as yurjict Oued Veto HIG U2 USde Budd Seti 40% ay Gated eel. esl, aussie uP giat uci asa ue 75% all Wiclretl UA Bel wl S15 WSs UP GUA $2lA Ws Pal lead Ule T1813 USA B, ll UlleSA Qe U2 Bel ates oil ay B?",
+   "options": [
+    {
+     "text": "3413",
+     "added": false
+    },
+    {
+     "text": "3378",
+     "added": false
+    },
+    {
+     "text": "3393",
+     "added": false
+    },
+    {
+     "text": "3348",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "ws ca[Saw Ws Ass4 Use] ASIA 12% Ulel Auley €2 Wal alle 254 10% ail Ulel uly €2 SA dar ais 7130 2% HAd Sd. AM ai, Fl AQ Asia sel esuefl weaned] si a, dl aad aus aS 4 ay HAL Ald. ALAA YA 12% Ulel Au € Seq Asia sf ea?",
+   "options": [
+    {
+     "text": "$500",
+     "added": false
+    },
+    {
+     "text": "3600",
+     "added": false
+    },
+    {
+     "text": "3650",
+     "added": false
+    },
+    {
+     "text": "3560",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "a"
+  },
+  {
+   "n": 20,
+   "text": "Wwww.prepp.in Prepp quid) doi Quiet aaquilell wld ur miss] Hz yl YE] anaz Awe UAB A fMlAI Ad) abeseit MMe UL etd cl El (i) Gla 12%11 A GMs anadl (ii) 20%} ANA (iii) 5 ed WRNEL WA 1 Hg Heal alevett (iv) 6 G3q UIRTEL Bld 2 USA AAA Alesett",
+   "options": [
+    {
+     "text": "y' (il)",
+     "added": false
+    },
+    {
+     "text": "(iv)",
+     "added": false
+    },
+    {
+     "text": "(ii)",
+     "added": false
+    },
+    {
+     "text": "(i)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "acti Sesui aid Geelodn udaeii 9 yet ye Goeii dnaAct yerell esiatal well B. Sli! Wis 425 CANAL US ARI Acta B. Pf gga oid | Rasa | fislasitet | geila | olista | SHA2z (aeueian Ua pues | go Too 70 [amt [too | oo ao feo | fara [ 9 | 60 | 7 ||| 7 jalec_ | aot | | [ust [| 80 eT 5 | 8 | jac | oss | 4 | [aa os TTT [| eo AL AS (Geuell Nes GAH! so% & defl ay Yer Ard , cil Geuella W aya SReseie al Wie ell laid HletUHl B14 8. Wal Gralell usc Av Sed] 9, Sul sisuel As uel A alana ear",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "X25",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "vi4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "sin? 30 + sin2 40 + sin? 45 + sin? 55 + sin? 35 + sin2 45 + sin2 50 + sin 60 4 Y@t Qi?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 23,
+   "text": "Wwww.prepp.in Prepp 023 Your Personal Exams|Guide “| AABCZAPQR, *el ZC = 80°, ZA= 10°, dl zQ 4 HIY Qi SQ?",
+   "options": [
+    {
+     "text": "100°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "90°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  },
+  {
+   "n": 24,
+   "text": "F ae45A 40. cm HA 30 cm Fret Hela @ adMell (else ava welseil Goud 1oVTS cm MLUAHI AIA] Sa, A Gla adMett Segl GAlef We (cm Ul) ailed..",
+   "options": [
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "84",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "O25 HAA aie wan AMu suche wAs tA cla 2. MONTHLY PROFITS OF DIFFERENT COMAPNIES m 8 00 8 700 600 3 @ 500 = s eae g 8 = 300 g § = FY = 200 = 100 ] 0 P Qa R s T u COMPANIES zed: MONTHLY PROFITS OF DIFFERENT COMPANIES- @Qu Suciluled wis otal, PROFITS( IN LAKHS) — o18l( CIUHi), COMPANIES- SUefladl Sucll p wa Suell ot HAS otgicl yelde Seal B?",
+   "options": [
+    {
+     "text": "2:5",
+     "added": false
+    },
+    {
+     "text": "3:2",
+     "added": false
+    },
+    {
+     "text": "2:3",
+     "added": false
+    },
+    {
+     "text": "5:2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "d"
+  }
+ ]
+}

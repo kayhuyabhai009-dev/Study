@@ -59,6 +59,7 @@
                     <a href="#daily" data-section="daily"><i>📅</i>डेली प्रैक्टिस</a>
                     <a href="#quiz" data-section="quiz"><i>🎮</i>क्विज़</a>
                     <a href="#pyq" data-section="pyq"><i>🗂️</i>PYQ बैंक</a>
+                    <a href="#pyq-analysis" data-section="pyq-analysis"><i>📊</i>PYQ एनालिसिस <b class="nav-hot">NEW</b></a>
                     <a href="#flashcards" data-section="flashcards"><i>🃏</i>फ्लैशकार्ड</a>
                     <a href="#patterns" data-section="patterns"><i>🧠</i>पैटर्न इंजन</a>
                     <a href="#traps" data-section="traps"><i>🛡️</i>ट्रैप बुक</a>
@@ -70,6 +71,10 @@
                     <span class="nav-group-label">स्पीड लैब</span>
                     <a href="#calculation" data-section="calculation"><i>🧮</i>कैलकुलेशन बूस्टर</a>
                     <a href="#fast-tricks" data-section="fast-tricks"><i>⚡</i>फास्ट ट्रिक्स</a>
+                </div>
+                <div class="nav-group">
+                    <span class="nav-group-label">डीप रिसर्च</span>
+                    <a href="#research" data-section="research"><i>🔬</i>सरकारी एक्ज़ाम रिसर्च <b class="nav-hot">NEW</b></a>
                 </div>
                 <div class="nav-group">
                     <span class="nav-group-label">जानकारी</span>
@@ -151,6 +156,10 @@
                             <button class="action-btn" onclick="openSection('fast-tricks')"><span>⚡</span> फास्ट ट्रिक लैब</button>
                             <button class="action-btn" onclick="openSection('formulas')"><span>📖</span> फॉर्मूला बुक</button>
                             <button class="action-btn" onclick="openSection('pyq')"><span>🗂️</span> PYQ बैंक</button>
+                            <button class="action-btn hot" onclick="openSection('pyq-analysis')"><span>📊</span> PYQ एनालिसिस</button>
+                            <button class="action-btn hot" onclick="openResearchPage('index.html')"><span>🔬</span> सरकारी एक्ज़ाम रिसर्च</button>
+                            <button class="action-btn" onclick="openResearchPage('learn.html')"><span>🎓</span> रिसर्च लर्न</button>
+                            <button class="action-btn" onclick="openResearchPage('calendar.html')"><span>📅</span> रिसर्च 90-दिन कैलेंडर</button>
                             <button class="action-btn" onclick="openSection('exams')"><span>🏛️</span> एग्जाम इंफो</button>
                             <button class="action-btn" onclick="openSection('plan')"><span>🗓️</span> रणनीति प्लान</button>
                             <button class="action-btn" onclick="openSection('quiz')"><span>🎮</span> क्विज़ खेलें</button>
@@ -167,6 +176,23 @@
                         <h2>🔥 90-दिन गणित चैलेंज</h2>
                         <p>13 सप्ताह • पूरा SSC/Railway syllabus • हर दिन: क्या पढ़ना है, क्या रिवाइज़ करना है, क्या प्रैक्टिस करना है — सब तय</p>
                     </div>
+                    <div class="lr-bridge card" id="challenge-research-bridge">
+                        <div class="lr-bridge-head">
+                            <div>
+                                <h3>📊 चैलेंज + रिसर्च विश्लेषण — दोनों मिलाकर</h3>
+                                <p class="muted">रिसर्च प्लेटफ़ॉर्म का अपना 90-दिन कैलेंडर topic-priority (records-count) पर आधारित है। नीचे के टूल आपके चैलेंज के साथ मिलाकर देखें — किस दिन क्या पढ़ना है, किन concepts से सबसे ज़्यादा प्रश्न आते हैं।</p>
+                            </div>
+                            <button class="btn btn-primary" onclick="openResearchPage('calendar.html')">📅 रिसर्च 90-दिन कैलेंडर</button>
+                        </div>
+                        <div class="lr-bridge-links">
+                            <button onclick="openResearchPage('learn.html')">🎓 कॉन्सेप्ट-वाइज़ लर्न</button>
+                            <button onclick="openResearchPage('important.html')">🚩 टॉपिक → कॉन्सेप्ट → प्रश्न</button>
+                            <button onclick="openResearchPage('mistakes.html')">⚠️ मिस्टेक एनालिटिक्स</button>
+                            <button onclick="openResearchPage('tracker.html')">✅ मास्टरी ट्रैकर</button>
+                            <button onclick="openResearchPage('skills.html')">🧮 कैलकुलेशन स्किल्स</button>
+                            <button onclick="openResearchPage('methodology.html')">ℹ️ मेथडोलॉजी</button>
+                        </div>
+                    </div>
                     <div id="ch-stage"></div>
                 </section>
 
@@ -177,6 +203,7 @@
                         <p>Official SSC/Railway coverage • कॉन्सेप्ट → फॉर्मूला → अभ्यास → टेस्ट — हर टॉपिक का 4-स्तरीय रास्ता</p>
                     </div>
                     <div class="learn-overview card" id="learn-overview"></div>
+                    <div class="lr-bridge card" id="learn-research-bridge"></div>
                     <div class="mastery-path card">
                         <h3>🚀 1000× Mastery Protocol</h3>
                         <div class="mastery-path-grid">
@@ -410,6 +437,33 @@
                     <div id="pyq-detail" style="display:none;"></div>
                 </section>
 
+                <!-- ================= PYQ एनालिसिस (10,000+ प्रश्नों का topic → concept विश्लेषण) ================= -->
+                <section id="pyq-analysis" class="section">
+                    <div class="section-header">
+                        <h2>📊 PYQ एनालिसिस — हर टॉपिक, हर कॉन्सेप्ट, कितने प्रश्न</h2>
+                        <p>आपके 10,000+ PYQ प्रश्नों का topic → concept(पैटर्न) विभाजन — किस concept से कितने प्रश्न आते हैं, कौन-सी परीक्षा, कौन-सा वर्ष, किस कठिनाई में। रिसर्च प्लेटफ़ॉर्म के 40,000+ टैग्ड प्रश्न भी साथ जोड़े गए हैं।</p>
+                    </div>
+                    <div class="pa-summary dashboard-grid" id="pa-summary"></div>
+                    <div class="pyq-filters">
+                        <input type="search" id="pa-search" class="filter-select" placeholder="🔍 टॉपिक या कॉन्सेप्ट खोजें…">
+                        <select id="pa-exam-filter" class="filter-select"><option value="all">सभी परीक्षाएँ</option></select>
+                    </div>
+                    <div class="pa-topic-grid" id="pa-topics"></div>
+                    <div class="pa-detail" id="pa-detail" style="display:none;"></div>
+                </section>
+
+                <!-- ================= सरकारी एक्ज़ाम रिसर्च प्लेटफ़ॉर्म (merged) ================= -->
+                <section id="research" class="section">
+                    <div class="section-header">
+                        <h2>🔬 सरकारी एक्ज़ाम रिसर्च प्लेटफ़ॉर्म</h2>
+                        <p>1,687 पेपर · 42,634 टैग्ड रिकॉर्ड · 35 topics → 154 sub-topics → 295 concepts — पूरा विश्लेषण अब आपकी इसी website के अंदर। नीचे टैब चुनकर किसी भी हिस्से में जाएँ।</p>
+                    </div>
+                    <div class="rs-tabbar" id="rs-tabbar"></div>
+                    <div class="rs-frame-wrap">
+                        <iframe id="rs-frame" title="सरकारी एक्ज़ाम रिसर्च प्लेटफ़ॉर्म" loading="lazy"></iframe>
+                    </div>
+                </section>
+
                 <!-- ================= FLASHCARDS ================= -->
                 <section id="flashcards" class="section">
                     <div class="section-header">
@@ -621,9 +675,9 @@
                 <div class="footer-content">
                     <div class="footer-logo">🧮 <span>गणित गुरु — 90-दिन गणित चैलेंज</span></div>
                     <div class="footer-links">
-                        <div class="footer-column"><h4>पढ़ाई</h4><ul><li><a href="#learn">सीखें</a></li><li><a href="#formulas">फॉर्मूला बुक</a></li><li><a href="#calculation">कैलकुलेशन</a></li><li><a href="#pyq">PYQ बैंक</a></li><li><a href="#notes">नोट्स</a></li><li><a href="#mastery">मास्टरी</a></li></ul></div>
+                        <div class="footer-column"><h4>पढ़ाई</h4><ul><li><a href="#learn">सीखें</a></li><li><a href="#formulas">फॉर्मूला बुक</a></li><li><a href="#calculation">कैलकुलेशन</a></li><li><a href="#pyq">PYQ बैंक</a></li><li><a href="#pyq-analysis">PYQ एनालिसिस</a></li><li><a href="#notes">नोट्स</a></li><li><a href="#mastery">मास्टरी</a></li></ul></div>
                         <div class="footer-column"><h4>अभ्यास</h4><ul><li><a href="#fast-tricks">फास्ट ट्रिक्स</a></li><li><a href="#daily">डेली प्रैक्टिस</a></li><li><a href="#quiz">क्विज़</a></li><li><a href="#flashcards">फ्लैशकार्ड</a></li><li><a href="#revision">रिवीजन</a></li><li><a href="#error-log">एरर लॉग</a></li><li><a href="#timer">टाइमर</a></li></ul></div>
-                        <div class="footer-column"><h4>जानकारी</h4><ul><li><a href="#exams">एग्जाम इंफो</a></li><li><a href="#pdf-research">PDF रिसर्च</a></li><li><a href="#patterns">पैटर्न इंजन</a></li><li><a href="#traps">ट्रैप बुक</a></li><li><a href="#plan">रणनीति प्लान</a></li><li><a href="#profile">प्रोफाइल</a></li><li><a href="#challenge">🔥 चैलेंज</a></li></ul></div>
+                        <div class="footer-column"><h4>जानकारी</h4><ul><li><a href="#exams">एग्जाम इंफो</a></li><li><a href="#pdf-research">PDF रिसर्च</a></li><li><a href="#research">🔬 सरकारी एक्ज़ाम रिसर्च</a></li><li><a href="#patterns">पैटर्न इंजन</a></li><li><a href="#traps">ट्रैप बुक</a></li><li><a href="#plan">रणनीति प्लान</a></li><li><a href="#profile">प्रोफाइल</a></li><li><a href="#challenge">🔥 चैलेंज</a></li></ul></div>
                     </div>
                     <div class="footer-bottom"><p>© 2026 गणित गुरु • हिंदी माध्यम के विद्यार्थियों के लिए, पूरी मेहनत से बनाया गया 🇮🇳</p></div>
                 </div>
@@ -681,6 +735,8 @@
     <script src="js/data-pdf-analysis.js"></script>
     <script src="js/data-fast-tricks.js"></script>
     <script src="js/data-challenge.js"></script>
+    <script src="js/data-pyq-analysis.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/research-hub.js"></script>
 </body>
 </html>

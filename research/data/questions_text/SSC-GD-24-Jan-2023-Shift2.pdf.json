@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-24-Jan-2023-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Compound interest of Rs.21,515 is received on sum of Rs.65,000 in a period of three years. What was the rate of interest on which the sum was being compounded annually?",
+   "options": [
+    {
+     "text": "11%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "13%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Mona purchased two handbags for Rs.1,500 each. She sold these bags, gaining 8% on one bag and loss 4% on the other. Find her gain or loss percent in the whole transaction.",
+   "options": [
+    {
+     "text": "1%",
+     "added": false
+    },
+    {
+     "text": "2%",
+     "added": false
+    },
+    {
+     "text": "4%",
+     "added": false
+    },
+    {
+     "text": "3%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A single discount equivalent to three successive discounts of 20%, 5% and 2% is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A vegetable seller has a faulty weight of 2 kg which is 100g less than the actual weight. He sold 2 kg of potatoes to a customer using the same faulty weight for Rs.44. The cost price of potatoes to the seller was Rs.18 per kg. How much profit did he earn on selling the potatoes?",
+   "options": [
+    {
+     "text": "Rs.9.8",
+     "added": false
+    },
+    {
+     "text": "Rs.9.2",
+     "added": false
+    },
+    {
+     "text": "Rs.8.9",
+     "added": false
+    },
+    {
+     "text": "Rs.8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Umesh and Ramesh can complete a work in 28 and 21 days, respectively. Starting with Umesh, they work on alternate days. In how many days will the work be completed?",
+   "options": [
+    {
+     "text": "16 days",
+     "added": false
+    },
+    {
+     "text": "26 days",
+     "added": false
+    },
+    {
+     "text": "12 days",
+     "added": false
+    },
+    {
+     "text": "24 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Find the area of the triangle whose sides are 13 cm, 14 cm and 15 cm.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Find the average of all prime numbers up to 40.(Correct to 2 decimal places)",
+   "options": [
+    {
+     "text": "18.42",
+     "added": false
+    },
+    {
+     "text": "17.42",
+     "added": false
+    },
+    {
+     "text": "16.42",
+     "added": false
+    },
+    {
+     "text": "19.42",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "In a sports club, 86% of the members are men and 14% of the members are women. If the average age of the men is 25 years and the average age of the women is 35 years, then what is the average age (in years) of all the members?",
+   "options": [
+    {
+     "text": "26.8",
+     "added": false
+    },
+    {
+     "text": "26.4",
+     "added": false
+    },
+    {
+     "text": "26.6",
+     "added": false
+    },
+    {
+     "text": "26.2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A man borrows ₹3,310 and undertakes to pay it back with compound interest at 10% per annum in three equal yearly instalments at the end of the first, second and third years. What is the amount of each instalment?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "By selling an article for Rs.880, a shopkeeper gains 10%. Due to reduction on sales, he allows a discount of 25% on previous selling price. His gain/loss percentage during the sale is:",
+   "options": [
+    {
+     "text": "gain 17.5%",
+     "added": false
+    },
+    {
+     "text": "loss 17.5%",
+     "added": false
+    },
+    {
+     "text": "loss 18.6%",
+     "added": false
+    },
+    {
+     "text": "gain 18.6 %",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The length of a train is 150 metres. In 3 seconds, it passes a man moving at a speed of 2 km/h in the same direction as the train. Determine the train's speed.",
+   "options": [
+    {
+     "text": "190 km/h",
+     "added": false
+    },
+    {
+     "text": "167 km/h",
+     "added": false
+    },
+    {
+     "text": "172 km/h",
+     "added": false
+    },
+    {
+     "text": "182 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "In an election between two candidates, the candidate getting 70% of the votes polled is elected by a majority of 16,000 votes. The number of votes polled in favour of the winning candidate is:",
+   "options": [
+    {
+     "text": "24000",
+     "added": false
+    },
+    {
+     "text": "30000",
+     "added": false
+    },
+    {
+     "text": "26000",
+     "added": false
+    },
+    {
+     "text": "28000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Prasad alone can complete a work in 144 days. How many people were required with the same efficiency as Prasad to complete the same work in 16 days?",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Find the volume of the hemisphere whose radius is 5.5 cm. (upto two decimal points)",
+   "options": [
+    {
+     "text": "34860 cm3",
+     "added": false
+    },
+    {
+     "text": "348.60 cm3",
+     "added": false
+    },
+    {
+     "text": "3486.0 cm3",
+     "added": false
+    },
+    {
+     "text": "34.860 cm3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Which of the following pairs of numbers are relatively prime?",
+   "options": [
+    {
+     "text": "24 and 38",
+     "added": false
+    },
+    {
+     "text": "24 and 92",
+     "added": false
+    },
+    {
+     "text": "39 and 68",
+     "added": false
+    },
+    {
+     "text": "24 and 68",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Prakash can swim at a speed of 32 km/h in upstream and 44 km/h in downstream. What is the speed of the current?",
+   "options": [
+    {
+     "text": "4 km/h",
+     "added": false
+    },
+    {
+     "text": "5 km/h",
+     "added": false
+    },
+    {
+     "text": "6 km/h",
+     "added": false
+    },
+    {
+     "text": "7 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "still-water-and-stream-speed",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Abdul’s salary is Rs.1,50,000 per month. He spends 10% of his salary on paying the school fees. He got an increment of 3% in his salary in the month of July, but the school fee was hiked by 5% the same month. What will be the net change in his saving in the month of July if the other expenditures are the same?",
+   "options": [
+    {
+     "text": "Decrease of Rs.3,750",
+     "added": false
+    },
+    {
+     "text": "Decrease of Rs.2,750",
+     "added": false
+    },
+    {
+     "text": "Increase of Rs.3,750",
+     "added": false
+    },
+    {
+     "text": "Increase of Rs.2,750",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "When the same number is subtracted from each of 6, 8, 12 and 20, the resulting numbers are in proportion. The number subtracted is:",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 309,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

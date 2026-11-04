@@ -1,0 +1,136 @@
+{
+ "paper": "RRB-ALP-CBT2-PartA-23-Jan-2019-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 30,
+ "questions": [
+  {
+   "n": 3,
+   "text": "A trader buys 60 bags of grain at 2 400 each. If he sells 18 bags at 8% profit, at what price should he sell the remaining bags to make 16.4% overall profit on selling the 60 bags?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": "₹480"
+  },
+  {
+   "n": 4,
+   "text": "2 What is the diameter (in cm) of a sphere of surface area 1386 cm? ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": "21"
+  },
+  {
+   "n": 10,
+   "text": "Two cars, X and Y, travel from A to B at average speeds of 50 km/hr and 75 kn/hr respectively. If X takes 2 hours more 0 = than Y for the journey, then the distance between A and B in km is n",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "300"
+  },
+  {
+   "n": 12,
+   "text": "Pipe A can fill a tank in 6 hours. Pipe B can empty it in 15 hours. If both the pipes are opened together, then the tank 7 will be filled in how many hours? ms 19 x28",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": "10"
+  },
+  {
+   "n": 13,
+   "text": "aa When a number is increased by 36, it becomes 109% of itself. What is the number?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": "400"
+  },
+  {
+   "n": 16,
+   "text": "The bar graph shows all the ingredients (in grams) required to make two types of salads, X and Y. If Ingredient B of 7 Salad X is reduced by 100 grams and Ingredient E of salad Y is increased by 25% then salad Y would be lighter than salad X by. ae 00 400 7 i | r | i i SN peretents",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "20%"
+  },
+  {
+   "n": 17,
+   "text": "93 What is the relation between voltage and ampere?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": "14"
+  },
+  {
+   "n": 23,
+   "text": "98 The sum of two binary numbers 1101111 and 1100101 is .",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "11010100"
+  },
+  {
+   "n": 29,
+   "text": "a9 j 5 If VX + 0.24 = 0.1296, then find X.",
+   "options": [
+    {
+     "text": "0.0144",
+     "added": false
+    },
+    {
+     "text": "0.12",
+     "added": false
+    },
+    {
+     "text": "1.44",
+     "added": false
+    },
+    {
+     "text": "0.0012",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "roots",
+   "key_answer": "0.0144"
+  },
+  {
+   "n": 30,
+   "text": "The bar graph shows the population density of 6 countries for the years 2000 and 2010. By how much is area of Country 8B greater than area of Country D, if population of Country B in 2000 was 10 million and population of Country D in 2010 was 6 million. Population density is measured here as number of people per 100 sq. km. ee ee",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "400%"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 175,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 533,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

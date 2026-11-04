@@ -1,0 +1,150 @@
+{
+ "paper": "RRB-ALP-CBT1-28-Nov-2024-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A gardener increases the area of his rectangular garden by increasing its length by 40% and decreasing its breadth by 20%. The area of the new garden is what percentage more than the area of the old garden?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": "12%"
+  },
+  {
+   "n": 4,
+   "text": "Study the following table and answer the given question. The table shows the expenditure of a family over the given years. Expenditure in 2 Year cng saa [ome What is the total expenditure (in 2) on food by the family for the year 2011 and 2012?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "₹4500"
+  },
+  {
+   "n": 8,
+   "text": "tf sum amounts to a times the sum after 2 years on a certain rate of compound interest, compounded annually, then the rate of interest per annum is:",
+   "options": [
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "50%"
+  },
+  {
+   "n": 9,
+   "text": "A town had a population of 50,000 in 1988. In one year, by 1989, it increased by 25%. Next year, in 1990, it decreased by 30%. The next year, in 1991, there was an increase of 40%. What is the population at the end of 1991?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": "61,250"
+  },
+  {
+   "n": 12,
+   "text": "The sum of all prime numbers between 60 and 90 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "523"
+  },
+  {
+   "n": 13,
+   "text": "A dishonest dealer professes to sell his goods at cost price, but uses a false weight and thus gains 25%. For 100 gm, he uses a weight of how many grams?",
+   "options": [
+    {
+     "text": "70 gm",
+     "added": false
+    },
+    {
+     "text": "85 gm",
+     "added": false
+    },
+    {
+     "text": "75 gm",
+     "added": false
+    },
+    {
+     "text": "80 gm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": "80 gm"
+  },
+  {
+   "n": 16,
+   "text": "Reena runs at a speed of 8 km/h. How long will she take to cover 200 m?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "90 seconds"
+  },
+  {
+   "n": 19,
+   "text": "The square of the length of a space diagonal of a closed cube is 2175 cm2. What is the total surface area (in cm?) of the cube?",
+   "options": [
+    {
+     "text": "4305",
+     "added": false
+    },
+    {
+     "text": "4350",
+     "added": false
+    },
+    {
+     "text": "4530",
+     "added": false
+    },
+    {
+     "text": "4272",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "4350"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 228,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

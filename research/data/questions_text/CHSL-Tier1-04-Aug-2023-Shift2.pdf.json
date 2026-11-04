@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-04-Aug-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qi 4 . If tan@ = > then secé@ is:",
+   "options": [
+    {
+     "text": "x32",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "x4 Vet",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Wwww.prepp.in Prepp Bar Graph showing number of cars sold by a reputed company during different months of a year. Look at the following bar graph and answer the question that follows: Number of cars sold bond $00 &0 + 700700 700 600 oa 300450 ol ff of me 8 isa! [ | sat 20 | 100 | o+ fre Fs f Tn which month was the sale highest and was what per cent of the total sale of 6 months?",
+   "options": [
+    {
+     "text": "September 21.3% nearly",
+     "added": false
+    },
+    {
+     "text": "September 18.7% nearly",
+     "added": false
+    },
+    {
+     "text": "July 21.3% nearly",
+     "added": false
+    },
+    {
+     "text": "May 18.7% nearly",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "a"
+  },
+  {
+   "n": 3,
+   "text": "Amerchant advertise 10% off on the items bought from his store. Find the discount got by a customer who bought a bag worth %560, an exercise book worth %90 and a pen worth %45.",
+   "options": [
+    {
+     "text": "359",
+     "added": false
+    },
+    {
+     "text": "369.50",
+     "added": false
+    },
+    {
+     "text": "365",
+     "added": false
+    },
+    {
+     "text": "367.50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Ifa map ofa city was drawn on a scale of 0.2 cm to a km, what area would represent a country if it has an area of 22500 km??",
+   "options": [
+    {
+     "text": "2500km",
+     "added": false
+    },
+    {
+     "text": "2250 km?",
+     "added": false
+    },
+    {
+     "text": "5625km?",
+     "added": false
+    },
+    {
+     "text": "900km?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "d"
+  },
+  {
+   "n": 5,
+   "text": "www prepp.in prepp Atriangle PQR has three sides equal in measurement and if PM is perpendicular to QR. then which of following equality holds? A ms X 1. 3PM2 = 2PQ2 v2 3PQ2 = 4PM2 % 3. 3PM? = 4PQ? X 4. 3PQ2 = 2PM2",
+   "options": [
+    {
+     "text": "3PM2 = 2PQ2",
+     "added": false
+    },
+    {
+     "text": "3PQ2 = 4PM2",
+     "added": false
+    },
+    {
+     "text": "3PM? = 4PQ?",
+     "added": false
+    },
+    {
+     "text": "3PQ2 = 2PM2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  },
+  {
+   "n": 6,
+   "text": "PS and PT are two tangents from a point P outside the circle with centre 0. If S and T are points on the circle such that £SPT =130°, then the degree measure of ZOST is equal to:",
+   "options": [
+    {
+     "text": "25°",
+     "added": false
+    },
+    {
+     "text": "55°",
+     "added": false
+    },
+    {
+     "text": "65°",
+     "added": false
+    },
+    {
+     "text": "35°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  },
+  {
+   "n": 7,
+   "text": "Ashopkeeper professes to sell sugar costing 240/kg at 742/kg but gives only 550 grams sugar in place of 600 grams using faulty weighing machine. His profit percentage (correct to 2 decimal places) is:",
+   "options": [
+    {
+     "text": "14.54%",
+     "added": false
+    },
+    {
+     "text": "15.54%",
+     "added": false
+    },
+    {
+     "text": "15.45%",
+     "added": false
+    },
+    {
+     "text": "16.45%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "a"
+  },
+  {
+   "n": 8,
+   "text": "= Aretailer buys 50 pens at the marked price of 44 pens. If he sells these pens at a discount of 1% on the marked price, what is the profit per cent?",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "12.5%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 9,
+   "text": "Wwww.prepp.in Prepp Prakash spends 27% of his salary on children’s education and donates 4% to a trust in a particular month. He spends 23,038 on these two heads, then his total salary for that month is:",
+   "options": [
+    {
+     "text": "24,402",
+     "added": false
+    },
+    {
+     "text": "29,800",
+     "added": false
+    },
+    {
+     "text": "211,251",
+     "added": false
+    },
+    {
+     "text": "213,200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Btika purchased a set of wallpapers for 2700 and the marked price of a set was 2850, The approximate rate of discount ‘was:",
+   "options": [
+    {
+     "text": "25.34%",
+     "added": false
+    },
+    {
+     "text": "12.65%",
+     "added": false
+    },
+    {
+     "text": "22.5%",
+     "added": false
+    },
+    {
+     "text": "17.64%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Qi 3 b a P It f =e £ and a—b=10, then the value of ad is: a",
+   "options": [
+    {
+     "text": "7 1.32= 7 3",
+     "added": false
+    },
+    {
+     "text": "325 ¥ 4",
+     "added": false
+    },
+    {
+     "text": "32 i 2",
+     "added": false
+    },
+    {
+     "text": "325",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Which of the following is an identity?",
+   "options": [
+    {
+     "text": "(a—b)? = a? — b?",
+     "added": false
+    },
+    {
+     "text": "(a+b)? = a? +b? + 2ab",
+     "added": false
+    },
+    {
+     "text": "(a+b)? = a? +b?",
+     "added": false
+    },
+    {
+     "text": "(a—b)? = a2 — b? —2ab",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Wwww.prepp.in Prepp The pie chart below gives the expenses under different heads that a publisher of books has to incur towards the cost of selling a book. All figures are given as percentages of the total expenditure incurred. If the retailer’s margin is 23,55.500, which of the options given below provides correct information? Percentage of expenditure under various heads in Book publishing Seven Paper Cost 10.0% ence taiting etaer's Margin prey 23 é- “ peer ee Ee ‘Dos",
+   "options": [
+    {
+     "text": "K 3.",
+     "added": false
+    },
+    {
+     "text": "The difference between the cost of promotion and the cost of editing is 280,500.",
+     "added": false
+    },
+    {
+     "text": "x 4.",
+     "added": false
+    },
+    {
+     "text": "The sum of the cost of printing and the cost of editing is 23,15,000.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "14 214 If tan 8 — Cotd = 4, then find the value of tan?6 + cot?6.",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 15,
+   "text": "Q.15_ What is the compound interest on 25,000 for 3 years at 10% per annum compounded yearly?",
+   "options": [
+    {
+     "text": "38,125",
+     "added": false
+    },
+    {
+     "text": "38,000",
+     "added": false
+    },
+    {
+     "text": "38,200",
+     "added": false
+    },
+    {
+     "text": "38,275",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Wwww.prepp.in Prepp In arhombus STU, S and U are joined ZSUV = 44°, ZSTU = 92°, what is the degree measure of 4 2SVU — 3ZTSU?",
+   "options": [
+    {
+     "text": "451°",
+     "added": false
+    },
+    {
+     "text": "360°",
+     "added": false
+    },
+    {
+     "text": "169°",
+     "added": false
+    },
+    {
+     "text": "236°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 17,
+   "text": "TF (22 + 4)2 x (3 — 5) + 20% of 400 + x% of 30 = 30% of 30, find the value of x.",
+   "options": [
+    {
+     "text": "150",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "190",
+     "added": false
+    },
+    {
+     "text": "160",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "c"
+  },
+  {
+   "n": 18,
+   "text": "Anam and Bikash invest in a business in the ratio 3 : 2. If in a particular month, Anam gets 33,840 as profit, the total profit is:",
+   "options": [
+    {
+     "text": "5,800",
+     "added": false
+    },
+    {
+     "text": "36,300",
+     "added": false
+    },
+    {
+     "text": "36,550",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "If 7 people working 4 hours a day can complete a task in 14 days. The number of days taken by 12 people working $ hours a day will be:",
+   "options": [
+    {
+     "text": "5 = days",
+     "added": false
+    },
+    {
+     "text": "8 days",
+     "added": false
+    },
+    {
+     "text": "4e days 12 1",
+     "added": false
+    },
+    {
+     "text": "7— days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Wwww.prepp.in Prepp ifatainiiom long takes G+ seconds to cross. a man who is walking at 12 knv/h in the same direction in which the tain going, then the speed or the train (in knv/h) is:",
+   "options": [
+    {
+     "text": "84",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "74",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "a"
+  },
+  {
+   "n": 21,
+   "text": "(2 tan A) If A= 30°, then find the value of ————— .",
+   "options": [
+    {
+     "text": "tan? A) ae Xt. 4y3 3",
+     "added": false
+    },
+    {
+     "text": ">",
+     "added": false
+    },
+    {
+     "text": "x33",
+     "added": false
+    },
+    {
+     "text": "2V3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The sides of the three cubes of metal are 15 cm, 18 cm and 25 cm, respectively. Find the side (in cm) of the new cube formed by melting these cubes together.",
+   "options": [
+    {
+     "text": "94/388",
+     "added": false
+    },
+    {
+     "text": "6V388",
+     "added": false
+    },
+    {
+     "text": "74/388 2",
+     "added": false
+    },
+    {
+     "text": "4/388",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Wwww.prepp.in Prepp ° The number of various types of vehicles (in thousands) in three cities are given below. | Bus | 2S 3.0 4s | Which type of vehicle is the maximum in number combining the three cities?",
+   "options": [
+    {
+     "text": "Truck",
+     "added": false
+    },
+    {
+     "text": "Car",
+     "added": false
+    },
+    {
+     "text": "Bus",
+     "added": false
+    },
+    {
+     "text": "Bike",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "2 x?4+7x42 . Ifx +- = 1, then the value of ——— is: x x*+13x+2",
+   "options": [
+    {
+     "text": "fs",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "xK4—",
+     "added": false
+    },
+    {
+     "text": "i",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Ifthe angle between two radii of a circle is 100°, then the angle between the tangents at the ends of the radii will be:",
+   "options": [
+    {
+     "text": "90°",
+     "added": false
+    },
+    {
+     "text": "70°",
+     "added": false
+    },
+    {
+     "text": "80°",
+     "added": false
+    },
+    {
+     "text": "50°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  }
+ ]
+}

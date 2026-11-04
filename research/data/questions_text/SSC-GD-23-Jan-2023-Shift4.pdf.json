@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-23-Jan-2023-Shift4.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The HCF and LCM of two numbers are 6 and 3024, respectively. If one of the numbers is 54, then find the other number.",
+   "options": [
+    {
+     "text": "334",
+     "added": false
+    },
+    {
+     "text": "336",
+     "added": false
+    },
+    {
+     "text": "504",
+     "added": false
+    },
+    {
+     "text": "506",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The volume of a right circular cylinder is 180 cm3 , the area of its base is 30 cm2 and the height is 6 cm then the diameter of the cylinder is (in cm):",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Two trains A and B are 155 km apart on a straight line. One train starts from A at 7:00 A.M. and travels towards B at 20 km/h. Another train starts from B at 8:00 A.M. and travels towards A at a speed of 25 km/h. At what time will they meet?",
+   "options": [
+    {
+     "text": "10:00 A.M.",
+     "added": false
+    },
+    {
+     "text": "9:00 A.M.",
+     "added": false
+    },
+    {
+     "text": "12:00 A.M.",
+     "added": false
+    },
+    {
+     "text": "11:00 A.M.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Which of the following is divisible by 24?",
+   "options": [
+    {
+     "text": "2940",
+     "added": false
+    },
+    {
+     "text": "2856",
+     "added": false
+    },
+    {
+     "text": "1458",
+     "added": false
+    },
+    {
+     "text": "1860",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Priyank buys an unfurnished flat for Rs. 6000000. He furnished it and eventually sells it for Rs. 12000000. The percent increase in the price of the flat is:",
+   "options": [
+    {
+     "text": "40 percent",
+     "added": false
+    },
+    {
+     "text": "50 percent",
+     "added": false
+    },
+    {
+     "text": "100 percent",
+     "added": false
+    },
+    {
+     "text": "60 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A and B together can complete a work in 8 days. A alone can complete it in 16 days. If B works at 50 percent efficiency, then in how many days A and B together will complete the work?",
+   "options": [
+    {
+     "text": "32/3 days",
+     "added": false
+    },
+    {
+     "text": "55/7 days",
+     "added": false
+    },
+    {
+     "text": "47/3 days",
+     "added": false
+    },
+    {
+     "text": "34/3 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A sum of money is to be distributed among A, B and C in proportion of 5 : 7 : 11. If B gets ₹1,500 more than A, what is B’s share?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Find the average of the first 9 prime numbers.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "If the third proportion to 8 and 18 is same as the fourth proportion to 2, 81 and x2 + 2x + 2, then find the value of x.",
+   "options": [
+    {
+     "text": "-1",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "-2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Two persons P and Q working together can do a piece of work in 18 days. Q alone can do it in 36 days. Q started the work, and after working for 6 days he left the work. P then took up the remaining work. How many days will P take to complete the remaining work?",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Ratnesh purchased a bike for Rs.64,000 and sold it for Rs.60,000. What is the percentage loss faced by Ratnesh?",
+   "options": [
+    {
+     "text": "6.25%",
+     "added": false
+    },
+    {
+     "text": "6.00%",
+     "added": false
+    },
+    {
+     "text": "5.65%",
+     "added": false
+    },
+    {
+     "text": "5.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A shopkeeper has found that the selling price of the product is 90% of the cost price. The selling price is Rs.90 per kg, so in order to get a profit, he weighs only 800 grams in place of 1 kg. Determine the profit (in Rs.) earned by the shopkeeper on selling 1 kg of this product?",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The average of six consecutive odd numbers is 68. What is the cube of the difference between the highest and the lowest numbers?",
+   "options": [
+    {
+     "text": "1000",
+     "added": false
+    },
+    {
+     "text": "729",
+     "added": false
+    },
+    {
+     "text": "512",
+     "added": false
+    },
+    {
+     "text": "1331",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A seller announced 30% discount on the marked price of a fan. If the selling price of the fan is Rs.2,800, then the marked price of the fan was:",
+   "options": [
+    {
+     "text": "Rs.4,000",
+     "added": false
+    },
+    {
+     "text": "Rs.3,500",
+     "added": false
+    },
+    {
+     "text": "Rs.3,000",
+     "added": false
+    },
+    {
+     "text": "Rs.2,930",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Four cows are tied at 4 corners (one at each corner) of a rectangular field of length 30 m and width 20m. The length of the rope is 7 m. What is the area of the field that cows CANNOT graze? (Use π = 22/7)",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In an election between two candidates, the one who gets 58% of the votes polled is elected by a majority of 4,032 votes. What is the total number of votes polled?",
+   "options": [
+    {
+     "text": "25,200",
+     "added": false
+    },
+    {
+     "text": "24,800",
+     "added": false
+    },
+    {
+     "text": "24,600",
+     "added": false
+    },
+    {
+     "text": "25,800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "After a discount of 15% on the marked price, the profit is 5%. What percent discount on the marked price be there to have 8% profit (rounded off to one decimal place)?",
+   "options": [
+    {
+     "text": "12.6%",
+     "added": false
+    },
+    {
+     "text": "10.2%",
+     "added": false
+    },
+    {
+     "text": "11.5%",
+     "added": false
+    },
+    {
+     "text": "9.2%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A man borrows a certain sum of money and pays it back in 2 years in two equal instalments. If Compound Interest is reckoned at 5% per annum in case of annual compounding and he pays back annually Rs.882, what sum did he borrow?",
+   "options": [
+    {
+     "text": "Rs.1,600",
+     "added": false
+    },
+    {
+     "text": "Rs.1,640",
+     "added": false
+    },
+    {
+     "text": "Rs.1,682",
+     "added": false
+    },
+    {
+     "text": "Rs.1,650",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "In 4 h, a boat goes 12 km along the stream. It covers 6 km against the stream in the same time. The speed of the boat in still water (in km/h) is:",
+   "options": [
+    {
+     "text": "2.25",
+     "added": false
+    },
+    {
+     "text": "1.16",
+     "added": false
+    },
+    {
+     "text": "3.12",
+     "added": false
+    },
+    {
+     "text": "1.11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "still-water-and-stream-speed",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 323,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,465 @@
+{
+ "paper": "2019-Tier1-04-Mar-2020-1300.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "at 2 oe to 9 9 6-3 Of 245-7 — 2 Ph The value of ee es mel ae is: 5+5o0f— -10x10+20 10",
+   "options": [
+    {
+     "text": "32 5 L",
+     "added": false
+    },
+    {
+     "text": "92 2 9",
+     "added": false
+    },
+    {
+     "text": "1— 10",
+     "added": false
+    },
+    {
+     "text": "x14 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "tan?9 -sin?9 . The value of ——.——— is: 2 +tan?6 + cot?6",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The given table represents the revenue (in 2 crores) of a company from the sale of four products A, B, C and D in 6 years. Study the table carefully and answer the question that follows. me | y PTL [A 98 94 [80 [95 [ito [115 | [B_[74_|96_ [92 [84 [9s [86_| [cs fsz_ [9s [96_[8_[93 | 103 | [p74 fi02 or [93 [97 [102 | By what percentage is the total revenue of the company from the sale of products A, B and D in 2012 and 2013 more than the total revenue from the sale of product B in 2013 to 2016?(Correct to one decimal place)",
+   "options": [
+    {
+     "text": "45.4",
+     "added": false
+    },
+    {
+     "text": "31.2",
+     "added": false
+    },
+    {
+     "text": "43.6",
+     "added": false
+    },
+    {
+     "text": "44.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The time taken by a boat to travel 13 km downstream is the same as time taken by it to travel 7 km upstream. If the speed of the stream is 3 km/h, then how much time (in hours) will it take to travel a distance of 44.8 km in still water?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "= The difference in compound interest on a certain sum at 10% p.a. for one year, when the interest is compounded half yearly and yearly, is $88.80. What is the simple interest on the same sum for ie years at the same rate?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Acylindrical vessel of radius 30 cm and height 42 cm is full of water. Its contents are emptied into a rectangular tub of length 75 cm and breadth 44 cm. The height (in cm) to which the water rises in the tub is: (Take x = = J",
+   "options": [
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Two chords AB and CD ofa circle are produced to intersect each other at a point P outside the circle. If AB = 7 cm, BP=4.2 cm and PD =2.8 cm, then the length of CD is:",
+   "options": [
+    {
+     "text": "15.8cm",
+     "added": false
+    },
+    {
+     "text": "14.6 cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "14cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The given table represents the revenue (in 2 crores) of a company from the sale of four products A, B, C and D in 6 years, Study the table carefully and answer the question that follows. 2012 | 2013 | 2014 | 2015 | 2016 | 2017 Peat [eos [or_ [eo [95 [ano [| [B74 [96 [or [ss [9s [86 | [cf [98_ [96 [8s [93 [103 | [Dp [74 [1or [92 [93 [97 [02 | ‘What is the ratio of the total revenue of the company in 2014 from the sale of all the four products to the total revenue from the sale of product C in 2014 to 2017?",
+   "options": [
+    {
+     "text": "7:10",
+     "added": false
+    },
+    {
+     "text": "7:9",
+     "added": false
+    },
+    {
+     "text": "14: 23",
+     "added": false
+    },
+    {
+     "text": "18:19",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "| The ratio of boys and girls in a group is 7 : 6. If 4 more boys join the group and 3 girls leave the group, then the ratio of boys to girls becomes 4 : 3. What is the total number of boys and girls initially in the group?",
+   "options": [
+    {
+     "text": "78",
+     "added": false
+    },
+    {
+     "text": "104",
+     "added": false
+    },
+    {
+     "text": "117",
+     "added": false
+    },
+    {
+     "text": "91",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Ifthe 6-digit numbers x35624 and 1257y4 are divisible by 11 and 72, respectively, thea what is the value of (5x — 2)?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "In AABC, D and E are the points on sides AC and BC, respectively such that DE ll AB. F is a point on CE such that DF |] AE. If CE = 6 cm, and CF = 2.5 cm, then BC is equal to:",
+   "options": [
+    {
+     "text": "44cm",
+     "added": false
+    },
+    {
+     "text": "15.6 cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "14cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The given table represents the revenue (in 2 crores) of a company from the sale of four products A, B, C and D in 6 years. Study the table carefully and answer the question that follows. Sia [A [98 [94 [80 [95 [ito [11s | [B_|m4_[96_[or [sa [98 | 86_| a [p74 [102 [or [93 [97 | 102 J The total revenue of the company from the sale of products B, C and D in 2014 is what percentage of the total revenue from the sale of products C and D in 6 years?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "17 + 4 O17 T¢ 30x? — 15x + 1=0, then what is the value of 25x? + (36x2)\"19",
+   "options": [
+    {
+     "text": "65 Ber 55.",
+     "added": false
+    },
+    {
+     "text": "= 12 L",
+     "added": false
+    },
+    {
+     "text": "62",
+     "added": false
+    },
+    {
+     "text": "9 x«2 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "In APQR, 2Q = 85° and ZR = 65°. Points S and T are on the sides PQ and PR, respectively such that 2STR = 95°, and the ratio of the QR and ST is 9 : 5. If PQ = 21.6 cm, then the length of PT is:",
+   "options": [
+    {
+     "text": "9cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "9.6 cm",
+     "added": false
+    },
+    {
+     "text": "10.5 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "One-third of goods are sold at a 15% profit, 25% of the goods are sold at a 20% profit and the rest at a 20% loss. If the total profit of 7138.50 is earned on the whole transaction, then the value (in 2) of the goods is:",
+   "options": [
+    {
+     "text": "27,756",
+     "added": false
+    },
+    {
+     "text": "38310",
+     "added": false
+    },
+    {
+     "text": "%8,030",
+     "added": false
+    },
+    {
+     "text": "38,587",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "6 75in2@ — cos26 + 2sin® = 2,0°< < 90°, then the value of 32222*22!8 _ jg. cosec 28 + tan 20",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": ". 7 The expression 3sec?6 tan?@ + tan®°@ — sec®@ is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The average weight of some students in a class was 58.4 kg. When 5 students having the average weight 62.8 kg joined the class, the average weight of all students in the class increased by 0.55 kg. The number of students initially in the class, were:",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "25 4 =, a A a ip = = and R = 2*****8 then (P x Q) + Ris equal to: x?—x?-2x x?-4x-5 x-5",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  }
+ ]
+}

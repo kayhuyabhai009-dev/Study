@@ -1,0 +1,424 @@
+{
+ "paper": "SSC-GD-07-Feb-2023-Shift4.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Find the greatest number that will divide 57, 93 and 191 so as to leave the same remainder in each case.",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "If radius of a hemisphere = radius of a cone = height of the cone, then what will be the ratio of the curved surfaces area of this hemisphere and curved surface area of this cone?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A dealer announces 8% and 18% discounts on a watch. If the selling price of the watch is ₹943, then the marked price of the watch is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A merchant bought 1200 items for ₹1,800 and he sold them at the rate of 1000 for ₹1,600. Calculate gain or loss percentage.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "articles-and-batches",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A dealer sells wheat at 25% profit and uses a weight 5% less than the actual measure. His gain percentage is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A sum of ₹9,960 was borrowed at 7.5% per annum compound interest and paid back in two equal annual instalments. What was the amount of each instalment?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-instalments",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The fourth proportional of the numbers 0.002, 0.04 and 0.0006 is ________.",
+   "options": [
+    {
+     "text": "0.12 × 10-2",
+     "added": false
+    },
+    {
+     "text": "1.2 × 10-3",
+     "added": false
+    },
+    {
+     "text": "1.2 × 10-2",
+     "added": false
+    },
+    {
+     "text": "12 × 10-2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "P, Q, and R can do a piece of work in 38 days. Q and R can do the work in 76 days. Find the number of days in which P can complete the same work.",
+   "options": [
+    {
+     "text": "81 days",
+     "added": false
+    },
+    {
+     "text": "76 days",
+     "added": false
+    },
+    {
+     "text": "84 days",
+     "added": false
+    },
+    {
+     "text": "90 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "R goes to the post office from home covering a distance of 5 km and 400 metres in half an hour, and then goes to office covering a distance of 25 km and 750 metres in 90 minutes. What is his average speed from home to office in km/h?",
+   "options": [
+    {
+     "text": "17.555",
+     "added": false
+    },
+    {
+     "text": "15.775",
+     "added": false
+    },
+    {
+     "text": "15.755",
+     "added": false
+    },
+    {
+     "text": "15.575",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "If 'x' is divisible by 3 and 2, then 2x3 + 3x2 is divisible by :",
+   "options": [
+    {
+     "text": "428",
+     "added": false
+    },
+    {
+     "text": "214",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "108",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The discount on a toy is 15%. A successive discount of 15% is also offered. What is the effective discount on the toy",
+   "options": [
+    {
+     "text": "27.75%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "32.75%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A board 100 cm long is trimmed to 86 cm. What percentage has been removed?",
+   "options": [
+    {
+     "text": "32 percent",
+     "added": false
+    },
+    {
+     "text": "28 percent",
+     "added": false
+    },
+    {
+     "text": "14 percent",
+     "added": false
+    },
+    {
+     "text": "20 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Find the average of the numbers 517, 139, 195, 176 and 192.",
+   "options": [
+    {
+     "text": "243.8",
+     "added": false
+    },
+    {
+     "text": "726.3",
+     "added": false
+    },
+    {
+     "text": "515.4",
+     "added": false
+    },
+    {
+     "text": "315.4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Rohan and Sohan can complete a piece of work in 10 days and 12 days, respectively. If they work on alternate days, starting with Sohan, in how many days will the whole work be completed?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The price of a jacket and handbag are in the ratio of 3 : 2. If a jacket costs ₹600 more than the handbag, then the price of the handbag is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 342,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

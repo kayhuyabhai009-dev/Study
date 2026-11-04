@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-03-Aug-2023-Shift1.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Q.1_— Mohan purchased trousers for <765, after a discount of 15% was offered on its marked price. What is the marked price (in 3) of the trousers?",
+   "options": [
+    {
+     "text": "885",
+     "added": false
+    },
+    {
+     "text": "855",
+     "added": false
+    },
+    {
+     "text": "900",
+     "added": false
+    },
+    {
+     "text": "870",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "c"
+  },
+  {
+   "n": 2,
+   "text": "mApril 2019, Dinesh purchased a new car for 27,00,000 and sold it in April 2022 at its depreciated cost. If the rate of depreciation in the first year is 20%, 15% in the second year and 10% every year thereafter, what amount of money will Dinesh get as the selling price?",
+   "options": [
+    {
+     "text": "24,28,400",
+     "added": false
+    },
+    {
+     "text": "24,28,600",
+     "added": false
+    },
+    {
+     "text": "68.400",
+     "added": false
+    },
+    {
+     "text": "25,28.400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Q.3__ inavillage election between three candidates, 80% of the voters cast their votes, out of which 3% votes were declared invalid. The winning candidate got 42,680 votes which were 55% of the total valid votes. Find the number of valid votes received by the candidate who stood third, given that he received only 10% of the total valid votes.",
+   "options": [
+    {
+     "text": "7760",
+     "added": false
+    },
+    {
+     "text": "7700",
+     "added": false
+    },
+    {
+     "text": "7670",
+     "added": false
+    },
+    {
+     "text": "7680",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "a"
+  },
+  {
+   "n": 4,
+   "text": "Wwww.prepp.in Prepp a4 8 b It merit £ and (a+ b) = 30, then what is the value of ab? a",
+   "options": [
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "c"
+  },
+  {
+   "n": 5,
+   "text": "Atrain starts from a station P for another station Q at 6 p.m. at an average speed of 75 km per hour. Another train starts from station Q for station P at 8 p.m. at an average speed of 105 km per hour. If the distance between these two stations is 690 km, then at what time will the two trains meet?",
+   "options": [
+    {
+     "text": "10:30 p.m",
+     "added": false
+    },
+    {
+     "text": "10 p.m",
+     "added": false
+    },
+    {
+     "text": "11 p.m",
+     "added": false
+    },
+    {
+     "text": "11:30 p.m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "c"
+  },
+  {
+   "n": 6,
+   "text": "26 The data given in the following table shows the number of boys and girls enrolled for different games in an academy over 5 years. Basketball | Football Years | Boys | Girls | Boys | Girls | Boys | Girls | [2019 [40 [41 [4a [34 [42 [32 | [2021 [37 [44 43 |25_ [34 [28 | In which year did the academy have the highest enrolment?",
+   "options": [
+    {
+     "text": "2019",
+     "added": false
+    },
+    {
+     "text": "2022",
+     "added": false
+    },
+    {
+     "text": "2020",
+     "added": false
+    },
+    {
+     "text": "2018",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "d"
+  },
+  {
+   "n": 7,
+   "text": "www prepp.in prepp Your Personal Exarps|Guide The perimeter of a parallelogram is 48 em. If the height of the parallelogram is 6 cm and the length of the adjacent side is 8 cm. find its area.",
+   "options": [
+    {
+     "text": "90 cm?",
+     "added": false
+    },
+    {
+     "text": "80 cm?",
+     "added": false
+    },
+    {
+     "text": "84 cm?",
+     "added": false
+    },
+    {
+     "text": "96 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Ali, Avtar Singh and Ashok working together can finish a work in 8 days. Ali alone can do it in 20 days and Avtar Singh alone can do it in 24 days. In how many days can Ashok alone do the same work?",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "a"
+  },
+  {
+   "n": 9,
+   "text": "as cos® cos 0 , A If ———_ + ———_= 4 and 86 is acute, then the value of @ is: (1+ sin 6) (1 - sin 8)",
+   "options": [
+    {
+     "text": "v'. 60°",
+     "added": false
+    },
+    {
+     "text": "15°",
+     "added": false
+    },
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 10,
+   "text": "S vis TE 3.5 Solve (1 5 5 ite oo ++) = @- =). 6 8 12 4 3.",
+   "options": [
+    {
+     "text": "29",
+     "added": false
+    },
+    {
+     "text": "39",
+     "added": false
+    },
+    {
+     "text": "19",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "a"
+  },
+  {
+   "n": 11,
+   "text": "www prepp.in prepp Your Personal Exarps|Guide Catch Cola 300 ML with MRP 220 is displayed in a Hyper Market with an Offer ‘BUY 2 GET | FREE’. With this offer, the Hyper Market js giving what per cent discount?",
+   "options": [
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "33.33%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": "b"
+  },
+  {
+   "n": 12,
+   "text": "Q.12_ Study the given pie-chart and answer the question that follows. Percentage-wise distribution of teachers in six different subjects in a school is given in the pie-chart. The total number of teachers is 600. The ratio of male to female teachers is 3 : 1, mw Engish m Sansker: a hingi = Matnematics BBiobgy = Socia Stuaies What is the total number of male teachers in the school?",
+   "options": [
+    {
+     "text": "500",
+     "added": false
+    },
+    {
+     "text": "420",
+     "added": false
+    },
+    {
+     "text": "450",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "P 2 . Ifsin a + cosa = F then what is (tan a+ cota) equal to?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "a"
+  },
+  {
+   "n": 14,
+   "text": "www prepp.in prepp Acirele of radius 5 em and the length of tangent drawn from a point X outside the circle is 12 cm. The distance of the point x from the centre of the circle is:",
+   "options": [
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "Ilem",
+     "added": false
+    },
+    {
+     "text": "10cm",
+     "added": false
+    },
+    {
+     "text": "13cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "d"
+  },
+  {
+   "n": 15,
+   "text": "Ois the centre of a circle and A is a point on a major arc BC of the circle. 2 BOC and 2 BAC are the angles made by the minor are BC on the centre and circumference, respectively. If 2 ABO = 40° and 2 ACO = 30°, then find 2 BOC.",
+   "options": [
+    {
+     "text": "130°",
+     "added": false
+    },
+    {
+     "text": "140°",
+     "added": false
+    },
+    {
+     "text": "120°",
+     "added": false
+    },
+    {
+     "text": "150°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 16,
+   "text": "Ifa craftsman were to sell a table at 21,300, he would lose 35%. To gain 30%, he would sell it for:",
+   "options": [
+    {
+     "text": "22,600",
+     "added": false
+    },
+    {
+     "text": "22,500",
+     "added": false
+    },
+    {
+     "text": "22,300",
+     "added": false
+    },
+    {
+     "text": "22,400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The simple interest on a certain sum for 3 years at 8% per annum is < 9120 less than the simple interest on the same sum for 7 years at 8% per annum. Find the sum.",
+   "options": [
+    {
+     "text": "328500",
+     "added": false
+    },
+    {
+     "text": "= 28250",
+     "added": false
+    },
+    {
+     "text": "28750",
+     "added": false
+    },
+    {
+     "text": "28000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Wwww.prepp.in Prepp Qs Your Personal Exams|Guide If 2x + 3y = 9, and xy = 3, what is 8x3 + 27y3?",
+   "options": [
+    {
+     "text": "235",
+     "added": false
+    },
+    {
+     "text": "244",
+     "added": false
+    },
+    {
+     "text": "243",
+     "added": false
+    },
+    {
+     "text": "234",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "c"
+  },
+  {
+   "n": 19,
+   "text": "Find the value of cos 0° +cos 30° - tan 45° + cosec 60° + cot 90°.",
+   "options": [
+    {
+     "text": "6v3",
+     "added": false
+    },
+    {
+     "text": "6 7",
+     "added": false
+    },
+    {
+     "text": "5 6",
+     "added": false
+    },
+    {
+     "text": "f",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "[nan isosceles triangle. if the unequal side is 8 cm and equal side is 5 cm, then the area of the triangle is:",
+   "options": [
+    {
+     "text": "Dem",
+     "added": false
+    },
+    {
+     "text": "25 cm?",
+     "added": false
+    },
+    {
+     "text": "6 cm?",
+     "added": false
+    },
+    {
+     "text": "11cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The average monthly salary of workers in a factory is 6,000. The average monthly salary of 100 technicians is 312,000, and the average monthly salary of non-technicians is 74,000. Find the total number of workers in the factory.",
+   "options": [
+    {
+     "text": "y'. 400",
+     "added": false
+    },
+    {
+     "text": "300",
+     "added": false
+    },
+    {
+     "text": "250",
+     "added": false
+    },
+    {
+     "text": "450",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "a"
+  },
+  {
+   "n": 22,
+   "text": "www prepp.in prepp Your Personal Exarps|Guide The data of production (in million) of three types of medicines by three different companies is given below. a Which of the following gives the minimum production of a medicine by any company?",
+   "options": [
+    {
+     "text": "Medicine P, Company A",
+     "added": false
+    },
+    {
+     "text": "Medicine Q, Company C",
+     "added": false
+    },
+    {
+     "text": "Medicine P, Company C",
+     "added": false
+    },
+    {
+     "text": "Medicine Q, Company B",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "APQR and A SQR are both isosceles triangles on a common base QR such that P and S lie on the same side of QR. If ZQSR = 60° and ZQPR = 100°, then find ZSRP.",
+   "options": [
+    {
+     "text": "soe",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "100°",
+     "added": false
+    },
+    {
+     "text": "20°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  },
+  {
+   "n": 24,
+   "text": "Asum of money is divided among A, B, C in the ratio 3 ; 2 : 5, respectively. If the share of C is 300 more than B, thea how much more money will A get than B?",
+   "options": [
+    {
+     "text": "2150",
+     "added": false
+    },
+    {
+     "text": "275",
+     "added": false
+    },
+    {
+     "text": "2100",
+     "added": false
+    },
+    {
+     "text": "2125",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Wwww.prepp.in Prepp Your Personal Exarps|Guide 928 Simplify the following expression. 0.01 + 0.68 x 0.68 + 0.22 x 0.22 + 0.044 + 0.136 + 0.44 x 0.68",
+   "options": [
+    {
+     "text": "0.69",
+     "added": false
+    },
+    {
+     "text": "71",
+     "added": false
+    },
+    {
+     "text": "0.8",
+     "added": false
+    },
+    {
+     "text": "0.9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  }
+ ]
+}

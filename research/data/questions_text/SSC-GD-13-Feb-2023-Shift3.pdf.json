@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-13-Feb-2023-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Two boats A and B start moving towards each other from two places, 272 km apart. The speed of the boat A and B in still water are 32 km/h and 36 km/h, respectively. If A moves in downstream and B moves in upstream, then in how much time they will meet each other?",
+   "options": [
+    {
+     "text": "4 hours",
+     "added": false
+    },
+    {
+     "text": "3 hours",
+     "added": false
+    },
+    {
+     "text": "5 hours",
+     "added": false
+    },
+    {
+     "text": "6 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "What is the value of 10% of 20% of 1750?",
+   "options": [
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A shopkeeper allows a discount of 20% on an article. What will be the selling price of the article marked for ₹600?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A boat can travel at a speed of 10 km/h in still water. If the speed of the stream is 2 km/h, find the time taken by the boat to go 72 km downstream.",
+   "options": [
+    {
+     "text": "4 hours",
+     "added": false
+    },
+    {
+     "text": "7 hours",
+     "added": false
+    },
+    {
+     "text": "5 hours",
+     "added": false
+    },
+    {
+     "text": "6 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A solid metallic cylinder of base radius 3 cm and height 4 cm is melted to form cones, each of height 2 cm and radius 1 cm. The number of cones is:",
+   "options": [
+    {
+     "text": "58",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Find the compound interest, compounding annually on ₹75,000 for 3 years, if the rate of interest is 5% for the first year, 6% for the second year and 8% for the third year.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The average of 3, 5, 10 and x is 5. The average of 8, 12, 15, x and y is 9. x and y, respectively, are:",
+   "options": [
+    {
+     "text": "3 and 8",
+     "added": false
+    },
+    {
+     "text": "3 and 9",
+     "added": false
+    },
+    {
+     "text": "2 and 3",
+     "added": false
+    },
+    {
+     "text": "2 and 8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A carton of mango juice contains 500 ml. A special offer carton contains an extra 15 percent. How much mango juice is there in the special offer carton?",
+   "options": [
+    {
+     "text": "575 ml",
+     "added": false
+    },
+    {
+     "text": "640 ml",
+     "added": false
+    },
+    {
+     "text": "590 ml",
+     "added": false
+    },
+    {
+     "text": "545 ml",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A dishonest seller sells rice at Rs.24/kg, which he has bought at Rs.20/kg, and he gives 800 g instead of 1 kg. His actual profit percentage is:",
+   "options": [
+    {
+     "text": "43.75%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "56.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The greatest common divisor of 2.16, 2.44 and 3.36 is:",
+   "options": [
+    {
+     "text": "0.05",
+     "added": false
+    },
+    {
+     "text": "0.02",
+     "added": false
+    },
+    {
+     "text": "0.03",
+     "added": false
+    },
+    {
+     "text": "0.04",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-fractions",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A and B can do a piece of work in 60 days and 75 days respectively. How many days are required to complete the task if they work together?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Rakesh has to fill water in a cylindrical container of height 10 cm and radius 10 cm with a hemispherical bowl of radius 5 cm. How many times does he have to pour water into the cylindrical container with the hemispherical bowl to fill the tank completely with water?",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "19",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "What will be the amount on a sum of Rs.1,000 for 3 years at 10% compound interest per annum compounding annually?",
+   "options": [
+    {
+     "text": "Rs.1,331",
+     "added": false
+    },
+    {
+     "text": "Rs.2,311",
+     "added": false
+    },
+    {
+     "text": "Rs.4,121",
+     "added": false
+    },
+    {
+     "text": "Rs.3,122",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A dealer professes to sell his articles at cost price but he uses a false weight of 735 grams for a kilogram. The gain percent of the dealer is: (correct to 2 decimal places)",
+   "options": [
+    {
+     "text": "38.15%",
+     "added": false
+    },
+    {
+     "text": "36.05%",
+     "added": false
+    },
+    {
+     "text": "35.25%",
+     "added": false
+    },
+    {
+     "text": "40.05%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Aman, Raman and Yash together can complete a piece of work in 29 days. Raman and Yash together can complete the same work in 58 days. Aman, Raman and Yash started working together but Aman left the work after 15 days from starting. Find the number of days in which Raman and Yash completed the remaining work.",
+   "options": [
+    {
+     "text": "21 days",
+     "added": false
+    },
+    {
+     "text": "50 days",
+     "added": false
+    },
+    {
+     "text": "28 days",
+     "added": false
+    },
+    {
+     "text": "54 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Determine the list price of an item if a 10% discount on the item amounts to ₹100.",
+   "options": [
+    {
+     "text": "₹800",
+     "added": false
+    },
+    {
+     "text": "₹1,000",
+     "added": false
+    },
+    {
+     "text": "₹1,500",
+     "added": false
+    },
+    {
+     "text": "₹1,200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "20 kg of rice priced at ₹9 per kg has been mixed with 25 kg of rice priced at ₹10 per kg. What is the average price of 1 kg of the mixed rice? (Rounded off to one decimal place)",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Two numbers are in the ratio 2 : 3. If 7 is subtracted from each number, the new numbers are in the ratio 7 : 11. The smaller number is:",
+   "options": [
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "If 48, x2 and 27 are in proportion, then the value of x is:",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 321,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

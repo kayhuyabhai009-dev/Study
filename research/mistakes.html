@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mistake Analytics — Gov Exam Maths</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css"><link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('gems-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){}</script>
+</head>
+<body><div class="shell"><aside class="sidebar"></aside><div class="main"><div class="topbar"></div>
+<main class="content">
+<div class="page-hero"><p class="eyebrow">Mistake &amp; Accuracy Analytics</p><h1>Mistakes, without invented accuracy</h1>
+<p>No candidate-performance data exists anywhere in this project. So there are <strong>no accuracy rates</strong> on this page — only error-sensitivity ratings (how easily a prepared student loses marks: setup complexity + trap density + reading load) from Master Report §5.2, the trap codebook, and scenario maths for negative marking.</p></div>
+<div class="grid grid-3">
+<div class="card"><h3>HIGH sensitivity — setup-first drills</h3>
+<p>Data Interpretation, Mixture-Alligation, Trains, Pipes-Cisterns, Time-Work, Ages.</p>
+<p class="small">Practice: 10-item sets; first pass writes ONLY the setup (equation, frame, data mapping), second pass computes. Check after every item: units, signs, frame ("after n years" vs "n years ago", upstream vs downstream).</p></div>
+<div class="card"><h3>MEDIUM sensitivity</h3>
+<p>Percentage, Ratio-Proportion, Profit-Loss, Discount, TSD, Trigonometry, Geometry, Circles-Polygons, Mensuration 3D/2D, Algebra, CI, Boats-Streams, Sequences and Series.</p>
+<p class="small">Practice: mixed-model sets + trap-option drills — name the trap option before solving.</p></div>
+<div class="card"><h3>LOW sensitivity — speed sets</h3>
+<p>Number System, HCF-LCM, Simplification, Simple Interest.</p>
+<p class="small">Practice: formula-direct items, timed, accuracy focus. The risk here is careless slips under speed, not concept gaps.</p></div>
+</div>
+<div class="card" style="margin-top:20px"><h3>Trap codebook (apply per model in every drill)</h3>
+<table><thead><tr><th>Code</th><th>What to check</th></tr></thead><tbody>
+<tr><td>sign error</td><td>Plus/minus flips, especially in pipes (fill vs empty) and signed quantities.</td></tr>
+<tr><td>unit conversion</td><td>km/h ↔ m/s, minutes ↔ hours, cm ↔ m — convert before computing.</td></tr>
+<tr><td>off-by-one</td><td>Counting, terms, days, "nth" items — check boundaries.</td></tr>
+<tr><td>formula confusion</td><td>SI vs CI, area vs volume, similar-looking identities.</td></tr>
+<tr><td>trap option</td><td>The near-miss answer the question is built around — name it first.</td></tr>
+<tr><td>misread</td><td>Question frame or data misread — re-read the last line before solving.</td></tr>
+</tbody></table>
+<p class="small muted">No trap frequency is claimed for any topic — the schema has no trap field.</p></div>
+<div class="card" style="margin-top:20px"><h3>Negative-marking simulator (scenario maths only)</h3>
+<p class="small">No candidate data is used. Enter a marking scheme and an assumed accuracy to see the expected score per 100 attempted — and the breakeven accuracy below which guessing loses marks.</p>
+<div class="grid grid-3">
+<div class="filter-group"><label>Marks per correct answer</label><input type="number" id="simPlus" value="2" step="0.25"></div>
+<div class="filter-group"><label>Negative marks per wrong answer</label><input type="number" id="simNeg" value="0.5" step="0.25"></div>
+<div class="filter-group"><label>Assumed accuracy (%)</label><input type="range" id="simAcc" min="0" max="100" value="60" style="width:100%"><span id="simAccVal" class="small">60%</span></div>
+</div>
+<p id="simOut"></p>
+<p class="small muted">Published breakevens (Master Report §4.5): SSC +2/−0.5 → guess only above <strong>20%</strong> expected accuracy; RRB +1/−1/3 → above <strong>25%</strong>. Mark every guessed answer separately and review guesses as their own set.</p>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const plus = document.getElementById("simPlus"), neg = document.getElementById("simNeg"),
+        acc = document.getElementById("simAcc"), out = document.getElementById("simOut"),
+        accVal = document.getElementById("simAccVal");
+  const render = () => {
+    const p = parseFloat(plus.value) || 0, n = parseFloat(neg.value) || 0, a = Number(acc.value) / 100;
+    accVal.textContent = acc.value + "%";
+    const exp = (a * p - (1 - a) * n) * 100;
+    const be = (p + n) ? (100 * n / (p + n)).toFixed(1) : "—";
+    out.innerHTML = "Expected score per 100 attempted: <strong>" + exp.toFixed(1) + "</strong> · Breakeven accuracy: <strong>" + be + "%</strong> " +
+      (a * 100 >= parseFloat(be) ? "(guessing is favourable at this accuracy)" : "(guessing loses marks at this accuracy — skip or eliminate first)");
+  };
+  [plus, neg, acc].forEach(el => el.addEventListener("input", render));
+  render();
+});
+</script>
+</main>
+<footer class="site-footer" style="max-width:1180px;margin:0 auto;padding:0 32px 32px"></footer></div></div>
+<div class="palette" id="palette"><div class="palette-box"><input type="text" placeholder="Jump to a page, topic, exam… (Esc to close)"><div class="palette-results" id="paletteResults"></div></div></div>
+<script src="js/chrome.js"></script><script src="js/data.js"></script><script src="js/ui.js"></script>
+</body></html>

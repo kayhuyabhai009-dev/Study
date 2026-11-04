@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-07-Aug-2023-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "numbered",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Study the given pie-chart and answer the question that follows. (+2, -0.5) Percentage-wise distribution of teachers in six different subjects in a school is given in the pie-chart. The total number of teachers is 600 . The ratio of male and female teachers is 3 ∶ 1. Find the ratio of teachers in Sanskrit and Hindi to teachers in Mathematics and Biology.",
+   "options": [
+    {
+     "text": "1 ∶ 2",
+     "added": false
+    },
+    {
+     "text": "3 ∶ 1",
+     "added": false
+    },
+    {
+     "text": "2 ∶ 1",
+     "added": false
+    },
+    {
+     "text": "1 ∶ 3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "c"
+  },
+  {
+   "n": 2,
+   "text": "If the radius of a circle is 8 cm, then find the length of its largest chord. (+2, -0.5)",
+   "options": [
+    {
+     "text": "16 cm",
+     "added": false
+    },
+    {
+     "text": "64 cm",
+     "added": false
+    },
+    {
+     "text": "8 cm",
+     "added": false
+    },
+    {
+     "text": "4 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": "a"
+  },
+  {
+   "n": 3,
+   "text": "Find the value of sin 60° sec 30° + tan 45° cos 0° + sec 60° sin 30°. (+2, -0.5)",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "standard-values",
+   "key_answer": "b"
+  },
+  {
+   "n": 4,
+   "text": "Rumi used to save 20% of her income. If her income went up by 30%, while (+2, -0.5) her expenditure went up by 40%, her nominal savings went down by ₹750. Find Rumi's initial income (in ₹).",
+   "options": [
+    {
+     "text": "36,000",
+     "added": false
+    },
+    {
+     "text": "37,500",
+     "added": false
+    },
+    {
+     "text": "35,000",
+     "added": false
+    },
+    {
+     "text": "38,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": "b"
+  },
+  {
+   "n": 5,
+   "text": "If sinθ.sin 45° = sin 30° and θ is an acute angle, then 2θ is equal to: (+2, -0.5)",
+   "options": [
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "0°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "90°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": "d"
+  },
+  {
+   "n": 6,
+   "text": "Akhilesh invested a certain sum which amounted to ₹82,000 in 2 years at (+2, -0.5) 6% per annum compound interest, compounded annually. What was the sum invested (in ₹) by Akhilesh? (round off to the nearest integer)",
+   "options": [
+    {
+     "text": "73,980",
+     "added": false
+    },
+    {
+     "text": "72,680",
+     "added": false
+    },
+    {
+     "text": "72,980",
+     "added": false
+    },
+    {
+     "text": "70,980",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "c"
+  },
+  {
+   "n": 7,
+   "text": "A jar contains 35% syrup in the mixture of syrup and water. A part of this (+2, -0.5) mixture is replaced by another mixture containing 20% syrup. Now, in the new mixture, the percentage of syrup is found to be 24%. What is the ratio in which these mixtures were mixed to obtain the new mixture?",
+   "options": [
+    {
+     "text": "3 ∶ 14",
+     "added": false
+    },
+    {
+     "text": "4 ∶ 11",
+     "added": false
+    },
+    {
+     "text": "5 ∶ 13",
+     "added": false
+    },
+    {
+     "text": "7 ∶ 10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": "b"
+  },
+  {
+   "n": 8,
+   "text": "The radius of a circle is 21 cm. What will be the area (in cm2) of a sector of (+2, -0.5) the circle that subtends a 22.5° angle at the centre? [Use π = 22 7 ] ​",
+   "options": [
+    {
+     "text": "86.6205",
+     "added": false
+    },
+    {
+     "text": "86.0625",
+     "added": false
+    },
+    {
+     "text": "86.6250",
+     "added": false
+    },
+    {
+     "text": "86.6025",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": "c"
+  },
+  {
+   "n": 9,
+   "text": "For what positive value of k, the equation 3x2 + 2kx + 3 = 0 has real and (+2, -0.5) equal roots?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "quadratic-equations",
+   "key_answer": "c"
+  },
+  {
+   "n": 10,
+   "text": "The selling price of 34 articles is equal to the cost price of 38 articles. What (+2, -0.5) is the gain percentage?",
+   "options": [
+    {
+     "text": "7 17 6 % ​",
+     "added": false
+    },
+    {
+     "text": "10 17 3 % ​",
+     "added": false
+    },
+    {
+     "text": "11 13 17 % ​",
+     "added": false
+    },
+    {
+     "text": "9 17 8 % ​",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "c"
+  },
+  {
+   "n": 11,
+   "text": "The algebraic expression 2x2 - 32 is equal to _______. (+2, -0.5)",
+   "options": [
+    {
+     "text": "2(x - 4)2",
+     "added": false
+    },
+    {
+     "text": "(x + 4) (x - 4)",
+     "added": false
+    },
+    {
+     "text": "2(x + 4)2",
+     "added": false
+    },
+    {
+     "text": "2(x + 4) (x - 4)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "d"
+  },
+  {
+   "n": 12,
+   "text": "In a square ABCD, E is a point inside the square such that Δ DEC is an (+2, -0.5) equilateral triangle. If E is joined to vertices A and B of the square, what is the degree measure of ∠AEB?",
+   "options": [
+    {
+     "text": "135°",
+     "added": false
+    },
+    {
+     "text": "150°",
+     "added": false
+    },
+    {
+     "text": "210°",
+     "added": false
+    },
+    {
+     "text": "225°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": "b"
+  },
+  {
+   "n": 13,
+   "text": "If (x − x1 ) = 0.4 , and x > 0, what is the value of (x2 + x12 ) ? ​ ​ (+2, -0.5)",
+   "options": [
+    {
+     "text": "4.46",
+     "added": false
+    },
+    {
+     "text": "3.32",
+     "added": false
+    },
+    {
+     "text": "1.84",
+     "added": false
+    },
+    {
+     "text": "2.16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "d"
+  },
+  {
+   "n": 14,
+   "text": "What is the length (in cm) of the chord of a circle whose radius is 13 cm (+2, -0.5) and whose perpendicular distance from the chord to the centre is 5 cm?",
+   "options": [
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": "b"
+  },
+  {
+   "n": 15,
+   "text": "A and B can finish a work in 6 days and 4 days, respectively. A alone (+2, -0.5) worked on it for 2 days. Thereafter, B joined him. How much total time was taken by them to finish the work?",
+   "options": [
+    {
+     "text": "3 35 days​",
+     "added": false
+    },
+    {
+     "text": "1 35 days​",
+     "added": false
+    },
+    {
+     "text": "3 15 days ​",
+     "added": false
+    },
+    {
+     "text": "4 15 days​",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "a"
+  },
+  {
+   "n": 16,
+   "text": "The present age of a father is twice that of his son. 8.5 years hence the (+2, -0.5) ratio would be 7 ∶ 4. Find the son's present age.",
+   "options": [
+    {
+     "text": "25.5 years",
+     "added": false
+    },
+    {
+     "text": "16.5 years",
+     "added": false
+    },
+    {
+     "text": "20.5 years",
+     "added": false
+    },
+    {
+     "text": "24.6 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "present-age",
+   "key_answer": "a"
+  },
+  {
+   "n": 17,
+   "text": "If (x + x1 ) = 5 , then the value of (x5 + x15 ) is: ​ ​ (+2, -0.5)",
+   "options": [
+    {
+     "text": "2535",
+     "added": false
+    },
+    {
+     "text": "2540",
+     "added": false
+    },
+    {
+     "text": "2515",
+     "added": false
+    },
+    {
+     "text": "2525",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": "d"
+  },
+  {
+   "n": 18,
+   "text": "What is the least number that must be added to the greatest 6 -digit (+2, -0.5) number so that the sum will be exactly divisible by 294?",
+   "options": [
+    {
+     "text": "234",
+     "added": false
+    },
+    {
+     "text": "194",
+     "added": false
+    },
+    {
+     "text": "269",
+     "added": false
+    },
+    {
+     "text": "189",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": "d"
+  },
+  {
+   "n": 19,
+   "text": "A shopkeeper offers the following discount schemes for the purchase of (+2, -0.5) his goods. Find the scheme which has the maximum discount. (i) Two successive discounts of 20% and 10% (ii) Discount of 10% (iii) Buy 8 and get 4 free (iv) Buy 9 and get 6 free",
+   "options": [
+    {
+     "text": "(iii)",
+     "added": false
+    },
+    {
+     "text": "(ii)",
+     "added": false
+    },
+    {
+     "text": "(i)",
+     "added": false
+    },
+    {
+     "text": "(iv)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "discount-schemes",
+   "key_answer": "d"
+  },
+  {
+   "n": 20,
+   "text": "A solid rectangular block of metal of dimensions 88 cm × 21 cm × 21 cm, is (+2, -0.5) melted to form a solid sphere. What is its radius (in cm)? Take π = 22 7 ​",
+   "options": [
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": "c"
+  },
+  {
+   "n": 21,
+   "text": "A shopkeeper named Ramesh marks his articles at such a price that, even (+2, -0.5) after allowing a discount of 20% on the marked price, he earns a profit of 15%. What is the marked price of one article, which costs ₹5,600?",
+   "options": [
+    {
+     "text": "₹10,550",
+     "added": false
+    },
+    {
+     "text": "₹9,000",
+     "added": false
+    },
+    {
+     "text": "₹7,950",
+     "added": false
+    },
+    {
+     "text": "₹8,050",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": "d"
+  },
+  {
+   "n": 22,
+   "text": "The table shows the annual income of 5 schools in thousands: (+2, -0.5) Schools Source of income P Q R S T Tuition fee 120 60 210 90 120 Activity fee 24 12 45 24 30 Grants 54 21 60 51 60 In how many schools is the tuition fee less than four times the activity fee?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "b"
+  },
+  {
+   "n": 23,
+   "text": "The table given below shows the number of television sets that were sold (+2, -0.5) by the showrooms X, Y, Z, L, M, N from the year 2016 to 2019. Answer the question given below based on the information given in the table. Years/Showroom X Y Z L M N 2016 234 167 179 176 187 273 2017 180 274 269 98 370 195 2018 130 151 236 176 239 277 2019 264 107 237 225 282 237 How many more television sets were sold by all the showrooms in the year 2017 as compared to 2019?",
+   "options": [
+    {
+     "text": "67",
+     "added": false
+    },
+    {
+     "text": "43",
+     "added": false
+    },
+    {
+     "text": "93",
+     "added": false
+    },
+    {
+     "text": "34",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "d"
+  },
+  {
+   "n": 24,
+   "text": "A train running at 26.5 km/h takes 18 s to pass a platform. Next, it takes 12 s (+2, -0.5) to pass a man walking at 5 km/h in the opposite direction. Find the length of the platform.",
+   "options": [
+    {
+     "text": "22.5 m",
+     "added": false
+    },
+    {
+     "text": "27.5 m",
+     "added": false
+    },
+    {
+     "text": "10.0 m",
+     "added": false
+    },
+    {
+     "text": "12.5 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-platform",
+   "key_answer": "b"
+  },
+  {
+   "n": 25,
+   "text": "In ΔOPQ, right-angled at P, OP = 7 cm and OQ - PQ = 1 cm. Determine the (+2, -0.5) values of sin Q + cos Q.",
+   "options": [
+    {
+     "text": "13 25 ​",
+     "added": false
+    },
+    {
+     "text": "21 25 ​",
+     "added": false
+    },
+    {
+     "text": "31 25 ​",
+     "added": false
+    },
+    {
+     "text": "33 25 ​",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": "c"
+  }
+ ]
+}

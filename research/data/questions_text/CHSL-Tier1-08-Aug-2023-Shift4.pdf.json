@@ -1,0 +1,482 @@
+{
+ "paper": "CHSL-Tier1-08-Aug-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Study the given pie chart and answer the question that follows. The pie chart represents the marks (out of 100) obtained by Shweta in different subjects — Hindi, English, Maths, Science, Social Science (S.S.), and Commerce in her class-X examination. The marks obtained in English and S.S. are what per cent less than the marks obtained in Hindi and Maths?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The are length of a sector of a circle that subtends a 22.5° angle at the centre is given as 16.5 cm. What will be the radius (in em) of the cirele? [Use x= 2)",
+   "options": [
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "42",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The table shows the sales of books from a school cooperative store in week days. Bar Graph 10. 800 + a 600 400 + =n ee No.of books 200 : . = s reese I Mon Tue Wed Thur Fri Sat In how many days are the sales of books below the average sale?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Asellsacycle to B ata profit of 33% and B sells it to C at a loss of 25%. If C bought the cycle for 23.059. then the cost price of it for A was:",
+   "options": [
+    {
+     "text": "2 3,066 1",
+     "added": false
+    },
+    {
+     "text": "2 2,044- 1",
+     "added": false
+    },
+    {
+     "text": "z 4,054- 2",
+     "added": false
+    },
+    {
+     "text": "25 /014-",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Qs 4 1 If (4y —- ) = 11, find the value of (y? +—). y y",
+   "options": [
+    {
+     "text": "7 16 9",
+     "added": false
+    },
+    {
+     "text": "5 16 a1",
+     "added": false
+    },
+    {
+     "text": "9— 16 9",
+     "added": false
+    },
+    {
+     "text": "9— v 16",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Qé 1 ‘ 1 If (y—— ) =— 9, what will be the value of (y -—)? y e",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Amobile is marked at a price 25% above its cost price. At what discount percentage it should be sold to make a 5% profit?",
+   "options": [
+    {
+     "text": "6%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "17%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Basanthi deposited 750,000 in a co-operative bank which is giving compound interest at the rate of 10% per annum. What will be her interest in the 3rd year?",
+   "options": [
+    {
+     "text": "266,550",
+     "added": false
+    },
+    {
+     "text": "26,050",
+     "added": false
+    },
+    {
+     "text": "25,050",
+     "added": false
+    },
+    {
+     "text": "210,050",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Ifthe simple interest on 22.500 is more than the interest on 71,500 by 2360 in 3 years, then find the rate of interest per annum.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "What is the area of a triangular flower bed of a garden whose perimeter is 20 metres and two sides are 5 metres and 6 metres.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "9\" Find the radius of the circle x? + y? = 25.",
+   "options": [
+    {
+     "text": "25 units",
+     "added": false
+    },
+    {
+     "text": "5S units",
+     "added": false
+    },
+    {
+     "text": "2 units",
+     "added": false
+    },
+    {
+     "text": "12 units",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Raman spends 75% of his income, If his income increases by 20% and expenditure also increases by 10%, then by what per cent will Raman's savings increase?",
+   "options": [
+    {
+     "text": "35%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "45%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Ais twice a good worker as B and together they finish the work in 20 days. In how many days can A alone do it?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "If the two interior opposite angles of an exterior angle of a triangle are 35°and 65°, then the measurement of the exterior angle is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Acar covers the first 210 km ata speed of 70 km/h. It covered the next 170 km at a speed of 85 km/h. What is its average speed?",
+   "options": [
+    {
+     "text": "72 km/h",
+     "added": false
+    },
+    {
+     "text": "76 km/h",
+     "added": false
+    },
+    {
+     "text": "74km/h",
+     "added": false
+    },
+    {
+     "text": "68 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "3+8X8=+80f8+7+7X2.; The value of ———————————~ is: 5=50f4+3x3=+3-3+2",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Qi7 sec54° | tan70° . The value of ——— + —— — 2tan45° is equal to: cosec36° —cot20°",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "218 Ifa: b=5:7, then (6a? — 2b?) : (b? — a2) will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "aus va+V2 Evaluate ——— , given that = 2.45. lll V6 = 2.45",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "surds-and-indices",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The marked price of an item is 25% more than that of its cost price. If a discount of 10% is given on the marked price. then the gain percentage is:",
+   "options": [
+    {
+     "text": "x 1.10 = % Lo",
+     "added": false
+    },
+    {
+     "text": "9-% 2 ly",
+     "added": false
+    },
+    {
+     "text": "13> % ly",
+     "added": false
+    },
+    {
+     "text": "12> %",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Inatriangle ABC, AP, the bisector of 2A, is perpendicular to BC at point P. The measures of BP and PC are x and 3y, respectively. The measures of AB and AC are 4x and (Sy + 21), what is the value of (x + y)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "17 . IfsecA = sa) then what is the value of cot A?",
+   "options": [
+    {
+     "text": "5 Pe 1.525",
+     "added": false
+    },
+    {
+     "text": "1 15 Me 2.75 i 8",
+     "added": false
+    },
+    {
+     "text": "15 15",
+     "added": false
+    },
+    {
+     "text": "— 8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "A ain traveling at $0 knv/h crosses another train traveling in the same direction at 26 km/h in 30 seconds. What is the combined length of both the trains?",
+   "options": [
+    {
+     "text": "400m",
+     "added": false
+    },
+    {
+     "text": "450m",
+     "added": false
+    },
+    {
+     "text": "550m",
+     "added": false
+    },
+    {
+     "text": "350m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "train-vs-point",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Study the given table and answer the question that follows. Marks obtained (out of 100) by four students P, Q, R, and S in four subjects in an examination are given in the table | i lL eo er |e |e | ae | acell Maal al aa ea ee oer | | |e | oe Which student has scored the marks in the ratio of 10 : 13 in Physics and Mathematics?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "Q",
+     "added": false
+    },
+    {
+     "text": "P",
+     "added": false
+    },
+    {
+     "text": "R",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "1 cae . If sec 8 + tan6= We then the positive value of cot 8 + cos @ is:",
+   "options": [
+    {
+     "text": "38",
+     "added": false
+    },
+    {
+     "text": "x2 2 2 2",
+     "added": false
+    },
+    {
+     "text": "—_— x ENED 2",
+     "added": false
+    },
+    {
+     "text": "RAG",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  }
+ ]
+}

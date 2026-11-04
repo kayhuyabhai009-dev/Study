@@ -1,0 +1,648 @@
+{
+ "paper": "2023-Tier1-21-Jul-2023-Shift2.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The distance between two towns is covered in 7 hours and 30 minutes at the speed of 72 km/h. The time saved if the speed is increased by 25% is:",
+   "options": [
+    {
+     "text": "1 hour 36 minutes",
+     "added": false
+    },
+    {
+     "text": "1 hour 50 minutes",
+     "added": false
+    },
+    {
+     "text": "1 hour 30 minutes",
+     "added": false
+    },
+    {
+     "text": "1 hour 20 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Simplify: > 5 11 264 —[142- {75+ (38- at 5 yy]",
+   "options": [
+    {
+     "text": "231",
+     "added": false
+    },
+    {
+     "text": "230",
+     "added": false
+    },
+    {
+     "text": "232",
+     "added": false
+    },
+    {
+     "text": "234",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The chart shows the population of seven districts of National Capital Territory of Delhi. | BA-13% Sales ene =C-8% =D-17% mE-18% mF-13% =G-15% If the total population of the seven districts is 150 crore, find the total population of Aand D.",
+   "options": [
+    {
+     "text": "45 Crore",
+     "added": false
+    },
+    {
+     "text": "46 Crore",
+     "added": false
+    },
+    {
+     "text": "40 Crore",
+     "added": false
+    },
+    {
+     "text": "42 Crore",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Rice worth 7126 per kg and 135 per kg are mixed with a third variety in the ratio of 1 : 1: 2. If the mixture is worth 153 per kg, then the price of the third variety per kg (in Z) is:",
+   "options": [
+    {
+     "text": "182.5",
+     "added": false
+    },
+    {
+     "text": "195.5",
+     "added": false
+    },
+    {
+     "text": "133.5",
+     "added": false
+    },
+    {
+     "text": "1755",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "While baking a cake for 15 people, Jaya used 2.4 kg of flour. How much flour will she need to bake a similar cake for 36 people?",
+   "options": [
+    {
+     "text": "5.60kg",
+     "added": false
+    },
+    {
+     "text": "6.00 kg",
+     "added": false
+    },
+    {
+     "text": "5.88 kg",
+     "added": false
+    },
+    {
+     "text": "5.76 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "direct-inverse-variation",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "a6 A person borrowed some money on simple interest. After 4 years, he returned : of the money to the lender. What was the rate of interest?",
+   "options": [
+    {
+     "text": "25% p.a.",
+     "added": false
+    },
+    {
+     "text": "10% p.a.",
+     "added": false
+    },
+    {
+     "text": "15% p.a.",
+     "added": false
+    },
+    {
+     "text": "20% p.a.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A policeman chasing a thief is 0.5 km behind the thief. The speed of thief is 80% of the speed of the policeman and policeman catches him in 12 minutes. What is the speed of the thief (in km/h)?",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "12.5",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "7.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": ". . «41 , : . Q8 An inlet pipe can fill an empty tank in 4 ; hours while an outlet pipe drains a completely filled tank in 7 : hours. The tank is initially empty, and the two pipes are alternately opened for an hour each, till the tank is completely filled, starting with the inlet pipe. In how many hours will the tank be completely filled?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "fill-empty",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "If AABC is right angled at B, AB = 12 cm and 2CAB = 60°, determine the length of BC.",
+   "options": [
+    {
+     "text": "12V¥2 cm",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "12v3 cm",
+     "added": false
+    },
+    {
+     "text": "24V3 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "10 » 5 210 The value of (32) + 3 X 3 + 3-3 is:",
+   "options": [
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "92",
+     "added": false
+    },
+    {
+     "text": "23",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Aworks 5.4 times as fast as B, and A takes 22 days less than B to complete the job when each works alone. Calculate the number of days taken to complete the same job if A and B work together.",
+   "options": [
+    {
+     "text": "1.4= x 4 3",
+     "added": false
+    },
+    {
+     "text": "4— x 16 7",
+     "added": false
+    },
+    {
+     "text": "4— v 32 5",
+     "added": false
+    },
+    {
+     "text": "4— x 32",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Two pipes S1 and S2 alone can fill an empty tank in 15 hours and 20 hours respectively. Pipe S3 alone can empty that completely filled tank in 40 hours. Firstly both pipes S1 and S2 are opened and after 2 hour pipe S3 is also opened. In how much time tank will be completely filled after S3 is opened?",
+   "options": [
+    {
+     "text": "90/17 hours",
+     "added": false
+    },
+    {
+     "text": "89/12 hours",
+     "added": false
+    },
+    {
+     "text": "90/13 hours",
+     "added": false
+    },
+    {
+     "text": "92/11 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Amit can complete a piece of work in 5 hours; Jeevan and Paul together can complete it in 4 hours, while Amit and Paul together can complete it in 3 hours. Approximately, how many hours will Jeevan alone take to complete the work (rounded off to the nearest integer)?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "j a! ree A A What is the value of (— —— - =) if, 22=5_ #b284 S¢+5 _ 9 a b c a b c",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The following bar diagram shows the number of students who opted for the different subjects in the year 2020 and 2021. 40 ] ws 120 110 sae 4 100 - 85 90 80 75. 725 60 a 22020 60 w2021 40 26 4— : bo o- , = Economics Biology Computer Physical Geography Science Education Out of all 5 subjects, what percentage (rounded up to two decimals) of students opted for Biology in 2021?",
+   "options": [
+    {
+     "text": "23.14%",
+     "added": false
+    },
+    {
+     "text": "22.34%",
+     "added": false
+    },
+    {
+     "text": "21.18%",
+     "added": false
+    },
+    {
+     "text": "24.31%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "AB = 28 cm and CD = 22 cm are two parallel chords on the same side of the centre of a circle. The distance between them is 4 cm. The radius of the circle is : (Consider up to two decimals)",
+   "options": [
+    {
+     "text": "15.20 cm",
+     "added": false
+    },
+    {
+     "text": "14.82 cm",
+     "added": false
+    },
+    {
+     "text": "15.82 cm",
+     "added": false
+    },
+    {
+     "text": "13.20 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "1 % 1 If (x— a= 2V2, what is the value of (x6 + =?",
+   "options": [
+    {
+     "text": "1030",
+     "added": false
+    },
+    {
+     "text": "960",
+     "added": false
+    },
+    {
+     "text": "1000",
+     "added": false
+    },
+    {
+     "text": "970",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "To earn a 12% profit, a shopkeeper sells a television for $22,400. What should be the selling price (in 2) of the television if he wants a double profit?",
+   "options": [
+    {
+     "text": "24,000",
+     "added": false
+    },
+    {
+     "text": "24,800",
+     "added": false
+    },
+    {
+     "text": "24,600",
+     "added": false
+    },
+    {
+     "text": "25,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The perimeter of an isosceles triangle is 100 cm. If the base is 36 cm, then find its semi perimeter (in centimetres).",
+   "options": [
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Three successive discounts of 25% each on the marked price of an item are together equivalent to a single discount (correct up to 2 decimal places) of:",
+   "options": [
+    {
+     "text": "62.35%",
+     "added": false
+    },
+    {
+     "text": "60.25%",
+     "added": false
+    },
+    {
+     "text": "56.45%",
+     "added": false
+    },
+    {
+     "text": "57.81%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The sides of two similar triangles are in the ratio 5:7. The areas of these triangles are in the ratio:",
+   "options": [
+    {
+     "text": "35 :49",
+     "added": false
+    },
+    {
+     "text": "15 :49",
+     "added": false
+    },
+    {
+     "text": "2549",
+     "added": false
+    },
+    {
+     "text": "36 :49",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "5 i1-sin 36 Find the value of /——— . itsin 30",
+   "options": [
+    {
+     "text": "sec3@ —tan30",
+     "added": false
+    },
+    {
+     "text": "(sec36 — tan 36)?",
+     "added": false
+    },
+    {
+     "text": "(sec36 — tan 30)?",
+     "added": false
+    },
+    {
+     "text": "sec3@ + tan 36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "923 The value of tan 25° tan 35° tan 45° tan 55° tan 65° is:",
+   "options": [
+    {
+     "text": "y",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "f3",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "2.24 What is the value of (27x3 + 58x2y + 3 xy? + 8y3), when x = 5 and y =—7?",
+   "options": [
+    {
+     "text": "1924",
+     "added": false
+    },
+    {
+     "text": "-1926",
+     "added": false
+    },
+    {
+     "text": "-1924",
+     "added": false
+    },
+    {
+     "text": "1926",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "The value of secx - cosx= ?",
+   "options": [
+    {
+     "text": "tanx sinx",
+     "added": false
+    },
+    {
+     "text": "secx tanx",
+     "added": false
+    },
+    {
+     "text": "tanx cosx",
+     "added": false
+    },
+    {
+     "text": "secx cosx",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "paper": "SSC-GD-31-Jan-2023-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 15,
+   "text": "A girl walks to a park situated 350 m from her house. It took her 3 mins to reach the park and 4 mins to return. What is the average speed of the girl (in km/h)?",
+   "options": [
+    {
+     "text": "4 km/h",
+     "added": false
+    },
+    {
+     "text": "6.5 km/h",
+     "added": false
+    },
+    {
+     "text": "6 km/h",
+     "added": false
+    },
+    {
+     "text": "5 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The speed of a boat along and against the current are 16 km/h and 12 km/h, respectively. The speed of the current is:",
+   "options": [
+    {
+     "text": "2 km/h",
+     "added": false
+    },
+    {
+     "text": "14 km/h",
+     "added": false
+    },
+    {
+     "text": "8 km/h",
+     "added": false
+    },
+    {
+     "text": "6 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 320,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

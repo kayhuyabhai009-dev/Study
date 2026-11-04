@@ -1,0 +1,465 @@
+{
+ "paper": "CHSL-Tier1-21-Oct-2020-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "P If Vx = V3 — V5, then the value of x? — 16x + 6 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "2 1 4 Ina group of 150 people, § are men, 3 are women and the rest are children. The average age of the women is | of 1 the average age of the men. The average age of the children is 5 of the average age of the men. If the average age of the men is 50 years, then the average age of all the people in the group is:",
+   "options": [
+    {
+     "text": "32 years",
+     "added": false
+    },
+    {
+     "text": "36 years",
+     "added": false
+    },
+    {
+     "text": "35 years",
+     "added": false
+    },
+    {
+     "text": "28 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "weighted-average",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "The areas of three adjacent faces of a cuboid are 30 cm?, 20 cm? and 24 cm?. The volume of the cuboid is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The speed of a train is 220% of the speed of a car. The car covers a distance of 950 km in 19 hours. How much distance will the train cover in 35 hours?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The side BC ofa triangle ABC is extended to the point D. If ACD = 132° and 2B = $2a, then the measure of 2A is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The pie-chart shows the percentage-wise distribution of the number of students in five different schools P, Q, R, S and T. The total number of students in all five schools together is 10,500. Study the pie-chart and answer the question. T 24% s 23% The number of students in school R is what per cent of the total number of students in schools Q and T together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Study the following graph and answer the given question. The graph shows the time (in minutes) taken by the pipes (A, B), (C, D), (E, F), (G, H) and (P, Q) to fill a tank. 35 -_________Inlet1 —_ wel m Inlet 2 g 25 + $ |20 3 15 | 10 + 0+ 7 (A8) (CD) (EF) (GH) (P,Q) Pipes In how many minutes is an empty tank filled completely if pipe D fills it for half the time and then for the other half time, pipes C and D fill it together?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "8 Q 3 Vitx +y1-x . If x = — , then the value of —————— §is equal to: 2 V1+x-V1-x",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "v3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "maAABC, ZBAC = 90° and AD is perpendicular to BC where D is a point on BC. If BD = 4 cm and CD = 5 cm, then the length of AD is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Study the following graph and answer the given question. The graph shows the time (in minutes) taken by the pipes (A, B), (C. D), (E. F), (G, H) and (P, Q) to fill a tank. 35 5 minlet 1 ] 30 + minlet2 g 3) = 20 FS as + ~ - = 10 | : hi o4 : . (AB) (CD) (EF) (GH) (P,Q) Pipes Two pipes P and Q are inlet pipes. If they are opened at alternate minutes and if pipe P is opened first, then in how many minutes will the tank be full?",
+   "options": [
+    {
+     "text": "18 minutes",
+     "added": false
+    },
+    {
+     "text": "0 minutes",
+     "added": false
+    },
+    {
+     "text": "16 minutes",
+     "added": false
+    },
+    {
+     "text": "30 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The circles of same radius 13 cm intersect each other at A and B. If AB = 10 cm, then the distance between their centres is:",
+   "options": [
+    {
+     "text": "18cm",
+     "added": false
+    },
+    {
+     "text": "12cm",
+     "added": false
+    },
+    {
+     "text": "24cm",
+     "added": false
+    },
+    {
+     "text": "26cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "On selling 26 balls for 21,350, there is a loss equal to the cost price of eight balls. The cost price of a ball is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "In the figure, a circle touches all the four sides of a quadrilateral ABCD whose sides AB = 6.5 cm, BC = 5.4 cm and CD = 5.3 cm. The length of AD is: ec C A",
+   "options": [
+    {
+     "text": "4.6cm",
+     "added": false
+    },
+    {
+     "text": "64cm",
+     "added": false
+    },
+    {
+     "text": "5.8cm",
+     "added": false
+    },
+    {
+     "text": "6.2cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "914 What is the third proportional to 16 and 24?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "The pie-chart shows the percentage-wise distribution of the number of students in five different schools P, Q, R, S and T. The total number of students in all five schools together is 10,500. Study the pie-chart and answer the question. T 24% s BS The difference between the central angles corresponding to schools T and R is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": ".16 ° 916 tFq3 + b? = 62 anda +b = 2, then the value of ab is:",
+   "options": [
+    {
+     "text": "-9",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "-6",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "When a number is divided by 14, the remainder is 9. If the square of the same number is divided by 14, then the remainder will be:",
+   "options": [
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "secO +tand 5 3cos O+1. If —————_=5 and @ is an acute angle, then the value of ——,—— is: secO — tand 3cos' @-1",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Asumat simple interest becomes two times in 8 years at a certain rate of interest p.a. The time in which the same sum will be 4 times at the same rate of interest at simple interest is:",
+   "options": [
+    {
+     "text": "30 years",
+     "added": false
+    },
+    {
+     "text": "25 years",
+     "added": false
+    },
+    {
+     "text": "24 years",
+     "added": false
+    },
+    {
+     "text": "20 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Ifthe price of an eraser is reduced by 25%, a person can buy three more erasers for 22. How many erasers can be bought for 22 as the original price?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "ji = 3 A If sin(@ + 30°) = Fs? then the value of @ is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "9.22 4) 4 17 s) The value of 99 ~ 5} 5 5°\\ g 4}| is:",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The marked price of an article is 25% more than its cost price. If 10% discount is given on the marked price, then what is the profit percentage?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "If sin(A— B) = : and cos(A + B) = a , Where A> B > 0° and A+B is an acute angle, then the value of A is:",
+   "options": [
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "15°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Ais twice as good a workman as B and together they finish a piece of work in 22 days. In how many days will A alone finish the same work?",
+   "options": [
+    {
+     "text": "11 days",
+     "added": false
+    },
+    {
+     "text": "44 days",
+     "added": false
+    },
+    {
+     "text": "30 days",
+     "added": false
+    },
+    {
+     "text": "33 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  }
+ ]
+}

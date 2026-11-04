@@ -1,0 +1,478 @@
+{
+ "paper": "SSC-GD-13-Feb-2023-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "The average weight of eight persons is 40 kg. If one person is removed, then the average weight becomes 38 kg. The weight of the removed person is:",
+   "options": [
+    {
+     "text": "38 kg",
+     "added": false
+    },
+    {
+     "text": "54 kg",
+     "added": false
+    },
+    {
+     "text": "33.25 kg",
+     "added": false
+    },
+    {
+     "text": "78 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The cost price of an article is 64% of the marked price. Calculate the gain percentage after allowing a discount of 20%.",
+   "options": [
+    {
+     "text": "35%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Atul alone can complete a work in 114 days. How many persons were required with the same efficiency as Atul to complete the same work in 19 days?",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The fourth proportional to 2 hours 40 minutes, 1 hours 20 minutes and 10 hours is:",
+   "options": [
+    {
+     "text": "4 hours",
+     "added": false
+    },
+    {
+     "text": "6 hours",
+     "added": false
+    },
+    {
+     "text": "5 hours",
+     "added": false
+    },
+    {
+     "text": "2 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "The average weight of 34 persons is increased by 3 kg when one person weighing 90 kg is replaced by a new person. Weight of the new person is:",
+   "options": [
+    {
+     "text": "196 kg",
+     "added": false
+    },
+    {
+     "text": "202 kg",
+     "added": false
+    },
+    {
+     "text": "190 kg",
+     "added": false
+    },
+    {
+     "text": "192 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Find the difference between the digits of the greatest number that can exactly divide 144 and 216?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Two persons P and Q working together can do a piece of work in 36 days. Q alone can do it in 45 days. Q alone start the work and left the work after 5 days. How many days will P take to complete the remaining work?",
+   "options": [
+    {
+     "text": "180",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "140",
+     "added": false
+    },
+    {
+     "text": "160",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Divide ₹ 5,309 between A and B, so that the amount of A after 4 years is equal to the amount B after 6 years, the interest being compounded at 6% per annum, compounding annually.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "If the third proportion to 3 and 27 is ‘x’, then what would be the HCF of ‘x’ and 27?",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "In an election between two candidates, 80% of the voters cast their votes out of which 5% of votes were declared invalid. A candidate got 285000 votes which was 75% of the total valid votes. The total number of voters enrolled for that election was:",
+   "options": [
+    {
+     "text": "500000",
+     "added": false
+    },
+    {
+     "text": "450000",
+     "added": false
+    },
+    {
+     "text": "400000",
+     "added": false
+    },
+    {
+     "text": "550000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The population of a city in the beginning of 2019 was 82,000. Its population is increasing at a rate of 2% annually. What is its population (rounded off to the nearest integer) in the beginning of 2022?",
+   "options": [
+    {
+     "text": "85000",
+     "added": false
+    },
+    {
+     "text": "86789",
+     "added": false
+    },
+    {
+     "text": "88000",
+     "added": false
+    },
+    {
+     "text": "87019",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Shlok drives the first 140 km in 3 hrs and the next 180 km in 5 hrs. What is his average speed (in km/h) for the entire trip?",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    },
+    {
+     "text": "40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A man sells rice at 10% profit and uses a weight that is 20% less than the actual measure. His gain percentage is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The selling price of a product is such that the seller earns a profit of 20% on the cost price. Determine the ratio of selling price to cost price.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Marked price of an article is Rs. 1600 but Rohan gets a discount of 20 percent. He sells the article for Rs. 1600. Rohan's gain percent is:",
+   "options": [
+    {
+     "text": "18 percent",
+     "added": false
+    },
+    {
+     "text": "22 percent",
+     "added": false
+    },
+    {
+     "text": "25 percent",
+     "added": false
+    },
+    {
+     "text": "20 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A fruit merchant makes a profit of 25% by selling mangoes at a certain price. If he charges Rs.3 more on each mango, he will gain 40%. Find the cost price of one mango",
+   "options": [
+    {
+     "text": "Rs.30",
+     "added": false
+    },
+    {
+     "text": "Rs.25",
+     "added": false
+    },
+    {
+     "text": "Rs.20",
+     "added": false
+    },
+    {
+     "text": "Rs.15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A boat is moving in still water at a speed of 15 km/h. The speed of the stream is 3 km/h. How much time will the boat take to cover 6 km upstream?",
+   "options": [
+    {
+     "text": "30 minutes",
+     "added": false
+    },
+    {
+     "text": "15 minutes",
+     "added": false
+    },
+    {
+     "text": "20 minutes",
+     "added": false
+    },
+    {
+     "text": "45 minutes",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 307,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

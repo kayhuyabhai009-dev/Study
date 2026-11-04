@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-02-Aug-2023-Shift4.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Simplify the given expression. 0.09 x 0.09+ 0.04 x 0.04 + 0.16 x 0.16 + 2 x 0.09 x 0.044 2 x 0.04 0.16+ 2 x 0.09 x 0.16 0.3x0.34+0.2x 0.240404",
+   "options": [
+    {
+     "text": "0.38",
+     "added": false
+    },
+    {
+     "text": "0.24",
+     "added": false
+    },
+    {
+     "text": "0.32",
+     "added": false
+    },
+    {
+     "text": "0.29",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "d"
+  },
+  {
+   "n": 2,
+   "text": "www prepp.in prepp a2. . xt-1 x9 Find the value of the expression —— — —. x-1 x-3",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Tio years ago, the population of a small town was 60,000. It increased by 5% in the first vear, but due to the pandemic, it decreased by 10% in the second year. What is its present population (after the end of 2 years)?",
+   "options": [
+    {
+     "text": "56,700",
+     "added": false
+    },
+    {
+     "text": "56,900",
+     "added": false
+    },
+    {
+     "text": "3300",
+     "added": false
+    },
+    {
+     "text": "55,700",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "a"
+  },
+  {
+   "n": 4,
+   "text": "[faman purchases kismis at 2320 per kg and sells it at 26 per 25 grams, then his profit/loss percentage is:",
+   "options": [
+    {
+     "text": "20% loss",
+     "added": false
+    },
+    {
+     "text": "25% loss",
+     "added": false
+    },
+    {
+     "text": "25% profit",
+     "added": false
+    },
+    {
+     "text": "20% profit",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 5,
+   "text": "Kapil initiated a business with an investment of 230,00,000 in April 2022. After six months, his friend Kunal joined him with an investment of 225,00,000. In February 2023. Kapil’s Ex — Class fellow Saloni also invested an amount equal to the total investment made by the earlier two partners. In what ratio the profit eamed after 3 years from the date on which Kapil initiated the business, will be distributed?",
+   "options": [
+    {
+     "text": "332: 200: 50",
+     "added": false
+    },
+    {
+     "text": "108: 75: 143",
+     "added": false
+    },
+    {
+     "text": "432: 300: 55",
+     "added": false
+    },
+    {
+     "text": "432: 400: 55",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 6,
+   "text": "www prepp.in prepp 9 Acando a piece of work in 12 days and B can do the same work in 15 days. If both do the work together, then in how many days will the work be completed?",
+   "options": [
+    {
+     "text": "7= 3",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "2 *%3.5= 3 2",
+     "added": false
+    },
+    {
+     "text": "B=",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Inatriangle ABC, side BC is produced to D such that ZACD = 127°, If ZABC = 35°, then find 2BAC.",
+   "options": [
+    {
+     "text": "g2°",
+     "added": false
+    },
+    {
+     "text": "92°",
+     "added": false
+    },
+    {
+     "text": "95°",
+     "added": false
+    },
+    {
+     "text": "75°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "b"
+  },
+  {
+   "n": 8,
+   "text": "The following table gives the marks scored by 4 students in 4 unit tests of English. Read the table carefully and answer the question that follows. Unit test | Unit test | Unit test | Unit test as 2 3 4 Ll CG se |e | er | pe i FF iP Whose average marks are the highest among the 4 students?",
+   "options": [
+    {
+     "text": "Rani",
+     "added": false
+    },
+    {
+     "text": "Ravi",
+     "added": false
+    },
+    {
+     "text": "Raju",
+     "added": false
+    },
+    {
+     "text": "Rekha",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "www prepp.in prepp Aboy covers a certain distance between his house and school on a cycle. Riding on an average speed of 15 knw/h, he is late by 10 min. However, with an average speed of 20 km/h, he reaches the school 5 min earlier. Find the distance between his house and school.",
+   "options": [
+    {
+     "text": "25km",
+     "added": false
+    },
+    {
+     "text": "20 km",
+     "added": false
+    },
+    {
+     "text": "15km",
+     "added": false
+    },
+    {
+     "text": "30 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "c"
+  },
+  {
+   "n": 10,
+   "text": "The value of the expression 4(sin®A + cos®A) — 6(sin*A + cos*A) + 8 is:",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 11,
+   "text": "| The sum of the radius of the base and the height of a cylinder is 42 m. If the total surface area of the cylinder is 6336 m?, find the curved surface area of the cylinder correct to two places of decimals (use 1 = %) 4",
+   "options": [
+    {
+     "text": "2157.43 m?",
+     "added": false
+    },
+    {
+     "text": "2571.43 nY",
+     "added": false
+    },
+    {
+     "text": "2715.43 n°",
+     "added": false
+    },
+    {
+     "text": "2517.43 nY",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "63 : O12 Te oos A= on then find the value of tan A + cot A (up to two places of decimal).",
+   "options": [
+    {
+     "text": "41. 4.19",
+     "added": false
+    },
+    {
+     "text": "2.76",
+     "added": false
+    },
+    {
+     "text": "3.19",
+     "added": false
+    },
+    {
+     "text": "5,23",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "www prepp.in prepp Y P [Guidi The ratio of cost price (CP) and marked price (MP) of an article is 4: 7. A discount of 20% is given on MP and the ournersonal xamsjourcie shopkeeper made a profit of 780. Find the CP of the article.",
+   "options": [
+    {
+     "text": "3190",
+     "added": false
+    },
+    {
+     "text": "3170",
+     "added": false
+    },
+    {
+     "text": "3200",
+     "added": false
+    },
+    {
+     "text": "3180",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "4[(17)? - (7)3] Simplify the given expression. ———__——_ plify gt P (a7)? + (7)? +119",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "a"
+  },
+  {
+   "n": 15,
+   "text": "AB=8 cmand CD =6 em are two parallel chords on the same side of the centre of a circle. If the distance between them is 2 cm, then the radius (in cm) of the circle is:",
+   "options": [
+    {
+     "text": "XK 3. vis6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "x4. 198",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Www.prepp.in Prepp The below bar graph shows the marks obtained by a student in an examination. What is the average mark obtained by the student? 30. —<— #0 70 ct Yo 30 20 10 ° Engiuh Mas Sconce Socal Computers",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "30",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "b"
+  },
+  {
+   "n": 17,
+   "text": "The pie-chart given here shows the spending of a country on various sports during a year. Study the graph carefully to answer these questions. percentage of money spent on Various sports for one year Footballs mockey 20% Bonen soit i2.s% If the total amount spent on sports during the year was 21,50,00,000, then the amount spent on Cricket and hockey together was:",
+   "options": [
+    {
+     "text": "260,00,000",
+     "added": false
+    },
+    {
+     "text": "275,00,000",
+     "added": false
+    },
+    {
+     "text": "350,00,000",
+     "added": false
+    },
+    {
+     "text": "337,50,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "www prepp.in prepp ais Your Personal Exams|Guide . . 1 . . If sin 6 —- cos 8= 5? then find the value of sin 6 + cos 8.",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "Z 5 xa 2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Anumber when divided by 78 gives the quotient 280 and the remainder 0. If the same number is divided by 65, what will be the value of the remainder?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "c"
+  },
+  {
+   "n": 20,
+   "text": "A man deposited 210,000 at simple interest in a fund. The interest rate on the fund increases by4% every year. If the interest rate at the time of the amount deposit was 8%, what is the interest earned (in 2) by him after 5 years?",
+   "options": [
+    {
+     "text": "6,000",
+     "added": false
+    },
+    {
+     "text": "8,400",
+     "added": false
+    },
+    {
+     "text": "5,800",
+     "added": false
+    },
+    {
+     "text": "8,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "d"
+  },
+  {
+   "n": 21,
+   "text": "921 Find the average of the prime numbers lying between 51 and 77.",
+   "options": [
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "67",
+     "added": false
+    },
+    {
+     "text": "66",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "b"
+  },
+  {
+   "n": 22,
+   "text": "Wwww.prepp.in Prepp Ashopkeeper marked a product, 5% above the cost price and sold the product for $1890 by giving a discount of 10%, The cost price of the product is:",
+   "options": [
+    {
+     "text": "31,701",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "22,000",
+     "added": false
+    },
+    {
+     "text": "32,205",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "ABisa chord of the circle and AOC is its diameter such that angle ACB = 65°. If AT is the tangent to the circle at the point A. then angle BAT is equal to:",
+   "options": [
+    {
+     "text": "v'. 65°",
+     "added": false
+    },
+    {
+     "text": "75°",
+     "added": false
+    },
+    {
+     "text": "55°",
+     "added": false
+    },
+    {
+     "text": "40°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 24,
+   "text": "The population of a village was 12,000 two years ago. If itincreased by 2.5% and 3%, respectively, in the last two years, then what is the present population of the village?",
+   "options": [
+    {
+     "text": "12,669",
+     "added": false
+    },
+    {
+     "text": "12,607",
+     "added": false
+    },
+    {
+     "text": "12,652",
+     "added": false
+    },
+    {
+     "text": "12,731",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "a"
+  },
+  {
+   "n": 25,
+   "text": "925 The length of each side of an equilateral triangle is 22 cm. Find the area (in cm?) of eq ig this triangle.",
+   "options": [
+    {
+     "text": "121",
+     "added": false
+    },
+    {
+     "text": "242V3",
+     "added": false
+    },
+    {
+     "text": "121V3",
+     "added": false
+    },
+    {
+     "text": "242",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "c"
+  }
+ ]
+}

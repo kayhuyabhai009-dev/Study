@@ -1,0 +1,554 @@
+{
+ "paper": "SSC-GD-11-Jan-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Find the mean proportional between 3 and 27.",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "In a library, 25% of the number of mathematics books is equal to two-third of the number of physics books. What is the ratio of the number of mathematics books to that of the physics books in the library?",
+   "options": [
+    {
+     "text": "8 ∶ 3",
+     "added": false
+    },
+    {
+     "text": "3 ∶ 8",
+     "added": false
+    },
+    {
+     "text": "7 ∶ 4",
+     "added": false
+    },
+    {
+     "text": "4 ∶ 7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A thief steals a car at 3:30 p.m. and drives it at 80 km/h. The theft is discovered at 4:00 p.m. and the owner sets off in another car at 90 km/h. When will he catch the thief?",
+   "options": [
+    {
+     "text": "8:00 p.m.",
+     "added": false
+    },
+    {
+     "text": "8:30 p.m.",
+     "added": false
+    },
+    {
+     "text": "7:30 p.m.",
+     "added": false
+    },
+    {
+     "text": "7:00 p.m.",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The average age of 14 students and their teacher is 20 years. If the teacher is excluded, then their average age reduces by 1.5 years. The teacher’s age is:",
+   "options": [
+    {
+     "text": "41 years",
+     "added": false
+    },
+    {
+     "text": "30 years",
+     "added": false
+    },
+    {
+     "text": "39 years",
+     "added": false
+    },
+    {
+     "text": "59 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The HCF of 1020, 850 and 1156 is:",
+   "options": [
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "34",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "How much time does Rani take to cover a distance of 200 m, if she runs at a speed of 15 km/h?",
+   "options": [
+    {
+     "text": "12 sec",
+     "added": false
+    },
+    {
+     "text": "24 sec",
+     "added": false
+    },
+    {
+     "text": "36 sec",
+     "added": false
+    },
+    {
+     "text": "48 sec",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Aman covers a distance of 15 km in 3 hours and a distance of 20 km in 2 hours. What is the average speed of Aman?",
+   "options": [
+    {
+     "text": "5 km/h",
+     "added": false
+    },
+    {
+     "text": "8 km/h",
+     "added": false
+    },
+    {
+     "text": "7 km/h",
+     "added": false
+    },
+    {
+     "text": "6 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "S can complete a task in 50 days, T can complete it in 40 days and M can complete it in 30 days. S can work on all days of the week; T can work only on Monday, Wednesday, and Friday while M can work only on Saturday and Sunday. The work is started on Monday. In how many weeks it will be completed?",
+   "options": [
+    {
+     "text": "Between 4 to 5 weeks",
+     "added": false
+    },
+    {
+     "text": "Exactly 3 weeks",
+     "added": false
+    },
+    {
+     "text": "Between 3 to 4 weeks",
+     "added": false
+    },
+    {
+     "text": "Between 2 to 3 weeks",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The radius of the base of a right circular cone is 7 cm and its curved surface area is 550 cm2. The volume of the cone is: (Use π = 22 7 )",
+   "options": [
+    {
+     "text": "1223 cm3",
+     "added": false
+    },
+    {
+     "text": "1233 cm3",
+     "added": false
+    },
+    {
+     "text": "1322 cm3",
+     "added": false
+    },
+    {
+     "text": "1232 cm3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "A bat is bought for Rs. 750 and sold at a loss of 8%. What is its selling price?",
+   "options": [
+    {
+     "text": "Rs. 660",
+     "added": false
+    },
+    {
+     "text": "Rs. 680",
+     "added": false
+    },
+    {
+     "text": "Rs. 630",
+     "added": false
+    },
+    {
+     "text": "Rs. 690",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Successive discounts of 13 percent and 19 percent are equivalent to a single discount of :",
+   "options": [
+    {
+     "text": "9.53 percent",
+     "added": false
+    },
+    {
+     "text": "39.53 percent",
+     "added": false
+    },
+    {
+     "text": "29.53 percent",
+     "added": false
+    },
+    {
+     "text": "19.53 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A shopkeeper offers a 20% discount on all garments and offers a further discount of 5% to those customers who pay cash. What does a customer have to pay in cash for a jacket whose marked price is ₹7,200?",
+   "options": [
+    {
+     "text": "Rs. 6,972",
+     "added": false
+    },
+    {
+     "text": "Rs. 5,760",
+     "added": false
+    },
+    {
+     "text": "Rs. 5,472",
+     "added": false
+    },
+    {
+     "text": "Rs. 6,048",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A hemispherical bowl made of brass has an inner diameter of 14 cm. Find the cost of painting it from the inside at the rate of Rs. 15 per cm2. (Use π = 22 7 )",
+   "options": [
+    {
+     "text": "Rs. 4,120",
+     "added": false
+    },
+    {
+     "text": "Rs. 3,170",
+     "added": false
+    },
+    {
+     "text": "Rs. 4,620",
+     "added": false
+    },
+    {
+     "text": "Rs. 2,670",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The ratio of the cost price to the marked price of a table is 3 ∶ 4. The shopkeeper gives two equal successive discounts of 25% on the marked price and sells the table for Rs. 2,250. Find the loss during this transaction.",
+   "options": [
+    {
+     "text": "Rs. 1,000",
+     "added": false
+    },
+    {
+     "text": "Rs. 750",
+     "added": false
+    },
+    {
+     "text": "Rs. 500",
+     "added": false
+    },
+    {
+     "text": "Rs. 250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Divide the LCM of the 35 and 42 by the HCF of 32 and 40.",
+   "options": [
+    {
+     "text": "26.375",
+     "added": false
+    },
+    {
+     "text": "26.125",
+     "added": false
+    },
+    {
+     "text": "26.000",
+     "added": false
+    },
+    {
+     "text": "26.250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Find the mean proportional between 9 and 25.",
+   "options": [
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "23",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "In how many years will Rs. 12,500 become Rs. 21,600 at the rate of 20% per annum on compound interest when interest is compounding annually?",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Under simple rate of growth, the population (P units) of a city becomes 1.5 times of P in 10 years. In how many years, the population of the city would become double (2 times P) under the same growth rate?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "During the first year, the population of a city increased by 5% and during the second year, it diminished by 4%. At the end of the second year, its population was 30,240. The population at the end of the first year was:",
+   "options": [
+    {
+     "text": "30000",
+     "added": false
+    },
+    {
+     "text": "30300",
+     "added": false
+    },
+    {
+     "text": "31500",
+     "added": false
+    },
+    {
+     "text": "31200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Bhanu can do a work in 10 days. Ramesh takes 12 days to complete it. Rohit takes as long as Bhanu and Ramesh would take working together. How long will it take Ramesh and Rohit to complete the work together?",
+   "options": [
+    {
+     "text": "3 38 days",
+     "added": false
+    },
+    {
+     "text": "3 37 days",
+     "added": false
+    },
+    {
+     "text": "3 34 days",
+     "added": false
+    },
+    {
+     "text": "3 35 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "numbered-whole": {
+   "n": 185,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

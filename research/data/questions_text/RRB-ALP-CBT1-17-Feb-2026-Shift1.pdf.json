@@ -1,0 +1,686 @@
+{
+ "paper": "RRB-ALP-CBT1-17-Feb-2026-Shift1.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "splitter": "qdot",
+ "section_slice": false,
+ "extracted_count": 75,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "What is the overall percentage increase in a number if it is increased successively by 10%, 20%, and 15%?",
+   "options": [
+    {
+     "text": "45.8%",
+     "added": false
+    },
+    {
+     "text": "51.8%",
+     "added": false
+    },
+    {
+     "text": "41.8%",
+     "added": false
+    },
+    {
+     "text": "55.8%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": "51.8%"
+  },
+  {
+   "n": 2,
+   "text": "What should come in place of ? in the given series? 36 40 46 50 56 ?",
+   "options": [
+    {
+     "text": "59",
+     "added": false
+    },
+    {
+     "text": "61",
+     "added": false
+    },
+    {
+     "text": "62",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "frustum-prism-pyramid",
+   "key_answer": "1413π"
+  },
+  {
+   "n": 3,
+   "text": "What should come in place of the question mark (?) in the given series? 64 68 80 84 96 100 112 ?",
+   "options": [
+    {
+     "text": "124",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "116",
+     "added": false
+    },
+    {
+     "text": "118",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "120 days"
+  },
+  {
+   "n": 4,
+   "text": "",
+   "options": [
+    {
+     "text": "236.25 cm2",
+     "added": false
+    },
+    {
+     "text": "222.86 cm2",
+     "added": false
+    },
+    {
+     "text": "216.36 cm2",
+     "added": false
+    },
+    {
+     "text": "248.15 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": true,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": "236.25 cm2"
+  },
+  {
+   "n": 5,
+   "text": "In a certain code language, ‘SONG’ is coded as ‘9785’ and ‘GONE’ is coded as ‘5867’. What is the code for ‘E’ in the given code language?",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "6"
+  },
+  {
+   "n": 6,
+   "text": "Anand purchased an item and spent ₹175 on its repair. He then sold it to Bharath at a profit of 25%. Later, Bharath sold the item for ₹3,402, incurring a loss of 58%. What was Anand’s cost (in ₹) of the item just before selling it to Bharath?",
+   "options": [
+    {
+     "text": "6478",
+     "added": false
+    },
+    {
+     "text": "6483",
+     "added": false
+    },
+    {
+     "text": "6481",
+     "added": false
+    },
+    {
+     "text": "6480",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": "6480"
+  },
+  {
+   "n": 7,
+   "text": "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed) (18, 5, 85) (11, 7, 72)",
+   "options": [
+    {
+     "text": "(9, 7, 68)",
+     "added": false
+    },
+    {
+     "text": "(15, 6, 85)",
+     "added": false
+    },
+    {
+     "text": "(10, 8, 85)",
+     "added": false
+    },
+    {
+     "text": "(8, 4, 32)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "11 : 13"
+  },
+  {
+   "n": 8,
+   "text": "A, B, C, D, E, F and G live on seven different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on till the topmost floor is numbered 7. Only two persons live above C. Only two persons live between C and E. B lives immediately above E. D lives immediately below F. A does not live on the lowermost floor. On which floor number does A live?",
+   "options": [
+    {
+     "text": "Floor number 2",
+     "added": false
+    },
+    {
+     "text": "Floor number 3",
+     "added": false
+    },
+    {
+     "text": "Floor number 4",
+     "added": false
+    },
+    {
+     "text": "Floor number 6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "still-water-and-stream-speed",
+   "key_answer": "2√14"
+  },
+  {
+   "n": 9,
+   "text": "A sum of ₹5,890 is divided between Alok, Gita and Suresh such that if their shares are decreased by ₹320, ₹590 and ₹750, respectively, then they are in the ratio of 9 : 3 : 6. What is the original share of Gita?",
+   "options": [
+    {
+     "text": "₹1,209",
+     "added": false
+    },
+    {
+     "text": "₹1,380",
+     "added": false
+    },
+    {
+     "text": "₹1,295",
+     "added": false
+    },
+    {
+     "text": "₹1,157",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "1295"
+  },
+  {
+   "n": 10,
+   "text": "During a sale, 40% of the goods are sold at a 44% profit, 25% of the remaining goods are sold at a 29% profit and the rest are sold at a 39% loss. If there is an overall profit of x%, then what is the value of x?",
+   "options": [
+    {
+     "text": "4.4%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "7.5%",
+     "added": false
+    },
+    {
+     "text": "10.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": "4.4%"
+  },
+  {
+   "n": 11,
+   "text": "6562",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    },
+    {
+     "text": "51",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": "48"
+  },
+  {
+   "n": 12,
+   "text": "What sum (in ₹) will earn an interest of ₹480 in 3 years at 5% simple interest per year? 1831",
+   "options": [
+    {
+     "text": "3000",
+     "added": false
+    },
+    {
+     "text": "3350",
+     "added": false
+    },
+    {
+     "text": "3200",
+     "added": false
+    },
+    {
+     "text": "3400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "3200"
+  },
+  {
+   "n": 13,
+   "text": "There are 2,100 members in a local group. In 2019, the number of members increased by 15%. In 2020, however, the number decreased by 20%. What is the total number of members after these two changes?",
+   "options": [
+    {
+     "text": "1932",
+     "added": false
+    },
+    {
+     "text": "1754",
+     "added": false
+    },
+    {
+     "text": "1905",
+     "added": false
+    },
+    {
+     "text": "1836",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": "1932"
+  },
+  {
+   "n": 14,
+   "text": "A, B, C, D, E, F and G live on seven different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on till the topmost floor is numbered 7. Only two persons live above C. Only two persons live between C and E. B lives immediately above E. D lives immediately below F. A does not live on the lowermost floor. On which floor number does A live?",
+   "options": [
+    {
+     "text": "Floor number 2",
+     "added": false
+    },
+    {
+     "text": "Floor number 3",
+     "added": false
+    },
+    {
+     "text": "Floor number 4",
+     "added": false
+    },
+    {
+     "text": "Floor number 6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "2"
+  },
+  {
+   "n": 15,
+   "text": "",
+   "options": [
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "22",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": true,
+   "topic": "Simplification",
+   "sub": "roots",
+   "key_answer": "14"
+  },
+  {
+   "n": 16,
+   "text": "On reaching an organ or tissue, arteries divide into smaller and smaller vessels. The smallest vessels have walls that are one cell thick and are called:",
+   "options": [
+    {
+     "text": "capillaries",
+     "added": false
+    },
+    {
+     "text": "veins",
+     "added": false
+    },
+    {
+     "text": "arteries",
+     "added": false
+    },
+    {
+     "text": "arterioles",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": "50%"
+  },
+  {
+   "n": 17,
+   "text": "6549",
+   "options": [
+    {
+     "text": "111",
+     "added": false
+    },
+    {
+     "text": "113",
+     "added": false
+    },
+    {
+     "text": "110",
+     "added": false
+    },
+    {
+     "text": "112",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "112"
+  },
+  {
+   "n": 18,
+   "text": "A shopkeeper sells an item for ₹324.3 after giving two successive discounts of 60% and 31% on its marked price. Had he not given any discount, he would have earned a profit of 25%. What is the cost price (in ₹) of the item?",
+   "options": [
+    {
+     "text": "968",
+     "added": false
+    },
+    {
+     "text": "947",
+     "added": false
+    },
+    {
+     "text": "940",
+     "added": false
+    },
+    {
+     "text": "917",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "940"
+  },
+  {
+   "n": 19,
+   "text": "Three pipes P, Q and R can fill a tank in 6 hours. After working at it together for 2 hours, R is closed, and P and Q can fill the remaining part in 7 hours. Find the number of hours taken by R alone to fill the tank.",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": "14"
+  },
+  {
+   "n": 20,
+   "text": "If the interest earned during the 2nd year on a certain sum is ₹8063, and the rate of interest is 10% per annum compounded annually, then the sum is:4533",
+   "options": [
+    {
+     "text": "₹73300",
+     "added": false
+    },
+    {
+     "text": "₹72750",
+     "added": false
+    },
+    {
+     "text": "₹74250",
+     "added": false
+    },
+    {
+     "text": "₹73705",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": "73300"
+  },
+  {
+   "n": 21,
+   "text": "3291",
+   "options": [
+    {
+     "text": "363",
+     "added": false
+    },
+    {
+     "text": "306",
+     "added": false
+    },
+    {
+     "text": "333",
+     "added": false
+    },
+    {
+     "text": "336",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "336"
+  },
+  {
+   "n": 22,
+   "text": "What is the mode of the following data? 55, 50, 48, 43, 55, 41, 54, 51, 41, 45, 53, 54, 52, 41, 49, 54, 41, 49",
+   "options": [
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "55",
+     "added": false
+    },
+    {
+     "text": "41",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "41"
+  },
+  {
+   "n": 23,
+   "text": "A racer car covers the first 160 km at a speed of 80 km/hr, another 160 km at 120 km/hr and the last 160 km at 80 km/hr. Find out average speed of the racer car for the entire journey.",
+   "options": [
+    {
+     "text": "90 km/hr",
+     "added": false
+    },
+    {
+     "text": "100 km/hr",
+     "added": false
+    },
+    {
+     "text": "105 km/hr",
+     "added": false
+    },
+    {
+     "text": "95 km/hr",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": "90 km/hr"
+  },
+  {
+   "n": 24,
+   "text": "The marked price of an item is 10% higher than the cost price and a discount of 10% is given on the marked price. What is the percentage gain or loss to the business owner in this sale?",
+   "options": [
+    {
+     "text": "1% loss",
+     "added": false
+    },
+    {
+     "text": "1% gain",
+     "added": false
+    },
+    {
+     "text": "2% loss",
+     "added": false
+    },
+    {
+     "text": "2% gain",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": "1% loss"
+  },
+  {
+   "n": 25,
+   "text": "A 12 m tall building casts a shadow of 8 m at a certain time of the day. At the same time, a vertical pole with a flag on top casts a shadow of 15 m. If the height of the flag alone is 3 m, find the height of the pole.",
+   "options": [
+    {
+     "text": "21 m",
+     "added": false
+    },
+    {
+     "text": "17.5 m",
+     "added": false
+    },
+    {
+     "text": "19.5 m",
+     "added": false
+    },
+    {
+     "text": "18 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "congruence-and-similarity",
+   "key_answer": "19.5 m"
+  }
+ ]
+}

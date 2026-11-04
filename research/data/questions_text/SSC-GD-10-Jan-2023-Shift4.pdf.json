@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-10-Jan-2023-Shift4.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A batsman makes a score of 97 runs in 15th inning and thus increases his average by 5. Find his average after 15th inning.",
+   "options": [
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "82",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "92",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The population of a town increased from 145000 to 200000 in a decade. What will be the simple growth rate percent of population per annum?",
+   "options": [
+    {
+     "text": "4.856 percent",
+     "added": false
+    },
+    {
+     "text": "5.789 percent",
+     "added": false
+    },
+    {
+     "text": "3.793 percent",
+     "added": false
+    },
+    {
+     "text": "2.165 percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A can paint seven chairs in an hour and B can paint four chairs in an hour. Determine how much time they will require to paint 55 chairs when they work together.",
+   "options": [
+    {
+     "text": "7 hours",
+     "added": false
+    },
+    {
+     "text": "5 hours",
+     "added": false
+    },
+    {
+     "text": "6 hours",
+     "added": false
+    },
+    {
+     "text": "4 hours",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "A sum of Rs.1,875 at 4% per annum increased to Rs.2,028 in certain time. If interest is compounded yearly, then what is the time period?",
+   "options": [
+    {
+     "text": "2.5 years",
+     "added": false
+    },
+    {
+     "text": "3 years",
+     "added": false
+    },
+    {
+     "text": "3.5 years",
+     "added": false
+    },
+    {
+     "text": "2 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "37 is what percentage of 55? (correct up to two decimal places)",
+   "options": [
+    {
+     "text": "67.27%",
+     "added": false
+    },
+    {
+     "text": "64.91%",
+     "added": false
+    },
+    {
+     "text": "69.41%",
+     "added": false
+    },
+    {
+     "text": "62.77%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Calculate the volume (in cm3 ) of the cylinder having height 20 cm and base radius 14 cm.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The current population of a city is 125000. If the population grows at the rate of 2% per year, what will be the population of the city after 3 years?",
+   "options": [
+    {
+     "text": "133512",
+     "added": false
+    },
+    {
+     "text": "132651",
+     "added": false
+    },
+    {
+     "text": "130896",
+     "added": false
+    },
+    {
+     "text": "132165",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The marked price of a washing machine is Rs.23,500 and the shopkeeper sold it for Rs.20,915. What is the percentage of discount offered by the shopkeeper?",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "9%",
+     "added": false
+    },
+    {
+     "text": "12%",
+     "added": false
+    },
+    {
+     "text": "11%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A dealer professes to sell his goods at a loss of 16%, but weights 750 gm in place of a kg weight. Find his total profit percentage.",
+   "options": [
+    {
+     "text": "15 Percent",
+     "added": false
+    },
+    {
+     "text": "11 Percent",
+     "added": false
+    },
+    {
+     "text": "14 Percent",
+     "added": false
+    },
+    {
+     "text": "12 Percent",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "dishonest-dealer",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The LCM of 32 and 40 equals to 9 less than the square of X. Find the positive value of X.",
+   "options": [
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A man buys a toy car for ₹135 and sells it for ₹150, find his gain percentage.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "In a linear race of 1000 m, Saloni beat Shweta by 100 m, while Shweta beat Sonam by 150 m. By how many metres does Saloni beat Sonam, in the same race?",
+   "options": [
+    {
+     "text": "220 m",
+     "added": false
+    },
+    {
+     "text": "250 m",
+     "added": false
+    },
+    {
+     "text": "225 m",
+     "added": false
+    },
+    {
+     "text": "235 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Four prime numbers are arranged in ascending order. The product of the first three numbers is 255 and that of the last three is 1955. The largest prime number is:",
+   "options": [
+    {
+     "text": "23",
+     "added": false
+    },
+    {
+     "text": "31",
+     "added": false
+    },
+    {
+     "text": "17",
+     "added": false
+    },
+    {
+     "text": "29",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "factors-divisors",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A boy travelled from the home to the college at the rate of 35 km/h and walked back at the rate of 3 km/h. If the whole journey took 6 h 30 min, then the distance of the college from the home (correct to 2 decimal places) is:",
+   "options": [
+    {
+     "text": "18.01 km",
+     "added": false
+    },
+    {
+     "text": "17.58 km",
+     "added": false
+    },
+    {
+     "text": "17.25 km",
+     "added": false
+    },
+    {
+     "text": "17.96 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Aman, Ram, and Kapil can complete a work in 68 days, 51 days, and 17 days respectively. If they work on alternate days such that Aman works on first day, Ram works on second day, Kapil works on third day and then again Aman works on fourth day and so on, then find the approximate number of days in which 50% of the work is completed.",
+   "options": [
+    {
+     "text": "19 days",
+     "added": false
+    },
+    {
+     "text": "16 days",
+     "added": false
+    },
+    {
+     "text": "15 days",
+     "added": false
+    },
+    {
+     "text": "18 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Find the mean proportional between 0.64 and 0.81.",
+   "options": [
+    {
+     "text": "0.70",
+     "added": false
+    },
+    {
+     "text": "0.72",
+     "added": false
+    },
+    {
+     "text": "0.66",
+     "added": false
+    },
+    {
+     "text": "0.68",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Two numbers are in the ratio 3 : 8. If 8 is added to each number, then the ratio becomes 1 : 2. If 4 is subtracted from each number, then the ratio will become:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A farmer has 10 Parrots and 40 horses. Find the average number of legs per animal.",
+   "options": [
+    {
+     "text": "3.2",
+     "added": false
+    },
+    {
+     "text": "3.4",
+     "added": false
+    },
+    {
+     "text": "3.6",
+     "added": false
+    },
+    {
+     "text": "3.8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "With a 10% discount on the marked price, a seller earns a 5% profit. If the marked price is increased by 5% and two successive discounts of 5% each are offered, how much percentage profit does the seller earn?",
+   "options": [
+    {
+     "text": "10.5%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "11%",
+     "added": false
+    },
+    {
+     "text": "11.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 310,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

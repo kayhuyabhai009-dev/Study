@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-06-Feb-2023-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Three milk bottles of 1 litre, 750 millilitres and 650 millilitres with milk percentage respectively 45%, 50% and 60% are emptied in a same container simultaneously. What is the percentage of milk in the mixture?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The area of a triangle whose base and corresponding height are, respectively, 3.2m and 75 cm, is:",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A dealer marks his goods 30% higher than their cost price. In order to sell his goods at a no profit no loss basis, what discount percentage should he allow (correct up to 2 decimal places)?",
+   "options": [
+    {
+     "text": "25.25%",
+     "added": false
+    },
+    {
+     "text": "23.08%",
+     "added": false
+    },
+    {
+     "text": "12.28%",
+     "added": false
+    },
+    {
+     "text": "28.08%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "25 doctors can diagnose 75 patients in 5 hours. If five doctors leave the job, then how many patients can be diagnosed in 6 hours?",
+   "options": [
+    {
+     "text": "74",
+     "added": false
+    },
+    {
+     "text": "70",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "76",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "How many digits will be there after the decimal point in the product of 0.124 and 1.0204?",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "fractions-decimals",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A merchant offers 20% discount on the marked price. He offers a further discount of 10% on the reduced price on cash payments. What does a customer have to pay in cash for an item whose marked price is ₹ 5000 ?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "P can do a piece of work in 15 days, while Q can do it in 10 days. If they work on alternate days beginning with P, in how many days will the work be finished?",
+   "options": [
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "A cop sees a thief at a distance of 120 m. He starts chasing the thief who is running at a speed of 6 m/sec. The cop is chasing him with a speed of 8 m/sec. Find the distance covered by the thief before the cop catches him.",
+   "options": [
+    {
+     "text": "320 m",
+     "added": false
+    },
+    {
+     "text": "360 m",
+     "added": false
+    },
+    {
+     "text": "240 m",
+     "added": false
+    },
+    {
+     "text": "180 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A police officer follows a thief who is at a distance of 800 m from him. If they run at the speeds of 8 km/h and 7 km/h, respectively, what distance (in metre) does the police officer run to catch the thief?",
+   "options": [
+    {
+     "text": "6400",
+     "added": false
+    },
+    {
+     "text": "4000",
+     "added": false
+    },
+    {
+     "text": "5600",
+     "added": false
+    },
+    {
+     "text": "4800",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The largest distance between any two points on a sphere is 6 units. What is the volume of the sphere?",
+   "options": [
+    {
+     "text": "18π cubic units",
+     "added": false
+    },
+    {
+     "text": "64π cubic units",
+     "added": false
+    },
+    {
+     "text": "36π cubic units",
+     "added": false
+    },
+    {
+     "text": "24π cubic units",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The average weight of 10 workers travelling in a boat is increased by 2.8 kg when one of the workers, who weighs 58 kg, is replaced by a new worker. Find the weight of the new worker.",
+   "options": [
+    {
+     "text": "86 kg",
+     "added": false
+    },
+    {
+     "text": "84 kg",
+     "added": false
+    },
+    {
+     "text": "82 kg",
+     "added": false
+    },
+    {
+     "text": "68 kg",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "A year ago, Ram’s income was Rs.20000 per month and expenditure was Rs.16,000 per month. Now if his income is increased by 10% and expenses increased by 15%. What would be the net change in his savings per month?",
+   "options": [
+    {
+     "text": "Decreased by Rs.500",
+     "added": false
+    },
+    {
+     "text": "Increased by Rs.500",
+     "added": false
+    },
+    {
+     "text": "Decreased by Rs.400",
+     "added": false
+    },
+    {
+     "text": "Increased by Rs.400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "₹1,20,000 becomes ₹1,50,528 in two years at a certain rate of compound interest, compounding annually in an investment scheme. In the same scheme, the sum of ₹P is invested and it becomes ₹3,51,232 in three years. What is the value of P?",
+   "options": [
+    {
+     "text": "3,00,000",
+     "added": false
+    },
+    {
+     "text": "2,25,000",
+     "added": false
+    },
+    {
+     "text": "2,75,000",
+     "added": false
+    },
+    {
+     "text": "2,50,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Renu purchased two watches and each of them at the same price and sold one of them at a profit of 20% and the other at a profit of 24.2%. If the difference between their selling prices is ₹189, then what is the cost price of each of the watches?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "In 2021, in a city 30% of the people were vaccinated by Covid 19 vaccinations in the month of June, 50% of the remaining in July and 20% of the remaining in August. Still 84000 are left for vaccination. Find the total population of the city.(Everyone in the town is eligible for the vaccination)",
+   "options": [
+    {
+     "text": "3.10 lakh",
+     "added": false
+    },
+    {
+     "text": "4 lakh",
+     "added": false
+    },
+    {
+     "text": "3 lakh",
+     "added": false
+    },
+    {
+     "text": "3.5 lakh",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "P and Q together can complete a piece of work in 20 days. Q and R together can complete it in 30 days. If P is twice as good a workman as R, then in how many days can Q alone complete it?",
+   "options": [
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Calculate the fourth proportional of 6, 10 and 12.",
+   "options": [
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The present population of a town is 95,000. The population increases by 15% in the first year, increases by 20% in the second year and decreases by 12% in the third year. Find the population of the town after three years.",
+   "options": [
+    {
+     "text": "1,15,368",
+     "added": false
+    },
+    {
+     "text": "1,16,568",
+     "added": false
+    },
+    {
+     "text": "1,16,368",
+     "added": false
+    },
+    {
+     "text": "1,15,568",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "population-and-depreciation",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A cloth merchant bought 42 shirts, each at a price of ₹520. He sold each of them for ₹548. Find his percentage profit on each shirt. (Rounded off to two decimal places)",
+   "options": [
+    {
+     "text": "3.34%",
+     "added": false
+    },
+    {
+     "text": "6.42%",
+     "added": false
+    },
+    {
+     "text": "2.63%",
+     "added": false
+    },
+    {
+     "text": "5.38%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 310,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,593 @@
+{
+ "paper": "2022-Tier1-1-Dec-2022-Shift2.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "x is a negative number such that k + k–1 = –2, then what is the value of ?",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "–7",
+     "added": false
+    },
+    {
+     "text": "–1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "1 4 4 ssi If (x + *) = 572, then what is the value of (x* + x74)? x",
+   "options": [
+    {
+     "text": "2542",
+     "added": false
+    },
+    {
+     "text": "2650",
+     "added": false
+    },
+    {
+     "text": "2452",
+     "added": false
+    },
+    {
+     "text": "2302",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A man rows a boat a certain distance downstream in 9 hours, while it takes 18 hours to row the same distance upstream. How many hours will it take him to row three-fifth of the same distance in still water?",
+   "options": [
+    {
+     "text": "9.5",
+     "added": false
+    },
+    {
+     "text": "7.2",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Cc a4 Study the given chart and answer the following question. Production of steel (in mn units) B Rajasthan ‘B Gujarat B Delhi ‘8 Kerala m Tamil Nadu What is the central angle corresponding to the production steel by Kerala?",
+   "options": [
+    {
+     "text": "82°",
+     "added": false
+    },
+    {
+     "text": "65.8°",
+     "added": false
+    },
+    {
+     "text": "75.2°",
+     "added": false
+    },
+    {
+     "text": "72°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A shopkeeper makes a net profit of 44% on selling an article at successive discounts of 10% and 20%. Find the net profit percentage, if the shopkeeper sells the same article at a discount of 15%.",
+   "options": [
+    {
+     "text": "50%",
+     "added": false
+    },
+    {
+     "text": "70%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    },
+    {
+     "text": "40%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "What will be the value of ?",
+   "options": [
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "What is the ratio between the HCF and LCM of the numbers whose LCM is 48 and the product of the numbers is 384?",
+   "options": [
+    {
+     "text": "1 : 4",
+     "added": false
+    },
+    {
+     "text": "1 : 6",
+     "added": false
+    },
+    {
+     "text": "1 : 3",
+     "added": false
+    },
+    {
+     "text": "2 : 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The price of a scooter increases successively by10%, 5% and 15%. What is the total percentage increase in price of scooter?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Qs If areas of similar triangles A ABC and A DEF are x? em? and y? cm? respectively, and EF =a cm, then BC (in em) is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The average of the marks of 25 students in a class, in an examination was calculated to be 19. Later, the teacher realized that the marks of two students were taken as 18 and 19 respectively, instead of 14 and 15. Find the new actual average marks of the class.",
+   "options": [
+    {
+     "text": "17.43",
+     "added": false
+    },
+    {
+     "text": "16.56",
+     "added": false
+    },
+    {
+     "text": "18.68",
+     "added": false
+    },
+    {
+     "text": "17.65",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": ".- = am i Simplify x* x x° x x7* xx\" xx7*.",
+   "options": [
+    {
+     "text": "x*",
+     "added": false
+    },
+    {
+     "text": "x4",
+     "added": false
+    },
+    {
+     "text": "x6",
+     "added": false
+    },
+    {
+     "text": "x6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The value of (sin30° cos60° - cos30° sin60°) is equal to:",
+   "options": [
+    {
+     "text": "-cos30°",
+     "added": false
+    },
+    {
+     "text": "-sin30°",
+     "added": false
+    },
+    {
+     "text": "cos30°",
+     "added": false
+    },
+    {
+     "text": "sin30°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "What is the ratio of the mean proportional between 1.6 and 3.6 and the third proportional of 5 and 8?",
+   "options": [
+    {
+     "text": "2 : 15",
+     "added": false
+    },
+    {
+     "text": "5 : 16",
+     "added": false
+    },
+    {
+     "text": "3 : 16",
+     "added": false
+    },
+    {
+     "text": "4 : 15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "proportion",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The difference between the cost price and selling price of a pair of shoes is Rs.1,200. If the profit is 15%, the selling price is:",
+   "options": [
+    {
+     "text": "Rs.8,200",
+     "added": false
+    },
+    {
+     "text": "Rs.9,200",
+     "added": false
+    },
+    {
+     "text": "Rs.8,000",
+     "added": false
+    },
+    {
+     "text": "Rs.9,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A person lent certain sum of money at the annual rate of 25 percent on simple interest. In 6 years the interest amounted to Rs.360 more than the sum lent. What is the sum lent?",
+   "options": [
+    {
+     "text": "Rs.600",
+     "added": false
+    },
+    {
+     "text": "Rs.360",
+     "added": false
+    },
+    {
+     "text": "Rs.720",
+     "added": false
+    },
+    {
+     "text": "Rs.540",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "The side of an equilateral triangle is 12 cm. What is the radius of the circle circumscribing this equilateral triangle?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "circle-theorems",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The following table shows the number of different items in different shops and their respective selling prices per unit. sis Total No. of |AC : Cooler Selling Price per unit | jops ge Items : Fan Cooler AC Fan A 5000 4:5:1 8000 25000 8500 B 1800 | 3:2:4 | 10000 | 20000 16000 € 3400 6:4:7 6000 42000 15000 [ D | 3600 4:2:3 | 12000 | 32000 | 8000 | E 4000 Sil <4 8000 26500 = 12200 F | 1210 | 2:4:5 | 11000 | 28000 11100 Find the percentage of total revenue which comes from Cooler from shop E, considering all given items are being sold from shop E and from all the given shops only given three items are being sold. (Rounded off to three decimal places)",
+   "options": [
+    {
+     "text": "4.226%",
+     "added": false
+    },
+    {
+     "text": "3.516%",
+     "added": false
+    },
+    {
+     "text": "10.45%",
+     "added": false
+    },
+    {
+     "text": "8.910%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "heck Q.18 The following table shows the marks (in percentages) obtained by six students in four different subjects in an examination. Maximum marks in each subject are 100. SUBJECT 2 RIL ewe Le [e] 27] es | 2 se a Je je] s | s | * | Le |e] = | | | Answer the following question based on the table: What is the number of students whose overall percentage obtained is 80% and above?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "The table given below shows the number of persons participating in a survey from 6 different states. What is the ratio of number of person participating in a survey from state S3 to the number of person participating in a survey from state S4?",
+   "options": [
+    {
+     "text": "3 : 5",
+     "added": false
+    },
+    {
+     "text": "5 : 4",
+     "added": false
+    },
+    {
+     "text": "4 : 3",
+     "added": false
+    },
+    {
+     "text": "4 : 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "What is the remainder when 8127 is divided by 8?",
+   "options": [
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "remainder",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "A, B and C can complete a piece of work separately in 10, 20 and 40 days, respectively. In how many days will the work be completed if A is assisted by both B and C every third day?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "What is sinα - sinβ?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "other",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "A hemisphere of lead of radius 4 cm is cast into a right circular cone of height 72 cm. What is the radius of the base of the cone?",
+   "options": [
+    {
+     "text": "1.63 cm",
+     "added": false
+    },
+    {
+     "text": "1.35 cm",
+     "added": false
+    },
+    {
+     "text": "1.33 cm",
+     "added": false
+    },
+    {
+     "text": "1.45 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "If the angles of a triangle are (x – 46) degrees, (x + 96) degrees and 8x degrees, then what is the value of 2x?",
+   "options": [
+    {
+     "text": "15 degrees",
+     "added": false
+    },
+    {
+     "text": "24 degrees",
+     "added": false
+    },
+    {
+     "text": "26 degrees",
+     "added": false
+    },
+    {
+     "text": "13 degrees",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "O is the centre of this circle. Tangent drawn from a point P, touches the circle at Q. If PQ = 24 cm and OQ = 10 cm, then what is the value of OP?",
+   "options": [
+    {
+     "text": "26 cm",
+     "added": false
+    },
+    {
+     "text": "52 cm",
+     "added": false
+    },
+    {
+     "text": "13 cm",
+     "added": false
+    },
+    {
+     "text": "15 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  }
+ ]
+}

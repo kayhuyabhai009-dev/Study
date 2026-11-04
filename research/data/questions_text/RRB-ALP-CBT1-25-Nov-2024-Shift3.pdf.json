@@ -1,0 +1,140 @@
+{
+ "paper": "RRB-ALP-CBT1-25-Nov-2024-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 21,
+ "questions": [
+  {
+   "n": 1,
+   "text": "If three numbers are in the ratio 5 : 6 : 8 and their sum is 3800, then the greatest number will be:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "1600"
+  },
+  {
+   "n": 4,
+   "text": "The sum of the ages of 5 children born at intervals of 2 years each is 40 years. What is the age of the eldest child?",
+   "options": [
+    {
+     "text": "10 years",
+     "added": false
+    },
+    {
+     "text": "14 years",
+     "added": false
+    },
+    {
+     "text": "16 years",
+     "added": false
+    },
+    {
+     "text": "12 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "sum-difference",
+   "key_answer": "12 years"
+  },
+  {
+   "n": 5,
+   "text": "Two successive discounts of 30% and 35% on a deal are equivalent to a single discount of:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": "54.5%"
+  },
+  {
+   "n": 11,
+   "text": "Sameer has a solid metal ball having a diameter of 6 cm. He melts it and uses the material for making a solid cylinder. If the diameter of the base of the cylinder is same as that of the ball, what would the height of the cylinder be?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "conversion-and-melting",
+   "key_answer": "4 cm"
+  },
+  {
+   "n": 15,
+   "text": "Ina quadrilateral PQRS, if the sum of measures of angles 2Q and ZS is 150° while the measures of angles 2P and ZR are in ratio 4 : 3, then the measure of ZR will be:",
+   "options": [
+    {
+     "text": "120°",
+     "added": false
+    },
+    {
+     "text": "90°",
+     "added": false
+    },
+    {
+     "text": "210°",
+     "added": false
+    },
+    {
+     "text": "150°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "quadrilaterals",
+   "key_answer": "90°"
+  },
+  {
+   "n": 17,
+   "text": "— Study the given table and answer the question that follows. The table depicts the number of tickets sold on Friday and Saturday by cash and online mode for a cricket match. sold (cash sold (online) How many tickets were sold in total on Friday by cash and online together?",
+   "options": [
+    {
+     "text": "1150",
+     "added": false
+    },
+    {
+     "text": "1250",
+     "added": false
+    },
+    {
+     "text": "1350",
+     "added": false
+    },
+    {
+     "text": "1050",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "1250"
+  },
+  {
+   "n": 20,
+   "text": "Evaluate the given expression. 12+ 18+3",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "18"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.1,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 228,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

@@ -1,0 +1,532 @@
+{
+ "paper": "SSC-GD-06-Feb-2023-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A store is running a 'Buy 4 Get 1 Free' promotion scheme. What is the net discount percentage?",
+   "options": [
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "22%",
+     "added": false
+    },
+    {
+     "text": "18.5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "A train crosses another train running at the same speed in the opposite direction in 5 seconds. If the speed of the first train is doubled and the speed of the second train is halved, then the time taken by the trains to cross is ___________ seconds.",
+   "options": [
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "What is the least value of x so that the 5-digit number 725x3 becomes divisible by 9?",
+   "options": [
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The cash difference between the selling prices of an article at a profit of 5% and 10% is Rs.5. The ratio of the two selling prices is:",
+   "options": [
+    {
+     "text": "23 : 25",
+     "added": false
+    },
+    {
+     "text": "10 : 5",
+     "added": false
+    },
+    {
+     "text": "21 : 22",
+     "added": false
+    },
+    {
+     "text": "5 : 10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The average marks of eight students is 7. It was found that marks of one student was taken as 10 instead of 6. Find the correct average.",
+   "options": [
+    {
+     "text": "6.5",
+     "added": false
+    },
+    {
+     "text": "7.5",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "6.8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "replacement-effect",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "P and Q can complete a work in 8 days, Q and R in 12 days, and R and P in 15 days. How many days will R alone take to complete the work?",
+   "options": [
+    {
+     "text": "90",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    },
+    {
+     "text": "80",
+     "added": false
+    },
+    {
+     "text": "70",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Anish can do a piece of work in 88 days. Yug can do this work in 66 days. Anish started the work alone. After how many days should Yug join him, so that the work is finished in 44 days?",
+   "options": [
+    {
+     "text": "13 days",
+     "added": false
+    },
+    {
+     "text": "11 days",
+     "added": false
+    },
+    {
+     "text": "15 days",
+     "added": false
+    },
+    {
+     "text": "12 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A, B and C are three batsmen of a cricket team. Given is the ratio of the runs scored by them in a certain match. A ∶ B = 6 : 7 and B ∶ C = 5 ∶ 6. At the end of the match, A, B and C together scored 856 runs. The number of runs scored by B is:",
+   "options": [
+    {
+     "text": "265",
+     "added": false
+    },
+    {
+     "text": "280",
+     "added": false
+    },
+    {
+     "text": "216",
+     "added": false
+    },
+    {
+     "text": "224",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "If each side of a cube is increased by 15%, then the volume of the cube will increase by : (Consider integral part only)",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "A dealer buys an old car listed at ₹85,000 and gets successive discounts of 20% and 10%. He spends ₹3,800 on its repairs and sells it at a profit of 20%. Find the selling price of the car.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "successive-transactions",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Compound interest is charged on a certain sum for 2 years at 10% rate per annum, compounding annually. If the amount becomes ₹605, then the principal (in ₹) is:",
+   "options": [
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "550",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    },
+    {
+     "text": "650",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "In a city, there are 12000 voters. Out of them, 30% voted for A, 25% voted for B and 40% voted for C. Determine the number of voters that did not vote for any of these three participants.",
+   "options": [
+    {
+     "text": "800",
+     "added": false
+    },
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    },
+    {
+     "text": "500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "After allowing a discount of 10% on its marked price, the value of a washing machine is Rs.28,800. If no discount is allowed, then the shopkeeper gains 25%. The cost price of the washing machine is:",
+   "options": [
+    {
+     "text": "Rs.26,200",
+     "added": false
+    },
+    {
+     "text": "Rs.28,000",
+     "added": false
+    },
+    {
+     "text": "Rs.25,600",
+     "added": false
+    },
+    {
+     "text": "Rs.26,600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "An equilateral triangle with side a units is cut on the vertices to make it a regular hexagon. What is the area of the hexagon?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Two trains start at the same time from two stations and proceed toward each other at the speed of 40 km/h and 45 km/h, respectively. When they meet, it is found that one train has travelled 20 km more than the other. Find the distance between the two stations.",
+   "options": [
+    {
+     "text": "390 km",
+     "added": false
+    },
+    {
+     "text": "400 km",
+     "added": false
+    },
+    {
+     "text": "395 km",
+     "added": false
+    },
+    {
+     "text": "340 km",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trains",
+   "sub": "two-trains",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "A, B and C invested ₹10,000, ₹15,000 and ₹20,000 respectively. After one year each of A and B invested ₹5,000 more, while C withdrew ₹10,000. What will be the ratio of profit of A, B and C after three years from starting?",
+   "options": [
+    {
+     "text": "8 : 11 : 8",
+     "added": false
+    },
+    {
+     "text": "2 : 2 : 4",
+     "added": false
+    },
+    {
+     "text": "2 : 3 : 4",
+     "added": false
+    },
+    {
+     "text": "8 : 8 : 11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Simplify the following. 15.2625 − [5.2 + 0.25 × (4.78 − 1.5 × 3.02)]",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A train starts from station P, runs through stations Q, R, S, T and reaches station U. It stops at stations Q, R, S and T for 2 minutes, 4 minutes, 6 minutes, and 8 minutes, respectively. The distance between P and U is 50 km. What is the average speed of the train between stations P and U (in km/h), if it runs for 70 minutes between the stations, with uniform speed?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The compound interest on ₹10,00,000 at 3% per annum, compounding annually is ₹92,727. The number of years required for this is:",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 313,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

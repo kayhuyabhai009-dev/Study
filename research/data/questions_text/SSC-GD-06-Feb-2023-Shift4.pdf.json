@@ -1,0 +1,559 @@
+{
+ "paper": "SSC-GD-06-Feb-2023-Shift4.pdf",
+ "status": "ok",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In a certain rectangle, the ratio of length to width of the rectangle is 3 : 2 and the area is 150 cm2. The perimeter of the rectangle is:",
+   "options": [
+    {
+     "text": "25 cm",
+     "added": false
+    },
+    {
+     "text": "50 cm",
+     "added": false
+    },
+    {
+     "text": "100 cm",
+     "added": false
+    },
+    {
+     "text": "30 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Mukesh took some loan from a bank at the rate of 5% per annum compounded annually. If he cleared his loan by paying ₹7,05,600 at the end of 2 years, then what was the amount of loan that he had taken?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A motor-cycle covers 50 km with a speed of 25 km/hr. What must be the speed of the motor-cycle for the next 50 km journey so that the average speed of the whole journey is 30 km/hr?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "If A is the average of first 5 natural numbers and B is the average of first 5 natural numbers which are perfect squares, then what is the average of A and B?",
+   "options": [
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A sum of money is lent out at compound interest rate of 20% per annum, compounding annually for two years. It would fetch ₹3,133 more interest, if interest is compounding half yearly. Find the sum.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "compounding-frequency",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "20 men can finish a piece of work in 5 days, whereas it takes 24 women to finish it in 5 days. If 30 men and 12 women undertake to complete the work, how many days will they take to complete it?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1.5",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "2.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "The diameter and height of a cylindrical tower are 10 m and 21m, respectively. What will be the cost of painting its curved surface, at the rate of Rs.8 per m2? (Use π = 22/7)",
+   "options": [
+    {
+     "text": "Rs.4,980",
+     "added": false
+    },
+    {
+     "text": "Rs.5,280",
+     "added": false
+    },
+    {
+     "text": "Rs.5,490",
+     "added": false
+    },
+    {
+     "text": "Rs.5,130",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The Rajdhani train travels in a straight line at a constant speed of 75 km/h for a particular distance ‘d’ and then travels another distance equal to ‘2d’ at a constant speed of 100 km/h in the same direction as earlier. Find the average speed of the train during the whole journey?",
+   "options": [
+    {
+     "text": "84 km/h",
+     "added": false
+    },
+    {
+     "text": "90 km/h",
+     "added": false
+    },
+    {
+     "text": "96 km/h",
+     "added": false
+    },
+    {
+     "text": "88 km/h",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "In a school, the ratio of boys to girls is 7 : 11. If there are 3420 students in the school, then how many girls are there in the school? (There are only boys and girls in the school.)",
+   "options": [
+    {
+     "text": "1330",
+     "added": false
+    },
+    {
+     "text": "2090",
+     "added": false
+    },
+    {
+     "text": "902",
+     "added": false
+    },
+    {
+     "text": "760",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "If the radius of the base and the height of a cylinder are 11cm and 21 cm respectively, then what is the volume of the cylinder? (Use π = 22/7)",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Applied to a bill for Rs. 10000 the difference between a discount of 30 percent and two successive discounts of 22 percent and 8 percent is:",
+   "options": [
+    {
+     "text": "Rs. 138",
+     "added": false
+    },
+    {
+     "text": "Rs. 144",
+     "added": false
+    },
+    {
+     "text": "Rs. 176",
+     "added": false
+    },
+    {
+     "text": "Rs. 124",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The ratio of the salaries of A and B is 4 : 5 and the ratio of their expenditures is 5 : 6. If both save ₹200 and ₹300, respectively, then what is the salary of A?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The greatest number, by which when the numbers 1658 and 2038 are divided, the remainders are 7 and 6, respectively, is:",
+   "options": [
+    {
+     "text": "112",
+     "added": false
+    },
+    {
+     "text": "127",
+     "added": false
+    },
+    {
+     "text": "117",
+     "added": false
+    },
+    {
+     "text": "137",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "remainder-based",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A trader mixes 26 kg of raw salt which costs Rs.2 per kg with 30 kg of raw salt which costs Rs.3.60 per kg. If he sells the mixture for Rs.3 per kg, find his gain%.",
+   "options": [
+    {
+     "text": "8%",
+     "added": false
+    },
+    {
+     "text": "3%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "5%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "A, B, and C can complete a work in 4 days, 8 days, and 16 days respectively. If all three work on alternate days such that A works on first day, B works on second day, C works on third day and A works on fourth day and so on, then find the number of days in which 175% of the work is done.",
+   "options": [
+    {
+     "text": "12 days",
+     "added": false
+    },
+    {
+     "text": "5 days",
+     "added": false
+    },
+    {
+     "text": "9 days",
+     "added": false
+    },
+    {
+     "text": "11 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Two successive price increases of 5% and 5% of an article are equivalent to a single price increase of:",
+   "options": [
+    {
+     "text": "10.25%",
+     "added": false
+    },
+    {
+     "text": "10.50%",
+     "added": false
+    },
+    {
+     "text": "10.00%",
+     "added": false
+    },
+    {
+     "text": "9.75%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "In which ratio a trader must mix two quantities of ₹18 per kg and ₹27 per kg, so that the price of the mixture becomes ₹25 per kg?",
+   "options": [
+    {
+     "text": "1 : 7",
+     "added": false
+    },
+    {
+     "text": "3 : 7",
+     "added": false
+    },
+    {
+     "text": "2 : 7",
+     "added": false
+    },
+    {
+     "text": "2 : 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "A man purchased 25 litres of milk at the cost price of Rs.25 per litre. Now he added 5 litres of water to it and sold the mixture at the cost price. Find the profit percentage for the man.",
+   "options": [
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "25%",
+     "added": false
+    },
+    {
+     "text": "15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "A discount of 20% on one article is the same as a discount of 25% on another article. The marked price of article can be?",
+   "options": [
+    {
+     "text": "₹100 and ₹120",
+     "added": false
+    },
+    {
+     "text": "₹100 and ₹60",
+     "added": false
+    },
+    {
+     "text": "₹100 and ₹80",
+     "added": false
+    },
+    {
+     "text": "₹100 and ₹40",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Which number is one less than the sum of all the prime factors of 2310?",
+   "options": [
+    {
+     "text": "33",
+     "added": false
+    },
+    {
+     "text": "29",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "factors-divisors",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 331,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

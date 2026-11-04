@@ -1,0 +1,516 @@
+{
+ "paper": "CHSL-Tier1-09-Aug-2023-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Qt diat+i3b4+iset Ifa? + b? + c2 = ab + be + ca, then the value of ——=~—*-> =\" __ js: 16 a? b?+19b?c?+17c7a?",
+   "options": [
+    {
+     "text": "x 14= 3 1",
+     "added": false
+    },
+    {
+     "text": "4 =",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "3 x4. 4- 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The pie chart shows the cost of construction of a house . (in degrees) The amount spent on labour exceeds the amount spent on cement by:",
+   "options": [
+    {
+     "text": "18% of the total cost",
+     "added": false
+    },
+    {
+     "text": "5% of the total cost",
+     "added": false
+    },
+    {
+     "text": "12% of the total cost",
+     "added": false
+    },
+    {
+     "text": "10% of the total cost",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Find the length of a tangent drawn to a circle with radius 8 cm froma point 17 cm from the centre of the circle.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "The average of 18 integers is found to be 41. It was detected that by mistake the integer 127 was copied as 341, while calculating the average. Then the correct average is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Simplify: 1 [= of (35-5) +4]?— [9 - {7 + (2-3)} +5)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Onan item having a marked price of 21,600, successive discounts of y% and z% were offered. As a result, the item was sold for 21,056, Which of the options below CANNOT be a set of values for y and 2?",
+   "options": [
+    {
+     "text": "y=22,2=15.5",
+     "added": false
+    },
+    {
+     "text": "y=4,2= 31.25",
+     "added": false
+    },
+    {
+     "text": "y=20)25.17.5",
+     "added": false
+    },
+    {
+     "text": "y=12,z=25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "",
+   "options": [],
+   "options_source": "missing",
+   "image_only": true,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Simplify the expression: (c+ d)? — (c—d)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Aastha spends 15% of her total income on travelling and 20% of the rest income on food and then donates 2380 and after that, she saves 22,000. Find her total income (in 2),",
+   "options": [
+    {
+     "text": "3,500",
+     "added": false
+    },
+    {
+     "text": "3,650",
+     "added": false
+    },
+    {
+     "text": "3,800",
+     "added": false
+    },
+    {
+     "text": "3,600",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "income-expenditure",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The lengths of the two sides of a triangle are 14 cm and 9 cm. Which of the options below can be the length of the third side?",
+   "options": [
+    {
+     "text": "17cm",
+     "added": false
+    },
+    {
+     "text": "23cm",
+     "added": false
+    },
+    {
+     "text": "24cm",
+     "added": false
+    },
+    {
+     "text": "5cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The marked price of a school bag was %550. This price was 10% above the cost price. It was sold at a discount of 10% on the marked price. Find the gain or loss percentage.",
+   "options": [
+    {
+     "text": "Loss 1%",
+     "added": false
+    },
+    {
+     "text": "Loss 0.1%",
+     "added": false
+    },
+    {
+     "text": "Gain 0.1%",
+     "added": false
+    },
+    {
+     "text": "Gainl%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "3 . 1+sin8 Tan © =-, find the value of expression ———: 4 1-sin8",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Whar is the present value of 29,360 at an interest rate 20% at the end of two years compounded annually?",
+   "options": [
+    {
+     "text": "36,400",
+     "added": false
+    },
+    {
+     "text": "36,450",
+     "added": false
+    },
+    {
+     "text": "6,500",
+     "added": false
+    },
+    {
+     "text": "36,550",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ashopkeeper marked the price 18% more than its cost price. If he allows a discount of 24%, then find his loss per cent.",
+   "options": [
+    {
+     "text": "16.43%",
+     "added": false
+    },
+    {
+     "text": "15.75%",
+     "added": false
+    },
+    {
+     "text": "10.32%",
+     "added": false
+    },
+    {
+     "text": "12.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "One litre milk costs %40. Water is mixed with milk and the mixture was sold at %30 per litre. Find the ratio of water and milk in the mixture.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "A ABC is an equilateral triangle. The side BC is produced to point D. If A joines D and BC=CD, then the degree measure of angle CAD is equal to:",
+   "options": [
+    {
+     "text": "30°",
+     "added": false
+    },
+    {
+     "text": "15°",
+     "added": false
+    },
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "18°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "a7 Simplify the following: 7(cot 11° cot 13° cot 19° cot 29° cot 61° cot 71° cot 77° cot 79°)",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "-7",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Ifa+b+c=13 and ab+be + ca=45, find a2 + b? + 2,",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Study the following graph and answer the question given below: f In 1997, percentage of households using various household utilities in USA »| i ae “t in lt fe Mnermacnne 8 = In 1997, if the total number of households was 830 million, then what would be the number of households (in million) having RO?",
+   "options": [
+    {
+     "text": "332",
+     "added": false
+    },
+    {
+     "text": "525",
+     "added": false
+    },
+    {
+     "text": "209",
+     "added": false
+    },
+    {
+     "text": "419",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "The marked price of 85 items was equal to the cost price of 153 items. The selling price of 104 items was equal to the marked price of 65 items. Calculate the percentage profit or loss from the sale of each item.",
+   "options": [
+    {
+     "text": "12.5% loss",
+     "added": false
+    },
+    {
+     "text": "12.5% profit",
+     "added": false
+    },
+    {
+     "text": "15% profit",
+     "added": false
+    },
+    {
+     "text": "12.25% profit",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "How long will it take for a sum of %450 to accumulate 781 in interest at a simple interest rate of 4.5% per annum ?",
+   "options": [
+    {
+     "text": "4.5 years",
+     "added": false
+    },
+    {
+     "text": "4years",
+     "added": false
+    },
+    {
+     "text": "3 years",
+     "added": false
+    },
+    {
+     "text": "3.5 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The ratio of Ram's salary to Shyam’s salary is 3 : 4. The ratio of Shyam’s salary to Ghanshyam’s salary is 5 : 6. What will be the ratio of Ram’s salary to Ghanshyam’s salary?",
+   "options": [
+    {
+     "text": "3:5",
+     "added": false
+    },
+    {
+     "text": "5:8",
+     "added": false
+    },
+    {
+     "text": "4:5",
+     "added": false
+    },
+    {
+     "text": "3:8",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "The length, breath of a cuboidal box are 25 cm and 15 cm, respectively. If the volume of the box is 1875 cm?, then the height of the box (in em) is:",
+   "options": [
+    {
+     "text": "4.0",
+     "added": false
+    },
+    {
+     "text": "35.0",
+     "added": false
+    },
+    {
+     "text": "5.5",
+     "added": false
+    },
+    {
+     "text": "4.5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Study the given table and answer the question that follows. The table indicates the number of students studying in three disciplines in four colleges. Piscptines [| ____Colleges | [A |B [c |p | [Statistics _| 250 [ 320 | 400 | 250 | [Home Science | 320 | 340 | 300 | 450 Which college has the maximum number of students in Statistics?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "Imacircle, two chords AB and CD intersect each other internally at point P. If AB = 16 cm, PB = 6 cm and PD = 12 cm. then the value of PC (in cm) is equal to:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  }
+ ]
+}

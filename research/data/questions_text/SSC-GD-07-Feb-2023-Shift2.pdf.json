@@ -1,0 +1,505 @@
+{
+ "paper": "SSC-GD-07-Feb-2023-Shift2.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 20,
+ "questions": [
+  {
+   "n": 1,
+   "text": "40 men can complete a work in 15 days. They started working, and after 5 days 10 more men joined them. In how many days will the total work be completed?",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "11",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The ticket of an IPL match in Chennai was ₹2,500. When the price of the ticket was lowered, the sale(number of tickets) of the tickets was increased by 50%, but the revenue noticed a reduction of 15%. What was the reduced price of the ticket (rounded off to two decimal places)?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "increase-decrease",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A mixture of milk and water contains 18 parts of milk and 8 parts of water. How much fraction of the mixture should be removed and replaced by water so the ratio of water and milk are equal?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "replacement",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "If the height of a cylinder is increased by 25%, and the radius of its base is decreased by 15%, then find the percentage increase/decrease in its curved surface area.",
+   "options": [
+    {
+     "text": "increases 3.25%",
+     "added": false
+    },
+    {
+     "text": "decreases 4.15%",
+     "added": false
+    },
+    {
+     "text": "decreases 2.23%",
+     "added": false
+    },
+    {
+     "text": "increases 6.25%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "A sum of ₹1,20,000 was invested in a fixed deposit in the year 2019 at the rate of 12% per annum compounding annually. What will its approximate value be in the year 2022?",
+   "options": [
+    {
+     "text": "₹1,68,591",
+     "added": false
+    },
+    {
+     "text": "₹1,43,200",
+     "added": false
+    },
+    {
+     "text": "₹1,61,253",
+     "added": false
+    },
+    {
+     "text": "₹1,56,400",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "A and B working together can finish a project in 16 days while B alone can do it in 24 days. In how many days can A alone finish the project?",
+   "options": [
+    {
+     "text": "36 days",
+     "added": false
+    },
+    {
+     "text": "44 days",
+     "added": false
+    },
+    {
+     "text": "48 days",
+     "added": false
+    },
+    {
+     "text": "42 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "A policeman spots a thief 120 m ahead, immediately the policeman starts chasing the thief. The policeman runs 26 m in a minute and the thief runs 20 m in a minute. In what time will the policeman catch the thief?",
+   "options": [
+    {
+     "text": "21 min",
+     "added": false
+    },
+    {
+     "text": "20 min",
+     "added": false
+    },
+    {
+     "text": "19 min",
+     "added": false
+    },
+    {
+     "text": "18 min",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "An almirah was bought for ₹15,500 and ₹260 was spent on its transportation. At what price should it be sold to gain 20%?",
+   "options": [
+    {
+     "text": "₹18912",
+     "added": false
+    },
+    {
+     "text": "₹18916",
+     "added": false
+    },
+    {
+     "text": "₹18914",
+     "added": false
+    },
+    {
+     "text": "₹18910",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "A thief is observed by a policeman from a distance of 420 m. The thief starts running and the policeman chases him. The policeman and the thief run at a speed of 25 km/h and 20 km/h, respectively. What is the distance between them after three minutes?",
+   "options": [
+    {
+     "text": "250 m",
+     "added": false
+    },
+    {
+     "text": "320 m",
+     "added": false
+    },
+    {
+     "text": "230 m",
+     "added": false
+    },
+    {
+     "text": "170 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "If the LCM of the first 110 natural numbers is N, then find the LCM of the first 115 natural numbers.",
+   "options": [
+    {
+     "text": "111× 112×113×114 ×115N",
+     "added": false
+    },
+    {
+     "text": "113N",
+     "added": false
+    },
+    {
+     "text": "115N",
+     "added": false
+    },
+    {
+     "text": "111×113N",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "A shopkeeper is selling a gift packet of fruits in which he is mixing apples and mangoes. The packet contains total of 12 kg fruits at an average rate of ₹100 per kg. In the packet there are 8 kg of apples at the rate of ₹90 per kg, while there are 4 kg of mangoes at the rate of ₹X per kg. Find the value of ‘X’. Note: All other charges are to be ignored for packing.",
+   "options": [
+    {
+     "text": "95",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "110",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "mixture-price",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A sum of money becomes Rs.4,900 in 3 years and Rs.6,400 in 5 years on compound interest, compounded annually. Find the rate of interest p.a.",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Compound Interest",
+   "sub": "ci-formula",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "If 12 men can build a wall 60 metres long in 5 days, then what length of a similar wall can be built by 24 men in 2 days?",
+   "options": [
+    {
+     "text": "48 metres",
+     "added": false
+    },
+    {
+     "text": "44 metres",
+     "added": false
+    },
+    {
+     "text": "46 metres",
+     "added": false
+    },
+    {
+     "text": "42 metres",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Ramesh was receiving two offers on a book with a marked price of ₹800. Either two successive discounts of 20% each, or two successive discounts of 30% and 10%. How much more must Ramesh have saved if he chose the superior scheme over the other?",
+   "options": [
+    {
+     "text": "₹6",
+     "added": false
+    },
+    {
+     "text": "₹8",
+     "added": false
+    },
+    {
+     "text": "₹16",
+     "added": false
+    },
+    {
+     "text": "₹20",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The profit percentage made on an item sold for Rs.1,920 is equal to the loss percentage made on selling the same item for Rs.1,280. What should the item be sold for in order to make a 25% profit?",
+   "options": [
+    {
+     "text": "Rs.1,940",
+     "added": false
+    },
+    {
+     "text": "Rs.2,020",
+     "added": false
+    },
+    {
+     "text": "Rs.2,000",
+     "added": false
+    },
+    {
+     "text": "Rs.1,960",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "When the price of a Bluetooth earphone is increased by 12%, its sale(number of Bluetooth earphones) is reduced by 20%. What is the net impact on its revenue?",
+   "options": [
+    {
+     "text": "14.0% decrement",
+     "added": false
+    },
+    {
+     "text": "10.4% increment",
+     "added": false
+    },
+    {
+     "text": "14.0% increment",
+     "added": false
+    },
+    {
+     "text": "10.4% decrement",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "An electronic shop is giving 20% discount on the purchase of any electronic device having price ₹80,000 or above, 16% discount on the items priced between ₹50,000 and ₹79,999, 10% discount on items ranging from ₹20,000 to ₹49,999, and 3% discount on purchase of any mobile accessories such as mobile covers, earphones, chargers, etc. As per terms and conditions, all these discounts are independent and are offered only on the basis of price range. Ajay bought a mobile of price ₹40,000, a laptop of ₹90,000, and a mobile cover of ₹400. How much total discount did he get?",
+   "options": [
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    },
+    {
+     "text": "",
+     "added": false
+    }
+   ],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "single-discount",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "In 90 litres of a mixture of milk and water, the ratio of milk and water is 4 : 1. How much water should be added in the mixture so that the ratio of milk to water becomes 3 : 1?",
+   "options": [
+    {
+     "text": "5.5 litres",
+     "added": false
+    },
+    {
+     "text": "6.5 litres",
+     "added": false
+    },
+    {
+     "text": "7 litres",
+     "added": false
+    },
+    {
+     "text": "6 litres",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "milk-water-and-alloys",
+   "key_answer": null
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 100,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 319,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

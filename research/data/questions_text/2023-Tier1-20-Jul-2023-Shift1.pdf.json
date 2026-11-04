@@ -1,0 +1,648 @@
+{
+ "paper": "2023-Tier1-20-Jul-2023-Shift1.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "A shopkeeper sold a pair of headphones for %5,520 at a gain of 20%. What would have been the gain or loss percent if it had been sold for $4,370?",
+   "options": [
+    {
+     "text": "Gain 15%",
+     "added": false
+    },
+    {
+     "text": "Loss 5%",
+     "added": false
+    },
+    {
+     "text": "Gain 2%",
+     "added": false
+    },
+    {
+     "text": "Loss 10%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Ina certain year, the population of a city was 18000. If in the next year, the population of males increased by 5% and that of females increased by 7%, and the total population increased to 19200, then what was the ratio of the populations of males and females in that given year?",
+   "options": [
+    {
+     "text": "2:5",
+     "added": false
+    },
+    {
+     "text": "1:5",
+     "added": false
+    },
+    {
+     "text": "4:3",
+     "added": false
+    },
+    {
+     "text": "355",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "An inlet pipe can fill an empty tank in 120 hours while an outlet pipe drains a completely-filled tank in 54 hours. If 8 inlet pipes and 3 outlet pipes are opened simultaneously, when the tank is empty, then in how many hours will the tank get completely filled?",
+   "options": [
+    {
+     "text": "81",
+     "added": false
+    },
+    {
+     "text": "96",
+     "added": false
+    },
+    {
+     "text": "72",
+     "added": false
+    },
+    {
+     "text": "90",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": ". 3 . 2 Ifsinx = re then what is the value of tan x + cot x =?",
+   "options": [
+    {
+     "text": "00 Jf 1.— 3V91 100",
+     "added": false
+    },
+    {
+     "text": "— 2V83",
+     "added": false
+    },
+    {
+     "text": "100 7N95",
+     "added": false
+    },
+    {
+     "text": "100 - 3V85",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "The marked price of a frock is %4,500. It is to be sold at 2,400 at two successive discounts. If the first discount is 20%, then the second discount will be:",
+   "options": [
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "30% 1",
+     "added": false
+    },
+    {
+     "text": "66 = % 1",
+     "added": false
+    },
+    {
+     "text": "33 2 Yo",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Which of the following numbers is divisible by 11?",
+   "options": [
+    {
+     "text": "97174",
+     "added": false
+    },
+    {
+     "text": "56923",
+     "added": false
+    },
+    {
+     "text": "63962",
+     "added": false
+    },
+    {
+     "text": "17295",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Two trains of length 130 m and 120 m are running on parallel lines in the same direction at a speed of 40 km/h and 50 km/h, respectively. In how much time will they pass each other?",
+   "options": [
+    {
+     "text": "85sec",
+     "added": false
+    },
+    {
+     "text": "62 sec",
+     "added": false
+    },
+    {
+     "text": "63 sec",
+     "added": false
+    },
+    {
+     "text": "90 sec",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "trains",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The square of the sum of two given natural numbers is 784, while the product of the two given numbers is 192. Find the positive difference between the squares of these two given numbers.",
+   "options": [
+    {
+     "text": "512",
+     "added": false
+    },
+    {
+     "text": "122",
+     "added": false
+    },
+    {
+     "text": "400",
+     "added": false
+    },
+    {
+     "text": "112",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "9 Solve the given expression. sec?(90° — @)-cot? 6 2(sin235° + sin?55°)",
+   "options": [
+    {
+     "text": "05",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "complementary-angles",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "What is the sum of the divisors of 484 that are perfect squares?",
+   "options": [
+    {
+     "text": "125",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "610",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Study the bar graph carefully and answer the question that follows. The following bar graph shows the sale of Bluetooth earphones on online market places over the years. Sale of Bluetooth earphones (in lakhs) 100 > 0 ce fe 80 >t —_ i — 70} 68.95 — -— fo 0 | ee +O a oe ee nm ams | 20 10 ° =a . — . . ‘ 2016 2017 2018 2019 2020 2021 Find the approx. percentage increase in the sale of earphones from 2017 to 2020.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "C1 and C2 are two concentric circles such that the radius of C2 is less than the radius of C1. If AB is the chord of C1 of length 12 cm, touching C2 at P, find the length of AP.",
+   "options": [
+    {
+     "text": "9cm",
+     "added": false
+    },
+    {
+     "text": "10.5 cm",
+     "added": false
+    },
+    {
+     "text": "8m",
+     "added": false
+    },
+    {
+     "text": "6cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Tn the given figure, the length of arc AB is equal to 3 times radius r of the circle. O Find the area of sector OAB in terms of radius r.",
+   "options": [
+    {
+     "text": "1517",
+     "added": false
+    },
+    {
+     "text": "2517 a0",
+     "added": false
+    },
+    {
+     "text": "7f 2",
+     "added": false
+    },
+    {
+     "text": "377",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "The average age of a group of friends is 27 years. If 4 new friends whose average age is 25 years join them, the average age of the entire group becomes 26 years. How many people were there in the group initially?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "| \" . P-m? : Simplify the expression rs. provided (1+ m) + 0.",
+   "options": [
+    {
+     "text": "—— l—m l—m",
+     "added": false
+    },
+    {
+     "text": "—— 1+m",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "cosec 2910°+ sec 4260° + tan 2565° + cot 1755° = ?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "a.17 If (a3 + b3 +c3 —3abe) = 405, and (a+b +c) = 15, find the value of (a — b)? + (b—c)? + (c— a).",
+   "options": [
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "54",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Radhika owns 2 dogs, 3 rabbits and 4 parrots as pets. What is the ratio of the number of rabbits to the total number of pets Radhika owns?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "PT is a tangent to a circle whose centre is O, and where T is a point on the circle. If PT = 12 cm and PO = 13 cm, then find the radius of the circle.",
+   "options": [
+    {
+     "text": "4cm",
+     "added": false
+    },
+    {
+     "text": "6cm",
+     "added": false
+    },
+    {
+     "text": "4.5cm",
+     "added": false
+    },
+    {
+     "text": "5cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "A and B can individually complete a piece of work in 18 days and 30 days, respectively. A and B started working together, but A left 16= days before the work is completed and B alone completed the rest of the work. For how many days did A work?",
+   "options": [
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "5",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "A boat can go 60 km downstream and 40 km upstream in 12 hours 30 minutes. It can go 84 km downstream and 63 km upstream in 18 hours 54 minutes. What is the speed (in km/h, to the nearest integer) of the boat in still water?",
+   "options": [
+    {
+     "text": "7",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Boats-Streams",
+   "sub": "upstream-downstream",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "study the given table and answer the question that follows. ‘The table shows the number of candidates who appeared (App), qualified (Qual) and were selected (Sel) in a competitive examination from four states Delhi, Goa, Karnataka, and Maharashtra over the years 2012 to 2016. [Wears] Delhi [Goa [Karnataka [Maharashtra | [2012 | 8000/80 [94 |7800/si0 |82_[7500|720 [78 | 8200/ 680 | 85 | | 2013 | 4800| S00 | 48 |7500| 800 | 65_| S600] 620 | 85_| 6800/ 600 | 70_| |2014 | 9500[ 850 [90 |ssoo|920 [86 [7000] 650 |70 [780/720 [84 _| [2015 | 9000|s00 [70 |[7200|8s0 [75 [ssoa/oso |s0 | 5700/ 485 | 60 | [2016 | 7500] 640 | 827400] s60 [70 |4800| 400. | 48 | 600/525 | 65_| The percentage of candidates that qualified from Goa over those that appeared from Goa is highest in the year F;",
+   "options": [
+    {
+     "text": "2013",
+     "added": false
+    },
+    {
+     "text": "2014",
+     "added": false
+    },
+    {
+     "text": "2012",
+     "added": false
+    },
+    {
+     "text": "2015",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "23 Bi as 2 A s 7 a A sum of money becomes = of itself in 2 years at a certain rate of simple interest. The rate per annum is:",
+   "options": [
+    {
+     "text": "6=% 7 1o",
+     "added": false
+    },
+    {
+     "text": "&% 7 1o",
+     "added": false
+    },
+    {
+     "text": "os % 39",
+     "added": false
+    },
+    {
+     "text": "7 = %",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "0.24 Three cubes with sides in the ratio of 3 : 4: 5 are melted to forma single cube whose diagonal is 183 cm. The sides of the three cubes are:",
+   "options": [
+    {
+     "text": "21.cm, 28 cmand 35cm",
+     "added": false
+    },
+    {
+     "text": "9m, 12 cm and 15 cm",
+     "added": false
+    },
+    {
+     "text": "18cm, 24 cm and 30 cm",
+     "added": false
+    },
+    {
+     "text": "12cm, 16 cm and 20 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "If one man or two women or three boys can finish a work in 121 days, then how many days will one man, one woman and one boy together take to finish the same work?",
+   "options": [
+    {
+     "text": "66",
+     "added": false
+    },
+    {
+     "text": "44",
+     "added": false
+    },
+    {
+     "text": "88",
+     "added": false
+    },
+    {
+     "text": "55",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  }
+ ]
+}

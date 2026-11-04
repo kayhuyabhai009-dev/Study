@@ -1,0 +1,703 @@
+{
+ "paper": "RRB-NTPC-Graduate-CBT1-16-Mar-2026-Shift3.pdf",
+ "status": "ok",
+ "mode": "answer-anchored",
+ "source_pdf": "RRB_NTPC_2025_Graduation_Level_Answer_Key_16th_March_Shift_3.pdf",
+ "tagged_count": 26,
+ "questions": [
+  {
+   "n": 1,
+   "text": "In the figure given, parallel lines, AB and CD, are intercepted by a transversal t at E and F, respectively. If EG is the angle bisector of ∠AEF, find ∠EGF.",
+   "options": [
+    {
+     "text": "35o",
+     "added": false
+    },
+    {
+     "text": "85o",
+     "added": false
+    },
+    {
+     "text": "60o",
+     "added": false
+    },
+    {
+     "text": "90o",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": "False",
+   "topic": "Geometry",
+   "sub": "lines-and-angles",
+   "key_answer": "60o"
+  },
+  {
+   "n": 2,
+   "text": "During a sale 50% of the goods are sold at 16% profit, 40% of the remaining goods are sold at 35% profit and the still remaining goods are sold at a loss of 25%. If there is an overall profit of x%, then what is the value of x?",
+   "options": [
+    {
+     "text": "7.5",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "7.5"
+  },
+  {
+   "n": 3,
+   "text": "Under which Article does the Supreme Court have the power of judicial review?",
+   "options": [
+    {
+     "text": "Article 30",
+     "added": false
+    },
+    {
+     "text": "Article 72",
+     "added": false
+    },
+    {
+     "text": "Article 32",
+     "added": false
+    },
+    {
+     "text": "Article 124",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "3:1"
+  },
+  {
+   "n": 4,
+   "text": "DIME is related to HNIZ in a certain way based on the English alphabetical order. In the same way, LSEU is related to PXAP. To which of the following is TCWK related, following the same logic?10946",
+   "options": [
+    {
+     "text": "YGTE",
+     "added": false
+    },
+    {
+     "text": "WIRG",
+     "added": false
+    },
+    {
+     "text": "VHSD",
+     "added": false
+    },
+    {
+     "text": "XHSF",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "60%"
+  },
+  {
+   "n": 5,
+   "text": "A shopkeeper purchased 62 dozens of articles at the rate of ₹100 per dozen. He sold each one of them at the rate of ₹75. What percentage profit did he make?722",
+   "options": [
+    {
+     "text": "800%",
+     "added": false
+    },
+    {
+     "text": "801%",
+     "added": false
+    },
+    {
+     "text": "797%",
+     "added": false
+    },
+    {
+     "text": "798%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "800%"
+  },
+  {
+   "n": 6,
+   "text": "Find the average of 312, 126, 100 and 99.",
+   "options": [
+    {
+     "text": "157.25",
+     "added": false
+    },
+    {
+     "text": "159.25",
+     "added": false
+    },
+    {
+     "text": "156.25",
+     "added": false
+    },
+    {
+     "text": "158.25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "159.25"
+  },
+  {
+   "n": 7,
+   "text": "There are 72 members in group A, 12 members in group B and 87 members in group C. All the members of these groups went to a restaurant. The average amounts spent on each member of groups A, B and C are ₹404, ₹316 and ₹424, respectively. The overall average amount (in ₹) spent per member is:",
+   "options": [
+    {
+     "text": "404",
+     "added": false
+    },
+    {
+     "text": "412",
+     "added": false
+    },
+    {
+     "text": "408",
+     "added": false
+    },
+    {
+     "text": "409",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "408"
+  },
+  {
+   "n": 8,
+   "text": "If 160% of 75% of A is equal to two times the value of 150% of B, then A is more/less than B by how much percentage?",
+   "options": [
+    {
+     "text": "150%, less",
+     "added": false
+    },
+    {
+     "text": "150%, more",
+     "added": false
+    },
+    {
+     "text": "60%, less",
+     "added": false
+    },
+    {
+     "text": "60%, more",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "150%, more"
+  },
+  {
+   "n": 9,
+   "text": "Which of the following will be the pressure of water at the base of a lake of height 20 metres? (g = 9.8m/s2 and Density of water = 1 kg/litre)",
+   "options": [
+    {
+     "text": "19,600 Pa",
+     "added": false
+    },
+    {
+     "text": "196 Pa",
+     "added": false
+    },
+    {
+     "text": "1,96,000 Pa",
+     "added": false
+    },
+    {
+     "text": "1960 Pa",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "1,96,000 Pa"
+  },
+  {
+   "n": 10,
+   "text": "Three positive integers, A, B, and C, are such that the least common multiple of A and B is 24, the least common multiple of B and C is 36, and the least common multiple of C and A is 72. If the numbers are taken to be as small as possible, the value of A + B + C is:",
+   "options": [
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "29",
+     "added": false
+    },
+    {
+     "text": "31",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "29"
+  },
+  {
+   "n": 11,
+   "text": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation? 9 B 4 C 6 D 45 A 5 = ?",
+   "options": [
+    {
+     "text": "34",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "31",
+     "added": false
+    },
+    {
+     "text": "33",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": "33"
+  },
+  {
+   "n": 12,
+   "text": "Find the length of the ladder if the angle of elevation of the ladder against a wall is 60° and the foot of the ladder is 11.5 m away from the wall.",
+   "options": [
+    {
+     "text": "23 m",
+     "added": false
+    },
+    {
+     "text": "11.5 m",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "heights-and-distances",
+   "key_answer": "23 m"
+  },
+  {
+   "n": 13,
+   "text": "If 4 : 28 :: 4.1 : x and 4 : 32 :: 3 : y, then what is the ratio of x to y?",
+   "options": [
+    {
+     "text": "287 : 240",
+     "added": false
+    },
+    {
+     "text": "285 : 241",
+     "added": false
+    },
+    {
+     "text": "288 : 238",
+     "added": false
+    },
+    {
+     "text": "291 : 250",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "287 : 240"
+  },
+  {
+   "n": 14,
+   "text": "Madhu and Madhuri start a business by investing in the ratio 31 : 34. If total profit is ₹44,850, then what is the difference between the shares of profit (in ₹) of Madhu and Madhuri?",
+   "options": [
+    {
+     "text": "₹3,570",
+     "added": false
+    },
+    {
+     "text": "₹1,570",
+     "added": false
+    },
+    {
+     "text": "₹570",
+     "added": false
+    },
+    {
+     "text": "₹2,070",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "₹2,070"
+  },
+  {
+   "n": 15,
+   "text": "100 men have provisions for 27 days. If 55 men have left, for how many days the same provisions would last for the remaining men?",
+   "options": [
+    {
+     "text": "60",
+     "added": false
+    },
+    {
+     "text": "64",
+     "added": false
+    },
+    {
+     "text": "62",
+     "added": false
+    },
+    {
+     "text": "58",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": "False",
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "60"
+  },
+  {
+   "n": 16,
+   "text": "Preparation of report cards, maintaining student records, and creating question papers are actions that are mainly related to which area of computer application?",
+   "options": [
+    {
+     "text": "Space research",
+     "added": false
+    },
+    {
+     "text": "Education administration",
+     "added": false
+    },
+    {
+     "text": "Business marketing",
+     "added": false
+    },
+    {
+     "text": "Automobile control",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": "Education administration"
+  },
+  {
+   "n": 17,
+   "text": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements. Statements: All gardens are forests. All forests are meadows. No garden is a park. Conclusions: (I) No forest is a park. (II) No meadow is a park.",
+   "options": [
+    {
+     "text": "Neither conclusion (I) nor (II) follows",
+     "added": false
+    },
+    {
+     "text": "Only conclusion (I) follows",
+     "added": false
+    },
+    {
+     "text": "Both conclusions (I) and (II) follow",
+     "added": false
+    },
+    {
+     "text": "Only conclusion (II) follows",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": "6"
+  },
+  {
+   "n": 18,
+   "text": "Find the mode of the following frequency distribution. (Round off the answer to two decimal places.) Class 0-10 10-20 20-30 30-40 40-50 Frequency 5 8 12 20 10",
+   "options": [
+    {
+     "text": "32.25",
+     "added": false
+    },
+    {
+     "text": "31.51",
+     "added": false
+    },
+    {
+     "text": "33.35",
+     "added": false
+    },
+    {
+     "text": "34.44",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "34.44"
+  },
+  {
+   "n": 19,
+   "text": "If ‘A’ stands for ‘÷’, ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘−’, then what will come in place of the question mark (?) in the following equation? 9 B 4 C 6 D 45 A 5 = ?",
+   "options": [
+    {
+     "text": "34",
+     "added": false
+    },
+    {
+     "text": "32",
+     "added": false
+    },
+    {
+     "text": "31",
+     "added": false
+    },
+    {
+     "text": "33",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "34"
+  },
+  {
+   "n": 20,
+   "text": "Which of the following is NOT regarded as an advantage of the LPG reforms in India?",
+   "options": [
+    {
+     "text": "Expansion of the private sector",
+     "added": false
+    },
+    {
+     "text": "Rise in trade restrictions",
+     "added": false
+    },
+    {
+     "text": "Adoption of advanced technologies",
+     "added": false
+    },
+    {
+     "text": "Boost in international partnerships",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "64 km/h"
+  },
+  {
+   "n": 21,
+   "text": "The total surface area of a solid cube each side of which is 84 cm long is:",
+   "options": [
+    {
+     "text": "42365 cm2",
+     "added": false
+    },
+    {
+     "text": "42292 cm2",
+     "added": false
+    },
+    {
+     "text": "42359 cm2",
+     "added": false
+    },
+    {
+     "text": "42336 cm2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cube-cuboid",
+   "key_answer": "42336 cm2"
+  },
+  {
+   "n": 22,
+   "text": "At what rate per annum will a sum of money become five times itself in 5 years under simple interest?",
+   "options": [
+    {
+     "text": "82%",
+     "added": false
+    },
+    {
+     "text": "160%",
+     "added": false
+    },
+    {
+     "text": "80%",
+     "added": false
+    },
+    {
+     "text": "78%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "80%"
+  },
+  {
+   "n": 23,
+   "text": "In December 2025, the Punjab government directed strict enforcement of which policy to safeguard schoolchildren during dense winter fog (mandatory visibility measures, reduced speed, reflectors, headlights and fog lights)?",
+   "options": [
+    {
+     "text": "Motor Vehicles Safety Compliance Programme",
+     "added": false
+    },
+    {
+     "text": "Safe School Vehicle Policy",
+     "added": false
+    },
+    {
+     "text": "National Road Safety Policy",
+     "added": false
+    },
+    {
+     "text": "National School Safety and Security Guidelines",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": "Safe School Vehicle Policy"
+  },
+  {
+   "n": 24,
+   "text": "Shan has ₹1407 with him. He divides this amount between his two sons, Piyush and Manoj, and asks them to invest their respective shares at a compound interest rate of 10% per annum, compounded annually. It is observed that Piyush’s investment amounts to the same value after 18 years as Manoj’s investment does after 19 years. How much (in ₹) did Shan give to Manoj?",
+   "options": [
+    {
+     "text": "670",
+     "added": false
+    },
+    {
+     "text": "837",
+     "added": false
+    },
+    {
+     "text": "737",
+     "added": false
+    },
+    {
+     "text": "520",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "partnership",
+   "key_answer": "670"
+  },
+  {
+   "n": 25,
+   "text": "In an election between two candidates, 80% of the registered voters cast their vote and 10% of the votes polled were found invalid. Winning candidate got 89% of the valid votes and won the election by a margin of 351 votes. How many voters were registered?",
+   "options": [
+    {
+     "text": "625",
+     "added": false
+    },
+    {
+     "text": "650",
+     "added": false
+    },
+    {
+     "text": "600",
+     "added": false
+    },
+    {
+     "text": "675",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": "625"
+  },
+  {
+   "n": 26,
+   "text": "Each of the digits in the number 52697148 is arranged in descending order from left to right. What will be the product of the digits which are third from the left and second from the right in the number thus formed?",
+   "options": [
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "28",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "fractions-decimals",
+   "key_answer": "14"
+  }
+ ]
+}

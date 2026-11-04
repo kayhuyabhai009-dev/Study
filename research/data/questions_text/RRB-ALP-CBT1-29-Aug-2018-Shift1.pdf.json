@@ -1,0 +1,66 @@
+{
+ "paper": "RRB-ALP-CBT1-29-Aug-2018-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 22,
+ "questions": [
+  {
+   "n": 3,
+   "text": "The LCM of 14, 35 and 56 is:",
+   "options": [
+    {
+     "text": "4 280",
+     "added": false
+    },
+    {
+     "text": "140",
+     "added": false
+    },
+    {
+     "text": "210",
+     "added": false
+    },
+    {
+     "text": "560 6/27",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "280"
+  },
+  {
+   "n": 5,
+   "text": "Peet oar at A sears ar at, ww at & oars ar sien 1 aie oat aT waa at & daw & ae , at at we aT & aang Pract 32 The sum of the lengths of the edges of a cube is equal to half the perimeter of a square. If Answered the numerical value of the volume of the cube is equal to the numerical value of the area Chosen Option :-- of the square, then the length of one side of the square is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "roots",
+   "key_answer": "2"
+  },
+  {
+   "n": 19,
+   "text": "Answered Two-thirds of my current age is the same as three-fourths of that of one of my cousins’. Chosen Option :-- My age three years ago will be his age four years hence. My current age is__ years.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ages",
+   "sub": "ratio-of-ages",
+   "key_answer": "63"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.05,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 269,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

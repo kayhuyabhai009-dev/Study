@@ -1,0 +1,648 @@
+{
+ "paper": "2023-Tier1-20-Jul-2023-Shift3.pdf",
+ "status": "ok",
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "From a point Q, the length of the tangent to a circle is 20 cm and the distance of Q from the centre of the circle is 25 cm. The radius of the circle is:",
+   "options": [
+    {
+     "text": "5cm",
+     "added": false
+    },
+    {
+     "text": "10cm",
+     "added": false
+    },
+    {
+     "text": "15cm",
+     "added": false
+    },
+    {
+     "text": "12.5 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Solve the following expression. 8 + (-9- 3) -(-12- 5)",
+   "options": [
+    {
+     "text": "14",
+     "added": false
+    },
+    {
+     "text": "13",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Supraja and Kausalya can complete a work in 30 days and 20 days, respectively. If Supraja starts the work and they work on alternate days, in how many days will 75% of the work be completed?",
+   "options": [
+    {
+     "text": "28",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "alternate-days",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "AandB can do a project in 9 days. B and C can do it in 12 days while C and A can do it in 18 days. In how many days A, B and C all working together, can finish the project?",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Inacircle with centre O, PA and PB are the tangents at A and B, respectively, from an external point P. If 2APB = 24° , then find zAOB.",
+   "options": [
+    {
+     "text": "158°",
+     "added": false
+    },
+    {
+     "text": "48°",
+     "added": false
+    },
+    {
+     "text": "156°",
+     "added": false
+    },
+    {
+     "text": "180°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Aand B working together can finish a piece of work in 8 days while B alone can do it in 24 days. In how many days can A alone finish the work?",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "16",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "14",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "Aperson invests 79,840 at 5% per annum simple interest to obtain a total amount of %12,300. For how many years did he invest the sum?",
+   "options": [
+    {
+     "text": "5 years",
+     "added": false
+    },
+    {
+     "text": "4.5 years",
+     "added": false
+    },
+    {
+     "text": "3.5 years",
+     "added": false
+    },
+    {
+     "text": "3 years",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "rate-time-principal",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "P gives Qa head-start of 2 seconds in a 400 m race, but both finish the race at the same time. Find the time taken by P to finish the race if the speed of Q is 2 m/sec.",
+   "options": [
+    {
+     "text": "198 seconds",
+     "added": false
+    },
+    {
+     "text": "199 seconds",
+     "added": false
+    },
+    {
+     "text": "200 seconds",
+     "added": false
+    },
+    {
+     "text": "195 seconds",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "The price of an article is increased by r%. The new price was decreased by r% later. Now the latest price is Rs.1.What was the original price of the article?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "successive-change",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "Study the given bar-graph and answer the question that follows. Acompany provides five different products. The sales of these five products (in 1000 number of packs) during 2019 are shown in the bas-graph. Sales of different products during 2019 a gu 3. E> % 20 z 23 & 2 g is i 10 Bs ° A 8 c . — Difterent products What is the approximate ratio of sales of product A to product E in 20197",
+   "options": [
+    {
+     "text": "1:2",
+     "added": false
+    },
+    {
+     "text": "1:3",
+     "added": false
+    },
+    {
+     "text": "2:3",
+     "added": false
+    },
+    {
+     "text": "2:1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "The cost of 50 dozens of bananas is 2,400 and the transport cost per banana is 70.25, The selling price is €10 for a pair of bananas. What is the profit percentage (rounded off up to one decimal place)?",
+   "options": [
+    {
+     "text": "14.5%",
+     "added": false
+    },
+    {
+     "text": "17.6%",
+     "added": false
+    },
+    {
+     "text": "15.4%",
+     "added": false
+    },
+    {
+     "text": "16.7%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "The three sides of a triangle are 12, 17 and x units. Which of the following options is correct?",
+   "options": [
+    {
+     "text": "5<x<29",
+     "added": false
+    },
+    {
+     "text": "5sx<29",
+     "added": false
+    },
+    {
+     "text": "5<x<29",
+     "added": false
+    },
+    {
+     "text": "5<xs29",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "The following bar graph represents the demand and production for five companies, V, W, X, Y and Z.On the basis of the bar graph, answer the question. BOemand mProduction 2800 2800 2400 io zen. 2000 ooo ja 1600 1600 1200 1200) 1200 800 800 400 — ° v w x Y z If K% of the production for company X equals the demand for company W, then K equals:",
+   "options": [
+    {
+     "text": "40",
+     "added": false
+    },
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    },
+    {
+     "text": "50",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "A thief is noticed by a policeman from a distance of 200 m. The thief starts running as soon as he is noticed, and the policeman chases him simultaneously. The thief and the policeman run at the speeds of 10 km/h and 11 km/h, respectively. What is the distance (in m) between them after 6 min policeman starts chasing?",
+   "options": [
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "100",
+     "added": false
+    },
+    {
+     "text": "125",
+     "added": false
+    },
+    {
+     "text": "150",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "relative-speed",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "ifa+ b+c=7,ab+be+ca=11 and abe = -1, then a? +b?+c2 is equal to:",
+   "options": [
+    {
+     "text": "101",
+     "added": false
+    },
+    {
+     "text": "107",
+     "added": false
+    },
+    {
+     "text": "109",
+     "added": false
+    },
+    {
+     "text": "111",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "9.16 The maximum value of (sin!? 6 + cos?° 6) for all the real values of 0 is:",
+   "options": [
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "0",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "extrema-of-trig-expressions",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Qi7 _. 2 3 Find the value of 3 tan? 60° + 3 cos? 30° — 2 sec? 30° — = cot? 60°.",
+   "options": [
+    {
+     "text": "2.33",
+     "added": false
+    },
+    {
+     "text": "2.01",
+     "added": false
+    },
+    {
+     "text": "1.33",
+     "added": false
+    },
+    {
+     "text": "3.33",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The square of 72 is equal to the product of 216 and a number. Find the number.",
+   "options": [
+    {
+     "text": "36",
+     "added": false
+    },
+    {
+     "text": "18",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "linear-equations",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "P and Q can do a job in 24 days, Q and R can do it in 30 days, while P and R can do it in 40 days. X is four times as efficient as P, Y is half as efficient as Q, and Z is 2.5 times as efficient as R. Determine the number of days required to complete the same job if X, Y and Z work together.",
+   "options": [
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    },
+    {
+     "text": "8",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "efficiency",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Simplify. 325 + 276 + [150 -— {9 x 9 + (83 - 4 x 15)}]",
+   "options": [
+    {
+     "text": "332",
+     "added": false
+    },
+    {
+     "text": "333",
+     "added": false
+    },
+    {
+     "text": "334",
+     "added": false
+    },
+    {
+     "text": "331",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Aretailer announces a discount of 30% for selling an air-conditioner marked at %92,000. The cost price of the air-conditioner is 70% below the marked price. He offers a further discount of 20% if the buyer presents his membership card of the retailer’s store. The profit of the retailer with the membership card scheme is what percentage of the profit of the retailer without the membership card scheme?",
+   "options": [
+    {
+     "text": "62%",
+     "added": false
+    },
+    {
+     "text": "65%",
+     "added": false
+    },
+    {
+     "text": "70%",
+     "added": false
+    },
+    {
+     "text": "74%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "successive-discounts",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "1 , 1 If (x->)= 2v2, and x > 1, what is the value of (x — a)",
+   "options": [
+    {
+     "text": "372V6",
+     "added": false
+    },
+    {
+     "text": "3846",
+     "added": false
+    },
+    {
+     "text": "96V6",
+     "added": false
+    },
+    {
+     "text": "420V6",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "2 1 If (2y + y = 7, find the value of (y? + rap",
+   "options": [
+    {
+     "text": "— 4 45",
+     "added": false
+    },
+    {
+     "text": "== 4 49",
+     "added": false
+    },
+    {
+     "text": "—",
+     "added": false
+    },
+    {
+     "text": "49 x 4.— 2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "The slant height of a cone is 10 cm, and the radius is 6 cm. What is the total surface area of the cone? Take tr = 3.14",
+   "options": [
+    {
+     "text": "292.4 cm?",
+     "added": false
+    },
+    {
+     "text": "312.2 cm?",
+     "added": false
+    },
+    {
+     "text": "305.4 cm?",
+     "added": false
+    },
+    {
+     "text": ",301.44 cm?",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "What is the value of sin(—405°)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  }
+ ]
+}

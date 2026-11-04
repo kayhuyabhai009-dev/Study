@@ -1,0 +1,686 @@
+{
+ "paper": "CHSL-Tier1-08-Aug-2023-Shift3.pdf",
+ "status": "ok",
+ "mode": "ocr",
+ "splitter": "question-id",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Anarticle is marked at %450. If it is sold at a discount of 20%, then the selling price becomes 1.5 times of its cost price. What is the cost price (in %)?",
+   "options": [
+    {
+     "text": "360",
+     "added": false
+    },
+    {
+     "text": "240",
+     "added": false
+    },
+    {
+     "text": "330",
+     "added": false
+    },
+    {
+     "text": "270",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "b"
+  },
+  {
+   "n": 2,
+   "text": "How many solid spheres are made if a metallic cone of radius 12 cm and height 24 cm is melted into sphere of radius 2 cm each?",
+   "options": [
+    {
+     "text": "105",
+     "added": false
+    },
+    {
+     "text": "101",
+     "added": false
+    },
+    {
+     "text": "108",
+     "added": false
+    },
+    {
+     "text": "103",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cone",
+   "key_answer": "c"
+  },
+  {
+   "n": 3,
+   "text": "www prepp.in prepp “Tf Sin = 5/6, the value of CotO.SinO.Cos@ is .",
+   "options": [
+    {
+     "text": "x32",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "ga ft.",
+     "added": false
+    },
+    {
+     "text": "36",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "a"
+  },
+  {
+   "n": 4,
+   "text": "Q.4_ Ashopkeeper sells a table at a discount of 25% on the marked price and earns a profit of $0%. If he sells the same table at a 40% discount, then his new profit is:",
+   "options": [
+    {
+     "text": "31%",
+     "added": false
+    },
+    {
+     "text": "44%",
+     "added": false
+    },
+    {
+     "text": "33%",
+     "added": false
+    },
+    {
+     "text": "41%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "b"
+  },
+  {
+   "n": 5,
+   "text": "Q.5_ The following pie chart shows the percentage distribution of the expenditure incurred in publishing a book. Expenditure = Royalty Printing = Binding ®PaperCost # Others Find the paper cost, if the royalty is 322,500",
+   "options": [
+    {
+     "text": "332,500",
+     "added": false
+    },
+    {
+     "text": "37,500",
+     "added": false
+    },
+    {
+     "text": "%30,000",
+     "added": false
+    },
+    {
+     "text": "%33,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": "b"
+  },
+  {
+   "n": 6,
+   "text": "Wwww.prepp.in Prepp Froma cask filled with wine, 75 lites are first drawn and replaced with water. From this mixture, 60 litres are drawn and replaced with water. The ratio of wine to water in the cask is now 3 ; 2. How many litres of wine did the cask initially hold?",
+   "options": [
+    {
+     "text": "225",
+     "added": false
+    },
+    {
+     "text": "250",
+     "added": false
+    },
+    {
+     "text": "375",
+     "added": false
+    },
+    {
+     "text": "300",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mixture-Alligation",
+   "sub": "alligation",
+   "key_answer": "d"
+  },
+  {
+   "n": 7,
+   "text": "= cosA 1+sinA Find the value of ——— + —— +2. i+sinA cosA",
+   "options": [
+    {
+     "text": "1+42secA",
+     "added": false
+    },
+    {
+     "text": "2— secA",
+     "added": false
+    },
+    {
+     "text": "24 secA",
+     "added": false
+    },
+    {
+     "text": "2(1+ secA)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 8,
+   "text": "Qs Two numbers, when divided by a certain divisor, leave the remainder 57. When sum of the two numbers is divided by the same divisor, the remainder is 49. The divisor is:",
+   "options": [
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "57",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "types-of-numbers",
+   "key_answer": "d"
+  },
+  {
+   "n": 9,
+   "text": "Mahima purchased a Saree for 2792 after successive discomnts of 20% and 12%, The marked price of the Saree was:",
+   "options": [
+    {
+     "text": "2968",
+     "added": false
+    },
+    {
+     "text": "21,025",
+     "added": false
+    },
+    {
+     "text": "3875",
+     "added": false
+    },
+    {
+     "text": "Z1,125",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "d"
+  },
+  {
+   "n": 10,
+   "text": "Wwww.prepp.in Prepp Ifthe curved surface area of a cylinder is increased by 20%, and height is decreased by 4%, then the net decrease or increase in the volume will be:",
+   "options": [
+    {
+     "text": "36% decrease",
+     "added": false
+    },
+    {
+     "text": "20% increase",
+     "added": false
+    },
+    {
+     "text": "50% increase",
+     "added": false
+    },
+    {
+     "text": "33% decrease",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "cylinder",
+   "key_answer": "c"
+  },
+  {
+   "n": 11,
+   "text": "The following bar graph shows the incomes and expenditures (in million mpees) of three companies in the year 2020. Study the graph and answer the question that follows. ss so as a0 L. L L. 30 25 20 a5 20 s ° - A B c Income if ‘Which company earned the maximum percentage profit (Profit is calculated on expenditure) in the year 2020, and by what percentage?",
+   "options": [
+    {
+     "text": "Company A, by 18%",
+     "added": false
+    },
+    {
+     "text": "Company B, by 20%",
+     "added": false
+    },
+    {
+     "text": "Company B, by 25%",
+     "added": false
+    },
+    {
+     "text": "Company C, by 15%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": "c"
+  },
+  {
+   "n": 12,
+   "text": "Q.12_ Ina linear race of 1000 m, Prakash beats Ved by 280 m, while Ved beats Rahul by 100 m. By how many metres does Prakash beat Rahul, in the same race?",
+   "options": [
+    {
+     "text": "346",
+     "added": false
+    },
+    {
+     "text": "350",
+     "added": false
+    },
+    {
+     "text": "352",
+     "added": false
+    },
+    {
+     "text": "348",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": "c"
+  },
+  {
+   "n": 13,
+   "text": "www prepp.in prepp ALON and ALMN are two right-angled triangles with common hypotenuse LN such that 2 LON = 90° and 2 LMN = 90°. LN is the bisector of 2 OLM. If LN = 29 cm and ON = 20 cm, then what is the perimeter (in em) of ALMN?",
+   "options": [
+    {
+     "text": "67",
+     "added": false
+    },
+    {
+     "text": "62",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    },
+    {
+     "text": "70",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": "d"
+  },
+  {
+   "n": 14,
+   "text": "1 1 1 if x* a at 194, x > 0, then find the value of x? +> +x+-. x x",
+   "options": [
+    {
+     "text": "76",
+     "added": false
+    },
+    {
+     "text": "66",
+     "added": false
+    },
+    {
+     "text": "56",
+     "added": false
+    },
+    {
+     "text": "46",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "By selling a watch for 1,600, a person gets profit that is equal to the loss of selling the same watch for 1,400. If the person wants to get a profit of 20%, at what price should he sell the watch?",
+   "options": [
+    {
+     "text": "31,800",
+     "added": false
+    },
+    {
+     "text": "31,700",
+     "added": false
+    },
+    {
+     "text": "31,850",
+     "added": false
+    },
+    {
+     "text": "31,750",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Onasum of money for 2 years compound interest and simple interest are 550 and %500. Find the rate of interest (in per annum).",
+   "options": [
+    {
+     "text": "40%",
+     "added": false
+    },
+    {
+     "text": "10%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "30%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": "c"
+  },
+  {
+   "n": 17,
+   "text": "www prepp.in prepp Two circles with diameters 50 cm and 58 cm, respectively, intersect each other at points A and B, such that the length of the common chord is 40 cm. Find the distance (in cm) between the centres of these two circles.",
+   "options": [
+    {
+     "text": "34",
+     "added": false
+    },
+    {
+     "text": "37",
+     "added": false
+    },
+    {
+     "text": "6",
+     "added": false
+    },
+    {
+     "text": "35",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "basic-tsd",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The average number of runs scored by a cricketer in 42 innings is 30. The difference between his maximum and minimum scores in an inning is 100. If these two innings are not taken into consideration, then the average score of the remaining 40 innings is 28. What are the maximum runs scored by him in an inning?",
+   "options": [
+    {
+     "text": "120",
+     "added": false
+    },
+    {
+     "text": "105",
+     "added": false
+    },
+    {
+     "text": "115",
+     "added": false
+    },
+    {
+     "text": "110",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": "a"
+  },
+  {
+   "n": 19,
+   "text": "Inanarmy camp, there is food provision for 500 cadets for 25 days. If 125 more persons join the army camp on the first day itself, then for how many days will the provision last?",
+   "options": [
+    {
+     "text": "20",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "920 In AABC, ZA= 5x — 60°, ZB = 2x + 40°, ZC = 3x— 80°. Find mZA.",
+   "options": [
+    {
+     "text": "75°",
+     "added": false
+    },
+    {
+     "text": "90°",
+     "added": false
+    },
+    {
+     "text": "7% 80°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Wwww.prepp.in Prepp , \"i 13 7 If 6 is an acute angle and sin@ = ane what is the value of cos0?",
+   "options": [
+    {
+     "text": "53",
+     "added": false
+    },
+    {
+     "text": "19",
+     "added": false
+    },
+    {
+     "text": "vs 83",
+     "added": false
+    },
+    {
+     "text": "19",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "The length of the common tangent PQ for two circles touching externally is 16 cm. If the radius (OP) of the bigger circle is 20 cm, then the radius (RQ) of the smaller circle is;",
+   "options": [
+    {
+     "text": "41. 3.2cm",
+     "added": false
+    },
+    {
+     "text": "3.6cm",
+     "added": false
+    },
+    {
+     "text": "3.5cm",
+     "added": false
+    },
+    {
+     "text": "3.8cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": "b"
+  },
+  {
+   "n": 23,
+   "text": "923 Ifa+b+c=5 anda? +b? +c? = 15, then find the value of a? +b? + c? — 3abe — 27.",
+   "options": [
+    {
+     "text": "23",
+     "added": false
+    },
+    {
+     "text": "27",
+     "added": false
+    },
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "21",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": "a"
+  },
+  {
+   "n": 24,
+   "text": "Wwww.prepp.in Prepp The following table shows the month-wise temperature of four cities from January to May 2022 (in degree Celsius). [aes [OES [| nea | os wr | it Mold ar oe | | m | | [ol | Which city recorded the maximum temperature in all five months compared with the other cities?",
+   "options": [
+    {
+     "text": "Pune",
+     "added": false
+    },
+    {
+     "text": "Bangalore",
+     "added": false
+    },
+    {
+     "text": "Hyderabad",
+     "added": false
+    },
+    {
+     "text": "Kolkata",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "\" K+ Ifx? + y? = 427 and xy = 202, then find the value of, a",
+   "options": [
+    {
+     "text": "BSS",
+     "added": false
+    },
+    {
+     "text": "3 2. s20 29",
+     "added": false
+    },
+    {
+     "text": "[832 23",
+     "added": false
+    },
+    {
+     "text": "ps",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  }
+ ]
+}

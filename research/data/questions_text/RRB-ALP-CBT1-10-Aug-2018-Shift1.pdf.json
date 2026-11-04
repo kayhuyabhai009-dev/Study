@@ -1,0 +1,49 @@
+{
+ "paper": "RRB-ALP-CBT1-10-Aug-2018-Shift1.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 22,
+ "questions": [
+  {
+   "n": 8,
+   "text": "What is the mean of the first five Triangular Numbers? Sielus Mee Answered",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "series-average",
+   "key_answer": "7"
+  },
+  {
+   "n": 14,
+   "text": "Add al24/7| GETITON Google Play \" | aet_| stort | amg | ae | 2001 | 1,500 | =200 | =500 | % 100 2002 | €2,600 | €300 | $600 | €200 2003 | €3,200 | = 150 | €700 | €150 | 2004 | 4,100 | = 250 | t650 | = 125 | 2005 | &5,000 | =200 | =g00 | = 150 | 2006 | = 5,200 | z 100 | =750 | 7175 ofa ae sitaa aaa, ay 2001 - 2006 & ahret Paet 21 The average salary per year during period 2001 - 2006 is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "table",
+   "key_answer": "3,600"
+  },
+  {
+   "n": 20,
+   "text": "| A B Cc D Answer Figures Alba Oo O19 © dA @ oO 1 2 3 4 Choose the correct figure to replace the question mark. Problem Figures MENLO: | A B Cc D Answer Figures eS ase of Oo O19 O SA @ 9° 1 2 3 4 X23 ¥22 x44 aes Pat al am ae a ae ° on | Question ID an ie , a Muslim saint, lived at the place where Fatehpur Sikri was built. Sus olACSUT 1 x. Penge itera Nizamuddin Auliya x: aeredtat Rar cect Nasiruddin Chiragh Dehlavi @:. gre aera Peredt Sheikh Salim Chisti x. TT evElet Baba Fakruddin O86 ate Feet cates & < 608 wg * 38 2500 oat se a Feat a agg ar fawe Aer AM a? . . » . . os ral Person) bought an item for f 60 and sold it at a profit of 25%, the selling price of the",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": "₹75"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 75,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 268,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}

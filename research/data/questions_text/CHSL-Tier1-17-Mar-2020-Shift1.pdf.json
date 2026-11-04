@@ -1,0 +1,550 @@
+{
+ "paper": "CHSL-Tier1-17-Mar-2020-Shift1.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": "Sohan sold a plot for €2,55,000 at a 15% loss. At what price should he sell the plot to gain a 10% profit?",
+   "options": [
+    {
+     "text": "$3,33,000",
+     "added": false
+    },
+    {
+     "text": "%3,30,000",
+     "added": false
+    },
+    {
+     "text": "%3,33,300",
+     "added": false
+    },
+    {
+     "text": "%3,00,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "basic-cp-sp",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "The difference between two numbers is 43 and their product is 50. Find the sum of their squares.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "identities",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "Two sides of a triangle are of length 3 cm and 8 cm. If the length of the third side is ‘x’ cm, then:",
+   "options": [
+    {
+     "text": "5<x",
+     "added": false
+    },
+    {
+     "text": "5<x<11",
+     "added": false
+    },
+    {
+     "text": "0<x<11",
+     "added": false
+    },
+    {
+     "text": "x>11",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Adealer marks his goods at 30% above the cost price. Then he allows 35% discount on it. What would be his loss percentage?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Discount",
+   "sub": "mp-sp-relation",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | imMPseicimeamcueaaa vacancies and updates on one click 40531465145264/220102... 18/32 11/5/2020 Q5 Which of the following numbers will completely divide 7°? + 7°? + 783 9",
+   "options": [
+    {
+     "text": "399",
+     "added": false
+    },
+    {
+     "text": "389",
+     "added": false
+    },
+    {
+     "text": "387",
+     "added": false
+    },
+    {
+     "text": "397",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "= The difference of simple interest on a sum of money for $ years and 10 years is %200. If the rate of interest is 10 % p.a, then what is the sum of money?",
+   "options": [
+    {
+     "text": "71,000",
+     "added": false
+    },
+    {
+     "text": "T1400",
+     "added": false
+    },
+    {
+     "text": "€1,600",
+     "added": false
+    },
+    {
+     "text": "1,200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "IfMisthe mid-point of the side BC of AABC, and the area of AABM is 18 cm?, then the area of A ABC is:",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "Qs If a? + b? = 20 anda+b = 5, then find the value of a* + b*.",
+   "options": [
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "24",
+     "added": false
+    },
+    {
+     "text": "23",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | imMPseicimeamcueaaa vacancies and updates on one click 40531465145264/220102... 19/32 11/5/2020 Qa. cos30°—sin30° Find the value of ————_. sin60°+cos60°",
+   "options": [
+    {
+     "text": "243",
+     "added": false
+    },
+    {
+     "text": "2-V3",
+     "added": false
+    },
+    {
+     "text": "14+ 3",
+     "added": false
+    },
+    {
+     "text": "1-3",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "The given bar graph represents the Percentage of non-electrified villages in 6 states A, B, C, D, E and F. Study the graph and answer the question that follows. oz Percentage of non-clectrified villages \" | | . _ aitacucnu state How many states have at most 30% or less non-electrified villages?",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | LMM: Vacancies and updates on one click 40531465145264/220102... 20/32 11/5/2020 Q.11 The following bar graph shows the number of deaths from road accidents occurred during the rainy season in the year 1992. Study the graph carefully and answer the question. 185 7: 180 nd 175 2 170 ry 3 6s i ws 3 160 se 7 |= s . 150 ry = ust = ae 30 7 14 21 28 4 1 june oly Weeks Between which two consecutive weeks was the fall in the number of deaths the greatest?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "9.12 How much should be added to each term of 4 : 7 so that it becomes 2237",
+   "options": [
+    {
+     "text": "3",
+     "added": false
+    },
+    {
+     "text": "4",
+     "added": false
+    },
+    {
+     "text": "2",
+     "added": false
+    },
+    {
+     "text": "1",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "Xand Y together can finish a piece of work in 15 days, while Y alone can finish it in 40 days. X alone can finish the work in:",
+   "options": [
+    {
+     "text": "24 days",
+     "added": false
+    },
+    {
+     "text": "26 days",
+     "added": false
+    },
+    {
+     "text": "25 days",
+     "added": false
+    },
+    {
+     "text": "23 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "group-work",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | MUMESeckmcuesae: Vacancies and updates on one click 40531465145264/220102... 21/32 11/5/2020 Q14 Ifxt+y = 4,xy = 2,y+z= 5,yz = 3,2+x = 6 andzx = 4, then find the value of x? + y? + z? —3xy.",
+   "options": [
+    {
+     "text": "150.75",
+     "added": false
+    },
+    {
+     "text": "152.75",
+     "added": false
+    },
+    {
+     "text": "151.75",
+     "added": false
+    },
+    {
+     "text": "153.75",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Algebra",
+   "sub": "expression-values",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Aman walks from point X to Y at a speed of 20 knv/h, but comes back from point Y to X at a speed of 25 km/h. Find his average speed.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "* If sec*x — 3secx + 2 = 0, then the value of x(0 < x < 90°) is:",
+   "options": [
+    {
+     "text": "45°",
+     "added": false
+    },
+    {
+     "text": "15°",
+     "added": false
+    },
+    {
+     "text": "60°",
+     "added": false
+    },
+    {
+     "text": "30°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | Recker: Vacancies and updates on one click 40531465145264/220102... 22/32 11/5/2020 Q17 Study the following graph and answer the question. 500 soo India’s Biscuit export 450 a00 400 350 330 300 250 ea 200 150 150150 cata 150 100 200 75 so e 2005 2006 2007 2008 2009 © Quantity ( in lakh tonne ) Ovalue (in Rs. Crore) In which year was the value per tonne the minimum?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "The perimeter of a rectangle is 50 cm. Its area and length are in the ratio of 5 : 1. Find the length of the rectangle.",
+   "options": [
+    {
+     "text": "15cm",
+     "added": false
+    },
+    {
+     "text": "20cm",
+     "added": false
+    },
+    {
+     "text": "18cm",
+     "added": false
+    },
+    {
+     "text": "22cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "triangle-and-quadrilaterals",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "Sachin’s income is 25% more than Dileep’s income. By how much percentage is Dileep’s income less than Sachin’s income?",
+   "options": [
+    {
+     "text": "15%",
+     "added": false
+    },
+    {
+     "text": "20%",
+     "added": false
+    },
+    {
+     "text": "18%",
+     "added": false
+    },
+    {
+     "text": "22%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "percentage-basics",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, MUMESeckmcuesae: Vacancies and updates on one click 40531465145264/220102... 23/32 11/5/2020 Q.20 : 32+12xx-3x3 What will come at place of x, (x < 10) for 032+ 12xx-3%3) =1? (5° -6x4+x)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "The following bar graph shows the number of deaths from road accidents occurred during the rainy season in the year 1992. Study the graph carefully and answer the question. 185 ‘: 180 4 175 Z 170 s i 165 s - 3 160 son |= a . 150 s 4 us + 3 = = 30 7 14 21 28 4 1 yune aly —S—S~*~«Cgt Weeks Between which two consecutive weeks was the rise in the number of deaths the greatest?",
+   "options": [
+    {
+     "text": "21 July to 28 July",
+     "added": false
+    },
+    {
+     "text": "14 July to 21 July",
+     "added": false
+    },
+    {
+     "text": "4August to 11 August",
+     "added": false
+    },
+    {
+     "text": "30 June to 7 July",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "bar-graph",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "A 5 cm long perpendicular is drawn from the centre of a circle to a 24 cm long chord. Find the diameter of the circle.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Latest Sarkari Jobs, Govt Exam Results, | Know More | MUMESeckmcuesae: Vacancies and updates on one click 40531465145264/220102... 24/32 11/5/2020 Q.23 In the given figure, chords AB and CD are intersecting each other at point L. Find the length of AB. o Nea a a — t",
+   "options": [
+    {
+     "text": "22.5cm",
+     "added": false
+    },
+    {
+     "text": "25cm",
+     "added": false
+    },
+    {
+     "text": "24.5 cm",
+     "added": false
+    },
+    {
+     "text": "23.5 cm",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "a batsman in his 11\" inning makes a score of 77 runs, thereby increasing his average scores by 3. What is his average score after the 11 inning?",
+   "options": [
+    {
+     "text": "46",
+     "added": false
+    },
+    {
+     "text": "49",
+     "added": false
+    },
+    {
+     "text": "47",
+     "added": false
+    },
+    {
+     "text": "48",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "925 If cosecO+ cot@ = 2, then sin@ is:",
+   "options": [
+    {
+     "text": "2 5",
+     "added": false
+    },
+    {
+     "text": "x25 5",
+     "added": false
+    },
+    {
+     "text": "x32",
+     "added": false
+    },
+    {
+     "text": "4 Y ee 5",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "identities",
+   "key_answer": null
+  }
+ ]
+}

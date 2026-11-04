@@ -1,0 +1,465 @@
+{
+ "paper": "2021cycle-Tier1-21-Apr-2022-Shift3.pdf",
+ "status": "ok",
+ "mode": "sequential",
+ "splitter": "qdot",
+ "section_slice": true,
+ "extracted_count": 25,
+ "tagged_count": 25,
+ "questions": [
+  {
+   "n": 1,
+   "text": ". LCM and HCF of two numbers are 90 and 15, respectively. If the sum of the two numbers is 75, then find the greater number.",
+   "options": [
+    {
+     "text": "45",
+     "added": false
+    },
+    {
+     "text": "90",
+     "added": false
+    },
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "60",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": null
+  },
+  {
+   "n": 2,
+   "text": "Prepp repp Q.2 A22.5 mhigh tent is in the shape of a frustum of a cone surmounted by a hemisphere. If the diameters of the upper and Your Personal Exams Guide the lower circular ends of the frustum are 21 m and 39 m, respectively, then find the area of the cloth (in m*) used to make the tent (ignoring the wastage). (Use n= 2) ae",
+   "options": [
+    {
+     "text": "787= Z",
+     "added": false
+    },
+    {
+     "text": "#2. 2107= 4 6",
+     "added": false
+    },
+    {
+     "text": "1635-",
+     "added": false
+    },
+    {
+     "text": "2 * 4. 2800- 4",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 3D",
+   "sub": "sphere-hemisphere",
+   "key_answer": null
+  },
+  {
+   "n": 3,
+   "text": "A borrows a sum of 290,000 for 4 years at 5% simple interest. He lends it to B at 7% for 4 years at simple interest. What is his gain (in 2)?",
+   "options": [
+    {
+     "text": "7,200",
+     "added": false
+    },
+    {
+     "text": "9,000",
+     "added": false
+    },
+    {
+     "text": "8,000",
+     "added": false
+    },
+    {
+     "text": "7,500",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simple Interest",
+   "sub": "si-formula",
+   "key_answer": null
+  },
+  {
+   "n": 4,
+   "text": "Three partners X, Y and Z started their business by investing 240,000, 238,000 and 230,000, respectively. After 6 months, X and Z made additional investments of 220,000 and 215,000 respectively, whereas Y withdrew 8,000. Find the share of Y (in 2) in the total profit of 238,880 made at the end of the year.",
+   "options": [
+    {
+     "text": "10,880",
+     "added": false
+    },
+    {
+     "text": "10,950",
+     "added": false
+    },
+    {
+     "text": "9,800",
+     "added": false
+    },
+    {
+     "text": "10,200",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 5,
+   "text": "Prepp repp Q.5 Ifa 10-digit number 54726x79y6 is divisible by 72, then what is the value of 5x — 3y, for the least value of y? Your Personal Exams Guide",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "divisibility-rules",
+   "key_answer": null
+  },
+  {
+   "n": 6,
+   "text": "Avegetable vendor sold 1 kg of potatoes for 225 and earned 25% profit. In the evening, he started selling potatoes with only 10% profit. At what cost (in 2) per kg did he sell the potatoes in the evening?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": null
+  },
+  {
+   "n": 7,
+   "text": "If35 men can finish a work in 6 days, then in how many days can 7 men do half of the same work?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": null
+  },
+  {
+   "n": 8,
+   "text": "The perimeters of two similar A ABC and A PQR are 48.4.cm and 12.1 cm , respectively. What is the ratio of the areas of A ABC and A PQR?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Ratio-Proportion",
+   "sub": "ratio-basics",
+   "key_answer": null
+  },
+  {
+   "n": 9,
+   "text": "prepp repp Q.9 ABisachord of a circle with centre O. C is a point on the circle in the minor sector. If ABO = 50°, then what is the Your Personal Exams Guide degree measure of ACB?",
+   "options": [
+    {
+     "text": "100°",
+     "added": false
+    },
+    {
+     "text": "130°",
+     "added": false
+    },
+    {
+     "text": "110°",
+     "added": false
+    },
+    {
+     "text": "140°",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": null
+  },
+  {
+   "n": 10,
+   "text": "= 16x* +9y\" If 4x — 3y = 12 and xy = 5, then find the value of —_",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 11,
+   "text": "Study the histogram and answer the question given below. The graph represents the number of students obtaining a percentage of marks in class X Board examination in 2018 ina school. a 80 0) 70) 6s | i: 40 . 20 z 25 ove ce a 8 a Percentage of Marks The number of students who have secured less than 60% marks is what per cent less than the number of students who have secured 80% marks and above?",
+   "options": [
+    {
+     "text": "37.4%",
+     "added": false
+    },
+    {
+     "text": "38.5%",
+     "added": false
+    },
+    {
+     "text": "33.5%",
+     "added": false
+    },
+    {
+     "text": "29.7%",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "marks-and-exam",
+   "key_answer": null
+  },
+  {
+   "n": 12,
+   "text": "Prepp repp Your Personal Exams Guide Q12 Tf secta+ 4cos? a =4 and0°<a < 90°, then find the value of a.",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 13,
+   "text": "2.4 or If tanA= a what is the value of (50 cos A+ 24 cot A)?",
+   "options": [
+    {
+     "text": "21",
+     "added": false
+    },
+    {
+     "text": "37",
+     "added": false
+    },
+    {
+     "text": "26",
+     "added": false
+    },
+    {
+     "text": "34",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "ratios-and-tables",
+   "key_answer": null
+  },
+  {
+   "n": 14,
+   "text": "Ina triangle ABC, points P and Q are on AB and AC, respectively, such that AP = 4 cm, PB = 6 cm, AQ = 5 cm and QC =7.5 cm. If PQ = 6 cm, then find BC (in cm).",
+   "options": [
+    {
+     "text": "10",
+     "added": false
+    },
+    {
+     "text": "9",
+     "added": false
+    },
+    {
+     "text": "15",
+     "added": false
+    },
+    {
+     "text": "12",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Geometry",
+   "sub": "triangles",
+   "key_answer": null
+  },
+  {
+   "n": 15,
+   "text": "Ankita’s weight is 20% less than that of her grandmother. The grandmother weighs 26 kg less than grandmother’s husband, whose weight is 81 kg. If Ankita’s brother is 8 kg heavier than Ankita, then what is the weight (in kg) of Anikita’s brother?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 16,
+   "text": "Prepp repp Q.16 A reduction of 15% in the price of wheat enables a housewife to buy 6 kg more for 22,720. The reduced price of wheat Your Personal Exams Guide per kg (in 2) is:",
+   "options": [
+    {
+     "text": "75",
+     "added": false
+    },
+    {
+     "text": "68",
+     "added": false
+    },
+    {
+     "text": "70",
+     "added": false
+    },
+    {
+     "text": "65",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Percentage",
+   "sub": "basic-percentage",
+   "key_answer": null
+  },
+  {
+   "n": 17,
+   "text": "The length of the shadow of a vertical tower on level ground increases by 8.4 cm when the altitude of the sun changes from 45° to 30°, What is the height of the tower (in m)?",
+   "options": [
+    {
+     "text": "4.2(v3-1)",
+     "added": false
+    },
+    {
+     "text": "8.4(V3 +3)",
+     "added": false
+    },
+    {
+     "text": "4.2(¥3+3)",
+     "added": false
+    },
+    {
+     "text": "4.2(v3 +1)",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Trigonometry",
+   "sub": "heights-and-distances",
+   "key_answer": null
+  },
+  {
+   "n": 18,
+   "text": "Ina circle with centre O, PQ and QR are two chords such that Z2PQR = 118°. What is the measure of ZOPR?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Circles-Polygons",
+   "sub": "tangents-and-chords",
+   "key_answer": null
+  },
+  {
+   "n": 19,
+   "text": "prepp repp Q.19 The following pie charts show the number of students studying in different departments of an institute during the Your Personal Exams Guide academic years 2019 and 2020. The total number of students was 2000 and 2400, respectively, in academic years 2019 and 2020. ‘What is the ratio of Commerce and Computer Science students taken together in 2019 to Engineering and Medical students taken together in 2020? LP Lot Academic year 2019 Academic year 2020",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 20,
+   "text": "Find the value of the following expression: —5+5+625+5x5",
+   "options": [
+    {
+     "text": "25",
+     "added": false
+    },
+    {
+     "text": "625",
+     "added": false
+    },
+    {
+     "text": "605",
+     "added": false
+    },
+    {
+     "text": "121",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 21,
+   "text": "Prepp repp Q.21 The following bar graph shows exports of cars of type A and B (in 2 millions) from 2014 to 2018. Study the graph and Your Personal Exams Guide answer the question that follows. Exports of Cars of Type A and B (in 2 millions) during 2014 to 2018. » = a= ns cial ee ee 2 : — = a= - vy a3™ . gE» The total exports of cars of type A in 2014 to 2018 is what per cent more than the total exports of cars of type B in 2015 to 2017? (Correct to one decimal place)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  },
+  {
+   "n": 22,
+   "text": "¥ 2 . x It(a ++ 3) = 16, where a is a non-zero real number, then find the value of a? + =. a a",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Simplification",
+   "sub": "bodmas",
+   "key_answer": null
+  },
+  {
+   "n": 23,
+   "text": "Ras Bihari, a plumber, earned on an average 2925 per day in the month of January. He earned on an average 2881 per day during the first 20 days and 2915 per day during the last 20 days. What was his average income (in 2) per day from 12\" January to 20\" January?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Average",
+   "sub": "simple-average",
+   "key_answer": null
+  },
+  {
+   "n": 24,
+   "text": "Prepp repp Q.24 Monthly expenditure of a family on different heads is shown in the following pie chart. The family earns 21,08,000 Your Personal Exams Guide every month. ‘What is the amount spent on Rent every month (in 2)? Expenditure on different Heads == Education",
+   "options": [
+    {
+     "text": "17,500",
+     "added": false
+    },
+    {
+     "text": "21,000",
+     "added": false
+    },
+    {
+     "text": "15,000",
+     "added": false
+    },
+    {
+     "text": "18,000",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Data Interpretation",
+   "sub": "pie-chart",
+   "key_answer": null
+  },
+  {
+   "n": 25,
+   "text": "A 240-m long train crosses a 360-m long tunnel in 30 seconds. What is the speed of the train (in km/h)?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mixed / Composite",
+   "sub": "two-topic-composite",
+   "key_answer": null
+  }
+ ]
+}

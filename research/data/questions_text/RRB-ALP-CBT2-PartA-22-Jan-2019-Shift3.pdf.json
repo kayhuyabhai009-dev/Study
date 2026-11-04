@@ -1,0 +1,126 @@
+{
+ "paper": "RRB-ALP-CBT2-PartA-22-Jan-2019-Shift3.pdf",
+ "status": "alignment_failed",
+ "tagged_count": 24,
+ "questions": [
+  {
+   "n": 2,
+   "text": "93 Find the mean of the range and the mode of the given data. 4,658) V7,18; 3.9424, $44",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "14.5"
+  },
+  {
+   "n": 5,
+   "text": "Qt ' spores 5 What is the unit digit of 36 x 473 x 15101 9",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Number System",
+   "sub": "unit-digit",
+   "key_answer": "0"
+  },
+  {
+   "n": 10,
+   "text": "An object starts from rest at x= 0m and t=O s. It moves with constant acceleration 4 m/s? along x axis. What is its 3 average velocity between time 25 and 6s?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Time-Speed-Distance",
+   "sub": "average-speed",
+   "key_answer": "8 m/s"
+  },
+  {
+   "n": 11,
+   "text": "3 Find the median of the given data. 11, 12, 13, 14, 5, 7,9, 6,4, 1",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Elementary Statistics",
+   "sub": "mean-median-mode",
+   "key_answer": "8"
+  },
+  {
+   "n": 14,
+   "text": "Hose A and B can fill a poo! in $ and 10 minutes respectively. After 2 minutes, hose B gets blocked. How much time 1 will hose A take to fill the remaining pool?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Pipes-Cisterns",
+   "sub": "combined-pipes",
+   "key_answer": "2 minutes"
+  },
+  {
+   "n": 15,
+   "text": "A.and C can do a work in 12 days while A, B and C can do the work in 4 days. In how many days can B do the work 2 done?",
+   "options": [
+    {
+     "text": "6 days",
+     "added": false
+    },
+    {
+     "text": "4.67 days",
+     "added": false
+    },
+    {
+     "text": "5.67 days",
+     "added": false
+    },
+    {
+     "text": "5.25 days",
+     "added": false
+    }
+   ],
+   "options_source": "real",
+   "image_only": false,
+   "topic": "Time-Work",
+   "sub": "together-apart",
+   "key_answer": "6 days"
+  },
+  {
+   "n": 19,
+   "text": "7 What is the difference between the HCF and LCM of 184 and 345?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "HCF-LCM",
+   "sub": "hcf-lcm-of-numbers",
+   "key_answer": "2737"
+  },
+  {
+   "n": 20,
+   "text": "at What is the diameter of a circle if the area is 154 cm’? (Take w = 22/7)",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Mensuration 2D",
+   "sub": "circle-sector-ring",
+   "key_answer": "14cm"
+  },
+  {
+   "n": 21,
+   "text": "a8 An article was sold for 945, at a loss of 10%. What was the cost price of the article?",
+   "options": [],
+   "options_source": "missing",
+   "image_only": false,
+   "topic": "Profit-Loss",
+   "sub": "profit-loss-percent",
+   "key_answer": "₹1050"
+  }
+ ],
+ "detail": {
+  "qdot-whole": {
+   "n": 175,
+   "anchor_cov": 0.12,
+   "printed_cov": 0.0
+  },
+  "numbered-whole": {
+   "n": 550,
+   "anchor_cov": 0.0,
+   "printed_cov": 0.0
+  }
+ }
+}
