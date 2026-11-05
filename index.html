@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>गणित गुरु — 90-दिन गणित चैलेंज | SSC व Railway मैथ्स (हिंदी)</title>
-    <meta name="description" content="90 दिन में पूरी गणित — दिन-वाइज़ टाइमटेबल, प्रोग्रेस ट्रैकिंग, कैलकुलेशन बूस्टर, डेली प्रैक्टिस, PYQ बैंक और चैलेंज मोड। हिंदी माध्यम के लिए।">
+    <title>गणित गुरु — 60-दिन गणित चैलेंज | SSC व Railway मैथ्स (हिंदी)</title>
+    <meta name="description" content="60 दिन में पूरी गणित — Day 1-60 मास्टरी पाथ, 37,000+ PYQ (chapter/concept/exam/shift फ़िल्टर), concept tricks, traps और स्पेस्ड रिवीज़न। हिंदी माध्यम के लिए।">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%2290%22 font-size=%2290%22>🔥</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/research-additions.css">
     <link rel="stylesheet" href="css/fast-tricks.css">
     <link rel="stylesheet" href="css/mastery-v3.css">
+    <link rel="stylesheet" href="css/plan60.css">
 </head>
 <body>
     <a class="skip-link" href="#dashboard">मुख्य सामग्री पर जाएँ</a>
@@ -23,7 +24,7 @@
         <div class="um-box">
             <div class="um-flame">🔥</div>
             <h2>नमस्ते! <span class="grad-text">गणित गुरु</span> में स्वागत है</h2>
-            <p class="um-sub">90-दिन गणित चैलेंज — आज क्या पढ़ना है, क्या रिवाइज़ करना है, क्या प्रैक्टिस करना है — सब आपके नाम से प्लान होगा। अपना नाम लिखें; यह <b>लॉगआउट तक सेव</b> रहेगा।</p>
+            <p class="um-sub">60-दिन गणित चैलेंज — आज क्या पढ़ना है, कब रिवाइज़ करना है (1-3-7 नियम), क्या प्रैक्टिस करना है — सब आपके नाम से प्लान होगा। अपना नाम लिखें; यह <b>लॉगआउट तक सेव</b> रहेगा।</p>
             <div class="um-field">
                 <input type="text" id="user-name-input" class="um-input" maxlength="24" placeholder="अपना नाम लिखें… जैसे: राहुल" autocomplete="off">
                 <button class="btn btn-primary btn-lg" id="user-name-save">🚀 शुरू करें</button>
@@ -39,17 +40,17 @@
         <aside class="app-sidebar" id="app-sidebar" aria-label="मुख्य मेन्यू">
             <div class="side-brand">
                 <span class="brand-mark">🧮</span>
-                <div class="brand-text"><b>गणित गुरु</b><small>🔥 90-Day Challenge</small></div>
+                <div class="brand-text"><b>गणित गुरु</b><small>🔥 60-Day Challenge</small></div>
             </div>
             <nav class="side-nav">
                 <div class="nav-group">
                     <span class="nav-group-label">शुरुआत</span>
                     <a href="#dashboard" data-section="dashboard" class="active"><i>📊</i>डैशबोर्ड</a>
-                    <a href="#challenge" data-section="challenge" class="ch-link"><i>🔥</i>90-दिन चैलेंज <b class="nav-hot">HOT</b></a>
+                    <a href="#challenge" data-section="challenge" class="ch-link"><i>🔥</i>60-दिन चैलेंज <b class="nav-hot">HOT</b></a>
                 </div>
                 <div class="nav-group">
                     <span class="nav-group-label">पढ़ाई</span>
-                    <a href="#learn" data-section="learn"><i>📚</i>सीखें</a>
+                    <a href="#learn" data-section="learn"><i>📚</i>सीखें (Day 1-60) <b class="nav-hot">NEW</b></a>
                     <a href="#formulas" data-section="formulas"><i>📖</i>फॉर्मूला बुक</a>
                     <a href="#notes" data-section="notes"><i>📓</i>नोट्स</a>
                     <a href="#mastery" data-section="mastery"><i>🏆</i>मास्टरी रोडमैप</a>
@@ -122,13 +123,13 @@
                             <div class="hero-badges">
                                 <span class="hbadge">🔥 स्ट्रीक: <b id="hero-streak">0</b> दिन</span>
                                 <span class="hbadge">📚 19 अध्याय</span>
-                                <span class="hbadge">🗂️ 10,000+ PYQ</span>
+                                <span class="hbadge">🗂️ 37,000+ PYQ</span>
                             </div>
                         </div>
                         <div class="hero-challenge card">
                             <div class="hero-ch-ring" id="hero-ch-ring"><div class="ring-core"><b>0</b><span>/90</span></div></div>
                             <div class="hero-ch-text">
-                                <div id="hero-ch-info"><b>90-दिन गणित चैलेंज</b><span>पूरा syllabus, एक मिशन</span></div>
+                                <div id="hero-ch-info"><b>60-दिन गणित चैलेंज</b><span>पूरा syllabus, एक मिशन</span></div>
                                 <button class="btn btn-primary" id="hero-ch-action">🚀 चैलेंज शुरू करें</button>
                             </div>
                         </div>
@@ -152,7 +153,7 @@
                     <div class="quick-actions">
                         <h3>⚡ तुरंत शुरू करें</h3>
                         <div class="actions-grid">
-                            <button class="action-btn hot" onclick="openSection('challenge')"><span>🔥</span> 90-दिन चैलेंज</button>
+                            <button class="action-btn hot" onclick="openSection('challenge')"><span>🔥</span> 60-दिन चैलेंज</button>
                             <button class="action-btn" onclick="startDailyPractice()"><span>📅</span> डेली प्रैक्टिस</button>
                             <button class="action-btn" onclick="openSection('calculation')"><span>🧮</span> कैलकुलेशन बूस्टर</button>
                             <button class="action-btn" onclick="openSection('fast-tricks')"><span>⚡</span> फास्ट ट्रिक लैब</button>
@@ -161,7 +162,7 @@
                             <button class="action-btn hot" onclick="openSection('pyq-analysis')"><span>📊</span> PYQ एनालिसिस</button>
                             <button class="action-btn hot" onclick="openResearchPage('index.html')"><span>🔬</span> सरकारी एक्ज़ाम रिसर्च</button>
                             <button class="action-btn" onclick="openResearchPage('learn.html')"><span>🎓</span> रिसर्च लर्न</button>
-                            <button class="action-btn" onclick="openResearchPage('calendar.html')"><span>📅</span> रिसर्च 90-दिन कैलेंडर</button>
+                            <button class="action-btn" onclick="openResearchPage('calendar.html')"><span>📊</span> रिसर्च कैलेंडर</button>
                             <button class="action-btn" onclick="openSection('exams')"><span>🏛️</span> एग्जाम इंफो</button>
                             <button class="action-btn" onclick="openSection('plan')"><span>🗓️</span> रणनीति प्लान</button>
                             <button class="action-btn" onclick="openSection('quiz')"><span>🎮</span> क्विज़ खेलें</button>
@@ -172,19 +173,19 @@
                     </div>
                 </section>
 
-                <!-- ================= 90-दिन चैलेंज ================= -->
+                <!-- ================= 60-दिन चैलेंज ================= -->
                 <section id="challenge" class="section">
                     <div class="section-header">
-                        <h2>🔥 90-दिन गणित चैलेंज</h2>
-                        <p>13 सप्ताह • पूरा SSC/Railway syllabus • हर दिन: क्या पढ़ना है, क्या रिवाइज़ करना है, क्या प्रैक्टिस करना है — सब तय</p>
+                        <h2>🔥 60-दिन गणित चैलेंज</h2>
+                        <p>9 सप्ताह (60 दिन) • पूरा SSC/Railway syllabus • 40 सीखने के दिन + 8 रिवीज़न + 8 टेस्ट + 4 फिनाले • हर दिन: concept → tricks → असली PYQ → traps, और 1-3-7 स्पेस्ड रिवीज़न</p>
                     </div>
                     <div class="lr-bridge card" id="challenge-research-bridge">
                         <div class="lr-bridge-head">
                             <div>
                                 <h3>📊 चैलेंज + रिसर्च विश्लेषण — दोनों मिलाकर</h3>
-                                <p class="muted">रिसर्च प्लेटफ़ॉर्म का अपना 90-दिन कैलेंडर topic-priority (records-count) पर आधारित है। नीचे के टूल आपके चैलेंज के साथ मिलाकर देखें — किस दिन क्या पढ़ना है, किन concepts से सबसे ज़्यादा प्रश्न आते हैं।</p>
+                                <p class="muted">रिसर्च प्लेटफ़ॉर्म के टूल आपके 60-दिन चैलेंज के साथ मिलाकर देखें — किस concept से सबसे ज़्यादा प्रश्न आते हैं, कौन-सी traps बार-बार आती हैं।</p>
                             </div>
-                            <button class="btn btn-primary" onclick="openResearchPage('calendar.html')">📅 रिसर्च 90-दिन कैलेंडर</button>
+                            <button class="btn btn-primary" onclick="openResearchPage('calendar.html')">📊 रिसर्च कैलेंडर</button>
                         </div>
                         <div class="lr-bridge-links">
                             <button onclick="openResearchPage('learn.html')">🎓 कॉन्सेप्ट-वाइज़ लर्न</button>
@@ -198,35 +199,42 @@
                     <div id="ch-stage"></div>
                 </section>
 
-                <!-- ================= LEARN (मास्टरी मार्ग — 35 topics · 295 concepts) ================= -->
+                <!-- ================= LEARN (60-दिन मास्टरी पाथ — Day 1-60 → topic → sub-topic → concept → PYQ) ================= -->
                 <section id="learn" class="section">
                     <div class="section-header">
-                        <h2>📚 मास्टरी मार्ग — हर concept तक, exact data के साथ</h2>
-                        <p>35 topics → 154 sub-topics → <b>295 concepts</b> • हर concept: आसान हिंदी समझ + definition + formulas + prerequisites + exam-mapping + किस concept से कितने प्रश्न आते हैं • 42,634 टैग्ड PYQ रिकॉर्ड से बना विश्लेषण</p>
+                        <h2>📚 सीखें — 60-दिन मास्टरी पाथ</h2>
+                        <p><b>Day 1 → Day 60</b> क्रम में 31 exam-topics • topic पर क्लिक करें → sub-topics → <b>295 concepts</b> — हर concept में आसान हिंदी समझ, formulas, ⚡ shortcut tricks, ⚠️ traps और <b>🗂️ इस concept के PYQ</b> (exam/year/shift के साथ)</p>
                     </div>
                     <div class="mastery-hero card" id="mastery-hero"></div>
                     <div class="lr-bridge card" id="learn-research-bridge"></div>
                     <div class="mastery-path card">
-                        <h3>🚀 1000× Mastery Protocol</h3>
+                        <h3>🚀 Mastery Protocol — हर concept के लिए</h3>
                         <div class="mastery-path-grid">
-                            <div><b>1️⃣ कॉन्सेप्ट</b><span>क्यों और कैसे समझें</span></div>
-                            <div><b>2️⃣ फॉर्मूला Recall</b><span>बिना देखे सूत्र बोलें</span></div>
-                            <div><b>3️⃣ Timed Practice</b><span>आसान → कठिन सवाल</span></div>
-                            <div><b>4️⃣ Chapter Test</b><span>90%+ के बाद आगे बढ़ें</span></div>
+                            <div><b>1️⃣ समझ</b><span>concept + आसान हिंदी + formula</span></div>
+                            <div><b>2️⃣ पहचान+Trick</b><span>signal words → ⚡ shortcut → ⚠️ trap</span></div>
+                            <div><b>3️⃣ PYQ अभ्यास</b><span>इस concept के असली प्रश्न, टाइमर से</span></div>
+                            <div><b>4️⃣ 🏆 पक्का</b><span>80%+ accuracy के बाद ट्रैक करें</span></div>
                         </div>
                     </div>
-                    <div class="mastery-controls" id="mastery-controls">
-                        <input type="search" id="mastery-search" class="filter-select" placeholder="🔍 topic, sub-topic या concept खोजें… जैसे remainder, वृत्त, SI">
-                        <div class="mastery-chips" id="mastery-chips">
-                            <button class="m-chip on" data-f="all">सभी 35</button>
-                            <button class="m-chip" data-f="basic">🌱 बेसिक</button>
-                            <button class="m-chip" data-f="intermediate">💪 मध्यम</button>
-                            <button class="m-chip" data-f="advanced">🔥 एडवांस्ड</button>
-                            <button class="m-chip" data-f="top">🏆 सबसे ज़्यादा प्रश्न</button>
-                            <button class="m-chip" data-f="todo">⏳ अधूरे</button>
-                        </div>
+                    <div class="learn-tabs" id="learn-tabs">
+                        <button class="lt-tab on" data-lt="days">📅 Day 1–60 प्लान</button>
+                        <button class="lt-tab" data-lt="topics">📚 सभी टॉपिक (35)</button>
                     </div>
-                    <div class="mastery-topic-grid" id="mastery-topics"></div>
+                    <div class="learn-days" id="learn-days"></div>
+                    <div id="learn-topics-wrap" style="display:none;">
+                        <div class="mastery-controls" id="mastery-controls">
+                            <input type="search" id="mastery-search" class="filter-select" placeholder="🔍 topic, sub-topic या concept खोजें… जैसे remainder, वृत्त, SI">
+                            <div class="mastery-chips" id="mastery-chips">
+                                <button class="m-chip on" data-f="all">सभी 35</button>
+                                <button class="m-chip" data-f="basic">🌱 बेसिक</button>
+                                <button class="m-chip" data-f="intermediate">💪 मध्यम</button>
+                                <button class="m-chip" data-f="advanced">🔥 एडवांस्ड</button>
+                                <button class="m-chip" data-f="top">🏆 सबसे ज़्यादा प्रश्न</button>
+                                <button class="m-chip" data-f="todo">⏳ अधूरे</button>
+                            </div>
+                        </div>
+                        <div class="mastery-topic-grid" id="mastery-topics"></div>
+                    </div>
                     <div class="mastery-detail" id="mastery-detail" style="display:none;"></div>
                 </section>
 
@@ -247,7 +255,7 @@
                 <section id="calculation" class="section">
                     <div class="section-header">
                         <h2>🧮 कैलकुलेशन बूस्टर 2.0</h2>
-                        <p>तकनीकें + 16 स्पीड ड्रिल्स + दैनिक वर्कआउट — 90 दिन में कैलकुलेटर-स्पीड दिमाग़</p>
+                        <p>तकनीकें + 16 स्पीड ड्रिल्स + दैनिक वर्कआउट — 60 दिन में कैलकुलेटर-स्पीड दिमाग़</p>
                     </div>
 
                     <div class="calc-scorecard" id="calc-scorecard"></div>
@@ -435,14 +443,18 @@
                 <section id="pyq" class="section">
                     <div class="section-header">
                         <h2>🗂️ PYQ बैंक — पिछले वर्षों के असली प्रश्न</h2>
-                        <p>हज़ारों असली PYQ — फ़िल्टर लगाइए, हल देखिए, ट्रैप समझिए</p>
+                        <p>chapter → concept → exam → वर्ष → shift के फ़िल्टर • हर प्रश्न पर छोटा meta: कौन-सी परीक्षा, कौन-सी तारीख, कौन-सी shift</p>
                     </div>
                     <div class="pyq-filters">
                         <input type="search" id="pyq-search" class="filter-select" placeholder="🔍 प्रश्न खोजें…">
-                        <select id="pyq-exam-filter" class="filter-select"><option value="all">सभी परीक्षाएँ</option></select>
-                        <select id="pyq-topic-filter" class="filter-select"><option value="all">सभी टॉपिक</option></select>
-                        <select id="pyq-difficulty-filter" class="filter-select"><option value="all">सभी स्तर</option><option value="आसान">आसान</option><option value="मध्यम">मध्यम</option><option value="कठिन">कठिन</option></select>
+                        <select id="pyq-topic-filter" class="filter-select" title="Chapter"><option value="all">📚 सभी chapters</option></select>
+                        <select id="pyq-concept-filter" class="filter-select" title="Concept"><option value="all">🔖 सभी concepts</option></select>
+                        <select id="pyq-exam-filter" class="filter-select"><option value="all">🏛️ सभी परीक्षाएँ</option></select>
+                        <select id="pyq-year-filter" class="filter-select"><option value="all">📅 सभी वर्ष</option></select>
+                        <select id="pyq-shift-filter" class="filter-select"><option value="all">⏰ सभी shift</option></select>
+                        <select id="pyq-difficulty-filter" class="filter-select" title="कठिनाई (पुराने मूल्यांकित प्रश्नों पर)"><option value="all">सभी स्तर</option><option value="आसान">आसान</option><option value="मध्यम">मध्यम</option><option value="कठिन">कठिन</option></select>
                         <select id="pyq-lang-filter" class="filter-select"><option value="all">सभी भाषाएँ</option><option value="hi">🇮🇳 हिंदी</option><option value="en">English</option></select>
+                        <button class="btn btn-sm pyq-reset" onclick="pyqResetFilters();pyqShown=40;renderPyq();" title="सभी फ़िल्टर हटाएँ">✖ रीसेट</button>
                     </div>
                     <div class="pyq-count" id="pyq-count"></div>
                     <div class="pyq-list" id="pyq-list"></div>
@@ -450,11 +462,11 @@
                     <div id="pyq-detail" style="display:none;"></div>
                 </section>
 
-                <!-- ================= PYQ एनालिसिस (10,000+ प्रश्नों का topic → concept विश्लेषण) ================= -->
+                <!-- ================= PYQ एनालिसिस (37,000+ प्रश्नों का topic → concept विश्लेषण) ================= -->
                 <section id="pyq-analysis" class="section">
                     <div class="section-header">
                         <h2>📊 PYQ एनालिसिस — हर टॉपिक, हर कॉन्सेप्ट, कितने प्रश्न</h2>
-                        <p>आपके 10,000+ PYQ प्रश्नों का topic → concept(पैटर्न) विभाजन — किस concept से कितने प्रश्न आते हैं, कौन-सी परीक्षा, कौन-सा वर्ष, किस कठिनाई में। रिसर्च प्लेटफ़ॉर्म के 40,000+ टैग्ड प्रश्न भी साथ जोड़े गए हैं।</p>
+                        <p>आपके 37,000+ PYQ प्रश्नों का topic → concept(पैटर्न) विभाजन — किस concept से कितने प्रश्न आते हैं, कौन-सी परीक्षा, कौन-सा वर्ष, किस कठिनाई में। रिसर्च प्लेटफ़ॉर्म के 40,000+ टैग्ड प्रश्न भी साथ जोड़े गए हैं।</p>
                     </div>
                     <div class="pa-summary dashboard-grid" id="pa-summary"></div>
                     <div class="pyq-filters">
@@ -649,7 +661,7 @@
                 <!-- ================= रणनीति प्लान (पुराना 90/180-दिन) ================= -->
                 <section id="plan" class="section">
                     <div class="section-header">
-                        <h2>🗓️ रणनीति प्लान — 90/180-दिन मार्गदर्शिका</h2>
+                        <h2>🗓️ रणनीति प्लान — मार्गदर्शिका (60-दिन चैलेंज LIVE ऊपर है)</h2>
                         <p>नींव से फुल-मॉक तक की विस्तृत रणनीति। <button class="btn btn-primary" style="margin-left:.5rem;" onclick="openSection('challenge')">🔥 चैलेंज पेज पर जाएँ</button></p>
                     </div>
                     <div class="plan-tabs" id="plan-tabs"></div>
@@ -686,7 +698,7 @@
 
             <footer class="main-footer">
                 <div class="footer-content">
-                    <div class="footer-logo">🧮 <span>गणित गुरु — 90-दिन गणित चैलेंज</span></div>
+                    <div class="footer-logo">🧮 <span>गणित गुरु — 60-दिन गणित चैलेंज</span></div>
                     <div class="footer-links">
                         <div class="footer-column"><h4>पढ़ाई</h4><ul><li><a href="#learn">सीखें</a></li><li><a href="#formulas">फॉर्मूला बुक</a></li><li><a href="#calculation">कैलकुलेशन</a></li><li><a href="#pyq">PYQ बैंक</a></li><li><a href="#pyq-analysis">PYQ एनालिसिस</a></li><li><a href="#notes">नोट्स</a></li><li><a href="#mastery">मास्टरी</a></li></ul></div>
                         <div class="footer-column"><h4>अभ्यास</h4><ul><li><a href="#fast-tricks">फास्ट ट्रिक्स</a></li><li><a href="#daily">डेली प्रैक्टिस</a></li><li><a href="#quiz">क्विज़</a></li><li><a href="#flashcards">फ्लैशकार्ड</a></li><li><a href="#revision">रिवीजन</a></li><li><a href="#error-log">एरर लॉग</a></li><li><a href="#timer">टाइमर</a></li></ul></div>
@@ -733,6 +745,22 @@
     <script src="js/data-pyq-featured.js"></script>
     <script src="js/data-pyq-legacy.js"></script>
     <script src="js/data-pyq-pdf.js"></script>
+    <script src="js/data-pyq-full-index.js"></script>
+    <script src="js/data-pyq-full-1.js"></script>
+    <script src="js/data-pyq-full-2.js"></script>
+    <script src="js/data-pyq-full-3.js"></script>
+    <script src="js/data-pyq-full-4.js"></script>
+    <script src="js/data-pyq-full-5.js"></script>
+    <script src="js/data-pyq-full-6.js"></script>
+    <script src="js/data-pyq-full-7.js"></script>
+    <script src="js/data-pyq-full-8.js"></script>
+    <script src="js/data-pyq-full-9.js"></script>
+    <script src="js/data-pyq-full-10.js"></script>
+    <script src="js/data-pyq-full-11.js"></script>
+    <script src="js/data-pyq-full-12.js"></script>
+    <script src="js/data-pyq-full-13.js"></script>
+    <script src="js/data-pyq-full-14.js"></script>
+    <script src="js/data-pyq-full-15.js"></script>
     <script src="js/data-patterns-legacy.js"></script>
     <script src="js/data-flashcards.js"></script>
     <script src="js/data-notes.js"></script>

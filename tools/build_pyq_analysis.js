@@ -27,6 +27,23 @@ const mod = {};
 new Function('module', parts + '\nmodule.exports={PYQ_BANK,PYQ_BANK_LEGACY,PYQ_BANK_PDF,PYQ_FEATURED};')(mod);
 const { PYQ_BANK, PYQ_BANK_LEGACY, PYQ_BANK_PDF, PYQ_FEATURED } = mod.exports;
 
+/* ---- FULL PYQ (SSC+Railway असली प्रश्न, options सहित) ---- */
+let PYQ_FULL = [], PYQ_FULL_META = null;
+try {
+    const idxSrc = fs.readFileSync(path.join(root, 'js/data-pyq-full-index.js'), 'utf8');
+    const fullFiles = fs.readdirSync(path.join(root, 'js'))
+        .filter(f => /^data-pyq-full-\d+\.js$/.test(f))
+        .sort((a, b) => parseInt(a.match(/\d+/)[0], 10) - parseInt(b.match(/\d+/)[0], 10))
+        .map(f => fs.readFileSync(path.join(root, 'js', f), 'utf8')).join('\n');
+    const sandbox = {};
+    new Function('module', idxSrc + String.fromCharCode(10) + fullFiles + String.fromCharCode(10) + 'module.exports={PYQ_FULL,PYQ_FULL_META};')(sandbox);
+    PYQ_FULL = sandbox.exports.PYQ_FULL || [];
+    PYQ_FULL_META = sandbox.exports.PYQ_FULL_META || null;
+    console.log('  FULL PYQ जुड़े:', PYQ_FULL.length);
+} catch (e) {
+    console.log('  FULL PYQ index नहीं मिला (ठीक है):', e.message);
+}
+
 /* ---- हिंदी टॉपिक → research platform (English topic + slug) ---- */
 const TOPIC_META = {
     'संख्या पद्धति': { en: 'Number System', slug: 'number-system' },
@@ -51,7 +68,23 @@ const TOPIC_META = {
     'सरलीकरण': { en: 'Simplification', slug: 'simplification' },
     'मिश्रण': { en: 'Mixture-Alligation', slug: 'mixture-alligation' },
     'आयु': { en: 'Ages', slug: 'ages' },
-    'विविध': { en: 'Mixed', slug: 'mixed-composite' }
+    'विविध': { en: 'Mixed', slug: 'mixed-composite' },
+    /* FULL bank के canonical chapter नाम */
+    'छूट (बट्टा)': { en: 'Discount', slug: 'discount' },
+    'साधारण ब्याज': { en: 'Simple Interest', slug: 'simple-interest' },
+    'चक्रवृद्धि ब्याज': { en: 'Compound Interest', slug: 'compound-interest' },
+    'समय-चाल-दूरी': { en: 'Time-Speed-Distance', slug: 'time-speed-distance' },
+    'पाइप-टंकी': { en: 'Pipes-Cisterns', slug: 'pipes-cisterns' },
+    'अनुपात-समानुपात': { en: 'Ratio-Proportion', slug: 'ratio-proportion' },
+    'मिश्रण-एलीगेशन': { en: 'Mixture-Alligation', slug: 'mixture-alligation' },
+    'आँकड़े (DI)': { en: 'Data Interpretation', slug: 'data-interpretation' },
+    'वृत्त-बहुभुज': { en: 'Circles-Polygons', slug: 'circles-polygons' },
+    'सांख्यिकी': { en: 'Elementary Statistics', slug: 'elementary-statistics' },
+    'निर्देशांक ज्यामिति': { en: 'Coordinate Geometry', slug: 'coordinate-geometry' },
+    'श्रेणी (AP/GP)': { en: 'Sequences and Series', slug: 'sequences-and-series' },
+    'समुच्चय': { en: 'Set Theory', slug: 'set-theory' },
+    'प्रायिकता': { en: 'Probability', slug: 'probability' },
+    'क्रमचय-संचय': { en: 'Permutation and Combination', slug: 'permutation-and-combination' }
 };
 
 /* ---- लेगेसी English pattern-slug → हिंदी कॉन्सेप्ट लेबल ---- */
@@ -89,11 +122,28 @@ function researchTotals() {
 }
 
 /* ---- मुख्य aggregates ---- */
+/* FULL records → raw rows: [id, examIdx, dateInt, shiftIdx, chapterIdx, subIdx, conceptIdx, stem, A..D, ansIdx, ansText] */
+const FULL_ROWS = PYQ_FULL_META ? PYQ_FULL.map(r => {
+    const ch = PYQ_FULL_META.chapters[r[4]] || null;
+    const sub = ch && ch.subs[r[5]] ? ch.subs[r[5]] : null;
+    const con = sub && sub.concepts[r[6]] ? sub.concepts[r[6]][0] : 'सामान्य';
+    return {
+        id: String(r[0]),
+        topic: ch ? ch.name : 'विविध',
+        pattern: con,
+        diff: '',
+        exam: PYQ_FULL_META.exams[r[1]] || 'अज्ञात',
+        year: r[2] ? String(r[2]).slice(0, 4) : '',
+        lang: 'en', sol: false
+    };
+}) : [];
+
 const raw = [
     ...PYQ_BANK.map(q => ({ id: String(q.id), topic: q.topic, pattern: q.pattern, diff: q.difficulty, exam: q.exam, year: q.year, lang: q.lang, sol: !!(q.solution && q.solution.length) })),
     ...PYQ_FEATURED.map(q => ({ id: String(q.id), topic: q.topic, pattern: q.pattern, diff: q.difficulty, exam: q.exam, year: q.year, lang: q.lang, sol: !!(q.solution && q.solution.length) })),
     ...PYQ_BANK_LEGACY.map(q => ({ id: String(q.id), topic: q.t, pattern: q.p, diff: q.d, exam: q.e, year: q.y, lang: q.lang, sol: !!q.sol })),
-    ...PYQ_BANK_PDF.map(q => ({ id: String(q.id), topic: q.t, pattern: q.p, diff: q.d, exam: q.e, year: q.y, lang: q.lang, sol: !!q.sol }))
+    ...PYQ_BANK_PDF.map(q => ({ id: String(q.id), topic: q.t, pattern: q.p, diff: q.d, exam: q.e, year: q.y, lang: q.lang, sol: !!q.sol })),
+    ...FULL_ROWS
 ];
 
 const research = researchTotals();
@@ -147,7 +197,7 @@ const topics = [...byTopic.values()].map(t => {
 
 const analysis = {
     generated: new Date().toISOString().slice(0, 10),
-    source: 'PYQ_BANK + PYQ_FEATURED + PYQ_BANK_LEGACY + PYQ_BANK_PDF',
+    source: 'PYQ_BANK + PYQ_FEATURED + PYQ_BANK_LEGACY + PYQ_BANK_PDF + PYQ_FULL (SSC+Railway असली बैंक)',
     totals: {
         questions: raw.length,
         topics: topics.length,

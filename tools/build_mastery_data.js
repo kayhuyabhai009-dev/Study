@@ -174,11 +174,11 @@ const outTopics = topics.map(t => {
 });
 
 /* ---------- चैलेंज mapping ---------- */
-// data-challenge.js से 90 दिन पढ़ें (buildChallenge() चलाकर)
+// data-challenge.js से 60 दिन पढ़ें (build_challenge60.js से बना CHALLENGE_60)
 const chSrc = fs.readFileSync(path.join(root, 'js/data-challenge.js'), 'utf8');
 let CHALLENGE_DAYS = [];
 try {
-    const fn = new Function(chSrc + '\n; return CHALLENGE_90;');
+    const fn = new Function(chSrc + '\n; return (typeof CHALLENGE_60!=="undefined")?CHALLENGE_60:CHALLENGE_90;');
     CHALLENGE_DAYS = fn() || [];
 } catch (e) {
     console.error('चैलेंज डेटा पढ़ने में समस्या:', e.message);
@@ -196,15 +196,15 @@ const CH_TOPIC_TO_RESEARCH = {
 };
 const topicByName = {};
 outTopics.forEach(t => { topicByName[t.name] = t; });
+// research slug → topic (60-दिन plan ने हर दिन slugs explicit दिए हैं)
+const topicBySlug = {};
+outTopics.forEach(t => { topicBySlug[t.slug] = t; });
 
 const chDays = CHALLENGE_DAYS.map(d => {
     const mapped = [];
-    (d.topics || []).forEach(tp => {
-        const rName = CH_TOPIC_TO_RESEARCH[tp];
-        if (!rName) return;
-        const rt = topicByName[rName];
-        if (!rt) return;
-        if (mapped.some(m => m.name === rt.name)) return;
+    const srcSlugs = Array.isArray(d.slugs) && d.slugs.length ? d.slugs : null;
+    const pushTopic = (rt) => {
+        if (!rt || mapped.some(m => m.name === rt.name)) return;
         mapped.push({
             name: rt.name, slug: rt.slug, certain: rt.certain, total: rt.total,
             concepts: rt.sub_topics.reduce((n, s) => n + s.concepts.length, 0),
@@ -212,12 +212,18 @@ const chDays = CHALLENGE_DAYS.map(d => {
             mainPyq: rt.mainPyq,
             subNames: rt.sub_topics.map(s => s.name)
         });
+    };
+    if (srcSlugs) srcSlugs.forEach(sg => pushTopic(topicBySlug[sg]));
+    else (d.topics || []).forEach(tp => {
+        const rName = CH_TOPIC_TO_RESEARCH[tp];
+        if (!rName) return;
+        pushTopic(topicByName[rName]);
     });
     return { d: d.d, wk: d.wk, type: d.type, chap: d.chap || null, topics: mapped };
 });
 
 const chWeeks = [];
-for (let w = 1; w <= 13; w++) {
+for (let w = 1; w <= 9; w++) {
     const days = chDays.filter(x => x.wk === w);
     const tset = new Map();
     days.forEach(d => d.topics.forEach(t => {
@@ -244,7 +250,7 @@ const totals = {
     mainPyq: PA.totals.questions
 };
 
-const banner = `/* ============================================================\n   गणित गुरु — मास्टरी मार्ग डेटा (auto-generated, हाथ से बदलें नहीं)\n   ${totals.topics} topics · ${totals.subTopics} sub-topics · ${totals.concepts} concepts · ${totals.formulas} formulas\n   Research hierarchy + PYQ concept-tag analytics + 90-दिन चैलेंज mapping।\n   दोबारा बनाने के लिए:  node tools/build_mastery_data.js\n   ============================================================ */\n\n`;
+const banner = `/* ============================================================\n   गणित गुरु — मास्टरी मार्ग डेटा (auto-generated, हाथ से बदलें नहीं)\n   ${totals.topics} topics · ${totals.subTopics} sub-topics · ${totals.concepts} concepts · ${totals.formulas} formulas\n   Research hierarchy + PYQ concept-tag analytics + 60-दिन चैलेंज mapping।\n   दोबारा बनाने के लिए:  node tools/build_mastery_data.js\n   ============================================================ */\n\n`;
 
 const out = banner +
     'const MASTERY_DATA = ' + JSON.stringify({ generated: new Date().toISOString().slice(0, 10), totals, topics: outTopics }) + ';\n\n' +

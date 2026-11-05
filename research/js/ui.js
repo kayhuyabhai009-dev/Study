@@ -48,7 +48,7 @@ async function openPalette() {
       paletteData = [
         ...["Dashboard", "Examinations", "PYQ Library", "Hierarchy", "Patterns", "Formulas",
             "Compare Exams", "Calculation Skills", "Mistake Analytics", "CIS Explorer",
-            "Mastery Tracker", "90-Day Challenge", "Methodology"].map((label, i) =>
+            "Mastery Tracker", "60-Day Challenge", "Methodology"].map((label, i) =>
           ({ label, href: ["index.html", "exams.html", "library.html", "hierarchy.html",
             "patterns.html", "formulas.html", "compare.html", "skills.html", "mistakes.html",
             "cis.html", "tracker.html", "calendar.html", "methodology.html"][i] })),

@@ -61,7 +61,7 @@ function waitForResources() {
     await new Promise(r => setTimeout(r, 100));
     const stage = doc.getElementById('ch-stage');
     ok(stage.innerHTML.includes('ch-strip-grid'), 'चैलेंज strip render');
-    ok(stage.querySelectorAll('.ch-cell').length === 90, '90 day-cells');
+    ok(stage.querySelectorAll('.ch-cell').length === 60, '60 day-cells');
     w.chCompleteDay(1);
     await new Promise(r => setTimeout(r, 100));
     ok(stage.querySelector('.ch-cell.done'), 'दिन 1 done mark hua');
@@ -76,7 +76,7 @@ function waitForResources() {
     ok(doc.getElementById('achievements-list').innerHTML.includes('उपलब्धियाँ'), 'प्रोफाइल achievements render');
 
     // नए merged हिस्से: PYQ एनालिसिस + research bridge
-    ok(w.eval('typeof PYQ_ANALYSIS !== "undefined" && PYQ_ANALYSIS.totals.questions') === 10124, 'PYQ_ANALYSIS: 10,124 प्रश्न (script scope)');
+    ok(w.eval('typeof PYQ_ANALYSIS !== "undefined" && PYQ_ANALYSIS.totals.questions') === 37061, 'PYQ_ANALYSIS: 37,061 प्रश्न (script scope)');
     ok(doc.querySelectorAll('#pa-topics .pa-topic-card').length >= 20, 'PYQ एनालिसिस: टॉपिक कार्ड render');
     w.eval("openPaTopic('बीजगणित')");
     ok(doc.querySelectorAll('.pa-pat-chip').length > 3, 'PYQ एनालिसिस: कॉन्सेप्ट chips');
@@ -103,7 +103,7 @@ function waitForResources() {
     w.eval('startChallenge()');
     ok(doc.getElementById('ch-stage').textContent.includes('exact concept-count'), 'चैलेंज: exact concept-count panel');
     ok(doc.querySelectorAll('.chm-chip').length >= 1, 'चैलेंज: topic chips (concepts + records)');
-    ok(doc.querySelectorAll('.chwm').length === 13, 'चैलेंज: 13 सप्ताह exact analysis');
+    ok(doc.querySelectorAll('.chwm').length === 9, 'चैलेंज: 9 सप्ताह exact analysis');
 
     // कैलकुलेशन: scorecard + drills + workout
     w.openSection('calculation');
@@ -120,7 +120,7 @@ function waitForResources() {
     ok(doc.getElementById('calc-workout-play').style.display !== 'none', 'workout play खुला');
     ok(doc.getElementById('wo-question').textContent.trim().length > 0, 'workout सवाल सेट');
 
-    ok(w.eval('CHALLENGE_90.length') === 90, 'script scope mein CHALLENGE_90 = 90');
+    ok(w.eval('CHALLENGE_60.length') === 60, 'script scope mein CHALLENGE_60 = 60');
     w.logoutUser(); // confirm=true stub; location.reload jsdom में no-op
     await new Promise(r => setTimeout(r, 50));
     ok(w.localStorage.getItem('gg-current-user') === null, 'लॉगआउट पर सत्र-नाम हटा (गुमनाम भूल गया — लेकिन state सुरक्षित)');

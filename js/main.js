@@ -2,7 +2,7 @@
    गणित गुरु — मुख्य ऐप इंजन
    नेविगेशन, डैशबोर्ड, फॉर्मूला बुक, कैलकुलेशन बूस्टर (ड्रिल सहित),
    डेली प्रैक्टिस, PYQ, पैटर्न/ट्रैप, एरर लॉग, रिवीजन, एग्जाम,
-   90-दिन प्लान, प्रोफाइल — सब कुछ localStorage में सेव होता है
+   60-दिन प्लान, प्रोफाइल — सब कुछ localStorage में सेव होता है
    ============================================================ */
 
 'use strict';
@@ -52,7 +52,7 @@ const DEFAULT_STATE = {
     trickTrainerAttempts: 0,
     concepts: {},         // मास्टरी मार्ग: { conceptId: 1|2|3 } (समझा/अभ्यास/पक्का)
     joinedAt: null,
-    challenge: { start: null, done: {}, checks: {}, rewards: [] }  // 90-दिन चैलेंज
+    challenge: { start: null, done: {}, checks: {}, rewards: [] }  // 60-दिन चैलेंज
 };
 
 let state = loadState();
@@ -126,6 +126,46 @@ function legacyPyqToFull(q, srcName) {
     };
 }
 
+/* पुराने बैंक के pattern-slug → हिंदी concept label (concept फ़िल्टर के लिए) */
+const PYQ_PATTERN_HI = {
+    'general': 'सामान्य', 'algebraic-identity': 'सर्वसमिका', 'quadratic': 'द्विघात',
+    'simplification': 'सरलीकरण', 'simultaneous': 'रैखिक तंत्र', 'ratio-proportion': 'अनुपात-समानुपात',
+    'divisibility': 'विभाज्यता', 'mensuration-3d': 'क्षेत्रमिति 3D', 'quadrilaterals': 'चतुर्भुज',
+    'average': 'औसत', 'hcf-lcm': 'HCF-LCM', 'surds': 'करणी', 'trig-ratio': 'त्रिकोणमितीय अनुपात',
+    'remainder': 'शेषफल', 'mixture': 'मिश्रण', 'angles': 'कोण', 'circles': 'वृत्त',
+    'triangles': 'त्रिभुज', 'mensuration-2d': 'क्षेत्रमिति 2D', 'tph': 'समय-कार्य (TPH)',
+    'height-distance': 'ऊँचाई-दूरी', 'probability': 'प्रायिकता', 'percentage': 'प्रतिशत',
+    'ages': 'आयु', 'base-conversion': 'आधार-रूपांतरण', 'profit-loss': 'लाभ-हानि',
+    'time-work': 'समय-कार्य', 'factor-sum': 'गुणनखंड योग', 'trailing-zeros': 'ट्रेलिंग जीरो',
+    'partnership': 'साझेदारी'
+};
+/* पुराने chapter नाम → canonical chapter (FULL bank से align) */
+const PYQ_CANON_TOPIC = {
+    'शेषफल': 'संख्या पद्धति', 'ब्याज': 'साधारण ब्याज', 'अनुपात': 'अनुपात-समानुपात',
+    'साझेदारी': 'अनुपात-समानुपात', 'ऊँचाई-दूरी': 'त्रिकोणमिति', 'क्षेत्रमिति': 'क्षेत्रमिति 2D',
+    'घड़ी': 'समय-चाल-दूरी', 'मिश्रण': 'मिश्रण-एलीगेशन', 'समय-दूरी': 'समय-चाल-दूरी'
+};
+function pyqChapter(topic) { return PYQ_CANON_TOPIC[topic] || topic || 'विविध'; }
+/* FULL बैंक के एक record को card-रूप में: [id, exam, dateInt, shiftIdx, chIdx, subIdx, conIdx, stem, A..D, ansIdx, ansText] */
+function fullRowToPyq(r) {
+    const ch = PYQ_FULL_META.chapters ? PYQ_FULL_META.chapters[r[4]] : null;
+    const sub = ch && ch.subs && ch.subs[r[5]] ? ch.subs[r[5]] : null;
+    const con = sub && sub.concepts && sub.concepts[r[6]] ? sub.concepts[r[6]][0] : 'सामान्य';
+    const opts = [r[8], r[9], r[10], r[11]].filter(o => o !== undefined && o !== null && o !== '');
+    const ansIdx = r[12];
+    const dInt = r[2];
+    const date = dInt ? String(dInt).replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3') : '';
+    return {
+        id: r[0], question: r[7], options: opts,
+        answer: ansIdx >= 0 && ansIdx < opts.length ? opts[ansIdx] : (r[13] || ''),
+        answerLetter: ansIdx >= 0 ? 'abcd'[ansIdx] : '',
+        solution: [], shortcut: '', trap: '',
+        exam: PYQ_FULL_META.exams ? PYQ_FULL_META.exams[r[1]] : '',
+        year: date ? date.slice(0, 4) : '', date, shift: PYQ_FULL_META.shifts ? PYQ_FULL_META.shifts[r[3]] : '',
+        topic: ch ? ch.name : 'विविध', chapter: ch ? ch.name : 'विविध', concept: con,
+        sub: sub ? sub.sub : '', difficulty: '', lang: 'en', src: 'full'
+    };
+}
 const PYQ_ALL = PYQ_BANK.map(q => Object.assign({}, q, {
     year: String(q.year || ''), lang: q.lang || 'hi', src: 'curated', optLetters: null, answerLetter: ''
 })).concat(
@@ -133,8 +173,15 @@ const PYQ_ALL = PYQ_BANK.map(q => Object.assign({}, q, {
         year: String(q.year || ''), lang: q.lang || 'hi', src: 'featured', optLetters: null, answerLetter: ''
     })),
     (typeof PYQ_BANK_LEGACY !== 'undefined' ? PYQ_BANK_LEGACY : []).map(q => legacyPyqToFull(q, 'legacy')),
-    (typeof PYQ_BANK_PDF !== 'undefined' ? PYQ_BANK_PDF : []).map(q => legacyPyqToFull(q, 'pdf'))
-);
+    (typeof PYQ_BANK_PDF !== 'undefined' ? PYQ_BANK_PDF : []).map(q => legacyPyqToFull(q, 'pdf')),
+    (typeof PYQ_FULL !== 'undefined' ? PYQ_FULL : []).map(fullRowToPyq)
+).map(q => {
+    if (!q.chapter) q.chapter = pyqChapter(q.topic);
+    if (!q.concept) q.concept = q.pattern ? (PYQ_PATTERN_HI[q.pattern] || q.pattern) : '';
+    if (!q.date) q.date = '';
+    if (!q.shift) q.shift = '';
+    return q;
+});
 
 const PATTERNS_ALL = PATTERNS.map(p => Object.assign({}, p, { src: 'curated' })).concat(
     (typeof PATTERNS_LEGACY !== 'undefined' ? PATTERNS_LEGACY : []).map(p => Object.assign({}, p, { src: 'legacy' }))
@@ -169,7 +216,7 @@ function setTheme(t) {
 
 /* ================= नेविगेशन (साइडबार + टॉपबार) ================= */
 const SECTION_LABELS = {
-    dashboard: '📊 डैशबोर्ड', challenge: '🔥 90-दिन चैलेंज', learn: '📚 सीखें',
+    dashboard: '📊 डैशबोर्ड', challenge: '🔥 60-दिन चैलेंज', learn: '📚 सीखें',
     formulas: '📖 फॉर्मूला बुक', calculation: '🧮 कैलकुलेशन बूस्टर', 'fast-tricks': '⚡ फास्ट ट्रिक्स',
     daily: '📅 डेली प्रैक्टिस', quiz: '🎮 क्विज़', pyq: '🗂️ PYQ बैंक', 'pyq-analysis': '📊 PYQ एनालिसिस',
     flashcards: '🃏 फ्लैशकार्ड',
@@ -363,7 +410,7 @@ function hindiGreeting() {
     return '🌙 शुभ रात्रि';
 }
 const DASH_QUOTES = [
-    'प्रतिदिन छोटी-छोटी progress = 90 दिन बाद बड़ा परिणाम।',
+    'प्रतिदिन छोटी-छोटी progress = 60 दिन बाद बड़ा परिणाम।',
     'स्पीड तभी आती है जब नींव पक्की हो — आज भी कैलकुलेशन ड्रिल मत छोड़ें।',
     'गलती दर्ज नहीं की तो गलती दोहराई जाएगी।',
     'Formula रटना नहीं, समझना — exam hall में समझ ही काम आती है।',
@@ -1157,21 +1204,68 @@ function finishDaily() {
 }
 
 /* ================= PYQ बैंक ================= */
-let pyqFilters = { exam: 'all', topic: 'all', difficulty: 'all', lang: 'all', search: '' };
+let pyqFilters = { exam: 'all', chapter: 'all', concept: 'all', topic: 'all', year: 'all', shift: 'all', difficulty: 'all', lang: 'all', search: '' };
 let pyqShown = 40;
 const PYQ_PAGE = 40;
 
+/* chapter → concepts map (FULL meta + पुराने बैंक के pattern labels) */
+function pyqChapterConcepts(chapter) {
+    const counts = {};
+    PYQ_ALL.forEach(q => {
+        if (q.chapter !== chapter || !q.concept) return;
+        counts[q.concept] = (counts[q.concept] || 0) + 1;
+    });
+    return Object.entries(counts).sort((a, b) => b[1] - a[1]);
+}
+
+function pyqPopulateConcepts(chapter, preset) {
+    const sel = document.getElementById('pyq-concept-filter');
+    if (!sel) return;
+    sel.innerHTML = '<option value="all">सभी concepts</option>';
+    if (chapter === 'all') {
+        const counts = {};
+        PYQ_ALL.forEach(q => { if (q.concept) counts[q.concept] = (counts[q.concept] || 0) + 1; });
+        Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 200)
+            .forEach(([l, c]) => sel.innerHTML += `<option value="${esc(l)}">${esc(l)} (${c})</option>`);
+    } else {
+        pyqChapterConcepts(chapter).forEach(([l, c]) => sel.innerHTML += `<option value="${esc(l)}">${esc(l)} (${c})</option>`);
+    }
+    sel.value = preset || 'all';
+}
+
 function initPyq() {
     const exams = [...new Set(PYQ_ALL.map(q => q.exam).filter(Boolean))].sort();
-    const topics = [...new Set(PYQ_ALL.map(q => q.topic).filter(Boolean))].sort();
+    const chapters = [...new Set(PYQ_ALL.map(q => q.chapter).filter(Boolean))].sort();
+    const years = [...new Set(PYQ_ALL.map(q => q.year).filter(Boolean))].sort((a, b) => b - a);
+    const shifts = [...new Set(PYQ_ALL.map(q => q.shift).filter(Boolean))].sort();
     document.getElementById('pyq-exam-filter').innerHTML += exams.map(e => `<option value="${e}">${e}</option>`).join('');
-    document.getElementById('pyq-topic-filter').innerHTML += topics.map(t => `<option value="${t}">${t}</option>`).join('');
-    ['pyq-exam-filter', 'pyq-topic-filter', 'pyq-difficulty-filter', 'pyq-lang-filter'].forEach(id => {
-        document.getElementById(id).addEventListener('change', e => {
+    document.getElementById('pyq-topic-filter').innerHTML += chapters.map(t => `<option value="${t}">${t}</option>`).join('');
+    const yrSel = document.getElementById('pyq-year-filter');
+    if (yrSel) yrSel.innerHTML += years.map(y => `<option value="${y}">${y}</option>`).join('');
+    const shSel = document.getElementById('pyq-shift-filter');
+    if (shSel) shSel.innerHTML += shifts.map(x => `<option value="${x}">Shift ${x}</option>`).join('');
+    pyqPopulateConcepts('all', 'all');
+    ['pyq-exam-filter', 'pyq-year-filter', 'pyq-shift-filter', 'pyq-difficulty-filter', 'pyq-lang-filter'].forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.addEventListener('change', e => {
             pyqFilters[id.replace('pyq-', '').replace('-filter', '')] = e.target.value;
             pyqShown = PYQ_PAGE;
             renderPyq();
         });
+    });
+    document.getElementById('pyq-topic-filter').addEventListener('change', e => {
+        pyqFilters.chapter = e.target.value;
+        pyqPopulateConcepts(e.target.value, 'all');
+        pyqFilters.concept = 'all';
+        pyqShown = PYQ_PAGE;
+        renderPyq();
+    });
+    const conSel = document.getElementById('pyq-concept-filter');
+    if (conSel) conSel.addEventListener('change', e => {
+        pyqFilters.concept = e.target.value;
+        pyqShown = PYQ_PAGE;
+        renderPyq();
     });
     document.getElementById('pyq-search').addEventListener('input', e => {
         pyqFilters.search = e.target.value.trim().toLowerCase();
@@ -1184,11 +1278,15 @@ function initPyq() {
 function pyqFiltered() {
     return PYQ_ALL.filter(q => {
         if (pyqFilters.exam !== 'all' && q.exam !== pyqFilters.exam) return false;
-        if (pyqFilters.topic !== 'all' && q.topic !== pyqFilters.topic) return false;
+        if (pyqFilters.chapter !== 'all' && q.chapter !== pyqFilters.chapter) return false;
+        if (pyqFilters.concept !== 'all' && (q.concept || '') !== pyqFilters.concept) return false;
+        if (pyqFilters.topic !== 'all' && q.topic !== pyqFilters.topic && q.chapter !== pyqFilters.topic) return false;
+        if (pyqFilters.year !== 'all' && q.year !== pyqFilters.year) return false;
+        if (pyqFilters.shift !== 'all' && q.shift !== pyqFilters.shift) return false;
         if (pyqFilters.difficulty !== 'all' && q.difficulty !== pyqFilters.difficulty) return false;
         if (pyqFilters.lang === 'hi' && q.lang === 'en') return false;
         if (pyqFilters.lang === 'en' && q.lang !== 'en') return false;
-        if (pyqFilters.search && !(q.question + ' ' + q.topic + ' ' + q.exam).toLowerCase().includes(pyqFilters.search)) return false;
+        if (pyqFilters.search && !(q.question + ' ' + q.topic + ' ' + q.exam + ' ' + (q.concept || '')).toLowerCase().includes(pyqFilters.search)) return false;
         return true;
     });
 }
@@ -1196,7 +1294,15 @@ function pyqFiltered() {
 function renderPyq() {
     const list = pyqFiltered();
     const hi = list.filter(q => q.lang !== 'en').length;
-    document.getElementById('pyq-count').innerHTML = 'कुल <b>' + list.length + '</b> प्रश्न मिले (🇮🇳 ' + hi + ' हिंदी + ' + (list.length - hi) + ' English)';
+    const answered = list.filter(q => q.answer).length;
+    let scope = '';
+    if (pyqFilters.chapter !== 'all') scope += ' 📚 ' + pyqFilters.chapter;
+    if (pyqFilters.concept !== 'all') scope += ' → 🔖 ' + pyqFilters.concept;
+    if (pyqFilters.exam !== 'all') scope += ' • 🏛️ ' + pyqFilters.exam;
+    if (pyqFilters.year !== 'all') scope += ' • 📅 ' + pyqFilters.year;
+    if (pyqFilters.shift !== 'all') scope += ' • Shift ' + pyqFilters.shift;
+    document.getElementById('pyq-count').innerHTML = 'कुल <b>' + list.length.toLocaleString('en-IN') + '</b> प्रश्न मिले' + esc(scope) +
+        ' <span class="muted">— ✔ उत्तर सहित ' + answered.toLocaleString('en-IN') + ' · 🇮🇳 ' + hi + ' हिंदी + ' + (list.length - hi).toLocaleString('en-IN') + ' English</span>';
     document.getElementById('pyq-detail').style.display = 'none';
     const wrap = document.getElementById('pyq-list');
     wrap.style.display = 'grid';
@@ -1221,16 +1327,17 @@ function pyqCard(q) {
     const opts = q.options.map((o, i) => (letters[i] || 'abcd'[i]) + ') ' + esc(o)).join('  ');
     const badge = q.lang === 'en' ? '<span class="lang-badge en">EN</span>' : '<span class="lang-badge hi">हिं</span>';
     const srcBadge = q.src === 'featured' ? '<span class="src-badge">⭐ चर्चित</span>' : '';
-    const yr = q.year ? ' ' + q.year : '';
+    const metaLine = [q.exam, q.date || (q.year ? q.year : ''), q.shift ? 'Shift ' + q.shift : '', q.difficulty].filter(Boolean).join(' • ');
+    const conChip = q.concept ? `<button class="pyq-concept" onclick="event.stopPropagation();openPyqConcept('${esc(q.chapter).replace(/'/g, "\'")}','${esc(q.concept).replace(/'/g, "\'")}')" title="इस concept के सभी प्रश्न">🔖 ${esc(q.concept)}</button>` : '';
     return `
         <div class="pyq-item" onclick="togglePyqSolution('${q.id}')" role="button" tabindex="0">
             <div class="pyq-header">
-                <span class="pyq-topic">${q.topic}</span>
-                <span class="pyq-exam">${badge}${srcBadge}${esc(q.exam)}${yr} • ${q.difficulty}</span>
+                <span class="pyq-topic">${esc(q.chapter || q.topic)}</span>${conChip}
             </div>
             <div class="pyq-question">${esc(q.question)}</div>
             <div class="pyq-options">${opts}</div>
-            <span class="pyq-sol-toggle" id="pyq-toggle-${q.id}">💡 हल देखें (क्लिक करें)</span>
+            <div class="pyq-foot"><small class="pyq-meta">${badge}${srcBadge}${esc(metaLine)}</small>
+            <span class="pyq-sol-toggle" id="pyq-toggle-${q.id}">💡 हल देखें (क्लिक करें)</span></div>
             <div class="pyq-solution" id="pyq-sol-${q.id}">${pyqSolutionHtml(q)}</div>
         </div>`;
 }
@@ -1245,14 +1352,16 @@ function pyqSolutionHtml(q) {
         if (q.trap) html += `<div class="pyq-trap-warn">⚠️ ट्रैप: ${esc(q.trap)}</div>`;
         return html;
     }
-    // लेगेसी प्रश्न — उत्तर-पत्र (answer key) शैली
+    // लेगेसी/FULL प्रश्न — उत्तर-पत्र (answer key) शैली
     let ansLine;
-    if (q.answer) ansLine = '✔ सही उत्तर: (' + q.answerLetter + ') ' + esc(q.answer);
-    else if (q.answerLetter) ansLine = '✔ सही उत्तर: विकल्प (' + q.answerLetter + ')';
-    else ansLine = '✔ उत्तर उपलब्ध नहीं';
+    if (q.answer && q.answerLetter) ansLine = '✔ सही उत्तर: (' + q.answerLetter + ') ' + esc(q.answer);
+    else if (q.answer) ansLine = '✔ सही उत्तर: ' + esc(q.answer);
+    else ansLine = 'ℹ️ इस paper की आधिकारिक answer-key में उत्तर उपलब्ध नहीं — खुद हल करके जाँचें';
+    const metaLine = [q.exam, q.date || q.year, q.shift ? 'Shift ' + q.shift : ''].filter(Boolean).join(' • ');
     return `<div style="font-weight:800; color:var(--success);">${ansLine}</div>
-        <div style="margin-top:.4rem; font-size:.85rem; color:var(--text-muted);">🏷️ ${esc(q.topic)}${q.exam ? ' • ' + esc(q.exam) : ''}${q.year ? ' ' + q.year : ''}</div>
-        <div class="en-note">📝 विस्तृत हल जल्द आ रहा है — तब तक विकल्पों से पीछे की ओर हल करने का अभ्यास करें!</div>`;
+        <div style="margin-top:.4rem; font-size:.85rem; color:var(--text-muted);">🏷️ ${esc(q.chapter || q.topic)}${q.concept ? ' → 🔖 ' + esc(q.concept) : ''}</div>
+        <div style="font-size:.78rem; color:var(--text-muted);">📄 ${esc(metaLine)}</div>
+        <div class="en-note">💡 टिप: पहले खुद solve करें, फिर उत्तर से मिलाएँ। गलत हो तो concept पेज से tricks दोहराएँ।</div>`;
 }
 
 function togglePyqSolution(id) {
@@ -1543,7 +1652,7 @@ function openExamDetail(id) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-/* ================= 90-दिन प्लान ================= */
+/* ================= 60-दिन प्लान ================= */
 function initPlan() {
     const tabs = document.getElementById('plan-tabs');
     tabs.innerHTML = `
@@ -1621,11 +1730,11 @@ function updateProfile() {
 
 /* चैलेंज/वर्कआउट से जुड़ी अतिरिक्त उपलब्धियाँ */
 const CH_ACHIEVEMENTS = [
-    { id: 'ch-1', icon: '🚀', name: 'शुभारंभ', desc: '90-दिन चैलेंज शुरू करें', check: s => s.challengeDone >= 1 },
+    { id: 'ch-1', icon: '🚀', name: 'शुभारंभ', desc: '60-दिन चैलेंज शुरू करें', check: s => s.challengeDone >= 1 },
     { id: 'ch-7', icon: '🔥', name: 'हफ्ते का सिपाही', desc: 'चैलेंज के 7 दिन पूरे', check: s => s.challengeDone >= 7 },
     { id: 'ch-30', icon: '⚔️', name: '30-दिन योद्धा', desc: 'चैलेंज के 30 दिन पूरे', check: s => s.challengeDone >= 30 },
     { id: 'ch-60', icon: '🛡️', name: '60-दिन वीर', desc: 'चैलेंज के 60 दिन पूरे', check: s => s.challengeDone >= 60 },
-    { id: 'ch-90', icon: '👑', name: 'गणित चैंपियन', desc: '90 दिन पूरे — महा-उपलब्धि!', check: s => s.challengeDone >= 90 },
+    { id: 'ch-60', icon: '👑', name: 'गणित चैंपियन', desc: '60 दिन पूरे — महा-उपलब्धि!', check: s => s.challengeDone >= 60 },
     { id: 'wo-1', icon: '🧮', name: 'पहला वर्कआउट', desc: 'पहला कैलकुलेशन वर्कआउट पूरा', check: s => s.workoutDays >= 1 },
     { id: 'wo-10', icon: '💪', name: 'कड़िया मेहनत', desc: '10 दिन के वर्कआउट', check: s => s.workoutDays >= 10 },
     { id: 'drill-5', icon: '🎯', name: 'पाँच-ड्रिल मास्टर', desc: '5 अलग ड्रिल में लक्ष्य पूरा', check: s => s.drillsMastered >= 5 },
@@ -1960,11 +2069,11 @@ function renderMastery() {
             </div>`;
     }
     document.getElementById('mastery-pills').innerHTML = M.topics.map((t, i) =>
-        `<button class="pill${i === 0 ? ' active' : ''}" data-mastery="${t.id}" onclick="openMasteryTopic('${t.id}')">${t.icon} ${t.name}</button>`).join('');
-    openMasteryTopic(M.topics[0].id);
+        `<button class="pill${i === 0 ? ' active' : ''}" data-mastery="${t.id}" onclick="openRoadmapTopic('${t.id}')">${t.icon} ${t.name}</button>`).join('');
+    openRoadmapTopic(M.topics[0].id);
 }
 
-function openMasteryTopic(id) {
+function openRoadmapTopic(id) {
     const t = MASTERY_ALL.topics.find(x => x.id === id);
     if (!t) return;
     document.querySelectorAll('#mastery-pills .pill').forEach(p =>
@@ -2088,8 +2197,9 @@ function timerBeep() {
     } catch (e) { /* ऑडियो नहीं चला तो कोई बात नहीं */ }
 }
 
-/* ================= 🔥 90-दिन चैलेंज इंजन ================= */
-const CHALLENGE_90_DATA = (typeof CHALLENGE_90 !== 'undefined') ? CHALLENGE_90 : [];
+/* ================= 🔥 60-दिन चैलेंज इंजन ================= */
+const CHALLENGE_90_DATA = (typeof CHALLENGE_60 !== 'undefined') ? CHALLENGE_60 : ((typeof CHALLENGE_90 !== 'undefined') ? CHALLENGE_90 : []);
+const CHALLENGE_TOTAL_DAYS = CHALLENGE_90_DATA.length || 60;
 const CH_MILESTONES_DATA = (typeof CH_MILESTONES !== 'undefined') ? CH_MILESTONES : [];
 let chViewDay = null;  // चैलेंज सेक्शन में चुना हुआ दिन (null = आज का दिन)
 
@@ -2097,20 +2207,26 @@ function challengeCurrentDay() {
     if (!state.challenge.start) return null;
     const start = new Date(state.challenge.start + 'T00:00:00');
     const diff = Math.floor((new Date(todayKey() + 'T00:00:00') - start) / 86400000);
-    return Math.min(Math.max(diff + 1, 1), 90);
+    return Math.min(Math.max(diff + 1, 1), CHALLENGE_TOTAL_DAYS);
 }
 function challengeDoneCount() { return Object.keys(state.challenge.done).filter(k => state.challenge.done[k]).length; }
-function challengeProgressPct() { return Math.round(challengeDoneCount() / 90 * 100); }
+function challengeProgressPct() { return Math.round(challengeDoneCount() / CHALLENGE_TOTAL_DAYS * 100); }
 function challengeDayDate(d) {
     const start = new Date(state.challenge.start + 'T00:00:00');
     start.setDate(start.getDate() + d - 1);
     return start.getDate() + '/' + (start.getMonth() + 1);
 }
 function challengePhaseOf(day) {
-    const groups = [ [1, 28, ['🟢', 'नींव व अंकगणित कोर']], [29, 56, ['🟡', 'PYQ अभियान + मेंसुरेशन + बीजगणित']],
-        [57, 84, ['🟠', 'एडवांस्ड — ज्यामिति त्रिग आँकड़े']], [85, 90, ['👑', 'फाइनल मोड']] ];
-    const g = groups.find(x => day >= x[0] && day <= x[1]);
-    return g ? g[2] : ['', ''];
+    if (typeof CHALLENGE_PHASES !== 'undefined') {
+        for (const ph of CHALLENGE_PHASES) {
+            const mm = String(ph.days).match(/(\d+)\D+(\d+)/);
+            if (mm && day >= +mm[1] && day <= +mm[2]) {
+                const icon = (ph.name.match(/^[^ ]+/) || [''])[0];
+                return [icon, ph.name.replace(/^[^ ]+\s*/, '')];
+            }
+        }
+    }
+    return ['', ''];
 }
 
 function renderChallengeMini() {
@@ -2120,8 +2236,8 @@ function renderChallengeMini() {
     const info = document.getElementById('hero-ch-info');
     if (!state.challenge.start) {
         ring.style.background = 'conic-gradient(var(--primary) 0%, var(--track) 0%)';
-        ring.innerHTML = '<div class="ring-core"><b>0</b><span>/90</span></div>';
-        info.innerHTML = '<b>90-दिन गणित चैलेंज</b><span>पूरा syllabus, दिन-वाइज़ टाइमटेबल के साथ — आज Day 1 बनाइए!</span>';
+        ring.innerHTML = '<div class="ring-core"><b>0</b><span>/' + CHALLENGE_TOTAL_DAYS + '</span></div>';
+        info.innerHTML = '<b>60-दिन गणित चैलेंज</b><span>पूरा syllabus, दिन-वाइज़ टाइमटेबल के साथ — आज Day 1 बनाइए!</span>';
         btn.innerHTML = '🚀 चैलेंज शुरू करें';
         btn.onclick = () => { openSection('challenge'); };
         return;
@@ -2132,9 +2248,9 @@ function renderChallengeMini() {
     ring.style.background = 'conic-gradient(var(--primary) ' + pct + '%, var(--track) ' + pct + '%)';
     ring.innerHTML = '<div class="ring-core"><b>' + pct + '%</b><span>पूरा</span></div>';
     const behind = Math.max(0, cd - 1 - done);
-    info.innerHTML = '<b>दिन ' + cd + '/90</b> • ' + done + ' दिन पूरे' +
+    info.innerHTML = '<b>दिन ' + cd + '/' + CHALLENGE_TOTAL_DAYS + '</b> • ' + done + ' दिन पूरे' +
         (behind > 0 ? '<span class="warn">⚠️ ' + behind + ' दिन पीछे — आज पकड़ लें!</span>' : '<span>⭐ शानदार रफ्तार है!</span>');
-    if (cd >= 90 && done >= 90) {
+    if (cd >= CHALLENGE_TOTAL_DAYS && done >= CHALLENGE_TOTAL_DAYS) {
         btn.innerHTML = '🏆 चैंपियन रिपोर्ट देखें';
     } else if (state.challenge.done[cd]) {
         btn.innerHTML = '✅ आज का दिन पूरा — फिर भी देखें';
@@ -2171,19 +2287,19 @@ function renderChallenge() {
     if (!state.challenge.start) {
         wrap.innerHTML = `<div class="ch-start card">
             <div class="ch-start-emoji">🏔️</div>
-            <h3>90-दिन गणित चैलेंज — पूरा syllabus, एक मिशन</h3>
-            <p>SSC व Railway गणित का <b>पूरा sillebus</b> 13 सप्ताह में: हर दिन <b>क्या पढ़ना है, क्या रिवाइज़ करना है, क्या प्रैक्टिस करना है</b> — सब तय। हर सप्ताह रिवीज़न + टेस्ट। हर दिन पूरा करने पर XP, मील-स्टोन बैज और streak।</p>
+            <h3>60-दिन गणित चैलेंज — पूरा syllabus, एक मिशन</h3>
+            <p>SSC व Railway गणित का <b>पूरा syllabus</b> 9 सप्ताह में: हर दिन <b>क्या पढ़ना है, कभ रिवाइज़ करना है (1-3-7 नियम), क्या प्रैक्टिस करना है</b> — सब तय। हर सप्ताह रिवीज़न + टेस्ट। हर दिन concept → tricks → असली PYQ (exam/year/shift के साथ) → traps पक्के।</p>
             <div class="ch-start-grid">
-                <div><b>90</b><span>दिन की journey</span></div>
-                <div><b>13</b><span>सप्ताह की संरचना</span></div>
-                <div><b>64</b><span>सीखने के दिन</span></div>
-                <div><b>25+</b><span>रिवीज़न/टेस्ट दिन</span></div>
+                <div><b>60</b><span>दिन की journey</span></div>
+                <div><b>9</b><span>सप्ताह की संरचना</span></div>
+                <div><b>40</b><span>सीखने के दिन (31 topics)</span></div>
+                <div><b>20</b><span>रिवीज़न/टेस्ट/मॉक दिन</span></div>
             </div>
             <ul class="ch-start-rules">
                 <li>📅 हर दिन 2-3 घंटे — चेकलिस्ट सच बोलेगी</li>
                 <li>🧮 रोज़ की कैलकुलेशन ड्रिल चैलेंज में शामिल</li>
-                <li>🔄 शनिवार रिवीज़न, रविवार टेस्ट — लय नहीं टूटेगी</li>
-                <li>🏆 90 दिन पूरे = 'गणित चैंपियन' सम्मान</li>
+                <li>🔄 शनिवार रिवीज़न, रविवार टेस्ट — और हर दिन कल + दिन-3 + दिन-7 का दोहराव</li>
+                <li>🏆 60 दिन पूरे = 'गणित चैंपियन' सम्मान</li>
             </ul>
             <button class="btn btn-primary btn-lg" onclick="startChallenge()">🚀 आज से Day 1 शुरू करें</button>
             <small class="muted">शुरुआत आज की तारीख से गिनी जाएगी; progress आपके नाम के साथ सुरक्षित रहेगी।</small>
@@ -2192,7 +2308,7 @@ function renderChallenge() {
     }
 
     const cd = challengeCurrentDay();
-    const viewDay = (chViewDay && chViewDay >= 1 && chViewDay <= 90) ? chViewDay : cd;
+    const viewDay = (chViewDay && chViewDay >= 1 && chViewDay <= CHALLENGE_TOTAL_DAYS) ? chViewDay : cd;
     const day = CHALLENGE_90_DATA[viewDay - 1];
     const done = challengeDoneCount();
     const pct = challengeProgressPct();
@@ -2206,7 +2322,7 @@ function renderChallenge() {
     let html = `<div class="ch-hero card">
         <div class="ch-hero-left">
             <div class="ch-hero-title">${phase[0]} ${CH_MILESTONES_DATA.length ? esc(challengePhaseOf(viewDay)[1]) : ''}</div>
-            <div class="ch-hero-big">दिन <b>${cd}</b><span>/90</span></div>
+            <div class="ch-hero-big">दिन <b>${cd}</b><span>/${CHALLENGE_TOTAL_DAYS}</span></div>
             <div class="ch-hero-sub">${state.challenge.start} से शुरू • ${done} दिन पूरे • ${pct}% सम्पन्न</div>
             <div class="ch-progress-bar"><span style="width:${pct}%"></span></div>
             <div class="ch-hero-btns">
@@ -2246,7 +2362,7 @@ function renderChallenge() {
     html += `<div class="ch-day card ${isDone ? 'is-done' : ''}">
         <div class="ch-day-head">
             <div>
-                <div class="ch-day-type">${typeLabel[day.type]} • दिन ${day.d}/90 ${viewDay !== cd ? `<button class="ch-today-btn" onclick="chSelectDay(${cd})">⤳ आज के दिन पर जाएँ (दिन ${cd})</button>` : ''}</div>
+                <div class="ch-day-type">${typeLabel[day.type]} • दिन ${day.d}/${CHALLENGE_TOTAL_DAYS} ${viewDay !== cd ? `<button class="ch-today-btn" onclick="chSelectDay(${cd})">⤳ आज के दिन पर जाएँ (दिन ${cd})</button>` : ''}</div>
                 <h3>${esc(day.title)}</h3>
                 <p class="muted">${esc(day.sub)} • ⏱️ अनुमानित समय: ${day.mins} मिनट ${state.challenge.start ? '• 📅 ' + challengeDayDate(day.d) : ''}</p>
             </div>
@@ -2272,9 +2388,10 @@ function renderChallenge() {
     }).join('') + '</div></div>';
 
     // पूरा टाइमटेबल (सप्ताहवार, मुड़ने वाला)
-    let table = '<div class="ch-full"><h4>🗓️ पूरा 90-दिन टाइमटेबल</h4>';
-    for (let wNo = 1; wNo <= 13; wNo++) {
+    let table = '<div class="ch-full"><h4>🗓️ पूरा 60-दिन टाइमटेबल</h4>';
+    for (let wNo = 1; wNo <= 9; wNo++) {
         const weekDays = CHALLENGE_90_DATA.filter(dz => dz.wk === wNo);
+        if (!weekDays.length) continue;
         const wDone = weekDays.filter(dz => state.challenge.done[dz.d]).length;
         const open = weekDays.some(dz => dz.d === viewDay);
         table += `<details class="ch-week" ${open ? 'open' : ''}>
@@ -2323,6 +2440,7 @@ function chActionBtn(go) {
     const map = {
         chapter: [`openChapter('${go[1]}')`, '📖 खोलें'],
         pyq: [`openPyqTopic('${go[1]}')`, '🗂️ PYQ'],
+        mastery: [`openMasteryTopic('${go[1]}');openSection('learn')`, '📚 Learn'],
         quiz: [`startPresetQuiz(${go[1]})`, '🎮 शुरू'],
         daily: [`openSection('daily')`, '📅 खोलें'],
         flash: [`openSection('flashcards')`, '🃏 खोलें'],
@@ -2340,23 +2458,63 @@ function chActionBtn(go) {
 
 function openPyqTopic(topic) {
     openSection('pyq');
+    pyqResetFilters();
+    const canon = pyqChapter(topic);
     const sel = document.getElementById('pyq-topic-filter');
     let found = false;
     if (sel) {
-        for (const opt of sel.options) { if (opt.value === topic) { found = true; break; } }
-        sel.value = found ? topic : 'all';
+        for (const opt of sel.options) { if (opt.value === canon) { found = true; break; } }
+        sel.value = found ? canon : 'all';
+        sel.dispatchEvent(new Event('change'));
     }
-    pyqFilters.topic = found ? topic : 'all';
+    pyqFilters.chapter = found ? canon : 'all';
+    if (found) { pyqPopulateConcepts(canon, 'all'); pyqFilters.concept = 'all'; }
     if (!found) {
         const search = document.getElementById('pyq-search');
         if (search) { search.value = topic; pyqFilters.search = topic.toLowerCase(); }
-    } else {
-        const search = document.getElementById('pyq-search');
-        if (search) search.value = '';
-        pyqFilters.search = '';
     }
     pyqShown = PYQ_PAGE;
     renderPyq();
+}
+
+/* Learn/Concept पेज से: किसी concept (या sub-topic) के PYQ सीधे खोलें */
+function openPyqConcept(chapter, concept) {
+    openSection('pyq');
+    pyqResetFilters();
+    const canon = pyqChapter(chapter);
+    const sel = document.getElementById('pyq-topic-filter');
+    let found = false;
+    if (sel) {
+        for (const opt of sel.options) { if (opt.value === canon) { found = true; break; } }
+        sel.value = found ? canon : 'all';
+    }
+    pyqFilters.chapter = found ? canon : 'all';
+    pyqPopulateConcepts(pyqFilters.chapter, concept);
+    const conSel = document.getElementById('pyq-concept-filter');
+    let conFound = false;
+    if (conSel) {
+        for (const opt of conSel.options) { if (opt.value === concept) { conFound = true; break; } }
+        conSel.value = conFound ? concept : 'all';
+    }
+    pyqFilters.concept = conFound ? concept : 'all';
+    if (!conFound && concept) {
+        const search = document.getElementById('pyq-search');
+        if (search) { search.value = concept; pyqFilters.search = concept.toLowerCase(); }
+    }
+    pyqShown = PYQ_PAGE;
+    renderPyq();
+}
+
+function pyqResetFilters() {
+    pyqFilters = { exam: 'all', chapter: 'all', concept: 'all', topic: 'all', year: 'all', shift: 'all', difficulty: 'all', lang: 'all', search: '' };
+    ['pyq-exam-filter', 'pyq-year-filter', 'pyq-shift-filter', 'pyq-difficulty-filter', 'pyq-lang-filter'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.value = 'all';
+    });
+    const tsel = document.getElementById('pyq-topic-filter');
+    if (tsel) tsel.value = 'all';
+    const search = document.getElementById('pyq-search');
+    if (search) search.value = '';
 }
 
 function startPresetQuiz(count) {
@@ -2445,7 +2603,7 @@ function renderWorkoutStatus() {
     }
     el.innerHTML = rec
         ? `<div class="wo-done">✅ आज का वर्कआउट पूरा: <b>${rec.score}/${rec.total}</b> • ${rec.sec} सेकंड</div>${bars}<button class="btn btn-primary" onclick="startCalcWorkout()">🔁 फिर से वर्कआउट</button>`
-        : `<p class="muted">आज का वर्कआउट बाकी है — 15 मिश्रित सवाल, टाइमर के साथ। हर दिन 3 मिनट = 90 दिन में कैलकुलेटर-स्पीड!</p>${bars}
+        : `<p class="muted">आज का वर्कआउट बाकी है — 15 मिश्रित सवाल, टाइमर के साथ। हर दिन 3 मिनट = 60 दिन में कैलकुलेटर-स्पीड!</p>${bars}
            <button class="btn btn-primary btn-lg" onclick="startCalcWorkout()">▶ आज का वर्कआउट शुरू करें</button>`;
 }
 

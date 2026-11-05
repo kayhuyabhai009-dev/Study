@@ -5,7 +5,7 @@
    1) 🔬 सरकारी एक्ज़ाम रिसर्च प्लेटफ़ॉर्म (research/ फोल्डर)
       — sub-tabs + iframe; iframe के अंदर research platform अपनी
         chrome छिपाकर (embedded mode) सिर्फ content दिखाती है।
-   2) 📊 PYQ एनालिसिस — 10,000+ प्रश्नों का topic → concept
+   2) 📊 PYQ एनालिसिस — 37,000+ प्रश्नों का topic → concept
       विश्लेषण (js/data-pyq-analysis.js के aggregates से instant render)
    ============================================================ */
 
@@ -24,7 +24,7 @@ const RESEARCH_PAGES = [
     { file: 'mistakes.html', label: 'मिस्टेक्स', icon: '⚠️' },
     { file: 'cis.html', label: 'CIS एक्सप्लोरर', icon: '⭐' },
     { file: 'tracker.html', label: 'मास्टरी ट्रैकर', icon: '✅' },
-    { file: 'calendar.html', label: '90-दिन कैलेंडर', icon: '📅' },
+    { file: 'calendar.html', label: '60-दिन कैलेंडर', icon: '📅' },
     { file: 'methodology.html', label: 'मेथडोलॉजी', icon: 'ℹ️' }
 ];
 
@@ -137,7 +137,7 @@ function paFmt(n) { return Number(n || 0).toLocaleString('en-IN'); }
 
 /* ================= Learn + Challenge सेक्शन में research bridge ================= */
 /* "किस concept से किस topic से प्रश्न आते हैं" — सीधे Learn सेक्शन में।
-   डेटा: PYQ_ANALYSIS (इस website के 10,124 प्रश्न) + research tagged records। */
+   डेटा: PYQ_ANALYSIS (इस website के 37,061 प्रश्न) + research tagged records। */
 function renderLearnResearchBridge() {
     const el = document.getElementById('learn-research-bridge');
     if (!el || typeof PYQ_ANALYSIS === 'undefined') return;
@@ -157,7 +157,7 @@ function renderLearnResearchBridge() {
         <div class="lr-bridge-head">
             <div>
                 <h3>🔬 कॉन्सेप्ट-वाइज़ विश्लेषण — किस concept से कितने प्रश्न आते हैं</h3>
-                <p class="muted">हर टॉपिक के concept(पैटर्न)-वार प्रश्न-गणना। "विश्लेषण" = इस website के 10,124 प्रश्न, "रिसर्च" = 42,634 टैग्ड रिकॉर्ड (1,687 पेपर) के concept-tags।</p>
+                <p class="muted">हर टॉपिक के concept(पैटर्न)-वार प्रश्न-गणना। "विश्लेषण" = इस website के 37,061 प्रश्न, "रिसर्च" = 42,634 टैग्ड रिकॉर्ड (1,687 पेपर) के concept-tags।</p>
             </div>
             <div class="lr-bridge-links">
                 <button onclick="openResearchPage('learn.html')">🎓 कॉन्सेप्ट-वाइज़ लर्न</button>
