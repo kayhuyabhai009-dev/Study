@@ -43,7 +43,7 @@ const NAV = [
   { label: "Mistake Analytics", href: "mistakes.html", icon: "alert" },
   { label: "CIS Explorer", href: "cis.html", icon: "star" },
   { label: "Mastery Tracker", href: "tracker.html", icon: "check" },
-  { label: "90-Day Challenge", href: "calendar.html", icon: "calendar" },
+  { label: "60-Day Challenge", href: "calendar.html", icon: "calendar" },
   { label: "Methodology", href: "methodology.html", icon: "info" },
 ];
 function currentPage() {

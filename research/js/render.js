@@ -54,8 +54,8 @@ async function renderHome() {
     baseNote("Shares are of dated certain records in the Nov 2 snapshot (base " + fmt(ySum) + "). Raw counts rise with collection coverage — compare shares, not counts.") + '</div>' +
     '<div class="card reveal in"><h3>Start here</h3>' +
     '<p><strong>Day 1 — Number System</strong> (1,821 records · L1 → L2 · LOW speed set). ' +
-    'Open the <a href="calendar.html">90-day challenge</a> and check off Day 1 when done.</p>' +
-    '<p>Your progress so far: <strong>' + daysDone + ' / 90</strong> challenge days done · <strong>' + l3 +
+    'Open the <a href="calendar.html">60-day challenge</a> and check off Day 1 when done.</p>' +
+    '<p>Your progress so far: <strong>' + daysDone + ' / 60</strong> challenge days done · <strong>' + l3 +
     '</strong> topics at L3 or above · <strong>' + countMarks() + '</strong> library marks saved · <strong>🔥 ' +
     getStreak().count + '</strong> day streak · <strong>⚡ ' + fmt(getXP()) + '</strong> XP.</p>' +
     '<p><a href="library.html">Browse the ' + fmt(livePapers) + '-paper library →</a> · ' +

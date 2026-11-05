@@ -66,12 +66,12 @@ function renderTrackerSummary() {
   el.innerHTML = '<div class="grid grid-4">' +
     '<div class="card"><div class="stat-num">' + l3 + ' / ' + PRIORITY.length + '</div><div class="stat-label">Topics at L3 or above</div></div>' +
     '<div class="card"><div class="stat-num">' + avg + '</div><div class="stat-label">Average mastery level</div></div>' +
-    '<div class="card"><div class="stat-num">' + days + ' / 90</div><div class="stat-label">Challenge days done</div></div>' +
+    '<div class="card"><div class="stat-num">' + days + ' / 60</div><div class="stat-label">Challenge days done</div></div>' +
     '<div class="card"><div class="stat-num">' + countMarks() + '</div><div class="stat-label">Library marks saved</div></div></div>';
 }
-/* v3.0 90-day challenge: days 1–30 fold in the original 30-day calendar;
-   31–90 are revision passes, mocks and weak-topic repair. Progress (days,
-   XP, streak) lives in the browser only. Milestones at 15/30/45/60/75/90. */
+/* v3.1 60-day challenge: days 1–30 fold in the original 30-day calendar;
+   31–60 are revision passes, mocks and weak-topic repair. Progress (days,
+   XP, streak) lives in the browser only. Milestones at 15/30/40/48/56/60. */
 function shortTopic(t) {
   return t.replace(" (dobara)", "").replace("Mixed mock — ", "Mock ").replace("Mixed (sab topics)", "Mixed");
 }
@@ -87,12 +87,12 @@ async function initCalendar() {
     const prog = document.getElementById("calProgress");
     if (prog) prog.innerHTML =
       '<div class="grid grid-4">' +
-      '<div class="card"><div class="stat-num">Day ' + cur.day + '</div><div class="stat-label">Current day · Goal: 90 din, poora syllabus</div></div>' +
+      '<div class="card"><div class="stat-num">Day ' + cur.day + '</div><div class="stat-label">Current day · Goal: 60 din, poora syllabus</div></div>' +
       '<div class="card"><div class="stat-num">⚡ ' + fmt(getXP()) + '</div><div class="stat-label">XP earned</div></div>' +
       '<div class="card"><div class="stat-num">' + countSolvedMarks() + '</div><div class="stat-label">Questions marked solved</div></div>' +
       '<div class="card"><div class="stat-num">🔥 ' + st.count + '</div><div class="stat-label">Streak (din)</div></div></div>' +
-      '<div style="margin-top:14px"><div class="bar-track"><div class="bar-fill" style="width:' + (100 * doneN / 90) + '%"></div></div>' +
-      '<p class="small">' + doneN + ' / 90 days done · ' + (90 - doneN) + ' baaki</p></div>';
+      '<div style="margin-top:14px"><div class="bar-track"><div class="bar-fill" style="width:' + (100 * doneN / 60) + '%"></div></div>' +
+      '<p class="small">' + doneN + ' / 60 days done · ' + (60 - doneN) + ' baaki</p></div>';
     const topicLink = cur.topic.replace(" (dobara)", "");
     const libHref = (cur.phase === "Mocks" || cur.phase === "Final repair")
       ? "library.html" : "library.html?topic=" + encodeURIComponent(topicLink);

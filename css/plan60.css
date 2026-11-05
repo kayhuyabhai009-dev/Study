@@ -1,0 +1,106 @@
+/* ============================================================
+   गणित गुरु — 60-दिन मास्टरी पाथ additions (Learn tabs, day grid,
+   day detail, PYQ concept chips + meta)
+   ============================================================ */
+
+/* ---------- Learn tabs ---------- */
+.learn-tabs { display: flex; gap: .5rem; flex-wrap: wrap; margin: .6rem 0 .8rem; }
+.lt-tab {
+    border: 1px solid var(--border-light, #e2e2ea); background: var(--card-bg, #fff);
+    border-radius: 999px; padding: .45rem 1.1rem; font-weight: 700; cursor: pointer;
+    font-family: inherit; font-size: .92rem; color: var(--text-muted, #666);
+    transition: transform .12s ease, box-shadow .12s ease;
+}
+.lt-tab.on { background: var(--primary, #7c3aed); color: #fff; border-color: transparent; box-shadow: 0 4px 14px rgba(124,58,237,.25); }
+.lt-tab:hover { transform: translateY(-1px); }
+
+/* ---------- Day 1-60 grid ---------- */
+.learn-days { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+.ld-week { padding: .9rem 1rem 1.1rem; }
+.ld-week-head { display: flex; justify-content: space-between; gap: .6rem; align-items: baseline; flex-wrap: wrap; margin-bottom: .6rem; }
+.ld-week-head b { font-size: 1rem; }
+.ld-week-head .muted { font-size: .8rem; }
+.ld-grid { display: grid; gap: .5rem; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+.ld-day {
+    text-align: left; border: 1px solid var(--border-light, #e2e2ea); border-radius: 12px;
+    background: var(--card-bg, #fff); padding: .55rem .6rem; cursor: pointer; display: grid; gap: .15rem;
+    font-family: inherit; transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
+}
+.ld-day:hover { transform: translateY(-2px); border-color: var(--primary, #7c3aed); box-shadow: 0 6px 16px rgba(0,0,0,.06); }
+.ld-day .ld-d { font-size: .72rem; font-weight: 800; color: var(--primary, #7c3aed); letter-spacing: .02em; }
+.ld-day .ld-icon { font-size: 1rem; }
+.ld-day .ld-title { font-size: .8rem; font-weight: 600; line-height: 1.25; min-height: 2.1em; }
+.ld-day .ld-chips { font-size: .68rem; color: var(--text-muted, #888); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ld-day.lt-learn { --tint: rgba(124,58,237,.10); }
+.ld-day.lt-revise { --tint: rgba(2,132,199,.12); }
+.ld-day.lt-test { --tint: rgba(217,119,6,.13); }
+.ld-day.lt-mock { --tint: rgba(225,29,72,.12); }
+.ld-day { background: linear-gradient(180deg, var(--tint, transparent), transparent 70%); }
+.ld-day.done { border-color: var(--success, #16a34a); opacity: .82; }
+.ld-day.done .ld-d { color: var(--success, #16a34a); }
+.ld-day.today { outline: 2px solid var(--primary, #7c3aed); outline-offset: 1px; }
+.ld-day.open { border-color: var(--primary, #7c3aed); box-shadow: 0 0 0 3px rgba(124,58,237,.15); }
+
+/* ---------- day detail ---------- */
+.ld-detail .ld-bread { display: flex; align-items: center; gap: .8rem; margin-bottom: .4rem; }
+.ld-back { border: 1px solid var(--border-light, #e2e2ea); background: transparent; border-radius: 8px; padding: .3rem .7rem; cursor: pointer; font-weight: 700; font-family: inherit; }
+.ld-topics { display: grid; gap: .5rem; margin: .6rem 0 1rem; }
+.ld-topics h4 { margin: 0 0 .2rem; }
+.ld-topic {
+    display: flex; justify-content: space-between; align-items: center; gap: .8rem;
+    border: 1.5px solid var(--border-light, #e2e2ea); border-radius: 12px; padding: .65rem .9rem;
+    background: var(--card-bg, #fff); cursor: pointer; text-align: left; font-family: inherit;
+    transition: border-color .12s ease, transform .12s ease;
+}
+.ld-topic:hover { border-color: var(--primary, #7c3aed); transform: translateX(3px); }
+.ld-topic b { display: block; font-size: .98rem; }
+.ld-topic .muted { font-size: .76rem; }
+.ld-topic-go { color: var(--primary, #7c3aed); font-weight: 800; white-space: nowrap; font-size: .85rem; }
+.ld-task { padding: .32rem 0; border-bottom: 1px dashed var(--border-light, #eee); font-size: .88rem; }
+.ld-task:last-child { border-bottom: 0; }
+.ld-task.rev { color: var(--text-muted, #666); }
+
+/* ---------- concept → PYQ strip ---------- */
+.m-concept-pyq {
+    display: flex; gap: .6rem; align-items: center; flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(225,29,72,.06), rgba(124,58,237,.06));
+    border: 1px dashed var(--border-light, #ddd); border-radius: 10px; padding: .45rem .7rem; margin: .35rem 0;
+}
+.m-cf-pyq {
+    background: linear-gradient(135deg, #be123c, #7c3aed); color: #fff; border: 0; border-radius: 8px;
+    padding: .38rem .8rem; font-weight: 800; cursor: pointer; font-family: inherit; font-size: .84rem;
+    box-shadow: 0 3px 10px rgba(190,18,60,.25); transition: transform .12s ease, box-shadow .12s ease;
+}
+.m-cf-pyq:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(190,18,60,.3); }
+.btn-hot { background: linear-gradient(135deg, #be123c, #7c3aed); color: #fff; border: 0; font-weight: 800; }
+.btn-hot:hover { filter: brightness(1.05); }
+
+/* ---------- sub-topic PYQ mini button ---------- */
+.m-sub-pyq {
+    margin-left: .5rem; border: 1px solid var(--border-light, #ddd); background: var(--error-soft, #fff1f2);
+    color: #be123c; border-radius: 999px; padding: .1rem .55rem; font-size: .72rem; font-weight: 800; cursor: pointer;
+}
+.m-sub-pyq:hover { background: #be123c; color: #fff; }
+.m-tag { position: relative; }
+.m-tag-pyq { font-style: normal; font-size: .62rem; color: #be123c; margin-left: .2rem; font-weight: 800; }
+.m-diff.pyqfull { background: #fff1f2; color: #be123c; border: 1px solid #fecdd3; }
+
+/* ---------- PYQ card meta + concept chip ---------- */
+.pyq-foot { display: flex; justify-content: space-between; align-items: center; gap: .6rem; flex-wrap: wrap; margin-top: .35rem; }
+.pyq-meta { color: var(--text-muted, #777); font-size: .72rem; font-weight: 600; letter-spacing: .01em; }
+.pyq-concept {
+    border: 1px solid #c7d2fe; background: #eef2ff; color: #4338ca; border-radius: 999px;
+    padding: .1rem .6rem; font-size: .7rem; font-weight: 800; cursor: pointer; font-family: inherit;
+    max-width: 46ch; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.pyq-concept:hover { background: #4338ca; color: #fff; }
+[data-theme="dark"] .pyq-concept { background: #1e1b4b; border-color: #4338ca; color: #a5b4fc; }
+.pyq-reset { align-self: center; }
+.pyq-filters { display: flex; gap: .45rem; flex-wrap: wrap; align-items: stretch; }
+.pyq-filters .filter-select { flex: 0 1 auto; min-width: 9rem; }
+.pyq-filters input#pyq-search { flex: 1 1 14rem; }
+
+@media (max-width: 640px) {
+    .ld-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+    .pyq-filters .filter-select { min-width: 7.4rem; flex: 1 1 7.4rem; }
+}
