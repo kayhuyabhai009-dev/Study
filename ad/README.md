@@ -2,6 +2,12 @@
 
 **"भटकना बंद. Day 1 शुरू."** — SSC/Railway aspirants के लिए cinematic motion-graphics ad.
 
+## 🎥 VIDEO FILE (ready to publish)
+
+**`ad/study-ad-30s.mp4`** — 1080×1920 · 30fps · 31.3s · H.264+AAC (~31MB)
+Full sound design inside: female Hindi VO + synth SFX (drone/riser/boom/heartbeat/sparkle/pad).
+Seedha Reels / YT Shorts / WhatsApp Status pe upload karo. Renderer: `tools/render_ad.py` (Pillow+HarfBuzz+FreeType offline frame render → ffmpeg).
+
 ## ▶️ Kaise chalayein
 
 1. Repo root mein server chalao: `python3 -m http.server 8000`
